@@ -1,4 +1,71 @@
-<h1>Welcome!</h1>
-
-There isn't much here yet, we're still in the process of transitioning stuff
-over to github. Feel free to send us pull requests.
+---
+layout: default
+---
+<div class="main-entry">
+	<div class="main-entry-title">
+		<img alt="" class="main-entry-image" src="/assets/images/bullet.gif">
+		About
+	</div>
+	<div class="main-entry-contents">
+		<p>InspIRCd is a modular Internet Relay Chat (IRC) server written in C++ for Linux, BSD, Windows and Mac OS X systems which was created from scratch to be stable, modern and lightweight.</p>
+		<p>As InspIRCd is one of the few IRC servers written from scratch, it avoids a number of design flaws and performance issues that plague other more established projects, such as UnrealIRCd, while providing the same level of feature parity.</p>
+		<p>InspIRCd is one of only a few IRC servers to provide a tunable number of features through the use of an advanced but well documented module system. By keeping core functionality to a minimum we hope to increase the stability, security and speed of InspIRCd while also making it customisable to the needs of many different users.</p>
+		<p>InspIRCd was designed primarily for use on the <a href="http://www.chatspike.net/">ChatSpike IRC Network</a> but has been released under version 2 of the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License</a> so that the IRC community as a whole can benefit from our work.</p>
+		<p>If you have any questions about InspIRCd then you can contact our development team by visiting the <a href="irc://irc.chatspike.net/inspircd">#InspIRCd channel on ChatSpike</a>.</p>
+		<p>To begin, take a tool at our <a href="https://github.com/inspircd/wiki/wiki/Installation">installation guide</a> followed by our <a href="https://github.com/inspircd/wiki/wiki/Configuration">configuration guide</a>.
+	</div>
+</div>
+<div class="main-entry">
+	<div class="main-entry-title">
+		<img alt="" class="main-entry-image" src="/assets/images/bullet.gif">
+		News
+		<a href="/atom.xml"><img alt="Atom Feed" class="main-entry-image main-entry-image-right" src="/assets/images/feed.png"></a>
+	</div>
+	<div class="main-entry-contents">
+		{% for post in paginator.posts %}
+			<article class="article">
+				<div class="article-author">
+					<img alt="Post" class="main-entry-image main-entry-image-right" src="/assets/images/post.gif">
+					Posted by: {{ post.author }}
+					<br>
+					Posted on: {{ post.date | date_to_long_string }}
+				</div>
+				<div class="article-contents">
+					<header class="article-head">
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</header>
+					<section class="article-body">
+						{{ post.content }}
+					</section>
+				</div
+			</article>
+			{% if forloop.last %}
+				<div class="main-entry-pagination">
+					<div style="float:left;">
+						&laquo;
+						{% if paginator.previous_page %}
+							{% if paginator.previous_page == 1 %}
+					    		<a href="/">Previous</a>
+					    	{% else %}
+					    		<a href="/page{{ paginator.previous_page }}">Previous</a>
+					    	{% endif %}
+						{% else %}
+							Previous
+						{% endif %}
+					</div>
+					<div style="float:right;">
+						{% if paginator.next_page %}
+							<a href="/page{{ paginator.next_page }}">Next</a>
+						{% else %}
+							Next
+						{% endif %}
+						&raquo;
+					</div>
+					<div style="text-align:center;">Page {{ paginator.page }} of {{ paginator.total_pages }}
+				</div>
+			{% else %}
+				<div class="main-entry-seperator"></div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>
