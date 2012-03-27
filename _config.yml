@@ -1,0 +1,26 @@
+exclude: [ 'LICENSE.txt', 'Rakefile' ]
+markdown: rdiscount
+paginate: 5
+permalink: /:year/:month/:day/:title.html
+pygments: true
+
+info:
+    title: Inspire IRCd
+    slogan: The Stable, High-Performance and Modular IRCd
+    uri: http://inspircd.github.com/
+
+meta:
+    description: Inspire Internet Relay Chat Daemon is a modular, high performance IRC daemon combining stability with optional features such as SSL, permanent channels and a rich and extensive C++ API.
+    keywords: inspircd, ircd, internet relay chat
+
+navigation:
+    - title: Home
+      uri: /
+    - title: Downloads
+      uri: https://github.com/inspircd/inspircd/downloads
+    - title: Wiki
+      uri: https://github.com/inspircd/wiki/wiki
+    - title: Issue Tracker
+      uri: https://github.com/inspircd/inspircd/issues
+    - title: Git
+      uri: https://github.com/inspircd
