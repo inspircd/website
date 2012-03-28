@@ -1,0 +1,10 @@
+# www.humanstxt.org
+
+/* TEAM */
+  InspIRCd Development Team
+  Site: http://inspircd.github.com/
+
+/* SITE */
+  Standards: HTML 5, CSS 3
+  Components: Modernizr (http://www.modernizr.com/), normalize.css (http://necolas.github.com/normalize.css/) 
+  Software: Jekyll (http://jekyllrb.com/)

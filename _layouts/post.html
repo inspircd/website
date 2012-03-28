@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="main-entry">
+	<div class="main-entry-title">
+		<img alt="" class="main-entry-image" src="/assets/images/bullet.gif">
+		News
+		<a href="/atom.xml"><img alt="Atom Feed" class="main-entry-image main-entry-image-right" src="/assets/images/feed.png"></a>
+	</div>
+	<div class="main-entry-contents">
+		<article class="article">
+			<div class="article-author">
+				<img alt="Post" class="main-entry-image main-entry-image-right" src="/assets/images/post.gif">
+				Posted by: {{ page.author }}
+				<br>
+				Posted on: {{ page.date | date_to_long_string }}
+			</div>
+			<div class="article-contents">
+				<header class="article-head">
+					<a href="{{ page.url }}">{{ page.title }}</a>
+				</header>
+				<section class="article-body">
+					{{ page.content | markdownify }}
+				</section>
+				</div
+		</article>
+	</div>
+</div>
