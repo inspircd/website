@@ -20,9 +20,9 @@ accept pull requests against the site itself, and our site master SaberUK will
 be happy to review them.
 
 As for releases, we are aware of a [CERT
-vulnerability](www.kb.cert.org/vuls/id/212651) against InspIRCd, and are working
-to address this. We have some changes in Git to help mitigate this attack, and
-are working with a few developers to make sure there are no more problems in
+vulnerability](http://www.kb.cert.org/vuls/id/212651) against InspIRCd, and are
+working to address this. We have some changes in Git to help mitigate this attack,
+and are working with a few developers to make sure there are no more problems in
 this area (again, help welcome). Until we are able to assure that there are no
 more problems, we will not be issuing a release - but obviously, we hope to push
 releases out as soon as possible.
