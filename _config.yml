@@ -10,7 +10,7 @@ info:
     uri: http://inspircd.github.com/
 
 meta:
-    description: Inspire Internet Relay Chat Daemon is a modular, high performance IRC daemon combining stability with optional features such as SSL, permanent channels and a rich and extensive C++ API.
+    description: Inspire Internet Relay Chat Daemon is a modular, high performance IRC daemon combining stability and a rich and extensive C++ API with optional features such as SSL and permanent channels.
     keywords: inspircd, ircd, internet relay chat
 
 navigation:
