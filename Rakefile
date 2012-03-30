@@ -23,7 +23,7 @@ def download(uri)
 	http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 	request = Net::HTTP::Get.new(uri.request_uri)
 	response = http.request(request)
-	return response.body
+	return response.code == 200 ? response.body : nil
 end
 
 def template(source, *variables)
@@ -63,17 +63,17 @@ task :update do
 	puts 'Updating third party resources..'
  	resources = {
 		'https://raw.github.com/necolas/normalize.css/master/normalize.css' => 'assets/stylesheets/normalize.css',
-		'http://www.modernizr.com/downloads/modernizr-latest.js' => 'assets/javascripts/modernizr.js'
+		'http://modernizr.com/downloads/modernizr-latest.js' => 'assets/javascripts/modernizr.js'
 	}.freeze
 	resources.each do |source, target|
 		source_contents = download(source)
 		target_contents = File.exist?(target) ? File.read(target) : nil.to_s
-		if source_contents != target_contents
+		if source_contents != nil && source_contents != target_contents
 			puts "Updated #{target}!"
 			File.open(target, 'w') do |file|
 				file.write(source_contents)
 			end
 		end
 	end
-	print 'Update complete.'
+	puts 'Update complete.'
 end
