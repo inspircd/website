@@ -33,7 +33,6 @@ p
 {
 	background-image: url('/assets/images/top-m.jpg');
 	height: 64px;
-	width: 100%;
 }
 
 #head-top-right
@@ -60,7 +59,6 @@ p
 	line-height: 22px;
 	padding: 0px;
 	text-align: center;
-	width: 100%;
 }
 
 #head-mid-right
@@ -83,7 +81,6 @@ p
 {
 	background-image: url('/assets/images/bot-m.jpg');
 	height: 25px;
-	width: 100%;
 }
 
 #head-bottom-right
