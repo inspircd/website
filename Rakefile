@@ -14,6 +14,27 @@ def ask(message)
 	return STDIN.gets.chomp
 end
 
+def compress(type, sources)
+	require 'yui/compressor'
+	compressor = case type
+	when :css
+		YUI::CssCompressor.new
+	when :js
+		YUI::JavaScriptCompressor.new
+	else
+		fail 'Invalid compression type.'
+	end
+	sources.each do |source|
+		destination = source.gsub('.', '.min.')
+		puts "Minifying #{source} to #{destination}.."
+		source_data = File.read(source)
+		min_source_data = compressor.compress(source_data)
+		File.open(destination, 'w') do |file|
+			file.write(min_source_data)
+		end
+	end
+end
+
 def download(uri)
 	require 'uri'
 	require 'net/https'
@@ -36,6 +57,17 @@ end
 # Tasks
 task :default do
 	print `rake --tasks`
+end
+
+desc 'Minify CSS/JavaScript resources (requires YUI Compressor)'
+task :minify do
+	compressed_files = Dir['assets/stylesheets/*.min.css'] + Dir['assets/javascripts/*.min.js']
+	compressed_files.each do |file|
+		puts "Deleting old file: #{file}"
+		File.delete(file)
+	end
+	compress(:css, Dir['assets/stylesheets/*.css'])
+	compress(:js, Dir['assets/javascripts/*.js'])
 end
 
 desc 'Create a new post template (requires Erubis)'
