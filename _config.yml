@@ -7,7 +7,7 @@ pygments: true
 info:
     title: Inspire IRCd
     slogan: The Stable, High-Performance and Modular IRCd
-    uri: http://inspircd.github.com/
+    uri: http://inspircd.github.com
 
 meta:
     description: Inspire Internet Relay Chat Daemon is a modular, high performance IRC daemon combining stability and a rich and extensive C++ API with optional features such as SSL and permanent channels.
