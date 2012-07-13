@@ -170,100 +170,100 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
 <div class="line"><a name="l00198"></a><span class="lineno"><a class="code" href="class_event_handler.html#a9578358998a3221402df5404ca2776d6">  198</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_event_handler.html#a9578358998a3221402df5404ca2776d6">~EventHandler</a>() {}</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> HandleEvent(EventType et, <span class="keywordtype">int</span> errornum = 0) = 0;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_socket_engine.html">SocketEngine</a>;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;};</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno"><a class="code" href="class_socket_engine.html">  230</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_socket_engine.html">SocketEngine</a></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;{</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00235"></a><span class="lineno"><a class="code" href="class_socket_engine.html#aad3193ccc82c03e8137b7b9804cdf23c">  235</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_socket_engine.html#aad3193ccc82c03e8137b7b9804cdf23c">CurrentSetSize</a>;</div>
-<div class="line"><a name="l00238"></a><span class="lineno"><a class="code" href="class_socket_engine.html#acf1622dbfe1c3a805598245b7c603e54">  238</a></span>&#160;        <a class="code" href="class_event_handler.html">EventHandler</a>** <a class="code" href="class_socket_engine.html#acf1622dbfe1c3a805598245b7c603e54">ref</a>;</div>
-<div class="line"><a name="l00241"></a><span class="lineno"><a class="code" href="class_socket_engine.html#a2ccd3c90668bd46e48d582be89291e2a">  241</a></span>&#160;        std::set&lt;int&gt; <a class="code" href="class_socket_engine.html#a2ccd3c90668bd46e48d582be89291e2a">trials</a>;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordtype">int</span> MAX_DESCRIPTORS;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> HandleEvent(EventType et, <span class="keywordtype">int</span> errornum = 0) = 0;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="class_socket_engine.html">SocketEngine</a>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;};</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno"><a class="code" href="class_socket_engine.html">  232</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_socket_engine.html">SocketEngine</a></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;{</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="code" href="class_socket_engine.html#aad3193ccc82c03e8137b7b9804cdf23c">  237</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_socket_engine.html#aad3193ccc82c03e8137b7b9804cdf23c">CurrentSetSize</a>;</div>
+<div class="line"><a name="l00240"></a><span class="lineno"><a class="code" href="class_socket_engine.html#acf1622dbfe1c3a805598245b7c603e54">  240</a></span>&#160;        <a class="code" href="class_event_handler.html">EventHandler</a>** <a class="code" href="class_socket_engine.html#acf1622dbfe1c3a805598245b7c603e54">ref</a>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="code" href="class_socket_engine.html#a2ccd3c90668bd46e48d582be89291e2a">  243</a></span>&#160;        std::set&lt;int&gt; <a class="code" href="class_socket_engine.html#a2ccd3c90668bd46e48d582be89291e2a">trials</a>;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordtype">size_t</span> indata;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordtype">size_t</span> outdata;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        time_t lastempty;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordtype">void</span> UpdateStats(<span class="keywordtype">size_t</span> len_in, <span class="keywordtype">size_t</span> len_out);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordtype">int</span> MAX_DESCRIPTORS;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keywordtype">size_t</span> indata;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordtype">size_t</span> outdata;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        time_t lastempty;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnSetEvent(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> old_mask, <span class="keywordtype">int</span> new_mask) = 0;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordtype">void</span> SetEventMask(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> TotalEvents;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ReadEvents;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> WriteEvents;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ErrorEvents;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <a class="code" href="class_socket_engine.html">SocketEngine</a>();</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_socket_engine.html">SocketEngine</a>();</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> AddFd(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> event_mask) = 0;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="keywordtype">void</span> ChangeEventMask(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> event_mask);</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
-<div class="line"><a name="l00301"></a><span class="lineno"><a class="code" href="class_socket_engine.html#a2020840e1109c4a40f4ea98b9050c794">  301</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_socket_engine.html#a2020840e1109c4a40f4ea98b9050c794">GetMaxFds</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MAX_DESCRIPTORS; }</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00306"></a><span class="lineno"><a class="code" href="class_socket_engine.html#af69dd98ad9d63023fcc4cdcd4ef52d01">  306</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_socket_engine.html#af69dd98ad9d63023fcc4cdcd4ef52d01">GetUsedFds</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CurrentSetSize; }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> DelFd(<a class="code" href="class_event_handler.html">EventHandler</a>* eh) = 0;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasFd(<span class="keywordtype">int</span> fd);</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_event_handler.html">EventHandler</a>* GetRef(<span class="keywordtype">int</span> fd);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> DispatchEvents() = 0;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> DispatchTrialWrites();</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keyword">virtual</span> std::string GetName() = 0;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> BoundsCheckFd(<a class="code" href="class_event_handler.html">EventHandler</a>* eh);</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <span class="keywordtype">int</span> Accept(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, sockaddr *addr, socklen_t *addrlen);</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <span class="keywordtype">int</span> Close(<a class="code" href="class_event_handler.html">EventHandler</a>* fd);</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="keywordtype">int</span> Close(<span class="keywordtype">int</span> fd);</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keywordtype">int</span> Send(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags);</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordtype">int</span> Recv(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordtype">void</span> UpdateStats(<span class="keywordtype">size_t</span> len_in, <span class="keywordtype">size_t</span> len_out);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnSetEvent(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> old_mask, <span class="keywordtype">int</span> new_mask) = 0;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordtype">void</span> SetEventMask(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> TotalEvents;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ReadEvents;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> WriteEvents;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ErrorEvents;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <a class="code" href="class_socket_engine.html">SocketEngine</a>();</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_socket_engine.html">SocketEngine</a>();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> AddFd(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> event_mask) = 0;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordtype">void</span> ChangeEventMask(<a class="code" href="class_event_handler.html">EventHandler</a>* eh, <span class="keywordtype">int</span> event_mask);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno"><a class="code" href="class_socket_engine.html#a2020840e1109c4a40f4ea98b9050c794">  303</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_socket_engine.html#a2020840e1109c4a40f4ea98b9050c794">GetMaxFds</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MAX_DESCRIPTORS; }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00308"></a><span class="lineno"><a class="code" href="class_socket_engine.html#af69dd98ad9d63023fcc4cdcd4ef52d01">  308</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">int</span> <a class="code" href="class_socket_engine.html#af69dd98ad9d63023fcc4cdcd4ef52d01">GetUsedFds</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CurrentSetSize; }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> DelFd(<a class="code" href="class_event_handler.html">EventHandler</a>* eh) = 0;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasFd(<span class="keywordtype">int</span> fd);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_event_handler.html">EventHandler</a>* GetRef(<span class="keywordtype">int</span> fd);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">int</span> DispatchEvents() = 0;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> DispatchTrialWrites();</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keyword">virtual</span> std::string GetName() = 0;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> BoundsCheckFd(<a class="code" href="class_event_handler.html">EventHandler</a>* eh);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        <span class="keywordtype">int</span> Accept(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, sockaddr *addr, socklen_t *addrlen);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        <span class="keywordtype">int</span> Close(<a class="code" href="class_event_handler.html">EventHandler</a>* fd);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <span class="keywordtype">int</span> Close(<span class="keywordtype">int</span> fd);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordtype">int</span> Send(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags);</div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keywordtype">int</span> RecvFrom(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags, sockaddr *from, socklen_t *fromlen);</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="keywordtype">int</span> SendTo(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags, <span class="keyword">const</span> sockaddr *to, socklen_t tolen);</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordtype">int</span> Connect(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keyword">const</span> sockaddr *serv_addr, socklen_t addrlen);</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <span class="keywordtype">int</span> Blocking(<span class="keywordtype">int</span> fd);</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <span class="keywordtype">int</span> NonBlocking(<span class="keywordtype">int</span> fd);</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordtype">int</span> Shutdown(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keywordtype">int</span> how);</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordtype">int</span> Shutdown(<span class="keywordtype">int</span> fd, <span class="keywordtype">int</span> how);</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <span class="keywordtype">int</span> Bind(<span class="keywordtype">int</span> fd, <span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; addr);</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="keywordtype">int</span> Listen(<span class="keywordtype">int</span> sockfd, <span class="keywordtype">int</span> backlog);</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="keywordtype">void</span> SetReuse(<span class="keywordtype">int</span> sockfd);</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> RecoverFromFork();</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <span class="keywordtype">void</span> GetStats(<span class="keywordtype">float</span> &amp;kbitpersec_in, <span class="keywordtype">float</span> &amp;kbitpersec_out, <span class="keywordtype">float</span> &amp;kbitpersec_total);</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;};</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;<a class="code" href="class_socket_engine.html">SocketEngine</a>* CreateSocketEngine();</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="keywordtype">int</span> Recv(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags);</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <span class="keywordtype">int</span> RecvFrom(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags, sockaddr *from, socklen_t *fromlen);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <span class="keywordtype">int</span> SendTo(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keyword">const</span> <span class="keywordtype">void</span> *buf, <span class="keywordtype">size_t</span> len, <span class="keywordtype">int</span> flags, <span class="keyword">const</span> sockaddr *to, socklen_t tolen);</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        <span class="keywordtype">int</span> Connect(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keyword">const</span> sockaddr *serv_addr, socklen_t addrlen);</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        <span class="keywordtype">int</span> Blocking(<span class="keywordtype">int</span> fd);</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="keywordtype">int</span> NonBlocking(<span class="keywordtype">int</span> fd);</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <span class="keywordtype">int</span> Shutdown(<a class="code" href="class_event_handler.html">EventHandler</a>* fd, <span class="keywordtype">int</span> how);</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <span class="keywordtype">int</span> Shutdown(<span class="keywordtype">int</span> fd, <span class="keywordtype">int</span> how);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordtype">int</span> Bind(<span class="keywordtype">int</span> fd, <span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; addr);</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <span class="keywordtype">int</span> Listen(<span class="keywordtype">int</span> sockfd, <span class="keywordtype">int</span> backlog);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        <span class="keywordtype">void</span> SetReuse(<span class="keywordtype">int</span> sockfd);</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> RecoverFromFork();</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;        <span class="keywordtype">void</span> GetStats(<span class="keywordtype">float</span> &amp;kbitpersec_in, <span class="keywordtype">float</span> &amp;kbitpersec_out, <span class="keywordtype">float</span> &amp;kbitpersec_total);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;};</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;<a class="code" href="class_socket_engine.html">SocketEngine</a>* CreateSocketEngine();</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;<span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

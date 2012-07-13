@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ulineonly',['ULineOnly',['../class_alias.html#aa274c70ea36cf09877a76d3591b00749',1,'Alias']]],
   ['ulines',['ulines',['../class_server_config.html#a063b619ac77d831be1a68e575a1cbd2b',1,'ServerConfig']]],
   ['undernetmsgprefix',['UndernetMsgPrefix',['../class_server_config.html#a7ec8f5f0790cc6ed14152e52fadb37a3',1,'ServerConfig']]],
   ['unregistered_5fcount',['unregistered_count',['../class_user_manager.html#a733d545ce55abebc48c1977f0b705cff',1,'UserManager']]],

@@ -205,7 +205,6 @@ Public Attributes</h2></td></tr>
 <p>Add a client to the system. This will create a new <a class="el" href="class_user.html">User</a>, insert it into the user_hash, initialize it as not yet registered, and add it to the socket engine. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Instance</td><td>a pointer to the server instance </td></tr>
     <tr><td class="paramname">socket</td><td>The socket id (file descriptor) this user is on </td></tr>
     <tr><td class="paramname">via</td><td>The socket that this user connected using </td></tr>
     <tr><td class="paramname">client</td><td>The IP address and client port of the user </td></tr>
@@ -349,8 +348,8 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td>The user to remove </td></tr>
-    <tr><td class="paramname">r</td><td>The quit reason to show to normal users </td></tr>
-    <tr><td class="paramname">oreason</td><td>The quit reason to show to opers </td></tr>
+    <tr><td class="paramname">quitreason</td><td>The quit reason to show to normal users </td></tr>
+    <tr><td class="paramname">operreason</td><td>The quit reason to show to opers </td></tr>
   </table>
   </dd>
 </dl>

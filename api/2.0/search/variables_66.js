@@ -8,10 +8,8 @@ var searchData=
   ['fixedquit',['FixedQuit',['../class_server_config.html#ae45ddd97fd6ab21eaf62b926ea4401e6',1,'ServerConfig']]],
   ['flags',['Flags',['../class_version.html#a9bf5196fb39e8d0864ae0015c207ee4f',1,'Version']]],
   ['flags_5fneeded',['flags_needed',['../class_command.html#abe571abbe8beb2414b0ca46c9bee8e9e',1,'Command']]],
-  ['flatlinks',['FlatLinks',['../class_spanning_tree_utilities.html#ad525a8a94f220964ce87eb9ab8a268c4',1,'SpanningTreeUtilities']]],
   ['floodquituser',['FloodQuitUser',['../class_insp_i_r_cd.html#a7337fbdfb0c5df460bca07df5bb9b917',1,'InspIRCd']]],
   ['forcedebug',['forcedebug',['../struct_command_line_conf.html#a04dc4b7e451331121abe646af8b70d7d',1,'CommandLineConf']]],
-  ['format',['format',['../class_alias.html#aff9160e8430a28ab7037262d2e2359c6',1,'Alias']]],
   ['fullhostintopic',['FullHostInTopic',['../class_server_config.html#a7412f6274dd42d284df391db1ca3a4c0',1,'ServerConfig']]],
   ['fullname',['fullname',['../class_user.html#aa37f981a564b92cb131a4e62e2bd53df',1,'User']]]
 ];

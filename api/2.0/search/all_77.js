@@ -1,15 +1,9 @@
 var searchData=
 [
   ['waitforqueue',['WaitForQueue',['../class_queued_thread.html#a8f1d0698abbe16c76c4451d6f9d884aa',1,'QueuedThread::WaitForQueue()'],['../class_socket_thread.html#adf51a81b3f1f952bd63060df47ce272c',1,'SocketThread::WaitForQueue()']]],
-  ['whois',['Whois',['../class_tree_socket.html#a1f84be74a4ede4e0293a645cbd85b0dc',1,'TreeSocket']]],
-  ['whoisnoticecmd',['WhoisNoticeCmd',['../class_whois_notice_cmd.html',1,'']]],
-  ['wholistsme',['wholistsme',['../classcallerid__data.html#a43379f921f3ecc96d1bda5761e6702eb',1,'callerid_data']]],
-  ['whowasgroup',['WhoWasGroup',['../class_who_was_group.html',1,'WhoWasGroup'],['../class_who_was_group.html#a8c9f85f59997df206097166c5cb93595',1,'WhoWasGroup::WhoWasGroup()']]],
   ['whowasgroupsize',['WhoWasGroupSize',['../class_server_config.html#a2854d388d544d99522f5c7c0f4b5999f',1,'ServerConfig']]],
-  ['whowasmaintaintimer',['WhoWasMaintainTimer',['../class_who_was_maintain_timer.html',1,'']]],
   ['whowasmaxgroups',['WhoWasMaxGroups',['../class_server_config.html#a05d7c7416d0c3809170bf473a14f9638',1,'ServerConfig']]],
   ['whowasmaxkeep',['WhoWasMaxKeep',['../class_server_config.html#abe4c7503aed1619fa0dd961b48d51f6f',1,'ServerConfig']]],
-  ['whowasrequest',['WhowasRequest',['../struct_whowas_request.html',1,'']]],
   ['wildcardipv6',['WildcardIPv6',['../class_server_config.html#a418b3a38fbca3f284043c82ac9f9008c',1,'ServerConfig']]],
   ['works_5fbefore_5freg',['works_before_reg',['../class_command.html#a6f985141126bdf496f7e56316a83d77c',1,'Command']]],
   ['worksbeforereg',['WorksBeforeReg',['../class_command.html#ae04548a2d5d007123c3033a2d6230bf9',1,'Command']]],
@@ -25,7 +19,6 @@ var searchData=
   ['writedata',['WriteData',['../class_stream_socket.html#a89d84e682d12d08bfe648302eae88941',1,'StreamSocket']]],
   ['writefrom',['WriteFrom',['../class_user.html#a51dbd8971acb541df15a28ccf50495f8',1,'User::WriteFrom(User *user, const std::string &amp;text)'],['../class_user.html#af2b5476e24724e094e55009da9ae79dd',1,'User::WriteFrom(User *user, const char *text,...) CUSTOM_PRINTF(3']]],
   ['writeglobalsno',['WriteGlobalSno',['../class_snomask_manager.html#a55b565eac86282b00e486c6c1dcb779d',1,'SnomaskManager::WriteGlobalSno(char letter, const std::string &amp;text)'],['../class_snomask_manager.html#acc9e5467fcfcc7f74885a9ba9d0e0acc',1,'SnomaskManager::WriteGlobalSno(char letter, const char *text,...) CUSTOM_PRINTF(3']]],
-  ['writeline',['WriteLine',['../class_tree_socket.html#ae0643afda39b42625119acda96d0a0cd',1,'TreeSocket']]],
   ['writelog',['writelog',['../struct_command_line_conf.html#a5018147e4546d439f550afa251e1b14c',1,'CommandLineConf']]],
   ['writelogline',['WriteLogLine',['../class_file_writer.html#a9ba96a8fae128060a014ce58f7ad495a',1,'FileWriter']]],
   ['writeops',['writeops',['../class_file_writer.html#a4dfdc060d5ffa76f37f6d3cefec0d5ec',1,'FileWriter']]],

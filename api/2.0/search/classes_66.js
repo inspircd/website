@@ -5,9 +5,6 @@ var searchData=
   ['filereader',['FileReader',['../class_file_reader.html',1,'']]],
   ['filewrapper',['FileWrapper',['../struct_file_wrapper.html',1,'']]],
   ['filewriter',['FileWriter',['../class_file_writer.html',1,'']]],
-  ['filterresult',['FilterResult',['../class_filter_result.html',1,'']]],
   ['floodquituserhandler',['FloodQuitUserHandler',['../class_flood_quit_user_handler.html',1,'']]],
-  ['floodsettings',['floodsettings',['../classfloodsettings.html',1,'']]],
-  ['founderprotectbase',['FounderProtectBase',['../class_founder_protect_base.html',1,'']]],
   ['fpos',['fpos',['../structfpos.html',1,'']]]
 ];

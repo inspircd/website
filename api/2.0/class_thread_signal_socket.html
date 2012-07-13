@@ -194,7 +194,8 @@ BufferedSocketError&#160;</td><td class="memItemRight" valign="bottom"><b>BeginC
 <p>Process an I/O event. You MUST implement this function in your derived class, and it will be called whenever read or write events are received. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">et</td><td>either one of EVENT_READ for read events, and EVENT_WRITE for write events. </td></tr>
+    <tr><td class="paramname">et</td><td>either one of EVENT_READ for read events, EVENT_WRITE for write events and EVENT_ERROR for error events. </td></tr>
+    <tr><td class="paramname">errornum</td><td>The error code which goes with an EVENT_ERROR. </td></tr>
   </table>
   </dd>
 </dl>

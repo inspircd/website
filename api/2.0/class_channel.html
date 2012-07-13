@@ -532,7 +532,7 @@ InviteList&#160;</td><td class="memItemRight" valign="bottom"><b>invites</b></td
 <p>Returns true if the user given is on the given channel. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">The</td><td>user to look for </td></tr>
+    <tr><td class="paramname">user</td><td>The user to look for </td></tr>
   </table>
   </dd>
 </dl>
@@ -782,7 +782,7 @@ InviteList&#160;</td><td class="memItemRight" valign="bottom"><b>invites</b></td
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">mode</td><td>The mode character to set or unset </td></tr>
-    <tr><td class="paramname">mode_on</td><td>True if you want to set the mode or false if you want to remove it </td></tr>
+    <tr><td class="paramname">value</td><td>True if you want to set the mode or false if you want to remove it </td></tr>
   </table>
   </dd>
 </dl>
@@ -980,7 +980,7 @@ InviteList&#160;</td><td class="memItemRight" valign="bottom"><b>invites</b></td
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td><a class="el" href="class_user.html">User</a> whos details to prefix the line with, and to omit from receipt of the message </td></tr>
-    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user of the user. </td></tr>
+    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user@host of the user. </td></tr>
     <tr><td class="paramname">status</td><td>The status of the users to write to, e.g. '@' or ''. Use a value of 0 to write to everyone </td></tr>
     <tr><td class="paramname">except_list</td><td>A list of users NOT to send the text to </td></tr>
     <tr><td class="paramname">text</td><td>A printf-style format string which builds the output line without prefix </td></tr>
@@ -1036,7 +1036,7 @@ InviteList&#160;</td><td class="memItemRight" valign="bottom"><b>invites</b></td
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td><a class="el" href="class_user.html">User</a> whos details to prefix the line with, and to omit from receipt of the message </td></tr>
-    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user of the user. </td></tr>
+    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user@host of the user. </td></tr>
     <tr><td class="paramname">status</td><td>The status of the users to write to, e.g. '@' or ''. Use a value of 0 to write to everyone </td></tr>
     <tr><td class="paramname">except_list</td><td>A list of users NOT to send the text to </td></tr>
     <tr><td class="paramname">text</td><td>A std::string containing the output line without prefix </td></tr>
@@ -1091,7 +1091,7 @@ InviteList&#160;</td><td class="memItemRight" valign="bottom"><b>invites</b></td
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td><a class="el" href="class_user.html">User</a> whos details to prefix the line with, and to omit from receipt of the message </td></tr>
-    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user of the user. </td></tr>
+    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user@host of the user. </td></tr>
     <tr><td class="paramname">status</td><td>The status of the users to write to, e.g. '@' or ''. Use a value of 0 to write to everyone </td></tr>
     <tr><td class="paramname">text</td><td>A printf-style format string which builds the output line without prefix </td></tr>
     <tr><td class="paramname">...</td><td>Zero or more POD type </td></tr>
@@ -1140,7 +1140,7 @@ InviteList&#160;</td><td class="memItemRight" valign="bottom"><b>invites</b></td
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td><a class="el" href="class_user.html">User</a> whos details to prefix the line with, and to omit from receipt of the message </td></tr>
-    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user of the user. </td></tr>
+    <tr><td class="paramname">serversource</td><td>If this parameter is true, use the local server name as the source of the text, otherwise, use the nick!user@host of the user. </td></tr>
     <tr><td class="paramname">status</td><td>The status of the users to write to, e.g. '@' or ''. Use a value of 0 to write to everyone </td></tr>
     <tr><td class="paramname">text</td><td>A std::string containing the output line without prefix </td></tr>
   </table>

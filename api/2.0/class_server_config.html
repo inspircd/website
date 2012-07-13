@@ -124,8 +124,8 @@ ConfigTagList&#160;</td><td class="memItemRight" valign="bottom"><b>ConfTags</b>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyModules</b> (<a class="el" href="class_user.html">User</a> *user)</td></tr>
 <tr class="memitem:a9ce326811f110ed8a17c21374dd3fa3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ce326811f110ed8a17c21374dd3fa3c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Fill</b> ()</td></tr>
-<tr class="memitem:a3d93dbbdc69377201d16203a49649538"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d93dbbdc69377201d16203a49649538"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>StartsWithWindowsDriveLetter</b> (const std::string &amp;path)</td></tr>
+<tr class="memitem:ad86e5c65e653117446b98b9cbeca6b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#ad86e5c65e653117446b98b9cbeca6b81">ProcessColors</a> (ConfigFileCache::iterator &amp;file)</td></tr>
+<tr class="memitem:a3d93dbbdc69377201d16203a49649538"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#a3d93dbbdc69377201d16203a49649538">StartsWithWindowsDriveLetter</a> (const std::string &amp;path)</td></tr>
 <tr class="memitem:a3d33ec31eef3413222f11e4ad0cf072d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d33ec31eef3413222f11e4ad0cf072d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>ApplyDisabledCommands</b> (const std::string &amp;data)</td></tr>
 </table><table class="memberdecls">
@@ -320,7 +320,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">tag</td><td>The name of the tag to get </td></tr>
-    <tr><td class="paramname">offset</td><td>get the Nth occurance of the tag </td></tr>
   </table>
   </dd>
 </dl>
@@ -375,6 +374,23 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
 
 </div>
 </div>
+<a class="anchor" id="ad86e5c65e653117446b98b9cbeca6b81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ServerConfig::ProcessColors </td>
+          <td>(</td>
+          <td class="paramtype">ConfigFileCache::iterator &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parses color codes from string values to actual color codes </p>
+
+</div>
+</div>
 <a class="anchor" id="a879a82d00463214b89be04be32a3e78d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -405,6 +421,23 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
       </table>
 </div><div class="memdoc">
 <p>Send the 005 numerics (ISUPPORT) to a user </p>
+
+</div>
+</div>
+<a class="anchor" id="a3d93dbbdc69377201d16203a49649538"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServerConfig::StartsWithWindowsDriveLetter </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the given string starts with a windows drive letter </p>
 
 </div>
 </div>
@@ -759,7 +792,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If set to true, the full nick!user will be shown in the TOPIC command for who set the topic last. If false, only the nick is shown. </p>
+<p>If set to true, the full nick!user@host will be shown in the TOPIC command for who set the topic last. If false, only the nick is shown. </p>
 
 </div>
 </div>

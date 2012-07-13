@@ -8,7 +8,7 @@ var searchData=
   ['unoper',['UnOper',['../class_user.html#a326d5c537946b4f6c28c659675d1ed43',1,'User']]],
   ['unregisteredusercount',['UnregisteredUserCount',['../class_user_manager.html#a14e940cc4e73f11e5d212eaed8510d94',1,'UserManager']]],
   ['unregisterfactory',['UnregisterFactory',['../class_x_line_manager.html#a37751435c7dabf7a475b75ce30de88e4',1,'XLineManager']]],
-  ['unserialize',['unserialize',['../class_extension_item.html#a44888eb4aaf8ca4df70f5c59a4d81c45',1,'ExtensionItem::unserialize()'],['../class_local_ext_item.html#acfc228277e795e7317c6d247e354d1ff',1,'LocalExtItem::unserialize()'],['../class_string_ext_item.html#afee5d9dc31424a48d021e07df269386d',1,'StringExtItem::unserialize()'],['../struct_caller_i_d_ext_info.html#a125e5a737258560691dced7d0784cb21',1,'CallerIDExtInfo::unserialize()'],['../class_s_s_l_cert_ext.html#a274fc01649bee38ea9951f25c979d949',1,'SSLCertExt::unserialize()']]],
+  ['unserialize',['unserialize',['../class_extension_item.html#a44888eb4aaf8ca4df70f5c59a4d81c45',1,'ExtensionItem::unserialize()'],['../class_local_ext_item.html#acfc228277e795e7317c6d247e354d1ff',1,'LocalExtItem::unserialize()'],['../class_string_ext_item.html#afee5d9dc31424a48d021e07df269386d',1,'StringExtItem::unserialize()']]],
   ['unset',['Unset',['../class_x_line.html#a4ab3803ff76b05f841ef142dd28883e9',1,'XLine::Unset()'],['../class_e_line.html#ac5262ed54ec68a3afd518f54dcc3593c',1,'ELine::Unset()']]],
   ['unset_5fraw',['unset_raw',['../class_extension_item.html#a8136325d9a43b63e4b1bf7b1a2c646b5',1,'ExtensionItem']]],
   ['update',['Update',['../struct_connect_class.html#a72db989863ca81b61c55462027891f26',1,'ConnectClass']]],

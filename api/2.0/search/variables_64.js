@@ -6,7 +6,7 @@ var searchData=
   ['defaultmodes',['DefaultModes',['../class_server_config.html#af55b847d1ef4329cf249fba6d3042754',1,'ServerConfig']]],
   ['description',['description',['../class_version.html#a9344d3cd11423957b9ecd193f851f8a3',1,'Version']]],
   ['dest',['dest',['../class_request.html#a734057f94a3f7627d1a92bf23a3e0f55',1,'Request']]],
-  ['dhost',['dhost',['../class_who_was_group.html#a63fd088fa7fbbd129ed2984f5df5e1b9',1,'WhoWasGroup::dhost()'],['../class_user.html#a8e572bdf54a71ea5b12365c4228c6731',1,'User::dhost()']]],
+  ['dhost',['dhost',['../class_user.html#a8e572bdf54a71ea5b12365c4228c6731',1,'User']]],
   ['diepass',['diepass',['../class_server_config.html#a7872883f352b3b6b726f8e218104079b',1,'ServerConfig']]],
   ['disabled',['disabled',['../class_command.html#a5659065003a9e4097fe755abe300154a',1,'Command']]],
   ['disabledcmodes',['DisabledCModes',['../class_server_config.html#a1f52bc2132d7c4962586d867cb731c2e',1,'ServerConfig']]],

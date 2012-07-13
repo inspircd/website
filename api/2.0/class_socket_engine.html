@@ -254,6 +254,8 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">addr</td><td>The client IP address and port </td></tr>
+    <tr><td class="paramname">addrlen</td><td>The size of the sockaddr parameter. </td></tr>
   </table>
   </dd>
 </dl>
@@ -491,6 +493,8 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">serv_addr</td><td>The server IP address and port. </td></tr>
+    <tr><td class="paramname">addrlen</td><td>The size of the sockaddr parameter. </td></tr>
   </table>
   </dd>
 </dl>
@@ -876,6 +880,9 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">buf</td><td>The buffer in which the data that is read is stored. </td></tr>
+    <tr><td class="paramname">len</td><td>The size of the buffer. </td></tr>
+    <tr><td class="paramname">flags</td><td>A flag value that controls the reception of the data. </td></tr>
   </table>
   </dd>
 </dl>
@@ -934,6 +941,11 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">buf</td><td>The buffer in which the data that is read is stored. </td></tr>
+    <tr><td class="paramname">len</td><td>The size of the buffer. </td></tr>
+    <tr><td class="paramname">flags</td><td>A flag value that controls the reception of the data. </td></tr>
+    <tr><td class="paramname">from</td><td>The remote IP address and port. </td></tr>
+    <tr><td class="paramname">fromlen</td><td>The size of the from parameter. </td></tr>
   </table>
   </dd>
 </dl>
@@ -980,6 +992,9 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">buf</td><td>The buffer in which the data that is sent is stored. </td></tr>
+    <tr><td class="paramname">len</td><td>The size of the buffer. </td></tr>
+    <tr><td class="paramname">flags</td><td>A flag value that controls the sending of the data. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1038,6 +1053,11 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">buf</td><td>The buffer in which the data that is sent is stored. </td></tr>
+    <tr><td class="paramname">len</td><td>The size of the buffer. </td></tr>
+    <tr><td class="paramname">flags</td><td>A flag value that controls the sending of the data. </td></tr>
+    <tr><td class="paramname">to</td><td>The remote IP address and port. </td></tr>
+    <tr><td class="paramname">tolen</td><td>The size of the to parameter. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1089,6 +1109,7 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
+    <tr><td class="paramname">how</td><td>What part of the socket to shut down </td></tr>
   </table>
   </dd>
 </dl>

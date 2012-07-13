@@ -137,12 +137,6 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Constructor </p>
-<dl class="params"><dt>Parameters:</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Instance</td><td>A pointer to the creator object </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -346,7 +340,7 @@ Protected Attributes</h2></td></tr>
 <p>Get all lines of a certain type to an XLineLookup (std::map&lt;std::string, XLine*&gt;). NOTE: When this function runs any expired items are removed from the list before it is returned to the caller. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">The</td><td>type to look up </td></tr>
+    <tr><td class="paramname">type</td><td>The type to look up </td></tr>
   </table>
   </dd>
 </dl>
@@ -449,6 +443,7 @@ Protected Attributes</h2></td></tr>
 <p>Handle /STATS for a given type. NOTE: Any items in the list for this particular line type which have expired will be expired and removed before the list is displayed. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
+    <tr><td class="paramname">type</td><td>The type of stats to show </td></tr>
     <tr><td class="paramname">numeric</td><td>The numeric to give to each result line </td></tr>
     <tr><td class="paramname">user</td><td>The username making the query </td></tr>
     <tr><td class="paramname">results</td><td>The string_list to receive the results </td></tr>

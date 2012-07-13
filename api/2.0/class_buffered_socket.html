@@ -99,12 +99,10 @@ Inheritance diagram for BufferedSocket:</div>
  <div class="center">
   <img src="class_buffered_socket.png" usemap="#BufferedSocket_map" alt=""/>
   <map id="BufferedSocket_map" name="BufferedSocket_map">
-<area href="class_stream_socket.html" alt="StreamSocket" shape="rect" coords="135,112,260,136"/>
-<area href="class_event_handler.html" alt="EventHandler" shape="rect" coords="135,56,260,80"/>
-<area href="classclassbase.html" alt="classbase" shape="rect" coords="135,0,260,24"/>
-<area href="class_http_server_socket.html" alt="HttpServerSocket" shape="rect" coords="0,224,125,248"/>
-<area href="class_thread_signal_socket.html" alt="ThreadSignalSocket" shape="rect" coords="135,224,260,248"/>
-<area href="class_tree_socket.html" alt="TreeSocket" shape="rect" coords="270,224,395,248"/>
+<area href="class_stream_socket.html" alt="StreamSocket" shape="rect" coords="0,112,125,136"/>
+<area href="class_event_handler.html" alt="EventHandler" shape="rect" coords="0,56,125,80"/>
+<area href="classclassbase.html" alt="classbase" shape="rect" coords="0,0,125,24"/>
+<area href="class_thread_signal_socket.html" alt="ThreadSignalSocket" shape="rect" coords="0,224,125,248"/>
 </map>
  </div></div>
 
@@ -223,9 +221,10 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 <p>Begin connection to the given address This will create a socket, register with socket engine, and start the asynchronous connection process. If an error is detected at this point (such as out of file descriptors), OnError will be called; otherwise, the state will become CONNECTING. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dest</td><td>Address to connect to </td></tr>
-    <tr><td class="paramname">bind</td><td>Address to bind to (if NULL, no bind will be done) </td></tr>
-    <tr><td class="paramname">timeout</td><td>Time to wait for connection </td></tr>
+    <tr><td class="paramname">ipaddr</td><td>Address to connect to </td></tr>
+    <tr><td class="paramname">aport</td><td>Port to connect on </td></tr>
+    <tr><td class="paramname">maxtime</td><td>Time to wait for connection </td></tr>
+    <tr><td class="paramname">connectbindip</td><td>Address to bind to (if NULL, no bind will be done) </td></tr>
   </table>
   </dd>
 </dl>
@@ -280,8 +279,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 </div><div class="memdoc">
 <p>This method is called when an outbound connection on your socket is completed. </p>
 
-<p>Reimplemented in <a class="el" href="class_tree_socket.html#ad7194be97a08123169929624b21a711f">TreeSocket</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a075e598f615882452e5dab70b460f475"></a>
@@ -308,7 +305,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 
 <p>Implements <a class="el" href="class_stream_socket.html#ada38f54ce3fca4cac5cfa1fa6d04b126">StreamSocket</a>.</p>
 
-<p>Implemented in <a class="el" href="class_tree_socket.html#a424f1912d2aefdbf4c1da87519338878">TreeSocket</a>, <a class="el" href="class_http_server_socket.html#a0ccb7a50ba95b2aac54f19189ce20444">HttpServerSocket</a>, and <a class="el" href="class_thread_signal_socket.html#a321a079824c2d1b2ad4757d751728681">ThreadSignalSocket</a>.</p>
+<p>Implemented in <a class="el" href="class_thread_signal_socket.html#a321a079824c2d1b2ad4757d751728681">ThreadSignalSocket</a>.</p>
 
 </div>
 </div>
@@ -333,8 +330,6 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 </table>
 </div><div class="memdoc">
 <p>When an outbound connection fails, and the attempt times out, you will receive this event. The method will trigger once maxtime seconds are reached (as given in the constructor) just before the socket's descriptor is closed. A failed <a class="el" href="class_d_n_s.html">DNS</a> lookup may cause this event if the <a class="el" href="class_d_n_s.html">DNS</a> server is not responding, as well as a failed connect() call, because <a class="el" href="class_d_n_s.html">DNS</a> lookups are nonblocking as implemented by this class. </p>
-
-<p>Reimplemented in <a class="el" href="class_tree_socket.html#a6b6a9ffc69ffcdbecebe839744b3c508">TreeSocket</a>.</p>
 
 </div>
 </div>

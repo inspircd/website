@@ -99,18 +99,14 @@ Inheritance diagram for EventHandler:</div>
  <div class="center">
   <img src="class_event_handler.png" usemap="#EventHandler_map" alt=""/>
   <map id="EventHandler_map" name="EventHandler_map">
-<area href="classclassbase.html" alt="classbase" shape="rect" coords="337,0,462,24"/>
+<area href="classclassbase.html" alt="classbase" shape="rect" coords="202,0,327,24"/>
 <area href="class_d_n_s.html" alt="DNS" shape="rect" coords="0,112,125,136"/>
-<area href="class_ident_request_socket.html" alt="IdentRequestSocket" shape="rect" coords="135,112,260,136"/>
-<area href="class_listen_socket.html" alt="ListenSocket" shape="rect" coords="270,112,395,136"/>
-<area href="class_s_q_l_conn.html" alt="SQLConn" shape="rect" coords="405,112,530,136"/>
-<area href="class_stream_socket.html" alt="StreamSocket" shape="rect" coords="540,112,665,136"/>
-<area href="class_thread_signal_socket.html" alt="ThreadSignalSocket" shape="rect" coords="675,112,800,136"/>
-<area href="class_buffered_socket.html" alt="BufferedSocket" shape="rect" coords="472,168,597,192"/>
-<area href="class_user_i_o_handler.html" alt="UserIOHandler" shape="rect" coords="607,168,732,192"/>
-<area href="class_http_server_socket.html" alt="HttpServerSocket" shape="rect" coords="337,224,462,248"/>
-<area href="class_thread_signal_socket.html" alt="ThreadSignalSocket" shape="rect" coords="472,224,597,248"/>
-<area href="class_tree_socket.html" alt="TreeSocket" shape="rect" coords="607,224,732,248"/>
+<area href="class_listen_socket.html" alt="ListenSocket" shape="rect" coords="135,112,260,136"/>
+<area href="class_stream_socket.html" alt="StreamSocket" shape="rect" coords="270,112,395,136"/>
+<area href="class_thread_signal_socket.html" alt="ThreadSignalSocket" shape="rect" coords="405,112,530,136"/>
+<area href="class_buffered_socket.html" alt="BufferedSocket" shape="rect" coords="202,168,327,192"/>
+<area href="class_user_i_o_handler.html" alt="UserIOHandler" shape="rect" coords="337,168,462,192"/>
+<area href="class_thread_signal_socket.html" alt="ThreadSignalSocket" shape="rect" coords="202,224,327,248"/>
 </map>
  </div></div>
 
@@ -240,12 +236,13 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>SocketEngine</b></td
 <p>Process an I/O event. You MUST implement this function in your derived class, and it will be called whenever read or write events are received. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">et</td><td>either one of EVENT_READ for read events, and EVENT_WRITE for write events. </td></tr>
+    <tr><td class="paramname">et</td><td>either one of EVENT_READ for read events, EVENT_WRITE for write events and EVENT_ERROR for error events. </td></tr>
+    <tr><td class="paramname">errornum</td><td>The error code which goes with an EVENT_ERROR. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_d_n_s.html#ae4dd94b5780fdffabd72efd97e92f904">DNS</a>, <a class="el" href="class_s_q_l_conn.html#a6b4c02fe6cd02b44927dd8dc10428d5b">SQLConn</a>, <a class="el" href="class_ident_request_socket.html#a7abb1ff20d9f9d0af1337309c5b1e22f">IdentRequestSocket</a>, <a class="el" href="class_listen_socket.html#aed322a461821b322a922f9537378d828">ListenSocket</a>, <a class="el" href="class_thread_signal_socket.html#a327de3514c0534c44410395bae96f4d5">ThreadSignalSocket</a>, and <a class="el" href="class_stream_socket.html#aac3a58aa5a6317a4027af9d2d08dba5f">StreamSocket</a>.</p>
+<p>Implemented in <a class="el" href="class_d_n_s.html#ae4dd94b5780fdffabd72efd97e92f904">DNS</a>, <a class="el" href="class_listen_socket.html#aed322a461821b322a922f9537378d828">ListenSocket</a>, <a class="el" href="class_thread_signal_socket.html#a327de3514c0534c44410395bae96f4d5">ThreadSignalSocket</a>, and <a class="el" href="class_stream_socket.html#aac3a58aa5a6317a4027af9d2d08dba5f">StreamSocket</a>.</p>
 
 </div>
 </div>

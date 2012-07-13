@@ -121,7 +121,7 @@ class HandlerBase0&lt; ReturnType &gt;</h3>
 <p>bool n = someclass-&gt;MyFunction(someuser, somechan);</p>
 <p>These functor templates work this way so that you can simply and easily allow for these class methods to be overridden from within a module, e.g. have a module which completely replaces the code for IsNick, etc. For example, with the example above:</p>
 <p>MyNewFunction replaceme(ServerInstance);</p>
-<p>someclass-&gt;MyFunction = </p>
+<p>someclass-&gt;MyFunction = &amp;replaceme;</p>
 <p>After this point, calls to someclass-&gt;MyFunction will call the new code in your replacement functor.</p>
 <p>This is a very powerful feature which should be considered 'advanced' and not for beginners. If you do not understand these templates, STAY AWAY from playing with this until you do, as if you get this wrong, this can generate some pretty long winded and confusing error messages at compile time. </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>

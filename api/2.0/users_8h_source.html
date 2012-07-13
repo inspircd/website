@@ -376,169 +376,169 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;</div>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        <span class="keywordtype">void</span> WriteTo(<a class="code" href="class_user.html">User</a> *dest, const <span class="keywordtype">char</span> *data, ...) CUSTOM_PRINTF(3, 4);</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="keywordtype">void</span> WriteCommonRaw(const std::<span class="keywordtype">string</span> &amp;line, <span class="keywordtype">bool</span> include_self = true);</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        <span class="keywordtype">void</span> WriteCommon(const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(2, 3);</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        <span class="keywordtype">void</span> WriteCommonExcept(const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(2, 3);</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <span class="keywordtype">void</span> WriteCommonQuit(const std::<span class="keywordtype">string</span> &amp;normal_text, const std::<span class="keywordtype">string</span> &amp;oper_text);</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordtype">void</span> SendText(const std::<span class="keywordtype">string</span> &amp;LinePrefix, std::stringstream &amp;TextStream);</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        virtual <span class="keywordtype">void</span> SendText(const std::<span class="keywordtype">string</span>&amp; line) = 0;</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        <span class="keywordtype">void</span> SendText(const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(2, 3);</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        <span class="keywordtype">bool</span> SharesChannelWith(<a class="code" href="class_user.html">User</a> *other);</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        <span class="keywordtype">void</span> DoHostCycle(const std::<span class="keywordtype">string</span> &amp;quitline);</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;        <span class="keywordtype">bool</span> ChangeDisplayedHost(const <span class="keywordtype">char</span>* host);</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;        <span class="keywordtype">bool</span> ChangeIdent(const <span class="keywordtype">char</span>* newident);</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;        <span class="keywordtype">bool</span> ChangeName(const <span class="keywordtype">char</span>* gecos);</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <span class="keywordtype">bool</span> ChangeNick(const std::<span class="keywordtype">string</span>&amp; newnick, <span class="keywordtype">bool</span> force = false);</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;        <span class="keywordtype">void</span> SendAll(const <span class="keywordtype">char</span>* command, const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(3, 4);</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        std::<span class="keywordtype">string</span> ChannelList(<a class="code" href="class_user.html">User</a>* source, <span class="keywordtype">bool</span> spy);</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        <span class="keywordtype">void</span> SplitChanList(<a class="code" href="class_user.html">User</a>* dest, const std::<span class="keywordtype">string</span> &amp;cl);</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordtype">void</span> PurgeEmptyChannels();</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        virtual <a class="code" href="struct_connect_class.html">ConnectClass</a>* GetClass();</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        virtual ~<a class="code" href="class_user.html">User</a>();</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        virtual <a class="code" href="class_cull_result.html">CullResult</a> cull();</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;};</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;</div>
-<div class="line"><a name="l00721"></a><span class="lineno"><a class="code" href="class_user_i_o_handler.html">  721</a></span>&#160;class CoreExport <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> : public <a class="code" href="class_stream_socket.html">StreamSocket</a></div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;{</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>* <span class="keyword">const</span> user;</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a>(<a class="code" href="class_local_user.html">LocalUser</a>* me) : user(me) {}</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="keywordtype">void</span> OnDataReady();</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <span class="keywordtype">void</span> OnError(BufferedSocketError error);</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;        <span class="keywordtype">void</span> AddWriteBuf(<span class="keyword">const</span> std::string &amp;data);</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;};</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> already_sent_t;</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;</div>
-<div class="line"><a name="l00739"></a><span class="lineno"><a class="code" href="class_local_user.html">  739</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_local_user.html">LocalUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a>, <span class="keyword">public</span> <a class="code" href="class_invite_base.html">InviteBase</a></div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;{</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>(<span class="keywordtype">int</span> fd, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* client, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* server);</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull();</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> eh;</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;</div>
-<div class="line"><a name="l00749"></a><span class="lineno"><a class="code" href="class_local_user.html#a704cf0122ba2d45e727c32c89af3746b">  749</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a704cf0122ba2d45e727c32c89af3746b">bytes_in</a>;</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;</div>
-<div class="line"><a name="l00753"></a><span class="lineno"><a class="code" href="class_local_user.html#ad7d162110cc664438fb6ba97cb635700">  753</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#ad7d162110cc664438fb6ba97cb635700">bytes_out</a>;</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;</div>
-<div class="line"><a name="l00757"></a><span class="lineno"><a class="code" href="class_local_user.html#a8e458741c7ebc8603f5868bd241a34ec">  757</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a8e458741c7ebc8603f5868bd241a34ec">cmds_in</a>;</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;</div>
-<div class="line"><a name="l00761"></a><span class="lineno"><a class="code" href="class_local_user.html#aacb51ebcabaa14d7e55a30d74aea4b0b">  761</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#aacb51ebcabaa14d7e55a30d74aea4b0b">cmds_out</a>;</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;</div>
-<div class="line"><a name="l00767"></a><span class="lineno"><a class="code" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">  767</a></span>&#160;        std::string <a class="code" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">password</a>;</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;</div>
-<div class="line"><a name="l00771"></a><span class="lineno"><a class="code" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">  771</a></span>&#160;        <a class="code" href="classreference.html">reference&lt;ConnectClass&gt;</a> <a class="code" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">MyClass</a>;</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        <a class="code" href="struct_connect_class.html">ConnectClass</a>* GetClass();</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        <span class="keywordtype">void</span> CheckClass();</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;</div>
-<div class="line"><a name="l00781"></a><span class="lineno"><a class="code" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">  781</a></span>&#160;        <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> <a class="code" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">server_sa</a>;</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;        <span class="keywordtype">int</span> GetServerPort();</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;</div>
-<div class="line"><a name="l00790"></a><span class="lineno"><a class="code" href="class_local_user.html#a1ffe0d9a22725260c11c89e2dda7a030">  790</a></span>&#160;        time_t <a class="code" href="class_local_user.html#a1ffe0d9a22725260c11c89e2dda7a030">nping</a>;</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;</div>
-<div class="line"><a name="l00795"></a><span class="lineno"><a class="code" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">  795</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">CommandFloodPenalty</a>;</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;        <span class="keyword">static</span> already_sent_t already_sent_id;</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;        already_sent_t already_sent;</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;</div>
-<div class="line"><a name="l00802"></a><span class="lineno"><a class="code" href="class_local_user.html#af0a47d75eeaedddc8b8ba14d4f97e580">  802</a></span>&#160;        std::string <a class="code" href="class_local_user.html#af0a47d75eeaedddc8b8ba14d4f97e580">stored_host</a>;</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        <span class="keywordtype">void</span> StartDNSLookup();</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;        <span class="keywordtype">void</span> FullConnect();</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        <span class="keywordtype">void</span> SetClass(<span class="keyword">const</span> std::string &amp;explicit_name = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;        <span class="keywordtype">void</span> SendText(<span class="keyword">const</span> std::string&amp; line);</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        <span class="keywordtype">void</span> Write(<span class="keyword">const</span> std::string&amp; text);</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;        <span class="keywordtype">void</span> Write(<span class="keyword">const</span> <span class="keywordtype">char</span>*, ...) CUSTOM_PRINTF(2, 3);</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        InviteList&amp; GetInviteList();</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;</div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;        <span class="keywordtype">bool</span> IsInvited(const irc::<span class="keywordtype">string</span> &amp;channel);</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <span class="keywordtype">void</span> InviteTo(const irc::<span class="keywordtype">string</span> &amp;channel, time_t timeout);</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        <span class="keywordtype">void</span> RemoveInvite(const irc::<span class="keywordtype">string</span> &amp;channel);</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        <span class="keywordtype">void</span> RemoveExpiredInvites();</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;        <span class="keywordtype">bool</span> HasPermission(const std::<span class="keywordtype">string</span> &amp;command);</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;</div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;        <span class="keywordtype">bool</span> HasPrivPermission(const std::<span class="keywordtype">string</span> &amp;privstr, <span class="keywordtype">bool</span> noisy = false);</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        <span class="keywordtype">bool</span> HasModePermission(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mode, ModeType type);</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;};</div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;</div>
-<div class="line"><a name="l00879"></a><span class="lineno"><a class="code" href="class_remote_user.html">  879</a></span>&#160;class CoreExport <a class="code" href="class_remote_user.html">RemoteUser</a> : public <a class="code" href="class_user.html">User</a></div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;{</div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;        <a class="code" href="class_remote_user.html">RemoteUser</a>(<span class="keyword">const</span> std::string&amp; uid, <span class="keyword">const</span> std::string&amp; srv) : User(uid, srv, USERTYPE_REMOTE)</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        {</div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        }</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SendText(<span class="keyword">const</span> std::string&amp; line);</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;};</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;</div>
-<div class="line"><a name="l00888"></a><span class="lineno"><a class="code" href="class_fake_user.html">  888</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_fake_user.html">FakeUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a></div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;{</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        <a class="code" href="class_fake_user.html">FakeUser</a>(<span class="keyword">const</span> std::string &amp;uid, <span class="keyword">const</span> std::string&amp; srv) : <a class="code" href="class_user.html">User</a>(uid, srv, USERTYPE_SERVER)</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        {</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;                nick = srv;</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        }</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_cull_result.html">CullResult</a> cull();</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SendText(<span class="keyword">const</span> std::string&amp; line);</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullHost();</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullRealHost();</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;};</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;<span class="comment">/* Faster than dynamic_cast */</span></div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_local_user.html">LocalUser</a>* IS_LOCAL(<a class="code" href="class_user.html">User</a>* u)</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;{</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;        <span class="keywordflow">return</span> u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_LOCAL ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_local_user.html">LocalUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;}</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_remote_user.html">RemoteUser</a>* IS_REMOTE(<a class="code" href="class_user.html">User</a>* u)</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;{</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordflow">return</span> u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_REMOTE ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_remote_user.html">RemoteUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;}</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_fake_user.html">FakeUser</a>* IS_SERVER(<a class="code" href="class_user.html">User</a>* u)</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;{</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        <span class="keywordflow">return</span> u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_SERVER ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_fake_user.html">FakeUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;}</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;<span class="preprocessor">#define IS_OPER(x) (x-&gt;oper)</span></div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;<span class="preprocessor">#define IS_AWAY(x) (!x-&gt;awaymsg.empty())</span></div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00925"></a><span class="lineno"><a class="code" href="class_user_resolver.html">  925</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_user_resolver.html">UserResolver</a> : <span class="keyword">public</span> <a class="code" href="class_resolver.html">Resolver</a></div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;{</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;        std::string uuid;</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;        <span class="keywordtype">bool</span> fwd;</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="keywordtype">void</span> WriteCommonRaw(const std::<span class="keywordtype">string</span> &amp;line, <span class="keywordtype">bool</span> include_self = true);</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordtype">void</span> WriteCommon(const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(2, 3);</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        <span class="keywordtype">void</span> WriteCommonExcept(const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(2, 3);</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordtype">void</span> WriteCommonQuit(const std::<span class="keywordtype">string</span> &amp;normal_text, const std::<span class="keywordtype">string</span> &amp;oper_text);</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        <span class="keywordtype">void</span> SendText(const std::<span class="keywordtype">string</span> &amp;LinePrefix, std::stringstream &amp;TextStream);</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        virtual <span class="keywordtype">void</span> SendText(const std::<span class="keywordtype">string</span>&amp; line) = 0;</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <span class="keywordtype">void</span> SendText(const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(2, 3);</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        <span class="keywordtype">bool</span> SharesChannelWith(<a class="code" href="class_user.html">User</a> *other);</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        <span class="keywordtype">void</span> DoHostCycle(const std::<span class="keywordtype">string</span> &amp;quitline);</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="keywordtype">bool</span> ChangeDisplayedHost(const <span class="keywordtype">char</span>* host);</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;        <span class="keywordtype">bool</span> ChangeIdent(const <span class="keywordtype">char</span>* newident);</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        <span class="keywordtype">bool</span> ChangeName(const <span class="keywordtype">char</span>* gecos);</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keywordtype">bool</span> ChangeNick(const std::<span class="keywordtype">string</span>&amp; newnick, <span class="keywordtype">bool</span> force = false);</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;        <span class="keywordtype">void</span> SendAll(const <span class="keywordtype">char</span>* command, const <span class="keywordtype">char</span>* text, ...) CUSTOM_PRINTF(3, 4);</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;        std::<span class="keywordtype">string</span> ChannelList(<a class="code" href="class_user.html">User</a>* source, <span class="keywordtype">bool</span> spy);</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        <span class="keywordtype">void</span> SplitChanList(<a class="code" href="class_user.html">User</a>* dest, const std::<span class="keywordtype">string</span> &amp;cl);</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordtype">void</span> PurgeEmptyChannels();</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        virtual <a class="code" href="struct_connect_class.html">ConnectClass</a>* GetClass();</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        virtual ~<a class="code" href="class_user.html">User</a>();</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        virtual <a class="code" href="class_cull_result.html">CullResult</a> cull();</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;};</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;</div>
+<div class="line"><a name="l00722"></a><span class="lineno"><a class="code" href="class_user_i_o_handler.html">  722</a></span>&#160;class CoreExport <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> : public <a class="code" href="class_stream_socket.html">StreamSocket</a></div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;{</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>* <span class="keyword">const</span> user;</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a>(<a class="code" href="class_local_user.html">LocalUser</a>* me) : user(me) {}</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <span class="keywordtype">void</span> OnDataReady();</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keywordtype">void</span> OnError(BufferedSocketError error);</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        <span class="keywordtype">void</span> AddWriteBuf(<span class="keyword">const</span> std::string &amp;data);</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;};</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> already_sent_t;</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;</div>
+<div class="line"><a name="l00740"></a><span class="lineno"><a class="code" href="class_local_user.html">  740</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_local_user.html">LocalUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a>, <span class="keyword">public</span> <a class="code" href="class_invite_base.html">InviteBase</a></div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;{</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>(<span class="keywordtype">int</span> fd, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* client, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* server);</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull();</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> eh;</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;</div>
+<div class="line"><a name="l00750"></a><span class="lineno"><a class="code" href="class_local_user.html#a704cf0122ba2d45e727c32c89af3746b">  750</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a704cf0122ba2d45e727c32c89af3746b">bytes_in</a>;</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;</div>
+<div class="line"><a name="l00754"></a><span class="lineno"><a class="code" href="class_local_user.html#ad7d162110cc664438fb6ba97cb635700">  754</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#ad7d162110cc664438fb6ba97cb635700">bytes_out</a>;</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;</div>
+<div class="line"><a name="l00758"></a><span class="lineno"><a class="code" href="class_local_user.html#a8e458741c7ebc8603f5868bd241a34ec">  758</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a8e458741c7ebc8603f5868bd241a34ec">cmds_in</a>;</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;</div>
+<div class="line"><a name="l00762"></a><span class="lineno"><a class="code" href="class_local_user.html#aacb51ebcabaa14d7e55a30d74aea4b0b">  762</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#aacb51ebcabaa14d7e55a30d74aea4b0b">cmds_out</a>;</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;</div>
+<div class="line"><a name="l00768"></a><span class="lineno"><a class="code" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">  768</a></span>&#160;        std::string <a class="code" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">password</a>;</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;</div>
+<div class="line"><a name="l00772"></a><span class="lineno"><a class="code" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">  772</a></span>&#160;        <a class="code" href="classreference.html">reference&lt;ConnectClass&gt;</a> <a class="code" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">MyClass</a>;</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;        <a class="code" href="struct_connect_class.html">ConnectClass</a>* GetClass();</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        <span class="keywordtype">void</span> CheckClass();</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;</div>
+<div class="line"><a name="l00782"></a><span class="lineno"><a class="code" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">  782</a></span>&#160;        <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> <a class="code" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">server_sa</a>;</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        <span class="keywordtype">int</span> GetServerPort();</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
+<div class="line"><a name="l00791"></a><span class="lineno"><a class="code" href="class_local_user.html#a1ffe0d9a22725260c11c89e2dda7a030">  791</a></span>&#160;        time_t <a class="code" href="class_local_user.html#a1ffe0d9a22725260c11c89e2dda7a030">nping</a>;</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;</div>
+<div class="line"><a name="l00796"></a><span class="lineno"><a class="code" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">  796</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">CommandFloodPenalty</a>;</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;        <span class="keyword">static</span> already_sent_t already_sent_id;</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        already_sent_t already_sent;</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;</div>
+<div class="line"><a name="l00803"></a><span class="lineno"><a class="code" href="class_local_user.html#af0a47d75eeaedddc8b8ba14d4f97e580">  803</a></span>&#160;        std::string <a class="code" href="class_local_user.html#af0a47d75eeaedddc8b8ba14d4f97e580">stored_host</a>;</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;        <span class="keywordtype">void</span> StartDNSLookup();</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;        <span class="keywordtype">void</span> FullConnect();</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;        <span class="keywordtype">void</span> SetClass(<span class="keyword">const</span> std::string &amp;explicit_name = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        <span class="keywordtype">void</span> SendText(<span class="keyword">const</span> std::string&amp; line);</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;        <span class="keywordtype">void</span> Write(<span class="keyword">const</span> std::string&amp; text);</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        <span class="keywordtype">void</span> Write(<span class="keyword">const</span> <span class="keywordtype">char</span>*, ...) CUSTOM_PRINTF(2, 3);</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;        InviteList&amp; GetInviteList();</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;        <span class="keywordtype">bool</span> IsInvited(const irc::<span class="keywordtype">string</span> &amp;channel);</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;        <span class="keywordtype">void</span> InviteTo(const irc::<span class="keywordtype">string</span> &amp;channel, time_t timeout);</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        <span class="keywordtype">void</span> RemoveInvite(const irc::<span class="keywordtype">string</span> &amp;channel);</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        <span class="keywordtype">void</span> RemoveExpiredInvites();</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        <span class="keywordtype">bool</span> HasPermission(const std::<span class="keywordtype">string</span> &amp;command);</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;        <span class="keywordtype">bool</span> HasPrivPermission(const std::<span class="keywordtype">string</span> &amp;privstr, <span class="keywordtype">bool</span> noisy = false);</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;        <span class="keywordtype">bool</span> HasModePermission(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mode, ModeType type);</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;};</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;</div>
+<div class="line"><a name="l00880"></a><span class="lineno"><a class="code" href="class_remote_user.html">  880</a></span>&#160;class CoreExport <a class="code" href="class_remote_user.html">RemoteUser</a> : public <a class="code" href="class_user.html">User</a></div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;{</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        <a class="code" href="class_remote_user.html">RemoteUser</a>(<span class="keyword">const</span> std::string&amp; uid, <span class="keyword">const</span> std::string&amp; srv) : User(uid, srv, USERTYPE_REMOTE)</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        {</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;        }</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SendText(<span class="keyword">const</span> std::string&amp; line);</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;};</div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;</div>
+<div class="line"><a name="l00889"></a><span class="lineno"><a class="code" href="class_fake_user.html">  889</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_fake_user.html">FakeUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a></div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;{</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        <a class="code" href="class_fake_user.html">FakeUser</a>(<span class="keyword">const</span> std::string &amp;uid, <span class="keyword">const</span> std::string&amp; srv) : <a class="code" href="class_user.html">User</a>(uid, srv, USERTYPE_SERVER)</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        {</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;                nick = srv;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        }</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_cull_result.html">CullResult</a> cull();</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SendText(<span class="keyword">const</span> std::string&amp; line);</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullHost();</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullRealHost();</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;};</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<span class="comment">/* Faster than dynamic_cast */</span></div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_local_user.html">LocalUser</a>* IS_LOCAL(<a class="code" href="class_user.html">User</a>* u)</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;{</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <span class="keywordflow">return</span> u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_LOCAL ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_local_user.html">LocalUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;}</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_remote_user.html">RemoteUser</a>* IS_REMOTE(<a class="code" href="class_user.html">User</a>* u)</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;{</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        <span class="keywordflow">return</span> u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_REMOTE ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_remote_user.html">RemoteUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;}</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_fake_user.html">FakeUser</a>* IS_SERVER(<a class="code" href="class_user.html">User</a>* u)</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;{</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        <span class="keywordflow">return</span> u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_SERVER ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_fake_user.html">FakeUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;}</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;<span class="preprocessor">#define IS_OPER(x) (x-&gt;oper)</span></div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;<span class="preprocessor">#define IS_AWAY(x) (!x-&gt;awaymsg.empty())</span></div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00926"></a><span class="lineno"><a class="code" href="class_user_resolver.html">  926</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_user_resolver.html">UserResolver</a> : <span class="keyword">public</span> <a class="code" href="class_resolver.html">Resolver</a></div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;{</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        std::string uuid;</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;        <span class="keywordtype">bool</span> fwd;</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;        <a class="code" href="class_user_resolver.html">UserResolver</a>(<a class="code" href="class_local_user.html">LocalUser</a>* user, std::string to_resolve, QueryType qt, <span class="keywordtype">bool</span> &amp;cache);</div>
 <div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;</div>
 <div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;        <span class="keywordtype">void</span> OnLookupComplete(<span class="keyword">const</span> std::string &amp;result, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ttl, <span class="keywordtype">bool</span> cached);</div>

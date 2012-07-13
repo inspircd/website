@@ -330,7 +330,7 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
 <p>Change the ident (username) of a user. ALWAYS use this function, rather than writing <a class="el" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">User::ident</a> directly, as this correctly causes the user to seem to quit (where configured) before setting their ident field. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">host</td><td>The new ident to set </td></tr>
+    <tr><td class="paramname">newident</td><td>The new ident to set </td></tr>
   </table>
   </dd>
 </dl>
@@ -499,7 +499,7 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
 <p>Send fake quit/join messages for host or ident cycle. Run this after the item in question has changed. You should not need to use this function, call ChangeDisplayedHost instead</p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">The</td><td>entire QUIT line, including the source using the old value </td></tr>
+    <tr><td class="paramname">quitline</td><td>The entire QUIT line, including the source using the old value </td></tr>
   </table>
   </dd>
 </dl>
@@ -554,7 +554,7 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
 <p>Create a displayable mode string for this users umodes </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">The</td><td>mode string </td></tr>
+    <tr><td class="paramname">showparameters</td><td>The mode string </td></tr>
   </table>
   </dd>
 </dl>
@@ -641,7 +641,7 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the full displayed host of the user This member function returns the hostname of the user as seen by other users on the server, in nick!identhost form. </p>
+<p>Returns the full displayed host of the user This member function returns the hostname of the user as seen by other users on the server, in nick!ident@host form. </p>
 <dl class="section return"><dt>Returns:</dt><dd>The full masked host of the user </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_fake_user.html#a25d640886cf10c55d146cee889a206b6">FakeUser</a>.</p>
@@ -668,7 +668,7 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the full real host of the user This member function returns the hostname of the user as seen by other users on the server, in nick!identhost form. If any form of hostname cloaking is in operation, e.g. through a module, then this method will ignore it and return the true hostname. </p>
+<p>Returns the full real host of the user This member function returns the hostname of the user as seen by other users on the server, in nick!ident@host form. If any form of hostname cloaking is in operation, e.g. through a module, then this method will ignore it and return the true hostname. </p>
 <dl class="section return"><dt>Returns:</dt><dd>The full real host of the user </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_fake_user.html#a7b472599a7864e55acdc659b0df0b537">FakeUser</a>.</p>
@@ -892,8 +892,8 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Creates a usermask with real host. Takes a buffer to use and fills the given buffer with the hostmask in the format user </p>
-<dl class="section return"><dt>Returns:</dt><dd>the usermask in the format user </dd></dl>
+<p>Creates a usermask with real host. Takes a buffer to use and fills the given buffer with the hostmask in the format user@host </p>
+<dl class="section return"><dt>Returns:</dt><dd>the usermask in the format user@host </dd></dl>
 
 </div>
 </div>
@@ -909,8 +909,8 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Creates a usermask with real ip. Takes a buffer to use and fills the given buffer with the ipmask in the format user </p>
-<dl class="section return"><dt>Returns:</dt><dd>the usermask in the format user </dd></dl>
+<p>Creates a usermask with real ip. Takes a buffer to use and fills the given buffer with the ipmask in the format user@ip </p>
+<dl class="section return"><dt>Returns:</dt><dd>the usermask in the format user@ip </dd></dl>
 
 </div>
 </div>
@@ -926,8 +926,8 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Creates a wildcard host. Takes a buffer to use and fills the given buffer with the host in the format *!* </p>
-<dl class="section return"><dt>Returns:</dt><dd>The wildcarded hostname in *!* form </dd></dl>
+<p>Creates a wildcard host. Takes a buffer to use and fills the given buffer with the host in the format *!*@hostname </p>
+<dl class="section return"><dt>Returns:</dt><dd>The wildcarded hostname in *!*@host form </dd></dl>
 
 </div>
 </div>
@@ -1479,10 +1479,11 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write to all users that can see this user (including this user in the list), appending CR/LF </p>
+<p>Write to all users that can see this user (including this user in the list if include_self is true), appending CR/LF </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">text</td><td>A std::string to send to the users </td></tr>
+    <tr><td class="paramname">line</td><td>A std::string to send to the users </td></tr>
+    <tr><td class="paramname">include_self</td><td>Should the message be sent back to the author? </td></tr>
   </table>
   </dd>
 </dl>
@@ -1512,10 +1513,10 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write text to this user, appending CR/LF and prepending :nick!user of the user provided in the first parameter. </p>
+<p>Write text to this user, appending CR/LF and prepending :nick!user@host of the user provided in the first parameter. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user</td><td>The user to prepend the :nick!user of </td></tr>
+    <tr><td class="paramname">user</td><td>The user to prepend the :nick!user@host of </td></tr>
     <tr><td class="paramname">text</td><td>A std::string to send to the user </td></tr>
   </table>
   </dd>
@@ -1552,10 +1553,10 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write text to this user, appending CR/LF and prepending :nick!user of the user provided in the first parameter. </p>
+<p>Write text to this user, appending CR/LF and prepending :nick!user@host of the user provided in the first parameter. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user</td><td>The user to prepend the :nick!user of </td></tr>
+    <tr><td class="paramname">user</td><td>The user to prepend the :nick!user@host of </td></tr>
     <tr><td class="paramname">text</td><td>The format string for text to send to the user </td></tr>
     <tr><td class="paramname">...</td><td>POD-type format arguments </td></tr>
   </table>
@@ -1645,11 +1646,11 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write text to the user provided in the first parameter, appending CR/LF, and prepending THIS user's :nick!user. </p>
+<p>Write text to the user provided in the first parameter, appending CR/LF, and prepending THIS user's :nick!user@host. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">dest</td><td>The user to route the message to </td></tr>
-    <tr><td class="paramname">text</td><td>A std::string to send to the user </td></tr>
+    <tr><td class="paramname">data</td><td>A std::string to send to the user </td></tr>
   </table>
   </dd>
 </dl>
@@ -1685,11 +1686,11 @@ typedef std::map&lt; <a class="el" href="classreference.html">reference</a><br c
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Write text to the user provided in the first parameter, appending CR/LF, and prepending THIS user's :nick!user. </p>
+<p>Write text to the user provided in the first parameter, appending CR/LF, and prepending THIS user's :nick!user@host. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">dest</td><td>The user to route the message to </td></tr>
-    <tr><td class="paramname">text</td><td>The format string for text to send to the user </td></tr>
+    <tr><td class="paramname">data</td><td>The format string for text to send to the user </td></tr>
     <tr><td class="paramname">...</td><td>POD-type format arguments </td></tr>
   </table>
   </dd>

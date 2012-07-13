@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['id',['id',['../class_d_n_s_result.html#a54489bb79b74a7ac9fe3287821f09105',1,'DNSResult::id()'],['../class_request.html#aee070353bc753ed93af08b35d02d3662',1,'Request::id()'],['../class_event.html#a8566f6b1af844306a135e4bc2d2cad62',1,'Event::id()'],['../class_s_q_lerror.html#a6073d4a24a1d94755b9191ff9b5b8525',1,'SQLerror::id()']]],
-  ['ident',['ident',['../class_who_was_group.html#a145920809247a9937247a6a314a25729',1,'WhoWasGroup::ident()'],['../class_user.html#a75afe5805a15221777aaf204d99f17c0',1,'User::ident()']]],
+  ['id',['id',['../class_d_n_s_result.html#a54489bb79b74a7ac9fe3287821f09105',1,'DNSResult::id()'],['../class_request.html#aee070353bc753ed93af08b35d02d3662',1,'Request::id()'],['../class_event.html#a8566f6b1af844306a135e4bc2d2cad62',1,'Event::id()']]],
+  ['ident',['ident',['../class_user.html#a75afe5805a15221777aaf204d99f17c0',1,'User']]],
   ['identmask',['identmask',['../class_k_line.html#aa8ed1d3faa79fad75896137fe211d113',1,'KLine::identmask()'],['../class_g_line.html#a452cc320841402661434e57fc0419d21',1,'GLine::identmask()'],['../class_e_line.html#ad69dc91c542caf3aa9f0b7a08b3ebb5d',1,'ELine::identmask()']]],
   ['identmax',['IdentMax',['../class_server_limits.html#a41db595ffeedb5cfd361e1ebdf3aabe5',1,'ServerLimits']]],
   ['idle_5flastmsg',['idle_lastmsg',['../class_user.html#a249c29ce8508133303dfbe42ed2bf50f',1,'User']]],

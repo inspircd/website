@@ -243,8 +243,8 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>PrefixComparis
 <p>Tidy a banmask. This makes a banmask 'acceptable' if fields are left out. E.g.</p>
 <p>nick -&gt; nick!*@*</p>
 <p>nick!ident -&gt; nick!ident@*</p>
-<p>host.name -&gt; *!*.name</p>
-<p><a href="#" onclick="location.href='mai'+'lto:'+'ide'+'nt'+'@ho'+'st'+'.na'+'me'; return false;">ident<span style="display: none;">.nosp@m.</span>@hos<span style="display: none;">.nosp@m.</span>t.nam<span style="display: none;">.nosp@m.</span>e</a> -&gt; *!ident.name</p>
+<p>host.name -&gt; *!*@host.name</p>
+<p><a href="#" onclick="location.href='mai'+'lto:'+'ide'+'nt'+'@ho'+'st'+'.na'+'me'; return false;">ident<span style="display: none;">.nosp@m.</span>@hos<span style="display: none;">.nosp@m.</span>t.nam<span style="display: none;">.nosp@m.</span>e</a> -&gt; *!ident@host.name</p>
 <p>This method can be used on both IPV4 and IPV6 user masks. </p>
 
 </div>
@@ -324,7 +324,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>PrefixComparis
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
     <tr><td class="paramname">modeletter</td><td>mode letter to search for </td></tr>
-    <tr><td class="paramname">type</td><td>of mode to search for, user or channel </td></tr>
+    <tr><td class="paramname">mt</td><td>type of mode to search for, user or channel </td></tr>
   </table>
   </dd>
 </dl>
@@ -440,6 +440,7 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>PrefixComparis
   <table class="params">
     <tr><td class="paramname">parameters</td><td>The parameters of the mode change, in the format they would be from a MODE command. </td></tr>
     <tr><td class="paramname">user</td><td>The user setting or removing the modes. When the modes are set by a server, an 'uninitialized' <a class="el" href="class_user.html">User</a> is used, where *user::nick == NULL and *user-&gt;server == NULL. </td></tr>
+    <tr><td class="paramname">merge</td><td>Should the mode parameters be merged? </td></tr>
   </table>
   </dd>
 </dl>

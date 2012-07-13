@@ -98,46 +98,11 @@ Inheritance diagram for ModeHandler:</div>
  <div class="center">
   <img src="class_mode_handler.png" usemap="#ModeHandler_map" alt=""/>
   <map id="ModeHandler_map" name="ModeHandler_map">
-<area href="class_service_provider.html" alt="ServiceProvider" shape="rect" coords="0,56,175,80"/>
-<area href="classclassbase.html" alt="classbase" shape="rect" coords="0,0,175,24"/>
-<area href="class_auditorium_mode.html" alt="AuditoriumMode" shape="rect" coords="185,168,360,192"/>
-<area href="class_chan_founder.html" alt="ChanFounder" shape="rect" coords="185,224,360,248"/>
-<area href="class_channel__r.html" alt="Channel_r" shape="rect" coords="185,280,360,304"/>
-<area href="class_chan_protect.html" alt="ChanProtect" shape="rect" coords="185,336,360,360"/>
-<area href="class_cloak_user.html" alt="CloakUser" shape="rect" coords="185,392,360,416"/>
-<area href="class_custom_prefix_mode.html" alt="CustomPrefixMode" shape="rect" coords="185,448,360,472"/>
-<area href="class_delay_join_mode.html" alt="DelayJoinMode" shape="rect" coords="185,504,360,528"/>
-<area href="class_delay_msg_mode.html" alt="DelayMsgMode" shape="rect" coords="185,560,360,584"/>
-<area href="class_dummy_z.html" alt="DummyZ" shape="rect" coords="185,616,360,640"/>
-<area href="class_helpop.html" alt="Helpop" shape="rect" coords="185,672,360,696"/>
-<area href="class_hide_chans.html" alt="HideChans" shape="rect" coords="185,728,360,752"/>
-<area href="class_hide_oper.html" alt="HideOper" shape="rect" coords="185,784,360,808"/>
-<area href="class_history_mode.html" alt="HistoryMode" shape="rect" coords="185,840,360,864"/>
-<area href="class_join_flood.html" alt="JoinFlood" shape="rect" coords="185,896,360,920"/>
-<area href="class_list_mode_base.html" alt="ListModeBase" shape="rect" coords="185,952,360,976"/>
-<area href="class_mode_channel_ban.html" alt="ModeChannelBan" shape="rect" coords="185,1008,360,1032"/>
-<area href="class_mode_channel_half_op.html" alt="ModeChannelHalfOp" shape="rect" coords="185,1064,360,1088"/>
-<area href="class_mode_channel_key.html" alt="ModeChannelKey" shape="rect" coords="185,1120,360,1144"/>
-<area href="class_mode_channel_op.html" alt="ModeChannelOp" shape="rect" coords="185,1176,360,1200"/>
-<area href="class_mode_channel_voice.html" alt="ModeChannelVoice" shape="rect" coords="185,1232,360,1256"/>
-<area href="class_mode_user_operator.html" alt="ModeUserOperator" shape="rect" coords="185,1288,360,1312"/>
-<area href="class_mode_user_server_notice_mask.html" alt="ModeUserServerNoticeMask" shape="rect" coords="185,1344,360,1368"/>
-<area href="class_msg_flood.html" alt="MsgFlood" shape="rect" coords="185,1400,360,1424"/>
-<area href="class_network_prefix.html" alt="NetworkPrefix" shape="rect" coords="185,1456,360,1480"/>
-<area href="class_nick_flood.html" alt="NickFlood" shape="rect" coords="185,1512,360,1536"/>
-<area href="class_oper_chans.html" alt="OperChans" shape="rect" coords="185,1568,360,1592"/>
-<area href="class_oper_prefix_mode.html" alt="OperPrefixMode" shape="rect" coords="185,1624,360,1648"/>
-<area href="class_param_channel_mode_handler.html" alt="ParamChannelModeHandler" shape="rect" coords="185,1680,360,1704"/>
-<area href="class_perm_channel.html" alt="PermChannel" shape="rect" coords="185,1736,360,1760"/>
-<area href="class_privacy_mode.html" alt="PrivacyMode" shape="rect" coords="185,1792,360,1816"/>
-<area href="class_redirect.html" alt="Redirect" shape="rect" coords="185,1848,360,1872"/>
-<area href="class_see_whois.html" alt="SeeWhois" shape="rect" coords="185,1904,360,1928"/>
-<area href="class_serv_protect_mode.html" alt="ServProtectMode" shape="rect" coords="185,1960,360,1984"/>
-<area href="class_simple_channel_mode_handler.html" alt="SimpleChannelModeHandler" shape="rect" coords="185,2016,360,2040"/>
-<area href="class_simple_user_mode_handler.html" alt="SimpleUserModeHandler" shape="rect" coords="185,2072,360,2096"/>
-<area href="class_s_s_l_mode.html" alt="SSLMode" shape="rect" coords="185,2128,360,2152"/>
-<area href="class_user__d.html" alt="User_d" shape="rect" coords="185,2184,360,2208"/>
-<area href="class_user__r.html" alt="User_r" shape="rect" coords="185,2240,360,2264"/>
+<area href="class_service_provider.html" alt="ServiceProvider" shape="rect" coords="183,56,356,80"/>
+<area href="classclassbase.html" alt="classbase" shape="rect" coords="183,0,356,24"/>
+<area href="class_param_channel_mode_handler.html" alt="ParamChannelModeHandler" shape="rect" coords="0,168,173,192"/>
+<area href="class_simple_channel_mode_handler.html" alt="SimpleChannelModeHandler" shape="rect" coords="183,168,356,192"/>
+<area href="class_simple_user_mode_handler.html" alt="SimpleUserModeHandler" shape="rect" coords="366,168,539,192"/>
 </map>
  </div></div>
 
@@ -235,6 +200,7 @@ Additional Inherited Members</h2></td></tr>
 <p>The constructor for <a class="el" href="class_mode_handler.html">ModeHandler</a> initalizes the mode handler. The constructor of any class you derive from <a class="el" href="class_mode_handler.html">ModeHandler</a> should probably call this constructor with the parameters set correctly. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
+    <tr><td class="paramname">me</td><td>The module which created this mode </td></tr>
     <tr><td class="paramname">name</td><td>A one-word name for the mode </td></tr>
     <tr><td class="paramname">modeletter</td><td>The mode letter you wish to handle </td></tr>
     <tr><td class="paramname">params</td><td>Parameters taken by the mode </td></tr>
@@ -300,8 +266,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>allow, deny, or passthru to check against the required level </dd></dl>
-
-<p>Reimplemented in <a class="el" href="class_chan_protect.html#a36b4ae102ee2665d689d75c42b989ae5">ChanProtect</a>, <a class="el" href="class_network_prefix.html#ad72220892bf2b1ba7913254bda4834f5">NetworkPrefix</a>, <a class="el" href="class_chan_founder.html#a22badc3564c77fa2fd5fc876a1b68bab">ChanFounder</a>, <a class="el" href="class_auto_op_list.html#a4dccc90971ec1cb72976f01668829e87">AutoOpList</a>, <a class="el" href="class_custom_prefix_mode.html#ae9f728cc9ec881b033753ca797526211">CustomPrefixMode</a>, and <a class="el" href="class_mode_channel_half_op.html#a036953942eb5ed6a29d7ca5404417e17">ModeChannelHalfOp</a>.</p>
 
 </div>
 </div>
@@ -371,8 +335,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_list_mode_base.html#a2b05af1e7fdef32f2ea8afba0f637ce8">ListModeBase</a>, and <a class="el" href="class_mode_channel_ban.html#a42e48a17c1fddad65946da8488fefbfd">ModeChannelBan</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a76d8967ba9df890d877f1c3af8fa9528"></a>
@@ -414,8 +376,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Reimplemented in <a class="el" href="class_chan_protect.html#a635ee397aa4c0e893aa7b4a6747c4ea2">ChanProtect</a>, <a class="el" href="class_chan_founder.html#ace237d3757814785f34283788c3fa387">ChanFounder</a>, <a class="el" href="class_list_mode_base.html#a177f2cdfbb963c21a1d6dacb093fbaa8">ListModeBase</a>, and <a class="el" href="class_mode_channel_ban.html#a67a4f071af8a829e4bb7f74811b758a8">ModeChannelBan</a>.</p>
 
 </div>
 </div>
@@ -538,8 +498,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Get the 'value' of this modes prefix. determines which to display when there are multiple. The mode with the highest value is ranked first. See the PrefixModeValue enum and <a class="el" href="class_channel.html#ae14d9dbe1700bec3b9e40265f67cdd77">Channel::GetPrefixValue()</a> for more information. </p>
 
-<p>Reimplemented in <a class="el" href="class_chan_protect.html#aa039260bb2e58e278039bea44ba53727">ChanProtect</a>, <a class="el" href="class_network_prefix.html#a847e578d2b36f31ed11491f47b77b908">NetworkPrefix</a>, <a class="el" href="class_chan_founder.html#abb2eef5693980aaa42e8c894fea9a0b8">ChanFounder</a>, <a class="el" href="class_custom_prefix_mode.html#ad64f591cb0989d5004e64b0a1a29921c">CustomPrefixMode</a>, <a class="el" href="class_oper_prefix_mode.html#ac8dd0775968a546ebd43a1c02d245acd">OperPrefixMode</a>, <a class="el" href="class_mode_channel_op.html#a6ac3a3c5ea9c87747c28ff1f2dc2f479">ModeChannelOp</a>, <a class="el" href="class_mode_channel_voice.html#afc61e4dd40649b1b02a632476ccc89d1">ModeChannelVoice</a>, and <a class="el" href="class_mode_channel_half_op.html#a994fb5f6c13573803337f3136e474e82">ModeChannelHalfOp</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="afe4b6dd056cade19e6aa2db83f27c93e"></a>
@@ -588,8 +546,6 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>For user modes, return the current parameter, if any </p>
-
-<p>Reimplemented in <a class="el" href="class_mode_user_server_notice_mask.html#a54d8acb394be4da2a111dd266808c976">ModeUserServerNoticeMask</a>.</p>
 
 </div>
 </div>
@@ -695,7 +651,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>MODEACTION_ALLOW to allow the mode, or MODEACTION_DENY to prevent the mode, also see the description of 'parameter'. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_param_channel_mode_handler.html#a70b59a786b5ad6f1d4a729788c22df86">ParamChannelModeHandler</a>, <a class="el" href="class_simple_channel_mode_handler.html#a7af32f4f2e6f5be2badb8fb1e0e9271d">SimpleChannelModeHandler</a>, <a class="el" href="class_simple_user_mode_handler.html#a03c47b1d1449a7e075f8b40b160d3c11">SimpleUserModeHandler</a>, <a class="el" href="class_chan_protect.html#a3f5aa0f51621a16be3ebb55ae6c141b0">ChanProtect</a>, <a class="el" href="class_list_mode_base.html#a72c6f1a6d5e53a8450ee4234efa7abb2">ListModeBase</a>, <a class="el" href="class_chan_founder.html#a152a16782e0f8e8a5976e7a6473e2433">ChanFounder</a>, <a class="el" href="class_network_prefix.html#a9a986c63d79e7e13cc4873d8add03526">NetworkPrefix</a>, <a class="el" href="class_perm_channel.html#a52e62ec213d71c10537b6ba4921d7395">PermChannel</a>, <a class="el" href="class_nick_flood.html#aeda1536da047e876314c01c56188eb56">NickFlood</a>, <a class="el" href="class_join_flood.html#ab65ce10b50615525487e9adf2f013e83">JoinFlood</a>, <a class="el" href="class_msg_flood.html#a4bbc5decb785111cc25c3647a8ce6d41">MsgFlood</a>, <a class="el" href="class_custom_prefix_mode.html#a2dde8963ec8c08a58fb0108f4f039f58">CustomPrefixMode</a>, <a class="el" href="class_user__r.html#a33b501a002166edfdbd6e2f7125bddef">User_r</a>, <a class="el" href="class_cloak_user.html#a3a940144dc89046bede99584d1d0d67d">CloakUser</a>, <a class="el" href="class_history_mode.html#aee8d46e53161a6cfab155666501dcd16">HistoryMode</a>, <a class="el" href="class_kick_rejoin.html#acca406f6f5e49a8d78f618b3b9531d3a">KickRejoin</a>, <a class="el" href="class_oper_prefix_mode.html#ac089cb59bf1b1ce6e31157b812ff250e">OperPrefixMode</a>, <a class="el" href="class_delay_msg_mode.html#a5dcde08ca6c4d62e4d544a39d92ad622">DelayMsgMode</a>, <a class="el" href="class_helpop.html#a486a803d9d682677173415ac02e423c0">Helpop</a>, <a class="el" href="class_see_whois.html#af3071585e4498077518f30e17a70be89">SeeWhois</a>, <a class="el" href="class_delay_join_mode.html#a561bec7452f1dacfed57d1e71a46b3ae">DelayJoinMode</a>, <a class="el" href="class_hide_oper.html#a2f721d7055602f906268916aa5a31b02">HideOper</a>, <a class="el" href="class_channel__r.html#ad3a1c1d10b190e80d48991ca8ddb73f3">Channel_r</a>, <a class="el" href="class_s_s_l_mode.html#ab83ccbac54fdb894168b9366a8d319f9">SSLMode</a>, <a class="el" href="class_auditorium_mode.html#a1692c18f0e130ed270a029ce371469ee">AuditoriumMode</a>, <a class="el" href="class_redirect.html#a5c1029d0c55216dc1c73a4b9dd0793f7">Redirect</a>, <a class="el" href="class_user__d.html#aa0308c2e905ace23588c7af2f5b15a3d">User_d</a>, <a class="el" href="class_oper_chans.html#a434cdd92e4c599978b04e3732f7f3b84">OperChans</a>, <a class="el" href="class_serv_protect_mode.html#a2efe987da232cfd16b89dc613f558f9c">ServProtectMode</a>, <a class="el" href="class_mode_channel_ban.html#a1fcd48081cf7560d853ffb2973d39dbc">ModeChannelBan</a>, <a class="el" href="class_hide_chans.html#af1ba10a0a4aa710de223f9615663e255">HideChans</a>, <a class="el" href="class_mode_channel_op.html#a5a340d2619757f9146351492f13fa8c5">ModeChannelOp</a>, <a class="el" href="class_mode_channel_voice.html#a84ebfa92fccf61006d60d27150036f0a">ModeChannelVoice</a>, <a class="el" href="class_privacy_mode.html#a08a096a815d56364378ab3af7dc37897">PrivacyMode</a>, <a class="el" href="class_mode_user_server_notice_mask.html#a858fc69a8d7f7baf5777c30a2d16f0c3">ModeUserServerNoticeMask</a>, <a class="el" href="class_mode_channel_key.html#a377965fa5a48caadc911b0cc54f4e8a9">ModeChannelKey</a>, <a class="el" href="class_mode_user_operator.html#a4984728bab4ea083e96a99e51b8d04f3">ModeUserOperator</a>, and <a class="el" href="class_mode_channel_half_op.html#ad3fe041982b7910a7aeb9f32fcf26a72">ModeChannelHalfOp</a>.</p>
+<p>Reimplemented in <a class="el" href="class_param_channel_mode_handler.html#a70b59a786b5ad6f1d4a729788c22df86">ParamChannelModeHandler</a>, <a class="el" href="class_simple_channel_mode_handler.html#a7af32f4f2e6f5be2badb8fb1e0e9271d">SimpleChannelModeHandler</a>, and <a class="el" href="class_simple_user_mode_handler.html#a03c47b1d1449a7e075f8b40b160d3c11">SimpleUserModeHandler</a>.</p>
 
 </div>
 </div>
@@ -746,8 +702,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_mode_user_server_notice_mask.html#a6fb6613d0075d1cfdf933b7f14031390">ModeUserServerNoticeMask</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="abf5a0332e07fae1b203c9eea5119c389"></a>
@@ -784,13 +738,12 @@ Additional Inherited Members</h2></td></tr>
 <p>When a MODETYPE_USER mode handler is being removed, the server will call this method for every user on the server. Your mode handler should remove its user mode from the user by sending the appropriate server modes using <a class="el" href="class_insp_i_r_cd.html#aac1342cc335139076ef94ccceb69cff6">InspIRCd::SendMode()</a>. The default implementation of this method can remove simple modes which have no parameters, and can be used when your mode is of this type, otherwise you must implement a more advanced version of it to remove your mode properly from each user. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user</td><td>The user which the server wants to remove your mode from</td></tr>
+    <tr><td class="paramname">user</td><td>The user which the server wants to remove your mode from </td></tr>
+    <tr><td class="paramname">stack</td><td>The mode stack to add the mode change to</td></tr>
   </table>
   </dd>
 </dl>
 <p>This default implementation can remove simple user modes </p>
-
-<p>Reimplemented in <a class="el" href="class_chan_protect.html#a9eb233f42961d44e164985ccbad78262">ChanProtect</a>, <a class="el" href="class_list_mode_base.html#af927a4f33cb00a430499be6fc48d21a3">ListModeBase</a>, <a class="el" href="class_network_prefix.html#a7f39109268d13828d6960ad6e36da685">NetworkPrefix</a>, <a class="el" href="class_chan_founder.html#a70bf68402b52fe453be751e303550567">ChanFounder</a>, <a class="el" href="class_custom_prefix_mode.html#a78ab5eac5778d31c456a8e41d5108b5e">CustomPrefixMode</a>, <a class="el" href="class_mode_channel_ban.html#acdbfd924c88c053ef9dc3934be538e23">ModeChannelBan</a>, <a class="el" href="class_mode_channel_op.html#a32f511b0fb8d35c754d71fb8c91e3fff">ModeChannelOp</a>, <a class="el" href="class_mode_channel_voice.html#ac6b33b68ac49941196cb596f03c16b58">ModeChannelVoice</a>, <a class="el" href="class_mode_channel_key.html#aa002b68655fa9efe72f25095d02bb704">ModeChannelKey</a>, and <a class="el" href="class_mode_channel_half_op.html#aa6fed36f27332fe68a54a738279e4979">ModeChannelHalfOp</a>.</p>
 
 </div>
 </div>
@@ -828,13 +781,12 @@ Additional Inherited Members</h2></td></tr>
 <p>When a MODETYPE_CHANNEL mode handler is being removed, the server will call this method for every channel on the server. Your mode handler should remove its user mode from the channel by sending the appropriate server modes using <a class="el" href="class_insp_i_r_cd.html#aac1342cc335139076ef94ccceb69cff6">InspIRCd::SendMode()</a>. The default implementation of this method can remove simple modes which have no parameters, and can be used when your mode is of this type, otherwise you must implement a more advanced version of it to remove your mode properly from each channel. Note that in the case of listmodes, you should remove the entire list of items. </p>
 <dl class="params"><dt>Parameters:</dt><dd>
   <table class="params">
-    <tr><td class="paramname">channel</td><td>The channel which the server wants to remove your mode from</td></tr>
+    <tr><td class="paramname">channel</td><td>The channel which the server wants to remove your mode from </td></tr>
+    <tr><td class="paramname">stack</td><td>The mode stack to add the mode change to</td></tr>
   </table>
   </dd>
 </dl>
 <p>This default implementation can remove simple channel modes (no parameters) </p>
-
-<p>Reimplemented in <a class="el" href="class_chan_protect.html#a1b656089dd5420539e4f8bccec2720d1">ChanProtect</a>, <a class="el" href="class_list_mode_base.html#a1cf57132b15f5587b5f8cb0e513a59bc">ListModeBase</a>, <a class="el" href="class_chan_founder.html#a621955c8765c5f6fa029782a43f680b6">ChanFounder</a>, <a class="el" href="class_network_prefix.html#a4f973c64eca20b4ea76d0bedeee7427e">NetworkPrefix</a>, <a class="el" href="class_custom_prefix_mode.html#ad29698f4cb488255bec814723ce7c9bf">CustomPrefixMode</a>, <a class="el" href="class_mode_channel_ban.html#a862846986e1592d0b91177ad44645112">ModeChannelBan</a>, <a class="el" href="class_mode_channel_voice.html#a99dac2c44a625271ce5c2c6ce1c07972">ModeChannelVoice</a>, <a class="el" href="class_mode_channel_op.html#a56be603d05d2884b89afa931ba5acb19">ModeChannelOp</a>, <a class="el" href="class_mode_channel_key.html#a1552659c817814ff154f735273b5b915">ModeChannelKey</a>, and <a class="el" href="class_mode_channel_half_op.html#acf3145e8723477d6e8ec5c270e63c2c2">ModeChannelHalfOp</a>.</p>
 
 </div>
 </div>
@@ -885,8 +837,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>True if the other side wins the merge, false if we win the merge for this mode. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="class_delay_msg_mode.html#a9c15820927f85cf600ce1456c5dbc2f7">DelayMsgMode</a>, and <a class="el" href="class_mode_channel_limit.html#ab60f63b54602e4bbb20c86dd0338abae">ModeChannelLimit</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['wholistsme',['wholistsme',['../classcallerid__data.html#a43379f921f3ecc96d1bda5761e6702eb',1,'callerid_data']]],
   ['whowasgroupsize',['WhoWasGroupSize',['../class_server_config.html#a2854d388d544d99522f5c7c0f4b5999f',1,'ServerConfig']]],
   ['whowasmaxgroups',['WhoWasMaxGroups',['../class_server_config.html#a05d7c7416d0c3809170bf473a14f9638',1,'ServerConfig']]],
   ['whowasmaxkeep',['WhoWasMaxKeep',['../class_server_config.html#abe4c7503aed1619fa0dd961b48d51f6f',1,'ServerConfig']]],

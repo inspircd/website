@@ -99,16 +99,12 @@ Inheritance diagram for XLine:</div>
  <div class="center">
   <img src="class_x_line.png" usemap="#XLine_map" alt=""/>
   <map id="XLine_map" name="XLine_map">
-<area href="classclassbase.html" alt="classbase" shape="rect" coords="0,0,68,24"/>
-<area href="class_c_ban.html" alt="CBan" shape="rect" coords="78,112,146,136"/>
-<area href="class_e_line.html" alt="ELine" shape="rect" coords="78,168,146,192"/>
-<area href="class_g_line.html" alt="GLine" shape="rect" coords="78,224,146,248"/>
-<area href="class_k_line.html" alt="KLine" shape="rect" coords="78,280,146,304"/>
-<area href="class_q_line.html" alt="QLine" shape="rect" coords="78,336,146,360"/>
-<area href="class_r_line.html" alt="RLine" shape="rect" coords="78,392,146,416"/>
-<area href="class_shun.html" alt="Shun" shape="rect" coords="78,448,146,472"/>
-<area href="class_s_v_s_hold.html" alt="SVSHold" shape="rect" coords="78,504,146,528"/>
-<area href="class_z_line.html" alt="ZLine" shape="rect" coords="78,560,146,584"/>
+<area href="classclassbase.html" alt="classbase" shape="rect" coords="156,0,224,24"/>
+<area href="class_e_line.html" alt="ELine" shape="rect" coords="0,112,68,136"/>
+<area href="class_g_line.html" alt="GLine" shape="rect" coords="78,112,146,136"/>
+<area href="class_k_line.html" alt="KLine" shape="rect" coords="156,112,224,136"/>
+<area href="class_q_line.html" alt="QLine" shape="rect" coords="234,112,302,136"/>
+<area href="class_z_line.html" alt="ZLine" shape="rect" coords="312,112,380,136"/>
 </map>
  </div></div>
 
@@ -264,7 +260,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_q_line.html#a52dfc4cca20f07aaf7685db5849144d2">QLine</a>, <a class="el" href="class_z_line.html#acdafd832c8f27ddfe50df1e99e5fb0e4">ZLine</a>, <a class="el" href="class_g_line.html#a45178ed4f49497223104fd0aa5b02d31">GLine</a>, <a class="el" href="class_k_line.html#a62f433e0d10097a0a42449d422fabb42">KLine</a>, and <a class="el" href="class_r_line.html#a2449cfa538866570b53d27767c914ebd">RLine</a>.</p>
+<p>Reimplemented in <a class="el" href="class_q_line.html#a52dfc4cca20f07aaf7685db5849144d2">QLine</a>, <a class="el" href="class_z_line.html#acdafd832c8f27ddfe50df1e99e5fb0e4">ZLine</a>, <a class="el" href="class_g_line.html#a45178ed4f49497223104fd0aa5b02d31">GLine</a>, and <a class="el" href="class_k_line.html#a62f433e0d10097a0a42449d422fabb42">KLine</a>.</p>
 
 </div>
 </div>
@@ -337,9 +333,9 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the displayable form of the pattern for this xline, e.g. '*' or '<em>baz</em>'. This must always return the full pattern in a form which can be used to construct an entire derived xline, even if it is stored differently internally (e.g. <a class="el" href="class_g_line.html">GLine</a> stores the ident and host parts seperately but will still return ident for its <a class="el" href="class_x_line.html#a9f1d93e124dbb57a1c43d48f54ca85c2">Displayable()</a> method) </p>
+<p>Returns the displayable form of the pattern for this xline, e.g. '*@foo' or '<em>baz</em>'. This must always return the full pattern in a form which can be used to construct an entire derived xline, even if it is stored differently internally (e.g. <a class="el" href="class_g_line.html">GLine</a> stores the ident and host parts seperately but will still return ident@host for its <a class="el" href="class_x_line.html#a9f1d93e124dbb57a1c43d48f54ca85c2">Displayable()</a> method) </p>
 
-<p>Implemented in <a class="el" href="class_q_line.html#a95a1ee0faa115600056fffc5e03c44f9">QLine</a>, <a class="el" href="class_z_line.html#a0011255e99af252c0d7374867b053c50">ZLine</a>, <a class="el" href="class_e_line.html#a3a98db1e1abda1097943b8f0acb2d231">ELine</a>, <a class="el" href="class_g_line.html#aef75110a6852ada6b8f354420ba5f5ef">GLine</a>, <a class="el" href="class_k_line.html#aeac073bd82a701bb4abb37c61cf2efe1">KLine</a>, <a class="el" href="class_r_line.html#ae6933a24366cc1dac9e7253dd2e01afb">RLine</a>, <a class="el" href="class_shun.html#ad55afcc1b41d6040dee6526b31f7c090">Shun</a>, <a class="el" href="class_s_v_s_hold.html#afe22785576f7fe7db97ddf0a973d8bbe">SVSHold</a>, and <a class="el" href="class_c_ban.html#a64622c5ce62f9c274d51608b742c752e">CBan</a>.</p>
+<p>Implemented in <a class="el" href="class_q_line.html#a95a1ee0faa115600056fffc5e03c44f9">QLine</a>, <a class="el" href="class_z_line.html#a0011255e99af252c0d7374867b053c50">ZLine</a>, <a class="el" href="class_e_line.html#a3a98db1e1abda1097943b8f0acb2d231">ELine</a>, <a class="el" href="class_g_line.html#aef75110a6852ada6b8f354420ba5f5ef">GLine</a>, and <a class="el" href="class_k_line.html#aeac073bd82a701bb4abb37c61cf2efe1">KLine</a>.</p>
 
 </div>
 </div>
@@ -365,7 +361,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Called when the expiry message is to be displayed for the line. Usually a line in the form 'expiring Xline blah, set by...' see the DisplayExpiry methods of <a class="el" href="class_g_line.html">GLine</a>, <a class="el" href="class_e_line.html">ELine</a> etc. </p>
 
-<p>Implemented in <a class="el" href="class_q_line.html#ae137bc99947c66b28a2f2e5289a6f570">QLine</a>, <a class="el" href="class_z_line.html#a100d29783c6c268cfad44ced9408ce77">ZLine</a>, <a class="el" href="class_e_line.html#a1dae066e65781464be1c8f65e4c81e0d">ELine</a>, <a class="el" href="class_g_line.html#adccdef38560e61bf446f5a4825753db5">GLine</a>, <a class="el" href="class_k_line.html#adeab1d14ab8a9e75b4808eef7506d640">KLine</a>, <a class="el" href="class_r_line.html#a01d72ece7def8a146956de41f0718561">RLine</a>, <a class="el" href="class_shun.html#a7e3beb34cc3c740c097e4d20527d6daa">Shun</a>, <a class="el" href="class_s_v_s_hold.html#ae7ed6973e55d9a8c78e8672fc243a222">SVSHold</a>, and <a class="el" href="class_c_ban.html#aae069c7840370ee3c6d9edea3ff7fb1f">CBan</a>.</p>
+<p>Implemented in <a class="el" href="class_q_line.html#ae137bc99947c66b28a2f2e5289a6f570">QLine</a>, <a class="el" href="class_z_line.html#a100d29783c6c268cfad44ced9408ce77">ZLine</a>, <a class="el" href="class_e_line.html#a1dae066e65781464be1c8f65e4c81e0d">ELine</a>, <a class="el" href="class_g_line.html#adccdef38560e61bf446f5a4825753db5">GLine</a>, and <a class="el" href="class_k_line.html#adeab1d14ab8a9e75b4808eef7506d640">KLine</a>.</p>
 
 </div>
 </div>
@@ -399,7 +395,7 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>True if there is a match. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_q_line.html#a7853bc687931c6a408305a83fc4c0ea3">QLine</a>, <a class="el" href="class_z_line.html#af3b5b92a380e954174b4be6b6bad90e0">ZLine</a>, <a class="el" href="class_e_line.html#a2be3512260261b9edeced0bad99db12e">ELine</a>, <a class="el" href="class_g_line.html#a4a5f01cac9582dcb80d3a4b235153971">GLine</a>, <a class="el" href="class_k_line.html#a9208aa65ea6ba990600b4a487242d4fb">KLine</a>, <a class="el" href="class_r_line.html#a9189454d9642237dfff4001d4ec93757">RLine</a>, <a class="el" href="class_c_ban.html#a81801c4535b19fd5fd6d4b1da16a2662">CBan</a>, <a class="el" href="class_s_v_s_hold.html#a604867fc1e3623ae5be59c6a16cf72a1">SVSHold</a>, and <a class="el" href="class_shun.html#a9a4c40772dea488c062044a00e1c952f">Shun</a>.</p>
+<p>Implemented in <a class="el" href="class_q_line.html#a7853bc687931c6a408305a83fc4c0ea3">QLine</a>, <a class="el" href="class_z_line.html#af3b5b92a380e954174b4be6b6bad90e0">ZLine</a>, <a class="el" href="class_e_line.html#a2be3512260261b9edeced0bad99db12e">ELine</a>, <a class="el" href="class_g_line.html#a4a5f01cac9582dcb80d3a4b235153971">GLine</a>, and <a class="el" href="class_k_line.html#a9208aa65ea6ba990600b4a487242d4fb">KLine</a>.</p>
 
 </div>
 </div>
@@ -433,7 +429,7 @@ Protected Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns:</dt><dd>True if there is a match </dd></dl>
 
-<p>Implemented in <a class="el" href="class_q_line.html#aa08a0ed0b2ac4897c2ef53d30b6ed00a">QLine</a>, <a class="el" href="class_z_line.html#a5e862eb93cb8d0fb459b9753b33b193d">ZLine</a>, <a class="el" href="class_e_line.html#a26f7ddf18a2e59137af26290cf5ff2a2">ELine</a>, <a class="el" href="class_g_line.html#a889bbff08c3446a60ee364d2c6903ebe">GLine</a>, <a class="el" href="class_k_line.html#a507b18788ea245430d7ca184b72237e1">KLine</a>, <a class="el" href="class_r_line.html#a302e32701bd449570294e2d7e32002c4">RLine</a>, <a class="el" href="class_shun.html#adf0b3b7164d8e1e63c20952c3fac8b59">Shun</a>, <a class="el" href="class_s_v_s_hold.html#a4dbd15d037bbc730f491410ef98e56b2">SVSHold</a>, and <a class="el" href="class_c_ban.html#aa26f4daed247d6d64eaa368c56cf85a6">CBan</a>.</p>
+<p>Implemented in <a class="el" href="class_q_line.html#aa08a0ed0b2ac4897c2ef53d30b6ed00a">QLine</a>, <a class="el" href="class_z_line.html#a5e862eb93cb8d0fb459b9753b33b193d">ZLine</a>, <a class="el" href="class_e_line.html#a26f7ddf18a2e59137af26290cf5ff2a2">ELine</a>, <a class="el" href="class_g_line.html#a889bbff08c3446a60ee364d2c6903ebe">GLine</a>, and <a class="el" href="class_k_line.html#a507b18788ea245430d7ca184b72237e1">KLine</a>.</p>
 
 </div>
 </div>
