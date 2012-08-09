@@ -15,7 +15,7 @@ footer
 	text-align: center;
 }
 
-p, pre
+h1, h2, h3, h4, h5, h6, p, pre
 {
 	padding-left: 1em;
 	padding-right: 1em;
