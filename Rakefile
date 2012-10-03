@@ -1,111 +1,105 @@
-# ==============================================================================
-# InspIRCd Website (C) 2012 InspIRCd Development Team
-# ==============================================================================
-# This program is free but copyrighted software; see the file LICENSE.txt for
+#
+# InspIRCd -- Internet Relay Chat Daemon
+#
+#   Copyright (C) 2012 Peter Powell <petpow@saberuk.com>
+#
+# This file is part of InspIRCd.  InspIRCd is free software: you can
+# redistribute it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation, version 2.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
 # details.
-# ==============================================================================
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
 
 require 'rubygems' if RUBY_VERSION < '1.9'
 require 'rake'
 
-# Helpers
-def ask(message)
-	print message
-	return STDIN.gets.chomp
-end
-
-def compress(type, sources)
-	require 'yui/compressor'
-	compressor = case type
-	when :css
-		YUI::CssCompressor.new
-	when :js
-		YUI::JavaScriptCompressor.new
-	else
-		fail 'Invalid compression type.'
-	end
-	sources.each do |source|
-		destination = source.gsub('.', '.min.')
-		puts "Minifying #{source} to #{destination}.."
-		source_data = File.read(source)
-		min_source_data = compressor.compress(source_data)
-		File.open(destination, 'w') do |file|
-			file.write(min_source_data)
-		end
-	end
-end
-
-def download(uri)
-	require 'uri'
-	require 'net/https'
-	uri = URI.parse(uri)
-	http = Net::HTTP.new(uri.host, uri.port)
-	http.use_ssl = (uri.port == 443)
-	http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-	request = Net::HTTP::Get.new(uri.request_uri)
-	response = http.request(request)
-	return response.code == 200 ? response.body : nil
-end
-
-def template(source, *variables)
-	require 'erubis'
-	input = File.read(source)
-	eruby = Erubis::Eruby.new(input)
-	return eruby.evaluate(*variables)
-end
-
-# Tasks
 task :default do
-	print `rake --tasks`
+	system($PROGRAM_NAME, '--tasks')
 end
 
-desc 'Minify CSS/JavaScript resources (requires YUI Compressor)'
+desc 'Minify the site resources'
 task :minify do
-	compressed_files = Dir['assets/stylesheets/*.min.css'] + Dir['assets/javascripts/*.min.js']
-	compressed_files.each do |file|
-		puts "Deleting old file: #{file}"
-		File.delete(file)
+	begin
+		Gem::Specification.find_by_name('yui-compressor')
+		require 'yui/compressor'
+	rescue Gem::LoadError
+		puts 'You are missing the yui-compressor gem. Install it using:'
+		puts "\t$ [sudo] gem install yui-compressor"
+		exit 1
 	end
-	compress(:css, Dir['assets/stylesheets/*.css'])
-	compress(:js, Dir['assets/javascripts/*.js'])
+	Dir['assets/{javascripts,stylesheets}/*.min.{css,js}'].each do |asset|
+		File.delete(asset)
+		puts "Purged #{asset}!"
+	end		
+	Dir['assets/{javascripts,stylesheets}/*.{css,js}'].each do |asset|
+		compressor = File.extname(asset) == '.css' ? YUI::CssCompressor.new : YUI::JavaScriptCompressor.new
+		minified_source = compressor.compress(File.read(asset))
+		File.open(asset.gsub('.', '.min.'), 'w') do |file|
+			file.write(minified_source)
+		end
+		puts "Minified #{asset}!"
+	end	
 end
 
-desc 'Create a new post template (requires Erubis)'
+desc 'Create a new post'
 task :post do
-	author = ENV['USER'] || ENV['USERNAME']
-	title = ask('Post title: ')
-	result = template('_templates/post.erb', :author => author, :title => title)
-	slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, nil.to_s)
+	print 'Post title: '
+	title = STDIN.gets.chomp
+	author = ENV['USER'] || ENV['USERNAME'] || 'Anonymous Coward'
+	template = File.read('_templates/post.md')
+	template.gsub!('<<title>>', title)
+	template.gsub!('<<author>>', author)
+	slug = title.downcase.gsub(' ', '-').gsub(/[^\w-]/, '')
 	date = Time.now.strftime('%Y-%m-%d')
 	destination = "_posts/#{date}-#{slug}.md"
 	File.open(destination, 'w') do |file|
-		file.write(result)
+		file.write(template)	
 	end
 	editor = ENV['EDITOR'] || 'nano'
-	system "#{editor} #{destination}"
+	system editor, destination
 end
 
-desc 'Launch preview environment (requires Jekyll)'
+desc 'Launch the preview environment'
 task :preview do
-	system "jekyll --auto --server"
+	begin
+		jekyll = Gem.bin_path('jekyll', 'jekyll')
+	rescue Gem::GemNotFoundException
+		puts 'You are missing the jekyll gem. Install it using:'
+		puts "\t$ [sudo] gem install jekyll"
+		exit 1
+	end
+	system jekyll, '--auto', '--server'
 end
 
-desc 'Update third party resources (requires OpenSSL)'
+desc 'Update the third party resources'
 task :update do
-	puts 'Updating third party resources..'
- 	resources = {
+	require 'net/http'
+	require 'uri'
+	resources = {
 		'https://raw.github.com/necolas/normalize.css/master/normalize.css' => 'assets/stylesheets/normalize.css',
 		'http://modernizr.com/downloads/modernizr-latest.js' => 'assets/javascripts/modernizr.js'
 	}.freeze
 	resources.each do |source, target|
-		source_contents = download(source)
-		target_contents = File.exist?(target) ? File.read(target) : nil.to_s
-		if source_contents != nil && source_contents != target_contents
-			puts "Updated #{target}!"
-			File.open(target, 'w') do |file|
-				file.write(source_contents)
+		uri = URI.parse(source)
+		http = Net::HTTP.new(uri.host, uri.port)
+		http.use_ssl = true if uri.scheme == "https"
+		response = http.get(uri.path)
+		if response.code == '200'
+			target_contents = File.read(target)
+			if target_contents != response.body
+				File.open(target, 'w') do |file|
+					file.write(response.body)
+				end
+				puts "Updated #{target}!"
 			end
-		end
+		else
+			puts "Warning: #{source} returned HTTP #{response.code}: #{response.message}!"	
+		end  	
 	end
-	puts 'Update complete.'
 end
