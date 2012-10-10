@@ -1,6 +1,7 @@
 var searchData=
 [
   ['waitforqueue',['WaitForQueue',['../class_queued_thread.html#a8f1d0698abbe16c76c4451d6f9d884aa',1,'QueuedThread::WaitForQueue()'],['../class_socket_thread.html#adf51a81b3f1f952bd63060df47ce272c',1,'SocketThread::WaitForQueue()']]],
+  ['welcomenotice',['WelcomeNotice',['../class_server_config.html#ad3cb121d2bc0dead6feb294c1b0ebb3f',1,'ServerConfig']]],
   ['whowasgroupsize',['WhoWasGroupSize',['../class_server_config.html#a2854d388d544d99522f5c7c0f4b5999f',1,'ServerConfig']]],
   ['whowasmaxgroups',['WhoWasMaxGroups',['../class_server_config.html#a05d7c7416d0c3809170bf473a14f9638',1,'ServerConfig']]],
   ['whowasmaxkeep',['WhoWasMaxKeep',['../class_server_config.html#abe4c7503aed1619fa0dd961b48d51f6f',1,'ServerConfig']]],

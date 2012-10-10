@@ -69,7 +69,7 @@ var searchData=
   ['getserverdescription',['GetServerDescription',['../class_insp_i_r_cd.html#a4479244807fc14c6cddc55a9d555cecf',1,'InspIRCd']]],
   ['getserverlist',['GetServerList',['../class_protocol_interface.html#a44c19deca4862205c684e5cbc3a637b8',1,'ProtocolInterface']]],
   ['getserverport',['GetServerPort',['../class_local_user.html#acffd61c7e12f5ea8482420f9da83af80',1,'LocalUser']]],
-  ['getsid',['GetSID',['../class_server_config.html#a98493a480f4aab75839736a777a3bc58',1,'ServerConfig']]],
+  ['getsid',['GetSID',['../class_server_config.html#aa924c18cead754d0165f431c60d9f07c',1,'ServerConfig']]],
   ['getstackedline',['GetStackedLine',['../classirc_1_1modestacker.html#ab9db7e4fca784ea0162b613d04a6f078',1,'irc::modestacker::GetStackedLine(std::vector&lt; std::string &gt; &amp;result, int max_line_size=360)'],['../classirc_1_1modestacker.html#a1149070bd69c381da4a25d1808828fb7',1,'irc::modestacker::GetStackedLine(std::deque&lt; std::string &gt; &amp;result, int max_line_size=360)']]],
   ['getstats',['GetStats',['../class_socket_engine.html#adf7e56c7176ec5ab5a7836ae14c74e1f',1,'SocketEngine']]],
   ['getstring',['getString',['../class_config_tag.html#a0e5f762843a74bdbb6de65cb134df58c',1,'ConfigTag']]],

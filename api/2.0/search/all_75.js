@@ -22,7 +22,7 @@ var searchData=
   ['user',['User',['../class_user.html',1,'User'],['../class_user.html#a9fbd4d37951bfbed06010918882408a6',1,'User::User()']]],
   ['usercount',['UserCount',['../class_user_manager.html#a7a6bea1be30e42b0fab5426cb252aded',1,'UserManager']]],
   ['useriohandler',['UserIOHandler',['../class_user_i_o_handler.html',1,'']]],
-  ['userlist',['UserList',['../class_channel.html#ab55be6ed194ed1705182cf3be4ff0987',1,'Channel::UserList(User *user)'],['../class_channel.html#a2d589e1226cbe5ec8fafe8a6810d9b12',1,'Channel::userlist()']]],
+  ['userlist',['userlist',['../class_channel.html#a2d589e1226cbe5ec8fafe8a6810d9b12',1,'Channel::userlist()'],['../class_channel.html#ab55be6ed194ed1705182cf3be4ff0987',1,'Channel::UserList(User *user)']]],
   ['usermanager',['UserManager',['../class_user_manager.html',1,'']]],
   ['usermodelist',['UserModeList',['../class_mode_parser.html#aeef3e02bc66063b47709812ad0196aff',1,'ModeParser']]],
   ['userresolver',['UserResolver',['../class_user_resolver.html',1,'UserResolver'],['../class_user_resolver.html#ac53737b0fe2b97afe424766a787d3701',1,'UserResolver::UserResolver()']]],

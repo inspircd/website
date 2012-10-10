@@ -8,6 +8,10 @@
        <Node>
         <Name>About</Name>
         <Path>md__r_e_a_d_m_e.html</Path>
+       </Node>
+       <Node>
+        <Name>Namespaces</Name>
+        <Path></Path>
         <Subnodes>
          <Node>
           <Name>Namespace List</Name>
@@ -48,6 +52,10 @@
           </Subnodes>
          </Node>
         </Subnodes>
+       </Node>
+       <Node>
+        <Name>Classes</Name>
+        <Path></Path>
         <Subnodes>
          <Node>
           <Name>Class List</Name>
@@ -3939,7 +3947,7 @@
              <Node>
               <Name>bind_tag</Name>
               <Path>class_listen_socket.html</Path>
-              <Anchor>a67c8db1cedca33a9e2226f8a8161f86e</Anchor>
+              <Anchor>a3e4fe7a909f0b3adc6df0da53b4d2d49</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4114,6 +4122,16 @@
               <Name>SetClass</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a1f3fc890c0439dd32b3c920ac572259c</Anchor>
+             </Node>
+             <Node>
+              <Name>SetClientIP</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>a8fdcc7a70eab5520f1704dc3141755fa</Anchor>
+             </Node>
+             <Node>
+              <Name>SetClientIP</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>a0eddbbb41fc0b410726c3997022ade93</Anchor>
              </Node>
              <Node>
               <Name>StartDNSLookup</Name>
@@ -4997,6 +5015,11 @@
               <Name>OnSetConnectClass</Name>
               <Path>class_module.html</Path>
               <Anchor>a5a7c6fc1a66af63568b6a69db294a0df</Anchor>
+             </Node>
+             <Node>
+              <Name>OnSetUserIP</Name>
+              <Path>class_module.html</Path>
+              <Anchor>a3d9edd94c35056b40d076acf56c6afa0</Anchor>
              </Node>
              <Node>
               <Name>OnStats</Name>
@@ -6047,6 +6070,11 @@
               <Anchor>a49047c31512c6c3ed1bbcb6bae9b7fac</Anchor>
              </Node>
              <Node>
+              <Name>operator=</Name>
+              <Path>classreference.html</Path>
+              <Anchor>ac93f77df8986cf4a7986495cc65a0888</Anchor>
+             </Node>
+             <Node>
               <Name>operator&gt;</Name>
               <Path>classreference.html</Path>
               <Anchor>a21b693be0cd95c90252aae81421e4d6c</Anchor>
@@ -6314,11 +6342,50 @@
               <Name>InviteAnnounceState</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>INVITE_ANNOUNCE_NONE</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a179344e9fb91dae21b8331ecfe44ec69</Anchor>
+               </Node>
+               <Node>
+                <Name>INVITE_ANNOUNCE_ALL</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a3e71cde234a7aec7f4145baa4d7a29c4</Anchor>
+               </Node>
+               <Node>
+                <Name>INVITE_ANNOUNCE_OPS</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a56d45688c355073ca489d809a80e01b8</Anchor>
+               </Node>
+               <Node>
+                <Name>INVITE_ANNOUNCE_DYNAMIC</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a4eb8bde820f839c37576d4c516b24f04</Anchor>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>OperSpyWhoisState</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a0031a98e04e40a485c028c1a5c29aeed</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>SPYWHOIS_NONE</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a0031a98e04e40a485c028c1a5c29aeeda1e81be224015c81ae79fca77f851447d</Anchor>
+               </Node>
+               <Node>
+                <Name>SPYWHOIS_SINGLEMSG</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a0031a98e04e40a485c028c1a5c29aeeda1279a7ca0760585f37c8fb29cb9f4fa9</Anchor>
+               </Node>
+               <Node>
+                <Name>SPYWHOIS_SPLITMSG</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a0031a98e04e40a485c028c1a5c29aeeda7c50a447b43dc2cef2c5202e638198ce</Anchor>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>ServerConfig</Name>
@@ -6368,7 +6435,7 @@
              <Node>
               <Name>GetSID</Name>
               <Path>class_server_config.html</Path>
-              <Anchor>a98493a480f4aab75839736a777a3bc58</Anchor>
+              <Anchor>aa924c18cead754d0165f431c60d9f07c</Anchor>
              </Node>
              <Node>
               <Name>ProcessColors</Name>
@@ -6734,6 +6801,11 @@
               <Name>valid</Name>
               <Path>class_server_config.html</Path>
               <Anchor>ae2127f8fcf77f7e1663ace43e64e3082</Anchor>
+             </Node>
+             <Node>
+              <Name>WelcomeNotice</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>ad3cb121d2bc0dead6feb294c1b0ebb3f</Anchor>
              </Node>
              <Node>
               <Name>WhoWasGroupSize</Name>
@@ -8183,6 +8255,11 @@
               <Anchor>a7fb23dbf12bd82ab26fdde77ec7fb590</Anchor>
              </Node>
              <Node>
+              <Name>SetClientIP</Name>
+              <Path>class_user.html</Path>
+              <Anchor>adc937b4c081b764b6d7baaef58de1856</Anchor>
+             </Node>
+             <Node>
               <Name>SetMode</Name>
               <Path>class_user.html</Path>
               <Anchor>a8dbebc71012c9e761b870f5dd9851e69</Anchor>
@@ -8913,6 +8990,10 @@
          <Node>
           <Name>Class Index</Name>
           <Path>classes.html</Path>
+         </Node>
+         <Node>
+          <Name>Class Hierarchy</Name>
+          <Path>hierarchy.html</Path>
           <Subnodes>
            <Node>
             <Name>ActionList</Name>
@@ -8949,6 +9030,26 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>caller&lt; HandlerBase1&lt; bool, const char * &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller1&lt; bool, const char * &gt;</Name>
+              <Path>classcaller1.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>caller&lt; HandlerBase1&lt; bool, const std::string &amp; &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller1&lt; bool, const std::string &amp; &gt;</Name>
+              <Path>classcaller1.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>caller&lt; HandlerBase1&lt; ReturnType, Param1 &gt; &gt;</Name>
             <Path>classcaller.html</Path>
             <Subnodes>
@@ -8959,12 +9060,62 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>caller&lt; HandlerBase1&lt; void, const std::string &amp; &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller1&lt; void, const std::string &amp; &gt;</Name>
+              <Path>classcaller1.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>caller&lt; HandlerBase1&lt; void, User * &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller1&lt; void, User * &gt;</Name>
+              <Path>classcaller1.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>caller&lt; HandlerBase2&lt; bool, const char *, size_t &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller2&lt; bool, const char *, size_t &gt;</Name>
+              <Path>classcaller2.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>caller&lt; HandlerBase2&lt; ReturnType, Param1, Param2 &gt; &gt;</Name>
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
               <Name>caller2&lt; ReturnType, Param1, Param2 &gt;</Name>
               <Path>classcaller2.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>caller&lt; HandlerBase2&lt; void, char *, size_t &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller2&lt; void, char *, size_t &gt;</Name>
+              <Path>classcaller2.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>caller&lt; HandlerBase3&lt; ModResult, User *, Channel *, const std::string &amp; &gt; &gt;</Name>
+            <Path>classcaller.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>caller3&lt; ModResult, User *, Channel *, const std::string &amp; &gt;</Name>
+              <Path>classcaller3.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -9025,6 +9176,16 @@
              <Node>
               <Name>caller8&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7, Param8 &gt;</Name>
               <Path>classcaller8.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>char_traits</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>irc::irc_char_traits</Name>
+              <Path>structirc_1_1irc__char__traits.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -9120,6 +9281,10 @@
              </Node>
              <Node>
               <Name>HandlerBase0&lt; ReturnType &gt;</Name>
+              <Path>class_handler_base0.html</Path>
+             </Node>
+             <Node>
+              <Name>HandlerBase0&lt; void &gt;</Name>
               <Path>class_handler_base0.html</Path>
              </Node>
              <Node>
@@ -9373,16 +9538,6 @@
             <Path>class_command_parser.html</Path>
            </Node>
            <Node>
-            <Name>CoreException</Name>
-            <Path>class_core_exception.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ModuleException</Name>
-              <Path>class_module_exception.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>CullList</Name>
             <Path>class_cull_list.html</Path>
            </Node>
@@ -9413,6 +9568,22 @@
            <Node>
             <Name>DNSResult</Name>
             <Path>class_d_n_s_result.html</Path>
+           </Node>
+           <Node>
+            <Name>std::exception</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>CoreException</Name>
+              <Path>class_core_exception.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>ModuleException</Name>
+                <Path>class_module_exception.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>ExtensionManager</Name>
@@ -9493,10 +9664,6 @@
            <Node>
             <Name>IPC</Name>
             <Path>class_i_p_c.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::irc_char_traits</Name>
-            <Path>structirc_1_1irc__char__traits.html</Path>
            </Node>
            <Node>
             <Name>LogManager</Name>
@@ -9569,881 +9736,23 @@
             <Path>classreference.html</Path>
            </Node>
            <Node>
-            <Name>Resolver</Name>
-            <Path>class_resolver.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>UserResolver</Name>
-              <Path>class_user_resolver.html</Path>
-             </Node>
-            </Subnodes>
+            <Name>reference&lt; ConfigTag &gt;</Name>
+            <Path>classreference.html</Path>
            </Node>
            <Node>
-            <Name>ResourceRecord</Name>
-            <Path>struct_resource_record.html</Path>
+            <Name>reference&lt; ConnectClass &gt;</Name>
+            <Path>classreference.html</Path>
            </Node>
            <Node>
-            <Name>RouteDescriptor</Name>
-            <Path>struct_route_descriptor.html</Path>
+            <Name>reference&lt; ExtensionItem &gt;</Name>
+            <Path>classreference.html</Path>
            </Node>
            <Node>
-            <Name>irc::sepstream</Name>
-            <Path>classirc_1_1sepstream.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>irc::commasepstream</Name>
-              <Path>classirc_1_1commasepstream.html</Path>
-             </Node>
-             <Node>
-              <Name>irc::spacesepstream</Name>
-              <Path>classirc_1_1spacesepstream.html</Path>
-             </Node>
-            </Subnodes>
+            <Name>reference&lt; Module &gt;</Name>
+            <Path>classreference.html</Path>
            </Node>
            <Node>
-            <Name>ServerConfig</Name>
-            <Path>class_server_config.html</Path>
-           </Node>
-           <Node>
-            <Name>ServerLimits</Name>
-            <Path>class_server_limits.html</Path>
-           </Node>
-           <Node>
-            <Name>serverstats</Name>
-            <Path>classserverstats.html</Path>
-           </Node>
-           <Node>
-            <Name>Snomask</Name>
-            <Path>class_snomask.html</Path>
-           </Node>
-           <Node>
-            <Name>SnomaskManager</Name>
-            <Path>class_snomask_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::sockets::sockaddrs</Name>
-            <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-           </Node>
-           <Node>
-            <Name>SocketEngine</Name>
-            <Path>class_socket_engine.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>EPollEngine</Name>
-              <Path>class_e_poll_engine.html</Path>
-             </Node>
-             <Node>
-              <Name>KQueueEngine</Name>
-              <Path>class_k_queue_engine.html</Path>
-             </Node>
-             <Node>
-              <Name>PollEngine</Name>
-              <Path>class_poll_engine.html</Path>
-             </Node>
-             <Node>
-              <Name>PortsEngine</Name>
-              <Path>class_ports_engine.html</Path>
-             </Node>
-             <Node>
-              <Name>SelectEngine</Name>
-              <Path>class_select_engine.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>irc::StrHashComp</Name>
-            <Path>structirc_1_1_str_hash_comp.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::stringjoiner</Name>
-            <Path>classirc_1_1stringjoiner.html</Path>
-           </Node>
-           <Node>
-            <Name>TestSuite</Name>
-            <Path>class_test_suite.html</Path>
-           </Node>
-           <Node>
-            <Name>Thread</Name>
-            <Path>class_thread.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ConfigReaderThread</Name>
-              <Path>class_config_reader_thread.html</Path>
-             </Node>
-             <Node>
-              <Name>IPCThread</Name>
-              <Path>class_i_p_c_thread.html</Path>
-             </Node>
-             <Node>
-              <Name>QueuedThread</Name>
-              <Path>class_queued_thread.html</Path>
-             </Node>
-             <Node>
-              <Name>SocketThread</Name>
-              <Path>class_socket_thread.html</Path>
-             </Node>
-             <Node>
-              <Name>TestSuiteThread</Name>
-              <Path>class_test_suite_thread.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>ThreadData</Name>
-            <Path>class_thread_data.html</Path>
-           </Node>
-           <Node>
-            <Name>ThreadEngine</Name>
-            <Path>class_thread_engine.html</Path>
-           </Node>
-           <Node>
-            <Name>ThreadQueueData</Name>
-            <Path>class_thread_queue_data.html</Path>
-           </Node>
-           <Node>
-            <Name>ThreadSignalData</Name>
-            <Path>class_thread_signal_data.html</Path>
-           </Node>
-           <Node>
-            <Name>Timer</Name>
-            <Path>class_timer.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>CacheTimer</Name>
-              <Path>class_cache_timer.html</Path>
-             </Node>
-             <Node>
-              <Name>RequestTimeout</Name>
-              <Path>class_request_timeout.html</Path>
-             </Node>
-             <Node>
-              <Name>SocketTimeout</Name>
-              <Path>class_socket_timeout.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>TimerManager</Name>
-            <Path>class_timer_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>timespec</Name>
-            <Path>structtimespec.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::tokenstream</Name>
-            <Path>classirc_1_1tokenstream.html</Path>
-           </Node>
-           <Node>
-            <Name>usecountbase</Name>
-            <Path>classusecountbase.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ExtensionItem</Name>
-              <Path>class_extension_item.html</Path>
-             </Node>
-             <Node>
-              <Name>Module</Name>
-              <Path>class_module.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>UserManager</Name>
-            <Path>class_user_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>Version</Name>
-            <Path>class_version.html</Path>
-           </Node>
-           <Node>
-            <Name>XLineFactory</Name>
-            <Path>class_x_line_factory.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ELineFactory</Name>
-              <Path>class_e_line_factory.html</Path>
-             </Node>
-             <Node>
-              <Name>GLineFactory</Name>
-              <Path>class_g_line_factory.html</Path>
-             </Node>
-             <Node>
-              <Name>KLineFactory</Name>
-              <Path>class_k_line_factory.html</Path>
-             </Node>
-             <Node>
-              <Name>QLineFactory</Name>
-              <Path>class_q_line_factory.html</Path>
-             </Node>
-             <Node>
-              <Name>ZLineFactory</Name>
-              <Path>class_z_line_factory.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>XLineManager</Name>
-            <Path>class_x_line_manager.html</Path>
-           </Node>
-          </Subnodes>
-         </Node>
-         <Node>
-          <Name>Class Hierarchy</Name>
-          <Path>hierarchy.html</Path>
-          <Subnodes>
-           <Node>
-            <Name>ActionList</Name>
-            <Path>class_action_list.html</Path>
-           </Node>
-           <Node>
-            <Name>BanCacheHit</Name>
-            <Path>class_ban_cache_hit.html</Path>
-           </Node>
-           <Node>
-            <Name>BanCacheManager</Name>
-            <Path>class_ban_cache_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>builtin_modes</Name>
-            <Path>structbuiltin__modes.html</Path>
-           </Node>
-           <Node>
-            <Name>CachedQuery</Name>
-            <Path>class_cached_query.html</Path>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerType &gt;</Name>
-            <Path>classcaller.html</Path>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase0&lt; ReturnType &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller0&lt; ReturnType &gt;</Name>
-              <Path>classcaller0.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase1&lt; ReturnType, Param1 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller1&lt; ReturnType, Param1 &gt;</Name>
-              <Path>classcaller1.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase2&lt; ReturnType, Param1, Param2 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller2&lt; ReturnType, Param1, Param2 &gt;</Name>
-              <Path>classcaller2.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase3&lt; ReturnType, Param1, Param2, Param3 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller3&lt; ReturnType, Param1, Param2, Param3 &gt;</Name>
-              <Path>classcaller3.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase4&lt; ReturnType, Param1, Param2, Param3, Param4 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller4&lt; ReturnType, Param1, Param2, Param3, Param4 &gt;</Name>
-              <Path>classcaller4.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase5&lt; ReturnType, Param1, Param2, Param3, Param4, Param5 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller5&lt; ReturnType, Param1, Param2, Param3, Param4, Param5 &gt;</Name>
-              <Path>classcaller5.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase6&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller6&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6 &gt;</Name>
-              <Path>classcaller6.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase7&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller7&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7 &gt;</Name>
-              <Path>classcaller7.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>caller&lt; HandlerBase8&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7, Param8 &gt; &gt;</Name>
-            <Path>classcaller.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>caller8&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7, Param8 &gt;</Name>
-              <Path>classcaller8.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>irc::sockets::cidr_mask</Name>
-            <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-           </Node>
-           <Node>
-            <Name>classbase</Name>
-            <Path>classclassbase.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>DLLManager</Name>
-              <Path>class_d_l_l_manager.html</Path>
-             </Node>
-             <Node>
-              <Name>Event</Name>
-              <Path>class_event.html</Path>
-             </Node>
-             <Node>
-              <Name>EventHandler</Name>
-              <Path>class_event_handler.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>DNS</Name>
-                <Path>class_d_n_s.html</Path>
-               </Node>
-               <Node>
-                <Name>ListenSocket</Name>
-                <Path>class_listen_socket.html</Path>
-               </Node>
-               <Node>
-                <Name>StreamSocket</Name>
-                <Path>class_stream_socket.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>BufferedSocket</Name>
-                  <Path>class_buffered_socket.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>ThreadSignalSocket</Name>
-                    <Path>class_thread_signal_socket.html</Path>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>UserIOHandler</Name>
-                  <Path>class_user_i_o_handler.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ThreadSignalSocket</Name>
-                <Path>class_thread_signal_socket.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Extensible</Name>
-              <Path>class_extensible.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Channel</Name>
-                <Path>class_channel.html</Path>
-               </Node>
-               <Node>
-                <Name>Membership</Name>
-                <Path>class_membership.html</Path>
-               </Node>
-               <Node>
-                <Name>User</Name>
-                <Path>class_user.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>FakeUser</Name>
-                  <Path>class_fake_user.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>LocalUser</Name>
-                  <Path>class_local_user.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>RemoteUser</Name>
-                  <Path>class_remote_user.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>FileReader</Name>
-              <Path>class_file_reader.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase0&lt; ReturnType &gt;</Name>
-              <Path>class_handler_base0.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase1&lt; ReturnType, Param1 &gt;</Name>
-              <Path>class_handler_base1.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase1&lt; bool, const char * &gt;</Name>
-              <Path>class_handler_base1.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>IsIdentHandler</Name>
-                <Path>class_is_ident_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase1&lt; bool, const std::string &amp; &gt;</Name>
-              <Path>class_handler_base1.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>IsSIDHandler</Name>
-                <Path>class_is_s_i_d_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase1&lt; void, const std::string &amp; &gt;</Name>
-              <Path>class_handler_base1.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>RehashHandler</Name>
-                <Path>class_rehash_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase1&lt; void, User * &gt;</Name>
-              <Path>class_handler_base1.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>FloodQuitUserHandler</Name>
-                <Path>class_flood_quit_user_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase2&lt; ReturnType, Param1, Param2 &gt;</Name>
-              <Path>class_handler_base2.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase2&lt; bool, const char *, size_t &gt;</Name>
-              <Path>class_handler_base2.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>IsChannelHandler</Name>
-                <Path>class_is_channel_handler.html</Path>
-               </Node>
-               <Node>
-                <Name>IsNickHandler</Name>
-                <Path>class_is_nick_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase2&lt; void, char *, size_t &gt;</Name>
-              <Path>class_handler_base2.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>GenRandomHandler</Name>
-                <Path>class_gen_random_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase3&lt; ReturnType, Param1, Param2, Param3 &gt;</Name>
-              <Path>class_handler_base3.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase3&lt; ModResult, User *, Channel *, const std::string &amp; &gt;</Name>
-              <Path>class_handler_base3.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>OnCheckExemptionHandler</Name>
-                <Path>class_on_check_exemption_handler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>HandlerBase4&lt; ReturnType, Param1, Param2, Param3, Param4 &gt;</Name>
-              <Path>class_handler_base4.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase5&lt; ReturnType, Param1, Param2, Param3, Param4, Param5 &gt;</Name>
-              <Path>class_handler_base5.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase6&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6 &gt;</Name>
-              <Path>class_handler_base6.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase7&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7 &gt;</Name>
-              <Path>class_handler_base7.html</Path>
-             </Node>
-             <Node>
-              <Name>HandlerBase8&lt; ReturnType, Param1, Param2, Param3, Param4, Param5, Param6, Param7, Param8 &gt;</Name>
-              <Path>class_handler_base8.html</Path>
-             </Node>
-             <Node>
-              <Name>Invitation</Name>
-              <Path>class_invitation.html</Path>
-             </Node>
-             <Node>
-              <Name>LogStream</Name>
-              <Path>class_log_stream.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>FileLogStream</Name>
-                <Path>class_file_log_stream.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ModeWatcher</Name>
-              <Path>class_mode_watcher.html</Path>
-             </Node>
-             <Node>
-              <Name>Module</Name>
-              <Path>class_module.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CommandModule&lt; Cmd &gt;</Name>
-                <Path>class_command_module.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Request</Name>
-              <Path>class_request.html</Path>
-             </Node>
-             <Node>
-              <Name>ServiceProvider</Name>
-              <Path>class_service_provider.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Command</Name>
-                <Path>class_command.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SplitCommand</Name>
-                  <Path>class_split_command.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>DataProvider</Name>
-                <Path>class_data_provider.html</Path>
-               </Node>
-               <Node>
-                <Name>ExtensionItem</Name>
-                <Path>class_extension_item.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>LocalExtItem</Name>
-                  <Path>class_local_ext_item.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>LocalIntExt</Name>
-                    <Path>class_local_int_ext.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>SimpleExtItem&lt; T &gt;</Name>
-                    <Path>class_simple_ext_item.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>SimpleExtItem&lt; std::string &gt;</Name>
-                    <Path>class_simple_ext_item.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>LocalStringExt</Name>
-                      <Path>class_local_string_ext.html</Path>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>StringExtItem</Name>
-                  <Path>class_string_ext_item.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ModeHandler</Name>
-                <Path>class_mode_handler.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>ParamChannelModeHandler</Name>
-                  <Path>class_param_channel_mode_handler.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>SimpleChannelModeHandler</Name>
-                  <Path>class_simple_channel_mode_handler.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>SimpleUserModeHandler</Name>
-                  <Path>class_simple_user_mode_handler.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>XLine</Name>
-              <Path>class_x_line.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>ELine</Name>
-                <Path>class_e_line.html</Path>
-               </Node>
-               <Node>
-                <Name>GLine</Name>
-                <Path>class_g_line.html</Path>
-               </Node>
-               <Node>
-                <Name>KLine</Name>
-                <Path>class_k_line.html</Path>
-               </Node>
-               <Node>
-                <Name>QLine</Name>
-                <Path>class_q_line.html</Path>
-               </Node>
-               <Node>
-                <Name>ZLine</Name>
-                <Path>class_z_line.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>Commandline</Name>
-            <Path>struct_commandline.html</Path>
-           </Node>
-           <Node>
-            <Name>CommandLineConf</Name>
-            <Path>struct_command_line_conf.html</Path>
-           </Node>
-           <Node>
-            <Name>CommandParser</Name>
-            <Path>class_command_parser.html</Path>
-           </Node>
-           <Node>
-            <Name>CoreException</Name>
-            <Path>class_core_exception.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ModuleException</Name>
-              <Path>class_module_exception.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>CullList</Name>
-            <Path>class_cull_list.html</Path>
-           </Node>
-           <Node>
-            <Name>CullResult</Name>
-            <Path>class_cull_result.html</Path>
-           </Node>
-           <Node>
-            <Name>Deprecated</Name>
-            <Path>struct_deprecated.html</Path>
-           </Node>
-           <Node>
-            <Name>DIR</Name>
-            <Path>struct_d_i_r.html</Path>
-           </Node>
-           <Node>
-            <Name>dirent</Name>
-            <Path>structdirent.html</Path>
-           </Node>
-           <Node>
-            <Name>DNSHeader</Name>
-            <Path>class_d_n_s_header.html</Path>
-           </Node>
-           <Node>
-            <Name>DNSRequest</Name>
-            <Path>class_d_n_s_request.html</Path>
-           </Node>
-           <Node>
-            <Name>DNSResult</Name>
-            <Path>class_d_n_s_result.html</Path>
-           </Node>
-           <Node>
-            <Name>ExtensionManager</Name>
-            <Path>class_extension_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>FileWrapper</Name>
-            <Path>struct_file_wrapper.html</Path>
-           </Node>
-           <Node>
-            <Name>FileWriter</Name>
-            <Path>class_file_writer.html</Path>
-           </Node>
-           <Node>
-            <Name>fpos</Name>
-            <Path>structfpos.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::hash</Name>
-            <Path>structirc_1_1hash.html</Path>
-           </Node>
-           <Node>
-            <Name>__gnu_cxx::hash&lt; std::string &gt;</Name>
-            <Path>struct____gnu__cxx_1_1hash_3_01std_1_1string_01_4.html</Path>
-           </Node>
-           <Node>
-            <Name>HostItem</Name>
-            <Path>class_host_item.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>BanItem</Name>
-              <Path>class_ban_item.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>init_t</Name>
-            <Path>unioninit__t.html</Path>
-           </Node>
-           <Node>
-            <Name>InspIRCd</Name>
-            <Path>class_insp_i_r_cd.html</Path>
-           </Node>
-           <Node>
-            <Name>interfacebase</Name>
-            <Path>classinterfacebase.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ConfigReader</Name>
-              <Path>class_config_reader.html</Path>
-             </Node>
-             <Node>
-              <Name>dynamic_reference_base</Name>
-              <Path>classdynamic__reference__base.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>dynamic_reference&lt; T &gt;</Name>
-                <Path>classdynamic__reference.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>InviteBase</Name>
-            <Path>class_invite_base.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Channel</Name>
-              <Path>class_channel.html</Path>
-             </Node>
-             <Node>
-              <Name>LocalUser</Name>
-              <Path>class_local_user.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>IPC</Name>
-            <Path>class_i_p_c.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::irc_char_traits</Name>
-            <Path>structirc_1_1irc__char__traits.html</Path>
-           </Node>
-           <Node>
-            <Name>LogManager</Name>
-            <Path>class_log_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>ModeParser</Name>
-            <Path>class_mode_parser.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::modestacker</Name>
-            <Path>classirc_1_1modestacker.html</Path>
-           </Node>
-           <Node>
-            <Name>ModResult</Name>
-            <Path>struct_mod_result.html</Path>
-           </Node>
-           <Node>
-            <Name>ModuleManager</Name>
-            <Path>class_module_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>Mutex</Name>
-            <Path>class_mutex.html</Path>
-           </Node>
-           <Node>
-            <Name>option</Name>
-            <Path>structoption.html</Path>
-           </Node>
-           <Node>
-            <Name>Parser</Name>
-            <Path>struct_parser.html</Path>
-           </Node>
-           <Node>
-            <Name>ParseStack</Name>
-            <Path>struct_parse_stack.html</Path>
-           </Node>
-           <Node>
-            <Name>irc::portparser</Name>
-            <Path>classirc_1_1portparser.html</Path>
-           </Node>
-           <Node>
-            <Name>ProtocolInterface</Name>
-            <Path>class_protocol_interface.html</Path>
-           </Node>
-           <Node>
-            <Name>ProtoServer</Name>
-            <Path>class_proto_server.html</Path>
-           </Node>
-           <Node>
-            <Name>refcountbase</Name>
-            <Path>classrefcountbase.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>ConfigTag</Name>
-              <Path>class_config_tag.html</Path>
-             </Node>
-             <Node>
-              <Name>ConnectClass</Name>
-              <Path>struct_connect_class.html</Path>
-             </Node>
-             <Node>
-              <Name>OperInfo</Name>
-              <Path>class_oper_info.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>reference&lt; T &gt;</Name>
+            <Name>reference&lt; OperInfo &gt;</Name>
             <Path>classreference.html</Path>
            </Node>
            <Node>
@@ -10991,6 +10300,10 @@
           </Subnodes>
          </Node>
         </Subnodes>
+       </Node>
+       <Node>
+        <Name>Files</Name>
+        <Path></Path>
         <Subnodes>
          <Node>
           <Name>File List</Name>
@@ -11004,31 +10317,159 @@
               <Name>threadengines</Name>
               <Path>dir_3e5c4cef050305587f286532c46aea8a.html</Path>
               <Subnodes>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>make</Name>
-            <Path>dir_7658852377c26f228bc575cc05ef9e2d.html</Path>
-            <Subnodes>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>src</Name>
-            <Path>dir_68267d1309a1af8e8297ef4c3efbcdba.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>socketengines</Name>
-              <Path>dir_13ede9e56863eac3b41442d7771e5918.html</Path>
-              <Subnodes>
+               <Node>
+                <Name>threadengine_pthread.h</Name>
+                <Path>threadengine__pthread_8h_source.html</Path>
+               </Node>
+               <Node>
+                <Name>threadengine_win32.h</Name>
+                <Path>threadengine__win32_8h_source.html</Path>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
-              <Name>threadengines</Name>
-              <Path>dir_2050ee5645990f0cf450d559dcfbb224.html</Path>
-              <Subnodes>
-              </Subnodes>
+              <Name>bancache.h</Name>
+              <Path>bancache_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>base.h</Name>
+              <Path>base_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>caller.h</Name>
+              <Path>caller_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>channels.h</Name>
+              <Path>channels_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>command_parse.h</Name>
+              <Path>command__parse_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>configparser.h</Name>
+              <Path>configparser_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>configreader.h</Name>
+              <Path>configreader_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>ctables.h</Name>
+              <Path>ctables_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>cull_list.h</Name>
+              <Path>cull__list_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>dns.h</Name>
+              <Path>dns_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>dynamic.h</Name>
+              <Path>dynamic_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>exitcodes.h</Name>
+              <Path>exitcodes_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>extensible.h</Name>
+              <Path>extensible_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>filelogger.h</Name>
+              <Path>filelogger_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>hash_map.h</Name>
+              <Path>hash__map_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>hashcomp.h</Name>
+              <Path>hashcomp_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>inspircd.h</Name>
+              <Path>inspircd_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>inspsocket.h</Name>
+              <Path>inspsocket_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>inspstring.h</Name>
+              <Path>inspstring_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>logger.h</Name>
+              <Path>logger_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>membership.h</Name>
+              <Path>membership_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>mode.h</Name>
+              <Path>mode_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>modules.h</Name>
+              <Path>modules_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>numerics.h</Name>
+              <Path>numerics_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>protocol.h</Name>
+              <Path>protocol_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>snomasks.h</Name>
+              <Path>snomasks_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>socket.h</Name>
+              <Path>socket_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>socketengine.h</Name>
+              <Path>socketengine_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>testsuite.h</Name>
+              <Path>testsuite_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>threadengine.h</Name>
+              <Path>threadengine_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>timer.h</Name>
+              <Path>timer_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>typedefs.h</Name>
+              <Path>typedefs_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>uid.h</Name>
+              <Path>uid_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>usermanager.h</Name>
+              <Path>usermanager_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>users.h</Name>
+              <Path>users_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>xline.h</Name>
+              <Path>xline_8h_source.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -11036,6 +10477,22 @@
             <Name>win</Name>
             <Path>dir_3da88de5f21f7abfb7840f289699aa66.html</Path>
             <Subnodes>
+             <Node>
+              <Name>colours.h</Name>
+              <Path>colours_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>inspircd_namedpipe.h</Name>
+              <Path>inspircd__namedpipe_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>inspircd_win32wrapper.h</Name>
+              <Path>inspircd__win32wrapper_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>win32service.h</Name>
+              <Path>win32service_8h_source.html</Path>
+             </Node>
             </Subnodes>
            </Node>
           </Subnodes>

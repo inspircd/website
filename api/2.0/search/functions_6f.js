@@ -65,6 +65,7 @@ var searchData=
   ['onsendwholine',['OnSendWhoLine',['../class_module.html#aced8dd06b3db2733ac012b490a84254e',1,'Module']]],
   ['onsetaway',['OnSetAway',['../class_module.html#ab16f4b39fb1f4353ad2f5d8b652e7425',1,'Module']]],
   ['onsetconnectclass',['OnSetConnectClass',['../class_module.html#a5a7c6fc1a66af63568b6a69db294a0df',1,'Module']]],
+  ['onsetuserip',['OnSetUserIP',['../class_module.html#a3d9edd94c35056b40d076acf56c6afa0',1,'Module']]],
   ['onstats',['OnStats',['../class_module.html#a6fdbb320fa09ddfc3e17249cf0f057ec',1,'Module']]],
   ['onstreamsocketaccept',['OnStreamSocketAccept',['../class_module.html#a86748a9b6b0c7d70327f584aa6e3312d',1,'Module']]],
   ['onstreamsocketclose',['OnStreamSocketClose',['../class_module.html#abc646ceff0374f658038bd5eee47ebda',1,'Module']]],

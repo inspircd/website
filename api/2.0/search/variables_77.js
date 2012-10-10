@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['welcomenotice',['WelcomeNotice',['../class_server_config.html#ad3cb121d2bc0dead6feb294c1b0ebb3f',1,'ServerConfig']]],
   ['whowasgroupsize',['WhoWasGroupSize',['../class_server_config.html#a2854d388d544d99522f5c7c0f4b5999f',1,'ServerConfig']]],
   ['whowasmaxgroups',['WhoWasMaxGroups',['../class_server_config.html#a05d7c7416d0c3809170bf473a14f9638',1,'ServerConfig']]],
   ['whowasmaxkeep',['WhoWasMaxKeep',['../class_server_config.html#abe4c7503aed1619fa0dd961b48d51f6f',1,'ServerConfig']]],
