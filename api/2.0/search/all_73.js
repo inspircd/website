@@ -112,6 +112,7 @@ var searchData=
   ['stringextitem',['StringExtItem',['../class_string_ext_item.html',1,'']]],
   ['stringjoiner',['stringjoiner',['../classirc_1_1stringjoiner.html#a273c0c3b3b126354b4ef6c7c3d26d424',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const std::vector&lt; std::string &gt; &amp;sequence, int begin, int end)'],['../classirc_1_1stringjoiner.html#aa1d860b168eaf34219b71b083ad03b2d',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const std::deque&lt; std::string &gt; &amp;sequence, int begin, int end)'],['../classirc_1_1stringjoiner.html#ac9af25ca7887a267a825c6b1d4945580',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const char *const *sequence, int begin, int end)']]],
   ['stringjoiner',['stringjoiner',['../classirc_1_1stringjoiner.html',1,'irc']]],
+  ['stripcolor',['StripColor',['../class_insp_i_r_cd.html#ad3e9c5f646b0bda9833d3d77fc94a5b2',1,'InspIRCd']]],
   ['strlower',['strlower',['../namespace____gnu__cxx.html#ac3284df3fd0afd77baeb45e5fed3f4bc',1,'__gnu_cxx']]],
   ['suffixpart',['SuffixPart',['../class_server_config.html#a55df5a17fa87a63bc7f2170ac06893cd',1,'ServerConfig']]],
   ['suffixquit',['SuffixQuit',['../class_server_config.html#acfe91da6cb12565a391ac7af9043a498',1,'ServerConfig']]],

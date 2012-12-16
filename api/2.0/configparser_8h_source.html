@@ -152,7 +152,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        FILE* <span class="keyword">const</span> f;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordtype">bool</span> close_with_pclose;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="struct_file_wrapper.html">FileWrapper</a>(FILE* file, <span class="keywordtype">bool</span> use_pclose = <span class="keyword">false</span>) : f(file), close_with_pclose(use_pclose) {}</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">operator</span> bool() { <span class="keywordflow">return</span> f; }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">operator</span> bool() { <span class="keywordflow">return</span> (f != NULL); }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">operator</span> FILE*() { <span class="keywordflow">return</span> f; }</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        ~<a class="code" href="struct_file_wrapper.html">FileWrapper</a>()</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        {</div>

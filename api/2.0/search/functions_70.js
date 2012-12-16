@@ -10,7 +10,7 @@ var searchData=
   ['portsengine',['PortsEngine',['../class_ports_engine.html#ae7f2688edf8c4c152b0284d88134c0b2',1,'PortsEngine']]],
   ['process',['Process',['../class_mode_parser.html#a1ec59db6a112208db277b1b76f472605',1,'ModeParser']]],
   ['processbuffer',['ProcessBuffer',['../class_command_parser.html#aa9abf365c85ef9989d768c64d9913769',1,'CommandParser']]],
-  ['processcolors',['ProcessColors',['../class_server_config.html#ad86e5c65e653117446b98b9cbeca6b81',1,'ServerConfig']]],
+  ['processcolors',['ProcessColors',['../class_insp_i_r_cd.html#ac13c8d13467845d652f834fcafa1b1d1',1,'InspIRCd']]],
   ['processnoticemasks',['ProcessNoticeMasks',['../class_user.html#a3d8a245fa3f3df4151e6601fcbf4da73',1,'User']]],
   ['protosendmetadata',['ProtoSendMetaData',['../class_module.html#a3bb9dac5417ed8538e5174ebafd25e12',1,'Module']]],
   ['protosendmode',['ProtoSendMode',['../class_module.html#a0861ead2131a6edbb77bf4be1d2104ad',1,'Module']]],

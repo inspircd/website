@@ -17,7 +17,7 @@ var searchData=
   ['update',['Update',['../struct_connect_class.html#a72db989863ca81b61c55462027891f26',1,'ConnectClass']]],
   ['update005',['Update005',['../class_server_config.html#ac74dedcd661edd1ffb39d66492e638bf',1,'ServerConfig']]],
   ['updatetime',['UpdateTime',['../class_insp_i_r_cd.html#ac7e0787ca1ae5a061d449222fa553d4c',1,'InspIRCd']]],
-  ['use_5fcount',['use_count',['../class_command.html#a130d550089b67c0b864ae870cd0a4220',1,'Command']]],
+  ['use_5fcount',['use_count',['../class_command.html#a0f89a467a22751f6f08f3f06f830b063',1,'Command']]],
   ['usecountbase',['usecountbase',['../classusecountbase.html',1,'']]],
   ['user',['User',['../class_user.html',1,'User'],['../class_user.html#a9fbd4d37951bfbed06010918882408a6',1,'User::User()']]],
   ['usercount',['UserCount',['../class_user_manager.html#a7a6bea1be30e42b0fab5426cb252aded',1,'UserManager']]],

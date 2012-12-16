@@ -13,7 +13,6 @@ var searchData=
   ['filewriter',['FileWriter',['../class_file_writer.html',1,'FileWriter'],['../class_file_writer.html#a57e51e0b430b04c44d8688cff54e9463',1,'FileWriter::FileWriter()']]],
   ['fillheader',['FillHeader',['../class_d_n_s.html#aa3868e37348c9e5b4bc6ec414cd75662',1,'DNS']]],
   ['fillresourcerecord',['FillResourceRecord',['../class_d_n_s.html#ae72251515b8c57c8742b1d6a53a4482a',1,'DNS']]],
-  ['finalise',['Finalise',['../class_server_limits.html#ab383223f23ce70d830beb7f04228276f',1,'ServerLimits']]],
   ['find',['find',['../structirc_1_1irc__char__traits.html#a4d8765e6511b1c5466abc40a43d687d4',1,'irc::irc_char_traits::find()'],['../class_module_manager.html#a20858049ded2188ae90e45308da85f86',1,'ModuleManager::Find()']]],
   ['findchan',['FindChan',['../class_insp_i_r_cd.html#a52cc0d56af4a8ba70f9f321e944348b5',1,'InspIRCd::FindChan(const std::string &amp;chan)'],['../class_insp_i_r_cd.html#a3f029bb9ad13dc2d90416d3fd8e4b0be',1,'InspIRCd::FindChan(const char *chan)']]],
   ['findmode',['FindMode',['../class_mode_parser.html#ad4cf869139b1ba49594faba631441232',1,'ModeParser']]],

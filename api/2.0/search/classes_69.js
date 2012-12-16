@@ -5,8 +5,6 @@ var searchData=
   ['interfacebase',['interfacebase',['../classinterfacebase.html',1,'']]],
   ['invitation',['Invitation',['../class_invitation.html',1,'']]],
   ['invitebase',['InviteBase',['../class_invite_base.html',1,'']]],
-  ['ipc',['IPC',['../class_i_p_c.html',1,'']]],
-  ['ipcthread',['IPCThread',['../class_i_p_c_thread.html',1,'']]],
   ['irc_5fchar_5ftraits',['irc_char_traits',['../structirc_1_1irc__char__traits.html',1,'irc']]],
   ['ischannelhandler',['IsChannelHandler',['../class_is_channel_handler.html',1,'']]],
   ['isidenthandler',['IsIdentHandler',['../class_is_ident_handler.html',1,'']]],

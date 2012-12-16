@@ -1200,6 +1200,11 @@
               <Anchor>ae04548a2d5d007123c3033a2d6230bf9</Anchor>
              </Node>
              <Node>
+              <Name>allow_empty_last_param</Name>
+              <Path>class_command.html</Path>
+              <Anchor>a287b370382112d54ecb6a8cde28dbb3f</Anchor>
+             </Node>
+             <Node>
               <Name>disabled</Name>
               <Path>class_command.html</Path>
               <Anchor>a5659065003a9e4097fe755abe300154a</Anchor>
@@ -1232,7 +1237,7 @@
              <Node>
               <Name>total_bytes</Name>
               <Path>class_command.html</Path>
-              <Anchor>ad7472abbb2851ac029f3587fff5a9f85</Anchor>
+              <Anchor>a4cc1fca56478365a5ce887defc15c589</Anchor>
              </Node>
              <Node>
               <Name>translation</Name>
@@ -1242,7 +1247,7 @@
              <Node>
               <Name>use_count</Name>
               <Path>class_command.html</Path>
-              <Anchor>a130d550089b67c0b864ae870cd0a4220</Anchor>
+              <Anchor>a0f89a467a22751f6f08f3f06f830b063</Anchor>
              </Node>
              <Node>
               <Name>works_before_reg</Name>
@@ -1831,7 +1836,7 @@
              <Node>
               <Name>find_data</Name>
               <Path>struct_d_i_r.html</Path>
-              <Anchor>aaa0f597f303451999b6b273ddecbe4a8</Anchor>
+              <Anchor>a033c6e7cdb90a61417883b440fa7a084</Anchor>
              </Node>
              <Node>
               <Name>find_handle</Name>
@@ -2527,7 +2532,7 @@
              <Node>
               <Name>Register</Name>
               <Path>class_extension_manager.html</Path>
-              <Anchor>a3599b04ca0fac11592fa84ab25c0e442</Anchor>
+              <Anchor>ab955029279bd6d4b011ddc7db43447f0</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3237,6 +3242,11 @@
               <Anchor>a508b2020c830d5a0bd3178f2e3e45c88</Anchor>
              </Node>
              <Node>
+              <Name>ProcessColors</Name>
+              <Path>class_insp_i_r_cd.html</Path>
+              <Anchor>ac13c8d13467845d652f834fcafa1b1d1</Anchor>
+             </Node>
+             <Node>
               <Name>QuickExit</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>a988542891b72614ec3bf2c35517e49aa</Anchor>
@@ -3305,6 +3315,11 @@
               <Name>SilentULine</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>aabe6e0b67fd35d938290ecb6384b0a90</Anchor>
+             </Node>
+             <Node>
+              <Name>StripColor</Name>
+              <Path>class_insp_i_r_cd.html</Path>
+              <Anchor>ad3e9c5f646b0bda9833d3d77fc94a5b2</Anchor>
              </Node>
              <Node>
               <Name>Time</Name>
@@ -3633,68 +3648,6 @@
               <Name>invites</Name>
               <Path>class_invite_base.html</Path>
               <Anchor>a728770b5d84e5ccc3ccb744c631f9e1f</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>IPC</Name>
-            <Path>class_i_p_c.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>IPC</Name>
-              <Path>class_i_p_c.html</Path>
-              <Anchor>a0a5158a361abb5a79cc36edbd8691e51</Anchor>
-             </Node>
-             <Node>
-              <Name>~IPC</Name>
-              <Path>class_i_p_c.html</Path>
-              <Anchor>a3fb6d83264099113bd5dbe4335815d64</Anchor>
-             </Node>
-             <Node>
-              <Name>Check</Name>
-              <Path>class_i_p_c.html</Path>
-              <Anchor>af57a2467d7ac0966c04d0a156f9d8848</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>IPCThread</Name>
-            <Path>class_i_p_c_thread.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>IPCThread</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>ab676dfc6eff545620ef7b006cfc1c91d</Anchor>
-             </Node>
-             <Node>
-              <Name>~IPCThread</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>a47061c86a8a119ff7b8057dcba97f267</Anchor>
-             </Node>
-             <Node>
-              <Name>ClearStatus</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>aab5efd31661d43edb4da352da6c239fb</Anchor>
-             </Node>
-             <Node>
-              <Name>GetResult</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>abc3e09e54ac79ae67d46ca3f9458d387</Anchor>
-             </Node>
-             <Node>
-              <Name>GetStatus</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>ae214b030bf927f70182bbb7df890e1d3</Anchor>
-             </Node>
-             <Node>
-              <Name>Run</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>a5063030c2ca94a70fc9fa635de72c29e</Anchor>
-             </Node>
-             <Node>
-              <Name>SetResult</Name>
-              <Path>class_i_p_c_thread.html</Path>
-              <Anchor>ab11798f9eb4bf36e2e5919141e9e636a</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4161,22 +4114,22 @@
              <Node>
               <Name>bytes_in</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a704cf0122ba2d45e727c32c89af3746b</Anchor>
+              <Anchor>a1f6e9b00772ef849482239bb17e169ef</Anchor>
              </Node>
              <Node>
               <Name>bytes_out</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>ad7d162110cc664438fb6ba97cb635700</Anchor>
+              <Anchor>a3ea18d2ef9ba202ccc9e17a91f7f6b73</Anchor>
              </Node>
              <Node>
               <Name>cmds_in</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a8e458741c7ebc8603f5868bd241a34ec</Anchor>
+              <Anchor>a2565630dde1303d903e5bf44fd80d37d</Anchor>
              </Node>
              <Node>
               <Name>cmds_out</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>aacb51ebcabaa14d7e55a30d74aea4b0b</Anchor>
+              <Anchor>a4ece8e04b1bf8b8889fac9d995f01049</Anchor>
              </Node>
              <Node>
               <Name>CommandFloodPenalty</Name>
@@ -4187,6 +4140,11 @@
               <Name>eh</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a2266e014c974245cf08c12338fffd41d</Anchor>
+             </Node>
+             <Node>
+              <Name>localuseriter</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>ad338f643d1a9380f7dc716e3bea12389</Anchor>
              </Node>
              <Node>
               <Name>MyClass</Name>
@@ -6438,11 +6396,6 @@
               <Anchor>aa924c18cead754d0165f431c60d9f07c</Anchor>
              </Node>
              <Node>
-              <Name>ProcessColors</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>ad86e5c65e653117446b98b9cbeca6b81</Anchor>
-             </Node>
-             <Node>
               <Name>Read</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a879a82d00463214b89be04be32a3e78d</Anchor>
@@ -6837,11 +6790,6 @@
               <Name>ServerLimits</Name>
               <Path>class_server_limits.html</Path>
               <Anchor>a8d48294b9780f3b59cf07a17c5575264</Anchor>
-             </Node>
-             <Node>
-              <Name>Finalise</Name>
-              <Path>class_server_limits.html</Path>
-              <Anchor>ab383223f23ce70d830beb7f04228276f</Anchor>
              </Node>
              <Node>
               <Name>ChanMax</Name>
@@ -8614,7 +8562,7 @@
              <Node>
               <Name>local_users</Name>
               <Path>class_user_manager.html</Path>
-              <Anchor>a1b06a5bac0f078fee3f6c8bbbd736df0</Anchor>
+              <Anchor>a8fa5edeaf48571c9e9aab4c3cd2acf9d</Anchor>
              </Node>
              <Node>
               <Name>unregistered_count</Name>
@@ -9662,10 +9610,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>IPC</Name>
-            <Path>class_i_p_c.html</Path>
-           </Node>
-           <Node>
             <Name>LogManager</Name>
             <Path>class_log_manager.html</Path>
            </Node>
@@ -9856,10 +9800,6 @@
              <Node>
               <Name>ConfigReaderThread</Name>
               <Path>class_config_reader_thread.html</Path>
-             </Node>
-             <Node>
-              <Name>IPCThread</Name>
-              <Path>class_i_p_c_thread.html</Path>
              </Node>
              <Node>
               <Name>QueuedThread</Name>
@@ -10356,6 +10296,10 @@
               <Path>configreader_8h_source.html</Path>
              </Node>
              <Node>
+              <Name>consolecolors.h</Name>
+              <Path>consolecolors_8h_source.html</Path>
+             </Node>
+             <Node>
               <Name>ctables.h</Name>
               <Path>ctables_8h_source.html</Path>
              </Node>
@@ -10477,14 +10421,6 @@
             <Name>win</Name>
             <Path>dir_3da88de5f21f7abfb7840f289699aa66.html</Path>
             <Subnodes>
-             <Node>
-              <Name>colours.h</Name>
-              <Path>colours_8h_source.html</Path>
-             </Node>
-             <Node>
-              <Name>inspircd_namedpipe.h</Name>
-              <Path>inspircd__namedpipe_8h_source.html</Path>
-             </Node>
              <Node>
               <Name>inspircd_win32wrapper.h</Name>
               <Path>inspircd__win32wrapper_8h_source.html</Path>

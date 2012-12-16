@@ -140,14 +140,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aeeb83d9976c62a35f2760d4027e9cb4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac21e431d2a4a5d2234f0d593524ab97a"><td class="memItemLeft" align="right" valign="top">const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#ac21e431d2a4a5d2234f0d593524ab97a">max_params</a></td></tr>
 <tr class="separator:ac21e431d2a4a5d2234f0d593524ab97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130d550089b67c0b864ae870cd0a4220"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a130d550089b67c0b864ae870cd0a4220">use_count</a></td></tr>
-<tr class="separator:a130d550089b67c0b864ae870cd0a4220"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7472abbb2851ac029f3587fff5a9f85"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#ad7472abbb2851ac029f3587fff5a9f85">total_bytes</a></td></tr>
-<tr class="separator:ad7472abbb2851ac029f3587fff5a9f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f89a467a22751f6f08f3f06f830b063"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a0f89a467a22751f6f08f3f06f830b063">use_count</a></td></tr>
+<tr class="separator:a0f89a467a22751f6f08f3f06f830b063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc1fca56478365a5ce887defc15c589"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a4cc1fca56478365a5ce887defc15c589">total_bytes</a></td></tr>
+<tr class="separator:a4cc1fca56478365a5ce887defc15c589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5659065003a9e4097fe755abe300154a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a5659065003a9e4097fe755abe300154a">disabled</a></td></tr>
 <tr class="separator:a5659065003a9e4097fe755abe300154a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f985141126bdf496f7e56316a83d77c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a6f985141126bdf496f7e56316a83d77c">works_before_reg</a></td></tr>
 <tr class="separator:a6f985141126bdf496f7e56316a83d77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287b370382112d54ecb6a8cde28dbb3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a287b370382112d54ecb6a8cde28dbb3f">allow_empty_last_param</a></td></tr>
+<tr class="separator:a287b370382112d54ecb6a8cde28dbb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83a428345e17844e6a2b238bef60eb2b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#a83a428345e17844e6a2b238bef60eb2b">syntax</a></td></tr>
 <tr class="separator:a83a428345e17844e6a2b238bef60eb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8f56c0678a48181b429ae4da2b1a561"><td class="memItemLeft" align="right" valign="top">std::vector&lt; TranslateType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command.html#aa8f56c0678a48181b429ae4da2b1a561">translation</a></td></tr>
@@ -432,6 +434,19 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a287b370382112d54ecb6a8cde28dbb3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Command::allow_empty_last_param</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>True if the command allows an empty last parameter. When false and the last parameter is empty, it's popped BEFORE checking there are enough params, etc. (i.e. the handler won't be called if there aren't enough params after popping the empty param). True by default </p>
+
+</div>
+</div>
 <a class="anchor" id="a5659065003a9e4097fe755abe300154a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -510,12 +525,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad7472abbb2851ac029f3587fff5a9f85"></a>
+<a class="anchor" id="a4cc1fca56478365a5ce887defc15c589"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long Command::total_bytes</td>
+          <td class="memname">unsigned long Command::total_bytes</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -536,12 +551,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a130d550089b67c0b864ae870cd0a4220"></a>
+<a class="anchor" id="a0f89a467a22751f6f08f3f06f830b063"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long Command::use_count</td>
+          <td class="memname">unsigned long Command::use_count</td>
         </tr>
       </table>
 </div><div class="memdoc">

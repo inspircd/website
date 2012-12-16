@@ -102,7 +102,7 @@ var searchData=
   ['onwhoisline',['OnWhoisLine',['../class_module.html#a6b4bdaeb323660a3b9120195f8a6cbcb',1,'Module']]],
   ['openfilelogs',['OpenFileLogs',['../class_log_manager.html#ac93c053edaccd30840153cbe3ffa94db',1,'LogManager']]],
   ['openlog',['OpenLog',['../class_insp_i_r_cd.html#a19cb7e08f07c26c7fcf6bb4e8fbc12f2',1,'InspIRCd']]],
-  ['oper',['oper',['../class_mode_handler.html#ae170300076b83bd7e1be0dcf3cd33a01',1,'ModeHandler::oper()'],['../class_user.html#a968f02b552b0aac771aef8adac4f823e',1,'User::oper()'],['../class_user.html#af9b6ec0dae8b4ee90c0e13c2143622cc',1,'User::Oper(OperInfo *info)']]],
+  ['oper',['Oper',['../class_user.html#af9b6ec0dae8b4ee90c0e13c2143622cc',1,'User::Oper()'],['../class_mode_handler.html#ae170300076b83bd7e1be0dcf3cd33a01',1,'ModeHandler::oper()'],['../class_user.html#a968f02b552b0aac771aef8adac4f823e',1,'User::oper()']]],
   ['oper_5fblock',['oper_block',['../class_oper_info.html#a4f4b959f365b1eb2abeae50a2302b5b0',1,'OperInfo']]],
   ['oper_5fblocks',['oper_blocks',['../class_server_config.html#a13eac2316f9eee1d5d57569dfbd1be59',1,'ServerConfig']]],
   ['operator_28_29',['operator()',['../structirc_1_1_str_hash_comp.html#a0c6b155560480b06b14b37f2c6b1657e',1,'irc::StrHashComp::operator()()'],['../structirc_1_1hash.html#a34bb52a4dff5754d04a2565e8d0d47d6',1,'irc::hash::operator()()']]],

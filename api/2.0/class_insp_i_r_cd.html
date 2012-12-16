@@ -223,6 +223,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>Match</b> (con
 <tr class="memitem:a6249e661ec545beb44f27e4005ba074a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6249e661ec545beb44f27e4005ba074a"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>MatchCIDR</b> (const char *str, const char *mask, unsigned const char *map=NULL)</td></tr>
 <tr class="separator:a6249e661ec545beb44f27e4005ba074a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3e9c5f646b0bda9833d3d77fc94a5b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#ad3e9c5f646b0bda9833d3d77fc94a5b2">StripColor</a> (std::string &amp;sentence)</td></tr>
+<tr class="separator:ad3e9c5f646b0bda9833d3d77fc94a5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac13c8d13467845d652f834fcafa1b1d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#ac13c8d13467845d652f834fcafa1b1d1">ProcessColors</a> (file_cache &amp;input)</td></tr>
+<tr class="separator:ac13c8d13467845d652f834fcafa1b1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -1381,6 +1385,37 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>TestSuite</b></td></
 
 </div>
 </div>
+<a class="anchor" id="ac13c8d13467845d652f834fcafa1b1d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InspIRCd::ProcessColors </td>
+          <td>(</td>
+          <td class="paramtype">file_cache &amp;&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Parses color codes from string values to actual color codes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">input</td><td>The data to process </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a988542891b72614ec3bf2c35517e49aa"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1763,6 +1798,37 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>TestSuite</b></td></
       </table>
 </div><div class="memdoc">
 <p>Returns true if the uline is 'silent' (doesnt generate remote connect notices etc). </p>
+
+</div>
+</div>
+<a class="anchor" id="ad3e9c5f646b0bda9833d3d77fc94a5b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InspIRCd::StripColor </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>sentence</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Strips all color codes from the given string </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sentence</td><td>The string to strip from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

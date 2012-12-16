@@ -419,7 +419,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;</div>
 <div class="line"><a name="l00597"></a><span class="lineno"><a class="code" href="namespace____gnu__cxx.html">  597</a></span>&#160;BEGIN_HASHMAP_NAMESPACE</div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;<span class="preprocessor">#if defined(WINDOWS) &amp;&amp; !defined(HAS_TR1_UNORDERED)</span></div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;<span class="preprocessor">#if defined(_WIN32) &amp;&amp; !defined(HAS_TR1_UNORDERED)</span></div>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;<span class="preprocessor"></span>        <span class="keyword">template</span>&lt;&gt; <span class="keyword">class </span>CoreExport hash_compare&lt;irc::string, std::less&lt;irc::string&gt; &gt;</div>
 <div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        {</div>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keyword">public</span>:</div>

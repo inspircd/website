@@ -17,6 +17,6 @@ var searchData=
   ['buildisupport',['BuildISupport',['../class_insp_i_r_cd.html#aac912f0d986d8fbd380f6b1428f83439',1,'InspIRCd']]],
   ['buildprefixes',['BuildPrefixes',['../class_mode_parser.html#a20cc3037de41cde30b44fed326a33d3f',1,'ModeParser']]],
   ['builtin_5fmodes',['builtin_modes',['../structbuiltin__modes.html',1,'']]],
-  ['bytes_5fin',['bytes_in',['../class_local_user.html#a704cf0122ba2d45e727c32c89af3746b',1,'LocalUser']]],
-  ['bytes_5fout',['bytes_out',['../class_local_user.html#ad7d162110cc664438fb6ba97cb635700',1,'LocalUser']]]
+  ['bytes_5fin',['bytes_in',['../class_local_user.html#a1f6e9b00772ef849482239bb17e169ef',1,'LocalUser']]],
+  ['bytes_5fout',['bytes_out',['../class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73',1,'LocalUser']]]
 ];

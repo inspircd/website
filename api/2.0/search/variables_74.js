@@ -8,7 +8,7 @@ var searchData=
   ['timers',['Timers',['../class_insp_i_r_cd.html#a12649d98529f8fea45a8e1053ff6ff55',1,'InspIRCd::Timers()'],['../class_timer_manager.html#a649550a7e57c17a1f0b844fcf6f4b3e9',1,'TimerManager::Timers()']]],
   ['topic',['topic',['../class_channel.html#aabf950297869ac3f7126ae892fe68dfb',1,'Channel']]],
   ['topicset',['topicset',['../class_channel.html#a11deedd3d2c8191b074eb2b3741eb246',1,'Channel']]],
-  ['total_5fbytes',['total_bytes',['../class_command.html#ad7472abbb2851ac029f3587fff5a9f85',1,'Command']]],
+  ['total_5fbytes',['total_bytes',['../class_command.html#a4cc1fca56478365a5ce887defc15c589',1,'Command']]],
   ['translation',['translation',['../class_command.html#aa8f56c0678a48181b429ae4da2b1a561',1,'Command']]],
   ['trials',['trials',['../class_socket_engine.html#a2ccd3c90668bd46e48d582be89291e2a',1,'SocketEngine']]],
   ['ttl',['ttl',['../class_d_n_s_result.html#ae1d4e25daa3dce3b6ec73f4c1761a616',1,'DNSResult']]],

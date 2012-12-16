@@ -65,5 +65,6 @@ var searchData=
   ['str',['str',['../unionirc_1_1sockets_1_1sockaddrs.html#a44bcc520c85d392ffa7d7730c369d302',1,'irc::sockets::sockaddrs::str()'],['../structirc_1_1sockets_1_1cidr__mask.html#a00036dcd36621dce532d5c7a40032c6f',1,'irc::sockets::cidr_mask::str()']]],
   ['streamend',['StreamEnd',['../classirc_1_1sepstream.html#a147bc527848667cad63bfb7159bcb906',1,'irc::sepstream']]],
   ['stringjoiner',['stringjoiner',['../classirc_1_1stringjoiner.html#a273c0c3b3b126354b4ef6c7c3d26d424',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const std::vector&lt; std::string &gt; &amp;sequence, int begin, int end)'],['../classirc_1_1stringjoiner.html#aa1d860b168eaf34219b71b083ad03b2d',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const std::deque&lt; std::string &gt; &amp;sequence, int begin, int end)'],['../classirc_1_1stringjoiner.html#ac9af25ca7887a267a825c6b1d4945580',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const char *const *sequence, int begin, int end)']]],
+  ['stripcolor',['StripColor',['../class_insp_i_r_cd.html#ad3e9c5f646b0bda9833d3d77fc94a5b2',1,'InspIRCd']]],
   ['strlower',['strlower',['../namespace____gnu__cxx.html#ac3284df3fd0afd77baeb45e5fed3f4bc',1,'__gnu_cxx']]]
 ];

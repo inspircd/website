@@ -1302,7 +1302,7 @@
       <Scope>Command</Scope>
     </TokenIdentifier>
     <Path>class_command.html</Path>
-    <Anchor>a130d550089b67c0b864ae870cd0a4220</Anchor>
+    <Anchor>a0f89a467a22751f6f08f3f06f830b063</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1312,7 +1312,7 @@
       <Scope>Command</Scope>
     </TokenIdentifier>
     <Path>class_command.html</Path>
-    <Anchor>ad7472abbb2851ac029f3587fff5a9f85</Anchor>
+    <Anchor>a4cc1fca56478365a5ce887defc15c589</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1333,6 +1333,16 @@
     </TokenIdentifier>
     <Path>class_command.html</Path>
     <Anchor>a6f985141126bdf496f7e56316a83d77c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allow_empty_last_param</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a287b370382112d54ecb6a8cde28dbb3f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7288,6 +7298,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>StripColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>InspIRCd</Scope>
+    </TokenIdentifier>
+    <Path>class_insp_i_r_cd.html</Path>
+    <Anchor>ad3e9c5f646b0bda9833d3d77fc94a5b2</Anchor>
+    <DeclaredIn>inspircd.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessColors</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>InspIRCd</Scope>
+    </TokenIdentifier>
+    <Path>class_insp_i_r_cd.html</Path>
+    <Anchor>ac13c8d13467845d652f834fcafa1b1d1</Anchor>
+    <DeclaredIn>inspircd.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GlobalCulls</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -7664,100 +7696,6 @@
       <Scope>InviteBase</Scope>
     </TokenIdentifier>
     <Path>class_invite_base.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IPC</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>IPC</Scope>
-    </TokenIdentifier>
-    <Path>class_i_p_c.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IPCThread</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>IPCThread</Scope>
-    </TokenIdentifier>
-    <Path>class_i_p_c_thread.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Run</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>IPCThread</Scope>
-    </TokenIdentifier>
-    <Path>class_i_p_c_thread.html</Path>
-    <Anchor>a5063030c2ca94a70fc9fa635de72c29e</Anchor>
-    <DeclaredIn>inspircd_namedpipe.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Thread</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Thread</Scope>
-    </TokenIdentifier>
-    <Path>class_thread.html</Path>
-    <Anchor>a95c703fb8f2f27cb64f475a8c940864a</Anchor>
-    <DeclaredIn>threadengine.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Thread</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Thread</Scope>
-    </TokenIdentifier>
-    <Path>class_thread.html</Path>
-    <Anchor>a37d9edd3a1a776cbc27dedff949c9726</Anchor>
-    <DeclaredIn>threadengine.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetExitFlag</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Thread</Scope>
-    </TokenIdentifier>
-    <Path>class_thread.html</Path>
-    <Anchor>ae51a66d9b432e1e1c9b8b9d921c0900d</Anchor>
-    <DeclaredIn>threadengine.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>join</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Thread</Scope>
-    </TokenIdentifier>
-    <Path>class_thread.html</Path>
-    <Anchor>a4d9d788e98388a3217831a9046709deb</Anchor>
-    <DeclaredIn>threadengine.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Thread</Scope>
-    </TokenIdentifier>
-    <Path>class_thread.html</Path>
-    <Anchor>acf575eb59fd3b23039892d986ed0773e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetExitFlag</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Thread</Scope>
-    </TokenIdentifier>
-    <Path>class_thread.html</Path>
-    <Anchor>aee887ff1653b6c2912dd97ec07d2fd16</Anchor>
-    <DeclaredIn>threadengine.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9664,13 +9602,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>localuseriter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>LocalUser</Scope>
+    </TokenIdentifier>
+    <Path>class_local_user.html</Path>
+    <Anchor>ad338f643d1a9380f7dc716e3bea12389</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>bytes_in</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a704cf0122ba2d45e727c32c89af3746b</Anchor>
+    <Anchor>a1f6e9b00772ef849482239bb17e169ef</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9680,7 +9628,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>ad7d162110cc664438fb6ba97cb635700</Anchor>
+    <Anchor>a3ea18d2ef9ba202ccc9e17a91f7f6b73</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9690,7 +9638,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a8e458741c7ebc8603f5868bd241a34ec</Anchor>
+    <Anchor>a2565630dde1303d903e5bf44fd80d37d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9700,7 +9648,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>aacb51ebcabaa14d7e55a30d74aea4b0b</Anchor>
+    <Anchor>a4ece8e04b1bf8b8889fac9d995f01049</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15863,17 +15811,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ProcessColors</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServerConfig</Scope>
-    </TokenIdentifier>
-    <Path>class_server_config.html</Path>
-    <Anchor>ad86e5c65e653117446b98b9cbeca6b81</Anchor>
-    <DeclaredIn>configreader.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>StartsWithWindowsDriveLetter</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -16644,17 +16581,6 @@
     </TokenIdentifier>
     <Path>class_server_limits.html</Path>
     <Anchor>a8d48294b9780f3b59cf07a17c5575264</Anchor>
-    <DeclaredIn>configreader.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Finalise</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServerLimits</Scope>
-    </TokenIdentifier>
-    <Path>class_server_limits.html</Path>
-    <Anchor>ab383223f23ce70d830beb7f04228276f</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -18607,7 +18533,7 @@
       <Scope>Command</Scope>
     </TokenIdentifier>
     <Path>class_command.html</Path>
-    <Anchor>a130d550089b67c0b864ae870cd0a4220</Anchor>
+    <Anchor>a0f89a467a22751f6f08f3f06f830b063</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18617,7 +18543,7 @@
       <Scope>Command</Scope>
     </TokenIdentifier>
     <Path>class_command.html</Path>
-    <Anchor>ad7472abbb2851ac029f3587fff5a9f85</Anchor>
+    <Anchor>a4cc1fca56478365a5ce887defc15c589</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18638,6 +18564,16 @@
     </TokenIdentifier>
     <Path>class_command.html</Path>
     <Anchor>a6f985141126bdf496f7e56316a83d77c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allow_empty_last_param</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a287b370382112d54ecb6a8cde28dbb3f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20967,7 +20903,7 @@
       <Scope>UserManager</Scope>
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
-    <Anchor>a1b06a5bac0f078fee3f6c8bbbd736df0</Anchor>
+    <Anchor>a8fa5edeaf48571c9e9aab4c3cd2acf9d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -20,8 +20,6 @@ var searchData=
   ['invokestats',['InvokeStats',['../class_x_line_manager.html#ae0b729ce49a9830ecd619df8bfcfb6bb',1,'XLineManager']]],
   ['ip',['IP',['../class_ban_cache_hit.html#a0f1d6687503e017565d5e41bd0d97bf7',1,'BanCacheHit']]],
   ['ipaddr',['ipaddr',['../class_z_line.html#a3f5c61cd95a948131f758343d5f7ea89',1,'ZLine']]],
-  ['ipc',['IPC',['../class_i_p_c.html',1,'']]],
-  ['ipcthread',['IPCThread',['../class_i_p_c_thread.html',1,'']]],
   ['ipmatcheseveryone',['IPMatchesEveryone',['../class_insp_i_r_cd.html#abf48e8135964cc6c82d37454fae513b2',1,'InspIRCd']]],
   ['irc',['irc',['../namespaceirc.html',1,'']]],
   ['irc_5fchar_5ftraits',['irc_char_traits',['../structirc_1_1irc__char__traits.html',1,'irc']]],
