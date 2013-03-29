@@ -39,7 +39,6 @@ var searchData=
   ['cidr_5fmask',['cidr_mask',['../structirc_1_1sockets_1_1cidr__mask.html',1,'irc::sockets']]],
   ['classbase',['classbase',['../classclassbase.html',1,'']]],
   ['command',['Command',['../class_command.html',1,'']]],
-  ['commandline',['Commandline',['../struct_commandline.html',1,'']]],
   ['commandlineconf',['CommandLineConf',['../struct_command_line_conf.html',1,'']]],
   ['commandmodule',['CommandModule',['../class_command_module.html',1,'']]],
   ['commandparser',['CommandParser',['../class_command_parser.html',1,'']]],
@@ -50,5 +49,6 @@ var searchData=
   ['connectclass',['ConnectClass',['../struct_connect_class.html',1,'']]],
   ['coreexception',['CoreException',['../class_core_exception.html',1,'']]],
   ['culllist',['CullList',['../class_cull_list.html',1,'']]],
-  ['cullresult',['CullResult',['../class_cull_result.html',1,'']]]
+  ['cullresult',['CullResult',['../class_cull_result.html',1,'']]],
+  ['cwin32exception',['CWin32Exception',['../class_c_win32_exception.html',1,'']]]
 ];

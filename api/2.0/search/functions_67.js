@@ -61,7 +61,7 @@ var searchData=
   ['getresult',['GetResult',['../class_d_n_s.html#a657674b4641cb4f8cb15c6b86e799284',1,'DNS']]],
   ['getsecs',['GetSecs',['../class_timer.html#a7e064e6b109650c51cf58d7c1649b8d8',1,'Timer']]],
   ['getsendqhardmax',['GetSendqHardMax',['../struct_connect_class.html#a218314cac5165d2dabc419c23c547091',1,'ConnectClass']]],
-  ['getsendqsize',['getSendQSize',['../class_stream_socket.html#a3abaa30b5f76c22657f10627a8e912d1',1,'StreamSocket']]],
+  ['getsendqsize',['getSendQSize',['../class_stream_socket.html#af8ce1cb562316a65a04c06911b8a4153',1,'StreamSocket']]],
   ['getsendqsoftmax',['GetSendqSoftMax',['../struct_connect_class.html#a179ec32b10052d659dae5656c7717847',1,'ConnectClass']]],
   ['getserverdescription',['GetServerDescription',['../class_insp_i_r_cd.html#a4479244807fc14c6cddc55a9d555cecf',1,'InspIRCd']]],
   ['getserverlist',['GetServerList',['../class_protocol_interface.html#a44c19deca4862205c684e5cbc3a637b8',1,'ProtocolInterface']]],

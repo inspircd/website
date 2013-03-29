@@ -34,7 +34,7 @@ var searchData=
   ['serverstats',['serverstats',['../classserverstats.html#a69fa3fe9fea418236f00eecba091e771',1,'serverstats']]],
   ['set_5fraw',['set_raw',['../class_extension_item.html#a64ae544a9eeaaf570520faa529109250',1,'ExtensionItem']]],
   ['setclass',['SetClass',['../class_local_user.html#a1f3fc890c0439dd32b3c920ac572259c',1,'LocalUser']]],
-  ['setclientip',['SetClientIP',['../class_user.html#a7fb23dbf12bd82ab26fdde77ec7fb590',1,'User::SetClientIP()'],['../class_local_user.html#a8fdcc7a70eab5520f1704dc3141755fa',1,'LocalUser::SetClientIP()']]],
+  ['setclientip',['SetClientIP',['../class_user.html#af1f261163f93f5d70232d530c56a6cb2',1,'User::SetClientIP()'],['../class_local_user.html#a3a2c4f40f4acb9e89f33a3c62e4c65ad',1,'LocalUser::SetClientIP()']]],
   ['setcreatetime',['SetCreateTime',['../class_x_line.html#a61a398b95584dc62f7b6f8a20f45a087',1,'XLine']]],
   ['seterror',['SetError',['../class_stream_socket.html#a6cf1b75c166a8d5b5bd47061ce4f330b',1,'StreamSocket']]],
   ['setexitflag',['SetExitFlag',['../class_thread.html#ae51a66d9b432e1e1c9b8b9d921c0900d',1,'Thread::SetExitFlag()'],['../class_queued_thread.html#add5d8c636c492bccf5bb23f4b77e00bd',1,'QueuedThread::SetExitFlag()'],['../class_socket_thread.html#ad477fc1cb14c4026f0d31b9bb615bc71',1,'SocketThread::SetExitFlag()']]],

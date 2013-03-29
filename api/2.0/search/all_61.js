@@ -45,6 +45,5 @@ var searchData=
   ['atomicactions',['AtomicActions',['../class_insp_i_r_cd.html#a1cf46b2561532aace01de3f9b53f1c0a',1,'InspIRCd']]],
   ['attach',['Attach',['../class_module_manager.html#aec0574e657ddae6bebec17730381c2df',1,'ModuleManager::Attach(Implementation i, Module *mod)'],['../class_module_manager.html#aa22d0a585c5c3b0f1ee6d5c0748fc0e3',1,'ModuleManager::Attach(Implementation *i, Module *mod, size_t sz)']]],
   ['awaymsg',['awaymsg',['../class_user.html#a9f4f7df5529c3547133907148fbb2918',1,'User']]],
-  ['awaytime',['awaytime',['../class_user.html#aa0241e8f5196138096077725a628a476',1,'User']]],
-  ['about',['About',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['awaytime',['awaytime',['../class_user.html#aa0241e8f5196138096077725a628a476',1,'User']]]
 ];

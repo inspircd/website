@@ -6,10 +6,6 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
-        <Name>About</Name>
-        <Path>md__r_e_a_d_m_e.html</Path>
-       </Node>
-       <Node>
         <Name>Namespaces</Name>
         <Path></Path>
         <Subnodes>
@@ -210,31 +206,6 @@
               <Name>irc_char_traits</Name>
               <Path>structirc_1_1irc__char__traits.html</Path>
               <Subnodes>
-               <Node>
-                <Name>compare</Name>
-                <Path>structirc_1_1irc__char__traits.html</Path>
-                <Anchor>a201b84471e4abf279e22764ed0e11e5d</Anchor>
-               </Node>
-               <Node>
-                <Name>eq</Name>
-                <Path>structirc_1_1irc__char__traits.html</Path>
-                <Anchor>a16dccde68be13928bfe98941b93d6315</Anchor>
-               </Node>
-               <Node>
-                <Name>find</Name>
-                <Path>structirc_1_1irc__char__traits.html</Path>
-                <Anchor>a4d8765e6511b1c5466abc40a43d687d4</Anchor>
-               </Node>
-               <Node>
-                <Name>lt</Name>
-                <Path>structirc_1_1irc__char__traits.html</Path>
-                <Anchor>a4d3cf52ea93da63dd932e8b1dea5e0b7</Anchor>
-               </Node>
-               <Node>
-                <Name>ne</Name>
-                <Path>structirc_1_1irc__char__traits.html</Path>
-                <Anchor>af94ef476b3f97a117b6304607b0190c5</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -988,11 +959,6 @@
               <Anchor>addceacd7b9a2233b9852fb7e8ff548b0</Anchor>
              </Node>
              <Node>
-              <Name>JoinUser</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>ae820c1a2a707b62b35175cd156ef1967</Anchor>
-             </Node>
-             <Node>
               <Name>KickUser</Name>
               <Path>class_channel.html</Path>
               <Anchor>a600e9dc93fc4d23e049ed9e44bd3e831</Anchor>
@@ -1257,22 +1223,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>Commandline</Name>
-            <Path>struct_commandline.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Handler</Name>
-              <Path>struct_commandline.html</Path>
-              <Anchor>aae4fe1233dc8a8f54caf22bfc749b936</Anchor>
-             </Node>
-             <Node>
-              <Name>Switch</Name>
-              <Path>struct_commandline.html</Path>
-              <Anchor>a9d5047614564aebce252a4a350c2c608</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>CommandLineConf</Name>
             <Path>struct_command_line_conf.html</Path>
             <Subnodes>
@@ -1496,11 +1446,6 @@
             <Name>ConfigTag</Name>
             <Path>class_config_tag.html</Path>
             <Subnodes>
-             <Node>
-              <Name>create</Name>
-              <Path>class_config_tag.html</Path>
-              <Anchor>ac6d818a0c9235ed218fb6f48d38339bb</Anchor>
-             </Node>
              <Node>
               <Name>getBool</Name>
               <Path>class_config_tag.html</Path>
@@ -1793,6 +1738,32 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>CWin32Exception</Name>
+            <Path>class_c_win32_exception.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>CWin32Exception</Name>
+              <Path>class_c_win32_exception.html</Path>
+              <Anchor>a70d71c950c932663204c7e86386c0b8c</Anchor>
+             </Node>
+             <Node>
+              <Name>CWin32Exception</Name>
+              <Path>class_c_win32_exception.html</Path>
+              <Anchor>a4123d0969a1b8610d8172e520d995ade</Anchor>
+             </Node>
+             <Node>
+              <Name>GetErrorCode</Name>
+              <Path>class_c_win32_exception.html</Path>
+              <Anchor>a71c37a381897ccd3433db06c906c692e</Anchor>
+             </Node>
+             <Node>
+              <Name>what</Name>
+              <Path>class_c_win32_exception.html</Path>
+              <Anchor>af1abeb0c2a8587583f1239845d4b625a</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>DataProvider</Name>
             <Path>class_data_provider.html</Path>
             <Subnodes>
@@ -1942,21 +1913,6 @@
               <Anchor>a97a4dbc4fc8f70519c864e538f1cd910</Anchor>
              </Node>
              <Node>
-              <Name>EmptyHeader</Name>
-              <Path>class_d_n_s.html</Path>
-              <Anchor>a0cd7dc0f21ac5077a89bf5ece5743802</Anchor>
-             </Node>
-             <Node>
-              <Name>FillHeader</Name>
-              <Path>class_d_n_s.html</Path>
-              <Anchor>aa3868e37348c9e5b4bc6ec414cd75662</Anchor>
-             </Node>
-             <Node>
-              <Name>FillResourceRecord</Name>
-              <Path>class_d_n_s.html</Path>
-              <Anchor>ae72251515b8c57c8742b1d6a53a4482a</Anchor>
-             </Node>
-             <Node>
               <Name>GetCache</Name>
               <Path>class_d_n_s.html</Path>
               <Anchor>afaa6be636bc94ad8bc86aef2a6f71a8e</Anchor>
@@ -1992,11 +1948,6 @@
               <Anchor>ae4dd94b5780fdffabd72efd97e92f904</Anchor>
              </Node>
              <Node>
-              <Name>MakeIP6Int</Name>
-              <Path>class_d_n_s.html</Path>
-              <Anchor>af67db65fc42304f950f54d76b6312cc8</Anchor>
-             </Node>
-             <Node>
               <Name>PruneCache</Name>
               <Path>class_d_n_s.html</Path>
               <Anchor>ab6e53246a33bdb4ec3b14c18966580d8</Anchor>
@@ -2015,11 +1966,6 @@
               <Name>myserver</Name>
               <Path>class_d_n_s.html</Path>
               <Anchor>a8612f46d40e4f4d30c268ab6b6d7c406</Anchor>
-             </Node>
-             <Node>
-              <Name>QUERY_PORT</Name>
-              <Path>class_d_n_s.html</Path>
-              <Anchor>a7f40b53f471980025146630b33989262</Anchor>
              </Node>
              <Node>
               <Name>requests</Name>
@@ -2215,11 +2161,6 @@
               <Name>operator bool</Name>
               <Path>classdynamic__reference__base.html</Path>
               <Anchor>a34118c808c07821e3fe67d54026accb5</Anchor>
-             </Node>
-             <Node>
-              <Name>reset_all</Name>
-              <Path>classdynamic__reference__base.html</Path>
-              <Anchor>af334b86df830cd5fa2bd23f48e3c79f8</Anchor>
              </Node>
              <Node>
               <Name>SetProvider</Name>
@@ -3207,26 +3148,6 @@
               <Anchor>a2f7be26e48429c93c71e6a0fc2f07571</Anchor>
              </Node>
              <Node>
-              <Name>Match</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a58eddcb0a040fa531664412d34f5e363</Anchor>
-             </Node>
-             <Node>
-              <Name>Match</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a8cf6fced2fe107fc1d9161b283d25c6f</Anchor>
-             </Node>
-             <Node>
-              <Name>MatchCIDR</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a2cac8b4759122f7e6bca702eb320b82a</Anchor>
-             </Node>
-             <Node>
-              <Name>MatchCIDR</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a6249e661ec545beb44f27e4005ba074a</Anchor>
-             </Node>
-             <Node>
               <Name>NickMatchesEveryone</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>a53e88db7fc3e98845c30f19d45f257e6</Anchor>
@@ -3240,16 +3161,6 @@
               <Name>PassCompare</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>a508b2020c830d5a0bd3178f2e3e45c88</Anchor>
-             </Node>
-             <Node>
-              <Name>ProcessColors</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>ac13c8d13467845d652f834fcafa1b1d1</Anchor>
-             </Node>
-             <Node>
-              <Name>QuickExit</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a988542891b72614ec3bf2c35517e49aa</Anchor>
              </Node>
              <Node>
               <Name>RehashServer</Name>
@@ -3302,11 +3213,6 @@
               <Anchor>a6cd1251df875bc5b73f64ddd7fd31ccf</Anchor>
              </Node>
              <Node>
-              <Name>SetSignal</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a65a7bbf37cee7b6d65364775baf6c92c</Anchor>
-             </Node>
-             <Node>
               <Name>SignalHandler</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>ad77d3aebff98cdf466bdaa5d59d62be1</Anchor>
@@ -3315,11 +3221,6 @@
               <Name>SilentULine</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>aabe6e0b67fd35d938290ecb6384b0a90</Anchor>
-             </Node>
-             <Node>
-              <Name>StripColor</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>ad3e9c5f646b0bda9833d3d77fc94a5b2</Anchor>
              </Node>
              <Node>
               <Name>Time</Name>
@@ -3472,11 +3373,6 @@
               <Anchor>ab85be6c41bf60b7e30ffcffb748262ae</Anchor>
              </Node>
              <Node>
-              <Name>LogHeader</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a690904cae58a22540174f0c8ef99119c</Anchor>
-             </Node>
-             <Node>
               <Name>Logs</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>a1c75b0a69e96adb9652c42a13ec9b338</Anchor>
@@ -3587,11 +3483,6 @@
               <Path>classinterfacebase.html</Path>
               <Anchor>a1736bd02c86d092da695468b3300fd6c</Anchor>
              </Node>
-             <Node>
-              <Name>operator new</Name>
-              <Path>classinterfacebase.html</Path>
-              <Anchor>af637bde02c4fab8d51bcdcf3fff6166c</Anchor>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -3602,16 +3493,6 @@
               <Name>~Invitation</Name>
               <Path>class_invitation.html</Path>
               <Anchor>a1f8a71b917e13c3f062511e3ccfd2576</Anchor>
-             </Node>
-             <Node>
-              <Name>Create</Name>
-              <Path>class_invitation.html</Path>
-              <Anchor>a0627a40e38565e81433da55d65b303fb</Anchor>
-             </Node>
-             <Node>
-              <Name>Find</Name>
-              <Path>class_invitation.html</Path>
-              <Anchor>a63edb1dffb13d4fa2dd18195a85809e9</Anchor>
              </Node>
              <Node>
               <Name>chan</Name>
@@ -4079,12 +3960,12 @@
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a8fdcc7a70eab5520f1704dc3141755fa</Anchor>
+              <Anchor>a3a2c4f40f4acb9e89f33a3c62e4c65ad</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a0eddbbb41fc0b410726c3997022ade93</Anchor>
+              <Anchor>a6a8be9f0e28472f33e4bccbaf20f0386</Anchor>
              </Node>
              <Node>
               <Name>StartDNSLookup</Name>
@@ -4105,11 +3986,6 @@
               <Name>already_sent</Name>
               <Path>class_local_user.html</Path>
               <Anchor>afcff743a6ed933edd9f9b4f683ead421</Anchor>
-             </Node>
-             <Node>
-              <Name>already_sent_id</Name>
-              <Path>class_local_user.html</Path>
-              <Anchor>a783433b9acdc800ae2d85d39cfef24a7</Anchor>
              </Node>
              <Node>
               <Name>bytes_in</Name>
@@ -4492,11 +4368,6 @@
               <Anchor>aea39cfe14941cb4bec8f7fae41e5f254</Anchor>
              </Node>
              <Node>
-              <Name>CleanMask</Name>
-              <Path>class_mode_parser.html</Path>
-              <Anchor>ac92a7eff25c3626371ff194ebd8f93a5</Anchor>
-             </Node>
-             <Node>
               <Name>DelMode</Name>
               <Path>class_mode_parser.html</Path>
               <Anchor>a6c0f5ec49936812a01b4bec1f13be470</Anchor>
@@ -4540,11 +4411,6 @@
               <Name>ParaModeList</Name>
               <Path>class_mode_parser.html</Path>
               <Anchor>ae9b93eba7fa639bf253d79517c971f12</Anchor>
-             </Node>
-             <Node>
-              <Name>PrefixComparison</Name>
-              <Path>class_mode_parser.html</Path>
-              <Anchor>ab743a3371ce868ee31e21818b101fe81</Anchor>
              </Node>
              <Node>
               <Name>Process</Name>
@@ -5495,7 +5361,7 @@
              <Node>
               <Name>Parser</Name>
               <Path>struct_parser.html</Path>
-              <Anchor>a35dfe5a83c2cf36638ab21b991c48df4</Anchor>
+              <Anchor>ae11b37ff6fb0d88f1024983a19d72be4</Anchor>
              </Node>
              <Node>
               <Name>comment</Name>
@@ -5553,6 +5419,11 @@
               <Anchor>a8980da81adaa9561c6082d92cad7e0eb</Anchor>
              </Node>
              <Node>
+              <Name>mandatory_tag</Name>
+              <Path>struct_parser.html</Path>
+              <Anchor>ac27c380cf664185a73e21b874c89b144</Anchor>
+             </Node>
+             <Node>
               <Name>stack</Name>
               <Path>struct_parser.html</Path>
               <Anchor>a7a5d75018c0b802a9475a90ca6db33a1</Anchor>
@@ -5591,12 +5462,12 @@
              <Node>
               <Name>ParseExec</Name>
               <Path>struct_parse_stack.html</Path>
-              <Anchor>a92debc3a47c9031ba69d803d481ae7da</Anchor>
+              <Anchor>aef0d43d8c7adc002bab2ea310604acdd</Anchor>
              </Node>
              <Node>
               <Name>ParseFile</Name>
               <Path>struct_parse_stack.html</Path>
-              <Anchor>acf3880f55e43bc809b8cfaca523c15a0</Anchor>
+              <Anchor>aa4de053e6315dd2027e728d3385fa1b4</Anchor>
              </Node>
              <Node>
               <Name>errstr</Name>
@@ -5708,12 +5579,7 @@
              <Node>
               <Name>OnSetEvent</Name>
               <Path>class_ports_engine.html</Path>
-              <Anchor>a21e65739e36815c9f0d2fa9fec76b209</Anchor>
-             </Node>
-             <Node>
-              <Name>WantWrite</Name>
-              <Path>class_ports_engine.html</Path>
-              <Anchor>acc4c73fb1bdfa787a36b6e634818705c</Anchor>
+              <Anchor>ab24b60832ead85591f83239a37ecc250</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -5942,21 +5808,6 @@
               <Anchor>a35c1d69d1e3685027a0e85224edfc899</Anchor>
              </Node>
              <Node>
-              <Name>operator delete</Name>
-              <Path>classrefcountbase.html</Path>
-              <Anchor>a0eef5c757731f871d9a844acd3f9d00e</Anchor>
-             </Node>
-             <Node>
-              <Name>operator new</Name>
-              <Path>classrefcountbase.html</Path>
-              <Anchor>a66de766ef2fd3a3d532d255605c589c7</Anchor>
-             </Node>
-             <Node>
-              <Name>operator new</Name>
-              <Path>classrefcountbase.html</Path>
-              <Anchor>ae9871490ddb1c8f9b30e4d2547a8b920</Anchor>
-             </Node>
-             <Node>
               <Name>refcount_dec</Name>
               <Path>classrefcountbase.html</Path>
               <Anchor>a64cec5da323eb5dc7c18235658f43b50</Anchor>
@@ -5996,11 +5847,6 @@
               <Name>operator bool</Name>
               <Path>classreference.html</Path>
               <Anchor>a6e19b3264efa792c42409de89282972e</Anchor>
-             </Node>
-             <Node>
-              <Name>operator new</Name>
-              <Path>classreference.html</Path>
-              <Anchor>a54fb59c88245790be565f4d50e650a84</Anchor>
              </Node>
              <Node>
               <Name>operator T *</Name>
@@ -6366,11 +6212,6 @@
               <Anchor>a9710383dce8b0d659220758326aeed19</Anchor>
              </Node>
              <Node>
-              <Name>CleanFilename</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>aa251a5cc7a4d876657156f6aa135962e</Anchor>
-             </Node>
-             <Node>
               <Name>ConfTags</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a7add7d3520a503511baf9c386fa216e9</Anchor>
@@ -6379,11 +6220,6 @@
               <Name>ConfValue</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a744480882fe8a682f4f0bbeb77db4b70</Anchor>
-             </Node>
-             <Node>
-              <Name>FileExists</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>ab48144454fa19242d78e8a0d42924209</Anchor>
              </Node>
              <Node>
               <Name>Fill</Name>
@@ -6906,6 +6742,22 @@
               <Name>statsUnknown</Name>
               <Path>classserverstats.html</Path>
               <Anchor>aa1e242b7ac64792b2c9d9f3d0705ab85</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Service_Data</Name>
+            <Path>struct_service___data.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>argc</Name>
+              <Path>struct_service___data.html</Path>
+              <Anchor>a78642f3c6b897a3544bd6afba46972f4</Anchor>
+             </Node>
+             <Node>
+              <Name>argv</Name>
+              <Path>struct_service___data.html</Path>
+              <Anchor>aaa513e18f8f36f41907a42de7400ac9c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7496,7 +7348,7 @@
              <Node>
               <Name>getSendQSize</Name>
               <Path>class_stream_socket.html</Path>
-              <Anchor>a3abaa30b5f76c22657f10627a8e912d1</Anchor>
+              <Anchor>af8ce1cb562316a65a04c06911b8a4153</Anchor>
              </Node>
              <Node>
               <Name>HandleEvent</Name>
@@ -7730,11 +7582,6 @@
               <Anchor>a4609ff556d49620f9d08a64c5e90983c</Anchor>
              </Node>
              <Node>
-              <Name>Entry</Name>
-              <Path>class_thread_engine.html</Path>
-              <Anchor>abd4888f48720a1dc3f72918b95e04491</Anchor>
-             </Node>
-             <Node>
               <Name>GetName</Name>
               <Path>class_thread_engine.html</Path>
               <Anchor>a00154b14621f877246c1ddd58c9c26b2</Anchor>
@@ -7958,11 +7805,6 @@
               <Name>TickTimers</Name>
               <Path>class_timer_manager.html</Path>
               <Anchor>aa8732eb1c878111af5f7787a00b006c6</Anchor>
-             </Node>
-             <Node>
-              <Name>TimerComparison</Name>
-              <Path>class_timer_manager.html</Path>
-              <Anchor>a060be4ef07a796faad9ac5e4e41dbdc1</Anchor>
              </Node>
              <Node>
               <Name>Timers</Name>
@@ -8200,12 +8042,12 @@
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_user.html</Path>
-              <Anchor>a7fb23dbf12bd82ab26fdde77ec7fb590</Anchor>
+              <Anchor>af1f261163f93f5d70232d530c56a6cb2</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_user.html</Path>
-              <Anchor>adc937b4c081b764b6d7baaef58de1856</Anchor>
+              <Anchor>a715b0bc91292af35549cff8d3440024a</Anchor>
              </Node>
              <Node>
               <Name>SetMode</Name>
@@ -9474,10 +9316,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>Commandline</Name>
-            <Path>struct_commandline.html</Path>
-           </Node>
-           <Node>
             <Name>CommandLineConf</Name>
             <Path>struct_command_line_conf.html</Path>
            </Node>
@@ -9530,6 +9368,10 @@
                 <Path>class_module_exception.html</Path>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>CWin32Exception</Name>
+              <Path>class_c_win32_exception.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -9742,6 +9584,10 @@
            <Node>
             <Name>serverstats</Name>
             <Path>classserverstats.html</Path>
+           </Node>
+           <Node>
+            <Name>Service_Data</Name>
+            <Path>struct_service___data.html</Path>
            </Node>
            <Node>
             <Name>Snomask</Name>

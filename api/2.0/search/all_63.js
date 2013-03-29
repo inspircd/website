@@ -81,7 +81,6 @@ var searchData=
   ['cmds_5fout',['cmds_out',['../class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049',1,'LocalUser']]],
   ['command',['Command',['../class_command.html',1,'Command'],['../class_command.html#ad2d9ccae53853e86e5dea69ffa8129d3',1,'Command::Command()']]],
   ['commandfloodpenalty',['CommandFloodPenalty',['../class_local_user.html#a41882847ff97c21107fbcbff4c83bf16',1,'LocalUser']]],
-  ['commandline',['Commandline',['../struct_commandline.html',1,'']]],
   ['commandlineconf',['CommandLineConf',['../struct_command_line_conf.html',1,'']]],
   ['commandmodule',['CommandModule',['../class_command_module.html',1,'']]],
   ['commandparser',['CommandParser',['../class_command_parser.html',1,'CommandParser'],['../class_command_parser.html#a1fd17c361d85ec13c212cbac1999b9b3',1,'CommandParser::CommandParser()']]],
@@ -111,6 +110,7 @@ var searchData=
   ['cullresult',['CullResult',['../class_cull_result.html',1,'']]],
   ['currentsetsize',['CurrentSetSize',['../class_socket_engine.html#aad3193ccc82c03e8137b7b9804cdf23c',1,'SocketEngine']]],
   ['customversion',['CustomVersion',['../class_server_config.html#af71a282e9a3bb2680d224e00e7bd048d',1,'ServerConfig']]],
+  ['cwin32exception',['CWin32Exception',['../class_c_win32_exception.html',1,'']]],
   ['cyclehosts',['CycleHosts',['../class_server_config.html#a880195feb4f82513c7c2ca41cff45198',1,'ServerConfig']]],
   ['cyclehostsfromuser',['CycleHostsFromUser',['../class_server_config.html#ad617b3125462865dd4a2c80ea153a6d3',1,'ServerConfig']]]
 ];

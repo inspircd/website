@@ -5,6 +5,7 @@ var searchData=
   ['serverconfig',['ServerConfig',['../class_server_config.html',1,'']]],
   ['serverlimits',['ServerLimits',['../class_server_limits.html',1,'']]],
   ['serverstats',['serverstats',['../classserverstats.html',1,'']]],
+  ['service_5fdata',['Service_Data',['../struct_service___data.html',1,'']]],
   ['serviceprovider',['ServiceProvider',['../class_service_provider.html',1,'']]],
   ['simplechannelmodehandler',['SimpleChannelModeHandler',['../class_simple_channel_mode_handler.html',1,'']]],
   ['simpleextitem',['SimpleExtItem',['../class_simple_ext_item.html',1,'']]],
