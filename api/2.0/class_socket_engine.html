@@ -85,6 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -171,6 +172,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2059b324687d9d669fd0b0c0f7c32868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf7e56c7176ec5ab5a7836ae14c74e1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#adf7e56c7176ec5ab5a7836ae14c74e1f">GetStats</a> (float &amp;kbitpersec_in, float &amp;kbitpersec_out, float &amp;kbitpersec_total)</td></tr>
 <tr class="separator:adf7e56c7176ec5ab5a7836ae14c74e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7507410648b20e8cdb5c239a4ed72130"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130">IgnoreError</a> ()</td></tr>
+<tr class="separator:a7507410648b20e8cdb5c239a4ed72130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -802,6 +808,30 @@ time_t&#160;</td><td class="memItemRight" valign="bottom"><b>lastempty</b></td><
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if this fd has an event handler </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7507410648b20e8cdb5c239a4ed72130"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SocketEngine::IgnoreError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Should we ignore the error in errno? Checks EAGAIN and WSAEWOULDBLOCK </p>
 
 </div>
 </div>

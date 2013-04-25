@@ -6,6 +6,7 @@ var searchData=
   ['identmax',['IdentMax',['../class_server_limits.html#a41db595ffeedb5cfd361e1ebdf3aabe5',1,'ServerLimits']]],
   ['identsplit',['IdentSplit',['../class_x_line_manager.html#a531fb0ccd651ab645496886021509e6c',1,'XLineManager']]],
   ['idle_5flastmsg',['idle_lastmsg',['../class_user.html#a249c29ce8508133303dfbe42ed2bf50f',1,'User']]],
+  ['ignoreerror',['IgnoreError',['../class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130',1,'SocketEngine']]],
   ['init',['init',['../class_command_module.html#a9ee6cd2be5c3ad0bcec0e0cbfc67ef28',1,'CommandModule::init()'],['../class_module.html#ab19e59816d97db07363143c859ad0c10',1,'Module::init()']]],
   ['init_5ft',['init_t',['../unioninit__t.html',1,'']]],
   ['input',['input',['../class_resolver.html#a20e1971bc0897d81484143a09b297203',1,'Resolver']]],

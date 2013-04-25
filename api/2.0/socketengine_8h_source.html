@@ -258,12 +258,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> RecoverFromFork();</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;        <span class="keywordtype">void</span> GetStats(<span class="keywordtype">float</span> &amp;kbitpersec_in, <span class="keywordtype">float</span> &amp;kbitpersec_out, <span class="keywordtype">float</span> &amp;kbitpersec_total);</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;};</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;<a class="code" href="class_socket_engine.html">SocketEngine</a>* CreateSocketEngine();</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">bool</span> IgnoreError();</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;};</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;</div>
+<div class="line"><a name="l00499"></a><span class="lineno"><a class="code" href="class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130">  499</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130">SocketEngine::IgnoreError</a>()</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;{</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;        <span class="keywordflow">if</span> ((errno == EAGAIN) || (errno == EWOULDBLOCK))</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;<span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">if</span> (WSAGetLastError() == WSAEWOULDBLOCK)</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;}</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;<a class="code" href="class_socket_engine.html">SocketEngine</a>* CreateSocketEngine();</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;<span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['identsplit',['IdentSplit',['../class_x_line_manager.html#a531fb0ccd651ab645496886021509e6c',1,'XLineManager']]],
+  ['ignoreerror',['IgnoreError',['../class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130',1,'SocketEngine']]],
   ['init',['init',['../class_command_module.html#a9ee6cd2be5c3ad0bcec0e0cbfc67ef28',1,'CommandModule::init()'],['../class_module.html#ab19e59816d97db07363143c859ad0c10',1,'Module::init()']]],
   ['inspircd',['InspIRCd',['../class_insp_i_r_cd.html#af964ce79c5dbbfe330daeccfd2db2004',1,'InspIRCd']]],
   ['invalidatecache',['InvalidateCache',['../class_user.html#a5d27df0379f0f7fc83de02b73673b1aa',1,'User']]],

@@ -323,6 +323,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4b9d41041b7b56a786064020e9c50c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bbdc3c59248520549e5904bb402e2cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_l_l_manager.html">DLLManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a5bbdc3c59248520549e5904bb402e2cb">ModuleDLLManager</a></td></tr>
 <tr class="separator:a5bbdc3c59248520549e5904bb402e2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab94177da81fe7a68f37e48a554e272f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#aab94177da81fe7a68f37e48a554e272f">dying</a></td></tr>
+<tr class="separator:aab94177da81fe7a68f37e48a554e272f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for all <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> modules This class is the base class for <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> modules. All modules must inherit from this class, its methods will be called when irc server events occur. class inherited from module must be instantiated by the ModuleFactory class (see relevent section) for the module to be initialised. </p>
@@ -4538,6 +4540,19 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aab94177da81fe7a68f37e48a554e272f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Module::dying</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true, this module will be unloaded soon, further unload attempts will fail Value is used by the <a class="el" href="class_module_manager.html">ModuleManager</a> internally, you should not modify it </p>
+
+</div>
+</div>
 <a class="anchor" id="a5bbdc3c59248520549e5904bb402e2cb"></a>
 <div class="memitem">
 <div class="memproto">

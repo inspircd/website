@@ -16,5 +16,6 @@ var searchData=
   ['dns_5fdone',['dns_done',['../class_user.html#ae41b92b5c787bccfa3ff625de7522a07',1,'User']]],
   ['dns_5ftimeout',['dns_timeout',['../class_server_config.html#afb30afdbb21689e47b684c37f3ddfaba',1,'ServerConfig']]],
   ['dnsserver',['DNSServer',['../class_server_config.html#a4ad1e87c188fa22710dd105f05bf32b5',1,'ServerConfig']]],
-  ['duration',['duration',['../class_x_line.html#a4e1b903b875792b357f3a535cf19e347',1,'XLine']]]
+  ['duration',['duration',['../class_x_line.html#a4e1b903b875792b357f3a535cf19e347',1,'XLine']]],
+  ['dying',['dying',['../class_module.html#aab94177da81fe7a68f37e48a554e272f',1,'Module']]]
 ];

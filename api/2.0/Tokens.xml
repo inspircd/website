@@ -2542,6 +2542,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dying</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>aab94177da81fe7a68f37e48a554e272f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CommandParser</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -4681,6 +4691,17 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>adf7e56c7176ec5ab5a7836ae14c74e1f</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IgnoreError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -8386,6 +8407,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>IgnoreError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentSetSize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -11866,6 +11898,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>dying</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>aab94177da81fe7a68f37e48a554e272f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ModuleException</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -13081,6 +13123,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>IgnoreError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentSetSize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -13468,6 +13521,17 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>adf7e56c7176ec5ab5a7836ae14c74e1f</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IgnoreError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -15683,6 +15747,17 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>adf7e56c7176ec5ab5a7836ae14c74e1f</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IgnoreError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -18108,6 +18183,17 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>adf7e56c7176ec5ab5a7836ae14c74e1f</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IgnoreError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>

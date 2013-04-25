@@ -5021,6 +5021,11 @@
               <Anchor>a0861ead2131a6edbb77bf4be1d2104ad</Anchor>
              </Node>
              <Node>
+              <Name>dying</Name>
+              <Path>class_module.html</Path>
+              <Anchor>aab94177da81fe7a68f37e48a554e272f</Anchor>
+             </Node>
+             <Node>
               <Name>ModuleDLLManager</Name>
               <Path>class_module.html</Path>
               <Anchor>a5bbdc3c59248520549e5904bb402e2cb</Anchor>
