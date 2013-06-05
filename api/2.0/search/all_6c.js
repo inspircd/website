@@ -16,6 +16,7 @@ var searchData=
   ['load',['Load',['../class_module_manager.html#afa716cf1231b696936e061719571fb63',1,'ModuleManager']]],
   ['loadall',['LoadAll',['../class_module_manager.html#a10bd6d9fe3091eb4b03ac0d150a031ad',1,'ModuleManager']]],
   ['loadfile',['LoadFile',['../class_file_reader.html#a3b96b0fe0a08511513cc0a6bee8f7f6a',1,'FileReader']]],
+  ['local_5fcount',['local_count',['../class_user_manager.html#a6f8f8d94cb84b4a5bb1ffa26604b442b',1,'UserManager']]],
   ['local_5fusers',['local_users',['../class_user_manager.html#a8fa5edeaf48571c9e9aab4c3cd2acf9d',1,'UserManager']]],
   ['localclonecount',['LocalCloneCount',['../class_user_manager.html#a1ae61d7cf0b6fbc78501f4aad26f6a1a',1,'UserManager']]],
   ['localextitem',['LocalExtItem',['../class_local_ext_item.html',1,'']]],

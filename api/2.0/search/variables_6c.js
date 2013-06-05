@@ -10,6 +10,7 @@ var searchData=
   ['line_5ffactory',['line_factory',['../class_x_line_manager.html#a860950aea14e151719e6a5eefaa06768',1,'XLineManager']]],
   ['link_5fdata',['link_data',['../class_version.html#a582d176eac036b28cdd462c3cb6af917',1,'Version']]],
   ['list',['list',['../class_mode_handler.html#a452ed1ad1cf18ea5dd8fc14ade681fd6',1,'ModeHandler']]],
+  ['local_5fcount',['local_count',['../class_user_manager.html#a6f8f8d94cb84b4a5bb1ffa26604b442b',1,'UserManager']]],
   ['local_5fusers',['local_users',['../class_user_manager.html#a8fa5edeaf48571c9e9aab4c3cd2acf9d',1,'UserManager']]],
   ['localuseriter',['localuseriter',['../class_local_user.html#ad338f643d1a9380f7dc716e3bea12389',1,'LocalUser']]],
   ['log',['log',['../class_file_writer.html#ad05c7cc3c13d5d267b36ddec22f3abed',1,'FileWriter']]],

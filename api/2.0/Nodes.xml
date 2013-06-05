@@ -8312,6 +8312,11 @@
             <Path>class_user_manager.html</Path>
             <Subnodes>
              <Node>
+              <Name>UserManager</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>a7ea6a5a58e03fb502e00d1157cdbb68e</Anchor>
+             </Node>
+             <Node>
               <Name>~UserManager</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>ad6f661321c38b332c0e0eff3a933e753</Anchor>
@@ -8407,6 +8412,11 @@
               <Anchor>a42ca127396cae0a299a4e69c90a3a62d</Anchor>
              </Node>
              <Node>
+              <Name>local_count</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>a6f8f8d94cb84b4a5bb1ffa26604b442b</Anchor>
+             </Node>
+             <Node>
               <Name>local_users</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a8fa5edeaf48571c9e9aab4c3cd2acf9d</Anchor>
@@ -8414,7 +8424,7 @@
              <Node>
               <Name>unregistered_count</Name>
               <Path>class_user_manager.html</Path>
-              <Anchor>a733d545ce55abebc48c1977f0b705cff</Anchor>
+              <Anchor>a1ba341589eeb9ff647a38fbaceab512b</Anchor>
              </Node>
              <Node>
               <Name>uuidlist</Name>

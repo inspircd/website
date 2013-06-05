@@ -21011,7 +21011,17 @@
       <Scope>UserManager</Scope>
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
-    <Anchor>a733d545ce55abebc48c1977f0b705cff</Anchor>
+    <Anchor>a1ba341589eeb9ff647a38fbaceab512b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>local_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>UserManager</Scope>
+    </TokenIdentifier>
+    <Path>class_user_manager.html</Path>
+    <Anchor>a6f8f8d94cb84b4a5bb1ffa26604b442b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

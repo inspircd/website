@@ -2,7 +2,7 @@ var searchData=
 [
   ['ulines',['ulines',['../class_server_config.html#a063b619ac77d831be1a68e575a1cbd2b',1,'ServerConfig']]],
   ['undernetmsgprefix',['UndernetMsgPrefix',['../class_server_config.html#a7ec8f5f0790cc6ed14152e52fadb37a3',1,'ServerConfig']]],
-  ['unregistered_5fcount',['unregistered_count',['../class_user_manager.html#a733d545ce55abebc48c1977f0b705cff',1,'UserManager']]],
+  ['unregistered_5fcount',['unregistered_count',['../class_user_manager.html#a1ba341589eeb9ff647a38fbaceab512b',1,'UserManager']]],
   ['use_5fcount',['use_count',['../class_command.html#a0f89a467a22751f6f08f3f06f830b063',1,'Command']]],
   ['userlist',['userlist',['../class_channel.html#a2d589e1226cbe5ec8fafe8a6810d9b12',1,'Channel']]],
   ['users',['Users',['../class_insp_i_r_cd.html#aba78b9dcba4d9a08a3efb4e50d005bbc',1,'InspIRCd']]],
