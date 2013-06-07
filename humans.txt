@@ -2,7 +2,7 @@
 
 /* TEAM */
   InspIRCd Development Team
-  Site: http://inspircd.github.com/
+  Site: http://www.inspircd.org/
 
 /* SITE */
   Standards: HTML 5, CSS 3
