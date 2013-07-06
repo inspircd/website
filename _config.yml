@@ -17,7 +17,7 @@ navigation:
     - title: Home
       uri: /
     - title: Downloads
-      uri: /downloads
+      uri: https://github.com/inspircd/inspircd/releases
     - title: Wiki
       uri: /wiki
     - title: Issue Tracker
