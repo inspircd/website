@@ -14,7 +14,7 @@ maintainer found, 1.2.9 will be the final release in the 1.2 series.
 If you are interested in maintaining it, please get in contact, or start to consider upgrading to 2.0.
 
 Tarballs may be found [at the usual
-place](https://github.com/inspircd/inspircd/downloads).
+place](https://github.com/inspircd/inspircd/releases).
 
 Thanks to the following people for their contributions to this release:
     Author: Adam <Adam@anope.org>
