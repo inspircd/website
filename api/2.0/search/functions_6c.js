@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['lasterror',['LastError',['../class_d_l_l_manager.html#a410691f0ddd035cb75c52c1bb3a1d29e',1,'DLLManager::LastError()'],['../class_module_manager.html#a222f41c78f963f70da5212eaf05732f7',1,'ModuleManager::LastError()']]],
+  ['lasterror',['LastError',['../class_d_l_l_manager.html#a410691f0ddd035cb75c52c1bb3a1d29e',1,'DLLManager::LastError()'],['../class_module_manager.html#a222f41c78f963f70da5212eaf05732f7',1,'ModuleManager::LastError()'],['../class_socket_engine.html#ad314b7385adb5a74da1c60e098e69ce8',1,'SocketEngine::LastError()']]],
   ['listen',['Listen',['../class_socket_engine.html#a2f01975de4af8cf1dd466ced614f8c53',1,'SocketEngine']]],
   ['listensocket',['ListenSocket',['../class_listen_socket.html#a7c0b32b456f6cba34f64c88df25abdc4',1,'ListenSocket']]],
   ['load',['Load',['../class_module_manager.html#afa716cf1231b696936e061719571fb63',1,'ModuleManager']]],

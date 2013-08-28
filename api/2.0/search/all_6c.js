@@ -1,7 +1,7 @@
 var searchData=
 [
   ['lastcpu',['LastCPU',['../classserverstats.html#ab7e050b377f05af99399cffba9989c66',1,'serverstats']]],
-  ['lasterror',['LastError',['../class_d_l_l_manager.html#a410691f0ddd035cb75c52c1bb3a1d29e',1,'DLLManager::LastError()'],['../class_module_manager.html#a222f41c78f963f70da5212eaf05732f7',1,'ModuleManager::LastError()']]],
+  ['lasterror',['LastError',['../class_d_l_l_manager.html#a410691f0ddd035cb75c52c1bb3a1d29e',1,'DLLManager::LastError()'],['../class_module_manager.html#a222f41c78f963f70da5212eaf05732f7',1,'ModuleManager::LastError()'],['../class_socket_engine.html#ad314b7385adb5a74da1c60e098e69ce8',1,'SocketEngine::LastError()']]],
   ['lastping',['lastping',['../class_user.html#a366e12fdc514b4ddf04441116cc1bbb6',1,'User']]],
   ['lastsampled',['LastSampled',['../classserverstats.html#a38cae46cc5657412aac78478074b8c20',1,'serverstats']]],
   ['length',['length',['../structirc_1_1sockets_1_1cidr__mask.html#a1e0cf416d28ff70f9b11693b21dfcd4f',1,'irc::sockets::cidr_mask']]],

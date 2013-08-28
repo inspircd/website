@@ -405,6 +405,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>fd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>ad7d91fcc846baef2153839382a1cbf9c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>builtin_modes</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -4706,6 +4716,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>ad314b7385adb5a74da1c60e098e69ce8</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a001731d22a14e12cfd90144094676dc6</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentSetSize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -6141,6 +6173,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fpos</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -6156,6 +6199,17 @@
       <Scope>GenRandomHandler</Scope>
     </TokenIdentifier>
     <Path>class_gen_random_handler.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7722,12 +7776,34 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IsIdentHandler</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>IsIdentHandler</Scope>
     </TokenIdentifier>
     <Path>class_is_ident_handler.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7740,12 +7816,34 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IsSIDHandler</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>IsSIDHandler</Scope>
     </TokenIdentifier>
     <Path>class_is_s_i_d_handler.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8414,6 +8512,28 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>ad314b7385adb5a74da1c60e098e69ce8</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a001731d22a14e12cfd90144094676dc6</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -12316,6 +12436,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OperInfo</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -13134,6 +13265,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>ad314b7385adb5a74da1c60e098e69ce8</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a001731d22a14e12cfd90144094676dc6</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentSetSize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -13532,6 +13685,28 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>ad314b7385adb5a74da1c60e098e69ce8</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a001731d22a14e12cfd90144094676dc6</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -14157,6 +14332,17 @@
       <Scope>RehashHandler</Scope>
     </TokenIdentifier>
     <Path>class_rehash_handler.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15758,6 +15944,28 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>a7507410648b20e8cdb5c239a4ed72130</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>ad314b7385adb5a74da1c60e098e69ce8</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a001731d22a14e12cfd90144094676dc6</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -18198,6 +18406,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>ad314b7385adb5a74da1c60e098e69ce8</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>SocketEngine</Scope>
+    </TokenIdentifier>
+    <Path>class_socket_engine.html</Path>
+    <Anchor>a001731d22a14e12cfd90144094676dc6</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CurrentSetSize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -18692,6 +18922,36 @@
     </TokenIdentifier>
     <Path>class_command.html</Path>
     <Anchor>a2a23011bc193c57dd9a37e767c5712c6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>ad1dfa94bef361c61dfadefff1454bef9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a1dace4b64886f5cabd5a406d0f9e7e11</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a398d7fbc50d368467964f93bd093aabd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20788,6 +21048,16 @@
     <Path>class_event_handler.html</Path>
     <Anchor>a9578358998a3221402df5404ca2776d6</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>ad7d91fcc846baef2153839382a1cbf9c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
