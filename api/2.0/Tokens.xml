@@ -2990,7 +2990,7 @@
       <Scope>ConfigTag</Scope>
     </TokenIdentifier>
     <Path>class_config_tag.html</Path>
-    <Anchor>ac6d818a0c9235ed218fb6f48d38339bb</Anchor>
+    <Anchor>ab273d19b0d7bbc5bb6ae2eb18786e9ac</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -7608,16 +7608,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>s_signal</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>InspIRCd</Scope>
-    </TokenIdentifier>
-    <Path>class_insp_i_r_cd.html</Path>
-    <Anchor>a11a7b41cab21129f226b80179324458c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>PI</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -7725,6 +7715,16 @@
     </TokenIdentifier>
     <Path>class_insp_i_r_cd.html</Path>
     <Anchor>a0d0008464434892aac7cf89ddd363ff7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>s_signal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>InspIRCd</Scope>
+    </TokenIdentifier>
+    <Path>class_insp_i_r_cd.html</Path>
+    <Anchor>a0adf15e0543a0cf50a38f3e13445cf1e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
