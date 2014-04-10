@@ -17,7 +17,7 @@ navigation:
     - title: Home
       uri: /
     - title: Downloads
-      uri: https://github.com/inspircd/inspircd/releases
+      uri: https://bitbucket.org/inspircd/inspircd/get/v2.0.16.tar.gz
     - title: Wiki
       uri: /wiki
     - title: Issue Tracker
@@ -25,4 +25,4 @@ navigation:
     - title: API
       uri: /api
     - title: Git
-      uri: https://github.com/inspircd
+      uri: https://bitbucket.org/inspircd/inspircd
