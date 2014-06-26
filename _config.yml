@@ -4,6 +4,9 @@ paginate: 5
 permalink: /:year/:month/:day/:title.html
 pygments: true
 
+gems:
+  - jekyll-sitemap
+
 info:
     title: Inspire IRCd
     slogan: The Stable, High-Performance and Modular IRCd
