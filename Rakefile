@@ -82,7 +82,7 @@ task :update do
 	require 'net/http'
 	require 'uri'
 	resources = {
-		'https://raw.github.com/necolas/normalize.css/master/normalize.css' => 'assets/stylesheets/normalize.css',
+		'https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css' => 'assets/stylesheets/normalize.css',
 		'http://modernizr.com/downloads/modernizr-latest.js' => 'assets/javascripts/modernizr.js'
 	}.freeze
 	resources.each do |source, target|
