@@ -17,6 +17,7 @@ Tarballs may be found [at the usual
 place](https://github.com/inspircd/inspircd/releases).
 
 Thanks to the following people for their contributions to this release:
+
     Author: Adam <Adam@anope.org>
     Author: Daniel De Graaf <danieldg@inspircd.org>
     Author: Jackmcbarn <jackmcbarn@jackmcbarn.no-ip.org>
@@ -28,6 +29,7 @@ Thanks to the following people for their contributions to this release:
     Author: William Pitcock <nenolod@dereferenced.org>
 
 A diffstat is attached:
+
     README.md                                 |   13 +++++++
     conf/inspircd.conf.example                |    2 +
     conf/inspircd.motd.example                |    1 -

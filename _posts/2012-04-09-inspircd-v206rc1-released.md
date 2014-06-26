@@ -20,6 +20,7 @@ InspIRCd v2.1.0b3 contains some new features:
 Thanks (again) to Shawn Smith for his work on these features.
 
 For v2.0.6rc1, thanks to the following people for this release:
+
     Author: Adam <Adam@anope.org>
     Author: Daniel De Graaf <danieldg@inspircd.org>
     Author: Jackmcbarn <jackmcbarn@jackmcbarn.no-ip.org>
@@ -35,6 +36,7 @@ For v2.0.6rc1, thanks to the following people for this release:
     Author: William Pitcock <nenolod@dereferenced.org>
 
 And a diffstat, for the curious:
+
     README.md                           |   13 ++++++++
     configure                           |   12 ++++++-
     docs/README                         |    1 -
@@ -69,6 +71,7 @@ And a diffstat, for the curious:
     31 files changed, 162 insertions(+), 99 deletions(-)
 
 And for v2.1.0b3:
+
     Author: Adam <Adam@anope.org>
     Author: Daniel De Graaf <danieldg@inspircd.org>
     Author: Jackmcbarn <jackmcbarn@jackmcbarn.no-ip.org>
@@ -84,6 +87,7 @@ And for v2.1.0b3:
     Author: Xaquseg <xaquseg@irchighway.net>
 
 Diffstat:
+
     README.md                          |   13 ++++++
     configure                          |   12 +++++-
     docs/README                        |    1 -
