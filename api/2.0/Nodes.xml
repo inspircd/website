@@ -83,57 +83,6 @@
               <Path>namespaceirc_1_1sockets.html</Path>
               <Subnodes>
                <Node>
-                <Name>sockaddrs</Name>
-                <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>addr</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a9712a38d16256974df52b8ca4788e021</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a0c46b85c13376f0860508ab1e1f70428</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a1419bc52286fb808627e4bf785dae6e1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>port</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a0e9ec75a2646198bb28ec6456a4e7adc</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sa_size</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>adae0aca22516d4287662cc74ad34b313</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>str</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a44bcc520c85d392ffa7d7730c369d302</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>in4</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>aaa2cab604ea179ed783533b01771247e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>in6</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a33df07db98e181c1d0269c1a6ced8dfa</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sa</Name>
-                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>aad924482e685e745e524c8caf1434f73</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>cidr_mask</Name>
                 <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
                 <Subnodes>
@@ -189,16 +138,78 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>sockaddrs</Name>
+                <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>addr</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a9712a38d16256974df52b8ca4788e021</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator!=</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a0c46b85c13376f0860508ab1e1f70428</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a1419bc52286fb808627e4bf785dae6e1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>port</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a0e9ec75a2646198bb28ec6456a4e7adc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sa_size</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>adae0aca22516d4287662cc74ad34b313</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>str</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a44bcc520c85d392ffa7d7730c369d302</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>in4</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>aaa2cab604ea179ed783533b01771247e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>in6</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a33df07db98e181c1d0269c1a6ced8dfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sa</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>aad924482e685e745e524c8caf1434f73</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
-              <Name>StrHashComp</Name>
-              <Path>structirc_1_1_str_hash_comp.html</Path>
+              <Name>commasepstream</Name>
+              <Path>classirc_1_1commasepstream.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>commasepstream</Name>
+                <Path>classirc_1_1commasepstream.html</Path>
+                <Anchor>a71ec1b02d670b5432860542a2dc0a8ff</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>hash</Name>
+              <Path>structirc_1_1hash.html</Path>
               <Subnodes>
                <Node>
                 <Name>operator()</Name>
-                <Path>structirc_1_1_str_hash_comp.html</Path>
-                <Anchor>a0c6b155560480b06b14b37f2c6b1657e</Anchor>
+                <Path>structirc_1_1hash.html</Path>
+                <Anchor>a34bb52a4dff5754d04a2565e8d0d47d6</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -206,32 +217,6 @@
               <Name>irc_char_traits</Name>
               <Path>structirc_1_1irc__char__traits.html</Path>
               <Subnodes>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>stringjoiner</Name>
-              <Path>classirc_1_1stringjoiner.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>stringjoiner</Name>
-                <Path>classirc_1_1stringjoiner.html</Path>
-                <Anchor>a273c0c3b3b126354b4ef6c7c3d26d424</Anchor>
-               </Node>
-               <Node>
-                <Name>stringjoiner</Name>
-                <Path>classirc_1_1stringjoiner.html</Path>
-                <Anchor>aa1d860b168eaf34219b71b083ad03b2d</Anchor>
-               </Node>
-               <Node>
-                <Name>stringjoiner</Name>
-                <Path>classirc_1_1stringjoiner.html</Path>
-                <Anchor>ac9af25ca7887a267a825c6b1d4945580</Anchor>
-               </Node>
-               <Node>
-                <Name>GetJoined</Name>
-                <Path>classirc_1_1stringjoiner.html</Path>
-                <Anchor>aa692442ef64441c58b4d3a77cf78deb6</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -276,38 +261,18 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>tokenstream</Name>
-              <Path>classirc_1_1tokenstream.html</Path>
+              <Name>portparser</Name>
+              <Path>classirc_1_1portparser.html</Path>
               <Subnodes>
                <Node>
-                <Name>tokenstream</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>ad0e45e600136740b8c5020075df0f06d</Anchor>
-               </Node>
-               <Node>
-                <Name>~tokenstream</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a79b15b16e867b35b7b830f2ecdd276d6</Anchor>
+                <Name>portparser</Name>
+                <Path>classirc_1_1portparser.html</Path>
+                <Anchor>a06ea21fd98ad5d18dd7a0e2c3be14061</Anchor>
                </Node>
                <Node>
                 <Name>GetToken</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
-               </Node>
-               <Node>
-                <Name>GetToken</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a568ee09c1fd61bc91e3d196b586243d3</Anchor>
-               </Node>
-               <Node>
-                <Name>GetToken</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a015f094f368854d02a074ac962460201</Anchor>
-               </Node>
-               <Node>
-                <Name>GetToken</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
+                <Path>classirc_1_1portparser.html</Path>
+                <Anchor>af5581bda92d07705c3d0c74eca1581f3</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -343,17 +308,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>commasepstream</Name>
-              <Path>classirc_1_1commasepstream.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>commasepstream</Name>
-                <Path>classirc_1_1commasepstream.html</Path>
-                <Anchor>a71ec1b02d670b5432860542a2dc0a8ff</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>spacesepstream</Name>
               <Path>classirc_1_1spacesepstream.html</Path>
               <Subnodes>
@@ -365,29 +319,75 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>portparser</Name>
-              <Path>classirc_1_1portparser.html</Path>
+              <Name>StrHashComp</Name>
+              <Path>structirc_1_1_str_hash_comp.html</Path>
               <Subnodes>
                <Node>
-                <Name>portparser</Name>
-                <Path>classirc_1_1portparser.html</Path>
-                <Anchor>a06ea21fd98ad5d18dd7a0e2c3be14061</Anchor>
-               </Node>
-               <Node>
-                <Name>GetToken</Name>
-                <Path>classirc_1_1portparser.html</Path>
-                <Anchor>af5581bda92d07705c3d0c74eca1581f3</Anchor>
+                <Name>operator()</Name>
+                <Path>structirc_1_1_str_hash_comp.html</Path>
+                <Anchor>a0c6b155560480b06b14b37f2c6b1657e</Anchor>
                </Node>
               </Subnodes>
              </Node>
              <Node>
-              <Name>hash</Name>
-              <Path>structirc_1_1hash.html</Path>
+              <Name>stringjoiner</Name>
+              <Path>classirc_1_1stringjoiner.html</Path>
               <Subnodes>
                <Node>
-                <Name>operator()</Name>
-                <Path>structirc_1_1hash.html</Path>
-                <Anchor>a34bb52a4dff5754d04a2565e8d0d47d6</Anchor>
+                <Name>stringjoiner</Name>
+                <Path>classirc_1_1stringjoiner.html</Path>
+                <Anchor>a273c0c3b3b126354b4ef6c7c3d26d424</Anchor>
+               </Node>
+               <Node>
+                <Name>stringjoiner</Name>
+                <Path>classirc_1_1stringjoiner.html</Path>
+                <Anchor>aa1d860b168eaf34219b71b083ad03b2d</Anchor>
+               </Node>
+               <Node>
+                <Name>stringjoiner</Name>
+                <Path>classirc_1_1stringjoiner.html</Path>
+                <Anchor>ac9af25ca7887a267a825c6b1d4945580</Anchor>
+               </Node>
+               <Node>
+                <Name>GetJoined</Name>
+                <Path>classirc_1_1stringjoiner.html</Path>
+                <Anchor>aa692442ef64441c58b4d3a77cf78deb6</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>tokenstream</Name>
+              <Path>classirc_1_1tokenstream.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>tokenstream</Name>
+                <Path>classirc_1_1tokenstream.html</Path>
+                <Anchor>ad0e45e600136740b8c5020075df0f06d</Anchor>
+               </Node>
+               <Node>
+                <Name>~tokenstream</Name>
+                <Path>classirc_1_1tokenstream.html</Path>
+                <Anchor>a79b15b16e867b35b7b830f2ecdd276d6</Anchor>
+               </Node>
+               <Node>
+                <Name>GetToken</Name>
+                <Path>classirc_1_1tokenstream.html</Path>
+                <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
+               </Node>
+               <Node>
+                <Name>GetToken</Name>
+                <Path>classirc_1_1tokenstream.html</Path>
+                <Anchor>a568ee09c1fd61bc91e3d196b586243d3</Anchor>
+               </Node>
+               <Node>
+                <Name>GetToken</Name>
+                <Path>classirc_1_1tokenstream.html</Path>
+                <Anchor>a015f094f368854d02a074ac962460201</Anchor>
+               </Node>
+               <Node>
+                <Name>GetToken</Name>
+                <Path>classirc_1_1tokenstream.html</Path>
+                <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -722,7 +722,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller0.html</Path>
-              <Anchor>aa2a3dfe4250f4361cd46a463eb83cef9</Anchor>
+              <Anchor>a1e0873f870bcc6100d5ada98f67c920d</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -738,7 +738,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller1.html</Path>
-              <Anchor>afe54c6ff6d41d88525c9b69436ecb63b</Anchor>
+              <Anchor>afa67115905c50df210b4ad7c6ed4f82a</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -754,7 +754,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller2.html</Path>
-              <Anchor>a4ea727fc54a3aa14fe2495c4e8f116f2</Anchor>
+              <Anchor>a0b6dd3280c35ea5a8d59e79917451fb9</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -770,7 +770,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller3.html</Path>
-              <Anchor>a37ceee883cc61bbeb508bb8e20bec4db</Anchor>
+              <Anchor>afcde44040b5c8bc18e6ff15d386155e2</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -786,7 +786,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller4.html</Path>
-              <Anchor>a13c68564b7d46391dfa4fa12906b6906</Anchor>
+              <Anchor>a3a1b6f29b094122a3cb9f24d71d00b59</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -802,7 +802,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller5.html</Path>
-              <Anchor>a9e7ac47b5fff95bb2ef31570c43d5fae</Anchor>
+              <Anchor>a4202dc0d3fd7837310f6bf08b9d79a34</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -818,7 +818,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller6.html</Path>
-              <Anchor>a123bea01f42b5b2bf2fe8a61bd67c615</Anchor>
+              <Anchor>a4ed5298e7ac747fb087363bca6ed93a7</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -834,7 +834,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller7.html</Path>
-              <Anchor>a7e95839f8a37d54cbf223d6e1c8db965</Anchor>
+              <Anchor>a826795df760c71a1754de436b05517e2</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -850,7 +850,7 @@
              <Node>
               <Name>operator()</Name>
               <Path>classcaller8.html</Path>
-              <Anchor>acb721714121a49e9e93276b6b0cde41f</Anchor>
+              <Anchor>a6a205bf6006a95ad388a803dbd111119</Anchor>
              </Node>
             </Subnodes>
            </Node>

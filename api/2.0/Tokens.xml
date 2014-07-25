@@ -22377,23 +22377,98 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::StrHashComp</Name>
+      <Name>irc::commasepstream</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>irc::StrHashComp</Scope>
+      <Scope>irc::commasepstream</Scope>
     </TokenIdentifier>
-    <Path>structirc_1_1_str_hash_comp.html</Path>
+    <Path>classirc_1_1commasepstream.html</Path>
     <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>commasepstream</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::commasepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1commasepstream.html</Path>
+    <Anchor>a71ec1b02d670b5432860542a2dc0a8ff</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sepstream</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a53516c6a656bc17ee3b0f8bd53fd48e8</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~sepstream</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a6d6757e7cdff94777f454bf940cededa</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a9614205d9360120abc772e7ceb191c0b</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetRemaining</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a89d896cf3dd13852ea6955634792bb20</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>StreamEnd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a147bc527848667cad63bfb7159bcb906</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::hash</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::hash</Scope>
+    </TokenIdentifier>
+    <Path>structirc_1_1hash.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>operator()</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>irc::StrHashComp</Scope>
+      <Scope>irc::hash</Scope>
     </TokenIdentifier>
-    <Path>structirc_1_1_str_hash_comp.html</Path>
-    <Anchor>a0c6b155560480b06b14b37f2c6b1657e</Anchor>
+    <Path>structirc_1_1hash.html</Path>
+    <Anchor>a34bb52a4dff5754d04a2565e8d0d47d6</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22459,60 +22534,6 @@
     </TokenIdentifier>
     <Path>structirc_1_1irc__char__traits.html</Path>
     <Anchor>a4d8765e6511b1c5466abc40a43d687d4</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::stringjoiner</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::stringjoiner</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1stringjoiner.html</Path>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stringjoiner</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::stringjoiner</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1stringjoiner.html</Path>
-    <Anchor>a273c0c3b3b126354b4ef6c7c3d26d424</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stringjoiner</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::stringjoiner</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1stringjoiner.html</Path>
-    <Anchor>aa1d860b168eaf34219b71b083ad03b2d</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stringjoiner</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::stringjoiner</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1stringjoiner.html</Path>
-    <Anchor>ac9af25ca7887a267a825c6b1d4945580</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetJoined</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::stringjoiner</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1stringjoiner.html</Path>
-    <Anchor>aa692442ef64441c58b4d3a77cf78deb6</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22604,34 +22625,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::tokenstream</Name>
+      <Name>irc::portparser</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>irc::tokenstream</Scope>
+      <Scope>irc::portparser</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
+    <Path>classirc_1_1portparser.html</Path>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>tokenstream</Name>
+      <Name>portparser</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>irc::tokenstream</Scope>
+      <Scope>irc::portparser</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
-    <Anchor>ad0e45e600136740b8c5020075df0f06d</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~tokenstream</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::tokenstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
-    <Anchor>a79b15b16e867b35b7b830f2ecdd276d6</Anchor>
+    <Path>classirc_1_1portparser.html</Path>
+    <Anchor>a06ea21fd98ad5d18dd7a0e2c3be14061</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22639,43 +22649,10 @@
       <Name>GetToken</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>irc::tokenstream</Scope>
+      <Scope>irc::portparser</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
-    <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetToken</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::tokenstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
-    <Anchor>a568ee09c1fd61bc91e3d196b586243d3</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetToken</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::tokenstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
-    <Anchor>a015f094f368854d02a074ac962460201</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetToken</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::tokenstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1tokenstream.html</Path>
-    <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
+    <Path>classirc_1_1portparser.html</Path>
+    <Anchor>af5581bda92d07705c3d0c74eca1581f3</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22686,82 +22663,6 @@
       <Scope>irc::sepstream</Scope>
     </TokenIdentifier>
     <Path>classirc_1_1sepstream.html</Path>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sepstream</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::sepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1sepstream.html</Path>
-    <Anchor>a53516c6a656bc17ee3b0f8bd53fd48e8</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~sepstream</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::sepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1sepstream.html</Path>
-    <Anchor>a6d6757e7cdff94777f454bf940cededa</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetToken</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::sepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1sepstream.html</Path>
-    <Anchor>a9614205d9360120abc772e7ceb191c0b</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetRemaining</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::sepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1sepstream.html</Path>
-    <Anchor>a89d896cf3dd13852ea6955634792bb20</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>StreamEnd</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::sepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1sepstream.html</Path>
-    <Anchor>a147bc527848667cad63bfb7159bcb906</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::commasepstream</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::commasepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1commasepstream.html</Path>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>commasepstream</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::commasepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1commasepstream.html</Path>
-    <Anchor>a71ec1b02d670b5432860542a2dc0a8ff</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22897,23 +22798,109 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::portparser</Name>
+      <Name>irc::StrHashComp</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>irc::portparser</Scope>
+      <Scope>irc::StrHashComp</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1portparser.html</Path>
+    <Path>structirc_1_1_str_hash_comp.html</Path>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>portparser</Name>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::StrHashComp</Scope>
+    </TokenIdentifier>
+    <Path>structirc_1_1_str_hash_comp.html</Path>
+    <Anchor>a0c6b155560480b06b14b37f2c6b1657e</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::stringjoiner</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::stringjoiner</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1stringjoiner.html</Path>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringjoiner</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>irc::portparser</Scope>
+      <Scope>irc::stringjoiner</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1portparser.html</Path>
-    <Anchor>a06ea21fd98ad5d18dd7a0e2c3be14061</Anchor>
+    <Path>classirc_1_1stringjoiner.html</Path>
+    <Anchor>a273c0c3b3b126354b4ef6c7c3d26d424</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringjoiner</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::stringjoiner</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1stringjoiner.html</Path>
+    <Anchor>aa1d860b168eaf34219b71b083ad03b2d</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringjoiner</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::stringjoiner</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1stringjoiner.html</Path>
+    <Anchor>ac9af25ca7887a267a825c6b1d4945580</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetJoined</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::stringjoiner</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1stringjoiner.html</Path>
+    <Anchor>aa692442ef64441c58b4d3a77cf78deb6</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::tokenstream</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::tokenstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tokenstream</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::tokenstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <Anchor>ad0e45e600136740b8c5020075df0f06d</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~tokenstream</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::tokenstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <Anchor>a79b15b16e867b35b7b830f2ecdd276d6</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22921,30 +22908,43 @@
       <Name>GetToken</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>irc::portparser</Scope>
+      <Scope>irc::tokenstream</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1portparser.html</Path>
-    <Anchor>af5581bda92d07705c3d0c74eca1581f3</Anchor>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::hash</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::hash</Scope>
+      <Name>GetToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::tokenstream</Scope>
     </TokenIdentifier>
-    <Path>structirc_1_1hash.html</Path>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <Anchor>a568ee09c1fd61bc91e3d196b586243d3</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator()</Name>
+      <Name>GetToken</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::hash</Scope>
+      <Type>instm</Type>
+      <Scope>irc::tokenstream</Scope>
     </TokenIdentifier>
-    <Path>structirc_1_1hash.html</Path>
-    <Anchor>a34bb52a4dff5754d04a2565e8d0d47d6</Anchor>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <Anchor>a015f094f368854d02a074ac962460201</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::tokenstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1tokenstream.html</Path>
+    <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -23009,59 +23009,6 @@
     </TokenIdentifier>
     <Path>namespaceirc_1_1sockets.html</Path>
     <Anchor>a199371e9ab09f4b0b750dfb66027fbe6</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::sockets::sockaddrs</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sa_size</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>adae0aca22516d4287662cc74ad34b313</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>port</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a0e9ec75a2646198bb28ec6456a4e7adc</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>addr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a9712a38d16256974df52b8ca4788e021</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>str</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a44bcc520c85d392ffa7d7730c369d302</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23168,5 +23115,58 @@
     </TokenIdentifier>
     <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
     <Anchor>abe83e74f5c5fb639399c4edde98a1fd4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::sockets::sockaddrs</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sa_size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>adae0aca22516d4287662cc74ad34b313</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>port</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>a0e9ec75a2646198bb28ec6456a4e7adc</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>a9712a38d16256974df52b8ca4788e021</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>str</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>a44bcc520c85d392ffa7d7730c369d302</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
   </Token>
 </Tokens>
