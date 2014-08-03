@@ -1,8 +1,8 @@
 exclude: [ 'LICENSE.txt', 'Rakefile' ]
-markdown: rdiscount
+highlighter: pygments
+markdown: kramdown
 paginate: 5
 permalink: /:year/:month/:day/:title.html
-pygments: true
 
 gems:
   - jekyll-sitemap
