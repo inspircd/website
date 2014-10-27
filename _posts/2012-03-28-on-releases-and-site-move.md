@@ -14,8 +14,7 @@ This obviously involves some changes and reorganisation both in what content we
 host (there are no forums) and how we host it (we don't do any self-hosting now,
 meaning there's a lot less for our small team to maintain), so we'd like to ask
 that you bear with us in the meantime, and (if you've some time to spare), that
-you help us with putting useful content on the new
- [wiki](https://github.com/inspircd/wiki/wiki/) etc on GitHub. We also
+you help us with putting useful content on the new wiki etc on GitHub. We also
 accept pull requests against the site itself, and our site master SaberUK will
 be happy to review them.
 
