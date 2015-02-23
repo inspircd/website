@@ -27,5 +27,5 @@ more problems, we will not be issuing a release - but obviously, we hope to push
 releases out as soon as possible.
 
 In the meantime, we advise you to build InspIRCd from git, or set
-<performance:nouserdns> to yes to disable DNS resolution if you are unable to
+&lt;performance:nouserdns&gt; to yes to disable DNS resolution if you are unable to
 upgrade at this time.

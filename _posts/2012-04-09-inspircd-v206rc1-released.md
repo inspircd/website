@@ -21,19 +21,19 @@ Thanks (again) to Shawn Smith for his work on these features.
 
 For v2.0.6rc1, thanks to the following people for this release:
 
-    Author: Adam <Adam@anope.org>
-    Author: Daniel De Graaf <danieldg@inspircd.org>
-    Author: Jackmcbarn <jackmcbarn@jackmcbarn.no-ip.org>
-    Author: Jens Voss <DukePyrolator@anope.org>
-    Author: Justasic <Justasic@gmail.com>
-    Author: Kyle Fuller <inbox@kylefuller.co.uk>
-    Author: Peter Powell <petpow@saberuk.com>
-    Author: Pogs McPoggerson <sir.pogsalot@gmail.com>
-    Author: Robin Burchell <viroteck@viroteck.net>
-    Author: Rutger <djslash+github@djslash.org>
-    Author: Shawn Smith <ShawnSmith0828@gmail.com>
-    Author: Sir Pogsalot <sir.pogsalot@gmail.com>
-    Author: William Pitcock <nenolod@dereferenced.org>
+    Author: Adam &lt;Adam@anope.org&gt;
+    Author: Daniel De Graaf &lt;danieldg@inspircd.org&gt;
+    Author: Jackmcbarn &lt;jackmcbarn@jackmcbarn.no-ip.org&gt;
+    Author: Jens Voss &lt;DukePyrolator@anope.org&gt;
+    Author: Justasic &lt;Justasic@gmail.com&gt;
+    Author: Kyle Fuller &lt;inbox@kylefuller.co.uk&gt;
+    Author: Peter Powell &lt;petpow@saberuk.com&gt;
+    Author: Pogs McPoggerson &lt;sir.pogsalot@gmail.com&gt;
+    Author: Robin Burchell &lt;viroteck@viroteck.net&gt;
+    Author: Rutger &lt;djslash+github@djslash.org&gt;
+    Author: Shawn Smith &lt;ShawnSmith0828@gmail.com&gt;
+    Author: Sir Pogsalot &lt;sir.pogsalot@gmail.com&gt;
+    Author: William Pitcock &lt;nenolod@dereferenced.org&gt;
 
 And a diffstat, for the curious:
 
@@ -72,19 +72,19 @@ And a diffstat, for the curious:
 
 And for v2.1.0b3:
 
-    Author: Adam <Adam@anope.org>
-    Author: Daniel De Graaf <danieldg@inspircd.org>
-    Author: Jackmcbarn <jackmcbarn@jackmcbarn.no-ip.org>
-    Author: Jens Voss <DukePyrolator@anope.org>
-    Author: Justasic <Justasic@gmail.com>
-    Author: Kyle Fuller <inbox@kylefuller.co.uk>
-    Author: Peter Powell <petpow@saberuk.com>
-    Author: Pogs McPoggerson <sir.pogsalot@gmail.com>
-    Author: Robin Burchell <robin+git@viroteck.net>
-    Author: Robin Burchell <viroteck@viroteck.net>
-    Author: Shawn Smith <ShawnSmith0828@gmail.com>
-    Author: William Pitcock <nenolod@dereferenced.org>
-    Author: Xaquseg <xaquseg@irchighway.net>
+    Author: Adam &lt;Adam@anope.org&gt;
+    Author: Daniel De Graaf &lt;danieldg@inspircd.org&gt;
+    Author: Jackmcbarn &lt;jackmcbarn@jackmcbarn.no-ip.org&gt;
+    Author: Jens Voss &lt;DukePyrolator@anope.org&gt;
+    Author: Justasic &lt;Justasic@gmail.com&gt;
+    Author: Kyle Fuller &lt;inbox@kylefuller.co.uk&gt;
+    Author: Peter Powell &lt;petpow@saberuk.com&gt;
+    Author: Pogs McPoggerson &lt;sir.pogsalot@gmail.com&gt;
+    Author: Robin Burchell &lt;robin+git@viroteck.net&gt;
+    Author: Robin Burchell &lt;viroteck@viroteck.net&gt;
+    Author: Shawn Smith &lt;ShawnSmith0828@gmail.com&gt;
+    Author: William Pitcock &lt;nenolod@dereferenced.org&gt;
+    Author: Xaquseg &lt;xaquseg@irchighway.net&gt;
 
 Diffstat:
 
