@@ -22,7 +22,7 @@ navigation:
     - title: Downloads
       uri: https://github.com/inspircd/inspircd/releases
     - title: Wiki
-      uri: https://wiki.inspircd.org
+      uri: /wiki
     - title: Issue Tracker
       uri: https://github.com/inspircd/inspircd/issues
     - title: API
