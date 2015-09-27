@@ -82,8 +82,8 @@ task :update do
 	require 'net/http'
 	require 'uri'
 	resources = {
+		'https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.js' => 'assets/javascripts/html5shiv.js',
 		'https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css' => 'assets/stylesheets/normalize.css',
-		'http://modernizr.com/downloads/modernizr-latest.js' => 'assets/javascripts/modernizr.js'
 	}.freeze
 	resources.each do |source, target|
 		uri = URI.parse(source)
