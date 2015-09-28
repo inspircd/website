@@ -65,18 +65,6 @@ task :post do
 	system editor, destination
 end
 
-desc 'Launch the preview environment'
-task :preview do
-	begin
-		jekyll = Gem.bin_path('jekyll', 'jekyll')
-	rescue Gem::GemNotFoundException
-		puts 'You are missing the jekyll gem. Install it using:'
-		puts "\t$ [sudo] gem install jekyll"
-		exit 1
-	end
-	system jekyll, '--auto', '--server'
-end
-
 desc 'Update the third party resources'
 task :update do
 	require 'net/http'
