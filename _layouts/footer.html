@@ -1,0 +1,15 @@
+<footer class="footer">
+    <div class="wrapper">
+        <section class="footer__left-col">
+            <div class="inspircd__logo inspircd__logo--small inspircd__logo--light"></div>
+            <p class="copyright">InspIRCd &copy;2002-{{ 'now' | date: "%Y" }} InspIRCd Development Team</p>
+            <p class="license">Licensed under the terms of the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License 2.0</a></p>
+            <p class="design-copyright">Website design and template by Roland Hegedus &copy;2015-{{ 'now' | date: "%Y" }}</p>
+        </section>
+        <section class="footer__right-col">
+            <p class="version">Current stable version v{{ site.config.currentVersion }}</p>
+            <p class="follow_us">Follow us on <a href="/atom.xml" title="Follow us on RSS" class="rss-logo tpartylogo">rss</a> and<a href="{{ site.config.gitHubUrl }}" class="github-logo tpartylogo" title="Follow us on GitHub">github</a></p>
+        </section>
+        <div class="clear"></div>
+    </div>
+</footer>

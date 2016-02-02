@@ -1,0 +1,606 @@
+---
+permalink: /assets/css/inspircd.css
+---
+
+@import "config/reset";
+@import "config/core";
+@import "config/colors";
+@import "config/fonts";
+@import "config/animations";
+
+body {
+  margin:  0;
+  padding: 0;
+  background: $primaryBgColor;
+  color: $dark;
+
+  font-family: $defaultFontFamily;
+
+  /* 3 CUSTOM COLORS DEPENDING ON BODY CLASS */
+  @import "config/body-classes";
+}
+
+header {
+  position: relative;
+}
+
+.clear {
+  width: 1px;
+  height:1px;
+  clear: both;
+}
+
+.wrapper {
+  width: $mainWidth;
+  margin: $marginCenter;
+  position: relative;
+}
+
+.header__top-bar {
+  background: $dark $lightPattern center center;
+  color: $light;
+  height: $topBarHeight;
+}
+
+.header__navigation {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header__navigation-list {
+  overflow: hidden;
+
+  .header__navigation-list-item {
+    font-family: 'Ubuntu', 'Helvetica', sans-serif;
+    color: $light;
+    line-height: $topBarHeight;
+    float: left;
+    display: list-item;
+    margin-left: $gutter;
+    text-transform: uppercase;
+    font-size: $fs_Xsmall;
+    font-weight: 700;
+
+    a {
+      color: $light;
+      text-decoration: none;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &.button {
+      a {
+        border: 2px solid $light;
+        border-radius: $buttonBorderRadius;
+
+        margin-top: 13px;
+        padding: 14px 25px;
+
+        color: $light;
+
+        text-decoration: none;
+
+        &:hover {
+          background: $accent;
+          color: $light;
+          border-color: $accent;
+        }
+      }
+    }
+  }
+}
+
+.header__logo {
+  display: inline-block;
+  text-indent: -10000px;
+  margin: 24px 0;
+}
+
+/* LOGO */
+
+.inspircd__logo {
+  display: inline-block;
+  background: transparent url('../sprites/logo.png') no-repeat 0 0;
+
+  &.inspircd__logo--small {
+    width: $logoWidthSmall;
+    height: $logoHeightSmall;
+  }
+
+  &.inspircd__logo--medium {
+    width: $logoWidthMedium;
+    height: $logoHeightMedium;
+    background-position: -148px 0;
+
+    &.inspircd__logo--light {
+      background-position: -148px -150px;
+    }
+  }
+
+  &.inspircd__logo--large {
+    width: $logoWidthLarge;
+    height: $logoHeightLarge;
+    background-position: -351px 0;
+  }
+}
+
+.headline {
+  background: $light;
+
+  .headline__greeter {
+    display: inline-block;
+    font-family: $defaultFontFamily;
+    font-weight: $fw_light;
+    font-size: $fs_Xlarge;
+    text-transform: uppercase;
+    margin: $gutter * 2 0;
+  }
+
+  .headline__terminal-wrapper {
+    width: 495px;
+    height: $headlineMainHeight;
+    overflow: hidden;
+    position: relative;
+    float: left;
+  }
+
+  .headline__terminal {
+    width: 495px;
+    height: 285px;
+    background: url('../images/terminal.png') no-repeat left bottom;
+    position: absolute;
+    animation: terminalSlideIn 1s ease forwards;
+  }
+
+  .headline__terminal-text {
+    position: absolute;
+    width : $logoWidthMedium;
+    top: 45%;
+    left: calc(50% - #{$logoWidthMedium/2});
+    text-transform: uppercase;
+    font-weight: $fw_xBold;
+    color: $accent;
+    line-height: 30px;
+    font-size: $fs_medium;
+    opacity: 0;
+    animation: terminalTextSlideIn 1s ease forwards;
+    animation-delay: .3s;
+  }
+
+  .headline__introduction-wrapper {
+    width: 100%;
+  }
+
+  .headline__introduction {
+    float: left;
+    width: 765px;
+    height: 250px;
+    margin-left: 35px;
+    margin-top: 35px;
+
+    font-family: $defaultFontFamily;
+    font-weight: $fw_light;
+
+    p {
+      text-align: justify;
+      line-height: 20px;
+      margin-bottom: 15px;
+      font-size: $fs_small;
+
+      strong {
+        color: $accent;
+        font-weight: $fw_bold;
+      }
+    }
+  }
+}
+
+a {
+  color: $accent;
+  font-weight: $fw_bold;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($accent, 20%);
+  }
+}
+
+.float--right {
+  float: right;
+}
+
+.headline__introduction-bottom-wrapper {
+  .button {
+    margin-top: 5px;
+  }
+  .alt-text {
+    font-size: $fs_small;
+    margin-left: $gutter / 2;
+  }
+}
+
+.button {
+  display: inline-block;
+
+  a {
+    display: inline-block;
+    line-height: 1;
+
+    border: 2px solid $light;
+    border-radius: $buttonBorderRadius;
+
+    padding: 12px 25px;
+
+    color: $light !important;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: $fw_bold;
+    font-size: $fs_XXsmall;
+
+    &:hover {
+      background: $accent;
+      color: $light;
+      border-color: $accent;
+    }
+  }
+
+  &.accent {
+    a {
+      border-color: $accent;
+      color: $accent !important;
+      &:hover {
+        color: $light !important;
+      }
+    }
+  }
+}
+
+.button__full-width {
+  width: 100%;
+  a {
+    display: inline-block;
+    width: calc(100% - #{$buttonBorderWidth*2});
+    padding: 12px 0;
+    text-align: center;
+  }
+}
+
+.posts {
+  padding-top: $gutter;
+
+  .button {
+    margin: $gutter 0 0 0;
+  }
+
+  .posts__article {
+    width: calc(50% - #{$gutter/2} - #{$gutter*2});
+    height: 300px;
+    float:left;
+    padding: $gutter;
+    margin-bottom: $gutter;
+    position: relative;
+
+    background: $light;
+
+    .posts__article-title {
+      text-transform: uppercase;
+      font-size: $fs_large;
+      margin-bottom: 5px;
+      font-weight: $fw_xBold;
+      color: $accent;
+    }
+
+    .posts__article-subtitle {
+      text-transform: uppercase;
+      font-size: $fs_XXsmall;
+      font-weight: $fw_regular;
+      color: $accent;
+
+      strong {
+        font-weight: $fw_xBold;
+      }
+    }
+
+    .posts__article-excerpt {
+      margin: $gutter/2 0 0 0;
+      font-size: $fs_small;
+      line-height: 17px;
+      text-align: justify;
+
+      height: 170px;
+      overflow: hidden;
+      -ms-text-overflow: clip;
+      text-overflow: clip;
+    }
+
+    &.posts__article-featured,
+    &.posts__article-important {
+      background: $accent $lightPattern;
+
+      .posts__article-title,
+      .posts__article-subtitle {
+        color: $light;
+      }
+
+      .posts__article-excerpt {
+        color: $light;
+      }
+
+      .button {
+        a {
+          border-color: $light!important;
+          color: $light!important;
+          &:hover {
+            background: $light;
+            color: $accent!important;
+            border-color: $light!important;
+          }
+        }
+      }
+
+      a {
+        color: $light!important;
+        &:hover {
+          color: transparentize($light, .5) !important;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      margin-left: $gutter;
+    }
+
+  }
+
+  .posts__loadmore-button {
+    margin-bottom: $gutter;
+
+    a {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      color: $light;
+      background: $accent;
+      padding: $gutter/2 0;
+
+
+      &:hover {
+        color: $light;
+        background: lighten($accent, 5%);
+      }
+    }
+  }
+}
+
+.footer {
+  background: $dark $lightPattern center center;
+  min-height: 100px;
+
+  .footer__left-col {
+    padding: $gutter 0;
+    min-width: 400px;
+    display: inline-block;
+    color: $light;
+    font-size: $fs_XXsmall;
+    font-weight: $fw_light;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    .inspircd__logo {
+      margin-bottom: 10px;
+    }
+
+    .copyright {
+      text-transform: uppercase;
+      font-weight: $fw_bold;
+    }
+  }
+
+  .footer__right-col {
+    float: right;
+    padding: $gutter+45 0 $gutter 0;
+    display: inline-block;
+    min-width: 400px;
+    font-size: $fs_XXsmall;
+    font-weight: $fw_light;
+    color: $light;
+    text-align: right;
+
+    p {
+      margin-bottom: 5px;
+    }
+
+    .version {
+      text-transform: uppercase;
+      font-weight: $fw_bold;
+    }
+
+    .follow_us {
+      text-transform: uppercase;
+      color: $accent;
+      font-weight: $fw_xBold;
+      font-size: $fs_small;
+      margin-bottom: 0;
+
+      .tpartylogo {
+        display: inline-block;
+        text-indent: -10000px;
+        overflow: hidden;
+        text-align: initial;
+        width: 56px;
+        margin-left:5px;
+      }
+
+      .github-logo {
+        background: url('../images/githublogo.png') no-repeat left bottom;
+      }
+
+      .rss-logo {
+        background: url('../images/rsslogo.png') no-repeat left bottom;
+        width: 45px;
+      }
+    }
+  }
+}
+
+
+.inspircd__site--inner {
+  .headline {
+    height: $headlineInnerHeight;
+
+    .headline__greeter-subtitle {
+      text-transform: uppercase;
+      font-size: $fs_XXsmall;
+      font-weight: $fw_regular;
+      color: $accent;
+      margin-top: 5px;
+
+      strong {
+        font-weight: $fw_xBold;
+      }
+    }
+  }
+
+  .posts {
+    padding-top: 0;
+    margin-top: -#{$gutter + 15};
+
+    .posts__article {
+      width: calc(100% - #{$sideBarWidth + $gutter*3});
+      border:1px solid $gray;
+      height: auto;
+      min-height: 500px;
+
+      .posts__article-title {
+        text-transform: uppercase;
+        font-size: $fs_medium;
+        margin-bottom: 5px;
+        font-weight: $fw_xBold;
+        color: $accent;
+      }
+
+      .posts__article-important {
+        background: $accent $lightPattern;
+        padding: $gutter;
+        margin: $gutter/2 0 0 0;
+        font-size: $fs_Xsmall;
+        color: transparentize($light, .15);
+        line-height: 18px;
+        height: auto;
+
+        .posts__article-important--title {
+          color: $light;
+          text-transform: uppercase;
+          font-size: 16px;
+          margin-bottom: 10px;
+          font-weight: $fw_bold;
+          display: inline-block;
+          width: 100%;
+        }
+      }
+
+      .posts__article-content {
+        p {
+          margin: $gutter/2 0 0 0;
+          font-size: $fs_small;
+          line-height: 17px;
+          text-align: justify;
+
+          overflow: hidden;
+          -ms-text-overflow: clip;
+          text-overflow: clip;
+
+          strong {
+            font-weight: $fw_bold;
+          }
+
+          code {
+            font-size: $fs_Xsmall;
+            background: darken($gray, 10%);
+            font-family: 'Courier New', Courier, 'Monospace', 'Monospaced', 'Ubuntu Mono', serif;
+          }
+        }
+
+        ul {
+          padding-left: 25px;
+          font-size: $fs_small;
+          line-height: 20px;
+          li {
+            list-style-type: disc;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sidebar {
+  width: calc(#{$sideBarWidth - $gutter*3});
+  background: $dark $lightPattern;
+  float: left;
+  padding: $gutter;
+  margin-left: $gutter;
+  color: $light;
+  font-size: $fs_small;
+
+  .sidebar__section {
+    margin-bottom: $gutter;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .sidebar__section-title {
+    color: $accent;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: $gutter/2;
+    font-weight: $fw_bold;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .sidebar__list {
+    list-style-type: none;
+
+    li {
+      margin-bottom: 10px;
+      color: transparentize($light, .3);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+pre {
+  font-family: 'Courier New', Courier, 'Monospace', 'Monospaced', 'Ubuntu Mono', serif !important;
+  tab-size: 4;
+  white-space: pre;
+  margin: 1em 0 1em;
+
+  code {
+    tab-size: 4;
+    white-space: pre;
+    font-size: $fs_Xsmall;
+    background: $gray;
+    font-family: 'Courier New', Courier, 'Monospace', 'Monospaced', 'Ubuntu Mono', serif;
+  }
+}
+
+.nomargin {
+  margin: 0 !important;
+}
