@@ -10,6 +10,8 @@ other authors also.
 
 Users of the 1.2 series are suggested to upgrade.
 
+<!--more-->
+
 A summary of the changes since v1.2.9rc1 may be found below.
 
 Guillaume Delacour (1):

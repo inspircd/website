@@ -13,6 +13,8 @@ note that, unless severe issues are found in the future or a new
 maintainer found, 1.2.9 will be the final release in the 1.2 series.
 If you are interested in maintaining it, please get in contact, or start to consider upgrading to 2.0.
 
+<!--more-->
+
 Tarballs may be found [at the usual
 place](https://github.com/inspircd/inspircd/releases).
 

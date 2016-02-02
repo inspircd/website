@@ -9,6 +9,8 @@ other things. All v2.0 users are strongly recommended to upgrade. v1.2 users
 should start considering the 2.0 branch, as 1.2 is now entering the last phase
 of support.
 
+<!--more-->
+
 InspIRCd v2.1.0b3 contains some new features:
 
 - a new module for join/part snotices (m_joinpartsno) - useful for smaller

@@ -10,6 +10,8 @@ acceptable situation for a project to be in, so we have been working slowly to
 migrate resources over to [GitHub](https://github.com/inspircd/) as time
 permits.
 
+<!--more-->
+
 This obviously involves some changes and reorganisation both in what content we
 host (there are no forums) and how we host it (we don't do any self-hosting now,
 meaning there's a lot less for our small team to maintain), so we'd like to ask

@@ -15,6 +15,8 @@ As a result of this, we're closing the 2.1 branch, and won't be working on it
 anymore (it's been renamed obsolete/insp21 in git), and we suggest you don't use
 it.
 
+<!--more-->
+
 We'll be focusing our efforts on 2.0 instead - and will be renaming that branch
 in the near future to 'master' (to more closely match traditional git
 workflows).
