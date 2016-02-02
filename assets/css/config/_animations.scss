@@ -1,0 +1,9 @@
+@keyframes terminalSlideIn {
+  from { bottom: -300px; opacity: 0; }
+  to  { bottom: 0; opacity: 1; }
+}
+
+@keyframes terminalTextSlideIn {
+  from { top: 300px; opacity: 0; }
+  to  { top: 45%; opacity: 1; }
+}

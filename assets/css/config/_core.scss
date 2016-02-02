@@ -1,0 +1,22 @@
+$gutter             : 35px;
+$dblGutter          : $gutter*2;
+$mainWidth          : #{1366 - ($gutter * 2)};
+$marginCenter       : 0 auto;
+$topBarHeight       : 70px;
+
+$logoWidthSmall     : 148px;
+$logoHeightSmall    : 22px;
+
+$logoWidthMedium    : 203px;
+$logoHeightMedium   : 30px;
+
+$logoWidthLarge     : 227px;
+$logoHeightLarge    : 33px;
+
+
+$buttonBorderRadius : 0;
+$buttonBorderWidth  : 2px;
+
+$headlineMainHeight  : 305px;
+$headlineInnerHeight : 240px;
+$sideBarWidth        : 285px;

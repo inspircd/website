@@ -1,12 +1,18 @@
 exclude: [ 'LICENSE.txt', 'Rakefile' ]
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
-paginate: 5
+paginate: 10
 permalink: /:year/:month/:day/:title.html
+excerpt_separator: <!--more-->
+
+sass:
+    sass_dir: assets/css
+    style: compressed
 
 gems:
   - jekyll-mentions
   - jekyll-sitemap
+  - jekyll-paginate
 
 info:
     title: InspIRCd
@@ -22,11 +28,29 @@ navigation:
       uri: /
     - title: Downloads
       uri: https://github.com/inspircd/inspircd/releases
+      target: _blank
     - title: Wiki
       uri: https://wiki.inspircd.org
+      target: _blank
     - title: Issue Tracker
       uri: https://github.com/inspircd/inspircd/issues
-    - title: API
-      uri: /api
-    - title: Git
+      target: _blank
+    - title: InspIRCd API
+      uri: api/2.0
+      target: _blank
+    - title: Follow us on GitHub
       uri: https://github.com/inspircd
+      target: _blank
+    - title: Get InspIRCd
+      uri: https://github.com/inspircd/inspircd/releases/latest
+      target: _blank
+
+config:
+# theme: red {default} | green | blue
+    theme: red
+    currentVersion: 2.0.20
+    gitHubUrl: https://github.com/inspircd
+    latestUrl: https://github.com/inspircd/inspircd/releases/latest
+    configGuideUrl: https://wiki.inspircd.org/Configuration
+    installGuideUrl: https://wiki.inspircd.org/Installation_From_Source
+    devurl:

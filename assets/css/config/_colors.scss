@@ -1,0 +1,16 @@
+$light            : #FFFFFF;
+$dark             : #2b333d;
+$gray             : #EEEEEE;
+
+$accent_red       : #ef4438;
+$accent_green     : #52bb77;
+$accent_blue      : #06bcd4;
+
+// default site color without bodyclass
+$accent           : $accent_red;
+
+$primaryBgColor   : $gray;
+$secondaryBgColor : $light;
+
+$lightPattern     : url('../sprites/pattern_light.png');
+$darkPattern      : url('../sprites/pattern_dark.png')

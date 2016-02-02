@@ -1,29 +1,86 @@
 ---
-layout: default
+layout: inner
 ---
+<section class="headline">
+    <div class="wrapper">
+        <div class="headline__greeter">
+            {{ page.title }}
+            <h5 class="headline__greeter-subtitle">Posted by <strong>~{{ page.author }}</strong> on <strong>{{ page.date | date: '%B %d, %Y' }}</strong></h5>
+        </div>
+    </div>
+</section>
+<section class="posts posts__inner">
+    <div class="wrapper">
+        <article class="posts__article">
+            {% if page.subtitle %}
+                <h3 class="posts__article-title">{{ page.subtitle }}</h3>
+            {% else %}
+                <h3 class="posts__article-title">What's new</h3>
+            {% endif %}
 
-<div class="main-entry">
-	<div class="main-entry-title">
-		<img alt="" class="main-entry-image" src="/assets/images/bullet.gif">
-		News
-		<a href="/atom.xml"><img alt="Atom Feed" class="main-entry-image main-entry-image-right" src="/assets/images/feed.png"></a>
-	</div>
-	<div class="main-entry-contents">
-		<article class="article">
-			<div class="article-author">
-				<img alt="Post" class="main-entry-image main-entry-image-right" src="/assets/images/post.gif">
-				Posted by: {{ page.author }}
-				<br>
-				Posted on: {{ page.date | date_to_long_string }}
-			</div>
-			<div class="article-contents">
-				<header class="article-head">
-					<a href="{{ page.url }}">{{ page.title }}</a>
-				</header>
-				<section class="article-body">
-					{{ page.content | markdownify }}
-				</section>
-			</div>
-		</article>
-	</div>
-</div>
+            {% if page.important %}
+            <p class="posts__article-important">
+                {% if page.importanttitle %}
+                    <span class="posts__article-important--title">{{ page.importanttitle }}</span>
+                {% else %}
+                    <span class="posts__article-important--title">Important notice</span>
+                {% endif %}
+
+                {{ page.important }}
+            </p>
+            {% endif %}
+            <div class="posts__article-content">
+                {{ page.content | markdownify }}
+            </div>
+            <div class="clear"></div>
+        </article>
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+            {% if page.contributors %}
+            <!-- contributors -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Top Contributors</h3>
+                <ul class="sidebar__list">
+                    {% for contributor in page.contributors %}
+                        <li>{{ contributor }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            {% if page.thanksto %}
+            <!-- special thanks -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Special thanks to</h3>
+                <ul class="sidebar__list">
+                    {% for user in page.thanksto %}
+                    <li>{{ user }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            {% if page.features %}
+            <!-- features -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Key features</h3>
+                <ul class="sidebar__list">
+                    {% for feature in page.features %}
+                        <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            <!-- download -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Get InspIRCd</h3>
+                <div class="button button__full-width nomargin">
+                    <a href="{{ site.config.latestUrl }}" target="_blank" title="Download InspIRCd">Download InspIRCd</a>
+                </div>
+            </section>
+        </aside>
+        <div class="clear"></div>
+    </div>
+</section>

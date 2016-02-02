@@ -1,0 +1,387 @@
+&.inspircd__site-style--red {
+  .header__logo {
+    background-position: 0 0;
+  }
+
+  .header__navigation-list-item {
+    a:hover {
+      color: $accent_red;
+    }
+
+    &.button {
+      a:hover {
+        background: $accent_red;
+        border-color: $accent_red;
+      }
+    }
+  }
+
+  .inspircd__logo {
+    &.inspircd__logo--small {
+      background-position: 0 0;
+    }
+
+    &.inspircd__logo--medium {
+      background-position: -148px 0;
+
+      &.inspircd__logo--light {
+        background-position: -148px -150px;
+      }
+    }
+
+    &.inspircd__logo--large {
+      background-position: -351px 0;
+
+      &.inspircd__logo--light {
+        background-position: -351px -165px;
+      }
+    }
+  }
+
+  .headline__terminal-text {
+    color: $accent_red;
+  }
+
+  .headline__introduction {
+    p {
+      strong {
+        color: $accent_red;
+      }
+    }
+  }
+
+  a {
+    color: $accent_red;
+    &:hover {
+      color: lighten($accent_red, 20%);
+    }
+  }
+
+  .button {
+    &.accent {
+      a {
+        color: $accent_red!important;
+        border-color: $accent_red;
+
+        &:hover {
+          background: $accent_red;
+          color: $light!important;
+        }
+      }
+    }
+  }
+
+  .posts {
+    .posts__article {
+      .posts__article-title {
+        color: $accent_red;
+      }
+
+      .posts__article-subtitle {
+        color: $accent_red;
+      }
+
+      &.posts__article-featured,
+      &.posts__article-important {
+        background: $accent_red $darkPattern;
+
+        .posts__article-title,
+        .posts__article-subtitle{
+          color: $light;
+        }
+
+        .button {
+          a {
+            &:hover {
+              color: $accent_red!important;
+            }
+          }
+        }
+      }
+    }
+    .posts__loadmore-button {
+      a {
+        background: $accent_red;
+
+        &:hover {
+          background: lighten($accent_red, 5%);
+        }
+      }
+    }
+  }
+  .footer {
+    .follow_us {
+      color: $accent_red;
+    }
+  }
+}
+
+&.inspircd__site-style--green {
+  .header__logo {
+    background-position: 0 -22px;
+  }
+
+  .header__navigation-list-item {
+    a:hover {
+      color: $accent_green;
+    }
+
+    &.button {
+      a:hover {
+        background: $accent_green $darkPattern;
+        border-color: $accent_green;
+      }
+    }
+  }
+
+  .inspircd__logo {
+    &.inspircd__logo--small {
+      background-position: 0 -22px;
+    }
+
+    &.inspircd__logo--medium {
+      background-position: -148px -30px;
+
+      &.inspircd__logo--light {
+        background-position: -148px -180px;
+      }
+    }
+
+    &.inspircd__logo--large {
+      background-position: -351px -33px;
+
+      &.inspircd__logo--light {
+        background-position: -351px -198px;
+      }
+    }
+  }
+
+  .headline__terminal-text {
+    color: $accent_green;
+  }
+
+  .headline__introduction {
+    p {
+      strong {
+        color: $accent_green;
+      }
+    }
+  }
+
+  a {
+    color: $accent_green;
+    &:hover {
+      color: lighten($accent_green, 20%);
+    }
+  }
+
+  .button {
+    &.accent {
+      a {
+        color: $accent_green!important;
+        border-color: $accent_green;
+
+        &:hover {
+          background: $accent_green;
+          color: $light!important;
+        }
+      }
+    }
+  }
+
+  .posts {
+    .posts__article {
+      .posts__article-title {
+        color: $accent_green;
+      }
+
+      .posts__article-subtitle {
+        color: $accent_green;
+      }
+
+      &.posts__article-featured,
+      &.posts__article-important {
+        background: $accent_green $darkPattern;
+
+        .posts__article-title,
+        .posts__article-subtitle{
+          color: $light;
+        }
+
+        .button {
+          a {
+            &:hover {
+              color: $accent_green!important;
+            }
+          }
+        }
+      }
+    }
+
+    .posts__loadmore-button {
+      a {
+        background: $accent_green;
+
+        &:hover {
+          background: lighten($accent_green, 5%);
+        }
+      }
+    }
+  }
+
+  .footer {
+    .follow_us {
+      color: $accent_green;
+    }
+  }
+
+  &.inspircd__site--inner {
+    .headline {
+      .headline__greeter-subtitle {
+        color: $accent_green;
+      }
+    }
+    .posts__article-important {
+      background: $accent_green $darkPattern !important;
+    }
+    .sidebar__section-title {
+      color: $accent_green;
+    }
+  }
+}
+
+/* BLUE */
+
+&.inspircd__site-style--blue {
+  .header__logo {
+    background-position: 0 -44px;
+  }
+
+  .header__navigation-list-item {
+    a:hover {
+      color: $accent_blue;
+    }
+
+    &.button {
+      a:hover {
+        background: $accent_blue;
+        color: $light;
+        border-color: $accent_blue;
+      }
+    }
+  }
+
+  .inspircd__logo {
+    &.inspircd__logo--small {
+      background-position: 0 -44px;
+    }
+
+    &.inspircd__logo--medium {
+      background-position: -148px -60px;
+
+      &.inspircd__logo--light {
+        background-position: -148px -210px;
+      }
+    }
+
+    &.inspircd__logo--large {
+      background-position: -351px -66px;
+
+      &.inspircd__logo--light {
+        background-position: -351px -231px;
+      }
+    }
+  }
+
+  .headline__terminal-text {
+    color: $accent_blue;
+  }
+
+  .headline__introduction {
+    p {
+      strong {
+        color: $accent_blue;
+      }
+    }
+  }
+
+  a {
+    color: $accent_blue;
+    &:hover {
+      color: lighten($accent_blue, 20%);
+    }
+  }
+
+  .button {
+    &.accent {
+      a {
+        color: $accent_blue!important;
+        border-color: $accent_blue;
+
+        &:hover {
+          background: $accent_blue;
+          color: $light!important;
+        }
+      }
+    }
+  }
+
+  .posts {
+    .posts__article {
+      .posts__article-title {
+        color: $accent_blue;
+      }
+
+      .posts__article-subtitle {
+        color: $accent_blue;
+      }
+
+      &.posts__article-featured,
+      &.posts__article-important {
+        background: $accent_blue $darkPattern;
+
+        .posts__article-title,
+        .posts__article-subtitle{
+          color: $light;
+        }
+
+        .button {
+          a {
+            &:hover {
+              color: $accent_blue!important;
+            }
+          }
+        }
+      }
+    }
+    .posts__loadmore-button {
+      a {
+        background: $accent_blue;
+
+        &:hover {
+          background: lighten($accent_blue, 5%);
+        }
+      }
+    }
+  }
+
+  .footer {
+    .follow_us {
+      color: $accent_blue;
+    }
+  }
+
+  &.inspircd__site--inner {
+    .headline {
+      .headline__greeter-subtitle {
+        color: $accent_blue;
+      }
+    }
+    .posts__article-important {
+      background: $accent_blue $darkPattern !important;
+    }
+    .sidebar__section-title {
+      color: $accent_blue;
+    }
+  }
+}
