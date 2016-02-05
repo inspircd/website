@@ -1,6 +1,6 @@
 $gutter             : 35px;
 $dblGutter          : $gutter*2;
-$mainWidth          : #{1366 - ($gutter * 2)};
+
 $marginCenter       : 0 auto;
 $topBarHeight       : 70px;
 
@@ -20,3 +20,9 @@ $buttonBorderWidth  : 2px;
 $headlineMainHeight  : 305px;
 $headlineInnerHeight : 240px;
 $sideBarWidth        : 285px;
+
+$xSmallPhoneVersion  : #{320 - ($gutter * 2)};
+$smallPhoneVersion   : #{480 - ($gutter * 2)};
+$mediumPhoneVersion  : #{768 - ($gutter * 2)};
+$tabletVersion       : #{1024 - ($gutter * 2)};
+$mainWidth           : #{1366 - ($gutter * 2)};
