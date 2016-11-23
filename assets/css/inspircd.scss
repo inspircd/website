@@ -192,7 +192,7 @@ header {
 
 .inspircd__logo {
   display: inline-block;
-  background: transparent url('../sprites/logo.png') no-repeat 0 0;
+  background: transparent url('../sprites/logo.svg') no-repeat 0 0;
 
   &.inspircd__logo--small {
     width: $logoWidthSmall;
