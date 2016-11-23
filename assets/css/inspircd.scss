@@ -535,7 +535,8 @@ a {
       }
 
       .github-logo {
-        background: url('../images/githublogo.png') no-repeat left bottom;
+        background: url('../sprites/github_logo.svg') no-repeat left bottom;
+        background-size: contain;
       }
 
       .rss-logo {
