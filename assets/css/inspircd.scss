@@ -192,7 +192,7 @@ header {
 
 .inspircd__logo {
   display: inline-block;
-  background: transparent url('../sprites/logo.png') no-repeat 0 0;
+  background: transparent url('../sprites/logo.svg') no-repeat 0 0;
 
   &.inspircd__logo--small {
     width: $logoWidthSmall;
@@ -535,11 +535,13 @@ a {
       }
 
       .github-logo {
-        background: url('../images/githublogo.png') no-repeat left bottom;
+        background: url('../sprites/github_logo.svg') no-repeat left bottom;
+        background-size: contain;
       }
 
       .rss-logo {
-        background: url('../images/rsslogo.png') no-repeat left bottom;
+        color: $light;
+        margin: 0 5px;
         width: 45px;
       }
     }
