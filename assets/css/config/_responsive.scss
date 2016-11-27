@@ -136,6 +136,15 @@ $large-version : "only screen and (min-width : 1366px)";
   }
 
   body {
+    .posts {
+        .posts__article {
+            .posts__article-excerpt {
+              max-height: 170px;
+              line-height: 17px;
+            }    
+        }    
+    }  
+          
     &.inspircd__site--inner {
       .sidebar {
         float: none;
@@ -235,7 +244,8 @@ $large-version : "only screen and (min-width : 1366px)";
         margin: #{$gutter/2} !important;
 
         .posts__article-excerpt {
-          max-height: 140px;
+          max-height: 170px;
+          line-height: 17px;
         }
       }
     }
