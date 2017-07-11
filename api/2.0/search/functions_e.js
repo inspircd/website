@@ -101,9 +101,9 @@ var searchData=
   ['openfilelogs',['OpenFileLogs',['../class_log_manager.html#ac93c053edaccd30840153cbe3ffa94db',1,'LogManager']]],
   ['openlog',['OpenLog',['../class_insp_i_r_cd.html#a19cb7e08f07c26c7fcf6bb4e8fbc12f2',1,'InspIRCd']]],
   ['oper',['Oper',['../class_user.html#af9b6ec0dae8b4ee90c0e13c2143622cc',1,'User']]],
-  ['operator_28_29',['operator()',['../structirc_1_1_str_hash_comp.html#a0c6b155560480b06b14b37f2c6b1657e',1,'irc::StrHashComp::operator()()'],['../structirc_1_1hash.html#a34bb52a4dff5754d04a2565e8d0d47d6',1,'irc::hash::operator()()']]],
-  ['operator_2b',['operator+',['../struct_mod_result.html#aba09d75e0ab80ad8be8898f2f39a41bb',1,'ModResult']]],
-  ['operator_3c',['operator&lt;',['../structirc_1_1sockets_1_1cidr__mask.html#a3d380ba7733576081253feeb06d30b32',1,'irc::sockets::cidr_mask']]],
-  ['operator_3d_3d',['operator==',['../structirc_1_1sockets_1_1cidr__mask.html#a928000fc724f3c29afaaa09d5be61fc9',1,'irc::sockets::cidr_mask']]],
+  ['operator_28_29',['operator()',['../structirc_1_1_str_hash_comp.html#a53c5bd5d764b44ea04988cd40fce8735',1,'irc::StrHashComp::operator()()'],['../structirc_1_1hash.html#a2c50b4628352930d8ade011de80bdd5e',1,'irc::hash::operator()()']]],
+  ['operator_2b',['operator+',['../struct_mod_result.html#acc6f263aa153facd17f7aebe87ae5292',1,'ModResult']]],
+  ['operator_3c',['operator&lt;',['../structirc_1_1sockets_1_1cidr__mask.html#acf3646aa9f585d0368661858ad300587',1,'irc::sockets::cidr_mask']]],
+  ['operator_3d_3d',['operator==',['../structirc_1_1sockets_1_1cidr__mask.html#a3ec6a1c72ae3a36416d21bd9e4a2131b',1,'irc::sockets::cidr_mask']]],
   ['opercount',['OperCount',['../class_user_manager.html#a2f0c3231975a37290046b9eb7f7a4186',1,'UserManager']]]
 ];

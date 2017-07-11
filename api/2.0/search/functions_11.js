@@ -12,6 +12,7 @@ var searchData=
   ['registeredusercount',['RegisteredUserCount',['../class_user_manager.html#a8b1eb3f9807f55be2e6ca4fa1950a7c6',1,'UserManager']]],
   ['registerfactory',['RegisterFactory',['../class_x_line_manager.html#ab30c7427f10d97c24bf6a7e18ad8883d',1,'XLineManager']]],
   ['rehash',['Rehash',['../class_d_n_s.html#a8b8cc7f3d684c8554cbc875036b116f4',1,'DNS']]],
+  ['rehashclonecounts',['RehashCloneCounts',['../class_user_manager.html#ae593f5c04e3e33e47e593804537a705a',1,'UserManager']]],
   ['rehashserver',['RehashServer',['../class_insp_i_r_cd.html#a4aa75b796f1fa3380142a77b7810bcc0',1,'InspIRCd']]],
   ['rehashusersandchans',['RehashUsersAndChans',['../class_insp_i_r_cd.html#a73ce296601f8aca5c1b1751c2e23705c',1,'InspIRCd']]],
   ['reload',['Reload',['../class_module_manager.html#a98bbce4df60968db4d3c0f5a3320fa4d',1,'ModuleManager']]],

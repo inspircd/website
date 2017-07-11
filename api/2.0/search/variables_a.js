@@ -5,7 +5,7 @@ var searchData=
   ['max_5fparams',['max_params',['../class_command.html#ac21e431d2a4a5d2234f0d593524ab97a',1,'Command']]],
   ['maxaway',['MaxAway',['../class_server_limits.html#aaefe124e2608aedf569468a09ea53962',1,'ServerLimits']]],
   ['maxbans',['maxbans',['../class_server_config.html#abc3c3cde69b13910358d79a9b33f27af',1,'ServerConfig']]],
-  ['maxchans',['MaxChans',['../class_server_config.html#a53916f3a53d30b2950732989f37c8598',1,'ServerConfig::MaxChans()'],['../struct_connect_class.html#a0f1133435bd5c0205a1b35fdea9b28cf',1,'ConnectClass::maxchans()']]],
+  ['maxchans',['maxchans',['../struct_connect_class.html#a0f1133435bd5c0205a1b35fdea9b28cf',1,'ConnectClass::maxchans()'],['../class_server_config.html#a53916f3a53d30b2950732989f37c8598',1,'ServerConfig::MaxChans()']]],
   ['maxconn',['MaxConn',['../class_server_config.html#a26206a34824dc689820565915c1ea714',1,'ServerConfig']]],
   ['maxconnwarn',['maxconnwarn',['../struct_connect_class.html#a039228b58be0b716ad84489a0ace7daf',1,'ConnectClass']]],
   ['maxgecos',['MaxGecos',['../class_server_limits.html#a27e0aaa49977bb54a3911c50611128d2',1,'ServerLimits']]],

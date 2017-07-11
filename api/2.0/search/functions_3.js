@@ -25,7 +25,7 @@ var searchData=
   ['displaylist',['DisplayList',['../class_mode_handler.html#a76d8967ba9df890d877f1c3af8fa9528',1,'ModeHandler']]],
   ['dllmanager',['DLLManager',['../class_d_l_l_manager.html#a97c5b5a1f76d073cb53594c3ec91435b',1,'DLLManager']]],
   ['dns',['DNS',['../class_d_n_s.html#acf7e4a60fa924cf4672c949af7eb1fd8',1,'DNS']]],
-  ['dnsresult',['DNSResult',['../class_d_n_s_result.html#af61c193d54e70945cf436154e2ec618e',1,'DNSResult']]],
+  ['dnsresult',['DNSResult',['../class_d_n_s_result.html#a7a23a913fe5c3fd4222e03e588e4050c',1,'DNSResult']]],
   ['doconnect',['DoConnect',['../class_buffered_socket.html#ad131d03043211c664d5f11ca8080c9c6',1,'BufferedSocket']]],
   ['dohostcycle',['DoHostCycle',['../class_user.html#a6a44281f2f762cbc5ff0ddecfd1d7140',1,'User']]],
   ['doread',['DoRead',['../class_stream_socket.html#a581858cd737a683d504a48bd83b6300a',1,'StreamSocket']]],

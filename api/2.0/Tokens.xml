@@ -259,7 +259,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>a4ca63013f444c9826fc60f5449806c22</Anchor>
+    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -292,7 +292,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>ad8b743c511b09e39c6e6f45f6555ece3</Anchor>
+    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -303,7 +303,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>af8ce1cb562316a65a04c06911b8a4153</Anchor>
+    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -336,7 +336,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -440,7 +440,7 @@
       <Scope>CachedQuery</Scope>
     </TokenIdentifier>
     <Path>class_cached_query.html</Path>
-    <Anchor>add4360a750bc6e683a5531e2b44700a6</Anchor>
+    <Anchor>a74bac8e1a51d46ccc716ad0faadf2536</Anchor>
     <DeclaredIn>dns.h</DeclaredIn>
   </Token>
   <Token>
@@ -463,6 +463,16 @@
     </TokenIdentifier>
     <Path>class_cached_query.html</Path>
     <Anchor>acc74828d1e6c705d1b085ca3d9afe50e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>CachedQuery</Scope>
+    </TokenIdentifier>
+    <Path>class_cached_query.html</Path>
+    <Anchor>a35f88c2966a0ffc85cb363fa8253cd0c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1064,7 +1074,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -3806,7 +3816,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -3995,7 +4005,7 @@
       <Scope>DNSResult</Scope>
     </TokenIdentifier>
     <Path>class_d_n_s_result.html</Path>
-    <Anchor>af61c193d54e70945cf436154e2ec618e</Anchor>
+    <Anchor>a7a23a913fe5c3fd4222e03e588e4050c</Anchor>
     <DeclaredIn>dns.h</DeclaredIn>
   </Token>
   <Token>
@@ -4037,6 +4047,16 @@
     </TokenIdentifier>
     <Path>class_d_n_s_result.html</Path>
     <Anchor>a05eaaf49e6597b6e064e8c6f8fea99bc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>DNSResult</Scope>
+    </TokenIdentifier>
+    <Path>class_d_n_s_result.html</Path>
+    <Anchor>a59ee76ae0d7136fc02b5309016f06204</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4458,7 +4478,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+    <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -4469,7 +4489,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+    <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -4847,7 +4867,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -4933,7 +4953,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -5009,7 +5029,7 @@
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -5673,7 +5693,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -7196,7 +7216,7 @@
       <Scope>InspIRCd</Scope>
     </TokenIdentifier>
     <Path>class_insp_i_r_cd.html</Path>
-    <Anchor>a4ac24e9d842f927b2265e407ee40c696</Anchor>
+    <Anchor>a9090f73796f07ffd0f306ff1892f5e9a</Anchor>
     <DeclaredIn>inspircd.h</DeclaredIn>
   </Token>
   <Token>
@@ -8269,7 +8289,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+    <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -8280,7 +8300,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+    <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -8628,7 +8648,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -8713,7 +8733,7 @@
       <Scope>LocalExtItem</Scope>
     </TokenIdentifier>
     <Path>class_local_ext_item.html</Path>
-    <Anchor>a1f3c567dcc32bc386944c7567d5092d2</Anchor>
+    <Anchor>aaa520fb5480dee32de9911e9103adb0e</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -8787,7 +8807,7 @@
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -8829,7 +8849,7 @@
       <Scope>LocalIntExt</Scope>
     </TokenIdentifier>
     <Path>class_local_int_ext.html</Path>
-    <Anchor>adcc6a732ef24d17c99cc77a9484cbd55</Anchor>
+    <Anchor>a527f0bf6102b44c7f14eee3ed30c68f8</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -8903,7 +8923,7 @@
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -8945,7 +8965,7 @@
       <Scope>LocalStringExt</Scope>
     </TokenIdentifier>
     <Path>class_local_string_ext.html</Path>
-    <Anchor>a5f3c2c11f0c28396f006410edf95752b</Anchor>
+    <Anchor>a771262d0ed21276b820ccbec916d187c</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -9018,7 +9038,7 @@
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -9742,7 +9762,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -10284,7 +10304,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -10349,7 +10369,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>acad3785232b1b0b884d12741b02277f4</Anchor>
+    <Anchor>a9f7930abaaf94035dcfd1a40f885042d</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -10371,7 +10391,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a3a9c4724eee773b2c09f265b6d7027ec</Anchor>
+    <Anchor>ad4e333c0fce3ee407088576b5563354b</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -10382,7 +10402,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>afe4b6dd056cade19e6aa2db83f27c93e</Anchor>
+    <Anchor>a690649429600580793588d8dd6f00c24</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -10393,7 +10413,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a24a6efe4824c31ff9e55d48fa0550cbd</Anchor>
+    <Anchor>ace510ebc00062d102bbcb8da8a5c61d9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -10938,7 +10958,7 @@
       <Scope>ModResult</Scope>
     </TokenIdentifier>
     <Path>struct_mod_result.html</Path>
-    <Anchor>aba09d75e0ab80ad8be8898f2f39a41bb</Anchor>
+    <Anchor>acc6f263aa153facd17f7aebe87ae5292</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -12606,7 +12626,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>acad3785232b1b0b884d12741b02277f4</Anchor>
+    <Anchor>a9f7930abaaf94035dcfd1a40f885042d</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12628,7 +12648,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a3a9c4724eee773b2c09f265b6d7027ec</Anchor>
+    <Anchor>ad4e333c0fce3ee407088576b5563354b</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12639,7 +12659,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>afe4b6dd056cade19e6aa2db83f27c93e</Anchor>
+    <Anchor>a690649429600580793588d8dd6f00c24</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12650,7 +12670,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a24a6efe4824c31ff9e55d48fa0550cbd</Anchor>
+    <Anchor>ace510ebc00062d102bbcb8da8a5c61d9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -13018,7 +13038,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+    <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -13029,7 +13049,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+    <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -13431,7 +13451,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+    <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -13442,7 +13462,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+    <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -13738,6 +13758,15 @@
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
     <Anchor>a2ccd3c90668bd46e48d582be89291e2a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PrefixModeSorter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>PrefixModeSorter</Scope>
+    </TokenIdentifier>
+    <Path>struct_prefix_mode_sorter.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14944,7 +14973,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -15690,7 +15719,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+    <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -15701,7 +15730,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+    <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -16117,6 +16146,16 @@
     <Path>class_server_config.html</Path>
     <Anchor>ab48144454fa19242d78e8a0d42924209</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EmptyTag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>ae1e095ed665d5ead813c108d979177d5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16617,6 +16656,16 @@
     </TokenIdentifier>
     <Path>class_server_config.html</Path>
     <Anchor>a59637aab8aeaf96e6b5bae4130a7dbaf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HideULineKills</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>a4526deca5c03510737263e374753c996</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17212,7 +17261,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>acad3785232b1b0b884d12741b02277f4</Anchor>
+    <Anchor>a9f7930abaaf94035dcfd1a40f885042d</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17234,7 +17283,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a3a9c4724eee773b2c09f265b6d7027ec</Anchor>
+    <Anchor>ad4e333c0fce3ee407088576b5563354b</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17245,7 +17294,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>afe4b6dd056cade19e6aa2db83f27c93e</Anchor>
+    <Anchor>a690649429600580793588d8dd6f00c24</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17256,7 +17305,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a24a6efe4824c31ff9e55d48fa0550cbd</Anchor>
+    <Anchor>ace510ebc00062d102bbcb8da8a5c61d9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17507,7 +17556,7 @@
       <Scope>LocalExtItem</Scope>
     </TokenIdentifier>
     <Path>class_local_ext_item.html</Path>
-    <Anchor>a1f3c567dcc32bc386944c7567d5092d2</Anchor>
+    <Anchor>aaa520fb5480dee32de9911e9103adb0e</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -17570,7 +17619,7 @@
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -17657,7 +17706,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>acad3785232b1b0b884d12741b02277f4</Anchor>
+    <Anchor>a9f7930abaaf94035dcfd1a40f885042d</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17679,7 +17728,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a3a9c4724eee773b2c09f265b6d7027ec</Anchor>
+    <Anchor>ad4e333c0fce3ee407088576b5563354b</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17690,7 +17739,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>afe4b6dd056cade19e6aa2db83f27c93e</Anchor>
+    <Anchor>a690649429600580793588d8dd6f00c24</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17701,7 +17750,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a24a6efe4824c31ff9e55d48fa0550cbd</Anchor>
+    <Anchor>ace510ebc00062d102bbcb8da8a5c61d9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -18115,7 +18164,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+    <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -18126,7 +18175,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+    <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -19015,7 +19064,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>a4ca63013f444c9826fc60f5449806c22</Anchor>
+    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19059,7 +19108,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>ad8b743c511b09e39c6e6f45f6555ece3</Anchor>
+    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19070,7 +19119,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>af8ce1cb562316a65a04c06911b8a4153</Anchor>
+    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19103,7 +19152,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -19166,7 +19215,7 @@
       <Scope>StringExtItem</Scope>
     </TokenIdentifier>
     <Path>class_string_ext_item.html</Path>
-    <Anchor>a922f7be99f9c1b18ef15644d7a124a51</Anchor>
+    <Anchor>af30e6eb786fd8a59ea62ae56dff67e17</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -19240,7 +19289,7 @@
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -19664,7 +19713,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>a4ca63013f444c9826fc60f5449806c22</Anchor>
+    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19686,7 +19735,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>ad8b743c511b09e39c6e6f45f6555ece3</Anchor>
+    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19697,7 +19746,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>af8ce1cb562316a65a04c06911b8a4153</Anchor>
+    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19730,7 +19779,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -20600,7 +20649,7 @@
       <Scope>Extensible</Scope>
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
-    <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+    <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -20947,7 +20996,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>a4ca63013f444c9826fc60f5449806c22</Anchor>
+    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -20969,7 +21018,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>ad8b743c511b09e39c6e6f45f6555ece3</Anchor>
+    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -20980,7 +21029,7 @@
       <Scope>StreamSocket</Scope>
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
-    <Anchor>af8ce1cb562316a65a04c06911b8a4153</Anchor>
+    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -21013,7 +21062,7 @@
       <Scope>EventHandler</Scope>
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
-    <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+    <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -21121,6 +21170,17 @@
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
     <Anchor>a856c75fc342befd33ba9928b9fda7e61</Anchor>
+    <DeclaredIn>usermanager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RehashCloneCounts</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>UserManager</Scope>
+    </TokenIdentifier>
+    <Path>class_user_manager.html</Path>
+    <Anchor>ae593f5c04e3e33e47e593804537a705a</Anchor>
     <DeclaredIn>usermanager.h</DeclaredIn>
   </Token>
   <Token>
@@ -22305,36 +22365,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>__gnu_cxx</Name>
-      <APILanguage>c</APILanguage>
-      <Type>ns</Type>
-      <Scope>__gnu_cxx</Scope>
-    </TokenIdentifier>
-    <Path>namespace____gnu__cxx.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>strlower</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>__gnu_cxx</Scope>
-    </TokenIdentifier>
-    <Path>namespace____gnu__cxx.html</Path>
-    <Anchor>ac3284df3fd0afd77baeb45e5fed3f4bc</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>__gnu_cxx::hash&lt; std::string &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>__gnu_cxx::hash&lt; std::string &gt;</Scope>
-    </TokenIdentifier>
-    <Path>struct____gnu__cxx_1_1hash_3_01std_1_1string_01_4.html</Path>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>irc</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -22468,7 +22498,7 @@
       <Scope>irc::hash</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1hash.html</Path>
-    <Anchor>a34bb52a4dff5754d04a2565e8d0d47d6</Anchor>
+    <Anchor>a2c50b4628352930d8ade011de80bdd5e</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -22814,7 +22844,7 @@
       <Scope>irc::StrHashComp</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1_str_hash_comp.html</Path>
-    <Anchor>a0c6b155560480b06b14b37f2c6b1657e</Anchor>
+    <Anchor>a53c5bd5d764b44ea04988cd40fce8735</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -23050,7 +23080,7 @@
       <Scope>irc::sockets::cidr_mask</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-    <Anchor>a928000fc724f3c29afaaa09d5be61fc9</Anchor>
+    <Anchor>a3ec6a1c72ae3a36416d21bd9e4a2131b</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23061,7 +23091,7 @@
       <Scope>irc::sockets::cidr_mask</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-    <Anchor>a3d380ba7733576081253feeb06d30b32</Anchor>
+    <Anchor>acf3646aa9f585d0368661858ad300587</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23072,7 +23102,7 @@
       <Scope>irc::sockets::cidr_mask</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-    <Anchor>aac180ee105d11035179d6d8f8786b8f7</Anchor>
+    <Anchor>a9ff333696e0633d21f12f67937fb223b</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23083,7 +23113,7 @@
       <Scope>irc::sockets::cidr_mask</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-    <Anchor>a00036dcd36621dce532d5c7a40032c6f</Anchor>
+    <Anchor>a875eafaf9c46139db4a720ddd6688a08</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23133,7 +23163,7 @@
       <Scope>irc::sockets::sockaddrs</Scope>
     </TokenIdentifier>
     <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>adae0aca22516d4287662cc74ad34b313</Anchor>
+    <Anchor>ae4626770393b00c48637fe26b784f0c3</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23144,7 +23174,7 @@
       <Scope>irc::sockets::sockaddrs</Scope>
     </TokenIdentifier>
     <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a0e9ec75a2646198bb28ec6456a4e7adc</Anchor>
+    <Anchor>aa3473cafbee1114913ded93c30955a7c</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23155,7 +23185,7 @@
       <Scope>irc::sockets::sockaddrs</Scope>
     </TokenIdentifier>
     <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a9712a38d16256974df52b8ca4788e021</Anchor>
+    <Anchor>ab342552c4c4604fd5500459c3576cafb</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -23166,7 +23196,17 @@
       <Scope>irc::sockets::sockaddrs</Scope>
     </TokenIdentifier>
     <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a44bcc520c85d392ffa7d7730c369d302</Anchor>
+    <Anchor>abd459ba275c5fddfb2c5b8bfbda9c805</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::tr1::insensitive</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::tr1::insensitive</Scope>
+    </TokenIdentifier>
+    <Path>structstd_1_1tr1_1_1insensitive.html</Path>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
 </Tokens>

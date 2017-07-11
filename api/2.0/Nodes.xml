@@ -6,6 +6,10 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
+        <Name>About</Name>
+        <Path>index.html</Path>
+       </Node>
+       <Node>
         <Name>Namespaces</Name>
         <Path></Path>
         <Subnodes>
@@ -13,10 +17,6 @@
           <Name>Namespace List</Name>
           <Path>namespaces.html</Path>
           <Subnodes>
-           <Node>
-            <Name>__gnu_cxx</Name>
-            <Path>namespace____gnu__cxx.html</Path>
-           </Node>
            <Node>
             <Name>irc</Name>
             <Path>namespaceirc.html</Path>
@@ -51,29 +51,12 @@
        </Node>
        <Node>
         <Name>Classes</Name>
-        <Path></Path>
+        <Path>annotated.html</Path>
         <Subnodes>
          <Node>
           <Name>Class List</Name>
           <Path>annotated.html</Path>
           <Subnodes>
-           <Node>
-            <Name>__gnu_cxx</Name>
-            <Path>namespace____gnu__cxx.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>hash&lt; std::string &gt;</Name>
-              <Path>struct____gnu__cxx_1_1hash_3_01std_1_1string_01_4.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>operator()</Name>
-                <Path>struct____gnu__cxx_1_1hash_3_01std_1_1string_01_4.html</Path>
-                <Anchor>a2f8301260324fde53238579ecac0f10e</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
            <Node>
             <Name>irc</Name>
             <Path>namespaceirc.html</Path>
@@ -104,22 +87,22 @@
                  <Node>
                   <Name>match</Name>
                   <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-                  <Anchor>aac180ee105d11035179d6d8f8786b8f7</Anchor>
+                  <Anchor>a9ff333696e0633d21f12f67937fb223b</Anchor>
                  </Node>
                  <Node>
                   <Name>operator&lt;</Name>
                   <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-                  <Anchor>a3d380ba7733576081253feeb06d30b32</Anchor>
+                  <Anchor>acf3646aa9f585d0368661858ad300587</Anchor>
                  </Node>
                  <Node>
                   <Name>operator==</Name>
                   <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-                  <Anchor>a928000fc724f3c29afaaa09d5be61fc9</Anchor>
+                  <Anchor>a3ec6a1c72ae3a36416d21bd9e4a2131b</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
                   <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
-                  <Anchor>a00036dcd36621dce532d5c7a40032c6f</Anchor>
+                  <Anchor>a875eafaf9c46139db4a720ddd6688a08</Anchor>
                  </Node>
                  <Node>
                   <Name>bits</Name>
@@ -145,32 +128,32 @@
                  <Node>
                   <Name>addr</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a9712a38d16256974df52b8ca4788e021</Anchor>
+                  <Anchor>ab342552c4c4604fd5500459c3576cafb</Anchor>
                  </Node>
                  <Node>
                   <Name>operator!=</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a0c46b85c13376f0860508ab1e1f70428</Anchor>
+                  <Anchor>a75c8aef969c9a44deb04d5290bb25b57</Anchor>
                  </Node>
                  <Node>
                   <Name>operator==</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a1419bc52286fb808627e4bf785dae6e1</Anchor>
+                  <Anchor>adba3178d766dd043337719d962c695a5</Anchor>
                  </Node>
                  <Node>
                   <Name>port</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a0e9ec75a2646198bb28ec6456a4e7adc</Anchor>
+                  <Anchor>aa3473cafbee1114913ded93c30955a7c</Anchor>
                  </Node>
                  <Node>
                   <Name>sa_size</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>adae0aca22516d4287662cc74ad34b313</Anchor>
+                  <Anchor>ae4626770393b00c48637fe26b784f0c3</Anchor>
                  </Node>
                  <Node>
                   <Name>str</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-                  <Anchor>a44bcc520c85d392ffa7d7730c369d302</Anchor>
+                  <Anchor>abd459ba275c5fddfb2c5b8bfbda9c805</Anchor>
                  </Node>
                  <Node>
                   <Name>in4</Name>
@@ -209,7 +192,7 @@
                <Node>
                 <Name>operator()</Name>
                 <Path>structirc_1_1hash.html</Path>
-                <Anchor>a34bb52a4dff5754d04a2565e8d0d47d6</Anchor>
+                <Anchor>a2c50b4628352930d8ade011de80bdd5e</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -325,7 +308,7 @@
                <Node>
                 <Name>operator()</Name>
                 <Path>structirc_1_1_str_hash_comp.html</Path>
-                <Anchor>a0c6b155560480b06b14b37f2c6b1657e</Anchor>
+                <Anchor>a53c5bd5d764b44ea04988cd40fce8735</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -388,6 +371,29 @@
                 <Name>GetToken</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
                 <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>std</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>tr1</Name>
+              <Path></Path>
+              <Subnodes>
+               <Node>
+                <Name>insensitive</Name>
+                <Path>structstd_1_1tr1_1_1insensitive.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>operator()</Name>
+                  <Path>structstd_1_1tr1_1_1insensitive.html</Path>
+                  <Anchor>aac56df65e9bbd2320843fb5de8ad22c1</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -654,7 +660,7 @@
              <Node>
               <Name>CachedQuery</Name>
               <Path>class_cached_query.html</Path>
-              <Anchor>add4360a750bc6e683a5531e2b44700a6</Anchor>
+              <Anchor>a74bac8e1a51d46ccc716ad0faadf2536</Anchor>
              </Node>
              <Node>
               <Name>CalcTTLRemaining</Name>
@@ -670,6 +676,11 @@
               <Name>expires</Name>
               <Path>class_cached_query.html</Path>
               <Anchor>a240cd2dc647b04c5357114102af63a79</Anchor>
+             </Node>
+             <Node>
+              <Name>type</Name>
+              <Path>class_cached_query.html</Path>
+              <Anchor>a35f88c2966a0ffc85cb363fa8253cd0c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1464,7 +1475,7 @@
              <Node>
               <Name>getItems</Name>
               <Path>class_config_tag.html</Path>
-              <Anchor>ada425c2ed1e4509f3981c79edde3faa6</Anchor>
+              <Anchor>a41f3f9e61046bc62c64f245c15f44dfe</Anchor>
              </Node>
              <Node>
               <Name>getString</Name>
@@ -1759,7 +1770,7 @@
              <Node>
               <Name>what</Name>
               <Path>class_c_win32_exception.html</Path>
-              <Anchor>af1abeb0c2a8587583f1239845d4b625a</Anchor>
+              <Anchor>aab133c65c705f91a9676b63631082fb5</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2088,7 +2099,7 @@
              <Node>
               <Name>DNSResult</Name>
               <Path>class_d_n_s_result.html</Path>
-              <Anchor>af61c193d54e70945cf436154e2ec618e</Anchor>
+              <Anchor>a7a23a913fe5c3fd4222e03e588e4050c</Anchor>
              </Node>
              <Node>
               <Name>id</Name>
@@ -2109,6 +2120,11 @@
               <Name>ttl</Name>
               <Path>class_d_n_s_result.html</Path>
               <Anchor>ae1d4e25daa3dce3b6ec73f4c1761a616</Anchor>
+             </Node>
+             <Node>
+              <Name>type</Name>
+              <Path>class_d_n_s_result.html</Path>
+              <Anchor>a59ee76ae0d7136fc02b5309016f06204</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2340,12 +2356,12 @@
              <Node>
               <Name>GetEventMask</Name>
               <Path>class_event_handler.html</Path>
-              <Anchor>ae8b7d55e236a74792bd74525d7faa724</Anchor>
+              <Anchor>a3db672c7ce47c71f28b53761d15ce495</Anchor>
              </Node>
              <Node>
               <Name>GetFd</Name>
               <Path>class_event_handler.html</Path>
-              <Anchor>a01461cf54ecabda67089957430083414</Anchor>
+              <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
              </Node>
              <Node>
               <Name>HandleEvent</Name>
@@ -2401,7 +2417,7 @@
              <Node>
               <Name>GetExtList</Name>
               <Path>class_extensible.html</Path>
-              <Anchor>ac97ab7b7f39662971a6bc25ae689b705</Anchor>
+              <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
              </Node>
              <Node>
               <Name>ExtensionItem</Name>
@@ -2432,7 +2448,7 @@
              <Node>
               <Name>get_raw</Name>
               <Path>class_extension_item.html</Path>
-              <Anchor>aefda85d98be08c58bb2cf56906d719a8</Anchor>
+              <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
              </Node>
              <Node>
               <Name>serialize</Name>
@@ -2657,9 +2673,9 @@
               <Anchor>accb0c747e139f2f27de8eaff5baca030</Anchor>
              </Node>
              <Node>
-              <Name>~FloodQuitUserHandler</Name>
+              <Name>~ FloodQuitUserHandler</Name>
               <Path>class_flood_quit_user_handler.html</Path>
-              <Anchor>a553c54522027a74c8c6140330b213227</Anchor>
+              <Anchor>a88186d762b19e1700d0f9a38401b102a</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -2709,9 +2725,9 @@
               <Anchor>a92ff546382e3a1c2735110b3255c25e3</Anchor>
              </Node>
              <Node>
-              <Name>~GenRandomHandler</Name>
+              <Name>~ GenRandomHandler</Name>
               <Path>class_gen_random_handler.html</Path>
-              <Anchor>a8921a8cd58505ba485f001e3444a3d2e</Anchor>
+              <Anchor>a170302ca85a3bf9a6a1ca6851fb3442a</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -2974,7 +2990,7 @@
              <Node>
               <Name>fptr</Name>
               <Path>unioninit__t.html</Path>
-              <Anchor>a947c5203016d59bea2d8ec7db062dd0c</Anchor>
+              <Anchor>ab9e1738b4736bd2e821493d177519afb</Anchor>
              </Node>
              <Node>
               <Name>vptr</Name>
@@ -3250,7 +3266,7 @@
              <Node>
               <Name>WritePID</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a4ac24e9d842f927b2265e407ee40c696</Anchor>
+              <Anchor>a9090f73796f07ffd0f306ff1892f5e9a</Anchor>
              </Node>
              <Node>
               <Name>TestSuite</Name>
@@ -3537,9 +3553,9 @@
               <Anchor>a79f1c106ef18867c1320f620a35e75f9</Anchor>
              </Node>
              <Node>
-              <Name>~IsChannelHandler</Name>
+              <Name>~ IsChannelHandler</Name>
               <Path>class_is_channel_handler.html</Path>
-              <Anchor>a06d44b8f646c77f8183d584f59123d6c</Anchor>
+              <Anchor>a88e402ea6d58e9ab140c1f7fad3f9062</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -3558,9 +3574,9 @@
               <Anchor>ae5ffbfe04d73ed1edac52b03d3317a01</Anchor>
              </Node>
              <Node>
-              <Name>~IsIdentHandler</Name>
+              <Name>~ IsIdentHandler</Name>
               <Path>class_is_ident_handler.html</Path>
-              <Anchor>ac0971a962d22e12adde39b0a6e1f1b4e</Anchor>
+              <Anchor>a735eb8f54b8e53f7e0d0da672037af43</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -3579,9 +3595,9 @@
               <Anchor>a6eb76b83a5f0659d09c38af39d29161a</Anchor>
              </Node>
              <Node>
-              <Name>~IsNickHandler</Name>
+              <Name>~ IsNickHandler</Name>
               <Path>class_is_nick_handler.html</Path>
-              <Anchor>ae15bbf8d783e1dd32975775ae4aad315</Anchor>
+              <Anchor>a2ff85d286a753248c1f3fc5d574007d6</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -3600,9 +3616,9 @@
               <Anchor>a366627c4307e61f7da9a8b79a9cb15f9</Anchor>
              </Node>
              <Node>
-              <Name>~IsSIDHandler</Name>
+              <Name>~ IsSIDHandler</Name>
               <Path>class_is_s_i_d_handler.html</Path>
-              <Anchor>a6ea2b7e272e3b760eda453813d078728</Anchor>
+              <Anchor>aa94ec2b3c6b798be52d685162bae1e5d</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -3802,7 +3818,7 @@
              <Node>
               <Name>serialize</Name>
               <Path>class_local_ext_item.html</Path>
-              <Anchor>a1f3c567dcc32bc386944c7567d5092d2</Anchor>
+              <Anchor>aaa520fb5480dee32de9911e9103adb0e</Anchor>
              </Node>
              <Node>
               <Name>unserialize</Name>
@@ -3833,12 +3849,12 @@
              <Node>
               <Name>get</Name>
               <Path>class_local_int_ext.html</Path>
-              <Anchor>a20edd3499948bad617daae3b265730ba</Anchor>
+              <Anchor>a8548705e3c0a8beeb8a7d7c16d4d884d</Anchor>
              </Node>
              <Node>
               <Name>serialize</Name>
               <Path>class_local_int_ext.html</Path>
-              <Anchor>adcc6a732ef24d17c99cc77a9484cbd55</Anchor>
+              <Anchor>a527f0bf6102b44c7f14eee3ed30c68f8</Anchor>
              </Node>
              <Node>
               <Name>set</Name>
@@ -3864,7 +3880,7 @@
              <Node>
               <Name>serialize</Name>
               <Path>class_local_string_ext.html</Path>
-              <Anchor>a5f3c2c11f0c28396f006410edf95752b</Anchor>
+              <Anchor>a771262d0ed21276b820ccbec916d187c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4158,7 +4174,7 @@
              <Node>
               <Name>hasMode</Name>
               <Path>class_membership.html</Path>
-              <Anchor>a3c815a15b0e9cfea370943b8e691463d</Anchor>
+              <Anchor>ab3a05fba60e65c70b2c81afc5cf02999</Anchor>
              </Node>
              <Node>
               <Name>chan</Name>
@@ -4214,7 +4230,7 @@
              <Node>
               <Name>GetLevelRequired</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a079dee924d4559492e9b598af4c1e49e</Anchor>
+              <Anchor>acc0a622941eea9b4c86ef2ea81331637</Anchor>
              </Node>
              <Node>
               <Name>GetModeChar</Name>
@@ -4224,7 +4240,7 @@
              <Node>
               <Name>GetModeType</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a3a9c4724eee773b2c09f265b6d7027ec</Anchor>
+              <Anchor>ad4e333c0fce3ee407088576b5563354b</Anchor>
              </Node>
              <Node>
               <Name>GetNumParams</Name>
@@ -4234,7 +4250,7 @@
              <Node>
               <Name>GetPrefix</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>acad3785232b1b0b884d12741b02277f4</Anchor>
+              <Anchor>a9f7930abaaf94035dcfd1a40f885042d</Anchor>
              </Node>
              <Node>
               <Name>GetPrefixRank</Name>
@@ -4244,7 +4260,7 @@
              <Node>
               <Name>GetTranslateType</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>afe4b6dd056cade19e6aa2db83f27c93e</Anchor>
+              <Anchor>a690649429600580793588d8dd6f00c24</Anchor>
              </Node>
              <Node>
               <Name>GetUserParameter</Name>
@@ -4259,7 +4275,7 @@
              <Node>
               <Name>NeedsOper</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a24a6efe4824c31ff9e55d48fa0550cbd</Anchor>
+              <Anchor>ace510ebc00062d102bbcb8da8a5c61d9</Anchor>
              </Node>
              <Node>
               <Name>OnModeChange</Name>
@@ -4492,27 +4508,27 @@
              <Node>
               <Name>check</Name>
               <Path>struct_mod_result.html</Path>
-              <Anchor>a5b4f0afb1a23f22f673638c16650c717</Anchor>
+              <Anchor>a08b31021d09626cef748125e3d81951d</Anchor>
              </Node>
              <Node>
               <Name>operator!</Name>
               <Path>struct_mod_result.html</Path>
-              <Anchor>a2e105134c632cf75a6d9f795a547f8c2</Anchor>
+              <Anchor>a3e10c906d91d83439f0ffba59a863bb8</Anchor>
              </Node>
              <Node>
               <Name>operator!=</Name>
               <Path>struct_mod_result.html</Path>
-              <Anchor>a8ac12ef61ddd46b7b582b018ed93df66</Anchor>
+              <Anchor>a592d545651b9db1c369cd606845df82a</Anchor>
              </Node>
              <Node>
               <Name>operator+</Name>
               <Path>struct_mod_result.html</Path>
-              <Anchor>aba09d75e0ab80ad8be8898f2f39a41bb</Anchor>
+              <Anchor>acc6f263aa153facd17f7aebe87ae5292</Anchor>
              </Node>
              <Node>
               <Name>operator==</Name>
               <Path>struct_mod_result.html</Path>
-              <Anchor>ac231df3afcb23a7b2f72a6045c138b88</Anchor>
+              <Anchor>a504e96b4e6d92e273e216ddfc7324aa6</Anchor>
              </Node>
              <Node>
               <Name>res</Name>
@@ -5235,9 +5251,9 @@
               <Anchor>ae4bef106081fb6f6cf6cd767556bd663</Anchor>
              </Node>
              <Node>
-              <Name>~OnCheckExemptionHandler</Name>
+              <Name>~ OnCheckExemptionHandler</Name>
               <Path>class_on_check_exemption_handler.html</Path>
-              <Anchor>a191bb66ec2b8b6b12cf61090f8bd731d</Anchor>
+              <Anchor>a136a6a91b61583a663f951f32059a1c2</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -5584,6 +5600,17 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>PrefixModeSorter</Name>
+            <Path>struct_prefix_mode_sorter.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>operator()</Name>
+              <Path>struct_prefix_mode_sorter.html</Path>
+              <Anchor>a758ae7d66779320b0b8e9c5f2bce2123</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>ProtocolInterface</Name>
             <Path>class_protocol_interface.html</Path>
             <Subnodes>
@@ -5805,17 +5832,17 @@
              <Node>
               <Name>GetReferenceCount</Name>
               <Path>classrefcountbase.html</Path>
-              <Anchor>a35c1d69d1e3685027a0e85224edfc899</Anchor>
+              <Anchor>a65fedc3dc191d91799836218d18479fa</Anchor>
              </Node>
              <Node>
               <Name>refcount_dec</Name>
               <Path>classrefcountbase.html</Path>
-              <Anchor>a64cec5da323eb5dc7c18235658f43b50</Anchor>
+              <Anchor>a97f8d677a35f3cc9e009e613f5315a8c</Anchor>
              </Node>
              <Node>
               <Name>refcount_inc</Name>
               <Path>classrefcountbase.html</Path>
-              <Anchor>a1bb38868d484da08b41d32f706c21b6e</Anchor>
+              <Anchor>abd785703efa4349d240a63c119158505</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -5846,27 +5873,27 @@
              <Node>
               <Name>operator bool</Name>
               <Path>classreference.html</Path>
-              <Anchor>a6e19b3264efa792c42409de89282972e</Anchor>
+              <Anchor>acb263e82898f6f66dd4fe3d8c9a907c4</Anchor>
              </Node>
              <Node>
-              <Name>operator T *</Name>
+              <Name>operator T*</Name>
               <Path>classreference.html</Path>
-              <Anchor>ad93b385238718d32c573d5bd2de16ac9</Anchor>
+              <Anchor>ad8497fb06db67ac989cadfb101fb158b</Anchor>
              </Node>
              <Node>
               <Name>operator*</Name>
               <Path>classreference.html</Path>
-              <Anchor>a8e9d231fdc818794594b826a323afbf9</Anchor>
+              <Anchor>a03ab97fa7370a617300581672e52da83</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
               <Path>classreference.html</Path>
-              <Anchor>abb0243981818989f216e6f16ecef41ad</Anchor>
+              <Anchor>a3157e33eb84fdd76126f73606c98827d</Anchor>
              </Node>
              <Node>
               <Name>operator&lt;</Name>
               <Path>classreference.html</Path>
-              <Anchor>aa133e6b39e437bbff694f19ad2252c38</Anchor>
+              <Anchor>afbc7fb0088217566c0072e24a5fb2e47</Anchor>
              </Node>
              <Node>
               <Name>operator=</Name>
@@ -5881,7 +5908,7 @@
              <Node>
               <Name>operator&gt;</Name>
               <Path>classreference.html</Path>
-              <Anchor>a21b693be0cd95c90252aae81421e4d6c</Anchor>
+              <Anchor>a98ae1e058ef4ef0fd23c4694716410a6</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -5895,9 +5922,9 @@
               <Anchor>aa20dace4c390f8c72449b9b76c89380b</Anchor>
              </Node>
              <Node>
-              <Name>~RehashHandler</Name>
+              <Name>~ RehashHandler</Name>
               <Path>class_rehash_handler.html</Path>
-              <Anchor>ab6f9e22d5f872d72627c98be557392fe</Anchor>
+              <Anchor>a5b4e7e857eafa5eaae394771551737dd</Anchor>
              </Node>
              <Node>
               <Name>Call</Name>
@@ -6197,6 +6224,11 @@
               <Anchor>af61bcd662c3be06dd4219770350e65e6</Anchor>
              </Node>
              <Node>
+              <Name>~ServerConfig</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>a57099ba604595704027c42927ef1c5b7</Anchor>
+             </Node>
+             <Node>
               <Name>Apply</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a4c2fa074afd75a44c16b78563e52a9da</Anchor>
@@ -6357,6 +6389,11 @@
               <Anchor>a4ad1e87c188fa22710dd105f05bf32b5</Anchor>
              </Node>
              <Node>
+              <Name>EmptyTag</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>ae1e095ed665d5ead813c108d979177d5</Anchor>
+             </Node>
+             <Node>
               <Name>errstr</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a463fd95954ff0d7f40ca92877114e28c</Anchor>
@@ -6405,6 +6442,11 @@
               <Name>HideSplits</Name>
               <Path>class_server_config.html</Path>
               <Anchor>ad7f9bc2d3d2374b777cd961699711db9</Anchor>
+             </Node>
+             <Node>
+              <Name>HideULineKills</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>a4526deca5c03510737263e374753c996</Anchor>
              </Node>
              <Node>
               <Name>HideWhoisServer</Name>
@@ -6835,7 +6877,7 @@
              <Node>
               <Name>get</Name>
               <Path>class_simple_ext_item.html</Path>
-              <Anchor>a97a4092a104257d083d642b591d37667</Anchor>
+              <Anchor>a8a45b7f81511620cc5141b7c5665339b</Anchor>
              </Node>
              <Node>
               <Name>set</Name>
@@ -7044,7 +7086,7 @@
              <Node>
               <Name>GetMaxFds</Name>
               <Path>class_socket_engine.html</Path>
-              <Anchor>a2020840e1109c4a40f4ea98b9050c794</Anchor>
+              <Anchor>a65ed128f498a5906042f55f6a2f4175d</Anchor>
              </Node>
              <Node>
               <Name>GetName</Name>
@@ -7064,7 +7106,7 @@
              <Node>
               <Name>GetUsedFds</Name>
               <Path>class_socket_engine.html</Path>
-              <Anchor>af69dd98ad9d63023fcc4cdcd4ef52d01</Anchor>
+              <Anchor>a1b9be484a9dff82b72bb86c5bced74d9</Anchor>
              </Node>
              <Node>
               <Name>HasFd</Name>
@@ -7333,7 +7375,7 @@
              <Node>
               <Name>getError</Name>
               <Path>class_stream_socket.html</Path>
-              <Anchor>a4ca63013f444c9826fc60f5449806c22</Anchor>
+              <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
              </Node>
              <Node>
               <Name>GetIOHook</Name>
@@ -7343,12 +7385,12 @@
              <Node>
               <Name>GetNextLine</Name>
               <Path>class_stream_socket.html</Path>
-              <Anchor>ad8b743c511b09e39c6e6f45f6555ece3</Anchor>
+              <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
              </Node>
              <Node>
               <Name>getSendQSize</Name>
               <Path>class_stream_socket.html</Path>
-              <Anchor>af8ce1cb562316a65a04c06911b8a4153</Anchor>
+              <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
              </Node>
              <Node>
               <Name>HandleEvent</Name>
@@ -7404,12 +7446,12 @@
              <Node>
               <Name>get</Name>
               <Path>class_string_ext_item.html</Path>
-              <Anchor>a80dfa18354ba24f63fdc895a9abdc4e0</Anchor>
+              <Anchor>a7e419c34a5ba0bc794cd5c6d11b191eb</Anchor>
              </Node>
              <Node>
               <Name>serialize</Name>
               <Path>class_string_ext_item.html</Path>
-              <Anchor>a922f7be99f9c1b18ef15644d7a124a51</Anchor>
+              <Anchor>af30e6eb786fd8a59ea62ae56dff67e17</Anchor>
              </Node>
              <Node>
               <Name>set</Name>
@@ -7846,17 +7888,17 @@
              <Node>
               <Name>GetUseCount</Name>
               <Path>classusecountbase.html</Path>
-              <Anchor>a45fc20645148e861a3ffcb6ae769b3f5</Anchor>
+              <Anchor>a0f617fa3620bd5dd98d56177b38b27a1</Anchor>
              </Node>
              <Node>
               <Name>refcount_dec</Name>
               <Path>classusecountbase.html</Path>
-              <Anchor>a194edb7376fcb2bd38ed14ca87220fbe</Anchor>
+              <Anchor>a29dff7f913ddd36ff25cd66793e6da78</Anchor>
              </Node>
              <Node>
               <Name>refcount_inc</Name>
               <Path>classusecountbase.html</Path>
-              <Anchor>afdd838d750d44a4c15fb490a3d42e30e</Anchor>
+              <Anchor>a125c71f3f86f02308069779d56ba19de</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -8367,6 +8409,11 @@
               <Anchor>a8b1eb3f9807f55be2e6ca4fa1950a7c6</Anchor>
              </Node>
              <Node>
+              <Name>RehashCloneCounts</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>ae593f5c04e3e33e47e593804537a705a</Anchor>
+             </Node>
+             <Node>
               <Name>RemoveCloneCounts</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a856c75fc342befd33ba9928b9fda7e61</Anchor>
@@ -8834,7 +8881,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; bool, const char * &gt;</Name>
+              <Name>caller1&lt; bool, const char *&gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8844,7 +8891,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; bool, const std::string &amp; &gt;</Name>
+              <Name>caller1&lt; bool, const std::string &amp;&gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8864,7 +8911,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; void, const std::string &amp; &gt;</Name>
+              <Name>caller1&lt; void, const std::string &amp;&gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8874,7 +8921,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; void, User * &gt;</Name>
+              <Name>caller1&lt; void, User *&gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8914,7 +8961,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller3&lt; ModResult, User *, Channel *, const std::string &amp; &gt;</Name>
+              <Name>caller3&lt; ModResult, User *, Channel *, const std::string &amp;&gt;</Name>
               <Path>classcaller3.html</Path>
              </Node>
             </Subnodes>
@@ -9406,10 +9453,6 @@
             <Path>structirc_1_1hash.html</Path>
            </Node>
            <Node>
-            <Name>__gnu_cxx::hash&lt; std::string &gt;</Name>
-            <Path>struct____gnu__cxx_1_1hash_3_01std_1_1string_01_4.html</Path>
-           </Node>
-           <Node>
             <Name>HostItem</Name>
             <Path>class_host_item.html</Path>
             <Subnodes>
@@ -9422,6 +9465,10 @@
            <Node>
             <Name>init_t</Name>
             <Path>unioninit__t.html</Path>
+           </Node>
+           <Node>
+            <Name>std::tr1::insensitive</Name>
+            <Path>structstd_1_1tr1_1_1insensitive.html</Path>
            </Node>
            <Node>
             <Name>InspIRCd</Name>
@@ -9500,6 +9547,10 @@
            <Node>
             <Name>irc::portparser</Name>
             <Path>classirc_1_1portparser.html</Path>
+           </Node>
+           <Node>
+            <Name>PrefixModeSorter</Name>
+            <Path>struct_prefix_mode_sorter.html</Path>
            </Node>
            <Node>
             <Name>ProtocolInterface</Name>
@@ -9881,7 +9932,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_~.html</Path>
+              <Path>functions_0x7e.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -9991,7 +10042,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_func_~.html</Path>
+              <Path>functions_func_0x7e.html</Path>
              </Node>
             </Subnodes>
            </Node>

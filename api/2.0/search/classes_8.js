@@ -1,6 +1,7 @@
 var searchData=
 [
   ['init_5ft',['init_t',['../unioninit__t.html',1,'']]],
+  ['insensitive',['insensitive',['../structstd_1_1tr1_1_1insensitive.html',1,'std::tr1']]],
   ['inspircd',['InspIRCd',['../class_insp_i_r_cd.html',1,'']]],
   ['interfacebase',['interfacebase',['../classinterfacebase.html',1,'']]],
   ['invitation',['Invitation',['../class_invitation.html',1,'']]],

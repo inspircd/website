@@ -18,7 +18,7 @@ var searchData=
   ['addmode',['AddMode',['../class_mode_parser.html#a66bbb892bdcb50686a579810317c4cff',1,'ModeParser']]],
   ['addmodewatcher',['AddModeWatcher',['../class_mode_parser.html#a6b026ea0397ed4b3b33d8fd76b43522a',1,'ModeParser']]],
   ['addquery',['AddQuery',['../class_d_n_s.html#aaf9d449668483f64d4283393c3cf9e6c',1,'DNS']]],
-  ['addr',['addr',['../unionirc_1_1sockets_1_1sockaddrs.html#a9712a38d16256974df52b8ca4788e021',1,'irc::sockets::sockaddrs']]],
+  ['addr',['addr',['../unionirc_1_1sockets_1_1sockaddrs.html#ab342552c4c4604fd5500459c3576cafb',1,'irc::sockets::sockaddrs']]],
   ['addresolver',['AddResolver',['../class_insp_i_r_cd.html#a9861c340c2ce8b34569e8ca70fc35ea3',1,'InspIRCd']]],
   ['addresolverclass',['AddResolverClass',['../class_d_n_s.html#a1b058bab9c451bf590cf68cefee9206d',1,'DNS']]],
   ['addservice',['AddService',['../class_module_manager.html#adb47593edcdf6838df851e1eb9b1cee4',1,'ModuleManager']]],

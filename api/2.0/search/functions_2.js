@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['cachedquery',['CachedQuery',['../class_cached_query.html#add4360a750bc6e683a5531e2b44700a6',1,'CachedQuery']]],
+  ['cachedquery',['CachedQuery',['../class_cached_query.html#a74bac8e1a51d46ccc716ad0faadf2536',1,'CachedQuery']]],
   ['calcttlremaining',['CalcTTLRemaining',['../class_cached_query.html#ae53f09ca1585bb2f51ec9fb0e746a8c7',1,'CachedQuery']]],
   ['callcommandhandler',['CallCommandHandler',['../class_insp_i_r_cd.html#a4796eaab1966aa5663e5129c76e3e135',1,'InspIRCd']]],
   ['callhandler',['CallHandler',['../class_command_parser.html#a8cd3cd9292c6d9a4380b8aba363b3250',1,'CommandParser']]],

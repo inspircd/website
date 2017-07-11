@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sa_5fsize',['sa_size',['../unionirc_1_1sockets_1_1sockaddrs.html#adae0aca22516d4287662cc74ad34b313',1,'irc::sockets::sockaddrs::sa_size()'],['../namespaceirc_1_1sockets.html#ac20b2bef4eed2bab0e27d622b660f60a',1,'irc::sockets::sa_size()']]],
+  ['sa_5fsize',['sa_size',['../unionirc_1_1sockets_1_1sockaddrs.html#ae4626770393b00c48637fe26b784f0c3',1,'irc::sockets::sockaddrs::sa_size()'],['../namespaceirc_1_1sockets.html#ac20b2bef4eed2bab0e27d622b660f60a',1,'irc::sockets::sa_size()']]],
   ['sanitychecks',['SanityChecks',['../class_mode_parser.html#ad173c98fed85edd9b05671bd98fa7006',1,'ModeParser']]],
   ['satoap',['satoap',['../namespaceirc_1_1sockets.html#af3dc8de1efc3183815b10eb88e235639',1,'irc::sockets']]],
   ['satouser',['satouser',['../namespaceirc_1_1sockets.html#a199371e9ab09f4b0b750dfb66027fbe6',1,'irc::sockets']]],
@@ -26,7 +26,7 @@ var searchData=
   ['senduserprivmsg',['SendUserPrivmsg',['../class_protocol_interface.html#a151e54a3be9ee48288a825f526474246',1,'ProtocolInterface']]],
   ['sendwhoisline',['SendWhoisLine',['../class_insp_i_r_cd.html#aa4b468fd9c0e09f508ae8ac6e6fac7a1',1,'InspIRCd::SendWhoisLine(User *user, User *dest, int numeric, const std::string &amp;text)'],['../class_insp_i_r_cd.html#a6cd1251df875bc5b73f64ddd7fd31ccf',1,'InspIRCd::SendWhoisLine(User *user, User *dest, int numeric, const char *format,...)']]],
   ['sepstream',['sepstream',['../classirc_1_1sepstream.html#a53516c6a656bc17ee3b0f8bd53fd48e8',1,'irc::sepstream']]],
-  ['serialize',['serialize',['../class_extension_item.html#a4ffa5956f0d346d54d0a0ce28e39ec02',1,'ExtensionItem::serialize()'],['../class_local_ext_item.html#a1f3c567dcc32bc386944c7567d5092d2',1,'LocalExtItem::serialize()'],['../class_local_string_ext.html#a5f3c2c11f0c28396f006410edf95752b',1,'LocalStringExt::serialize()'],['../class_local_int_ext.html#adcc6a732ef24d17c99cc77a9484cbd55',1,'LocalIntExt::serialize()'],['../class_string_ext_item.html#a922f7be99f9c1b18ef15644d7a124a51',1,'StringExtItem::serialize()']]],
+  ['serialize',['serialize',['../class_extension_item.html#a4ffa5956f0d346d54d0a0ce28e39ec02',1,'ExtensionItem::serialize()'],['../class_local_ext_item.html#aaa520fb5480dee32de9911e9103adb0e',1,'LocalExtItem::serialize()'],['../class_local_string_ext.html#a771262d0ed21276b820ccbec916d187c',1,'LocalStringExt::serialize()'],['../class_local_int_ext.html#a527f0bf6102b44c7f14eee3ed30c68f8',1,'LocalIntExt::serialize()'],['../class_string_ext_item.html#af30e6eb786fd8a59ea62ae56dff67e17',1,'StringExtItem::serialize()']]],
   ['serverconfig',['ServerConfig',['../class_server_config.html#af61bcd662c3be06dd4219770350e65e6',1,'ServerConfig']]],
   ['serverlimits',['ServerLimits',['../class_server_limits.html#a8d48294b9780f3b59cf07a17c5575264',1,'ServerLimits']]],
   ['servernoticeall',['ServerNoticeAll',['../class_user_manager.html#a100cc8c7388a4035f2d53911dfb1b856',1,'UserManager']]],
@@ -62,9 +62,8 @@ var searchData=
   ['start',['Start',['../class_thread_engine.html#a96c02687bcc49aefbaeca60f6d9d6685',1,'ThreadEngine::Start(Thread *thread_to_init)'],['../class_thread_engine.html#a96c02687bcc49aefbaeca60f6d9d6685',1,'ThreadEngine::Start(Thread *thread_to_init)']]],
   ['startdnslookup',['StartDNSLookup',['../class_local_user.html#a1b489f878e7230ec96c10ebfbac5176e',1,'LocalUser']]],
   ['startswithwindowsdriveletter',['StartsWithWindowsDriveLetter',['../class_server_config.html#a3d93dbbdc69377201d16203a49649538',1,'ServerConfig']]],
-  ['str',['str',['../unionirc_1_1sockets_1_1sockaddrs.html#a44bcc520c85d392ffa7d7730c369d302',1,'irc::sockets::sockaddrs::str()'],['../structirc_1_1sockets_1_1cidr__mask.html#a00036dcd36621dce532d5c7a40032c6f',1,'irc::sockets::cidr_mask::str()']]],
+  ['str',['str',['../unionirc_1_1sockets_1_1sockaddrs.html#abd459ba275c5fddfb2c5b8bfbda9c805',1,'irc::sockets::sockaddrs::str()'],['../structirc_1_1sockets_1_1cidr__mask.html#a875eafaf9c46139db4a720ddd6688a08',1,'irc::sockets::cidr_mask::str()']]],
   ['streamend',['StreamEnd',['../classirc_1_1sepstream.html#a147bc527848667cad63bfb7159bcb906',1,'irc::sepstream']]],
   ['stringjoiner',['stringjoiner',['../classirc_1_1stringjoiner.html#a273c0c3b3b126354b4ef6c7c3d26d424',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const std::vector&lt; std::string &gt; &amp;sequence, int begin, int end)'],['../classirc_1_1stringjoiner.html#aa1d860b168eaf34219b71b083ad03b2d',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const std::deque&lt; std::string &gt; &amp;sequence, int begin, int end)'],['../classirc_1_1stringjoiner.html#ac9af25ca7887a267a825c6b1d4945580',1,'irc::stringjoiner::stringjoiner(const std::string &amp;seperator, const char *const *sequence, int begin, int end)']]],
-  ['stripcolor',['StripColor',['../class_insp_i_r_cd.html#ad3e9c5f646b0bda9833d3d77fc94a5b2',1,'InspIRCd']]],
-  ['strlower',['strlower',['../namespace____gnu__cxx.html#ac3284df3fd0afd77baeb45e5fed3f4bc',1,'__gnu_cxx']]]
+  ['stripcolor',['StripColor',['../class_insp_i_r_cd.html#ad3e9c5f646b0bda9833d3d77fc94a5b2',1,'InspIRCd']]]
 ];
