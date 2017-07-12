@@ -2,7 +2,7 @@
 layout         : "single"
 title          : "API Documentation"
 importanttitle : "NOTICE"
-important      : "Please select the version of InspIRCd you would like to see API documentation for:"
+important      : "You have to select the version of InspIRCd you would like to see API documentation for."
 ---
 
 <strong>Documentation is available for the following releases:</strong>
