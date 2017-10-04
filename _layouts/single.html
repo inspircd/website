@@ -1,0 +1,86 @@
+---
+layout: inner
+---
+<section class="headline">
+    <div class="wrapper">
+        <div class="headline__greeter">
+            {{ page.title }}
+			{% if page.author %}
+				<h5 class="headline__greeter-subtitle">Posted by <strong>~{{ page.author }}</strong> on <strong>{{ page.date | date: '%B %d, %Y' }}</strong></h5>
+			{% endif %}
+        </div>
+    </div>
+</section>
+<section class="posts posts__inner">
+    <div class="wrapper">
+        <article class="posts__article">
+            {% if page.subtitle %}
+                <h3 class="posts__article-title">{{ page.subtitle }}</h3>
+            {% endif %}
+
+            {% if page.important %}
+            <p class="posts__article-important">
+                {% if page.importanttitle %}
+                    <span class="posts__article-important--title">{{ page.importanttitle }}</span>
+                {% else %}
+                    <span class="posts__article-important--title">Important notice</span>
+                {% endif %}
+
+                {{ page.important }}
+            </p>
+            {% endif %}
+            <div class="posts__article-content">
+                {{ page.content | markdownify }}
+            </div>
+            <div class="clear"></div>
+        </article>
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+            {% if page.contributors %}
+            <!-- contributors -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Top Contributors</h3>
+                <ul class="sidebar__list">
+                    {% for contributor in page.contributors %}
+                        <li>{{ contributor }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            {% if page.thanksto %}
+            <!-- special thanks -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Special thanks to</h3>
+                <ul class="sidebar__list">
+                    {% for user in page.thanksto %}
+                    <li>{{ user }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            {% if page.features %}
+            <!-- features -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Key features</h3>
+                <ul class="sidebar__list">
+                    {% for feature in page.features %}
+                        <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            <!-- download -->
+            <section class="sidebar__section">
+                <h3 class="sidebar__section-title">Get InspIRCd</h3>
+                <div class="button button__full-width nomargin">
+                    <a href="{{ site.config.latestUrl }}" target="_blank" title="Download InspIRCd">Download InspIRCd</a>
+                </div>
+            </section>
+        </aside>
+        <div class="clear"></div>
+    </div>
+</section>
