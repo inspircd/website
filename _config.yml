@@ -40,7 +40,7 @@ navigation:
       target: _blank
       icon: fa-bug
     - title: InspIRCd API
-      uri: /api/2.0
+      uri: /api
       target: _blank
       icon: fa-code
     - title: Follow us on GitHub

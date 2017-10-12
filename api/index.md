@@ -9,4 +9,4 @@ important      : "You have to select the version of InspIRCd you would like to s
 
 [InspIRCd 2.0](/api/2.0)
 
-[InspIRCd 3.0](/api/3.0)
+[InspIRCd 3.0 (alpha)](/api/3.0)
