@@ -20,31 +20,7 @@ require 'rubygems' if RUBY_VERSION < '1.9'
 require 'rake'
 
 task :default do
-	system($PROGRAM_NAME, '--tasks')
-end
-
-desc 'Minify the site resources'
-task :minify do
-	begin
-		Gem::Specification.find_by_name('yui-compressor')
-		require 'yui/compressor'
-	rescue Gem::LoadError
-		puts 'You are missing the yui-compressor gem. Install it using:'
-		puts "\t$ [sudo] gem install yui-compressor"
-		exit 1
-	end
-	Dir['assets/{javascripts,stylesheets}/*.min.{css,js}'].each do |asset|
-		File.delete(asset)
-		puts "Purged #{asset}!"
-	end		
-	Dir['assets/{javascripts,stylesheets}/*.{css,js}'].each do |asset|
-		compressor = File.extname(asset) == '.css' ? YUI::CssCompressor.new : YUI::JavaScriptCompressor.new
-		minified_source = compressor.compress(File.read(asset))
-		File.open(asset.gsub('.', '.min.'), 'w') do |file|
-			file.write(minified_source)
-		end
-		puts "Minified #{asset}!"
-	end	
+	system $PROGRAM_NAME, '--tasks'
 end
 
 desc 'Create a new post'
@@ -63,31 +39,4 @@ task :post do
 	end
 	editor = ENV['EDITOR'] || 'nano'
 	system editor, destination
-end
-
-desc 'Update the third party resources'
-task :update do
-	require 'net/http'
-	require 'uri'
-	resources = {
-		'https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.js' => 'assets/javascripts/html5shiv.js',
-		'https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css' => 'assets/stylesheets/normalize.css',
-	}.freeze
-	resources.each do |source, target|
-		uri = URI.parse(source)
-		http = Net::HTTP.new(uri.host, uri.port)
-		http.use_ssl = true if uri.scheme == "https"
-		response = http.get(uri.path)
-		if response.code == '200'
-			target_contents = File.read(target)
-			if target_contents != response.body
-				File.open(target, 'w') do |file|
-					file.write(response.body)
-				end
-				puts "Updated #{target}!"
-			end
-		else
-			puts "Warning: #{source} returned HTTP #{response.code}: #{response.message}!"	
-		end  	
-	end
 end
