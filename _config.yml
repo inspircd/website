@@ -52,7 +52,7 @@ navigation:
       target: _blank
       icon: fa-download
 
-config:
+misc:
 # theme: red {default} | green | blue
     theme: red
     currentVersion: 2.0.25

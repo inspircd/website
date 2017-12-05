@@ -11,17 +11,17 @@
     <meta name="keywords" content="{{ site.meta.keywords }}">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge;Chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <link type="application/atom+xml" href="{{ site.config.devurl}}/atom.xml" rel="alternate" title="News">
-    <link type="image/x-icon" href="{{ site.config.devurl}}/assets/images/inspircd.ico" rel="shortcut icon">
-    <link rel="icon" type="image/png" href="{{ site.config.devurl}}/assets/images/inspircd_icon.png">
+    <link type="application/atom+xml" href="{{ site.misc.devurl}}/atom.xml" rel="alternate" title="News">
+    <link type="image/x-icon" href="{{ site.misc.devurl}}/assets/images/inspircd.ico" rel="shortcut icon">
+    <link rel="icon" type="image/png" href="{{ site.misc.devurl}}/assets/images/inspircd_icon.png">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ site.config.devurl}}/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ site.config.devurl}}/assets/css/inspircd.css">
-    <script type="text/javascript" src="{{ site.config.devurl}}/assets/scripts/libs/jquery.js"></script>
-    <script type="text/javascript" src="{{ site.config.devurl}}/assets/scripts/inspircd.js"></script>
+    <link rel="stylesheet" href="{{ site.misc.devurl}}/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.misc.devurl}}/assets/css/inspircd.css">
+    <script type="text/javascript" src="{{ site.misc.devurl}}/assets/scripts/libs/jquery.js"></script>
+    <script type="text/javascript" src="{{ site.misc.devurl}}/assets/scripts/inspircd.js"></script>
 </head>
-{% if site.config.theme %}
-<body class="inspircd__site-style--{{ site.config.theme }}">
+{% if site.misc.theme %}
+<body class="inspircd__site-style--{{ site.misc.theme }}">
 {% else %}
 <body class="inspircd__site-style--red">
 {% endif %}
@@ -46,8 +46,8 @@
                 <div class="header__mobile-menu">
                     <i class="fa fa-bars"></i>
                 </div>
-                {% if site.config.devurl %}
-                <a class="header__logo inspircd__logo inspircd__logo--small" href="{{ site.config.devurl}}">
+                {% if site.misc.devurl %}
+                <a class="header__logo inspircd__logo inspircd__logo--small" href="{{ site.misc.devurl}}">
                 {% else %}
                 <a class="header__logo inspircd__logo inspircd__logo--small" href="/">
                 {% endif %}
@@ -94,9 +94,9 @@
                         <p>And after all it’s <strong>free</strong> and <strong>open source</strong>.</p>
                         <div class="headline__introduction-bottom-wrapper">
                             <div class="button accent">
-                                <a href="{{ site.config.latestUrl }}" target="_blank" title="Get the latest release of InspIRCd">Get InspIRCd</a>
+                                <a href="{{ site.misc.latestUrl }}" target="_blank" title="Get the latest release of InspIRCd">Get InspIRCd</a>
                             </div>
-                            <span class="alt-text">or  take a look at our <a href="{{ site.config.installGuideUrl }}" title="Check our installation guide" target="_blank">installation guide</a> followed by our <a href="{{ site.config.configGuideUrl }}" title="Check our configuration guide" target="_blank">configuration guide</a></span>
+                            <span class="alt-text">or  take a look at our <a href="{{ site.misc.installGuideUrl }}" title="Check our installation guide" target="_blank">installation guide</a> followed by our <a href="{{ site.misc.configGuideUrl }}" title="Check our configuration guide" target="_blank">configuration guide</a></span>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -110,7 +110,7 @@
 
                 {% if paginator.next_page %}
                     <div class="posts__loadmore-button">
-                        <a href="{{ site.config.devurl}}/page{{ paginator.next_page }}">show more articles</a>
+                        <a href="{{ site.misc.devurl}}/page{{ paginator.next_page }}">show more articles</a>
                     </div>
                 {% endif %}
             </div>
@@ -125,8 +125,8 @@
                 <p class="design-copyright">Website design and template by Roland Hegedus &copy;2015-{{ 'now' | date: "%Y" }}</p>
             </section>
             <section class="footer__right-col">
-                <p class="version">Current stable version v{{ site.config.currentVersion }}</p>
-                <p class="follow_us">Follow us on <a href="{{ site.config.devurl}}/atom.xml" title="Follow us on RSS" class="rss-logo" target="_blank"><i class="fa fa-rss"></i> RSS</a> and <a href="{{ site.config.gitHubUrl }}" class="github-logo tpartylogo" title="Follow us on GitHub" target="_blank">github</a></p>
+                <p class="version">Current stable version v{{ site.misc.currentVersion }}</p>
+                <p class="follow_us">Follow us on <a href="{{ site.misc.devurl}}/atom.xml" title="Follow us on RSS" class="rss-logo" target="_blank"><i class="fa fa-rss"></i> RSS</a> and <a href="{{ site.misc.gitHubUrl }}" class="github-logo tpartylogo" title="Follow us on GitHub" target="_blank">github</a></p>
             </section>
             <div class="clear"></div>
         </div>
