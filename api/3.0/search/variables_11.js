@@ -1,6 +1,7 @@
 var searchData=
 [
   ['s_5fsignal',['s_signal',['../class_insp_i_r_cd.html#a0adf15e0543a0cf50a38f3e13445cf1e',1,'InspIRCd']]],
+  ['selfremove',['selfremove',['../class_prefix_mode.html#ac17c59e65bdbe8cd7322e79f785465d6',1,'PrefixMode']]],
   ['sent',['Sent',['../classserverstats.html#a99981049060d6e5c2b95e1c3324024ba',1,'serverstats']]],
   ['sep',['sep',['../classirc_1_1sepstream.html#a5fef26abf88536899fb5549beb938e98',1,'irc::sepstream']]],
   ['server',['server',['../struct_who_was_1_1_entry.html#a8ff3047c4dab2200b5c66bdc5199c581',1,'WhoWas::Entry::server()'],['../struct_route_descriptor.html#afe715cb027ea44d84ce1f4210348aa4b',1,'RouteDescriptor::server()'],['../class_user.html#a725932555ae2544a813fda2baa066224',1,'User::server()']]],
@@ -21,7 +22,8 @@ var searchData=
   ['source',['source',['../class_core_exception.html#a9dfc048dbb60dbc5e14c19febf6169ff',1,'CoreException::source()'],['../class_x_line.html#ad1607cefc73ddfc87a756ee5b0652ef7',1,'XLine::source()']]],
   ['startup_5ftime',['startup_time',['../class_insp_i_r_cd.html#a9fccf742250b511a09585b2364e9d2b7',1,'InspIRCd']]],
   ['state',['state',['../class_buffered_socket.html#a804ebaa3eddafd9d69e1fc74ff7ff858',1,'BufferedSocket']]],
-  ['stats',['stats',['../class_insp_i_r_cd.html#a9f3ba91e9e75368854b50bac3dbe5916',1,'InspIRCd::stats()'],['../class_socket_engine.html#a6779cd05de476303656c84fa7d9dfae7',1,'SocketEngine::stats()']]],
+  ['stats',['stats',['../class_insp_i_r_cd.html#a9f3ba91e9e75368854b50bac3dbe5916',1,'InspIRCd']]],
+  ['status',['status',['../class_message_target.html#ade9eccf51a93f3d2ae438aa8f44d0d1a',1,'MessageTarget']]],
   ['syntax',['syntax',['../class_command_base.html#a57ced763c081488c18955ef0c387af38',1,'CommandBase']]],
   ['syntaxhints',['SyntaxHints',['../class_server_config.html#aeeac6d257e4b9d0aa64a656c271aa08e',1,'ServerConfig']]]
 ];

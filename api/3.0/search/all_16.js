@@ -18,7 +18,7 @@ var searchData=
   ['writeglobalsno',['WriteGlobalSno',['../class_snomask_manager.html#a55b565eac86282b00e486c6c1dcb779d',1,'SnomaskManager::WriteGlobalSno(char letter, const std::string &amp;text)'],['../class_snomask_manager.html#acc9e5467fcfcc7f74885a9ba9d0e0acc',1,'SnomaskManager::WriteGlobalSno(char letter, const char *text,...) CUSTOM_PRINTF(3']]],
   ['writelog',['writelog',['../struct_command_line_conf.html#a5018147e4546d439f550afa251e1b14c',1,'CommandLineConf']]],
   ['writelogline',['WriteLogLine',['../class_file_writer.html#a9ba96a8fae128060a014ce58f7ad495a',1,'FileWriter']]],
-  ['writenotice',['WriteNotice',['../class_channel.html#adb79b21c5fe9d4f8243185211384aad6',1,'Channel::WriteNotice()'],['../class_user.html#a777d133e5508002dd862e43124ef7e49',1,'User::WriteNotice()']]],
+  ['writenotice',['WriteNotice',['../class_channel.html#adb79b21c5fe9d4f8243185211384aad6',1,'Channel::WriteNotice()'],['../class_membership.html#aae535bde2fefacb7b32980cd2c4623c5',1,'Membership::WriteNotice()'],['../class_user.html#a777d133e5508002dd862e43124ef7e49',1,'User::WriteNotice()']]],
   ['writenumericsink',['WriteNumericSink',['../class_numeric_1_1_write_numeric_sink.html',1,'Numeric']]],
   ['writeops',['writeops',['../class_file_writer.html#a69ab1b2ae487191bd0e5041d0dbbd8dd',1,'FileWriter']]],
   ['writepid',['WritePID',['../class_insp_i_r_cd.html#a9090f73796f07ffd0f306ff1892f5e9a',1,'InspIRCd']]],

@@ -19,7 +19,7 @@ var searchData=
   ['maxtopic',['MaxTopic',['../class_server_limits.html#a49ad02aae1297ea0b709eb0565efcf12',1,'ServerLimits']]],
   ['min_5fparams',['min_params',['../class_command_base.html#a38cbd8f82b4d588a1605489c80f7f8e9',1,'CommandBase']]],
   ['mode',['mode',['../class_mode_handler.html#ab1ce95cd90fe6db5018f4913ef956d21',1,'ModeHandler']]],
-  ['modes',['Modes',['../class_insp_i_r_cd.html#ab61df0a7d6a2d3188e87f90eb299fad5',1,'InspIRCd::Modes()'],['../class_membership.html#aa8f82bb3485572ae3ed0ba8f577a94f0',1,'Membership::modes()']]],
+  ['modes',['modes',['../class_membership.html#aa8f82bb3485572ae3ed0ba8f577a94f0',1,'Membership::modes()'],['../class_insp_i_r_cd.html#ab61df0a7d6a2d3188e87f90eb299fad5',1,'InspIRCd::Modes()']]],
   ['module',['Module',['../class_server_config_1_1_server_paths.html#a1d7332a968da648fb1edca7b654c952c',1,'ServerConfig::ServerPaths']]],
   ['moduledllmanager',['ModuleDLLManager',['../class_module.html#a5bbdc3c59248520549e5904bb402e2cb',1,'Module']]],
   ['modules',['Modules',['../class_insp_i_r_cd.html#af98beb3dacf67e9d71a7da8048d3d5f8',1,'InspIRCd']]],

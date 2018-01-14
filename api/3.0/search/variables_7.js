@@ -4,9 +4,9 @@ var searchData=
   ['hardsendqmax',['hardsendqmax',['../struct_connect_class.html#ac1fb64870469e581d827a737d9dbc80f',1,'ConnectClass']]],
   ['hidebans',['HideBans',['../class_server_config.html#adc2af3d73c02190eaa68ca4c2adf5140',1,'ServerConfig']]],
   ['hidekillsserver',['HideKillsServer',['../class_server_config.html#a59637aab8aeaf96e6b5bae4130a7dbaf',1,'ServerConfig']]],
+  ['hideserver',['HideServer',['../class_server_config.html#a83fcac75daf7ef7420660388b2a77f99',1,'ServerConfig']]],
   ['hidesplits',['HideSplits',['../class_server_config.html#ad7f9bc2d3d2374b777cd961699711db9',1,'ServerConfig']]],
   ['hideulinekills',['HideULineKills',['../class_server_config.html#a4526deca5c03510737263e374753c996',1,'ServerConfig']]],
-  ['hidewhoisserver',['HideWhoisServer',['../class_server_config.html#afad8e480fa569341dabb1a4c061f89fe',1,'ServerConfig']]],
-  ['host',['host',['../struct_who_was_1_1_entry.html#ab8fe0fa3ce95288bc84375ca36fe474f',1,'WhoWas::Entry::host()'],['../struct_connect_class.html#a3e1e103db90381ac6202749052fa4a74',1,'ConnectClass::host()'],['../class_user.html#a7773fec016477ec1eba2f572b34eea76',1,'User::host()']]],
+  ['host',['host',['../struct_who_was_1_1_entry.html#ab8fe0fa3ce95288bc84375ca36fe474f',1,'WhoWas::Entry::host()'],['../struct_connect_class.html#a3e1e103db90381ac6202749052fa4a74',1,'ConnectClass::host()']]],
   ['hostmask',['hostmask',['../class_k_line.html#a40e43dcf156042bcfee6718e13596aba',1,'KLine::hostmask()'],['../class_g_line.html#a60d27d194879a4b9d11078b4b885ebae',1,'GLine::hostmask()'],['../class_e_line.html#a91477805bd3cbd2e793054fafbb769f8',1,'ELine::hostmask()']]]
 ];

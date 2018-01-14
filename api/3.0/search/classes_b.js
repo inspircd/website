@@ -1,24 +1,7 @@
 var searchData=
 [
-  ['manager',['Manager',['../class_who_was_1_1_manager.html',1,'WhoWas']]],
-  ['map_5fpair_5fcompare',['map_pair_compare',['../classinsp_1_1detail_1_1map__pair__compare.html',1,'insp::detail']]],
-  ['map_5fvalue_5fcompare',['map_value_compare',['../classinsp_1_1detail_1_1map__value__compare.html',1,'insp::detail']]],
-  ['membership',['Membership',['../class_membership.html',1,'']]],
-  ['modechannelban',['ModeChannelBan',['../class_mode_channel_ban.html',1,'']]],
-  ['modechannelkey',['ModeChannelKey',['../class_mode_channel_key.html',1,'']]],
-  ['modechannellimit',['ModeChannelLimit',['../class_mode_channel_limit.html',1,'']]],
-  ['modechannelop',['ModeChannelOp',['../class_mode_channel_op.html',1,'']]],
-  ['modechannelvoice',['ModeChannelVoice',['../class_mode_channel_voice.html',1,'']]],
-  ['modehandler',['ModeHandler',['../class_mode_handler.html',1,'']]],
-  ['modeparser',['ModeParser',['../class_mode_parser.html',1,'']]],
-  ['modeuseroperator',['ModeUserOperator',['../class_mode_user_operator.html',1,'']]],
-  ['modeuserservernoticemask',['ModeUserServerNoticeMask',['../class_mode_user_server_notice_mask.html',1,'']]],
-  ['modewatcher',['ModeWatcher',['../class_mode_watcher.html',1,'']]],
-  ['modresult',['ModResult',['../struct_mod_result.html',1,'']]],
-  ['module',['Module',['../class_module.html',1,'']]],
-  ['moduleeventlistener',['ModuleEventListener',['../class_events_1_1_module_event_listener.html',1,'Events']]],
-  ['moduleeventprovider',['ModuleEventProvider',['../class_events_1_1_module_event_provider.html',1,'Events']]],
-  ['moduleexception',['ModuleException',['../class_module_exception.html',1,'']]],
-  ['modulemanager',['ModuleManager',['../class_module_manager.html',1,'']]],
-  ['mutex',['Mutex',['../class_mutex.html',1,'']]]
+  ['nick',['Nick',['../struct_who_was_1_1_nick.html',1,'WhoWas']]],
+  ['nosuchchannel',['NoSuchChannel',['../class_numerics_1_1_no_such_channel.html',1,'Numerics']]],
+  ['nosuchnick',['NoSuchNick',['../class_numerics_1_1_no_such_nick.html',1,'Numerics']]],
+  ['numeric',['Numeric',['../class_numeric_1_1_numeric.html',1,'Numeric']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['c_5fipv4_5frange',['c_ipv4_range',['../class_server_config.html#a82609d9b00aa4d739c2b03ca9c2e3395',1,'ServerConfig']]],
-  ['c_5fipv6_5frange',['c_ipv6_range',['../class_server_config.html#ac99e570a73d95b804161ca1e20bf1a7e',1,'ServerConfig']]],
+  ['c_5fipv4_5frange',['c_ipv4_range',['../class_server_config.html#aec4f7440342278bb64356afc1b3ac7e0',1,'ServerConfig']]],
+  ['c_5fipv6_5frange',['c_ipv6_range',['../class_server_config.html#ad3beea65690a6df1099e8ebeef5ec22a',1,'ServerConfig']]],
   ['casemapping',['CaseMapping',['../class_server_config.html#a711ccd6dcfad6f312819b6da52074569',1,'ServerConfig']]],
   ['cconconnect',['CCOnConnect',['../class_server_config.html#a409a5dc63fda3600c23da77d446466a5',1,'ServerConfig']]],
   ['chan',['chan',['../class_membership.html#a101a2f894166e2f04129454f6ee9f41e',1,'Membership']]],
@@ -26,7 +26,6 @@ var searchData=
   ['configthread',['ConfigThread',['../class_insp_i_r_cd.html#a9cb20bc34ce76c26e4ebb7d7aa44f4d6',1,'InspIRCd']]],
   ['connects',['Connects',['../classserverstats.html#a120bf8493ff6dfd5ab817505d440d2d4',1,'serverstats']]],
   ['creator',['creator',['../class_service_provider.html#ad1dfa94bef361c61dfadefff1454bef9',1,'ServiceProvider']]],
-  ['currentsetsize',['CurrentSetSize',['../class_socket_engine.html#a048e069a8dc591c12764e93e77c9c5e1',1,'SocketEngine']]],
   ['customversion',['CustomVersion',['../class_server_config.html#af71a282e9a3bb2680d224e00e7bd048d',1,'ServerConfig']]],
   ['cyclehostsfromuser',['CycleHostsFromUser',['../class_server_config.html#ad617b3125462865dd4a2c80ea153a6d3',1,'ServerConfig']]]
 ];

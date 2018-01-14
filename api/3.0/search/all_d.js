@@ -12,6 +12,7 @@ var searchData=
   ['nofork',['nofork',['../struct_command_line_conf.html#abf36755be5c1d290e053b46adfabf762',1,'CommandLineConf']]],
   ['nonblocking',['NonBlocking',['../class_socket_engine.html#adb2504de46bb24cc2fdd1463d38a1a80',1,'SocketEngine']]],
   ['nosnoticestack',['NoSnoticeStack',['../class_server_config.html#a50c6f0ce4c291e0d2687774a1eb3252e',1,'ServerConfig']]],
+  ['nosuchchannel',['NoSuchChannel',['../class_numerics_1_1_no_such_channel.html',1,'Numerics']]],
   ['nosuchnick',['NoSuchNick',['../class_numerics_1_1_no_such_nick.html',1,'Numerics']]],
   ['notifyparent',['NotifyParent',['../class_socket_thread.html#a730afab810c684b6a171ba9d38a1c908',1,'SocketThread']]],
   ['nping',['nping',['../class_local_user.html#a1ffe0d9a22725260c11c89e2dda7a030',1,'LocalUser']]],

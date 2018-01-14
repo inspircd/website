@@ -4,7 +4,6 @@ var searchData=
   ['idfromstring',['IdFromString',['../class_membership.html#a510288ac8746629c93b957faae7e5a71',1,'Membership']]],
   ['ignoreerror',['IgnoreError',['../class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130',1,'SocketEngine']]],
   ['init',['Init',['../class_socket_engine.html#a36b261dd6310cbd6e7f584b7f9260177',1,'SocketEngine::Init()'],['../class_module.html#ab19e59816d97db07363143c859ad0c10',1,'Module::init()'],['../class_u_i_d_generator.html#a7874e12595202349252154445272916a',1,'UIDGenerator::init()']]],
-  ['initbuiltinmodes',['InitBuiltinModes',['../class_mode_parser.html#a6897ba3d255e2961ef73742aee52683f',1,'ModeParser']]],
   ['inspircd',['InspIRCd',['../class_insp_i_r_cd.html#af964ce79c5dbbfe330daeccfd2db2004',1,'InspIRCd']]],
   ['invalidatecache',['InvalidateCache',['../class_user.html#a5d27df0379f0f7fc83de02b73673b1aa',1,'User']]],
   ['invokestats',['InvokeStats',['../class_x_line_manager.html#a7fb82092d828e7d21c448db9e4e9cd39',1,'XLineManager']]],

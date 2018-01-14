@@ -23,14 +23,14 @@ var searchData=
   ['flat_5fmap_5fbase_3c_20std_3a_3apair_3c_20std_3a_3astring_2c_20reference_3c_20operinfo_20_3e_20_3e_2c_20std_3a_3aless_3c_20std_3a_3astring_20_3e_2c_20std_3a_3astring_2c_20detail_3a_3amap_5fpair_5fcompare_3c_20std_3a_3apair_3c_20std_3a_3astring_2c_20reference_3c_20operinfo_20_3e_20_3e_2c_20std_3a_3aless_3c_20std_3a_3astring_20_3e_20_3e_20_3e',['flat_map_base&lt; std::pair&lt; std::string, reference&lt; OperInfo &gt; &gt;, std::less&lt; std::string &gt;, std::string, detail::map_pair_compare&lt; std::pair&lt; std::string, reference&lt; OperInfo &gt; &gt;, std::less&lt; std::string &gt; &gt; &gt;',['../classinsp_1_1detail_1_1flat__map__base.html',1,'insp::detail']]],
   ['flat_5fmap_5fbase_3c_20std_3a_3apair_3c_20std_3a_3astring_2c_20std_3a_3astring_20_3e_2c_20irc_3a_3ainsensitive_5fswo_2c_20std_3a_3astring_2c_20detail_3a_3amap_5fpair_5fcompare_3c_20std_3a_3apair_3c_20std_3a_3astring_2c_20std_3a_3astring_20_3e_2c_20irc_3a_3ainsensitive_5fswo_20_3e_20_3e',['flat_map_base&lt; std::pair&lt; std::string, std::string &gt;, irc::insensitive_swo, std::string, detail::map_pair_compare&lt; std::pair&lt; std::string, std::string &gt;, irc::insensitive_swo &gt; &gt;',['../classinsp_1_1detail_1_1flat__map__base.html',1,'insp::detail']]],
   ['flat_5fmap_5fbase_3c_20std_3a_3apair_3c_20t_2c_20u_20_3e_2c_20comp_2c_20t_2c_20detail_3a_3amap_5fpair_5fcompare_3c_20std_3a_3apair_3c_20t_2c_20u_20_3e_2c_20comp_20_3e_20_3e',['flat_map_base&lt; std::pair&lt; T, U &gt;, Comp, T, detail::map_pair_compare&lt; std::pair&lt; T, U &gt;, Comp &gt; &gt;',['../classinsp_1_1detail_1_1flat__map__base.html',1,'insp::detail']]],
-  ['flat_5fmap_5fbase_3c_20std_3a_3astring_2c_20std_3a_3aless_3c_20std_3a_3astring_20_3e_20_3e',['flat_map_base&lt; std::string, std::less&lt; std::string &gt; &gt;',['../classinsp_1_1detail_1_1flat__map__base.html',1,'insp::detail']]],
+  ['flat_5fmap_5fbase_3c_20std_3a_3astring_2c_20irc_3a_3ainsensitive_5fswo_20_3e',['flat_map_base&lt; std::string, irc::insensitive_swo &gt;',['../classinsp_1_1detail_1_1flat__map__base.html',1,'insp::detail']]],
   ['flat_5fmap_5fbase_3c_20t_2c_20comp_20_3e',['flat_map_base&lt; T, Comp &gt;',['../classinsp_1_1detail_1_1flat__map__base.html',1,'insp::detail']]],
   ['flat_5fmultimap',['flat_multimap',['../classinsp_1_1flat__multimap.html',1,'insp']]],
   ['flat_5fmultimap_3c_20std_3a_3astring_2c_20modewatcher_20_2a_20_3e',['flat_multimap&lt; std::string, ModeWatcher * &gt;',['../classinsp_1_1flat__multimap.html',1,'insp']]],
   ['flat_5fmultiset',['flat_multiset',['../classinsp_1_1flat__multiset.html',1,'insp']]],
   ['flat_5fset',['flat_set',['../classinsp_1_1flat__set.html',1,'insp']]],
   ['flat_5fset_3c_20int_20_3e',['flat_set&lt; int &gt;',['../classinsp_1_1flat__set.html',1,'insp']]],
-  ['flat_5fset_3c_20std_3a_3astring_20_3e',['flat_set&lt; std::string &gt;',['../classinsp_1_1flat__set.html',1,'insp']]],
+  ['flat_5fset_3c_20std_3a_3astring_2c_20irc_3a_3ainsensitive_5fswo_20_3e',['flat_set&lt; std::string, irc::insensitive_swo &gt;',['../classinsp_1_1flat__set.html',1,'insp']]],
   ['foreachneighborhandler',['ForEachNeighborHandler',['../class_user_1_1_for_each_neighbor_handler.html',1,'User']]],
   ['fpos',['fpos',['../structfpos.html',1,'']]]
 ];

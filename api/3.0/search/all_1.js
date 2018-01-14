@@ -15,7 +15,6 @@ var searchData=
   ['build',['Build',['../class_i_support_manager.html#acb9d990fe8bee532ff8a357a2189409e',1,'ISupportManager']]],
   ['builder',['Builder',['../class_numeric_1_1_builder.html',1,'Numeric']]],
   ['buildprefixes',['BuildPrefixes',['../class_mode_parser.html#a20cc3037de41cde30b44fed326a33d3f',1,'ModeParser']]],
-  ['builtin_5fmodes',['builtin_modes',['../structbuiltin__modes.html',1,'']]],
   ['bytes',['bytes',['../class_stream_socket_1_1_send_queue.html#a98ac2b956ee2386efbd8b42b7d140197',1,'StreamSocket::SendQueue']]],
   ['bytes_5fin',['bytes_in',['../class_local_user.html#a1f6e9b00772ef849482239bb17e169ef',1,'LocalUser']]],
   ['bytes_5fout',['bytes_out',['../class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73',1,'LocalUser']]]

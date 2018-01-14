@@ -9,6 +9,7 @@ var searchData=
   ['errstr',['errstr',['../class_server_config.html#a463fd95954ff0d7f40ca92877114e28c',1,'ServerConfig']]],
   ['eventhandlers',['EventHandlers',['../class_module_manager.html#a099599c85a6e8abf11230cf9c9c92ce0',1,'ModuleManager']]],
   ['exempt',['exempt',['../class_local_user.html#a2d525d93a8b923efdd51bd3937804279',1,'LocalUser']]],
+  ['exemptions',['exemptions',['../class_message_details.html#aba1f48fb979421e2a8a56252a9215b5f',1,'MessageDetails']]],
   ['expiry',['Expiry',['../class_ban_cache_hit.html#ae7e7ac5d8c21b9c13291e59c477ac43d',1,'BanCacheHit::Expiry()'],['../class_x_line.html#ab702e870421e6c3f4bdeaf4f1157fd88',1,'XLine::expiry()']]],
   ['extitem',['extItem',['../class_list_mode_base.html#a363e4dfec6b10ffbc431e1e7155f3a03',1,'ListModeBase']]]
 ];

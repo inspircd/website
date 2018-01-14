@@ -1,30 +1,5 @@
 var searchData=
 [
-  ['init_5ft',['init_t',['../unioninit__t.html',1,'']]],
-  ['insensitive',['insensitive',['../structirc_1_1insensitive.html',1,'irc']]],
-  ['insensitive_5fswo',['insensitive_swo',['../structirc_1_1insensitive__swo.html',1,'irc']]],
-  ['inspircd',['InspIRCd',['../class_insp_i_r_cd.html',1,'']]],
-  ['interfacebase',['interfacebase',['../classinterfacebase.html',1,'']]],
-  ['intrusive_5flist',['intrusive_list',['../classinsp_1_1intrusive__list.html',1,'insp']]],
-  ['intrusive_5flist_3c_20localuser_20_3e',['intrusive_list&lt; LocalUser &gt;',['../classinsp_1_1intrusive__list.html',1,'insp']]],
-  ['intrusive_5flist_3c_20membership_20_3e',['intrusive_list&lt; Membership &gt;',['../classinsp_1_1intrusive__list.html',1,'insp']]],
-  ['intrusive_5flist_5fdef_5ftag',['intrusive_list_def_tag',['../structinsp_1_1intrusive__list__def__tag.html',1,'insp']]],
-  ['intrusive_5flist_5fnode',['intrusive_list_node',['../classinsp_1_1intrusive__list__node.html',1,'insp']]],
-  ['intrusive_5flist_5fnode_3c_20dynamic_5freference_5fbase_20_3e',['intrusive_list_node&lt; dynamic_reference_base &gt;',['../classinsp_1_1intrusive__list__node.html',1,'insp']]],
-  ['intrusive_5flist_5fnode_3c_20localuser_20_3e',['intrusive_list_node&lt; LocalUser &gt;',['../classinsp_1_1intrusive__list__node.html',1,'insp']]],
-  ['intrusive_5flist_5fnode_3c_20membership_20_3e',['intrusive_list_node&lt; Membership &gt;',['../classinsp_1_1intrusive__list__node.html',1,'insp']]],
-  ['intrusive_5flist_5fnode_3c_20nick_20_3e',['intrusive_list_node&lt; Nick &gt;',['../classinsp_1_1intrusive__list__node.html',1,'insp']]],
-  ['intrusive_5flist_5ftail',['intrusive_list_tail',['../classinsp_1_1intrusive__list__tail.html',1,'insp']]],
-  ['intrusive_5flist_5ftail_3c_20nick_20_3e',['intrusive_list_tail&lt; Nick &gt;',['../classinsp_1_1intrusive__list__tail.html',1,'insp']]],
-  ['iohook',['IOHook',['../class_i_o_hook.html',1,'']]],
-  ['iohookmiddle',['IOHookMiddle',['../class_i_o_hook_middle.html',1,'']]],
-  ['iohookprovider',['IOHookProvider',['../class_i_o_hook_provider.html',1,'']]],
-  ['iohookprovref',['IOHookProvRef',['../class_listen_socket_1_1_i_o_hook_prov_ref.html',1,'ListenSocket']]],
-  ['iovec',['iovec',['../structiovec.html',1,'']]],
-  ['irc_5fchar_5ftraits',['irc_char_traits',['../structirc_1_1irc__char__traits.html',1,'irc']]],
-  ['ischannelhandler',['IsChannelHandler',['../class_is_channel_handler.html',1,'']]],
-  ['isidenthandler',['IsIdentHandler',['../class_is_ident_handler.html',1,'']]],
-  ['isnickhandler',['IsNickHandler',['../class_is_nick_handler.html',1,'']]],
-  ['isupportmanager',['ISupportManager',['../class_i_support_manager.html',1,'']]],
-  ['iterator',['iterator',['../classinsp_1_1intrusive__list_1_1iterator.html',1,'insp::intrusive_list']]]
+  ['kline',['KLine',['../class_k_line.html',1,'']]],
+  ['klinefactory',['KLineFactory',['../class_k_line_factory.html',1,'']]]
 ];

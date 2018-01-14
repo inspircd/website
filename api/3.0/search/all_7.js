@@ -1,19 +1,7 @@
 var searchData=
 [
   ['h',['h',['../class_d_l_l_manager.html#a85c7eeb75fad8af319931a1ca735c502',1,'DLLManager']]],
-  ['handle',['Handle',['../class_command_whowas.html#a85c8685c90cd82022b0a9265c6eb0b2c',1,'CommandWhowas::Handle()'],['../class_command.html#af3a7c953dee3a5c527dc7e9a72b63c54',1,'Command::Handle()'],['../class_split_command.html#ae73b9205cb936824dbcb712d8acc7c02',1,'SplitCommand::Handle()']]],
-  ['handlerbase0',['HandlerBase0',['../class_handler_base0.html',1,'']]],
-  ['handlerbase0_3c_20void_20_3e',['HandlerBase0&lt; void &gt;',['../class_handler_base0.html',1,'']]],
-  ['handlerbase1',['HandlerBase1',['../class_handler_base1.html',1,'']]],
-  ['handlerbase1_3c_20bool_2c_20const_20std_3a_3astring_20_26_20_3e',['HandlerBase1&lt; bool, const std::string &amp; &gt;',['../class_handler_base1.html',1,'']]],
-  ['handlerbase2',['HandlerBase2',['../class_handler_base2.html',1,'']]],
-  ['handlerbase2_3c_20void_2c_20char_20_2a_2c_20size_5ft_20_3e',['HandlerBase2&lt; void, char *, size_t &gt;',['../class_handler_base2.html',1,'']]],
-  ['handlerbase3',['HandlerBase3',['../class_handler_base3.html',1,'']]],
-  ['handlerbase4',['HandlerBase4',['../class_handler_base4.html',1,'']]],
-  ['handlerbase5',['HandlerBase5',['../class_handler_base5.html',1,'']]],
-  ['handlerbase6',['HandlerBase6',['../class_handler_base6.html',1,'']]],
-  ['handlerbase7',['HandlerBase7',['../class_handler_base7.html',1,'']]],
-  ['handlerbase8',['HandlerBase8',['../class_handler_base8.html',1,'']]],
+  ['handle',['Handle',['../class_command_whowas.html#ab55d4b317fdf1b80ecf119e36a66a3c4',1,'CommandWhowas::Handle()'],['../class_command.html#af3a7c953dee3a5c527dc7e9a72b63c54',1,'Command::Handle()'],['../class_split_command.html#a440f5df7cf40f6933e1f2b3c6913aee3',1,'SplitCommand::Handle()']]],
   ['hardsendqmax',['hardsendqmax',['../struct_connect_class.html#ac1fb64870469e581d827a737d9dbc80f',1,'ConnectClass']]],
   ['hasfd',['HasFd',['../class_socket_engine.html#ad7b5bf774a77f7c96cb0d8d705c90adc',1,'SocketEngine']]],
   ['hasmode',['HasMode',['../class_membership.html#a11aacb971e902399148a7917ce067d7b',1,'Membership']]],
@@ -23,9 +11,9 @@ var searchData=
   ['hasuser',['HasUser',['../class_channel.html#a8adc4b8001d714d7923ffcfff02e3ef2',1,'Channel']]],
   ['hidebans',['HideBans',['../class_server_config.html#adc2af3d73c02190eaa68ca4c2adf5140',1,'ServerConfig']]],
   ['hidekillsserver',['HideKillsServer',['../class_server_config.html#a59637aab8aeaf96e6b5bae4130a7dbaf',1,'ServerConfig']]],
+  ['hideserver',['HideServer',['../class_server_config.html#a83fcac75daf7ef7420660388b2a77f99',1,'ServerConfig']]],
   ['hidesplits',['HideSplits',['../class_server_config.html#ad7f9bc2d3d2374b777cd961699711db9',1,'ServerConfig']]],
   ['hideulinekills',['HideULineKills',['../class_server_config.html#a4526deca5c03510737263e374753c996',1,'ServerConfig']]],
-  ['hidewhoisserver',['HideWhoisServer',['../class_server_config.html#afad8e480fa569341dabb1a4c061f89fe',1,'ServerConfig']]],
-  ['host',['host',['../struct_who_was_1_1_entry.html#ab8fe0fa3ce95288bc84375ca36fe474f',1,'WhoWas::Entry::host()'],['../struct_connect_class.html#a3e1e103db90381ac6202749052fa4a74',1,'ConnectClass::host()'],['../class_user.html#a7773fec016477ec1eba2f572b34eea76',1,'User::host()']]],
+  ['host',['host',['../struct_who_was_1_1_entry.html#ab8fe0fa3ce95288bc84375ca36fe474f',1,'WhoWas::Entry::host()'],['../struct_connect_class.html#a3e1e103db90381ac6202749052fa4a74',1,'ConnectClass::host()']]],
   ['hostmask',['hostmask',['../class_k_line.html#a40e43dcf156042bcfee6718e13596aba',1,'KLine::hostmask()'],['../class_g_line.html#a60d27d194879a4b9d11078b4b885ebae',1,'GLine::hostmask()'],['../class_e_line.html#a91477805bd3cbd2e793054fafbb769f8',1,'ELine::hostmask()']]]
 ];

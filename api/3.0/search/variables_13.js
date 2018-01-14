@@ -8,7 +8,7 @@ var searchData=
   ['userlist',['userlist',['../class_channel.html#a5c6d7efac4aae37418e9cc2943e195a0',1,'Channel']]],
   ['users',['Users',['../class_insp_i_r_cd.html#a1e57bb5741c0e4c1c3865d169897e3f3',1,'InspIRCd']]],
   ['userstats',['UserStats',['../class_server_config.html#a2b09d5e7e8d76003d31638349a10fd6f',1,'ServerConfig']]],
-  ['usertype',['usertype',['../class_user.html#a982fa3195231117b83dde5b90ffd4685',1,'User']]],
+  ['usertype',['usertype',['../class_user.html#a6a376f2e2c4448d8e1288638540f2707',1,'User']]],
   ['uuid',['uuid',['../class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a',1,'User']]],
   ['uuid_5flength',['UUID_LENGTH',['../class_u_i_d_generator.html#a0aeef920a61b52a3600c6b61f4087c06',1,'UIDGenerator']]],
   ['uuidlist',['uuidlist',['../class_user_manager.html#a31908bcc0e671695f474353b0eee0d61',1,'UserManager']]]

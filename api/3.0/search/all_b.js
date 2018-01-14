@@ -5,7 +5,6 @@ var searchData=
   ['lastping',['lastping',['../class_local_user.html#ade6dc4a8847c741599d157217dc27fbb',1,'LocalUser']]],
   ['lastsampled',['LastSampled',['../classserverstats.html#a38cae46cc5657412aac78478074b8c20',1,'serverstats']]],
   ['length',['length',['../structirc_1_1sockets_1_1cidr__mask.html#a1e0cf416d28ff70f9b11693b21dfcd4f',1,'irc::sockets::cidr_mask']]],
-  ['levelrequired',['levelrequired',['../class_mode_handler.html#ac5e2b96ce7ecf4040944625498a6c7a2',1,'ModeHandler']]],
   ['limit',['limit',['../struct_connect_class.html#a6d2bff84e3b818b0ced929b6db5df392',1,'ConnectClass']]],
   ['limits',['Limits',['../class_server_config.html#a1913a1b1f429d5923f6a8778aa2e99c9',1,'ServerConfig']]],
   ['line_5ffactory',['line_factory',['../class_x_line_manager.html#a860950aea14e151719e6a5eefaa06768',1,'XLineManager']]],
