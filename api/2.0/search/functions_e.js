@@ -49,6 +49,7 @@ var searchData=
   ['onpasscompare',['OnPassCompare',['../class_module.html#ab2a40bf5ebb638640047a5089e41c333',1,'Module']]],
   ['onpostcommand',['OnPostCommand',['../class_module.html#a098c9e5b967414eb73f5f1c3eb4952e6',1,'Module']]],
   ['onpostconnect',['OnPostConnect',['../class_module.html#aa3a7c87d002fe32d4d0f46a7f438fbbb',1,'Module']]],
+  ['onpostdeoper',['OnPostDeoper',['../class_module.html#ae3ce87b25ff0b4ad30f2dc8fed36a2c7',1,'Module']]],
   ['onpostjoin',['OnPostJoin',['../class_module.html#af3be3a9518b0ee13a391ae6daffa5553',1,'Module']]],
   ['onpostoper',['OnPostOper',['../class_module.html#ac0b2ffd9df24552ff78888a536faceba',1,'Module']]],
   ['onposttopicchange',['OnPostTopicChange',['../class_module.html#a9a6faca7798ee9ac8a9330c79bacbcd4',1,'Module']]],

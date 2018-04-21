@@ -50,6 +50,7 @@ var searchData=
   ['restrictbannedusers',['RestrictBannedUsers',['../class_server_config.html#acaacdafec8a6a7a54764a7d2549f9107',1,'ServerConfig']]],
   ['result',['result',['../class_d_n_s_result.html#abc7acdce45bcde2f2c455d9f74764edd',1,'DNSResult']]],
   ['resultisready',['ResultIsReady',['../class_d_n_s_request.html#aa9ebe18a009afdd829ff30d46430a371',1,'DNSRequest']]],
+  ['retrievelasterror',['RetrieveLastError',['../class_d_l_l_manager.html#a21e1b653ba42040a5aec5921c67516c9',1,'DLLManager']]],
   ['routedescriptor',['RouteDescriptor',['../struct_route_descriptor.html',1,'RouteDescriptor'],['../struct_route_descriptor.html#aca54409e3db3da09a022ca08167f594f',1,'RouteDescriptor::RouteDescriptor()']]],
   ['rules',['rules',['../class_server_config.html#aa5ae02d6d26d1c44893f611405c96059',1,'ServerConfig']]],
   ['run',['Run',['../class_config_reader_thread.html#ac2fe7e9a4924427b14686b2eecc01661',1,'ConfigReaderThread::Run()'],['../class_action_list.html#a9d515cbdfb900caa960536c7f091b1fa',1,'ActionList::Run()'],['../class_insp_i_r_cd.html#a46827be8bd4295531507d77b7f6b74d8',1,'InspIRCd::Run()'],['../class_thread.html#a4d7fdd0001e962a06ba4910dbfeec9ec',1,'Thread::Run()'],['../class_test_suite_thread.html#a31cfc38419346930d8bc1a17404c3ce7',1,'TestSuiteThread::Run()']]]

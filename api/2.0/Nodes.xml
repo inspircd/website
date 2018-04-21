@@ -11,7 +11,7 @@
        </Node>
        <Node>
         <Name>Namespaces</Name>
-        <Path></Path>
+        <Path>namespaces.html</Path>
         <Subnodes>
          <Node>
           <Name>Namespace List</Name>
@@ -1871,6 +1871,11 @@
               <Name>LastError</Name>
               <Path>class_d_l_l_manager.html</Path>
               <Anchor>a410691f0ddd035cb75c52c1bb3a1d29e</Anchor>
+             </Node>
+             <Node>
+              <Name>RetrieveLastError</Name>
+              <Path>class_d_l_l_manager.html</Path>
+              <Anchor>a21e1b653ba42040a5aec5921c67516c9</Anchor>
              </Node>
              <Node>
               <Name>err</Name>
@@ -4770,6 +4775,11 @@
               <Name>OnPostConnect</Name>
               <Path>class_module.html</Path>
               <Anchor>aa3a7c87d002fe32d4d0f46a7f438fbbb</Anchor>
+             </Node>
+             <Node>
+              <Name>OnPostDeoper</Name>
+              <Path>class_module.html</Path>
+              <Anchor>ae3ce87b25ff0b4ad30f2dc8fed36a2c7</Anchor>
              </Node>
              <Node>
               <Name>OnPostJoin</Name>
@@ -10150,7 +10160,7 @@
        </Node>
        <Node>
         <Name>Files</Name>
-        <Path></Path>
+        <Path>files.html</Path>
         <Subnodes>
          <Node>
           <Name>File List</Name>
