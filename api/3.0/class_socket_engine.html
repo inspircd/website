@@ -125,10 +125,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a7df2a0905f996662eeb840932560f01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a690c21270f7b90c76cda806e2238c92d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#a690c21270f7b90c76cda806e2238c92d">RecvFrom</a> (<a class="el" href="class_event_handler.html">EventHandler</a> *fd, void *buf, size_t len, int flags, sockaddr *from, socklen_t *fromlen)</td></tr>
 <tr class="separator:a690c21270f7b90c76cda806e2238c92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3f32b9709116746b5f8be1f1c8d44e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#a1f3f32b9709116746b5f8be1f1c8d44e">SendTo</a> (<a class="el" href="class_event_handler.html">EventHandler</a> *fd, const void *buf, size_t len, int flags, const sockaddr *to, socklen_t tolen)</td></tr>
-<tr class="separator:a1f3f32b9709116746b5f8be1f1c8d44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab9cb6580d6a89c5a7a47f786ca8cadf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#aab9cb6580d6a89c5a7a47f786ca8cadf">Connect</a> (<a class="el" href="class_event_handler.html">EventHandler</a> *fd, const sockaddr *serv_addr, socklen_t addrlen)</td></tr>
-<tr class="separator:aab9cb6580d6a89c5a7a47f786ca8cadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1859f9c3d79a1c8ad56b2dfa0f88865"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#ab1859f9c3d79a1c8ad56b2dfa0f88865">SendTo</a> (<a class="el" href="class_event_handler.html">EventHandler</a> *fd, const void *buf, size_t len, int flags, const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;address)</td></tr>
+<tr class="separator:ab1859f9c3d79a1c8ad56b2dfa0f88865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4f64213d345f69465ed6c023121c3d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#a8d4f64213d345f69465ed6c023121c3d">Connect</a> (<a class="el" href="class_event_handler.html">EventHandler</a> *fd, const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;address)</td></tr>
+<tr class="separator:a8d4f64213d345f69465ed6c023121c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf6b64314ea91b34840fca03795b5778"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#abf6b64314ea91b34840fca03795b5778">Blocking</a> (int fd)</td></tr>
 <tr class="separator:abf6b64314ea91b34840fca03795b5778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb2504de46bb24cc2fdd1463d38a1a80"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_socket_engine.html#adb2504de46bb24cc2fdd1463d38a1a80">NonBlocking</a> (int fd)</td></tr>
@@ -451,8 +451,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aab9cb6580d6a89c5a7a47f786ca8cadf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab9cb6580d6a89c5a7a47f786ca8cadf">&#9670;&nbsp;</a></span>Connect()</h2>
+<a id="a8d4f64213d345f69465ed6c023121c3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d4f64213d345f69465ed6c023121c3d">&#9670;&nbsp;</a></span>Connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,14 +469,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const sockaddr *&#160;</td>
-          <td class="paramname"><em>serv_addr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">socklen_t&#160;</td>
-          <td class="paramname"><em>addrlen</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -493,8 +487,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Abstraction for BSD sockets connect(2). This function should emulate its namesake system call exactly. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fd</td><td>This version of the call takes an <a class="el" href="class_event_handler.html">EventHandler</a> instead of a bare file descriptor. </td></tr>
-    <tr><td class="paramname">serv_addr</td><td>The server IP address and port. </td></tr>
-    <tr><td class="paramname">addrlen</td><td>The size of the sockaddr parameter. </td></tr>
+    <tr><td class="paramname">address</td><td>The server IP address and port. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1147,8 +1140,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f3f32b9709116746b5f8be1f1c8d44e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3f32b9709116746b5f8be1f1c8d44e">&#9670;&nbsp;</a></span>SendTo()</h2>
+<a id="ab1859f9c3d79a1c8ad56b2dfa0f88865"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1859f9c3d79a1c8ad56b2dfa0f88865">&#9670;&nbsp;</a></span>SendTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1183,14 +1176,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const sockaddr *&#160;</td>
-          <td class="paramname"><em>to</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">socklen_t&#160;</td>
-          <td class="paramname"><em>tolen</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1210,8 +1197,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">buf</td><td>The buffer in which the data that is sent is stored. </td></tr>
     <tr><td class="paramname">len</td><td>The size of the buffer. </td></tr>
     <tr><td class="paramname">flags</td><td>A flag value that controls the sending of the data. </td></tr>
-    <tr><td class="paramname">to</td><td>The remote IP address and port. </td></tr>
-    <tr><td class="paramname">tolen</td><td>The size of the to parameter. </td></tr>
+    <tr><td class="paramname">address</td><td>The remote IP address and port. </td></tr>
   </table>
   </dd>
 </dl>

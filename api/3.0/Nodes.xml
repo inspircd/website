@@ -41,10 +41,6 @@
             <Name>Functions</Name>
             <Path>namespacemembers_func.html</Path>
            </Node>
-           <Node>
-            <Name>Typedefs</Name>
-            <Path>namespacemembers_type.html</Path>
-           </Node>
           </Subnodes>
          </Node>
         </Subnodes>
@@ -907,12 +903,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>irc_char_traits</Name>
-              <Path>structirc_1_1irc__char__traits.html</Path>
-              <Subnodes>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>portparser</Name>
               <Path>classirc_1_1portparser.html</Path>
               <Subnodes>
@@ -1279,6 +1269,22 @@
             <Name>Numerics</Name>
             <Path></Path>
             <Subnodes>
+             <Node>
+              <Name>InvalidModeParameter</Name>
+              <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>InvalidModeParameter</Name>
+                <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
+                <Anchor>aff60888636f4668161aa3fe833a29f57</Anchor>
+               </Node>
+               <Node>
+                <Name>InvalidModeParameter</Name>
+                <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
+                <Anchor>a2e7208bbbf0dd55d9bbb8f20c369fd46</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>NoSuchChannel</Name>
               <Path>class_numerics_1_1_no_such_channel.html</Path>
@@ -2162,11 +2168,6 @@
             <Path>class_config_tag.html</Path>
             <Subnodes>
              <Node>
-              <Name>CheckRange</Name>
-              <Path>class_config_tag.html</Path>
-              <Anchor>aa5038b05aa6a9fc67f6aa319010b49c7</Anchor>
-             </Node>
-             <Node>
               <Name>getBool</Name>
               <Path>class_config_tag.html</Path>
               <Anchor>a709cbc347214f1f2f44e0d5050224614</Anchor>
@@ -2174,17 +2175,17 @@
              <Node>
               <Name>getDuration</Name>
               <Path>class_config_tag.html</Path>
-              <Anchor>a8d8278de3b8cf710025131508ca20c82</Anchor>
+              <Anchor>a09f2951f8b6ce98cf2a14b1e28c760a6</Anchor>
              </Node>
              <Node>
               <Name>getFloat</Name>
               <Path>class_config_tag.html</Path>
-              <Anchor>af64e7cb57129771860162a0d11234914</Anchor>
+              <Anchor>a3f8c3c4656829704f0b937143ea638ac</Anchor>
              </Node>
              <Node>
               <Name>getInt</Name>
               <Path>class_config_tag.html</Path>
-              <Anchor>a03601dc61e9797f46081656ce8f03e35</Anchor>
+              <Anchor>acd85775a471cac4fb1343bf5569b3abc</Anchor>
              </Node>
              <Node>
               <Name>getItems</Name>
@@ -2200,6 +2201,11 @@
               <Name>getTagLocation</Name>
               <Path>class_config_tag.html</Path>
               <Anchor>af9b23b52764e04309989443a9548c814</Anchor>
+             </Node>
+             <Node>
+              <Name>getUInt</Name>
+              <Path>class_config_tag.html</Path>
+              <Anchor>ad1af8eb76451c8fc14e0e93907cc1d6e</Anchor>
              </Node>
              <Node>
               <Name>readString</Name>
@@ -3940,6 +3946,11 @@
               <Anchor>a55685725c6b25ff4735a5ea2a69405e3</Anchor>
              </Node>
              <Node>
+              <Name>OnParameterMissing</Name>
+              <Path>class_list_mode_base.html</Path>
+              <Anchor>a21a3ed53003a2df654cad4cb4c500ec1</Anchor>
+             </Node>
+             <Node>
               <Name>RemoveMode</Name>
               <Path>class_list_mode_base.html</Path>
               <Anchor>ab999ce42ceb0cb4e9256f16661e63779</Anchor>
@@ -5200,6 +5211,11 @@
               <Anchor>aa3a7c87d002fe32d4d0f46a7f438fbbb</Anchor>
              </Node>
              <Node>
+              <Name>OnPostDeoper</Name>
+              <Path>class_module.html</Path>
+              <Anchor>ae3ce87b25ff0b4ad30f2dc8fed36a2c7</Anchor>
+             </Node>
+             <Node>
               <Name>OnPostJoin</Name>
               <Path>class_module.html</Path>
               <Anchor>af3be3a9518b0ee13a391ae6daffa5553</Anchor>
@@ -5275,11 +5291,6 @@
               <Anchor>a3d9edd94c35056b40d076acf56c6afa0</Anchor>
              </Node>
              <Node>
-              <Name>OnStats</Name>
-              <Path>class_module.html</Path>
-              <Anchor>a73acdd1b5b2fdf109d4e5d40c252037d</Anchor>
-             </Node>
-             <Node>
               <Name>OnUnloadModule</Name>
               <Path>class_module.html</Path>
               <Anchor>ab55ed63d022db5f011db3d8c03ef6953</Anchor>
@@ -5318,6 +5329,11 @@
               <Name>OnUserMessage</Name>
               <Path>class_module.html</Path>
               <Anchor>ac211481d14d51c64485052ccb1b4b28c</Anchor>
+             </Node>
+             <Node>
+              <Name>OnUserMessageBlocked</Name>
+              <Path>class_module.html</Path>
+              <Anchor>ace99c0beace10bab228c70941e3ead2b</Anchor>
              </Node>
              <Node>
               <Name>OnUserPart</Name>
@@ -5981,9 +5997,9 @@
               <Path>class_protocol_interface_1_1_server_info.html</Path>
               <Subnodes>
                <Node>
-                <Name>gecos</Name>
+                <Name>description</Name>
                 <Path>class_protocol_interface_1_1_server_info.html</Path>
-                <Anchor>a06032600171f1c1c9e8c8cfc85a141ef</Anchor>
+                <Anchor>a8339a54698f525b2f134b1e4612befb8</Anchor>
                </Node>
                <Node>
                 <Name>latencyms</Name>
@@ -6444,55 +6460,6 @@
               <Anchor>a7fd6916a4e7414ab00d4c4fe0555b347</Anchor>
              </Node>
              <Node>
-              <Name>InviteAnnounceState</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4</Anchor>
-              <Subnodes>
-               <Node>
-                <Name>INVITE_ANNOUNCE_NONE</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a179344e9fb91dae21b8331ecfe44ec69</Anchor>
-               </Node>
-               <Node>
-                <Name>INVITE_ANNOUNCE_ALL</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a3e71cde234a7aec7f4145baa4d7a29c4</Anchor>
-               </Node>
-               <Node>
-                <Name>INVITE_ANNOUNCE_OPS</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a56d45688c355073ca489d809a80e01b8</Anchor>
-               </Node>
-               <Node>
-                <Name>INVITE_ANNOUNCE_DYNAMIC</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a932eb1911ae47a3b1461fe3af7f74bc4a4eb8bde820f839c37576d4c516b24f04</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>OperSpyWhoisState</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a0031a98e04e40a485c028c1a5c29aeed</Anchor>
-              <Subnodes>
-               <Node>
-                <Name>SPYWHOIS_NONE</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a0031a98e04e40a485c028c1a5c29aeeda1e81be224015c81ae79fca77f851447d</Anchor>
-               </Node>
-               <Node>
-                <Name>SPYWHOIS_SINGLEMSG</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a0031a98e04e40a485c028c1a5c29aeeda1279a7ca0760585f37c8fb29cb9f4fa9</Anchor>
-               </Node>
-               <Node>
-                <Name>SPYWHOIS_SPLITMSG</Name>
-                <Path>class_server_config.html</Path>
-                <Anchor>a0031a98e04e40a485c028c1a5c29aeeda7c50a447b43dc2cef2c5202e638198ce</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>ServerConfig</Name>
               <Path>class_server_config.html</Path>
               <Anchor>af61bcd662c3be06dd4219770350e65e6</Anchor>
@@ -6541,11 +6508,6 @@
               <Name>Read</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a879a82d00463214b89be04be32a3e78d</Anchor>
-             </Node>
-             <Node>
-              <Name>AnnounceInvites</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a7d3aee4f7c902fcdc5953d2ffd40dac1</Anchor>
              </Node>
              <Node>
               <Name>c_ipv4_range</Name>
@@ -6706,11 +6668,6 @@
               <Name>OperMaxChans</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a3a638a10515c85ccffda1fd4f3e78df0</Anchor>
-             </Node>
-             <Node>
-              <Name>OperSpyWhois</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a8cc42cc5846bda5654ce998bb8c82203</Anchor>
              </Node>
              <Node>
               <Name>OperTypes</Name>
@@ -8903,16 +8860,6 @@
             <Path>class_modes_1_1_change_list.html</Path>
            </Node>
            <Node>
-            <Name>char_traits</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>irc::irc_char_traits</Name>
-              <Path>structirc_1_1irc__char__traits.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>irc::sockets::cidr_mask</Name>
             <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
            </Node>
@@ -9636,6 +9583,10 @@
             <Name>Numeric::Numeric</Name>
             <Path>class_numeric_1_1_numeric.html</Path>
             <Subnodes>
+             <Node>
+              <Name>Numerics::InvalidModeParameter</Name>
+              <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
+             </Node>
              <Node>
               <Name>Numerics::NoSuchChannel</Name>
               <Path>class_numerics_1_1_no_such_channel.html</Path>

@@ -7,7 +7,7 @@ var searchData=
   ['read',['Read',['../class_server_config.html#a879a82d00463214b89be04be32a3e78d',1,'ServerConfig']]],
   ['readconfig',['ReadConfig',['../class_module.html#a793782034272562b25f93b7a5b972513',1,'Module']]],
   ['readstring',['readString',['../class_config_tag.html#a9165b272999bb273cb2e571cffc8128a',1,'ConfigTag']]],
-  ['reason',['Reason',['../class_ban_cache_hit.html#ad2e2dc9db3abf9a43d1601e073d49eb4',1,'BanCacheHit::Reason()'],['../class_x_line.html#a11190c628888322ebaa64fd0ccc3c869',1,'XLine::reason()'],['../struct_deprecated_config.html#a824d57ef90fd34587c79736cd89cea3d',1,'DeprecatedConfig::reason()']]],
+  ['reason',['reason',['../class_x_line.html#a11190c628888322ebaa64fd0ccc3c869',1,'XLine::reason()'],['../struct_deprecated_config.html#a824d57ef90fd34587c79736cd89cea3d',1,'DeprecatedConfig::reason()'],['../class_ban_cache_hit.html#ad2e2dc9db3abf9a43d1601e073d49eb4',1,'BanCacheHit::Reason()']]],
   ['recoverfromfork',['RecoverFromFork',['../class_socket_engine.html#a2059b324687d9d669fd0b0c0f7c32868',1,'SocketEngine']]],
   ['recv',['Recv',['../classserverstats.html#aea55e8e4d870f920a2724eb9fcc2fe04',1,'serverstats::Recv()'],['../class_socket_engine.html#a7df2a0905f996662eeb840932560f01c',1,'SocketEngine::Recv()']]],
   ['recvfrom',['RecvFrom',['../class_socket_engine.html#a690c21270f7b90c76cda806e2238c92d',1,'SocketEngine']]],

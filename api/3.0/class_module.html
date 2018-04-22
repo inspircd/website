@@ -133,6 +133,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:afb6f7ea0790f23d6c15ff3daf40b7f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0b2ffd9df24552ff78888a536faceba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ac0b2ffd9df24552ff78888a536faceba">OnPostOper</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;opername, const std::string &amp;opertype)</td></tr>
 <tr class="separator:ac0b2ffd9df24552ff78888a536faceba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ce87b25ff0b4ad30f2dc8fed36a2c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ae3ce87b25ff0b4ad30f2dc8fed36a2c7">OnPostDeoper</a> (<a class="el" href="class_user.html">User</a> *user)</td></tr>
+<tr class="separator:ae3ce87b25ff0b4ad30f2dc8fed36a2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af351dba33f01a510e4b98ebe76efa452"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af351dba33f01a510e4b98ebe76efa452">OnInfo</a> (<a class="el" href="class_user.html">User</a> *user)</td></tr>
 <tr class="separator:af351dba33f01a510e4b98ebe76efa452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c2b1fed6b47eda0305f04426db05baf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a9c2b1fed6b47eda0305f04426db05baf">OnUserPreInvite</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_user.html">User</a> *dest, <a class="el" href="class_channel.html">Channel</a> *channel, time_t timeout)</td></tr>
@@ -149,6 +151,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:a3ad7a612b402cbbfffea50fefdd8cbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac211481d14d51c64485052ccb1b4b28c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ac211481d14d51c64485052ccb1b4b28c">OnUserMessage</a> (<a class="el" href="class_user.html">User</a> *user, const <a class="el" href="class_message_target.html">MessageTarget</a> &amp;target, const <a class="el" href="class_message_details.html">MessageDetails</a> &amp;details)</td></tr>
 <tr class="separator:ac211481d14d51c64485052ccb1b4b28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace99c0beace10bab228c70941e3ead2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ace99c0beace10bab228c70941e3ead2b">OnUserMessageBlocked</a> (<a class="el" href="class_user.html">User</a> *user, const <a class="el" href="class_message_target.html">MessageTarget</a> &amp;target, const <a class="el" href="class_message_details.html">MessageDetails</a> &amp;details)</td></tr>
+<tr class="separator:ace99c0beace10bab228c70941e3ead2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe2543477e9a5ae32d78e52898bee03"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a8fe2543477e9a5ae32d78e52898bee03">OnMode</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_user.html">User</a> *usertarget, <a class="el" href="class_channel.html">Channel</a> *chantarget, const <a class="el" href="class_modes_1_1_change_list.html">Modes::ChangeList</a> &amp;changelist, ModeParser::ModeProcessFlag processflags, const std::string &amp;output_mode)</td></tr>
 <tr class="separator:a8fe2543477e9a5ae32d78e52898bee03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2e2a4e731ead980507fd02e0b1f69b0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af2e2a4e731ead980507fd02e0b1f69b0">OnDecodeMetaData</a> (<a class="el" href="class_extensible.html">Extensible</a> *target, const std::string &amp;extname, const std::string &amp;extdata)</td></tr>
@@ -205,8 +209,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:a029982a980048c30c5b4dec12886af76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a329aa3d2f888266d347122df7cdab3bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a329aa3d2f888266d347122df7cdab3bc">OnExtBanCheck</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_channel.html">Channel</a> *chan, char type)</td></tr>
 <tr class="separator:a329aa3d2f888266d347122df7cdab3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73acdd1b5b2fdf109d4e5d40c252037d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a73acdd1b5b2fdf109d4e5d40c252037d">OnStats</a> (Stats::Context &amp;stats)</td></tr>
-<tr class="separator:a73acdd1b5b2fdf109d4e5d40c252037d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e8a040d752c423103420a814dfc868"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a83e8a040d752c423103420a814dfc868">OnChangeLocalUserHost</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;newhost)</td></tr>
 <tr class="separator:a83e8a040d752c423103420a814dfc868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcde3dba5bc6c5359b0bbc9964a91a1b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#abcde3dba5bc6c5359b0bbc9964a91a1b">OnChangeLocalUserGECOS</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;newhost)</td></tr>
@@ -1883,6 +1885,38 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3ce87b25ff0b4ad30f2dc8fed36a2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ce87b25ff0b4ad30f2dc8fed36a2c7">&#9670;&nbsp;</a></span>OnPostDeoper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Module::OnPostDeoper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>user</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called after a user deopers locally. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user who has deopered. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af3be3a9518b0ee13a391ae6daffa5553"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3be3a9518b0ee13a391ae6daffa5553">&#9670;&nbsp;</a></span>OnPostJoin()</h2>
 
@@ -2592,39 +2626,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a73acdd1b5b2fdf109d4e5d40c252037d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73acdd1b5b2fdf109d4e5d40c252037d">&#9670;&nbsp;</a></span>OnStats()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnStats </td>
-          <td>(</td>
-          <td class="paramtype">Stats::Context &amp;&#160;</td>
-          <td class="paramname"><em>stats</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Called on all /STATS commands This method is triggered for all /STATS use, including stats symbols handled by the core. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">stats</td><td>Context of the /STATS request, contains requesting user, list of answer rows etc. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>1 to block the /STATS from being processed by the core, 0 to allow it </dd></dl>
-
-</div>
-</div>
 <a id="ab55ed63d022db5f011db3d8c03ef6953"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab55ed63d022db5f011db3d8c03ef6953">&#9670;&nbsp;</a></span>OnUnloadModule()</h2>
 
@@ -2973,6 +2974,56 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Called immediately before a user sends a message to a channel, a user, or a server glob mask. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user sending the message. </td></tr>
+    <tr><td class="paramname">target</td><td>The target of the message. This can either be a channel, a user, or a server glob mask. </td></tr>
+    <tr><td class="paramname">details</td><td>Details about the message such as the message text and type. See the <a class="el" href="class_message_details.html">MessageDetails</a> class for more information. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ace99c0beace10bab228c70941e3ead2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace99c0beace10bab228c70941e3ead2b">&#9670;&nbsp;</a></span>OnUserMessageBlocked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Module::OnUserMessageBlocked </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_message_target.html">MessageTarget</a> &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_message_details.html">MessageDetails</a> &amp;&#160;</td>
+          <td class="paramname"><em>details</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when a message sent by a user to a channel, a user, or a server glob mask is blocked. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td>The user sending the message. </td></tr>
     <tr><td class="paramname">target</td><td>The target of the message. This can either be a channel, a user, or a server glob mask. </td></tr>

@@ -13,7 +13,6 @@ var searchData=
   ['entries',['entries',['../struct_who_was_1_1_nick.html#a3920bdf870a47126a18de068a8cbb496',1,'WhoWas::Nick']]],
   ['entry',['Entry',['../struct_who_was_1_1_entry.html',1,'WhoWas::Entry'],['../struct_who_was_1_1_entry.html#add76b90854b589228b18b524bb772c8f',1,'WhoWas::Entry::Entry()']]],
   ['entrycount',['entrycount',['../struct_who_was_1_1_manager_1_1_stats.html#a771d6b9e6224cbd86505b1178fb1a57d',1,'WhoWas::Manager::Stats']]],
-  ['eq',['eq',['../structirc_1_1irc__char__traits.html#a16dccde68be13928bfe98941b93d6315',1,'irc::irc_char_traits']]],
   ['equals',['equals',['../namespaceirc.html#a386207459cc7e0c2c85522239008a5e2',1,'irc']]],
   ['erase_5ffront',['erase_front',['../class_stream_socket_1_1_send_queue.html#a0e60485dd0a31bcaedcf63fe51e76b43',1,'StreamSocket::SendQueue']]],
   ['err',['err',['../class_core_exception.html#ac7b07fea91a7b4a81236d73862cb7e08',1,'CoreException::err()'],['../class_d_l_l_manager.html#a42a6222601677e9d13d278a32e93a18a',1,'DLLManager::err()']]],

@@ -1711,6 +1711,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnPostDeoper</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>ae3ce87b25ff0b4ad30f2dc8fed36a2c7</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OnInfo</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1795,6 +1806,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>ac211481d14d51c64485052ccb1b4b28c</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnUserMessageBlocked</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>ace99c0beace10bab228c70941e3ead2b</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -2103,17 +2125,6 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>a329aa3d2f888266d347122df7cdab3bc</Anchor>
-    <DeclaredIn>modules.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnStats</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Module</Scope>
-    </TokenIdentifier>
-    <Path>class_module.html</Path>
-    <Anchor>a73acdd1b5b2fdf109d4e5d40c252037d</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -2815,7 +2826,18 @@
       <Scope>ConfigTag</Scope>
     </TokenIdentifier>
     <Path>class_config_tag.html</Path>
-    <Anchor>a03601dc61e9797f46081656ce8f03e35</Anchor>
+    <Anchor>acd85775a471cac4fb1343bf5569b3abc</Anchor>
+    <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getUInt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ConfigTag</Scope>
+    </TokenIdentifier>
+    <Path>class_config_tag.html</Path>
+    <Anchor>ad1af8eb76451c8fc14e0e93907cc1d6e</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -2826,7 +2848,7 @@
       <Scope>ConfigTag</Scope>
     </TokenIdentifier>
     <Path>class_config_tag.html</Path>
-    <Anchor>af64e7cb57129771860162a0d11234914</Anchor>
+    <Anchor>a3f8c3c4656829704f0b937143ea638ac</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -2848,7 +2870,7 @@
       <Scope>ConfigTag</Scope>
     </TokenIdentifier>
     <Path>class_config_tag.html</Path>
-    <Anchor>a8d8278de3b8cf710025131508ca20c82</Anchor>
+    <Anchor>a09f2951f8b6ce98cf2a14b1e28c760a6</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -2860,17 +2882,6 @@
     </TokenIdentifier>
     <Path>class_config_tag.html</Path>
     <Anchor>a9165b272999bb273cb2e571cffc8128a</Anchor>
-    <DeclaredIn>configreader.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CheckRange</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ConfigTag</Scope>
-    </TokenIdentifier>
-    <Path>class_config_tag.html</Path>
-    <Anchor>aa5038b05aa6a9fc67f6aa319010b49c7</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -7207,6 +7218,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnParameterMissing</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ListModeBase</Scope>
+    </TokenIdentifier>
+    <Path>class_list_mode_base.html</Path>
+    <Anchor>a21a3ed53003a2df654cad4cb4c500ec1</Anchor>
+    <DeclaredIn>listmode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>TellListTooLong</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -7423,17 +7445,6 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>adc5578a8e2bbdac4ebf84ce5a4b31b6d</Anchor>
-    <DeclaredIn>mode.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnParameterMissing</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ModeHandler</Scope>
-    </TokenIdentifier>
-    <Path>class_mode_handler.html</Path>
-    <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -10540,6 +10551,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnPostDeoper</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>ae3ce87b25ff0b4ad30f2dc8fed36a2c7</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OnInfo</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -10624,6 +10646,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>ac211481d14d51c64485052ccb1b4b28c</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnUserMessageBlocked</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>ace99c0beace10bab228c70941e3ead2b</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -10932,17 +10965,6 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>a329aa3d2f888266d347122df7cdab3bc</Anchor>
-    <DeclaredIn>modules.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnStats</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Module</Scope>
-    </TokenIdentifier>
-    <Path>class_module.html</Path>
-    <Anchor>a73acdd1b5b2fdf109d4e5d40c252037d</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -14814,26 +14836,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>AnnounceInvites</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServerConfig</Scope>
-    </TokenIdentifier>
-    <Path>class_server_config.html</Path>
-    <Anchor>a7d3aee4f7c902fcdc5953d2ffd40dac1</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OperSpyWhois</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServerConfig</Scope>
-    </TokenIdentifier>
-    <Path>class_server_config.html</Path>
-    <Anchor>a8cc42cc5846bda5654ce998bb8c82203</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>RawLog</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -16774,7 +16776,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>a1f3f32b9709116746b5f8be1f1c8d44e</Anchor>
+    <Anchor>ab1859f9c3d79a1c8ad56b2dfa0f88865</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -16785,7 +16787,7 @@
       <Scope>SocketEngine</Scope>
     </TokenIdentifier>
     <Path>class_socket_engine.html</Path>
-    <Anchor>aab9cb6580d6a89c5a7a47f786ca8cadf</Anchor>
+    <Anchor>a8d4f64213d345f69465ed6c023121c3d</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -21140,17 +21142,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>string</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>irc</Scope>
-    </TokenIdentifier>
-    <Path>namespaceirc.html</Path>
-    <Anchor>ac483e0dbe45f845c6e0b2242139b4f61</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>equals</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -21158,6 +21149,17 @@
     </TokenIdentifier>
     <Path>namespaceirc.html</Path>
     <Anchor>a386207459cc7e0c2c85522239008a5e2</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc</Scope>
+    </TokenIdentifier>
+    <Path>namespaceirc.html</Path>
+    <Anchor>a99af54b080b1d0bc0e0ca7e962c38933</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -21293,71 +21295,6 @@
       <Scope>irc::insensitive_swo</Scope>
     </TokenIdentifier>
     <Path>structirc_1_1insensitive__swo.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::irc_char_traits</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::irc_char_traits</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1irc__char__traits.html</Path>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>eq</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::irc_char_traits</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1irc__char__traits.html</Path>
-    <Anchor>a16dccde68be13928bfe98941b93d6315</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ne</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::irc_char_traits</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1irc__char__traits.html</Path>
-    <Anchor>af94ef476b3f97a117b6304607b0190c5</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>lt</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::irc_char_traits</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1irc__char__traits.html</Path>
-    <Anchor>a4d3cf52ea93da63dd932e8b1dea5e0b7</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>compare</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::irc_char_traits</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1irc__char__traits.html</Path>
-    <Anchor>a201b84471e4abf279e22764ed0e11e5d</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>find</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::irc_char_traits</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1irc__char__traits.html</Path>
-    <Anchor>a4d8765e6511b1c5466abc40a43d687d4</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22115,13 +22052,99 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Numerics::InvalidModeParameter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Numerics::InvalidModeParameter</Scope>
+    </TokenIdentifier>
+    <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Numeric</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>ac4550b522e559744210ac5581b52d2aa</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a0913851c98f95e1486847bc023f2d04b</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetServer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a2bd7f0c1236dfb7b4433dc1a4c64ca50</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetServer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a091a94948852c943f85d5b92852e531d</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetNumeric</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>aed7fa51e7a7e7341d645019415530b3d</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>ab36241464e7de2d9f2b6db40044ba42f</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a04158aaa35781e5b8e1ebf8ae82ff758</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Numerics::NoSuchChannel</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>Numerics::NoSuchChannel</Scope>
     </TokenIdentifier>
     <Path>class_numerics_1_1_no_such_channel.html</Path>
-    <DeclaredIn>numeric.h</DeclaredIn>
+    <DeclaredIn>numericbuilder.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22208,7 +22231,7 @@
       <Scope>Numerics::NoSuchNick</Scope>
     </TokenIdentifier>
     <Path>class_numerics_1_1_no_such_nick.html</Path>
-    <DeclaredIn>numeric.h</DeclaredIn>
+    <DeclaredIn>numericbuilder.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

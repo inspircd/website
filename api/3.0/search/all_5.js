@@ -17,7 +17,7 @@ var searchData=
   ['filesystem',['FileSystem',['../class_file_system.html',1,'']]],
   ['filewrapper',['FileWrapper',['../struct_file_wrapper.html',1,'']]],
   ['filewriter',['FileWriter',['../class_file_writer.html',1,'FileWriter'],['../class_file_writer.html#ac6bd354666abac979528441b1c98f978',1,'FileWriter::FileWriter()']]],
-  ['find',['Find',['../class_module_manager.html#a20858049ded2188ae90e45308da85f86',1,'ModuleManager::Find()'],['../structirc_1_1irc__char__traits.html#a4d8765e6511b1c5466abc40a43d687d4',1,'irc::irc_char_traits::find()']]],
+  ['find',['Find',['../class_module_manager.html#a20858049ded2188ae90e45308da85f86',1,'ModuleManager::Find()'],['../namespaceirc.html#a99af54b080b1d0bc0e0ca7e962c38933',1,'irc::find()']]],
   ['findchan',['FindChan',['../class_insp_i_r_cd.html#a52cc0d56af4a8ba70f9f321e944348b5',1,'InspIRCd']]],
   ['findmode',['FindMode',['../class_mode_parser.html#ad46a48ed67169090d4d8d3052b81e1e5',1,'ModeParser::FindMode(const std::string &amp;modename, ModeType mt)'],['../class_mode_parser.html#ad4cf869139b1ba49594faba631441232',1,'ModeParser::FindMode(unsigned const char modeletter, ModeType mt)']]],
   ['findnick',['FindNick',['../class_who_was_1_1_manager.html#ad28c9cd7dd588a0b854371dce43dbf52',1,'WhoWas::Manager::FindNick()'],['../class_insp_i_r_cd.html#a3542d005301c60c4300729b365bebbf6',1,'InspIRCd::FindNick()']]],

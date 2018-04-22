@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a55685725c6b25ff4735a5ea2a69405e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f89bb19de210e63f741c785b209e1bf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#a4f89bb19de210e63f741c785b209e1bf">ValidateParam</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_channel.html">Channel</a> *channel, std::string &amp;parameter)</td></tr>
 <tr class="separator:a4f89bb19de210e63f741c785b209e1bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a3ed53003a2df654cad4cb4c500ec1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#a21a3ed53003a2df654cad4cb4c500ec1">OnParameterMissing</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_user.html">User</a> *dest, <a class="el" href="class_channel.html">Channel</a> *channel) CXX11_OVERRIDE</td></tr>
+<tr class="separator:a21a3ed53003a2df654cad4cb4c500ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcc43412bbd5b963c6c2b177ff7fe567"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#abcc43412bbd5b963c6c2b177ff7fe567">TellListTooLong</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_channel.html">Channel</a> *channel, std::string &amp;parameter)</td></tr>
 <tr class="separator:abcc43412bbd5b963c6c2b177ff7fe567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d84450394bbebad3d9e6b74b8395438"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#a8d84450394bbebad3d9e6b74b8395438">TellAlreadyOnList</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_channel.html">Channel</a> *channel, std::string &amp;parameter)</td></tr>
@@ -169,8 +171,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a764d23e605cdaf0a83b5227fb3dd5ecc inherit pub_methods_class_mode_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5578a8e2bbdac4ebf84ce5a4b31b6d inherit pub_methods_class_mode_handler"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_handler.html#adc5578a8e2bbdac4ebf84ce5a4b31b6d">AccessCheck</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_channel.html">Channel</a> *channel, std::string &amp;parameter, bool adding)</td></tr>
 <tr class="separator:adc5578a8e2bbdac4ebf84ce5a4b31b6d inherit pub_methods_class_mode_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade04b6251bf8dc85900437c2a0578696 inherit pub_methods_class_mode_handler"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_handler.html#ade04b6251bf8dc85900437c2a0578696">OnParameterMissing</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_user.html">User</a> *dest, <a class="el" href="class_channel.html">Channel</a> *channel)</td></tr>
-<tr class="separator:ade04b6251bf8dc85900437c2a0578696 inherit pub_methods_class_mode_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e7c1e5c2c0dcdb3f0184c8b66d1ff3 inherit pub_methods_class_mode_handler"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_handler.html#a79e7c1e5c2c0dcdb3f0184c8b66d1ff3">ResolveModeConflict</a> (std::string &amp;their_param, const std::string &amp;our_param, <a class="el" href="class_channel.html">Channel</a> *channel)</td></tr>
 <tr class="separator:a79e7c1e5c2c0dcdb3f0184c8b66d1ff3 inherit pub_methods_class_mode_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a503ca6f0510826107d906214912f1d37 inherit pub_methods_class_mode_handler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_handler.html#a503ca6f0510826107d906214912f1d37">RemoveMode</a> (<a class="el" href="class_user.html">User</a> *user)</td></tr>
@@ -563,6 +563,58 @@ Additional Inherited Members</h2></td></tr>
 <p>Handle the list mode. See <a class="el" href="mode_8h_source.html">mode.h</a> </p>
 
 <p>Reimplemented from <a class="el" href="class_mode_handler.html#afb738f748dffba80042b3812c44aa902">ModeHandler</a>.</p>
+
+</div>
+</div>
+<a id="a21a3ed53003a2df654cad4cb4c500ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a3ed53003a2df654cad4cb4c500ec1">&#9670;&nbsp;</a></span>OnParameterMissing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ListModeBase::OnParameterMissing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_channel.html">Channel</a> *&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>In the event that the mode should be given a parameter, and no parameter was provided, this method is called. This allows you to give special information to the user, or handle this any way you like. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user issuing the mode change </td></tr>
+    <tr><td class="paramname">dest</td><td>For user mode changes, the target of the mode. For channel mode changes, NULL. </td></tr>
+    <tr><td class="paramname">channel</td><td>For channel mode changes, the target of the mode. For user mode changes, NULL. See <a class="el" href="mode_8h_source.html">mode.h</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="class_mode_handler.html#ade04b6251bf8dc85900437c2a0578696">ModeHandler</a>.</p>
 
 </div>
 </div>

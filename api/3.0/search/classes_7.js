@@ -16,12 +16,12 @@ var searchData=
   ['intrusive_5flist_5fnode_3c_20nick_20_3e',['intrusive_list_node&lt; Nick &gt;',['../classinsp_1_1intrusive__list__node.html',1,'insp']]],
   ['intrusive_5flist_5ftail',['intrusive_list_tail',['../classinsp_1_1intrusive__list__tail.html',1,'insp']]],
   ['intrusive_5flist_5ftail_3c_20nick_20_3e',['intrusive_list_tail&lt; Nick &gt;',['../classinsp_1_1intrusive__list__tail.html',1,'insp']]],
+  ['invalidmodeparameter',['InvalidModeParameter',['../class_numerics_1_1_invalid_mode_parameter.html',1,'Numerics']]],
   ['iohook',['IOHook',['../class_i_o_hook.html',1,'']]],
   ['iohookmiddle',['IOHookMiddle',['../class_i_o_hook_middle.html',1,'']]],
   ['iohookprovider',['IOHookProvider',['../class_i_o_hook_provider.html',1,'']]],
   ['iohookprovref',['IOHookProvRef',['../class_listen_socket_1_1_i_o_hook_prov_ref.html',1,'ListenSocket']]],
   ['iovec',['iovec',['../structiovec.html',1,'']]],
-  ['irc_5fchar_5ftraits',['irc_char_traits',['../structirc_1_1irc__char__traits.html',1,'irc']]],
   ['isupportmanager',['ISupportManager',['../class_i_support_manager.html',1,'']]],
   ['iterator',['iterator',['../classinsp_1_1intrusive__list_1_1iterator.html',1,'insp::intrusive_list']]]
 ];

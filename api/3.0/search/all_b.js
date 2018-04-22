@@ -30,6 +30,5 @@ var searchData=
   ['logs',['Logs',['../class_insp_i_r_cd.html#a9661a25c40fe00be3ddf27185a90fc17',1,'InspIRCd']]],
   ['logstream',['LogStream',['../class_log_stream.html',1,'']]],
   ['lookup_5flines',['lookup_lines',['../class_x_line_manager.html#a16ee635abde118c74e0fe299887464a3',1,'XLineManager']]],
-  ['loopcall',['LoopCall',['../class_command_parser.html#aa92371a14ce41287b41fbc40430f49dc',1,'CommandParser']]],
-  ['lt',['lt',['../structirc_1_1irc__char__traits.html#a4d3cf52ea93da63dd932e8b1dea5e0b7',1,'irc::irc_char_traits']]]
+  ['loopcall',['LoopCall',['../class_command_parser.html#aa92371a14ce41287b41fbc40430f49dc',1,'CommandParser']]]
 ];

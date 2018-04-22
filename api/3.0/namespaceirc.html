@@ -65,7 +65,6 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">irc Namespace Reference</div>  </div>
@@ -85,8 +84,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structirc_1_1insensitive__swo.html">insensitive_swo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structirc_1_1irc__char__traits.html">irc_char_traits</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1portparser.html">portparser</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1sepstream.html">sepstream</a></td></tr>
@@ -98,37 +95,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1tokenstream.html">tokenstream</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ac483e0dbe45f845c6e0b2242139b4f61"><td class="memItemLeft" align="right" valign="top">typedef std::basic_string&lt; char, <a class="el" href="structirc_1_1irc__char__traits.html">irc_char_traits</a>, std::allocator&lt; char &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc.html#ac483e0dbe45f845c6e0b2242139b4f61">string</a></td></tr>
-<tr class="separator:ac483e0dbe45f845c6e0b2242139b4f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a386207459cc7e0c2c85522239008a5e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc.html#a386207459cc7e0c2c85522239008a5e2">equals</a> (const std::string &amp;s1, const std::string &amp;s2)</td></tr>
 <tr class="separator:a386207459cc7e0c2c85522239008a5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99af54b080b1d0bc0e0ca7e962c38933"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc.html#a99af54b080b1d0bc0e0ca7e962c38933">find</a> (const std::string &amp;haystack, const std::string &amp;needle)</td></tr>
+<tr class="separator:a99af54b080b1d0bc0e0ca7e962c38933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55224a0b09bb8166e05c315b1d000cd2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc.html#a55224a0b09bb8166e05c315b1d000cd2">stringjoiner</a> (const std::vector&lt; std::string &gt; &amp;sequence, char separator=' ')</td></tr>
 <tr class="separator:a55224a0b09bb8166e05c315b1d000cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The irc namespace contains a number of helper classes. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="ac483e0dbe45f845c6e0b2242139b4f61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac483e0dbe45f845c6e0b2242139b4f61">&#9670;&nbsp;</a></span>string</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::basic_string&lt;char, <a class="el" href="structirc_1_1irc__char__traits.html">irc_char_traits</a>, std::allocator&lt;char&gt; &gt; <a class="el" href="namespaceirc.html#ac483e0dbe45f845c6e0b2242139b4f61">irc::string</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This typedef declares <a class="el" href="namespaceirc.html#ac483e0dbe45f845c6e0b2242139b4f61">irc::string</a> based upon <a class="el" href="structirc_1_1irc__char__traits.html">irc_char_traits</a>. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a386207459cc7e0c2c85522239008a5e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a386207459cc7e0c2c85522239008a5e2">&#9670;&nbsp;</a></span>equals()</h2>
 
@@ -162,6 +140,42 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the two names are equal, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a99af54b080b1d0bc0e0ca7e962c38933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99af54b080b1d0bc0e0ca7e962c38933">&#9670;&nbsp;</a></span>find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t irc::find </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>haystack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>needle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Check whether <code>needle</code> exists within <code>haystack</code>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">haystack</td><td>The string to search within. </td></tr>
+    <tr><td class="paramname">needle</td><td>The string to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Either the index at which <code>needle</code> was found or std::string::npos. </dd></dl>
 
 </div>
 </div>

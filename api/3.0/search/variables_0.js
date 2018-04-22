@@ -8,7 +8,6 @@ var searchData=
   ['allow_5fempty_5flast_5fparam',['allow_empty_last_param',['../class_command_base.html#aaa608bb2c13a1f0d95291303396d9f27',1,'CommandBase']]],
   ['allowedchanmodes',['AllowedChanModes',['../class_oper_info.html#a5f33da8ab196301ddacdb822576936b6',1,'OperInfo']]],
   ['allowedusermodes',['AllowedUserModes',['../class_oper_info.html#aee44902413228d9911af1886f1980c9b',1,'OperInfo']]],
-  ['announceinvites',['AnnounceInvites',['../class_server_config.html#a7d3aee4f7c902fcdc5953d2ffd40dac1',1,'ServerConfig']]],
   ['argc',['argc',['../struct_command_line_conf.html#a4f1f954ac797b2c47ead08872587e657',1,'CommandLineConf']]],
   ['argv',['argv',['../struct_command_line_conf.html#ae35f5e2c34b3e29634a0f91def5f9288',1,'CommandLineConf']]],
   ['atomicactions',['AtomicActions',['../class_insp_i_r_cd.html#a1cf46b2561532aace01de3f9b53f1c0a',1,'InspIRCd']]],
