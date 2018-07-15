@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>InspIRCd: Important Notice</title>
+<title>InspIRCd: About</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,19 +63,34 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Important Notice </div>  </div>
+<div class="title">About </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The <code>master</code> branch contains the latest development version. If you are running a server then you probably want the <code>insp20</code> branch. You can obtain this from the <a href="https://github.com/inspircd/inspircd/releases">releases</a> page or by running <code>git checkout insp20</code> if you are installing via Git.</p>
-<h3>About</h3>
-<p><a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> is a modular Internet Relay Chat (IRC) server written in C++ for Linux, BSD, Windows and Mac OS X systems which was created from scratch to be stable, modern and lightweight.</p>
-<p>As <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> is one of the few IRC servers written from scratch, it avoids a number of design flaws and performance issues that plague other more established projects, such as UnrealIRCd, while providing the same level of feature parity.</p>
-<p><a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> is one of only a few IRC servers to provide a tunable number of features through the use of an advanced but well documented module system. By keeping core functionality to a minimum we hope to increase the stability, security and speed of <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> while also making it customisable to the needs of many different users.</p>
-<h3>Links</h3>
+<div class="textblock"><p><a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> is a modular C++ Internet Relay Chat (IRC) server for UNIX-like and Windows systems.</p>
+<h2>Supported Platforms</h2>
+<p><a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> is supported on on the following platforms:</p>
 <ul>
-<li><a href="http://inspircd.org">Website</a></li>
+<li>Most recent BSD variants using the Clang or GCC compilers and the GNU toolchains (Make, etc).</li>
+<li>Most recent Linux distributions using the Clang or GCC compilers and the GNU toolchain.</li>
+<li>The most recent three major releases of macOS using the AppleClang, Clang, or GCC (<em>not</em> LLVM-GCC) compilers and the GNU toolchains.</li>
+<li>Windows 7 or newer using the MSVC 14 (Visual Studio 2015) compiler and CMake 2.8 or newer.</li>
+</ul>
+<p>Alternate platforms and toolchains may also work but are not officially supported by the <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> team. Generally speaking if you are using a reasonably modern UNIX-like system you should be able to build <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> on it.</p>
+<p>If you encounter any bugs then <a href="https://github.com/inspircd/inspircd/issues/new">please file an issue</a>.</p>
+<h2>Installation</h2>
+<p><b>The <code>master</code> branch contains the latest development version. If you are running a server then you probably want the <code>insp20</code> branch. You can obtain this from <a href="https://github.com/inspircd/inspircd/releases">the releases page</a> or by running <code>git checkout insp20</code> if you are installing via Git.</b></p>
+<p>Most <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> users running a UNIX-like system build from source. A guide about how to do this is available on <a href="https://wiki.inspircd.org/Installation_From_Source">the InspIRCd wiki</a>.</p>
+<p>Building from source on Windows is generally not recommended but <a href="https://github.com/inspircd/inspircd/blob/master/win/README.txt">a guide is available</a> if you wish to do this.</p>
+<p>Some distributions ship an <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> package in their package managers. We generally do not recommend the use of such packages as in the past distributions have made broken modifications to <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> and not kept their packages up to date with essential security updates.</p>
+<h2>License</h2>
+<p><a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> is licensed under <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html">version 2 of the GNU General Public License</a>.</p>
+<h2>External Links</h2>
+<ul>
+<li><a href="https://www.inspircd.org">Website</a></li>
+<li><a href="https://wiki.inspircd.org">Documentation</a></li>
 <li><a href="https://github.com/inspircd">GitHub</a></li>
-<li>IRC: #inspircd on irc.inspircd.org </li>
+<li><a href="https://kiwiirc.com/nextclient/irc.inspircd.org:+6697/#inspircd">Support IRC channel</a> &mdash; #inspircd on irc.inspircd.org</li>
+<li><a href="https://kiwiirc.com/nextclient/irc.inspircd.org:+6697/#inspircd.dev">Development IRC channel</a> &mdash; #inspircd.dev on irc.inspircd.org </li>
 </ul>
 </div></div><!-- contents -->
 <!-- start footer part -->

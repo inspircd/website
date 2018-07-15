@@ -10,5 +10,5 @@ var searchData=
   ['registered',['registered',['../class_user.html#a62fabba0257a3d6363d6f0159bba856c',1,'User']]],
   ['registration_5ftimeout',['registration_timeout',['../struct_connect_class.html#a8f8ff64a7cc507d0796f1582a4ac82ae',1,'ConnectClass']]],
   ['resolvehostnames',['resolvehostnames',['../struct_connect_class.html#a23a5e38fbfd6ee6a84abf9d258e86af5',1,'ConnectClass']]],
-  ['restrictbannedusers',['RestrictBannedUsers',['../class_server_config.html#acaacdafec8a6a7a54764a7d2549f9107',1,'ServerConfig']]]
+  ['restrictbannedusers',['RestrictBannedUsers',['../class_server_config.html#ac7a77e7ef3139f446b9b221c75f108d3',1,'ServerConfig']]]
 ];

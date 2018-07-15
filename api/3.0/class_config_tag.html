@@ -85,6 +85,8 @@ Inheritance diagram for ConfigTag:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a2da89f0be9356bb0d4e44271c5d7377b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config_tag.html#a2da89f0be9356bb0d4e44271c5d7377b">getString</a> (const std::string &amp;key, const std::string &amp;def, const std::tr1 ::function&lt; bool(const std::string &amp;)&gt; &amp;validator)</td></tr>
+<tr class="separator:a2da89f0be9356bb0d4e44271c5d7377b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1524a328f97b53741539e3356d9cd8a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config_tag.html#a1524a328f97b53741539e3356d9cd8a1">getString</a> (const std::string &amp;key, const std::string &amp;def=&quot;&quot;, size_t minlen=0, size_t maxlen=UINT32_MAX)</td></tr>
 <tr class="separator:a1524a328f97b53741539e3356d9cd8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd85775a471cac4fb1343bf5569b3abc"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config_tag.html#acd85775a471cac4fb1343bf5569b3abc">getInt</a> (const std::string &amp;key, long def, long min=LONG_MIN, long max=LONG_MAX)</td></tr>
@@ -356,8 +358,43 @@ const int&#160;</td><td class="memItemRight" valign="bottom"><b>src_line</b></td
 
 </div>
 </div>
+<a id="a2da89f0be9356bb0d4e44271c5d7377b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da89f0be9356bb0d4e44271c5d7377b">&#9670;&nbsp;</a></span>getString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ConfigTag::getString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>def</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::tr1 ::function&lt; bool(const std::string &amp;)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>validator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the value of an option, using def if it does not exist </p>
+
+</div>
+</div>
 <a id="a1524a328f97b53741539e3356d9cd8a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1524a328f97b53741539e3356d9cd8a1">&#9670;&nbsp;</a></span>getString()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1524a328f97b53741539e3356d9cd8a1">&#9670;&nbsp;</a></span>getString() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

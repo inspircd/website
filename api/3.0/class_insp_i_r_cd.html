@@ -127,6 +127,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a6f634b6ca5a9f243779f45125c3815a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3cdd1ae276f0be6ba752e7fa79b74e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a4f3cdd1ae276f0be6ba752e7fa79b74e">DefaultIsChannel</a> (const std::string &amp;channel)</td></tr>
 <tr class="separator:a4f3cdd1ae276f0be6ba752e7fa79b74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc390c3f302d3e9ac9bb4a96fddc575"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a6bc390c3f302d3e9ac9bb4a96fddc575">IsHost</a> (const std::string &amp;host)</td></tr>
+<tr class="separator:a6bc390c3f302d3e9ac9bb4a96fddc575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac484ddba03faafa80e5c4e6298fabe2a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#ac484ddba03faafa80e5c4e6298fabe2a">IsSID</a> (const std::string &amp;sid)</td></tr>
 <tr class="separator:ac484ddba03faafa80e5c4e6298fabe2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65a7bbf37cee7b6d65364775baf6c92c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a65a7bbf37cee7b6d65364775baf6c92c">SetSignal</a> (int signal)</td></tr>
@@ -750,6 +752,39 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns the full version string of this ircd </p><dl class="section return"><dt>Returns</dt><dd>The version string </dd></dl>
+
+</div>
+</div>
+<a id="a6bc390c3f302d3e9ac9bb4a96fddc575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc390c3f302d3e9ac9bb4a96fddc575">&#9670;&nbsp;</a></span>IsHost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InspIRCd::IsHost </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>host</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether a hostname is valid according to RFC 5891 rules. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>The hostname to validate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the hostname is valid; otherwise, false. </dd></dl>
 
 </div>
 </div>

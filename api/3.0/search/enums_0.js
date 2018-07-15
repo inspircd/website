@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['extensibletype',['ExtensibleType',['../class_extension_item.html#a033cb646471c0d59024f927bcc34a34b',1,'ExtensionItem']]]
+  ['bannedusertreatment',['BannedUserTreatment',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2f',1,'ServerConfig']]]
 ];

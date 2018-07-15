@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['mode_5fcheckaccess',['MODE_CHECKACCESS',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588baf12f4d962dd78d2d2c40351f2b91915e',1,'ModeParser']]],
-  ['mode_5flocalonly',['MODE_LOCALONLY',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588baa51e1b726a9f96f67d732b7d6a603cd0',1,'ModeParser']]],
-  ['mode_5fmerge',['MODE_MERGE',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588ba93f10e920df7067c7f31f575d7c97cab',1,'ModeParser']]],
-  ['mode_5fnone',['MODE_NONE',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588ba01b20347b43218a9b0504e0ace006914',1,'ModeParser']]]
+  ['but_5fnormal',['BUT_NORMAL',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2facdbd34a52edfafe3abb7aed98547c460',1,'ServerConfig']]],
+  ['but_5frestrict_5fnotify',['BUT_RESTRICT_NOTIFY',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2fa935b8b4b3dda7e7e0355211bee03d6df',1,'ServerConfig']]],
+  ['but_5frestrict_5fsilent',['BUT_RESTRICT_SILENT',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2fa3ab8ec1bd3cd81fa18466e7921c9f41a',1,'ServerConfig']]]
 ];

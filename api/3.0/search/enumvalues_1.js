@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['type_5fchannel',['TYPE_CHANNEL',['../class_message_target.html#a91b283d5dbebff3ebc955ee07759b5ffaefc080244a5939c3fe626adbd40b4b61',1,'MessageTarget']]],
-  ['type_5fserver',['TYPE_SERVER',['../class_message_target.html#a91b283d5dbebff3ebc955ee07759b5ffade593d55a5eaaa21d85c17d546166592',1,'MessageTarget']]],
-  ['type_5fuser',['TYPE_USER',['../class_message_target.html#a91b283d5dbebff3ebc955ee07759b5ffac07cb3e81bac0c0d77e502cf61bf91b6',1,'MessageTarget']]]
+  ['mode_5fcheckaccess',['MODE_CHECKACCESS',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588baf12f4d962dd78d2d2c40351f2b91915e',1,'ModeParser']]],
+  ['mode_5flocalonly',['MODE_LOCALONLY',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588baa51e1b726a9f96f67d732b7d6a603cd0',1,'ModeParser']]],
+  ['mode_5fmerge',['MODE_MERGE',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588ba93f10e920df7067c7f31f575d7c97cab',1,'ModeParser']]],
+  ['mode_5fnone',['MODE_NONE',['../class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588ba01b20347b43218a9b0504e0ace006914',1,'ModeParser']]]
 ];

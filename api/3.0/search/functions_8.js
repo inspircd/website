@@ -14,6 +14,7 @@ var searchData=
   ['isbanned',['IsBanned',['../class_channel.html#adab6f55706763e7da6a677ad4cdc517f',1,'Channel']]],
   ['isdisabled',['IsDisabled',['../class_command_base.html#ae46175b36c732f033d2c6d4bcc3c6219',1,'CommandBase']]],
   ['isenabled',['IsEnabled',['../class_who_was_1_1_manager.html#aed59d3c9d17102a8c5e0d1e21c6beb8a',1,'WhoWas::Manager']]],
+  ['ishost',['IsHost',['../class_insp_i_r_cd.html#a6bc390c3f302d3e9ac9bb4a96fddc575',1,'InspIRCd']]],
   ['islistmode',['IsListMode',['../class_mode_handler.html#abd5d3c62a55a0e8106a265d461d288a4',1,'ModeHandler']]],
   ['islistmodebase',['IsListModeBase',['../class_mode_handler.html#a06a663b711b6c9ffefe1dca128b4979c',1,'ModeHandler::IsListModeBase()'],['../class_mode_handler.html#a1b8c75f2a4581859e02d8a5988c7c132',1,'ModeHandler::IsListModeBase() const']]],
   ['ismiddle',['IsMiddle',['../class_i_o_hook_provider.html#a8853b86db6b2d11c87825d78e33c7b5d',1,'IOHookProvider']]],

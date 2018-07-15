@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['important_20notice',['Important Notice',['../index.html',1,'']]]
+  ['about',['About',['../index.html',1,'']]]
 ];

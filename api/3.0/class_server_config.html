@@ -83,6 +83,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a1d73a37a2d57eb3ca03cdf18ba1c3a2f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2f">BannedUserTreatment</a> { <a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2facdbd34a52edfafe3abb7aed98547c460">BUT_NORMAL</a>, 
+<a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2fa3ab8ec1bd3cd81fa18466e7921c9f41a">BUT_RESTRICT_SILENT</a>, 
+<a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2fa935b8b4b3dda7e7e0355211bee03d6df">BUT_RESTRICT_NOTIFY</a>
+ }</td></tr>
+<tr class="separator:a1d73a37a2d57eb3ca03cdf18ba1c3a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bbf5b981df17cdf6ce88d19c4f4b330"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classreference.html">reference</a>&lt; <a class="el" href="struct_connect_class.html">ConnectClass</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#a6bbf5b981df17cdf6ce88d19c4f4b330">ClassVector</a></td></tr>
 <tr class="separator:a6bbf5b981df17cdf6ce88d19c4f4b330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fd6916a4e7414ab00d4c4fe0555b347"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classinsp_1_1flat__map.html">insp::flat_map</a>&lt; std::string, <a class="el" href="classreference.html">reference</a>&lt; <a class="el" href="class_oper_info.html">OperInfo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#a7fd6916a4e7414ab00d4c4fe0555b347">OperIndex</a></td></tr>
@@ -158,8 +163,8 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
 <tr class="separator:ada72f9d6ad21d28507129f75a004452a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe85f921e2b564c229cd72d68c927ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#a8fe85f921e2b564c229cd72d68c927ad">GenericOper</a></td></tr>
 <tr class="separator:a8fe85f921e2b564c229cd72d68c927ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaacdafec8a6a7a54764a7d2549f9107"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#acaacdafec8a6a7a54764a7d2549f9107">RestrictBannedUsers</a></td></tr>
-<tr class="separator:acaacdafec8a6a7a54764a7d2549f9107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a77e7ef3139f446b9b221c75f108d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2f">BannedUserTreatment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#ac7a77e7ef3139f446b9b221c75f108d3">RestrictBannedUsers</a></td></tr>
+<tr class="separator:ac7a77e7ef3139f446b9b221c75f108d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af206d98582d7721d2668a47fc29b0605"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#af206d98582d7721d2668a47fc29b0605">NetBufferSize</a></td></tr>
 <tr class="separator:af206d98582d7721d2668a47fc29b0605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26206a34824dc689820565915c1ea714"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server_config.html#a26206a34824dc689820565915c1ea714">MaxConn</a></td></tr>
@@ -243,6 +248,30 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
       </table>
 </div><div class="memdoc">
 <p>Index of valid oper blocks and types </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a1d73a37a2d57eb3ca03cdf18ba1c3a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d73a37a2d57eb3ca03cdf18ba1c3a2f">&#9670;&nbsp;</a></span>BannedUserTreatment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2f">ServerConfig::BannedUserTreatment</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>How to treat a user in a channel who is banned. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1d73a37a2d57eb3ca03cdf18ba1c3a2facdbd34a52edfafe3abb7aed98547c460"></a>BUT_NORMAL&#160;</td><td class="fielddoc"><p>Don't treat a banned user any different to normal. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1d73a37a2d57eb3ca03cdf18ba1c3a2fa3ab8ec1bd3cd81fa18466e7921c9f41a"></a>BUT_RESTRICT_SILENT&#160;</td><td class="fielddoc"><p>Restrict the actions of a banned user. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a1d73a37a2d57eb3ca03cdf18ba1c3a2fa935b8b4b3dda7e7e0355211bee03d6df"></a>BUT_RESTRICT_NOTIFY&#160;</td><td class="fielddoc"><p>Restrict the actions of a banned user and notify them of their treatment. </p>
+</td></tr>
+</table>
 
 </div>
 </div>
@@ -950,18 +979,18 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Network</b></t
 
 </div>
 </div>
-<a id="acaacdafec8a6a7a54764a7d2549f9107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaacdafec8a6a7a54764a7d2549f9107">&#9670;&nbsp;</a></span>RestrictBannedUsers</h2>
+<a id="ac7a77e7ef3139f446b9b221c75f108d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a77e7ef3139f446b9b221c75f108d3">&#9670;&nbsp;</a></span>RestrictBannedUsers</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ServerConfig::RestrictBannedUsers</td>
+          <td class="memname"><a class="el" href="class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2f">BannedUserTreatment</a> ServerConfig::RestrictBannedUsers</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is true, banned users (+b, not extbans) will not be able to change nick if banned on any channel, nor to message them. </p>
+<p>How to treat a user in a channel who is banned. </p>
 
 </div>
 </div>

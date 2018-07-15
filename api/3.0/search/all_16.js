@@ -21,7 +21,7 @@ var searchData=
   ['writenotice',['WriteNotice',['../class_channel.html#adb79b21c5fe9d4f8243185211384aad6',1,'Channel::WriteNotice()'],['../class_membership.html#aae535bde2fefacb7b32980cd2c4623c5',1,'Membership::WriteNotice()'],['../class_user.html#a777d133e5508002dd862e43124ef7e49',1,'User::WriteNotice()']]],
   ['writenumericsink',['WriteNumericSink',['../class_numeric_1_1_write_numeric_sink.html',1,'Numeric']]],
   ['writeops',['writeops',['../class_file_writer.html#a69ab1b2ae487191bd0e5041d0dbbd8dd',1,'FileWriter']]],
-  ['writepid',['WritePID',['../class_insp_i_r_cd.html#a9090f73796f07ffd0f306ff1892f5e9a',1,'InspIRCd']]],
+  ['writepid',['writepid',['../struct_command_line_conf.html#af59ef7df539d0f1c44844c845a9e4b4d',1,'CommandLineConf::writepid()'],['../class_insp_i_r_cd.html#a9090f73796f07ffd0f306ff1892f5e9a',1,'InspIRCd::WritePID()']]],
   ['writeremotenotice',['WriteRemoteNotice',['../class_user.html#ae9bcd97945e1e79b30bacf780da75d56',1,'User::WriteRemoteNotice()'],['../class_local_user.html#ae1318e19c668cf24dc8bae4f50f11512',1,'LocalUser::WriteRemoteNotice()']]],
   ['writeremotenumericsink',['WriteRemoteNumericSink',['../class_numeric_1_1_write_remote_numeric_sink.html',1,'Numeric']]],
   ['writeserv',['WriteServ',['../class_user.html#a601defc9871b1c57a9c61a26b22a97f8',1,'User::WriteServ(const std::string &amp;text)'],['../class_user.html#a30a38a6346a80dc6c0e70689462c80ad',1,'User::WriteServ(const char *text,...) CUSTOM_PRINTF(2']]],

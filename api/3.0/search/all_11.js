@@ -37,7 +37,7 @@ var searchData=
   ['resetiohookprovider',['ResetIOHookProvider',['../class_listen_socket.html#a387991784c3eb898d797f060f35f61fc',1,'ListenSocket']]],
   ['resolvehostnames',['resolvehostnames',['../struct_connect_class.html#a23a5e38fbfd6ee6a84abf9d258e86af5',1,'ConnectClass']]],
   ['resolvemodeconflict',['ResolveModeConflict',['../class_mode_handler.html#a79e7c1e5c2c0dcdb3f0184c8b66d1ff3',1,'ModeHandler']]],
-  ['restrictbannedusers',['RestrictBannedUsers',['../class_server_config.html#acaacdafec8a6a7a54764a7d2549f9107',1,'ServerConfig']]],
+  ['restrictbannedusers',['RestrictBannedUsers',['../class_server_config.html#ac7a77e7ef3139f446b9b221c75f108d3',1,'ServerConfig']]],
   ['retrievelasterror',['RetrieveLastError',['../class_d_l_l_manager.html#a21e1b653ba42040a5aec5921c67516c9',1,'DLLManager']]],
   ['routedescriptor',['RouteDescriptor',['../struct_route_descriptor.html',1,'RouteDescriptor'],['../struct_route_descriptor.html#aca54409e3db3da09a022ca08167f594f',1,'RouteDescriptor::RouteDescriptor()']]],
   ['run',['Run',['../class_config_reader_thread.html#ac2fe7e9a4924427b14686b2eecc01661',1,'ConfigReaderThread::Run()'],['../class_action_list.html#a9d515cbdfb900caa960536c7f091b1fa',1,'ActionList::Run()'],['../class_insp_i_r_cd.html#abc64f3334b927cc3add0a639c8cac6ba',1,'InspIRCd::Run()'],['../class_thread.html#a4d7fdd0001e962a06ba4910dbfeec9ec',1,'Thread::Run()']]]

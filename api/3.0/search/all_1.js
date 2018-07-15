@@ -3,6 +3,7 @@ var searchData=
   ['bancache',['BanCache',['../class_insp_i_r_cd.html#a833c8c9a4afb4bcf2fe120d169935649',1,'InspIRCd']]],
   ['bancachehit',['BanCacheHit',['../class_ban_cache_hit.html',1,'']]],
   ['bancachemanager',['BanCacheManager',['../class_ban_cache_manager.html',1,'']]],
+  ['bannedusertreatment',['BannedUserTreatment',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2f',1,'ServerConfig']]],
   ['beforemode',['BeforeMode',['../class_mode_watcher.html#a0cdce3351e55d67f45c0fa0639b7b9ae',1,'ModeWatcher']]],
   ['begin',['begin',['../class_stream_socket_1_1_send_queue.html#a916ff7a6d919ed186b14e63d71e8cec7',1,'StreamSocket::SendQueue']]],
   ['bind',['Bind',['../class_socket_engine.html#a029a04fdd3fe9dc2a865c57061fb1219',1,'SocketEngine']]],
@@ -15,6 +16,9 @@ var searchData=
   ['build',['Build',['../class_i_support_manager.html#acb9d990fe8bee532ff8a357a2189409e',1,'ISupportManager']]],
   ['builder',['Builder',['../class_numeric_1_1_builder.html',1,'Numeric']]],
   ['buildprefixes',['BuildPrefixes',['../class_mode_parser.html#a20cc3037de41cde30b44fed326a33d3f',1,'ModeParser']]],
+  ['but_5fnormal',['BUT_NORMAL',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2facdbd34a52edfafe3abb7aed98547c460',1,'ServerConfig']]],
+  ['but_5frestrict_5fnotify',['BUT_RESTRICT_NOTIFY',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2fa935b8b4b3dda7e7e0355211bee03d6df',1,'ServerConfig']]],
+  ['but_5frestrict_5fsilent',['BUT_RESTRICT_SILENT',['../class_server_config.html#a1d73a37a2d57eb3ca03cdf18ba1c3a2fa3ab8ec1bd3cd81fa18466e7921c9f41a',1,'ServerConfig']]],
   ['bytes',['bytes',['../class_stream_socket_1_1_send_queue.html#a98ac2b956ee2386efbd8b42b7d140197',1,'StreamSocket::SendQueue']]],
   ['bytes_5fin',['bytes_in',['../class_local_user.html#a1f6e9b00772ef849482239bb17e169ef',1,'LocalUser']]],
   ['bytes_5fout',['bytes_out',['../class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73',1,'LocalUser']]]

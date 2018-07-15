@@ -22,7 +22,7 @@ var searchData=
   ['changenick',['ChangeNick',['../class_user.html#aafd1fd08aa703b4fdc09a353ec751281',1,'User']]],
   ['changerealhost',['ChangeRealHost',['../class_user.html#a8514e939c88b8705ab3a7aa45518effb',1,'User']]],
   ['chanlimits',['chanlimits',['../class_list_mode_base.html#a3ed8f901402adaea45b4d666e113ec7f',1,'ListModeBase']]],
-  ['chanlist',['ChanList',['../class_user.html#aa0d3f15ddb505c093a354bd945031fa9',1,'User::ChanList()'],['../class_insp_i_r_cd.html#af101a4f49cb8be79b2bcfacd963ed910',1,'InspIRCd::chanlist()']]],
+  ['chanlist',['chanlist',['../class_insp_i_r_cd.html#af101a4f49cb8be79b2bcfacd963ed910',1,'InspIRCd::chanlist()'],['../class_user.html#aa0d3f15ddb505c093a354bd945031fa9',1,'User::ChanList()']]],
   ['chanmax',['ChanMax',['../class_server_limits.html#a0cac2c5c079fd4ec6b5682e74fde6e17',1,'ServerLimits']]],
   ['chanmodereference',['ChanModeReference',['../class_chan_mode_reference.html',1,'']]],
   ['chanmodes',['ChanModes',['../class_channel.html#a5cd117c49304d9e4aabc8b4d258199ee',1,'Channel']]],

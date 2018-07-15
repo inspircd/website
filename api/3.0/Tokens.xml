@@ -1440,6 +1440,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>writepid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>CommandLineConf</Scope>
+    </TokenIdentifier>
+    <Path>struct_command_line_conf.html</Path>
+    <Anchor>af59ef7df539d0f1c44844c845a9e4b4d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>argc</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2805,6 +2815,17 @@
       <Scope>ConfigTag</Scope>
     </TokenIdentifier>
     <Path>class_config_tag.html</Path>
+    <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ConfigTag</Scope>
+    </TokenIdentifier>
+    <Path>class_config_tag.html</Path>
+    <Anchor>a2da89f0be9356bb0d4e44271c5d7377b</Anchor>
     <DeclaredIn>configreader.h</DeclaredIn>
   </Token>
   <Token>
@@ -5779,6 +5800,17 @@
     </TokenIdentifier>
     <Path>class_insp_i_r_cd.html</Path>
     <Anchor>a4f3cdd1ae276f0be6ba752e7fa79b74e</Anchor>
+    <DeclaredIn>inspircd.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>IsHost</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>InspIRCd</Scope>
+    </TokenIdentifier>
+    <Path>class_insp_i_r_cd.html</Path>
+    <Anchor>a6bc390c3f302d3e9ac9bb4a96fddc575</Anchor>
     <DeclaredIn>inspircd.h</DeclaredIn>
   </Token>
   <Token>
@@ -14762,7 +14794,7 @@
       <Scope>ServerConfig</Scope>
     </TokenIdentifier>
     <Path>class_server_config.html</Path>
-    <Anchor>acaacdafec8a6a7a54764a7d2549f9107</Anchor>
+    <Anchor>ac7a77e7ef3139f446b9b221c75f108d3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15023,6 +15055,36 @@
     </TokenIdentifier>
     <Path>class_server_config.html</Path>
     <Anchor>a50c6f0ce4c291e0d2687774a1eb3252e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BUT_NORMAL</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2facdbd34a52edfafe3abb7aed98547c460</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BUT_RESTRICT_SILENT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2fa3ab8ec1bd3cd81fa18466e7921c9f41a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BUT_RESTRICT_NOTIFY</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2fa935b8b4b3dda7e7e0355211bee03d6df</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

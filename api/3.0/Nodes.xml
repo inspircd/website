@@ -6,7 +6,7 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
-        <Name>Important Notice</Name>
+        <Name>About</Name>
         <Path>index.html</Path>
        </Node>
        <Node>
@@ -2026,6 +2026,11 @@
               <Path>struct_command_line_conf.html</Path>
               <Anchor>a5018147e4546d439f550afa251e1b14c</Anchor>
              </Node>
+             <Node>
+              <Name>writepid</Name>
+              <Path>struct_command_line_conf.html</Path>
+              <Anchor>af59ef7df539d0f1c44844c845a9e4b4d</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -2191,6 +2196,11 @@
               <Name>getItems</Name>
               <Path>class_config_tag.html</Path>
               <Anchor>a2b5014ec79366b12fbe8b5256d7ecf97</Anchor>
+             </Node>
+             <Node>
+              <Name>getString</Name>
+              <Path>class_config_tag.html</Path>
+              <Anchor>a2da89f0be9356bb0d4e44271c5d7377b</Anchor>
              </Node>
              <Node>
               <Name>getString</Name>
@@ -6460,6 +6470,28 @@
               <Anchor>a7fd6916a4e7414ab00d4c4fe0555b347</Anchor>
              </Node>
              <Node>
+              <Name>BannedUserTreatment</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2f</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>BUT_NORMAL</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2facdbd34a52edfafe3abb7aed98547c460</Anchor>
+               </Node>
+               <Node>
+                <Name>BUT_RESTRICT_SILENT</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2fa3ab8ec1bd3cd81fa18466e7921c9f41a</Anchor>
+               </Node>
+               <Node>
+                <Name>BUT_RESTRICT_NOTIFY</Name>
+                <Path>class_server_config.html</Path>
+                <Anchor>a1d73a37a2d57eb3ca03cdf18ba1c3a2fa935b8b4b3dda7e7e0355211bee03d6df</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>ServerConfig</Name>
               <Path>class_server_config.html</Path>
               <Anchor>af61bcd662c3be06dd4219770350e65e6</Anchor>
@@ -6692,7 +6724,7 @@
              <Node>
               <Name>RestrictBannedUsers</Name>
               <Path>class_server_config.html</Path>
-              <Anchor>acaacdafec8a6a7a54764a7d2549f9107</Anchor>
+              <Anchor>ac7a77e7ef3139f446b9b221c75f108d3</Anchor>
              </Node>
              <Node>
               <Name>ServerDesc</Name>
