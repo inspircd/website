@@ -90,8 +90,8 @@ Inheritance diagram for XLine:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a11196eae2c3c10e18a40d0614e653a02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a11196eae2c3c10e18a40d0614e653a02">XLine</a> (time_t s_time, long d, std::string src, std::string re, const std::string &amp;t)</td></tr>
-<tr class="separator:a11196eae2c3c10e18a40d0614e653a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea9b63bf6e089c96e7351169f045145"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#abea9b63bf6e089c96e7351169f045145">XLine</a> (time_t s_time, unsigned long d, const std::string &amp;src, const std::string &amp;re, const std::string &amp;t)</td></tr>
+<tr class="separator:abea9b63bf6e089c96e7351169f045145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17fc57037a23f2f11ff33fbcb0b7b0dd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a17fc57037a23f2f11ff33fbcb0b7b0dd">~XLine</a> ()</td></tr>
 <tr class="separator:a17fc57037a23f2f11ff33fbcb0b7b0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61a398b95584dc62f7b6f8a20f45a087"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a61a398b95584dc62f7b6f8a20f45a087">SetCreateTime</a> (time_t created)</td></tr>
@@ -121,8 +121,8 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsBurstable</
 Public Attributes</h2></td></tr>
 <tr class="memitem:a61b784c9240313c9ec7117c6c3e1adf6"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a61b784c9240313c9ec7117c6c3e1adf6">set_time</a></td></tr>
 <tr class="separator:a61b784c9240313c9ec7117c6c3e1adf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e1b903b875792b357f3a535cf19e347"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a4e1b903b875792b357f3a535cf19e347">duration</a></td></tr>
-<tr class="separator:a4e1b903b875792b357f3a535cf19e347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a796ad27e502e6c0bfbec5a69e4563ba7"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a796ad27e502e6c0bfbec5a69e4563ba7">duration</a></td></tr>
+<tr class="separator:a796ad27e502e6c0bfbec5a69e4563ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1607cefc73ddfc87a756ee5b0652ef7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#ad1607cefc73ddfc87a756ee5b0652ef7">source</a></td></tr>
 <tr class="separator:ad1607cefc73ddfc87a756ee5b0652ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11190c628888322ebaa64fd0ccc3c869"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a11190c628888322ebaa64fd0ccc3c869">reason</a></td></tr>
@@ -131,6 +131,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab702e870421e6c3f4bdeaf4f1157fd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e07f2871413be0c84634906c7c0d801"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line.html#a9e07f2871413be0c84634906c7c0d801">type</a></td></tr>
 <tr class="separator:a9e07f2871413be0c84634906c7c0d801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3bfa137f354932a8b3d4ffc55bcc08"><td class="memItemLeft" align="right" valign="top"><a id="a4e3bfa137f354932a8b3d4ffc55bcc08"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>from_config</b></td></tr>
+<tr class="separator:a4e3bfa137f354932a8b3d4ffc55bcc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -138,10 +141,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a9e9d72bd8517a61f3020c8d3e03069cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_x_line.html">XLine</a> is the base class for ban lines such as G lines and K lines. Modules may derive from this, and their xlines will automatically be handled as expected by any protocol modules (e.g. m_spanningtree will propogate them using AddLine). The process of translating a type+pattern to a known line type is done by means of an <a class="el" href="class_x_line_factory.html">XLineFactory</a> object (see below). </p>
+<div class="textblock"><p><a class="el" href="class_x_line.html">XLine</a> is the base class for ban lines such as G-lines and K-lines. Modules may derive from this, and their xlines will automatically be handled as expected by any protocol modules (e.g. m_spanningtree will propogate them using AddLine). The process of translating a type+pattern to a known line type is done by means of an <a class="el" href="class_x_line_factory.html">XLineFactory</a> object (see below). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a11196eae2c3c10e18a40d0614e653a02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11196eae2c3c10e18a40d0614e653a02">&#9670;&nbsp;</a></span>XLine()</h2>
+<a id="abea9b63bf6e089c96e7351169f045145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abea9b63bf6e089c96e7351169f045145">&#9670;&nbsp;</a></span>XLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,19 +161,19 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">long&#160;</td>
+          <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>re</em>, </td>
         </tr>
         <tr>
@@ -337,7 +340,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the displayable form of the pattern for this xline, e.g. '*@foo' or '<em>baz</em>'. This must always return the full pattern in a form which can be used to construct an entire derived xline, even if it is stored differently internally (e.g. <a class="el" href="class_g_line.html">GLine</a> stores the ident and host parts seperately but will still return ident@host for its <a class="el" href="class_x_line.html#ae31f665163eedadc790ac5aa759fae76">Displayable()</a> method). </p>
+<p>Returns the displayable form of the pattern for this xline, e.g. '*@foo' or '<em>baz</em>'. This must always return the full pattern in a form which can be used to construct an entire derived xline, even if it is stored differently internally (e.g. <a class="el" href="class_g_line.html">GLine</a> stores the ident and host parts separately but will still return ident@host for its <a class="el" href="class_x_line.html#ae31f665163eedadc790ac5aa759fae76">Displayable()</a> method). </p>
 
 <p>Implemented in <a class="el" href="class_q_line.html#ade7065da628353a3ba7d22b33f982560">QLine</a>, <a class="el" href="class_z_line.html#a08c8bfcc8834dec1c503f158c4aa7f1a">ZLine</a>, <a class="el" href="class_e_line.html#a5706d915498d68e06d942067800a3cbb">ELine</a>, <a class="el" href="class_g_line.html#ab693091cfa63f1567847d31bebfb71e5">GLine</a>, and <a class="el" href="class_k_line.html#ad98587225205b405fe32220345c3be35">KLine</a>.</p>
 
@@ -365,7 +368,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called when the expiry message is to be displayed for the line. Usually a line in the form 'expiring Xline blah, set by...' see the DisplayExpiry methods of <a class="el" href="class_g_line.html">GLine</a>, <a class="el" href="class_e_line.html">ELine</a> etc. </p>
+<p>Called when the expiry message is to be displayed for the line. Usually a line in the form 'expiring X-line blah, set by...' see the DisplayExpiry methods of <a class="el" href="class_g_line.html">GLine</a>, <a class="el" href="class_e_line.html">ELine</a> etc. </p>
 
 </div>
 </div>
@@ -490,7 +493,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Change creation time of an xline. Updates expiry to be after the creation time </p>
+<p>Change creation time of an xline. Updates expiry to be after the creation time. </p>
 
 </div>
 </div>
@@ -523,14 +526,14 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4e1b903b875792b357f3a535cf19e347"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e1b903b875792b357f3a535cf19e347">&#9670;&nbsp;</a></span>duration</h2>
+<a id="a796ad27e502e6c0bfbec5a69e4563ba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a796ad27e502e6c0bfbec5a69e4563ba7">&#9670;&nbsp;</a></span>duration</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long XLine::duration</td>
+          <td class="memname">unsigned long XLine::duration</td>
         </tr>
       </table>
 </div><div class="memdoc">

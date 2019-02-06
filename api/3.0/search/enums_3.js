@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['targettype',['TargetType',['../class_message_target.html#a91b283d5dbebff3ebc955ee07759b5ff',1,'MessageTarget']]]
+  ['nocopy',['NoCopy',['../class_client_protocol_1_1_messages_1_1_privmsg.html#a0d49e530b63df044365c71eb8ecaa249',1,'ClientProtocol::Messages::Privmsg']]]
 ];

@@ -63,6 +63,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_module-members.html">List of all members</a>  </div>
@@ -78,12 +79,16 @@ Inheritance diagram for Module:</div>
  <div class="center">
   <img src="class_module.png" usemap="#Module_map" alt=""/>
   <map id="Module_map" name="Module_map">
-<area href="classclassbase.html" alt="classbase" shape="rect" coords="0,0,158,24"/>
-<area href="classusecountbase.html" alt="usecountbase" shape="rect" coords="168,0,326,24"/>
-<area href="class_command_module.html" alt="CommandModule&lt; Cmd &gt;" shape="rect" coords="84,112,242,136"/>
+<area href="classclassbase.html" alt="classbase" shape="rect" coords="0,0,90,24"/>
+<area href="classusecountbase.html" alt="usecountbase" shape="rect" coords="100,0,190,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a83b2c5b16047bc1a89ab9035396fbdd6"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="class_module.html">Module</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a83b2c5b16047bc1a89ab9035396fbdd6">List</a></td></tr>
+<tr class="separator:a83b2c5b16047bc1a89ab9035396fbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a240a8a9ab1813b17bcb810b24ceaea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a5a240a8a9ab1813b17bcb810b24ceaea">Module</a> ()</td></tr>
@@ -135,8 +140,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:ac0b2ffd9df24552ff78888a536faceba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3ce87b25ff0b4ad30f2dc8fed36a2c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ae3ce87b25ff0b4ad30f2dc8fed36a2c7">OnPostDeoper</a> (<a class="el" href="class_user.html">User</a> *user)</td></tr>
 <tr class="separator:ae3ce87b25ff0b4ad30f2dc8fed36a2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af351dba33f01a510e4b98ebe76efa452"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af351dba33f01a510e4b98ebe76efa452">OnInfo</a> (<a class="el" href="class_user.html">User</a> *user)</td></tr>
-<tr class="separator:af351dba33f01a510e4b98ebe76efa452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c2b1fed6b47eda0305f04426db05baf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a9c2b1fed6b47eda0305f04426db05baf">OnUserPreInvite</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_user.html">User</a> *dest, <a class="el" href="class_channel.html">Channel</a> *channel, time_t timeout)</td></tr>
 <tr class="separator:a9c2b1fed6b47eda0305f04426db05baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b0a70a70ae92b80bc3fc7367e35605"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a79b0a70a70ae92b80bc3fc7367e35605">OnUserInvite</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_user.html">User</a> *dest, <a class="el" href="class_channel.html">Channel</a> *channel, time_t timeout, unsigned int notifyrank, CUList &amp;notifyexcepts)</td></tr>
@@ -153,14 +156,14 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:ac211481d14d51c64485052ccb1b4b28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace99c0beace10bab228c70941e3ead2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ace99c0beace10bab228c70941e3ead2b">OnUserMessageBlocked</a> (<a class="el" href="class_user.html">User</a> *user, const <a class="el" href="class_message_target.html">MessageTarget</a> &amp;target, const <a class="el" href="class_message_details.html">MessageDetails</a> &amp;details)</td></tr>
 <tr class="separator:ace99c0beace10bab228c70941e3ead2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fe2543477e9a5ae32d78e52898bee03"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a8fe2543477e9a5ae32d78e52898bee03">OnMode</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_user.html">User</a> *usertarget, <a class="el" href="class_channel.html">Channel</a> *chantarget, const <a class="el" href="class_modes_1_1_change_list.html">Modes::ChangeList</a> &amp;changelist, ModeParser::ModeProcessFlag processflags, const std::string &amp;output_mode)</td></tr>
-<tr class="separator:a8fe2543477e9a5ae32d78e52898bee03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa2dac1cd107a0f20f64459b24e9ad7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#aeaa2dac1cd107a0f20f64459b24e9ad7">OnMode</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_user.html">User</a> *usertarget, <a class="el" href="class_channel.html">Channel</a> *chantarget, const <a class="el" href="class_modes_1_1_change_list.html">Modes::ChangeList</a> &amp;changelist, ModeParser::ModeProcessFlag processflags)</td></tr>
+<tr class="separator:aeaa2dac1cd107a0f20f64459b24e9ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2e2a4e731ead980507fd02e0b1f69b0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af2e2a4e731ead980507fd02e0b1f69b0">OnDecodeMetaData</a> (<a class="el" href="class_extensible.html">Extensible</a> *target, const std::string &amp;extname, const std::string &amp;extdata)</td></tr>
 <tr class="separator:af2e2a4e731ead980507fd02e0b1f69b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6aa4ebe19c22eb32f7a65ecbc74594"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a9f6aa4ebe19c22eb32f7a65ecbc74594">OnChangeHost</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;newhost)</td></tr>
 <tr class="separator:a9f6aa4ebe19c22eb32f7a65ecbc74594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d41b8806e963af21486007e5f8369c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a1d41b8806e963af21486007e5f8369c3">OnChangeName</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;gecos)</td></tr>
-<tr class="separator:a1d41b8806e963af21486007e5f8369c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9cee26dfdf58c5e001fafedbefc107"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a8e9cee26dfdf58c5e001fafedbefc107">OnChangeRealName</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;real)</td></tr>
+<tr class="separator:a8e9cee26dfdf58c5e001fafedbefc107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a135ab5a74a236dc4f696191b25efec2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a135ab5a74a236dc4f696191b25efec2b">OnChangeIdent</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;ident)</td></tr>
 <tr class="separator:a135ab5a74a236dc4f696191b25efec2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace17c45466526ac93a24c8a7441b59e3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ace17c45466526ac93a24c8a7441b59e3">OnAddLine</a> (<a class="el" href="class_user.html">User</a> *source, <a class="el" href="class_x_line.html">XLine</a> *line)</td></tr>
@@ -185,10 +188,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:ab55ed63d022db5f011db3d8c03ef6953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22aeb882a4a4cc619ebb7625ae241686"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a22aeb882a4a4cc619ebb7625ae241686">OnBackgroundTimer</a> (time_t curtime)</td></tr>
 <tr class="separator:a22aeb882a4a4cc619ebb7625ae241686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a678967e0e769ecd295a3a272fa488af3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a678967e0e769ecd295a3a272fa488af3">OnPreCommand</a> (std::string &amp;command, std::vector&lt; std::string &gt; &amp;parameters, <a class="el" href="class_local_user.html">LocalUser</a> *user, bool validated, const std::string &amp;original_line)</td></tr>
-<tr class="separator:a678967e0e769ecd295a3a272fa488af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66fa348b4ec47930d28ade1f74cf48b6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a66fa348b4ec47930d28ade1f74cf48b6">OnPostCommand</a> (<a class="el" href="class_command.html">Command</a> *command, const std::vector&lt; std::string &gt; &amp;parameters, <a class="el" href="class_local_user.html">LocalUser</a> *user, CmdResult result, const std::string &amp;original_line)</td></tr>
-<tr class="separator:a66fa348b4ec47930d28ade1f74cf48b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4698d4a4a5da9922539459e873bf8d4c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a4698d4a4a5da9922539459e873bf8d4c">OnPreCommand</a> (std::string &amp;command, <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;parameters, <a class="el" href="class_local_user.html">LocalUser</a> *user, bool validated)</td></tr>
+<tr class="separator:a4698d4a4a5da9922539459e873bf8d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c2cd321547c9b2f6d32f948ec7afd9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af0c2cd321547c9b2f6d32f948ec7afd9">OnPostCommand</a> (<a class="el" href="class_command.html">Command</a> *command, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;parameters, <a class="el" href="class_local_user.html">LocalUser</a> *user, CmdResult result, bool loop)</td></tr>
+<tr class="separator:af0c2cd321547c9b2f6d32f948ec7afd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ed68d2c341e59dd9acc50672d67aae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a45ed68d2c341e59dd9acc50672d67aae">OnUserInit</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user)</td></tr>
 <tr class="separator:a45ed68d2c341e59dd9acc50672d67aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05531b903581d8100ca28934eac468d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ab05531b903581d8100ca28934eac468d">OnCheckReady</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user)</td></tr>
@@ -209,10 +212,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:a029982a980048c30c5b4dec12886af76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a329aa3d2f888266d347122df7cdab3bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a329aa3d2f888266d347122df7cdab3bc">OnExtBanCheck</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_channel.html">Channel</a> *chan, char type)</td></tr>
 <tr class="separator:a329aa3d2f888266d347122df7cdab3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e8a040d752c423103420a814dfc868"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a83e8a040d752c423103420a814dfc868">OnChangeLocalUserHost</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;newhost)</td></tr>
-<tr class="separator:a83e8a040d752c423103420a814dfc868"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcde3dba5bc6c5359b0bbc9964a91a1b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#abcde3dba5bc6c5359b0bbc9964a91a1b">OnChangeLocalUserGECOS</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;newhost)</td></tr>
-<tr class="separator:abcde3dba5bc6c5359b0bbc9964a91a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8028519013eba76b59de3346bd5b0498"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a8028519013eba76b59de3346bd5b0498">OnPreChangeHost</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;newhost)</td></tr>
+<tr class="separator:a8028519013eba76b59de3346bd5b0498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a060080b9ac484e4d16d649b239dced89"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a060080b9ac484e4d16d649b239dced89">OnPreChangeRealName</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;newhost)</td></tr>
+<tr class="separator:a060080b9ac484e4d16d649b239dced89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0fffc69b3af9695efaec60df2a1876"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#aaf0fffc69b3af9695efaec60df2a1876">OnPreTopicChange</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_channel.html">Channel</a> *chan, const std::string &amp;topic)</td></tr>
 <tr class="separator:aaf0fffc69b3af9695efaec60df2a1876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a6faca7798ee9ac8a9330c79bacbcd4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a9a6faca7798ee9ac8a9330c79bacbcd4">OnPostTopicChange</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_channel.html">Channel</a> *chan, const std::string &amp;topic)</td></tr>
@@ -223,8 +226,6 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:aa3a7c87d002fe32d4d0f46a7f438fbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7947eef29c1aa49f6f935f60bf313ac2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a7947eef29c1aa49f6f935f60bf313ac2">OnAcceptConnection</a> (int fd, <a class="el" href="class_listen_socket.html">ListenSocket</a> *sock, <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> *client, <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> *server)</td></tr>
 <tr class="separator:a7947eef29c1aa49f6f935f60bf313ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab16f4b39fb1f4353ad2f5d8b652e7425"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#ab16f4b39fb1f4353ad2f5d8b652e7425">OnSetAway</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;awaymsg)</td></tr>
-<tr class="separator:ab16f4b39fb1f4353ad2f5d8b652e7425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a152a4ce724c1fed088c51c12be43a62b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a152a4ce724c1fed088c51c12be43a62b">OnGarbageCollect</a> ()</td></tr>
 <tr class="separator:a152a4ce724c1fed088c51c12be43a62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a7c6fc1a66af63568b6a69db294a0df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a5a7c6fc1a66af63568b6a69db294a0df">OnSetConnectClass</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, <a class="el" href="struct_connect_class.html">ConnectClass</a> *myclass)</td></tr>
@@ -234,14 +235,15 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="memitem:a63bafaf65ad8df653a2754e5452ec04a"><td class="memItemLeft" align="right" valign="top"><a id="a63bafaf65ad8df653a2754e5452ec04a"></a>
 virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OnNumeric</b> (<a class="el" href="class_user.html">User</a> *user, const <a class="el" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> &amp;numeric)</td></tr>
 <tr class="separator:a63bafaf65ad8df653a2754e5452ec04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84e0d2b7da4625903cc2a7c816584f8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af84e0d2b7da4625903cc2a7c816584f8">OnSendWhoLine</a> (<a class="el" href="class_user.html">User</a> *source, const std::vector&lt; std::string &gt; &amp;params, <a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_membership.html">Membership</a> *memb, <a class="el" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> &amp;numeric)</td></tr>
-<tr class="separator:af84e0d2b7da4625903cc2a7c816584f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d9edd94c35056b40d076acf56c6afa0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a3d9edd94c35056b40d076acf56c6afa0">OnSetUserIP</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user)</td></tr>
 <tr class="separator:a3d9edd94c35056b40d076acf56c6afa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a740d7f295d67d93c40dc4c699c9f9abc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a740d7f295d67d93c40dc4c699c9f9abc">OnServiceAdd</a> (<a class="el" href="class_service_provider.html">ServiceProvider</a> &amp;service)</td></tr>
 <tr class="separator:a740d7f295d67d93c40dc4c699c9f9abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5bf42c45356dc85ae0fe07280acb6ba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#af5bf42c45356dc85ae0fe07280acb6ba">OnServiceDel</a> (<a class="el" href="class_service_provider.html">ServiceProvider</a> &amp;service)</td></tr>
 <tr class="separator:af5bf42c45356dc85ae0fe07280acb6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abadd96f81a5cf5af438162f2b9a0c1f1"><td class="memItemLeft" align="right" valign="top"><a id="abadd96f81a5cf5af438162f2b9a0c1f1"></a>
+virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OnUserWrite</b> (<a class="el" href="class_local_user.html">LocalUser</a> *user, <a class="el" href="class_client_protocol_1_1_message.html">ClientProtocol::Message</a> &amp;msg)</td></tr>
+<tr class="separator:abadd96f81a5cf5af438162f2b9a0c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classusecountbase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classusecountbase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classusecountbase.html">usecountbase</a></td></tr>
 <tr class="memitem:a0f617fa3620bd5dd98d56177b38b27a1 inherit pub_methods_classusecountbase"><td class="memItemLeft" align="right" valign="top"><a id="a0f617fa3620bd5dd98d56177b38b27a1"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>GetUseCount</b> () const</td></tr>
@@ -264,7 +266,23 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for all <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> modules This class is the base class for <a class="el" href="class_insp_i_r_cd.html">InspIRCd</a> modules. All modules must inherit from this class, its methods will be called when irc server events occur. class inherited from module must be instantiated by the ModuleFactory class (see relevent section) for the module to be initialised. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a83b2c5b16047bc1a89ab9035396fbdd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b2c5b16047bc1a89ab9035396fbdd6">&#9670;&nbsp;</a></span>List</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="class_module.html">Module</a>*&gt; <a class="el" href="class_module.html#a83b2c5b16047bc1a89ab9035396fbdd6">Module::List</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A list of modules. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5a240a8a9ab1813b17bcb810b24ceaea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a240a8a9ab1813b17bcb810b24ceaea">&#9670;&nbsp;</a></span>Module()</h2>
 
@@ -361,8 +379,6 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Returns the version number of a <a class="el" href="class_module.html">Module</a>. The method should return a <a class="el" href="class_version.html">Version</a> object with its version information assigned via <a class="el" href="class_version.html#aaf3a196a2f6e05adc2dfb92844adcf73">Version::Version</a> </p>
-
-<p>Implemented in <a class="el" href="class_command_module.html#a563725dfafbcb73491f148cd84c04a2e">CommandModule&lt; Cmd &gt;</a>.</p>
 
 </div>
 </div>
@@ -698,8 +714,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abcde3dba5bc6c5359b0bbc9964a91a1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcde3dba5bc6c5359b0bbc9964a91a1b">&#9670;&nbsp;</a></span>OnChangeLocalUserGECOS()</h2>
+<a id="a8e9cee26dfdf58c5e001fafedbefc107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9cee26dfdf58c5e001fafedbefc107">&#9670;&nbsp;</a></span>OnChangeRealName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -708,95 +724,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnChangeLocalUserGECOS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
-          <td class="paramname"><em>user</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>newhost</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Called whenever a change of a local users GECOS (fullname field) is attempted. return 1 to deny the name change, or 0 to allow it. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">user</td><td>The user whos GECOS will be changed </td></tr>
-    <tr><td class="paramname">newhost</td><td>The new GECOS </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>1 to deny the GECOS change, 0 to allow </dd></dl>
-
-</div>
-</div>
-<a id="a83e8a040d752c423103420a814dfc868"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83e8a040d752c423103420a814dfc868">&#9670;&nbsp;</a></span>OnChangeLocalUserHost()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnChangeLocalUserHost </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
-          <td class="paramname"><em>user</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>newhost</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Called whenever a change of a local users displayed host is attempted. Return 1 to deny the host change, or 0 to allow it. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">user</td><td>The user whos host will be changed </td></tr>
-    <tr><td class="paramname">newhost</td><td>The new hostname </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>1 to deny the host change, 0 to allow </dd></dl>
-
-</div>
-</div>
-<a id="a1d41b8806e963af21486007e5f8369c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d41b8806e963af21486007e5f8369c3">&#9670;&nbsp;</a></span>OnChangeName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Module::OnChangeName </td>
+          <td class="memname">void Module::OnChangeRealName </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
           <td class="paramname"><em>user</em>, </td>
@@ -805,7 +733,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>gecos</em>&#160;</td>
+          <td class="paramname"><em>real</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -819,10 +747,10 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called whenever a user's GECOS (realname) is changed. This event triggers after the name has been set. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Called whenever a user's real name is changed. This event triggers after the name has been set. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user</td><td>The user who's GECOS is being changed </td></tr>
-    <tr><td class="paramname">gecos</td><td>The new GECOS being set on the user </td></tr>
+    <tr><td class="paramname">user</td><td>The user who's real name is being changed </td></tr>
+    <tr><td class="paramname">real</td><td>The new real name being set on the user </td></tr>
   </table>
   </dd>
 </dl>
@@ -1398,40 +1326,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af351dba33f01a510e4b98ebe76efa452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af351dba33f01a510e4b98ebe76efa452">&#9670;&nbsp;</a></span>OnInfo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Module::OnInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
-          <td class="paramname"><em>user</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Called whenever a user types /INFO. The <a class="el" href="class_user.html">User</a> will contain the information of the user who typed the command. Modules may use this method to output their own credits in /INFO (which is the ircd's version of an about box). It is purposefully not possible to modify any info that has already been output, or halt the list. You must write a 371 numeric to the user, containing your info in the following format:</p>
-<p>&lt;nick&gt; :information here</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">user</td><td>The user issuing /INFO </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a140312a31a1e9163193dd7707707c6b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a140312a31a1e9163193dd7707707c6b8">&#9670;&nbsp;</a></span>OnKill()</h2>
 
@@ -1515,8 +1409,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fe2543477e9a5ae32d78e52898bee03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fe2543477e9a5ae32d78e52898bee03">&#9670;&nbsp;</a></span>OnMode()</h2>
+<a id="aeaa2dac1cd107a0f20f64459b24e9ad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa2dac1cd107a0f20f64459b24e9ad7">&#9670;&nbsp;</a></span>OnMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1552,13 +1446,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ModeParser::ModeProcessFlag&#160;</td>
-          <td class="paramname"><em>processflags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>output_mode</em>&#160;</td>
+          <td class="paramname"><em>processflags</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1579,7 +1467,6 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">chantarget</td><td>The target channel of the modes, NULL if the target is a user </td></tr>
     <tr><td class="paramname">changelist</td><td>The changed modes. </td></tr>
     <tr><td class="paramname">processflags</td><td>Flags passed to <a class="el" href="class_mode_parser.html#a75a5dd40880fc77347686e13bac933dc">ModeParser::Process()</a>, see <a class="el" href="class_mode_parser.html#a910f3e7bf782ee7fb2b1a1b57a23588b">ModeParser::ModeProcessFlags</a> for the possible flags. </td></tr>
-    <tr><td class="paramname">output_mode</td><td>Changed modes, including '+' and '-' characters, not including any parameters </td></tr>
   </table>
   </dd>
 </dl>
@@ -1789,8 +1676,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a66fa348b4ec47930d28ade1f74cf48b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66fa348b4ec47930d28ade1f74cf48b6">&#9670;&nbsp;</a></span>OnPostCommand()</h2>
+<a id="af0c2cd321547c9b2f6d32f948ec7afd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c2cd321547c9b2f6d32f948ec7afd9">&#9670;&nbsp;</a></span>OnPostCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1807,7 +1694,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>parameters</em>, </td>
         </tr>
         <tr>
@@ -1825,8 +1712,8 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>original_line</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loop</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1846,7 +1733,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">parameters</td><td>An array of array of characters containing the parameters for the command </td></tr>
     <tr><td class="paramname">user</td><td>the user issuing the command </td></tr>
     <tr><td class="paramname">result</td><td>The return code given by the command handler, one of CMD_SUCCESS or CMD_FAILURE </td></tr>
-    <tr><td class="paramname">original_line</td><td>The entire original line as passed to the parser from the user </td></tr>
+    <tr><td class="paramname">loop</td><td>Whether the command is being called from LoopCall or directly. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2049,8 +1936,96 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a678967e0e769ecd295a3a272fa488af3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a678967e0e769ecd295a3a272fa488af3">&#9670;&nbsp;</a></span>OnPreCommand()</h2>
+<a id="a8028519013eba76b59de3346bd5b0498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8028519013eba76b59de3346bd5b0498">&#9670;&nbsp;</a></span>OnPreChangeHost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnPreChangeHost </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>newhost</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called whenever a change of a local users displayed host is attempted. Return 1 to deny the host change, or 0 to allow it. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user whos host will be changed </td></tr>
+    <tr><td class="paramname">newhost</td><td>The new hostname </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>1 to deny the host change, 0 to allow </dd></dl>
+
+</div>
+</div>
+<a id="a060080b9ac484e4d16d649b239dced89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a060080b9ac484e4d16d649b239dced89">&#9670;&nbsp;</a></span>OnPreChangeRealName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnPreChangeRealName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>newhost</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called whenever a change of a local users real name is attempted. return MOD_RES_DENY to deny the name change, or MOD_RES_ALLOW to allow it. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user whos real name will be changed </td></tr>
+    <tr><td class="paramname">newhost</td><td>The new real name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>MOD_RES_DENY to deny the real name change, MOD_RES_ALLOW to allow </dd></dl>
+
+</div>
+</div>
+<a id="a4698d4a4a5da9922539459e873bf8d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4698d4a4a5da9922539459e873bf8d4c">&#9670;&nbsp;</a></span>OnPreCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2067,7 +2042,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>parameters</em>, </td>
         </tr>
         <tr>
@@ -2080,13 +2055,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>validated</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>original_line</em>&#160;</td>
+          <td class="paramname"><em>validated</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2106,7 +2075,6 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">parameters</td><td>An array of array of characters containing the parameters for the command </td></tr>
     <tr><td class="paramname">user</td><td>the user issuing the command </td></tr>
     <tr><td class="paramname">validated</td><td>True if the command has passed all checks, e.g. it is recognised, has enough parameters, the user has permission to execute it, etc. You should only change the parameter list and command string if validated == false (e.g. before the command lookup occurs). </td></tr>
-    <tr><td class="paramname">original_line</td><td>The entire original line as passed to the parser from the user </td></tr>
   </table>
   </dd>
 </dl>
@@ -2384,71 +2352,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af84e0d2b7da4625903cc2a7c816584f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af84e0d2b7da4625903cc2a7c816584f8">&#9670;&nbsp;</a></span>OnSendWhoLine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnSendWhoLine </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>params</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
-          <td class="paramname"><em>user</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_membership.html">Membership</a> *&#160;</td>
-          <td class="paramname"><em>memb</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> &amp;&#160;</td>
-          <td class="paramname"><em>numeric</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Called whenever a result from /WHO is about to be returned </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">source</td><td>The user running the /WHO query </td></tr>
-    <tr><td class="paramname">params</td><td>The parameters to the /WHO query </td></tr>
-    <tr><td class="paramname">user</td><td>The user that this line of the query is about </td></tr>
-    <tr><td class="paramname">memb</td><td>The member shown in this line, NULL if no channel is in this line </td></tr>
-    <tr><td class="paramname">numeric</td><td>Numeric to send; modifiable. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>MOD_RES_PASSTHRU to allow the line to be displayed, MOD_RES_DENY to hide it </dd></dl>
-
-</div>
-</div>
 <a id="a740d7f295d67d93c40dc4c699c9f9abc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a740d7f295d67d93c40dc4c699c9f9abc">&#9670;&nbsp;</a></span>OnServiceAdd()</h2>
 
@@ -2510,50 +2413,6 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="ab16f4b39fb1f4353ad2f5d8b652e7425"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab16f4b39fb1f4353ad2f5d8b652e7425">&#9670;&nbsp;</a></span>OnSetAway()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnSetAway </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
-          <td class="paramname"><em>user</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>awaymsg</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Called whenever a user sets away or returns from being away. The away message is available as a parameter, but should not be modified. At this stage, it has already been copied into the user record. If awaymsg is empty, the user is returning from away. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">user</td><td>The user setting away </td></tr>
-    <tr><td class="paramname">awaymsg</td><td>The away message of the user, or empty if returning from away </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>nonzero if the away message should be blocked - should ONLY be nonzero for LOCAL users (IS_LOCAL) (no output is returned by core) </dd></dl>
 
 </div>
 </div>

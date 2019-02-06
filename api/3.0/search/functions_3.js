@@ -8,7 +8,7 @@ var searchData=
   ['deinit',['Deinit',['../class_socket_engine.html#a1489d6c19384cb29e191a15a56bab406',1,'SocketEngine']]],
   ['delall',['DelAll',['../class_x_line_manager.html#a71973b65217264a7ca5563d44fb0c8cb',1,'XLineManager']]],
   ['delfd',['DelFd',['../class_socket_engine.html#a3e146fda29806f8bf4dec57d8a18fb54',1,'SocketEngine']]],
-  ['delline',['DelLine',['../class_x_line_manager.html#a345469f8339e4aee3ad501130d5329ba',1,'XLineManager']]],
+  ['delline',['DelLine',['../class_x_line_manager.html#a182a524c05b76c65ee3d6c81f3974060',1,'XLineManager']]],
   ['delloggerref',['DelLoggerRef',['../class_log_manager.html#aa9a538da226f09464c85ffa427688915',1,'LogManager']]],
   ['dellogstream',['DelLogStream',['../class_log_manager.html#a3dae401c23dad41d99ef385bc3449dc0',1,'LogManager']]],
   ['dellogtype',['DelLogType',['../class_log_manager.html#a17a289ebfd9d0aa3e1ad7cd8446e4e62',1,'LogManager']]],
@@ -20,7 +20,6 @@ var searchData=
   ['deluser',['DelUser',['../class_channel.html#a31a2d596101f43a25d11bca1d3b1787a',1,'Channel']]],
   ['detach',['Detach',['../class_module_manager.html#a55008be0a18ace358420c97e0ae3d8eb',1,'ModuleManager']]],
   ['detachall',['DetachAll',['../class_module_manager.html#a792838035dd15c1dcc6f44a232667f30',1,'ModuleManager']]],
-  ['disable',['Disable',['../class_command_base.html#a7c28da48ef86ad2e956986d31bd4f7ce',1,'CommandBase']]],
   ['disableautoregister',['DisableAutoRegister',['../class_service_provider.html#a87185e6ebfa0f4960f20797e716c72d6',1,'ServiceProvider']]],
   ['dispatchevents',['DispatchEvents',['../class_socket_engine.html#a6210a5835e89eeffc4f34ce92ce5a117',1,'SocketEngine']]],
   ['dispatchtrialwrites',['DispatchTrialWrites',['../class_socket_engine.html#a3afdd36e14401d2ba7c0dfa1c97b6b70',1,'SocketEngine']]],
@@ -33,5 +32,5 @@ var searchData=
   ['doconnect',['DoConnect',['../class_buffered_socket.html#aad70b53205c38736d19e261297f59dc1',1,'BufferedSocket']]],
   ['dorehash',['DoRehash',['../class_list_mode_base.html#aff5037467e1b45019f90d66e1650bb38',1,'ListModeBase']]],
   ['dowrite',['DoWrite',['../class_stream_socket.html#a7d5219ca91425813c92cc09f7cf634ef',1,'StreamSocket']]],
-  ['duration',['Duration',['../class_insp_i_r_cd.html#afb911e158c5ed4f88dadc66e890167a0',1,'InspIRCd']]]
+  ['duration',['Duration',['../class_insp_i_r_cd.html#afb911e158c5ed4f88dadc66e890167a0',1,'InspIRCd::Duration(const std::string &amp;str)'],['../class_insp_i_r_cd.html#ad4d75fbe200a4fe841a867bb155d73bc',1,'InspIRCd::Duration(const std::string &amp;str, unsigned long &amp;duration)']]]
 ];

@@ -89,11 +89,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e4310a61b5ba6c1afe8a48602f62347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add8ef21fe3ed7a083bebf688b5e8f4c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_i_o_handler.html#add8ef21fe3ed7a083bebf688b5e8f4c4">OnDataReady</a> () CXX11_OVERRIDE</td></tr>
 <tr class="separator:add8ef21fe3ed7a083bebf688b5e8f4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f67153fc8b18ea8ec89a4291742d357"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_i_o_handler.html#a2f67153fc8b18ea8ec89a4291742d357">OnSetEndPoint</a> (const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;local, const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;remote) CXX11_OVERRIDE</td></tr>
+<tr class="separator:a2f67153fc8b18ea8ec89a4291742d357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74690a2e27a6a2a0e1fee2af196ae477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_i_o_handler.html#a74690a2e27a6a2a0e1fee2af196ae477">OnError</a> (BufferedSocketError error) CXX11_OVERRIDE</td></tr>
 <tr class="separator:a74690a2e27a6a2a0e1fee2af196ae477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fc9abe6d4ebdef2b503b005f1fbff04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_i_o_handler.html#a7fc9abe6d4ebdef2b503b005f1fbff04">AddWriteBuf</a> (const std::string &amp;data)</td></tr>
 <tr class="separator:a7fc9abe6d4ebdef2b503b005f1fbff04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_stream_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_stream_socket')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_stream_socket.html">StreamSocket</a></td></tr>
+<tr class="memitem:a513907f8715467cff618dcb6534e8b27 inherit pub_methods_class_stream_socket"><td class="memItemLeft" align="right" valign="top"><a id="a513907f8715467cff618dcb6534e8b27"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>StreamSocket</b> (<a class="el" href="class_stream_socket.html#a33cfcc8a4b5fc91094ff99a9da4af33a">Type</a> sstype=SS_UNKNOWN)</td></tr>
+<tr class="separator:a513907f8715467cff618dcb6534e8b27 inherit pub_methods_class_stream_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89e2e7e6c44fed3602bf143b93fbb96d inherit pub_methods_class_stream_socket"><td class="memItemLeft" align="right" valign="top"><a id="a89e2e7e6c44fed3602bf143b93fbb96d"></a>
 <a class="el" href="class_i_o_hook.html">IOHook</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetIOHook</b> () const</td></tr>
 <tr class="separator:a89e2e7e6c44fed3602bf143b93fbb96d inherit pub_methods_class_stream_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +153,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a02f8378373c699b5eaa39839f9174eb0"><td class="memItemLeft" align="right" valign="top"><a id="a02f8378373c699b5eaa39839f9174eb0"></a>
 <a class="el" href="class_local_user.html">LocalUser</a> *const&#160;</td><td class="memItemRight" valign="bottom"><b>user</b></td></tr>
 <tr class="separator:a02f8378373c699b5eaa39839f9174eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_stream_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_stream_socket')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_stream_socket.html">StreamSocket</a></td></tr>
+<tr class="memitem:a56b43f9acc29c42bce5dae9b31ca5c0d inherit pub_attribs_class_stream_socket"><td class="memItemLeft" align="right" valign="top"><a id="a56b43f9acc29c42bce5dae9b31ca5c0d"></a>
+const <a class="el" href="class_stream_socket.html#a33cfcc8a4b5fc91094ff99a9da4af33a">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<tr class="separator:a56b43f9acc29c42bce5dae9b31ca5c0d inherit pub_attribs_class_stream_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_class_stream_socket"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_stream_socket')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_stream_socket.html">StreamSocket</a></td></tr>
+<tr class="memitem:a33cfcc8a4b5fc91094ff99a9da4af33a inherit pub_types_class_stream_socket"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_socket.html#a33cfcc8a4b5fc91094ff99a9da4af33a">Type</a> { <b>SS_UNKNOWN</b>, 
+<b>SS_USER</b>
+ }</td></tr>
+<tr class="separator:a33cfcc8a4b5fc91094ff99a9da4af33a inherit pub_types_class_stream_socket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_stream_socket"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_stream_socket')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_stream_socket.html">StreamSocket</a></td></tr>
 <tr class="memitem:ac35db82e9231bead6deca4aa847e5ad2 inherit pro_attribs_class_stream_socket"><td class="memItemLeft" align="right" valign="top"><a id="ac35db82e9231bead6deca4aa847e5ad2"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td></tr>
@@ -238,6 +252,52 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 <p>Called when the socket gets an error from socket engine or IO hook </p>
 
 <p>Implements <a class="el" href="class_stream_socket.html#a87a969c40b5154b5770aa1094edaae6d">StreamSocket</a>.</p>
+
+</div>
+</div>
+<a id="a2f67153fc8b18ea8ec89a4291742d357"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f67153fc8b18ea8ec89a4291742d357">&#9670;&nbsp;</a></span>OnSetEndPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UserIOHandler::OnSetEndPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;&#160;</td>
+          <td class="paramname"><em>local</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;&#160;</td>
+          <td class="paramname"><em>remote</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when the endpoint addresses are changed. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">local</td><td>The new local endpoint. </td></tr>
+    <tr><td class="paramname">remote</td><td>The new remote endpoint. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the connection is still open, false if it has been closed </dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_stream_socket.html#a20b9f76aed97edf1cb3d15b4c2e7dc06">StreamSocket</a>.</p>
 
 </div>
 </div>

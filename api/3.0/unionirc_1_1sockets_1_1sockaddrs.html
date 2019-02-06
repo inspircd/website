@@ -77,6 +77,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a16c7bcb27c3ede5977aedd4c0f85fa79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html#a16c7bcb27c3ede5977aedd4c0f85fa79">family</a> () const</td></tr>
+<tr class="separator:a16c7bcb27c3ede5977aedd4c0f85fa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f80b2b70419bcd17fbb73456a505636"><td class="memItemLeft" align="right" valign="top">socklen_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html#a6f80b2b70419bcd17fbb73456a505636">sa_size</a> () const</td></tr>
 <tr class="separator:a6f80b2b70419bcd17fbb73456a505636"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3473cafbee1114913ded93c30955a7c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html#aa3473cafbee1114913ded93c30955a7c">port</a> () const</td></tr>
@@ -103,6 +105,9 @@ struct sockaddr_in&#160;</td><td class="memItemRight" valign="bottom"><b>in4</b>
 <tr class="memitem:a33df07db98e181c1d0269c1a6ced8dfa"><td class="memItemLeft" align="right" valign="top"><a id="a33df07db98e181c1d0269c1a6ced8dfa"></a>
 struct sockaddr_in6&#160;</td><td class="memItemRight" valign="bottom"><b>in6</b></td></tr>
 <tr class="separator:a33df07db98e181c1d0269c1a6ced8dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0081697db14d6165fa55b7fbc1470bcc"><td class="memItemLeft" align="right" valign="top"><a id="a0081697db14d6165fa55b7fbc1470bcc"></a>
+struct <a class="el" href="structsockaddr__un.html">sockaddr_un</a>&#160;</td><td class="memItemRight" valign="bottom"><b>un</b></td></tr>
+<tr class="separator:a0081697db14d6165fa55b7fbc1470bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab342552c4c4604fd5500459c3576cafb"></a>
@@ -120,6 +125,24 @@ struct sockaddr_in6&#160;</td><td class="memItemRight" valign="bottom"><b>in6</b
       </table>
 </div><div class="memdoc">
 <p>Return IP only </p>
+
+</div>
+</div>
+<a id="a16c7bcb27c3ede5977aedd4c0f85fa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16c7bcb27c3ede5977aedd4c0f85fa79">&#9670;&nbsp;</a></span>family()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int irc::sockets::sockaddrs::family </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the family of the socket (e.g. AF_INET). </p>
 
 </div>
 </div>

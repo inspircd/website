@@ -54,6 +54,854 @@
           <Path>annotated.html</Path>
           <Subnodes>
            <Node>
+            <Name>ClientProtocol</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>Events</Name>
+              <Path></Path>
+              <Subnodes>
+               <Node>
+                <Name>Join</Name>
+                <Path>struct_client_protocol_1_1_events_1_1_join.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Join</Name>
+                  <Path>struct_client_protocol_1_1_events_1_1_join.html</Path>
+                  <Anchor>a536a7940e996df2068af4ddc5f9a191e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Join</Name>
+                  <Path>struct_client_protocol_1_1_events_1_1_join.html</Path>
+                  <Anchor>a163a110f92e423662d2bb44bf0a4a9a5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Join</Name>
+                  <Path>struct_client_protocol_1_1_events_1_1_join.html</Path>
+                  <Anchor>a42876faae4fabe3de4ec4b6d2038a5e0</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Mode</Name>
+                <Path>class_client_protocol_1_1_events_1_1_mode.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Mode</Name>
+                  <Path>class_client_protocol_1_1_events_1_1_mode.html</Path>
+                  <Anchor>a48dca681ed34515777f64ba11cdd8eb0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetChangeList</Name>
+                  <Path>class_client_protocol_1_1_events_1_1_mode.html</Path>
+                  <Anchor>a190c8cc8961e88f7936f186735bab5d6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetMessages</Name>
+                  <Path>class_client_protocol_1_1_events_1_1_mode.html</Path>
+                  <Anchor>a10e5e995944252cac3e8038c853c6d7d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Messages</Name>
+              <Path></Path>
+              <Subnodes>
+               <Node>
+                <Name>Error</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Error</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
+                  <Anchor>a25f8f5b472a4d2ebf4adc0e0fa27281f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Invite</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Invite</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
+                  <Anchor>aceb644b14b56fb6f3cac8c84a9754629</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Join</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Join</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                  <Anchor>abbc329dd47aec6ab4f8bebd2b17e4fad</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Join</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                  <Anchor>a0abc42dded4c27180892ce3c4c0c2969</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Join</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                  <Anchor>a12cb6944632641acaa9caccc0063810c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetMember</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                  <Anchor>a007bfbd516a6a84d521356fd21f9d78d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetParams</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                  <Anchor>a7ae9f1c032bcedba9263b7e20bb73386</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Kick</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_kick.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Kick</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_kick.html</Path>
+                  <Anchor>ae20dc3ceef9ecba7f1508f72f2bd6236</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Mode</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Mode</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>ad953a4aafa8d7fbf23d66f75fba1bf57</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Mode</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>a6f33f8b2861a2cd69380b3a86dc3cb10</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Mode</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>a553e626cb724e2e82d01792ac30e2341</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetBeginIterator</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>ae7234ebe57c8df3a50fd1c3c90ed9ef0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetChanTarget</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>a924336d3463cc000bfcbbeab48392fd3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetEndIterator</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>a82feb9508c0c5c97f4a46a5caac93bf4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetStrTarget</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>af2eaece618e62fc63356233b9a946389</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>GetUserTarget</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>a3576a46d23efad59c5a9f0233f47d0b3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SetParams</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+                  <Anchor>ad8be914d3bc97ed64f4cc6b9ef1d2c28</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Nick</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Nick</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
+                  <Anchor>a80775d11966784b7d134a9a62309d00e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Numeric</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Numeric</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+                  <Anchor>aa53e03c085abcae08a98f5fc87574c1b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Numeric</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+                  <Anchor>ac021b8fa8b83e5916dc6f2f089990ac7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Numeric</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+                  <Anchor>a50b51a17b17a7ab379d577154cfaa908</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Part</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Part</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
+                  <Anchor>ab2f2ec684a5d0e972b483f3d5d4b07f9</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Ping</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_ping.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Ping</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_ping.html</Path>
+                  <Anchor>a8fe101165760b6204442f6b047ee4757</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Ping</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_ping.html</Path>
+                  <Anchor>af4f6489fd8cc8b732ef68c698fb1bf48</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Pong</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_pong.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Pong</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_pong.html</Path>
+                  <Anchor>a8067405166804ce471833eea4b75e29c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Privmsg</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>NoCopy</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>a0d49e530b63df044365c71eb8ecaa249</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>nocopy</Name>
+                    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                    <Anchor>a0d49e530b63df044365c71eb8ecaa249a5d5b23cddbb944d5d0eb362e82432beb</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>ade4c461b5c77eef18dd8f4c9a2ca2ac3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>ad52eea39cdd63977f7a36f838e2a83e4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>adf78ff398194737cab949dd8b13dc20a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>a79547515ab0a47b274fa1380307cde6e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>a20ef51e21be304e320a598fc1f09be1c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>aef0c22853afde3a1e91ac4099014fc19</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>ae9cec6858cf877762e32fdd1edecd4fd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>ae67e0ccf84695ef37c62e347ef50605d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>af252192cee71f1d7a1d2cefd26d8d4e0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>a8dc48237f6f61dabac9cee64e06cd287</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>a7e264d9a4808e605ed32c0e9018971fc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Privmsg</Name>
+                  <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+                  <Anchor>ad6e517250e678a2206d9329d217b892b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Quit</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Quit</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
+                  <Anchor>a5a1469c959a290d8add9d5816c75fe5a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Topic</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Topic</Name>
+                  <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
+                  <Anchor>a3c046c15a5a24ca06a03a5081071b145</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Event</Name>
+              <Path>class_client_protocol_1_1_event.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Event</Name>
+                <Path>class_client_protocol_1_1_event.html</Path>
+                <Anchor>a08e4cf8522ecaba92a306e1db7ee9a8a</Anchor>
+               </Node>
+               <Node>
+                <Name>Event</Name>
+                <Path>class_client_protocol_1_1_event.html</Path>
+                <Anchor>a6950e9e71e978261db19ea6b57688a36</Anchor>
+               </Node>
+               <Node>
+                <Name>GetMessagesForUser</Name>
+                <Path>class_client_protocol_1_1_event.html</Path>
+                <Anchor>a8e4dd25470dc57de175586f2fdb3c73d</Anchor>
+               </Node>
+               <Node>
+                <Name>SetMessage</Name>
+                <Path>class_client_protocol_1_1_event.html</Path>
+                <Anchor>ae3fe08a3f9c34b0210220986b4b3145c</Anchor>
+               </Node>
+               <Node>
+                <Name>SetMessageList</Name>
+                <Path>class_client_protocol_1_1_event.html</Path>
+                <Anchor>a786636314d062d6e1ece11e365185ae2</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>EventHook</Name>
+              <Path>class_client_protocol_1_1_event_hook.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>EventHook</Name>
+                <Path>class_client_protocol_1_1_event_hook.html</Path>
+                <Anchor>acc7c3598ba5364e3c4d5194b191d0193</Anchor>
+               </Node>
+               <Node>
+                <Name>OnEventInit</Name>
+                <Path>class_client_protocol_1_1_event_hook.html</Path>
+                <Anchor>aa58b3dde6b3af7fe31748cd488085c9d</Anchor>
+               </Node>
+               <Node>
+                <Name>OnPreEventSend</Name>
+                <Path>class_client_protocol_1_1_event_hook.html</Path>
+                <Anchor>a3aec4e632953c56161d0bbdb99d34216</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>EventProvider</Name>
+              <Path>class_client_protocol_1_1_event_provider.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>EventProvider</Name>
+                <Path>class_client_protocol_1_1_event_provider.html</Path>
+                <Anchor>a9ac7a8cf721479dc0b8f63aacc31dba1</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Message</Name>
+              <Path>class_client_protocol_1_1_message.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Param</Name>
+                <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Param</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>ac5a127b1d37629b542b02878d8e6e8bc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Param</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>a68c0a6f57b0e9c427c378b1223664926</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Param</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>ad193934142dcf9309f01465b548be2c0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Param</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>a1c1ca0f60604fc0a2d6aa3d7f875c379</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Param</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>ab2a955d0702ac92ae4def8048b87163a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Param</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>a30cc0d67f27d4aef43c561c8f2c5e427</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>IsOwned</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>a6b27beb2bd129146dadf8f6de82cb9d7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator const std::string &amp;</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>ad7337fad33a207c7255d22acbfbf2c3b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+                  <Anchor>a27c15e5b75b4ae4d9c88787d764b02e1</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>SerializedInfo</Name>
+                <Path>struct_client_protocol_1_1_message_1_1_serialized_info.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>SerializedInfo</Name>
+                  <Path>struct_client_protocol_1_1_message_1_1_serialized_info.html</Path>
+                  <Anchor>aa8e0fa2cc35691623d6120ec6a7b0f75</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>struct_client_protocol_1_1_message_1_1_serialized_info.html</Path>
+                  <Anchor>ab2a97150916d33c9bb7003d4260bd46d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>serializer</Name>
+                  <Path>struct_client_protocol_1_1_message_1_1_serialized_info.html</Path>
+                  <Anchor>adc14dd8ae39218a70860232e984098f4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>tagwl</Name>
+                  <Path>struct_client_protocol_1_1_message_1_1_serialized_info.html</Path>
+                  <Anchor>ab27ebfc182c76f09078439500d6a0b2e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ParamList</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>af708069557438e75ec9953ee111a6360</Anchor>
+               </Node>
+               <Node>
+                <Name>Message</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
+               </Node>
+               <Node>
+                <Name>Message</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
+               </Node>
+               <Node>
+                <Name>AddTag</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
+               </Node>
+               <Node>
+                <Name>AddTags</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
+               </Node>
+               <Node>
+                <Name>ClearParams</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
+               </Node>
+               <Node>
+                <Name>CopyAll</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>aec836188e3ddaf14103d5c48795f9036</Anchor>
+               </Node>
+               <Node>
+                <Name>GetCommand</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
+               </Node>
+               <Node>
+                <Name>GetParams</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
+               </Node>
+               <Node>
+                <Name>GetSerialized</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
+               </Node>
+               <Node>
+                <Name>GetTags</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
+               </Node>
+               <Node>
+                <Name>InvalidateCache</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
+               </Node>
+               <Node>
+                <Name>IsSideEffect</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a8f52679d1d8d90cc9a42495b124b3645</Anchor>
+               </Node>
+               <Node>
+                <Name>PushParam</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
+               </Node>
+               <Node>
+                <Name>PushParam</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
+               </Node>
+               <Node>
+                <Name>PushParamPlaceholder</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
+               </Node>
+               <Node>
+                <Name>PushParamRef</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
+               </Node>
+               <Node>
+                <Name>ReplaceParam</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
+               </Node>
+               <Node>
+                <Name>ReplaceParam</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
+               </Node>
+               <Node>
+                <Name>ReplaceParamRef</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
+               </Node>
+               <Node>
+                <Name>SetCommand</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
+               </Node>
+               <Node>
+                <Name>SetSideEffect</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>a103074761a024b1d194c5fa5a2794b9b</Anchor>
+               </Node>
+               <Node>
+                <Name>Serializer</Name>
+                <Path>class_client_protocol_1_1_message.html</Path>
+                <Anchor>ad3f5346f31d572dd2ab4fcd658de5bc4</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>MessageSource</Name>
+              <Path>class_client_protocol_1_1_message_source.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>MessageSource</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
+               </Node>
+               <Node>
+                <Name>MessageSource</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
+               </Node>
+               <Node>
+                <Name>GetSource</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
+               </Node>
+               <Node>
+                <Name>GetSourceUser</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
+               </Node>
+               <Node>
+                <Name>SetSource</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+               </Node>
+               <Node>
+                <Name>SetSource</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
+               </Node>
+               <Node>
+                <Name>SetSourceUser</Name>
+                <Path>class_client_protocol_1_1_message_source.html</Path>
+                <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>MessageTagData</Name>
+              <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>MessageTagData</Name>
+                <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
+                <Anchor>a90c91747ef5eca5d702e3ff4e6c7c0b0</Anchor>
+               </Node>
+               <Node>
+                <Name>provdata</Name>
+                <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
+                <Anchor>afc77c8700b22d3ecc38d78e769c24f70</Anchor>
+               </Node>
+               <Node>
+                <Name>tagprov</Name>
+                <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
+                <Anchor>aea609757192f381d5eb8694b6f0e710a</Anchor>
+               </Node>
+               <Node>
+                <Name>value</Name>
+                <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
+                <Anchor>a26e58f1bf6649b70ed6ebefed8aebabd</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>MessageTagProvider</Name>
+              <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>MessageTagProvider</Name>
+                <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
+                <Anchor>ac1a5b7ade49c70ad29d6446cc60a01f1</Anchor>
+               </Node>
+               <Node>
+                <Name>OnClientProtocolPopulateTags</Name>
+                <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
+                <Anchor>aa778c6efb58f9d95a9c0499afa671840</Anchor>
+               </Node>
+               <Node>
+                <Name>OnProcessTag</Name>
+                <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
+                <Anchor>a370c975e617460e174dd2429f311e557</Anchor>
+               </Node>
+               <Node>
+                <Name>ShouldSendTag</Name>
+                <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
+                <Anchor>aeda4a7c29718347b3424fc48665c938a</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>ParseOutput</Name>
+              <Path>struct_client_protocol_1_1_parse_output.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>cmd</Name>
+                <Path>struct_client_protocol_1_1_parse_output.html</Path>
+                <Anchor>a06fe8add7b199c686fe5c839ce09ba0c</Anchor>
+               </Node>
+               <Node>
+                <Name>params</Name>
+                <Path>struct_client_protocol_1_1_parse_output.html</Path>
+                <Anchor>a2e09595545e9f230ea34be8674312a1a</Anchor>
+               </Node>
+               <Node>
+                <Name>tags</Name>
+                <Path>struct_client_protocol_1_1_parse_output.html</Path>
+                <Anchor>a34a84ba012d602b94a56a4c6b11bd954</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>RFCEvents</Name>
+              <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>RFCEvents</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>abc80572481cd6756533802d253b6a019</Anchor>
+               </Node>
+               <Node>
+                <Name>error</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a96c6da705d274c02f561d82cb7825f4e</Anchor>
+               </Node>
+               <Node>
+                <Name>invite</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a4df3038cbaa99795d3a4a501f5085a84</Anchor>
+               </Node>
+               <Node>
+                <Name>join</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>adbe3fa70417eb629d51bfcba28bd0895</Anchor>
+               </Node>
+               <Node>
+                <Name>kick</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a1b788ecfda57c188b20b4a6b991c5f38</Anchor>
+               </Node>
+               <Node>
+                <Name>mode</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a6e1cbdbc2a504b6843b7eb20b779cc5f</Anchor>
+               </Node>
+               <Node>
+                <Name>nick</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>ae9982b8a15b9c05ade8556f954308ffa</Anchor>
+               </Node>
+               <Node>
+                <Name>numeric</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>ac530320dd4da3598e03dcabf4a27dc63</Anchor>
+               </Node>
+               <Node>
+                <Name>part</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a15281723ebcc1449f7fc1d2df86ad0ef</Anchor>
+               </Node>
+               <Node>
+                <Name>ping</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>ae4a4211c73489e3ea0a142200bbf92c8</Anchor>
+               </Node>
+               <Node>
+                <Name>pong</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a0a4381a95bb925bb314e618c152494c6</Anchor>
+               </Node>
+               <Node>
+                <Name>privmsg</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a954336911464a02fc854dcef07ed0fa0</Anchor>
+               </Node>
+               <Node>
+                <Name>quit</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a77f09cc3ebf838937d379aa9c3c9f0e0</Anchor>
+               </Node>
+               <Node>
+                <Name>topic</Name>
+                <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+                <Anchor>a65efc0c6b34b4b9f017ec7d456c9e8bb</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Serializer</Name>
+              <Path>class_client_protocol_1_1_serializer.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Serializer</Name>
+                <Path>class_client_protocol_1_1_serializer.html</Path>
+                <Anchor>a2f4517d7ae0c539c4885b04cefb5bf34</Anchor>
+               </Node>
+               <Node>
+                <Name>HandleTag</Name>
+                <Path>class_client_protocol_1_1_serializer.html</Path>
+                <Anchor>a7ada17e0ddfaf18217804f35b5eb085b</Anchor>
+               </Node>
+               <Node>
+                <Name>Parse</Name>
+                <Path>class_client_protocol_1_1_serializer.html</Path>
+                <Anchor>a9cfd17d0fd21c9c25a679df4b7700295</Anchor>
+               </Node>
+               <Node>
+                <Name>Serialize</Name>
+                <Path>class_client_protocol_1_1_serializer.html</Path>
+                <Anchor>aef58993ddfb5761184047a6fa47be340</Anchor>
+               </Node>
+               <Node>
+                <Name>SerializeForUser</Name>
+                <Path>class_client_protocol_1_1_serializer.html</Path>
+                <Anchor>aa0523d7b1f9f3986b202d8f53d9f42b6</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>TagSelection</Name>
+              <Path>class_client_protocol_1_1_tag_selection.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>IsSelected</Name>
+                <Path>class_client_protocol_1_1_tag_selection.html</Path>
+                <Anchor>af1aaa651a137391f17b0556a0704a578</Anchor>
+               </Node>
+               <Node>
+                <Name>operator==</Name>
+                <Path>class_client_protocol_1_1_tag_selection.html</Path>
+                <Anchor>ac31a44057651d4bf780f37bb5331a768</Anchor>
+               </Node>
+               <Node>
+                <Name>Select</Name>
+                <Path>class_client_protocol_1_1_tag_selection.html</Path>
+                <Anchor>a1eb6c38af66b0c787d68652996c5d09d</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Events</Name>
             <Path></Path>
             <Subnodes>
@@ -64,12 +912,17 @@
                <Node>
                 <Name>ModuleEventListener</Name>
                 <Path>class_events_1_1_module_event_listener.html</Path>
-                <Anchor>a1b2dfd0da9c4f740870d807f1c5af3df</Anchor>
+                <Anchor>a3c58708bb631c32457874b09139159c8</Anchor>
                </Node>
                <Node>
                 <Name>~ModuleEventListener</Name>
                 <Path>class_events_1_1_module_event_listener.html</Path>
                 <Anchor>aad6857bdf429fd8bfeedf4b4556c2446</Anchor>
+               </Node>
+               <Node>
+                <Name>ModuleEventProvider::Comp</Name>
+                <Path>class_events_1_1_module_event_listener.html</Path>
+                <Anchor>a96db7d9a728c791f8a9ce31a7082b876</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -78,9 +931,20 @@
               <Path>class_events_1_1_module_event_provider.html</Path>
               <Subnodes>
                <Node>
+                <Name>Comp</Name>
+                <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>operator()</Name>
+                  <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
+                  <Anchor>a616094325054b441efd0ad88bbe82ccb</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>SubscriberList</Name>
                 <Path>class_events_1_1_module_event_provider.html</Path>
-                <Anchor>a7c1ba5df2fb34fc1cd3e09e2bcd15c89</Anchor>
+                <Anchor>a9cc94c6e8b82901574271623d4076ce5</Anchor>
                </Node>
                <Node>
                 <Name>ModuleEventProvider</Name>
@@ -826,6 +1690,11 @@
                   <Anchor>ab342552c4c4604fd5500459c3576cafb</Anchor>
                  </Node>
                  <Node>
+                  <Name>family</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a16c7bcb27c3ede5977aedd4c0f85fa79</Anchor>
+                 </Node>
+                 <Node>
                   <Name>operator!=</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
                   <Anchor>a75c8aef969c9a44deb04d5290bb25b57</Anchor>
@@ -864,6 +1733,11 @@
                   <Name>sa</Name>
                   <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
                   <Anchor>aad924482e685e745e524c8caf1434f73</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>un</Name>
+                  <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+                  <Anchor>a0081697db14d6165fa55b7fbc1470bcc</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -926,6 +1800,11 @@
                 <Name>sepstream</Name>
                 <Path>classirc_1_1sepstream.html</Path>
                 <Anchor>af5df7261a1d9fb32b2f5151e42704e5c</Anchor>
+               </Node>
+               <Node>
+                <Name>Contains</Name>
+                <Path>classirc_1_1sepstream.html</Path>
+                <Anchor>a2d71d3d53eb2f32b3183638977243a9e</Anchor>
                </Node>
                <Node>
                 <Name>GetRemaining</Name>
@@ -993,22 +1872,22 @@
                <Node>
                 <Name>tokenstream</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>ad0e45e600136740b8c5020075df0f06d</Anchor>
+                <Anchor>adb7baebea9eb814d209bee57aa8f5acd</Anchor>
                </Node>
                <Node>
-                <Name>GetToken</Name>
+                <Name>GetMessage</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
+                <Anchor>aa607a533b8977d9a127a97681a04d022</Anchor>
                </Node>
                <Node>
-                <Name>GetToken</Name>
+                <Name>GetMiddle</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a015f094f368854d02a074ac962460201</Anchor>
+                <Anchor>aecf3e0462bc8f13f604da3b7ba809b7a</Anchor>
                </Node>
                <Node>
-                <Name>GetToken</Name>
+                <Name>GetTrailing</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
+                <Anchor>a9796f72465f24f99808cb54ab5ca7bec</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1072,6 +1951,16 @@
                 <Name>getlist</Name>
                 <Path>class_modes_1_1_change_list.html</Path>
                 <Anchor>ae075a5ad925ab4a505b982a1cf82277e</Anchor>
+               </Node>
+               <Node>
+                <Name>push</Name>
+                <Path>class_modes_1_1_change_list.html</Path>
+                <Anchor>ac2cb1e0774e66bc456c5a95f001f34e9</Anchor>
+               </Node>
+               <Node>
+                <Name>push</Name>
+                <Path>class_modes_1_1_change_list.html</Path>
+                <Anchor>af51a8b3f138e2d23f4568f5e20f77a6f</Anchor>
                </Node>
                <Node>
                 <Name>push</Name>
@@ -1196,12 +2085,12 @@
                <Node>
                 <Name>GetParams</Name>
                 <Path>class_numeric_1_1_numeric.html</Path>
-                <Anchor>ab36241464e7de2d9f2b6db40044ba42f</Anchor>
+                <Anchor>a6560dc95f54b8fe3ee235dd82be08ab8</Anchor>
                </Node>
                <Node>
                 <Name>GetParams</Name>
                 <Path>class_numeric_1_1_numeric.html</Path>
-                <Anchor>a04158aaa35781e5b8e1ebf8ae82ff758</Anchor>
+                <Anchor>aafdd782234fd5a96caa05183c0898735</Anchor>
                </Node>
                <Node>
                 <Name>GetServer</Name>
@@ -1356,11 +2245,6 @@
                 <Anchor>aa3f12d958e5613e82e26c2084c6a37e8</Anchor>
                </Node>
                <Node>
-                <Name>gecos</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>a1fd8de58c1e35dd3fd4a9f74fe9d275c</Anchor>
-               </Node>
-               <Node>
                 <Name>host</Name>
                 <Path>struct_who_was_1_1_entry.html</Path>
                 <Anchor>ab8fe0fa3ce95288bc84375ca36fe474f</Anchor>
@@ -1369,6 +2253,11 @@
                 <Name>ident</Name>
                 <Path>struct_who_was_1_1_entry.html</Path>
                 <Anchor>adbf3a33533ca34979850db70bf90eca2</Anchor>
+               </Node>
+               <Node>
+                <Name>real</Name>
+                <Path>struct_who_was_1_1_entry.html</Path>
+                <Anchor>a30ea81694e078cbf9592fd104b009670</Anchor>
                </Node>
                <Node>
                 <Name>server</Name>
@@ -1660,7 +2549,7 @@
              <Node>
               <Name>ChanModes</Name>
               <Path>class_channel.html</Path>
-              <Anchor>a5cd117c49304d9e4aabc8b4d258199ee</Anchor>
+              <Anchor>a1762178c429ae40101c1dbd0cef1ec82</Anchor>
              </Node>
              <Node>
               <Name>CheckBan</Name>
@@ -1763,11 +2652,6 @@
               <Anchor>ad320417026a7deebbb37ba0579067be6</Anchor>
              </Node>
              <Node>
-              <Name>RawWriteAllExcept</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>a2a8b0f0f5626b0e65e66be116b28038b</Anchor>
-             </Node>
-             <Node>
               <Name>SetMode</Name>
               <Path>class_channel.html</Path>
               <Anchor>a2242e5c2cb8e1eb5ed161ad5ba4888fb</Anchor>
@@ -1778,44 +2662,14 @@
               <Anchor>a29aacacfeae8d2fbb4e3e829aeb7681c</Anchor>
              </Node>
              <Node>
-              <Name>WriteAllExcept</Name>
+              <Name>Write</Name>
               <Path>class_channel.html</Path>
-              <Anchor>a54413f4dc89cec4c58781dc165effc31</Anchor>
+              <Anchor>a98977ff9be228a9703f228ca6cd7af99</Anchor>
              </Node>
              <Node>
-              <Name>WriteAllExcept</Name>
+              <Name>Write</Name>
               <Path>class_channel.html</Path>
-              <Anchor>ad9f377c39dec03e2ee6a67dbbf997a06</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteAllExceptSender</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>ac1eb0887d9a331c8f8f49872b8029aef</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteAllExceptSender</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>a2aafacb47a2d5fb5d43b31d9dafd1857</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteChannel</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>a0d524e9800564e382c4a2936c0489eb2</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteChannel</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>ac135667b57c02096f4c1a54750b78b6b</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteChannelWithServ</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>aa0c5a766fe4c7c3b4d2adcdd33a72937</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteChannelWithServ</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>a012b0644918901b271d4001c60ca466a</Anchor>
+              <Anchor>a21b2f772779cead6a48dab772e6c95f9</Anchor>
              </Node>
              <Node>
               <Name>WriteNotice</Name>
@@ -1892,7 +2746,7 @@
              <Node>
               <Name>Handle</Name>
               <Path>class_command.html</Path>
-              <Anchor>af3a7c953dee3a5c527dc7e9a72b63c54</Anchor>
+              <Anchor>ac3c56c09be178723e32416083d3f2dc8</Anchor>
              </Node>
              <Node>
               <Name>RegisterService</Name>
@@ -1911,6 +2765,32 @@
             <Path>class_command_base.html</Path>
             <Subnodes>
              <Node>
+              <Name>Params</Name>
+              <Path>class_command_base_1_1_params.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Params</Name>
+                <Path>class_command_base_1_1_params.html</Path>
+                <Anchor>a817cf507548e7afaa7d6364d0c95cc2e</Anchor>
+               </Node>
+               <Node>
+                <Name>Params</Name>
+                <Path>class_command_base_1_1_params.html</Path>
+                <Anchor>aeb6716263c9d90eb241dc999a1551141</Anchor>
+               </Node>
+               <Node>
+                <Name>Params</Name>
+                <Path>class_command_base_1_1_params.html</Path>
+                <Anchor>a26d72b005b75ac7c12a5c20d31460943</Anchor>
+               </Node>
+               <Node>
+                <Name>GetTags</Name>
+                <Path>class_command_base_1_1_params.html</Path>
+                <Anchor>a1906509d89d82a488b50b882596ecfa1</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>CommandBase</Name>
               <Path>class_command_base.html</Path>
               <Anchor>add9275e896ec5a527d9fcd47c9b47430</Anchor>
@@ -1921,11 +2801,6 @@
               <Anchor>a0268f581df9f534ca703248a06e70e93</Anchor>
              </Node>
              <Node>
-              <Name>Disable</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>a7c28da48ef86ad2e956986d31bd4f7ce</Anchor>
-             </Node>
-             <Node>
               <Name>EncodeParameter</Name>
               <Path>class_command_base.html</Path>
               <Anchor>a7ccd01afa6708aa696a2ab560d09f859</Anchor>
@@ -1933,12 +2808,7 @@
              <Node>
               <Name>GetRouting</Name>
               <Path>class_command_base.html</Path>
-              <Anchor>a6e947b1cb10c389762f325432818c37a</Anchor>
-             </Node>
-             <Node>
-              <Name>IsDisabled</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>ae46175b36c732f033d2c6d4bcc3c6219</Anchor>
+              <Anchor>ac2d0453356b90a1760f99ca30ddd0c60</Anchor>
              </Node>
              <Node>
               <Name>WorksBeforeReg</Name>
@@ -1949,11 +2819,6 @@
               <Name>allow_empty_last_param</Name>
               <Path>class_command_base.html</Path>
               <Anchor>aaa608bb2c13a1f0d95291303396d9f27</Anchor>
-             </Node>
-             <Node>
-              <Name>disabled</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>ac078a361e7a2a2d6ab9d5e3a0c979a05</Anchor>
              </Node>
              <Node>
               <Name>flags_needed</Name>
@@ -2034,22 +2899,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CommandModule</Name>
-            <Path>class_command_module.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>CommandModule</Name>
-              <Path>class_command_module.html</Path>
-              <Anchor>afa6789de43c30de541159ff341e8d41e</Anchor>
-             </Node>
-             <Node>
-              <Name>GetVersion</Name>
-              <Path>class_command_module.html</Path>
-              <Anchor>a563725dfafbcb73491f148cd84c04a2e</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>CommandParser</Name>
             <Path>class_command_parser.html</Path>
             <Subnodes>
@@ -2071,7 +2920,7 @@
              <Node>
               <Name>CallHandler</Name>
               <Path>class_command_parser.html</Path>
-              <Anchor>a958262cd83e39063db2b050aa05c8ca5</Anchor>
+              <Anchor>abe74ef59b493c91605fc41b27a20ac3f</Anchor>
              </Node>
              <Node>
               <Name>GetCommands</Name>
@@ -2086,7 +2935,7 @@
              <Node>
               <Name>ProcessBuffer</Name>
               <Path>class_command_parser.html</Path>
-              <Anchor>a70ba6ca548f8a6c1d1b972e5387f48af</Anchor>
+              <Anchor>a82a599fc2bd780188bf5dfb3afdbee0b</Anchor>
              </Node>
              <Node>
               <Name>RemoveCommand</Name>
@@ -2107,7 +2956,7 @@
              <Node>
               <Name>Handle</Name>
               <Path>class_command_whowas.html</Path>
-              <Anchor>ab55d4b317fdf1b80ecf119e36a66a3c4</Anchor>
+              <Anchor>a7bbd87964f12d59d8498f8f494377455</Anchor>
              </Node>
              <Node>
               <Name>manager</Name>
@@ -2521,32 +3370,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>DeprecatedConfig</Name>
-            <Path>struct_deprecated_config.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>key</Name>
-              <Path>struct_deprecated_config.html</Path>
-              <Anchor>a6b2e894582b813372b1ae87d5fea1bdd</Anchor>
-             </Node>
-             <Node>
-              <Name>reason</Name>
-              <Path>struct_deprecated_config.html</Path>
-              <Anchor>a824d57ef90fd34587c79736cd89cea3d</Anchor>
-             </Node>
-             <Node>
-              <Name>tag</Name>
-              <Path>struct_deprecated_config.html</Path>
-              <Anchor>a1604e152482164942affadcad4a12e21</Anchor>
-             </Node>
-             <Node>
-              <Name>value</Name>
-              <Path>struct_deprecated_config.html</Path>
-              <Anchor>a863cf422ecccce0413fd8500a78a15c8</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>DIR</Name>
             <Path>struct_d_i_r.html</Path>
             <Subnodes>
@@ -2601,6 +3424,11 @@
               <Name>CallInit</Name>
               <Path>class_d_l_l_manager.html</Path>
               <Anchor>a92c364159dcf50c8108d5095d1595a2c</Anchor>
+             </Node>
+             <Node>
+              <Name>GetSymbol</Name>
+              <Path>class_d_l_l_manager.html</Path>
+              <Anchor>a0e8f4cb7a0bd033cf66975e66bedcc8a</Anchor>
              </Node>
              <Node>
               <Name>GetVersion</Name>
@@ -2760,7 +3588,7 @@
              <Node>
               <Name>ELine</Name>
               <Path>class_e_line.html</Path>
-              <Anchor>aabca0cac6a7cf63665e41e1acb17e9ce</Anchor>
+              <Anchor>a2e354dfa72a01c9dfe50cf4eebd88ef4</Anchor>
              </Node>
              <Node>
               <Name>~ELine</Name>
@@ -2821,7 +3649,7 @@
              <Node>
               <Name>Generate</Name>
               <Path>class_e_line_factory.html</Path>
-              <Anchor>ac8526b15bb85a0e28f89e40dce1213d7</Anchor>
+              <Anchor>aaa6e67f5b2e1d43fa0f9ce51d9440b22</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2966,7 +3794,7 @@
              <Node>
               <Name>free</Name>
               <Path>class_extension_item.html</Path>
-              <Anchor>aa2e5905fc30573e53feebfe0864f36b2</Anchor>
+              <Anchor>a533ed21a5df43547c2df5be1c9eedb0e</Anchor>
              </Node>
              <Node>
               <Name>get_raw</Name>
@@ -3100,6 +3928,37 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>FilePosition</Name>
+            <Path>struct_file_position.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>FilePosition</Name>
+              <Path>struct_file_position.html</Path>
+              <Anchor>acbe3002a376fa97d874e19872802d091</Anchor>
+             </Node>
+             <Node>
+              <Name>str</Name>
+              <Path>struct_file_position.html</Path>
+              <Anchor>ad52931339a55205a53f0682b72896670</Anchor>
+             </Node>
+             <Node>
+              <Name>column</Name>
+              <Path>struct_file_position.html</Path>
+              <Anchor>abf9db0b60b79c4d0f2e4c99fa2471089</Anchor>
+             </Node>
+             <Node>
+              <Name>line</Name>
+              <Path>struct_file_position.html</Path>
+              <Anchor>afce8d4ad90436167546693dbf41e8883</Anchor>
+             </Node>
+             <Node>
+              <Name>name</Name>
+              <Path>struct_file_position.html</Path>
+              <Anchor>a8fdbf88f11c8d82df0598f22a9f65b73</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>FileReader</Name>
             <Path>class_file_reader.html</Path>
             <Subnodes>
@@ -3143,37 +4002,27 @@
            </Node>
            <Node>
             <Name>FileWrapper</Name>
-            <Path>struct_file_wrapper.html</Path>
+            <Path>class_file_wrapper.html</Path>
             <Subnodes>
              <Node>
               <Name>FileWrapper</Name>
-              <Path>struct_file_wrapper.html</Path>
-              <Anchor>adcb99f4c84e12714b4e1833252028254</Anchor>
+              <Path>class_file_wrapper.html</Path>
+              <Anchor>a0ef2761e5f7ac54f63a49d5d879e4790</Anchor>
              </Node>
              <Node>
               <Name>~FileWrapper</Name>
-              <Path>struct_file_wrapper.html</Path>
+              <Path>class_file_wrapper.html</Path>
               <Anchor>a9cf9ab7eab0074d0c9cb2415414d77ae</Anchor>
              </Node>
              <Node>
               <Name>operator bool</Name>
-              <Path>struct_file_wrapper.html</Path>
+              <Path>class_file_wrapper.html</Path>
               <Anchor>a384b19a352ffe74b93f02a269261461d</Anchor>
              </Node>
              <Node>
               <Name>operator FILE *</Name>
-              <Path>struct_file_wrapper.html</Path>
+              <Path>class_file_wrapper.html</Path>
               <Anchor>ad0c639b07a55a3b4d3b1353302847a08</Anchor>
-             </Node>
-             <Node>
-              <Name>close_with_pclose</Name>
-              <Path>struct_file_wrapper.html</Path>
-              <Anchor>a6488614e0b3b0ddf29957b8f45a3b424</Anchor>
-             </Node>
-             <Node>
-              <Name>f</Name>
-              <Path>struct_file_wrapper.html</Path>
-              <Anchor>a56e940c32807cbb77d1d29b811763774</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3214,44 +4063,13 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>fpos</Name>
-            <Path>structfpos.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>fpos</Name>
-              <Path>structfpos.html</Path>
-              <Anchor>a64f1deb9705ed9463b7f1af77c7906de</Anchor>
-             </Node>
-             <Node>
-              <Name>str</Name>
-              <Path>structfpos.html</Path>
-              <Anchor>aaa7b283578c1bf58d11e0a71dfb90153</Anchor>
-             </Node>
-             <Node>
-              <Name>col</Name>
-              <Path>structfpos.html</Path>
-              <Anchor>ad181e8f2ef26c52b5b2f8fb6a801922b</Anchor>
-             </Node>
-             <Node>
-              <Name>filename</Name>
-              <Path>structfpos.html</Path>
-              <Anchor>a5b3d8d4c41b77901112fe636ffff84ac</Anchor>
-             </Node>
-             <Node>
-              <Name>line</Name>
-              <Path>structfpos.html</Path>
-              <Anchor>ae7198d51d3c9694182ac626e0787a2fd</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>GLine</Name>
             <Path>class_g_line.html</Path>
             <Subnodes>
              <Node>
               <Name>GLine</Name>
               <Path>class_g_line.html</Path>
-              <Anchor>a456a3d7afc7e580cc27d92a1b0e7df0b</Anchor>
+              <Anchor>a6b6fdc363fcc511d66e9f87918ffdb49</Anchor>
              </Node>
              <Node>
               <Name>~GLine</Name>
@@ -3307,23 +4125,7 @@
              <Node>
               <Name>Generate</Name>
               <Path>class_g_line_factory.html</Path>
-              <Anchor>aac34600312e3e34473a3989f4378ef0a</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>init_t</Name>
-            <Path>unioninit__t.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>fptr</Name>
-              <Path>unioninit__t.html</Path>
-              <Anchor>ab9e1738b4736bd2e821493d177519afb</Anchor>
-             </Node>
-             <Node>
-              <Name>vptr</Name>
-              <Path>unioninit__t.html</Path>
-              <Anchor>a9103444249045047b72ad52b69fddd28</Anchor>
+              <Anchor>ac1bb1583bf37c451cc8cbcd710354335</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3335,6 +4137,11 @@
               <Name>InspIRCd</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>af964ce79c5dbbfe330daeccfd2db2004</Anchor>
+             </Node>
+             <Node>
+              <Name>BindPort</Name>
+              <Path>class_insp_i_r_cd.html</Path>
+              <Anchor>a835dc33d1f846c56c7995c0c3f8e92f2</Anchor>
              </Node>
              <Node>
               <Name>BindPorts</Name>
@@ -3390,6 +4197,11 @@
               <Name>GetReadBuffer</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>aa3ec065af4894905068487bc56a9f757</Anchor>
+             </Node>
+             <Node>
+              <Name>GetRFCEvents</Name>
+              <Path>class_insp_i_r_cd.html</Path>
+              <Anchor>a0f0cacc0a2c7004c738e962272901d56</Anchor>
              </Node>
              <Node>
               <Name>GetVersionString</Name>
@@ -3758,7 +4570,7 @@
              <Node>
               <Name>KLine</Name>
               <Path>class_k_line.html</Path>
-              <Anchor>a26feb1c32b5b73fffcbfbf8d788582de</Anchor>
+              <Anchor>ab304be07577f5cd298899bd415bf8ae1</Anchor>
              </Node>
              <Node>
               <Name>~KLine</Name>
@@ -3819,7 +4631,7 @@
              <Node>
               <Name>Generate</Name>
               <Path>class_k_line_factory.html</Path>
-              <Anchor>ad53ae53e570af2b63c02b33e9d79f66f</Anchor>
+              <Anchor>ac8b6593062c2d930ad70270dac4b653f</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3918,7 +4730,7 @@
              <Node>
               <Name>ListModeBase</Name>
               <Path>class_list_mode_base.html</Path>
-              <Anchor>aa394375ce17f801820ef7320c4404991</Anchor>
+              <Anchor>a15cb0a9b3193b21cd33c3a2260687b28</Anchor>
              </Node>
              <Node>
               <Name>DisplayEmptyList</Name>
@@ -3991,11 +4803,6 @@
               <Anchor>a3ed8f901402adaea45b4d666e113ec7f</Anchor>
              </Node>
              <Node>
-              <Name>configtag</Name>
-              <Path>class_list_mode_base.html</Path>
-              <Anchor>ac09ebc5d5b03c7e24a1dc4c26565359b</Anchor>
-             </Node>
-             <Node>
               <Name>endoflistnumeric</Name>
               <Path>class_list_mode_base.html</Path>
               <Anchor>ac8a8881b20fbb8c46701e8ad230ed1bd</Anchor>
@@ -4039,7 +4846,7 @@
              <Node>
               <Name>free</Name>
               <Path>class_local_ext_item.html</Path>
-              <Anchor>ae5fc0f80a1b9305065a3002fd52a66ad</Anchor>
+              <Anchor>ad784be1bc9903fe30110652c91375384</Anchor>
              </Node>
              <Node>
               <Name>serialize</Name>
@@ -4070,7 +4877,7 @@
              <Node>
               <Name>free</Name>
               <Path>class_local_int_ext.html</Path>
-              <Anchor>a27a6cb767d6bbbe42af0c250c9fed20c</Anchor>
+              <Anchor>a1052c3115d0e3e8b1d02f0d94756609e</Anchor>
              </Node>
              <Node>
               <Name>get</Name>
@@ -4185,6 +4992,16 @@
               <Anchor>a27e3fd845d8f4d706b5bcea6aca17060</Anchor>
              </Node>
              <Node>
+              <Name>Send</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>aa80f55654d7836d1603860a6030d6e34</Anchor>
+             </Node>
+             <Node>
+              <Name>Send</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>ab52df1f1f5e7dbb619a8d0ed438856b2</Anchor>
+             </Node>
+             <Node>
               <Name>SetClass</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a1f3fc890c0439dd32b3c920ac572259c</Anchor>
@@ -4192,22 +5009,12 @@
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a59559cdec703ef718c44b7a053bf6b96</Anchor>
+              <Anchor>a65daaaaed3fe026aa71b6ee08a2f3bab</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a57d2be473e5b0457b2d74e943ee893c3</Anchor>
-             </Node>
-             <Node>
-              <Name>Write</Name>
-              <Path>class_local_user.html</Path>
-              <Anchor>ac34e0cb015531161a5c7d9f1991a5f39</Anchor>
-             </Node>
-             <Node>
-              <Name>Write</Name>
-              <Path>class_local_user.html</Path>
-              <Anchor>aab456b0324d3f1584bd818b9743841be</Anchor>
+              <Anchor>aabccec0420e584843b0a485264d3fb8f</Anchor>
              </Node>
              <Node>
               <Name>WriteRemoteNotice</Name>
@@ -4283,6 +5090,11 @@
               <Name>quitting_sendq</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a74033c63ba6bbed1d889125d7ab39dbb</Anchor>
+             </Node>
+             <Node>
+              <Name>serializer</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>a91c43fa2d9386118bf72004db00f43b6</Anchor>
              </Node>
              <Node>
               <Name>server_sa</Name>
@@ -4461,12 +5273,32 @@
              <Node>
               <Name>MessageDetails</Name>
               <Path>class_message_details.html</Path>
-              <Anchor>a9c2a845cb653657afbf6ed6814c685f8</Anchor>
+              <Anchor>a4c599ebbf07aea1412f7f3231a38fd13</Anchor>
              </Node>
              <Node>
-              <Name>echooriginal</Name>
+              <Name>IsCTCP</Name>
               <Path>class_message_details.html</Path>
-              <Anchor>abeed72c930e45915d6860435c48198ac</Anchor>
+              <Anchor>a3d5c1d9b726f7d3cccecca34e4a225a4</Anchor>
+             </Node>
+             <Node>
+              <Name>IsCTCP</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>a49990fe2e86387f6495d07cf18ee351e</Anchor>
+             </Node>
+             <Node>
+              <Name>IsCTCP</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>a164f9f019a8306b3e1ee8a54f66ef053</Anchor>
+             </Node>
+             <Node>
+              <Name>echo</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>ab69dc8b8a08f3508548980e3786dfbbb</Anchor>
+             </Node>
+             <Node>
+              <Name>echo_original</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>ae42ea180380144b071ccce395262c662</Anchor>
              </Node>
              <Node>
               <Name>exemptions</Name>
@@ -4474,9 +5306,19 @@
               <Anchor>aba1f48fb979421e2a8a56252a9215b5f</Anchor>
              </Node>
              <Node>
-              <Name>originaltext</Name>
+              <Name>original_text</Name>
               <Path>class_message_details.html</Path>
-              <Anchor>a93cf75bb2aa001f2646aa48f670eef76</Anchor>
+              <Anchor>aafe5a4b67aafb28c3cb21b102345ea1a</Anchor>
+             </Node>
+             <Node>
+              <Name>tags_in</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>a0b400940ad9e5ef46508eba998c9b2be</Anchor>
+             </Node>
+             <Node>
+              <Name>tags_out</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>a0ddd6822847bb03664c9775a02b1949c</Anchor>
              </Node>
              <Node>
               <Name>text</Name>
@@ -4868,19 +5710,14 @@
               <Anchor>a4ec8943403f8c362466907bfb9d77650</Anchor>
              </Node>
              <Node>
-              <Name>GetLastParse</Name>
+              <Name>GetLastChangeList</Name>
               <Path>class_mode_parser.html</Path>
-              <Anchor>a8592817275b085de5c7dd9d6aaaaf508</Anchor>
+              <Anchor>a2cd0e5fc28292f90ff982973ebd13622</Anchor>
              </Node>
              <Node>
               <Name>GetListModes</Name>
               <Path>class_mode_parser.html</Path>
               <Anchor>a84cd9aa20814fb9b33ac3ac6b9d0e5d3</Anchor>
-             </Node>
-             <Node>
-              <Name>GetModeListFor004Numeric</Name>
-              <Path>class_mode_parser.html</Path>
-              <Anchor>a85f25e41530df840c7bdfd9d00d71e49</Anchor>
              </Node>
              <Node>
               <Name>GetModes</Name>
@@ -5021,6 +5858,11 @@
             <Path>class_module.html</Path>
             <Subnodes>
              <Node>
+              <Name>List</Name>
+              <Path>class_module.html</Path>
+              <Anchor>a83b2c5b16047bc1a89ab9035396fbdd6</Anchor>
+             </Node>
+             <Node>
               <Name>Module</Name>
               <Path>class_module.html</Path>
               <Anchor>a5a240a8a9ab1813b17bcb810b24ceaea</Anchor>
@@ -5081,19 +5923,9 @@
               <Anchor>a135ab5a74a236dc4f696191b25efec2b</Anchor>
              </Node>
              <Node>
-              <Name>OnChangeLocalUserGECOS</Name>
+              <Name>OnChangeRealName</Name>
               <Path>class_module.html</Path>
-              <Anchor>abcde3dba5bc6c5359b0bbc9964a91a1b</Anchor>
-             </Node>
-             <Node>
-              <Name>OnChangeLocalUserHost</Name>
-              <Path>class_module.html</Path>
-              <Anchor>a83e8a040d752c423103420a814dfc868</Anchor>
-             </Node>
-             <Node>
-              <Name>OnChangeName</Name>
-              <Path>class_module.html</Path>
-              <Anchor>a1d41b8806e963af21486007e5f8369c3</Anchor>
+              <Anchor>a8e9cee26dfdf58c5e001fafedbefc107</Anchor>
              </Node>
              <Node>
               <Name>OnChannelDelete</Name>
@@ -5166,11 +5998,6 @@
               <Anchor>a152a4ce724c1fed088c51c12be43a62b</Anchor>
              </Node>
              <Node>
-              <Name>OnInfo</Name>
-              <Path>class_module.html</Path>
-              <Anchor>af351dba33f01a510e4b98ebe76efa452</Anchor>
-             </Node>
-             <Node>
               <Name>OnKill</Name>
               <Path>class_module.html</Path>
               <Anchor>a140312a31a1e9163193dd7707707c6b8</Anchor>
@@ -5183,7 +6010,7 @@
              <Node>
               <Name>OnMode</Name>
               <Path>class_module.html</Path>
-              <Anchor>a8fe2543477e9a5ae32d78e52898bee03</Anchor>
+              <Anchor>aeaa2dac1cd107a0f20f64459b24e9ad7</Anchor>
              </Node>
              <Node>
               <Name>OnModuleRehash</Name>
@@ -5213,7 +6040,7 @@
              <Node>
               <Name>OnPostCommand</Name>
               <Path>class_module.html</Path>
-              <Anchor>a66fa348b4ec47930d28ade1f74cf48b6</Anchor>
+              <Anchor>af0c2cd321547c9b2f6d32f948ec7afd9</Anchor>
              </Node>
              <Node>
               <Name>OnPostConnect</Name>
@@ -5241,9 +6068,19 @@
               <Anchor>a9a6faca7798ee9ac8a9330c79bacbcd4</Anchor>
              </Node>
              <Node>
+              <Name>OnPreChangeHost</Name>
+              <Path>class_module.html</Path>
+              <Anchor>a8028519013eba76b59de3346bd5b0498</Anchor>
+             </Node>
+             <Node>
+              <Name>OnPreChangeRealName</Name>
+              <Path>class_module.html</Path>
+              <Anchor>a060080b9ac484e4d16d649b239dced89</Anchor>
+             </Node>
+             <Node>
               <Name>OnPreCommand</Name>
               <Path>class_module.html</Path>
-              <Anchor>a678967e0e769ecd295a3a272fa488af3</Anchor>
+              <Anchor>a4698d4a4a5da9922539459e873bf8d4c</Anchor>
              </Node>
              <Node>
               <Name>OnPreMode</Name>
@@ -5271,11 +6108,6 @@
               <Anchor>a7d39c9fabab9dea701f4a3ad2cfff37b</Anchor>
              </Node>
              <Node>
-              <Name>OnSendWhoLine</Name>
-              <Path>class_module.html</Path>
-              <Anchor>af84e0d2b7da4625903cc2a7c816584f8</Anchor>
-             </Node>
-             <Node>
               <Name>OnServiceAdd</Name>
               <Path>class_module.html</Path>
               <Anchor>a740d7f295d67d93c40dc4c699c9f9abc</Anchor>
@@ -5284,11 +6116,6 @@
               <Name>OnServiceDel</Name>
               <Path>class_module.html</Path>
               <Anchor>af5bf42c45356dc85ae0fe07280acb6ba</Anchor>
-             </Node>
-             <Node>
-              <Name>OnSetAway</Name>
-              <Path>class_module.html</Path>
-              <Anchor>ab16f4b39fb1f4353ad2f5d8b652e7425</Anchor>
              </Node>
              <Node>
               <Name>OnSetConnectClass</Name>
@@ -5394,6 +6221,11 @@
               <Name>OnUserRegister</Name>
               <Path>class_module.html</Path>
               <Anchor>aeee48e5f4d4efbb826f462c1e5f4d0ee</Anchor>
+             </Node>
+             <Node>
+              <Name>OnUserWrite</Name>
+              <Path>class_module.html</Path>
+              <Anchor>abadd96f81a5cf5af438162f2b9a0c1f1</Anchor>
              </Node>
              <Node>
               <Name>Prioritize</Name>
@@ -5585,7 +6417,7 @@
              <Node>
               <Name>EventHandlers</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>a099599c85a6e8abf11230cf9c9c92ce0</Anchor>
+              <Anchor>a99f78c36a8ecefe883b159a0f1d02e87</Anchor>
              </Node>
              <Node>
               <Name>NewServices</Name>
@@ -5773,6 +6605,11 @@
               <Anchor>ac449be6ccf15cee6f71dd3da9b135e5d</Anchor>
              </Node>
              <Node>
+              <Name>IsParameterSecret</Name>
+              <Path>class_param_mode_base.html</Path>
+              <Anchor>a232022bc544aa0b49792ef718f0abe1b</Anchor>
+             </Node>
+             <Node>
               <Name>OnModeChange</Name>
               <Path>class_param_mode_base.html</Path>
               <Anchor>ab7330c7e946dc966740bc1a4159096df</Anchor>
@@ -5785,7 +6622,7 @@
              <Node>
               <Name>OnUnset</Name>
               <Path>class_param_mode_base.html</Path>
-              <Anchor>ae861a499a4a7fd519649ccbf626f6055</Anchor>
+              <Anchor>a9a332f24cbb8c5f8f6c91909538ef39c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -5836,7 +6673,7 @@
              <Node>
               <Name>current</Name>
               <Path>struct_parser.html</Path>
-              <Anchor>a8fa44c4aaa697735f70ac915a83a09c7</Anchor>
+              <Anchor>a4dd3c8e9f0765a7022851e02088b511a</Anchor>
              </Node>
              <Node>
               <Name>file</Name>
@@ -5851,7 +6688,7 @@
              <Node>
               <Name>last_tag</Name>
               <Path>struct_parser.html</Path>
-              <Anchor>a8980da81adaa9561c6082d92cad7e0eb</Anchor>
+              <Anchor>ab7ce1877112a0572d3043ad1ab2d10d0</Anchor>
              </Node>
              <Node>
               <Name>mandatory_tag</Name>
@@ -6056,7 +6893,7 @@
              <Node>
               <Name>BroadcastEncap</Name>
               <Path>class_protocol_interface.html</Path>
-              <Anchor>a0629649d7942ab351e2ae73f448372ac</Anchor>
+              <Anchor>ade57ec03ffb8f1e25490982bc0da8f91</Anchor>
              </Node>
              <Node>
               <Name>GetServerList</Name>
@@ -6071,7 +6908,7 @@
              <Node>
               <Name>SendEncapsulatedData</Name>
               <Path>class_protocol_interface.html</Path>
-              <Anchor>a86747a01ce38281d771e5406aa47d6a4</Anchor>
+              <Anchor>aaacbdfdaff78ca5be01acad2a28fdea2</Anchor>
              </Node>
              <Node>
               <Name>SendMessage</Name>
@@ -6128,7 +6965,7 @@
              <Node>
               <Name>QLine</Name>
               <Path>class_q_line.html</Path>
-              <Anchor>a11fdd9cad47bb08af21a89181156676c</Anchor>
+              <Anchor>a2df947556e5e2d31ebeb578f6cb85afc</Anchor>
              </Node>
              <Node>
               <Name>~QLine</Name>
@@ -6174,7 +7011,7 @@
              <Node>
               <Name>Generate</Name>
               <Path>class_q_line_factory.html</Path>
-              <Anchor>a717e4e2af7df5a8935923baae6f3543f</Anchor>
+              <Anchor>ab1fec79ee00c32c513280081804a49bf</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -6507,11 +7344,6 @@
               <Anchor>a4c2fa074afd75a44c16b78563e52a9da</Anchor>
              </Node>
              <Node>
-              <Name>ApplyDisabledCommands</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a17b0f1cde70631f31c7a829de0e71141</Anchor>
-             </Node>
-             <Node>
               <Name>ApplyModules</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a9710383dce8b0d659220758326aeed19</Anchor>
@@ -6582,29 +7414,9 @@
               <Anchor>af71a282e9a3bb2680d224e00e7bd048d</Anchor>
              </Node>
              <Node>
-              <Name>CycleHostsFromUser</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>ad617b3125462865dd4a2c80ea153a6d3</Anchor>
-             </Node>
-             <Node>
               <Name>DefaultModes</Name>
               <Path>class_server_config.html</Path>
               <Anchor>af55b847d1ef4329cf249fba6d3042754</Anchor>
-             </Node>
-             <Node>
-              <Name>DisabledCModes</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>ada72f9d6ad21d28507129f75a004452a</Anchor>
-             </Node>
-             <Node>
-              <Name>DisabledDontExist</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a163e7a4620f8929bf4e093a543a0a50d</Anchor>
-             </Node>
-             <Node>
-              <Name>DisabledUModes</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a5dafdec2791f9b53c787a93a67c63244</Anchor>
              </Node>
              <Node>
               <Name>EmptyTag</Name>
@@ -6627,34 +7439,14 @@
               <Anchor>a7412f6274dd42d284df391db1ca3a4c0</Anchor>
              </Node>
              <Node>
-              <Name>GenericOper</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a8fe85f921e2b564c229cd72d68c927ad</Anchor>
-             </Node>
-             <Node>
               <Name>HideBans</Name>
               <Path>class_server_config.html</Path>
               <Anchor>adc2af3d73c02190eaa68ca4c2adf5140</Anchor>
              </Node>
              <Node>
-              <Name>HideKillsServer</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a59637aab8aeaf96e6b5bae4130a7dbaf</Anchor>
-             </Node>
-             <Node>
               <Name>HideServer</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a83fcac75daf7ef7420660388b2a77f99</Anchor>
-             </Node>
-             <Node>
-              <Name>HideSplits</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>ad7f9bc2d3d2374b777cd961699711db9</Anchor>
-             </Node>
-             <Node>
-              <Name>HideULineKills</Name>
-              <Path>class_server_config.html</Path>
-              <Anchor>a4526deca5c03510737263e374753c996</Anchor>
              </Node>
              <Node>
               <Name>Limits</Name>
@@ -6752,9 +7544,9 @@
               <Anchor>aeeac6d257e4b9d0aa64a656c271aa08e</Anchor>
              </Node>
              <Node>
-              <Name>UserStats</Name>
+              <Name>TimeSkipWarn</Name>
               <Path>class_server_config.html</Path>
-              <Anchor>a2b09d5e7e8d76003d31638349a10fd6f</Anchor>
+              <Anchor>a5aba008b0e4751893013122a6fc1b294</Anchor>
              </Node>
              <Node>
               <Name>valid</Name>
@@ -6803,11 +7595,6 @@
               <Anchor>aaefe124e2608aedf569468a09ea53962</Anchor>
              </Node>
              <Node>
-              <Name>MaxGecos</Name>
-              <Path>class_server_limits.html</Path>
-              <Anchor>a27e0aaa49977bb54a3911c50611128d2</Anchor>
-             </Node>
-             <Node>
               <Name>MaxHost</Name>
               <Path>class_server_limits.html</Path>
               <Anchor>a9af59dd9d41c75253ecc8bb06e3846d3</Anchor>
@@ -6831,6 +7618,11 @@
               <Name>MaxQuit</Name>
               <Path>class_server_limits.html</Path>
               <Anchor>a7353e39063921ac1805c655873521d51</Anchor>
+             </Node>
+             <Node>
+              <Name>MaxReal</Name>
+              <Path>class_server_limits.html</Path>
+              <Anchor>afda5f0bb30b4fbe1629d7462d16da8e3</Anchor>
              </Node>
              <Node>
               <Name>MaxTopic</Name>
@@ -7005,7 +7797,7 @@
              <Node>
               <Name>free</Name>
               <Path>class_simple_ext_item.html</Path>
-              <Anchor>a2eb43e677e93873fd792f97313e074e9</Anchor>
+              <Anchor>a775101a2f107b7dc8547e56e3a78a948</Anchor>
              </Node>
              <Node>
               <Name>get</Name>
@@ -7119,6 +7911,22 @@
               <Name>WriteToSnoMask</Name>
               <Path>class_snomask_manager.html</Path>
               <Anchor>a52896b0bc2e54dae3e1c8627882b370f</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>sockaddr_un</Name>
+            <Path>structsockaddr__un.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>sun_family</Name>
+              <Path>structsockaddr__un.html</Path>
+              <Anchor>aeb43d9867dc613f4827614fd112b7c16</Anchor>
+             </Node>
+             <Node>
+              <Name>sun_path</Name>
+              <Path>structsockaddr__un.html</Path>
+              <Anchor>a3b9b3bc19374ebd22edfa2c22cf7f614</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7258,22 +8066,22 @@
              <Node>
               <Name>Handle</Name>
               <Path>class_split_command.html</Path>
-              <Anchor>a440f5df7cf40f6933e1f2b3c6913aee3</Anchor>
+              <Anchor>ad46009c25307527b094416e67057e757</Anchor>
              </Node>
              <Node>
               <Name>HandleLocal</Name>
               <Path>class_split_command.html</Path>
-              <Anchor>aa01ea1226c7dad42ae37fc7e75f269cb</Anchor>
+              <Anchor>a64b7307025aa4a47d20fbd9622677a55</Anchor>
              </Node>
              <Node>
               <Name>HandleRemote</Name>
               <Path>class_split_command.html</Path>
-              <Anchor>a17be2283c20b0979b2752df43315e5e5</Anchor>
+              <Anchor>a52acee8c63315e60e4457f6c9da73169</Anchor>
              </Node>
              <Node>
               <Name>HandleServer</Name>
               <Path>class_split_command.html</Path>
-              <Anchor>ae35ebe5dddc2cf4bfcef6d25f97d03a7</Anchor>
+              <Anchor>a9dce2d5bc8f4ef3786ba4511207a13bd</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7368,9 +8176,26 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Type</Name>
+              <Path>class_stream_socket.html</Path>
+              <Anchor>a33cfcc8a4b5fc91094ff99a9da4af33a</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>SS_UNKNOWN</Name>
+                <Path>class_stream_socket.html</Path>
+                <Anchor>a33cfcc8a4b5fc91094ff99a9da4af33aaf3970d8991e6610bb49d64b0987bd199</Anchor>
+               </Node>
+               <Node>
+                <Name>SS_USER</Name>
+                <Path>class_stream_socket.html</Path>
+                <Anchor>a33cfcc8a4b5fc91094ff99a9da4af33aa1d4ecefb0a55afd550df976808a768ab</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>StreamSocket</Name>
               <Path>class_stream_socket.html</Path>
-              <Anchor>a005683fb7badf43a1d0a30b9ad09649e</Anchor>
+              <Anchor>a513907f8715467cff618dcb6534e8b27</Anchor>
              </Node>
              <Node>
               <Name>AddIOHook</Name>
@@ -7453,6 +8278,11 @@
               <Anchor>a80d06a54dac2e7205491002bbca62625</Anchor>
              </Node>
              <Node>
+              <Name>OnSetEndPoint</Name>
+              <Path>class_stream_socket.html</Path>
+              <Anchor>a20b9f76aed97edf1cb3d15b4c2e7dc06</Anchor>
+             </Node>
+             <Node>
               <Name>SetError</Name>
               <Path>class_stream_socket.html</Path>
               <Anchor>a6cf1b75c166a8d5b5bd47061ce4f330b</Anchor>
@@ -7466,6 +8296,11 @@
               <Name>recvq</Name>
               <Path>class_stream_socket.html</Path>
               <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
+             </Node>
+             <Node>
+              <Name>type</Name>
+              <Path>class_stream_socket.html</Path>
+              <Anchor>a56b43f9acc29c42bce5dae9b31ca5c0d</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7486,7 +8321,7 @@
              <Node>
               <Name>free</Name>
               <Path>class_string_ext_item.html</Path>
-              <Anchor>abac8b9b8717623882763b19e6fe52c0e</Anchor>
+              <Anchor>acc947f0f1f6f348a9d856193db08dada</Anchor>
              </Node>
              <Node>
               <Name>get</Name>
@@ -7838,11 +8673,6 @@
               <Path>class_u_i_d_generator.html</Path>
               <Anchor>a7874e12595202349252154445272916a</Anchor>
              </Node>
-             <Node>
-              <Name>TestSuite</Name>
-              <Path>class_u_i_d_generator.html</Path>
-              <Anchor>ab9aaba231fd11196425e75caf709bfc6</Anchor>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -7917,11 +8747,6 @@
               <Anchor>a0ef436dea519899dfea904593d769622</Anchor>
              </Node>
              <Node>
-              <Name>ChangeName</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a6fb2d8fbe3d901226d1f8c7b2518d512</Anchor>
-             </Node>
-             <Node>
               <Name>ChangeNick</Name>
               <Path>class_user.html</Path>
               <Anchor>aafd1fd08aa703b4fdc09a353ec751281</Anchor>
@@ -7930,6 +8755,11 @@
               <Name>ChangeRealHost</Name>
               <Path>class_user.html</Path>
               <Anchor>a8514e939c88b8705ab3a7aa45518effb</Anchor>
+             </Node>
+             <Node>
+              <Name>ChangeRealName</Name>
+              <Path>class_user.html</Path>
+              <Anchor>a78ec689eced9cf03ed9553bfe26e891c</Anchor>
              </Node>
              <Node>
               <Name>cull</Name>
@@ -7980,6 +8810,11 @@
               <Name>GetRealHost</Name>
               <Path>class_user.html</Path>
               <Anchor>a29a28538032a736db7e069439c042285</Anchor>
+             </Node>
+             <Node>
+              <Name>GetRealName</Name>
+              <Path>class_user.html</Path>
+              <Anchor>aef175c05a963e6a647bf9081d0c92d95</Anchor>
              </Node>
              <Node>
               <Name>HasModePermission</Name>
@@ -8059,12 +8894,12 @@
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_user.html</Path>
-              <Anchor>ab819228bac3862c6879aa932b07f4794</Anchor>
+              <Anchor>aafbdb9660bf61bfc6a468b3c46f72ad6</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_user.html</Path>
-              <Anchor>a715b0bc91292af35549cff8d3440024a</Anchor>
+              <Anchor>adc937b4c081b764b6d7baaef58de1856</Anchor>
              </Node>
              <Node>
               <Name>SetMode</Name>
@@ -8087,39 +8922,9 @@
               <Anchor>a326d5c537946b4f6c28c659675d1ed43</Anchor>
              </Node>
              <Node>
-              <Name>Write</Name>
-              <Path>class_user.html</Path>
-              <Anchor>ac23112c612275acb529af30c2ff60515</Anchor>
-             </Node>
-             <Node>
-              <Name>Write</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a508ed8ff1be90f5b9e7437966dcf6f26</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteCommand</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a26522b51cce82ff425a5a8bc2b2654ed</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteCommon</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a61fde66472ef2f5c79ccddc2f0c0e0c1</Anchor>
-             </Node>
-             <Node>
               <Name>WriteCommonRaw</Name>
               <Path>class_user.html</Path>
-              <Anchor>a6b67ff8a39cf18ea837a56c3339f780a</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteFrom</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a51dbd8971acb541df15a28ccf50495f8</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteFrom</Name>
-              <Path>class_user.html</Path>
-              <Anchor>af2b5476e24724e094e55009da9ae79dd</Anchor>
+              <Anchor>a23ba305ba84eea44aa8264fdbd4fa490</Anchor>
              </Node>
              <Node>
               <Name>WriteNotice</Name>
@@ -8192,16 +8997,6 @@
               <Anchor>ab43d06e9f0b6dadc09d3f21614b2bc2e</Anchor>
              </Node>
              <Node>
-              <Name>WriteServ</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a601defc9871b1c57a9c61a26b22a97f8</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteServ</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a30a38a6346a80dc6c0e70689462c80ad</Anchor>
-             </Node>
-             <Node>
               <Name>age</Name>
               <Path>class_user.html</Path>
               <Anchor>a6e62e3d0a124b4418891e11d76faad7e</Anchor>
@@ -8225,11 +9020,6 @@
               <Name>client_sa</Name>
               <Path>class_user.html</Path>
               <Anchor>a118a42a76b20e6cb6de541d9e08041e9</Anchor>
-             </Node>
-             <Node>
-              <Name>fullname</Name>
-              <Path>class_user.html</Path>
-              <Anchor>aa37f981a564b92cb131a4e62e2bd53df</Anchor>
              </Node>
              <Node>
               <Name>ident</Name>
@@ -8306,6 +9096,11 @@
               <Name>OnError</Name>
               <Path>class_user_i_o_handler.html</Path>
               <Anchor>a74690a2e27a6a2a0e1fee2af196ae477</Anchor>
+             </Node>
+             <Node>
+              <Name>OnSetEndPoint</Name>
+              <Path>class_user_i_o_handler.html</Path>
+              <Anchor>a2f67153fc8b18ea8ec89a4291742d357</Anchor>
              </Node>
              <Node>
               <Name>user</Name>
@@ -8541,7 +9336,7 @@
              <Node>
               <Name>XLine</Name>
               <Path>class_x_line.html</Path>
-              <Anchor>a11196eae2c3c10e18a40d0614e653a02</Anchor>
+              <Anchor>abea9b63bf6e089c96e7351169f045145</Anchor>
              </Node>
              <Node>
               <Name>~XLine</Name>
@@ -8601,12 +9396,17 @@
              <Node>
               <Name>duration</Name>
               <Path>class_x_line.html</Path>
-              <Anchor>a4e1b903b875792b357f3a535cf19e347</Anchor>
+              <Anchor>a796ad27e502e6c0bfbec5a69e4563ba7</Anchor>
              </Node>
              <Node>
               <Name>expiry</Name>
               <Path>class_x_line.html</Path>
               <Anchor>ab702e870421e6c3f4bdeaf4f1157fd88</Anchor>
+             </Node>
+             <Node>
+              <Name>from_config</Name>
+              <Path>class_x_line.html</Path>
+              <Anchor>a4e3bfa137f354932a8b3d4ffc55bcc08</Anchor>
              </Node>
              <Node>
               <Name>reason</Name>
@@ -8652,7 +9452,7 @@
              <Node>
               <Name>Generate</Name>
               <Path>class_x_line_factory.html</Path>
-              <Anchor>ae4be92590bb7a3243655a0ee6ce36c4c</Anchor>
+              <Anchor>a68c58492f743a1abad223c2fc8d94cb2</Anchor>
              </Node>
              <Node>
               <Name>GetType</Name>
@@ -8696,6 +9496,11 @@
               <Anchor>aa44e0d30d6f92486ea2009cf76b90f5f</Anchor>
              </Node>
              <Node>
+              <Name>ClearConfigLines</Name>
+              <Path>class_x_line_manager.html</Path>
+              <Anchor>a832fb1fd33eb25364ea23b5252e0fcb6</Anchor>
+             </Node>
+             <Node>
               <Name>DelAll</Name>
               <Path>class_x_line_manager.html</Path>
               <Anchor>a71973b65217264a7ca5563d44fb0c8cb</Anchor>
@@ -8703,7 +9508,7 @@
              <Node>
               <Name>DelLine</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a345469f8339e4aee3ad501130d5329ba</Anchor>
+              <Anchor>a182a524c05b76c65ee3d6c81f3974060</Anchor>
              </Node>
              <Node>
               <Name>ExpireLine</Name>
@@ -8779,7 +9584,7 @@
              <Node>
               <Name>ZLine</Name>
               <Path>class_z_line.html</Path>
-              <Anchor>a7bc7ebd12362c528e80a639d5446cf27</Anchor>
+              <Anchor>ac9c094332cae80a8ab1c7367872f0da1</Anchor>
              </Node>
              <Node>
               <Name>~ZLine</Name>
@@ -8825,7 +9630,7 @@
              <Node>
               <Name>Generate</Name>
               <Path>class_z_line_factory.html</Path>
-              <Anchor>a03e369a494164f077a0a40749d6fae92</Anchor>
+              <Anchor>a9075b6653fee8c7a6584e24cd5724c6b</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -8849,6 +9654,10 @@
            </Node>
            <Node>
             <Name>insp::aligned_storage&lt; Membership &gt;</Name>
+            <Path>classinsp_1_1aligned__storage.html</Path>
+           </Node>
+           <Node>
+            <Name>insp::aligned_storage&lt; std::string &gt;</Name>
             <Path>classinsp_1_1aligned__storage.html</Path>
            </Node>
            <Node>
@@ -8876,10 +9685,26 @@
              <Node>
               <Name>Events::ModuleEventListener</Name>
               <Path>class_events_1_1_module_event_listener.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>ClientProtocol::EventHook</Name>
+                <Path>class_client_protocol_1_1_event_hook.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::MessageTagProvider</Name>
+                <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>Events::ModuleEventProvider</Name>
               <Path>class_events_1_1_module_event_provider.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>ClientProtocol::EventProvider</Name>
+                <Path>class_client_protocol_1_1_event_provider.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
             </Subnodes>
            </Node>
@@ -9000,12 +9825,6 @@
              <Node>
               <Name>Module</Name>
               <Path>class_module.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>CommandModule&lt; Cmd &gt;</Name>
-                <Path>class_command_module.html</Path>
-               </Node>
-              </Subnodes>
              </Node>
              <Node>
               <Name>Server</Name>
@@ -9038,6 +9857,12 @@
                <Node>
                 <Name>DataProvider</Name>
                 <Path>class_data_provider.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ClientProtocol::Serializer</Name>
+                  <Path>class_client_protocol_1_1_serializer.html</Path>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>Events::ModuleEventProvider</Name>
@@ -9160,6 +9985,10 @@
             <Path>class_command_parser.html</Path>
            </Node>
            <Node>
+            <Name>Events::ModuleEventProvider::Comp</Name>
+            <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
+           </Node>
+           <Node>
             <Name>Comp</Name>
             <Path></Path>
             <Subnodes>
@@ -9190,10 +10019,6 @@
             <Path>structstdalgo_1_1defaultdeleter.html</Path>
            </Node>
            <Node>
-            <Name>DeprecatedConfig</Name>
-            <Path>struct_deprecated_config.html</Path>
-           </Node>
-           <Node>
             <Name>DIR</Name>
             <Path>struct_d_i_r.html</Path>
            </Node>
@@ -9204,6 +10029,20 @@
            <Node>
             <Name>WhoWas::Entry</Name>
             <Path>struct_who_was_1_1_entry.html</Path>
+           </Node>
+           <Node>
+            <Name>ClientProtocol::Event</Name>
+            <Path>class_client_protocol_1_1_event.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>ClientProtocol::Events::Join</Name>
+              <Path>struct_client_protocol_1_1_events_1_1_join.html</Path>
+             </Node>
+             <Node>
+              <Name>ClientProtocol::Events::Mode</Name>
+              <Path>class_client_protocol_1_1_events_1_1_mode.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>std::exception</Name>
@@ -9284,6 +10123,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>FilePosition</Name>
+            <Path>struct_file_position.html</Path>
+           </Node>
+           <Node>
             <Name>FileReader</Name>
             <Path>class_file_reader.html</Path>
            </Node>
@@ -9293,7 +10136,7 @@
            </Node>
            <Node>
             <Name>FileWrapper</Name>
-            <Path>struct_file_wrapper.html</Path>
+            <Path>class_file_wrapper.html</Path>
            </Node>
            <Node>
             <Name>FileWriter</Name>
@@ -9314,11 +10157,31 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>insp::detail::flat_map_base&lt; ModuleEventListener *, Comp &gt;</Name>
+            <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>insp::flat_multiset&lt; ModuleEventListener *, Comp &gt;</Name>
+              <Path>classinsp_1_1flat__multiset.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>insp::detail::flat_map_base&lt; std::pair&lt; reference&lt; ExtensionItem &gt;, void * &gt;, std::less&lt; reference&lt; ExtensionItem &gt; &gt;, reference&lt; ExtensionItem &gt;, detail::map_pair_compare&lt; std::pair&lt; reference&lt; ExtensionItem &gt;, void * &gt;, std::less&lt; reference&lt; ExtensionItem &gt; &gt; &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
               <Name>insp::flat_map&lt; reference&lt; ExtensionItem &gt;, void * &gt;</Name>
+              <Path>classinsp_1_1flat__map.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>insp::detail::flat_map_base&lt; std::pair&lt; std::string, MessageTagData &gt;, std::greater&lt; std::string &gt;, std::string, detail::map_pair_compare&lt; std::pair&lt; std::string, MessageTagData &gt;, std::greater&lt; std::string &gt; &gt; &gt;</Name>
+            <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>insp::flat_map&lt; std::string, MessageTagData, std::greater&lt; std::string &gt; &gt;</Name>
               <Path>classinsp_1_1flat__map.html</Path>
              </Node>
             </Subnodes>
@@ -9396,10 +10259,6 @@
             <Path>class_user_1_1_for_each_neighbor_handler.html</Path>
            </Node>
            <Node>
-            <Name>fpos</Name>
-            <Path>structfpos.html</Path>
-           </Node>
-           <Node>
             <Name>Numeric::GenericBuilder&lt; Sep, SendEmpty, Sink &gt;</Name>
             <Path>class_numeric_1_1_generic_builder.html</Path>
            </Node>
@@ -9426,10 +10285,6 @@
               <Path>class_numeric_1_1_param_builder.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>init_t</Name>
-            <Path>unioninit__t.html</Path>
            </Node>
            <Node>
             <Name>irc::insensitive</Name>
@@ -9590,6 +10445,80 @@
             <Path>class_message_details.html</Path>
            </Node>
            <Node>
+            <Name>ClientProtocol::MessageSource</Name>
+            <Path>class_client_protocol_1_1_message_source.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>ClientProtocol::Message</Name>
+              <Path>class_client_protocol_1_1_message.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>ClientProtocol::Messages::Error</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Invite</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Join</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_join.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ClientProtocol::Events::Join</Name>
+                  <Path>struct_client_protocol_1_1_events_1_1_join.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Kick</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_kick.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Mode</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_mode.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Nick</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Numeric</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Part</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Ping</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_ping.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Pong</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_pong.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Privmsg</Name>
+                <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Quit</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
+               </Node>
+               <Node>
+                <Name>ClientProtocol::Messages::Topic</Name>
+                <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>ClientProtocol::MessageTagData</Name>
+            <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
+           </Node>
+           <Node>
             <Name>MessageTarget</Name>
             <Path>class_message_target.html</Path>
            </Node>
@@ -9632,6 +10561,14 @@
            <Node>
             <Name>option</Name>
             <Path>structoption.html</Path>
+           </Node>
+           <Node>
+            <Name>ClientProtocol::Message::Param</Name>
+            <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+           </Node>
+           <Node>
+            <Name>ClientProtocol::ParseOutput</Name>
+            <Path>struct_client_protocol_1_1_parse_output.html</Path>
            </Node>
            <Node>
             <Name>Parser</Name>
@@ -9708,6 +10645,10 @@
             <Path>classreference.html</Path>
            </Node>
            <Node>
+            <Name>ClientProtocol::RFCEvents</Name>
+            <Path>struct_client_protocol_1_1_r_f_c_events.html</Path>
+           </Node>
+           <Node>
             <Name>RouteDescriptor</Name>
             <Path>struct_route_descriptor.html</Path>
            </Node>
@@ -9726,14 +10667,12 @@
              <Node>
               <Name>irc::spacesepstream</Name>
               <Path>classirc_1_1spacesepstream.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>irc::tokenstream</Name>
-                <Path>classirc_1_1tokenstream.html</Path>
-               </Node>
-              </Subnodes>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>ClientProtocol::Message::SerializedInfo</Name>
+            <Path>struct_client_protocol_1_1_message_1_1_serialized_info.html</Path>
            </Node>
            <Node>
             <Name>ServerConfig</Name>
@@ -9764,6 +10703,10 @@
             <Path>class_snomask.html</Path>
            </Node>
            <Node>
+            <Name>sockaddr_un</Name>
+            <Path>structsockaddr__un.html</Path>
+           </Node>
+           <Node>
             <Name>irc::sockets::sockaddrs</Name>
             <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
            </Node>
@@ -9782,6 +10725,10 @@
            <Node>
             <Name>irc::StrHashComp</Name>
             <Path>structirc_1_1_str_hash_comp.html</Path>
+           </Node>
+           <Node>
+            <Name>ClientProtocol::TagSelection</Name>
+            <Path>class_client_protocol_1_1_tag_selection.html</Path>
            </Node>
            <Node>
             <Name>Thread</Name>
@@ -9832,6 +10779,10 @@
             <Path>class_token_list.html</Path>
            </Node>
            <Node>
+            <Name>irc::tokenstream</Name>
+            <Path>classirc_1_1tokenstream.html</Path>
+           </Node>
+           <Node>
             <Name>UIDGenerator</Name>
             <Path>class_u_i_d_generator.html</Path>
            </Node>
@@ -9846,6 +10797,16 @@
              <Node>
               <Name>Module</Name>
               <Path>class_module.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>std::vector&lt; T &gt;</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>CommandBase::Params</Name>
+              <Path>class_command_base_1_1_params.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -10162,10 +11123,6 @@
               <Path>functions_vars_i.html</Path>
              </Node>
              <Node>
-              <Name>k</Name>
-              <Path>functions_vars_k.html</Path>
-             </Node>
-             <Node>
               <Name>l</Name>
               <Path>functions_vars_l.html</Path>
              </Node>
@@ -10290,6 +11247,18 @@
              <Node>
               <Name>channels.h</Name>
               <Path>channels_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>clientprotocol.h</Name>
+              <Path>clientprotocol_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>clientprotocolevent.h</Name>
+              <Path>clientprotocolevent_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>clientprotocolmsg.h</Name>
+              <Path>clientprotocolmsg_8h_source.html</Path>
              </Node>
              <Node>
               <Name>command_parse.h</Name>
@@ -10454,10 +11423,6 @@
              <Node>
               <Name>stdalgo.h</Name>
               <Path>stdalgo_8h_source.html</Path>
-             </Node>
-             <Node>
-              <Name>testsuite.h</Name>
-              <Path>testsuite_8h_source.html</Path>
              </Node>
              <Node>
               <Name>threadengine.h</Name>

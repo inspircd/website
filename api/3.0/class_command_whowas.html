@@ -90,8 +90,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c2bf975a09d30cc6caf7eb3c71b6860"><td class="memItemLeft" align="right" valign="top"><a id="a6c2bf975a09d30cc6caf7eb3c71b6860"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>CommandWhowas</b> (<a class="el" href="class_module.html">Module</a> *parent)</td></tr>
 <tr class="separator:a6c2bf975a09d30cc6caf7eb3c71b6860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab55d4b317fdf1b80ecf119e36a66a3c4"><td class="memItemLeft" align="right" valign="top">CmdResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_whowas.html#ab55d4b317fdf1b80ecf119e36a66a3c4">Handle</a> (const std::vector&lt; std::string &gt; &amp;parameters, <a class="el" href="class_user.html">User</a> *user) CXX11_OVERRIDE</td></tr>
-<tr class="separator:ab55d4b317fdf1b80ecf119e36a66a3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bbd87964f12d59d8498f8f494377455"><td class="memItemLeft" align="right" valign="top">CmdResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_whowas.html#a7bbd87964f12d59d8498f8f494377455">Handle</a> (<a class="el" href="class_user.html">User</a> *user, const <a class="el" href="class_command_base_1_1_params.html">Params</a> &amp;parameters) CXX11_OVERRIDE</td></tr>
+<tr class="separator:a7bbd87964f12d59d8498f8f494377455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_command"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_command')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_command.html">Command</a></td></tr>
 <tr class="memitem:a2039803d2e75898e3e96938974e93279 inherit pub_methods_class_command"><td class="memItemLeft" align="right" valign="top"><a id="a2039803d2e75898e3e96938974e93279"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Command</b> (<a class="el" href="class_module.html">Module</a> *me, const std::string &amp;cmd, unsigned int minpara=0, unsigned int maxpara=0)</td></tr>
@@ -103,15 +103,11 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_class_command_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_command_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_command_base.html">CommandBase</a></td></tr>
 <tr class="memitem:add9275e896ec5a527d9fcd47c9b47430 inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#add9275e896ec5a527d9fcd47c9b47430">CommandBase</a> (<a class="el" href="class_module.html">Module</a> *me, const std::string &amp;cmd, unsigned int minpara=0, unsigned int maxpara=0)</td></tr>
 <tr class="separator:add9275e896ec5a527d9fcd47c9b47430 inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e947b1cb10c389762f325432818c37a inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top"><a id="a6e947b1cb10c389762f325432818c37a"></a>
-virtual <a class="el" href="struct_route_descriptor.html">RouteDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetRouting</b> (<a class="el" href="class_user.html">User</a> *user, const std::vector&lt; std::string &gt; &amp;parameters)</td></tr>
-<tr class="separator:a6e947b1cb10c389762f325432818c37a inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2d0453356b90a1760f99ca30ddd0c60 inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top"><a id="ac2d0453356b90a1760f99ca30ddd0c60"></a>
+virtual <a class="el" href="struct_route_descriptor.html">RouteDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetRouting</b> (<a class="el" href="class_user.html">User</a> *user, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;parameters)</td></tr>
+<tr class="separator:ac2d0453356b90a1760f99ca30ddd0c60 inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ccd01afa6708aa696a2ab560d09f859 inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#a7ccd01afa6708aa696a2ab560d09f859">EncodeParameter</a> (std::string &amp;parameter, unsigned int index)</td></tr>
 <tr class="separator:a7ccd01afa6708aa696a2ab560d09f859 inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c28da48ef86ad2e956986d31bd4f7ce inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#a7c28da48ef86ad2e956986d31bd4f7ce">Disable</a> (bool setting)</td></tr>
-<tr class="separator:a7c28da48ef86ad2e956986d31bd4f7ce inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae46175b36c732f033d2c6d4bcc3c6219 inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#ae46175b36c732f033d2c6d4bcc3c6219">IsDisabled</a> ()</td></tr>
-<tr class="separator:ae46175b36c732f033d2c6d4bcc3c6219 inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7b0fd668de5ae02d1f00cbad064199 inherit pub_methods_class_command_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#a7a7b0fd668de5ae02d1f00cbad064199">WorksBeforeReg</a> ()</td></tr>
 <tr class="separator:a7a7b0fd668de5ae02d1f00cbad064199 inherit pub_methods_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_service_provider"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_service_provider')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_service_provider.html">ServiceProvider</a></td></tr>
@@ -140,8 +136,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a57fa0ef258dad7c3a87ec6b0bbd835b1 inherit pub_attribs_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c538984b12bc3ca4e174b221c6def4 inherit pub_attribs_class_command_base"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#a98c538984b12bc3ca4e174b221c6def4">use_count</a></td></tr>
 <tr class="separator:a98c538984b12bc3ca4e174b221c6def4 inherit pub_attribs_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac078a361e7a2a2d6ab9d5e3a0c979a05 inherit pub_attribs_class_command_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#ac078a361e7a2a2d6ab9d5e3a0c979a05">disabled</a></td></tr>
-<tr class="separator:ac078a361e7a2a2d6ab9d5e3a0c979a05 inherit pub_attribs_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215824d0f385435e65510225c95d066d inherit pub_attribs_class_command_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#a215824d0f385435e65510225c95d066d">works_before_reg</a></td></tr>
 <tr class="separator:a215824d0f385435e65510225c95d066d inherit pub_attribs_class_command_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa608bb2c13a1f0d95291303396d9f27 inherit pub_attribs_class_command_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_base.html#aaa608bb2c13a1f0d95291303396d9f27">allow_empty_last_param</a></td></tr>
@@ -163,8 +157,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handle /WHOWAS. These command handlers can be reloaded by the core, and handle basic RFC1459 commands. Commands within modules work the same way, however, they can be fully unloaded, where these may not. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab55d4b317fdf1b80ecf119e36a66a3c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab55d4b317fdf1b80ecf119e36a66a3c4">&#9670;&nbsp;</a></span>Handle()</h2>
+<a id="a7bbd87964f12d59d8498f8f494377455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbd87964f12d59d8498f8f494377455">&#9670;&nbsp;</a></span>Handle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,14 +169,14 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">CmdResult CommandWhowas::Handle </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>parameters</em>, </td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
-          <td class="paramname"><em>user</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">Params</a> &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -205,7 +199,7 @@ Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A value from CmdResult to indicate command success or failure. </dd></dl>
 
-<p>Implements <a class="el" href="class_command.html#af3a7c953dee3a5c527dc7e9a72b63c54">Command</a>.</p>
+<p>Implements <a class="el" href="class_command.html#ac3c56c09be178723e32416083d3f2dc8">Command</a>.</p>
 
 </div>
 </div>

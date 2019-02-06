@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['rawwriteallexcept',['RawWriteAllExcept',['../class_channel.html#a2a8b0f0f5626b0e65e66be116b28038b',1,'Channel']]],
   ['read',['Read',['../class_server_config.html#a879a82d00463214b89be04be32a3e78d',1,'ServerConfig']]],
   ['readconfig',['ReadConfig',['../class_module.html#a793782034272562b25f93b7a5b972513',1,'Module']]],
   ['readstring',['readString',['../class_config_tag.html#a9165b272999bb273cb2e571cffc8128a',1,'ConfigTag']]],
@@ -17,6 +16,8 @@ var searchData=
   ['removecommand',['RemoveCommand',['../class_command_parser.html#a2d3c5995f2cd122b66ff9be652be04d6',1,'CommandParser']]],
   ['removeentries',['RemoveEntries',['../class_ban_cache_manager.html#a6a5570cba4d841b0561ace1cef71ed43',1,'BanCacheManager']]],
   ['removemode',['RemoveMode',['../class_list_mode_base.html#ab999ce42ceb0cb4e9256f16661e63779',1,'ListModeBase::RemoveMode()'],['../class_mode_handler.html#a503ca6f0510826107d906214912f1d37',1,'ModeHandler::RemoveMode(User *user)'],['../class_mode_handler.html#a222306154c3aff8d87fb480e7cf85578',1,'ModeHandler::RemoveMode(Channel *channel, Modes::ChangeList &amp;changelist)'],['../class_prefix_mode.html#ae86d085f1c4fe23b37c0bba204f82502',1,'PrefixMode::RemoveMode()']]],
+  ['replaceparam',['ReplaceParam',['../class_client_protocol_1_1_message.html#a375c8b8d5e84c21fccef50b621b9fbc6',1,'ClientProtocol::Message::ReplaceParam(unsigned int index, const char *str)'],['../class_client_protocol_1_1_message.html#a4d629b2dd07cd73663567a47b0a862eb',1,'ClientProtocol::Message::ReplaceParam(unsigned int index, const std::string &amp;str)']]],
+  ['replaceparamref',['ReplaceParamRef',['../class_client_protocol_1_1_message.html#a8a9acdb276db1418a1d5381e761937bd',1,'ClientProtocol::Message']]],
   ['resetiohookprovider',['ResetIOHookProvider',['../class_listen_socket.html#a387991784c3eb898d797f060f35f61fc',1,'ListenSocket']]],
   ['resolvemodeconflict',['ResolveModeConflict',['../class_mode_handler.html#a79e7c1e5c2c0dcdb3f0184c8b66d1ff3',1,'ModeHandler']]],
   ['retrievelasterror',['RetrieveLastError',['../class_d_l_l_manager.html#a21e1b653ba42040a5aec5921c67516c9',1,'DLLManager']]],

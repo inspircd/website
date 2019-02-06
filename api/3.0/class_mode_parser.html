@@ -106,8 +106,8 @@ typedef unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>ModeP
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8592817275b085de5c7dd9d6aaaaf508"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a8592817275b085de5c7dd9d6aaaaf508">GetLastParse</a> () const</td></tr>
-<tr class="separator:a8592817275b085de5c7dd9d6aaaaf508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cd0e5fc28292f90ff982973ebd13622"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_modes_1_1_change_list.html">Modes::ChangeList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a2cd0e5fc28292f90ff982973ebd13622">GetLastChangeList</a> () const</td></tr>
+<tr class="separator:a2cd0e5fc28292f90ff982973ebd13622"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdfdaec24e085428326f12747334a57b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#acdfdaec24e085428326f12747334a57b">AddMode</a> (<a class="el" href="class_mode_handler.html">ModeHandler</a> *mh)</td></tr>
 <tr class="separator:acdfdaec24e085428326f12747334a57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c0f5ec49936812a01b4bec1f13be470"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a6c0f5ec49936812a01b4bec1f13be470">DelMode</a> (<a class="el" href="class_mode_handler.html">ModeHandler</a> *mh)</td></tr>
@@ -130,8 +130,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4ec8943403f8c362466907bfb9d77650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08f46dc53dfdc5dbd23763d9174483a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_prefix_mode.html">PrefixMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a08f46dc53dfdc5dbd23763d9174483a3">FindPrefix</a> (unsigned const char pfxletter)</td></tr>
 <tr class="separator:a08f46dc53dfdc5dbd23763d9174483a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f25e41530df840c7bdfd9d00d71e49"><td class="memItemLeft" align="right" valign="top">const TR1NS::array&lt; std::string, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a85f25e41530df840c7bdfd9d00d71e49">GetModeListFor004Numeric</a> ()</td></tr>
-<tr class="separator:a85f25e41530df840c7bdfd9d00d71e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c68d35d3eb9496196fe59cefe8f711d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a7c68d35d3eb9496196fe59cefe8f711d">GiveModeList</a> (ModeType mt)</td></tr>
 <tr class="separator:a7c68d35d3eb9496196fe59cefe8f711d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20cc3037de41cde30b44fed326a33d3f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mode_parser.html#a20cc3037de41cde30b44fed326a33d3f">BuildPrefixes</a> (bool lettersAndModes=true)</td></tr>
@@ -473,8 +471,8 @@ static const ModeHandler::Id&#160;</td><td class="memItemRight" valign="bottom">
 
 </div>
 </div>
-<a id="a8592817275b085de5c7dd9d6aaaaf508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8592817275b085de5c7dd9d6aaaaf508">&#9670;&nbsp;</a></span>GetLastParse()</h2>
+<a id="a2cd0e5fc28292f90ff982973ebd13622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cd0e5fc28292f90ff982973ebd13622">&#9670;&nbsp;</a></span>GetLastChangeList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -483,7 +481,7 @@ static const ModeHandler::Id&#160;</td><td class="memItemRight" valign="bottom">
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string&amp; ModeParser::GetLastParse </td>
+          <td class="memname">const <a class="el" href="class_modes_1_1_change_list.html">Modes::ChangeList</a>&amp; ModeParser::GetLastChangeList </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -495,7 +493,7 @@ static const ModeHandler::Id&#160;</td><td class="memItemRight" valign="bottom">
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the last string to be processed, as it was sent to the user or channel. Use this to display a string you just sent to be parsed, as the actual output may be different to what you sent after it has been 'cleaned up' by the parser. </p><dl class="section return"><dt>Returns</dt><dd>Last parsed string, as seen by users. </dd></dl>
+<p>Gets the last mode change to be processed. </p>
 
 </div>
 </div>
@@ -522,36 +520,6 @@ static const ModeHandler::Id&#160;</td><td class="memItemRight" valign="bottom">
 </table>
 </div><div class="memdoc">
 <p>Get a list of all mode handlers that inherit from <a class="el" href="class_list_mode_base.html">ListModeBase</a> </p><dl class="section return"><dt>Returns</dt><dd>A list containing <a class="el" href="class_list_mode_base.html">ListModeBase</a> modes </dd></dl>
-
-</div>
-</div>
-<a id="a85f25e41530df840c7bdfd9d00d71e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85f25e41530df840c7bdfd9d00d71e49">&#9670;&nbsp;</a></span>GetModeListFor004Numeric()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const TR1NS::array&lt; std::string, 3 &gt; &amp; ModeParser::GetModeListFor004Numeric </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Returns an array of modes:</p><ol type="1">
-<li><a class="el" href="class_user.html">User</a> modes</li>
-<li><a class="el" href="class_channel.html">Channel</a> modes</li>
-<li><a class="el" href="class_channel.html">Channel</a> modes that require a parameter when set This is sent to users as the last part of the 004 numeric </li>
-</ol>
 
 </div>
 </div>

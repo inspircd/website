@@ -92,6 +92,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a410691f0ddd035cb75c52c1bb3a1d29e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c364159dcf50c8108d5095d1595a2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_module.html">Module</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_l_l_manager.html#a92c364159dcf50c8108d5095d1595a2c">CallInit</a> ()</td></tr>
 <tr class="separator:a92c364159dcf50c8108d5095d1595a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8f4cb7a0bd033cf66975e66bedcc8a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_l_l_manager.html#a0e8f4cb7a0bd033cf66975e66bedcc8a">GetSymbol</a> (const char *name)</td></tr>
+<tr class="separator:a0e8f4cb7a0bd033cf66975e66bedcc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7afd5e26add779a3da974ead16c04518"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_l_l_manager.html#a7afd5e26add779a3da974ead16c04518">GetVersion</a> ()</td></tr>
 <tr class="separator:a7afd5e26add779a3da974ead16c04518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classclassbase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classclassbase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classclassbase.html">classbase</a></td></tr>
@@ -156,6 +158,31 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Return a module by calling the init function </p>
+
+</div>
+</div>
+<a id="a0e8f4cb7a0bd033cf66975e66bedcc8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8f4cb7a0bd033cf66975e66bedcc8a">&#9670;&nbsp;</a></span>GetSymbol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * DLLManager::GetSymbol </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the value of the specified symbol. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the symbol to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Either the value of the specified symbol or or NULL if it does not exist. </dd></dl>
 
 </div>
 </div>

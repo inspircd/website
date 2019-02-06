@@ -65,22 +65,16 @@ $(function() {
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a id="index_g"></a>- g -</h3><ul>
-<li>gecos
-: <a class="el" href="struct_who_was_1_1_entry.html#a1fd8de58c1e35dd3fd4a9f74fe9d275c">WhoWas::Entry</a>
-</li>
 <li>Generate()
-: <a class="el" href="class_e_line_factory.html#ac8526b15bb85a0e28f89e40dce1213d7">ELineFactory</a>
-, <a class="el" href="class_g_line_factory.html#aac34600312e3e34473a3989f4378ef0a">GLineFactory</a>
-, <a class="el" href="class_k_line_factory.html#ad53ae53e570af2b63c02b33e9d79f66f">KLineFactory</a>
-, <a class="el" href="class_q_line_factory.html#a717e4e2af7df5a8935923baae6f3543f">QLineFactory</a>
-, <a class="el" href="class_x_line_factory.html#ae4be92590bb7a3243655a0ee6ce36c4c">XLineFactory</a>
-, <a class="el" href="class_z_line_factory.html#a03e369a494164f077a0a40749d6fae92">ZLineFactory</a>
+: <a class="el" href="class_e_line_factory.html#aaa6e67f5b2e1d43fa0f9ce51d9440b22">ELineFactory</a>
+, <a class="el" href="class_g_line_factory.html#ac1bb1583bf37c451cc8cbcd710354335">GLineFactory</a>
+, <a class="el" href="class_k_line_factory.html#ac8b6593062c2d930ad70270dac4b653f">KLineFactory</a>
+, <a class="el" href="class_q_line_factory.html#ab1fec79ee00c32c513280081804a49bf">QLineFactory</a>
+, <a class="el" href="class_x_line_factory.html#a68c58492f743a1abad223c2fc8d94cb2">XLineFactory</a>
+, <a class="el" href="class_z_line_factory.html#a9075b6653fee8c7a6584e24cd5724c6b">ZLineFactory</a>
 </li>
 <li>GenerateSID()
 : <a class="el" href="class_u_i_d_generator.html#ac5fb06206223c1c0307eb955774fd96a">UIDGenerator</a>
-</li>
-<li>GenericOper
-: <a class="el" href="class_server_config.html#a8fe85f921e2b564c229cd72d68c927ad">ServerConfig</a>
 </li>
 <li>GenRandom
 : <a class="el" href="class_insp_i_r_cd.html#a5bd98021cc35f4006b2384533d8d201e">InspIRCd</a>
@@ -109,11 +103,17 @@ $(function() {
 <li>GetBandwidth()
 : <a class="el" href="class_socket_engine_1_1_statistics.html#a2b0b7eaf2ae3b60eb4e0fe3f5c7b5bd8">SocketEngine::Statistics</a>
 </li>
+<li>GetBeginIterator()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_mode.html#ae7234ebe57c8df3a50fd1c3c90ed9ef0">ClientProtocol::Messages::Mode</a>
+</li>
 <li>getBool()
 : <a class="el" href="class_config_tag.html#a709cbc347214f1f2f44e0d5050224614">ConfigTag</a>
 </li>
 <li>GetChans()
 : <a class="el" href="class_insp_i_r_cd.html#a9dac67bc44f273d9300b4dc8a71b1e96">InspIRCd</a>
+</li>
+<li>GetChanTarget()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_mode.html#a924336d3463cc000bfcbbeab48392fd3">ClientProtocol::Messages::Mode</a>
 </li>
 <li>GetCIDRMask()
 : <a class="el" href="class_user.html#a54a48058fd59033a8e606492339d5d41">User</a>
@@ -126,6 +126,9 @@ $(function() {
 </li>
 <li>GetCloneMap()
 : <a class="el" href="class_user_manager.html#a199f89342dc486838f27aeec6a08d2dc">UserManager</a>
+</li>
+<li>GetCommand()
+: <a class="el" href="class_client_protocol_1_1_message.html#ab631f6f68051e3af6d864061e665ee84">ClientProtocol::Message</a>
 </li>
 <li>GetCommands()
 : <a class="el" href="class_command_parser.html#aec74ed89ee42c6c3ccfa77d49a1e10d3">CommandParser</a>
@@ -144,6 +147,9 @@ $(function() {
 </li>
 <li>getDuration()
 : <a class="el" href="class_config_tag.html#a09f2951f8b6ce98cf2a14b1e28c760a6">ConfigTag</a>
+</li>
+<li>GetEndIterator()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_mode.html#a82feb9508c0c5c97f4a46a5caac93bf4">ClientProtocol::Messages::Mode</a>
 </li>
 <li>GetError()
 : <a class="el" href="class_socket_engine.html#a001731d22a14e12cfd90144094676dc6">SocketEngine</a>
@@ -201,8 +207,8 @@ $(function() {
 <li>GetIPString()
 : <a class="el" href="class_user.html#af887098b2253e32dccf592b3578ec58f">User</a>
 </li>
-<li>GetLastParse()
-: <a class="el" href="class_mode_parser.html#a8592817275b085de5c7dd9d6aaaaf508">ModeParser</a>
+<li>GetLastChangeList()
+: <a class="el" href="class_mode_parser.html#a2cd0e5fc28292f90ff982973ebd13622">ModeParser</a>
 </li>
 <li>GetLevelRequired()
 : <a class="el" href="class_mode_handler.html#ad3037b23b9152f8d54a1d8efb523995e">ModeHandler</a>
@@ -240,14 +246,23 @@ $(function() {
 <li>GetMaxMask()
 : <a class="el" href="class_server_limits.html#a363b8e053fef1e904662bd45618f6577">ServerLimits</a>
 </li>
+<li>GetMember()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_join.html#a007bfbd516a6a84d521356fd21f9d78d">ClientProtocol::Messages::Join</a>
+</li>
+<li>GetMessage()
+: <a class="el" href="classirc_1_1tokenstream.html#aa607a533b8977d9a127a97681a04d022">irc::tokenstream</a>
+</li>
+<li>GetMessagesForUser()
+: <a class="el" href="class_client_protocol_1_1_event.html#a8e4dd25470dc57de175586f2fdb3c73d">ClientProtocol::Event</a>
+</li>
+<li>GetMiddle()
+: <a class="el" href="classirc_1_1tokenstream.html#aecf3e0462bc8f13f604da3b7ba809b7a">irc::tokenstream</a>
+</li>
 <li>GetModeChar()
 : <a class="el" href="class_mode_handler.html#a2cb515e37977ba08e2e350b46e01c49a">ModeHandler</a>
 </li>
 <li>GetModeLetters()
 : <a class="el" href="class_user.html#a26800686fb1245473bd6254a4e4b2de1">User</a>
-</li>
-<li>GetModeListFor004Numeric()
-: <a class="el" href="class_mode_parser.html#a85f25e41530df840c7bdfd9d00d71e49">ModeParser</a>
 </li>
 <li>GetModeName()
 : <a class="el" href="class_mode_watcher.html#a7b10a9eeab90e847bc0b48c8ab3ca357">ModeWatcher</a>
@@ -281,7 +296,8 @@ $(function() {
 : <a class="el" href="class_numeric_1_1_numeric.html#aed7fa51e7a7e7341d645019415530b3d">Numeric::Numeric</a>
 </li>
 <li>GetParams()
-: <a class="el" href="class_numeric_1_1_numeric.html#a04158aaa35781e5b8e1ebf8ae82ff758">Numeric::Numeric</a>
+: <a class="el" href="class_client_protocol_1_1_message.html#ad9639b6d8bd719606b00d4fb55e2809c">ClientProtocol::Message</a>
+, <a class="el" href="class_numeric_1_1_numeric.html#a6560dc95f54b8fe3ee235dd82be08ab8">Numeric::Numeric</a>
 </li>
 <li>GetPenaltyThreshold()
 : <a class="el" href="struct_connect_class.html#a81a56dc19d76506cc8fb515de56fe433">ConnectClass</a>
@@ -309,6 +325,9 @@ $(function() {
 </li>
 <li>GetRealHost()
 : <a class="el" href="class_user.html#a29a28538032a736db7e069439c042285">User</a>
+</li>
+<li>GetRealName()
+: <a class="el" href="class_user.html#aef175c05a963e6a647bf9081d0c92d95">User</a>
 </li>
 <li>GetReason()
 : <a class="el" href="class_core_exception.html#aa4bb72c1e839437afc8e147c9cac51c1">CoreException</a>
@@ -343,6 +362,9 @@ $(function() {
 <li>GetSendqSoftMax()
 : <a class="el" href="struct_connect_class.html#a179ec32b10052d659dae5656c7717847">ConnectClass</a>
 </li>
+<li>GetSerialized()
+: <a class="el" href="class_client_protocol_1_1_message.html#ad684fc7d881738315cc038fc74c2d8f3">ClientProtocol::Message</a>
+</li>
 <li>GetServer()
 : <a class="el" href="class_numeric_1_1_numeric.html#a091a94948852c943f85d5b92852e531d">Numeric::Numeric</a>
 </li>
@@ -356,7 +378,11 @@ $(function() {
 : <a class="el" href="class_server_config.html#a3c655ca0f930b9aff7652884e076b054">ServerConfig</a>
 </li>
 <li>GetSource()
-: <a class="el" href="class_core_exception.html#afc92ae1078032ff3ab1d0a81ad108161">CoreException</a>
+: <a class="el" href="class_client_protocol_1_1_message_source.html#a24ffe25957892cbe4a1df711e2a7f205">ClientProtocol::MessageSource</a>
+, <a class="el" href="class_core_exception.html#afc92ae1078032ff3ab1d0a81ad108161">CoreException</a>
+</li>
+<li>GetSourceUser()
+: <a class="el" href="class_client_protocol_1_1_message_source.html#a8425389d46c81d6683a966ec9bf5bdc7">ClientProtocol::MessageSource</a>
 </li>
 <li>GetStats()
 : <a class="el" href="class_socket_engine.html#acbfcda6323b93f2b5f0368087c8d66b9">SocketEngine</a>
@@ -368,13 +394,25 @@ $(function() {
 <li>GetString()
 : <a class="el" href="class_file_reader.html#a45d48a0096cb3a396a70ac1883fa7a85">FileReader</a>
 </li>
+<li>GetStrTarget()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_mode.html#af2eaece618e62fc63356233b9a946389">ClientProtocol::Messages::Mode</a>
+</li>
 <li>GetSubscribers()
 : <a class="el" href="class_events_1_1_module_event_provider.html#a951141176ff6c0d4540f91affc475963">Events::ModuleEventProvider</a>
+</li>
+<li>GetSymbol()
+: <a class="el" href="class_d_l_l_manager.html#a0e8f4cb7a0bd033cf66975e66bedcc8a">DLLManager</a>
+</li>
+<li>GetTags()
+: <a class="el" href="class_client_protocol_1_1_message.html#a41b704a1373514ac2ffb4ebfbb7d8843">ClientProtocol::Message</a>
+, <a class="el" href="class_command_base_1_1_params.html#a1906509d89d82a488b50b882596ecfa1">CommandBase::Params</a>
 </li>
 <li>GetToken()
 : <a class="el" href="classirc_1_1portparser.html#af5581bda92d07705c3d0c74eca1581f3">irc::portparser</a>
 , <a class="el" href="classirc_1_1sepstream.html#a9614205d9360120abc772e7ceb191c0b">irc::sepstream</a>
-, <a class="el" href="classirc_1_1tokenstream.html#a015f094f368854d02a074ac962460201">irc::tokenstream</a>
+</li>
+<li>GetTrailing()
+: <a class="el" href="classirc_1_1tokenstream.html#a9796f72465f24f99808cb54ab5ca7bec">irc::tokenstream</a>
 </li>
 <li>GetTrigger()
 : <a class="el" href="class_timer.html#a6951dfb9cfe51e3a08b1d291d77cdbad">Timer</a>
@@ -401,12 +439,14 @@ $(function() {
 : <a class="el" href="class_channel.html#a44854fe076aa17616bec710b96c945d5">Channel</a>
 , <a class="el" href="class_user_manager.html#a14f1eee7e149eb8f7a79332b6659c11c">UserManager</a>
 </li>
+<li>GetUserTarget()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_mode.html#a3576a46d23efad59c5a9f0233f47d0b3">ClientProtocol::Messages::Mode</a>
+</li>
 <li>GetVector()
 : <a class="el" href="class_file_reader.html#aed5380871543c120fcbbc4df4940aa3e">FileReader</a>
 </li>
 <li>GetVersion()
-: <a class="el" href="class_command_module.html#a563725dfafbcb73491f148cd84c04a2e">CommandModule&lt; Cmd &gt;</a>
-, <a class="el" href="class_d_l_l_manager.html#a7afd5e26add779a3da974ead16c04518">DLLManager</a>
+: <a class="el" href="class_d_l_l_manager.html#a7afd5e26add779a3da974ead16c04518">DLLManager</a>
 , <a class="el" href="class_module.html#ace1cba59ac54d26b4649858b2cfc6aa8">Module</a>
 </li>
 <li>GetVersionString()
@@ -416,7 +456,7 @@ $(function() {
 : <a class="el" href="class_mode_parser.html#a7c68d35d3eb9496196fe59cefe8f711d">ModeParser</a>
 </li>
 <li>GLine()
-: <a class="el" href="class_g_line.html#a456a3d7afc7e580cc27d92a1b0e7df0b">GLine</a>
+: <a class="el" href="class_g_line.html#a6b6fdc363fcc511d66e9f87918ffdb49">GLine</a>
 </li>
 <li>GlobalCulls
 : <a class="el" href="class_insp_i_r_cd.html#a1d3ac9bd74bb30dede15bf2718dd6abb">InspIRCd</a>

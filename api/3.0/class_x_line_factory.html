@@ -92,8 +92,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad2e17280386120658d350c9d18b3d84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae87005f4c4e7a86f13b1c9dbc8e4f20b"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_factory.html#ae87005f4c4e7a86f13b1c9dbc8e4f20b">GetType</a> ()</td></tr>
 <tr class="separator:ae87005f4c4e7a86f13b1c9dbc8e4f20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4be92590bb7a3243655a0ee6ce36c4c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_x_line.html">XLine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_factory.html#ae4be92590bb7a3243655a0ee6ce36c4c">Generate</a> (time_t set_time, long duration, std::string source, std::string reason, std::string xline_specific_mask)=0</td></tr>
-<tr class="separator:ae4be92590bb7a3243655a0ee6ce36c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c58492f743a1abad223c2fc8d94cb2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_x_line.html">XLine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_factory.html#a68c58492f743a1abad223c2fc8d94cb2">Generate</a> (time_t set_time, unsigned long duration, const std::string &amp;source, const std::string &amp;reason, const std::string &amp;xline_specific_mask)=0</td></tr>
+<tr class="separator:a68c58492f743a1abad223c2fc8d94cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac43bd9b4aba9ebccbc685182b7bc9eb1"><td class="memItemLeft" align="right" valign="top"><a id="ac43bd9b4aba9ebccbc685182b7bc9eb1"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>AutoApplyToUserList</b> (<a class="el" href="class_x_line.html">XLine</a> *x)</td></tr>
 <tr class="separator:ac43bd9b4aba9ebccbc685182b7bc9eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,8 +168,8 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td><
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae4be92590bb7a3243655a0ee6ce36c4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4be92590bb7a3243655a0ee6ce36c4c">&#9670;&nbsp;</a></span>Generate()</h2>
+<a id="a68c58492f743a1abad223c2fc8d94cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68c58492f743a1abad223c2fc8d94cb2">&#9670;&nbsp;</a></span>Generate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,25 +186,25 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td><
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">long&#160;</td>
+          <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>duration</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>reason</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>xline_specific_mask</em>&#160;</td>
         </tr>
         <tr>
@@ -231,7 +231,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A specialized <a class="el" href="class_x_line.html">XLine</a> class of the given type for this factory. </dd></dl>
 
-<p>Implemented in <a class="el" href="class_z_line_factory.html#a03e369a494164f077a0a40749d6fae92">ZLineFactory</a>, <a class="el" href="class_q_line_factory.html#a717e4e2af7df5a8935923baae6f3543f">QLineFactory</a>, <a class="el" href="class_k_line_factory.html#ad53ae53e570af2b63c02b33e9d79f66f">KLineFactory</a>, <a class="el" href="class_e_line_factory.html#ac8526b15bb85a0e28f89e40dce1213d7">ELineFactory</a>, and <a class="el" href="class_g_line_factory.html#aac34600312e3e34473a3989f4378ef0a">GLineFactory</a>.</p>
+<p>Implemented in <a class="el" href="class_z_line_factory.html#a9075b6653fee8c7a6584e24cd5724c6b">ZLineFactory</a>, <a class="el" href="class_q_line_factory.html#ab1fec79ee00c32c513280081804a49bf">QLineFactory</a>, <a class="el" href="class_k_line_factory.html#ac8b6593062c2d930ad70270dac4b653f">KLineFactory</a>, <a class="el" href="class_e_line_factory.html#aaa6e67f5b2e1d43fa0f9ce51d9440b22">ELineFactory</a>, and <a class="el" href="class_g_line_factory.html#ac1bb1583bf37c451cc8cbcd710354335">GLineFactory</a>.</p>
 
 </div>
 </div>

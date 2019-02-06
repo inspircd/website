@@ -88,10 +88,10 @@ typedef std::vector&lt; <a class="el" href="class_protocol_interface_1_1_server_
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a86747a01ce38281d771e5406aa47d6a4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_protocol_interface.html#a86747a01ce38281d771e5406aa47d6a4">SendEncapsulatedData</a> (const std::string &amp;targetmask, const std::string &amp;cmd, const parameterlist &amp;params, <a class="el" href="class_user.html">User</a> *source=NULL)</td></tr>
-<tr class="separator:a86747a01ce38281d771e5406aa47d6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0629649d7942ab351e2ae73f448372ac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_protocol_interface.html#a0629649d7942ab351e2ae73f448372ac">BroadcastEncap</a> (const std::string &amp;cmd, const parameterlist &amp;params, <a class="el" href="class_user.html">User</a> *source=NULL, <a class="el" href="class_user.html">User</a> *omit=NULL)</td></tr>
-<tr class="separator:a0629649d7942ab351e2ae73f448372ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaacbdfdaff78ca5be01acad2a28fdea2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_protocol_interface.html#aaacbdfdaff78ca5be01acad2a28fdea2">SendEncapsulatedData</a> (const std::string &amp;targetmask, const std::string &amp;cmd, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;params, <a class="el" href="class_user.html">User</a> *source=NULL)</td></tr>
+<tr class="separator:aaacbdfdaff78ca5be01acad2a28fdea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade57ec03ffb8f1e25490982bc0da8f91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_protocol_interface.html#ade57ec03ffb8f1e25490982bc0da8f91">BroadcastEncap</a> (const std::string &amp;cmd, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;params, <a class="el" href="class_user.html">User</a> *source=NULL, <a class="el" href="class_user.html">User</a> *omit=NULL)</td></tr>
+<tr class="separator:ade57ec03ffb8f1e25490982bc0da8f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d4ce818f1e61ffae083015570c19c97"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_protocol_interface.html#a7d4ce818f1e61ffae083015570c19c97">SendMetaData</a> (<a class="el" href="class_channel.html">Channel</a> *chan, const std::string &amp;key, const std::string &amp;data)</td></tr>
 <tr class="separator:a7d4ce818f1e61ffae083015570c19c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d0fcab7e3e80b73c5dff9430429c058"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_protocol_interface.html#a7d0fcab7e3e80b73c5dff9430429c058">SendMetaData</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;key, const std::string &amp;data)</td></tr>
@@ -112,8 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10cc1a09026166e440fdc1ae29d40923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0629649d7942ab351e2ae73f448372ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0629649d7942ab351e2ae73f448372ac">&#9670;&nbsp;</a></span>BroadcastEncap()</h2>
+<a id="ade57ec03ffb8f1e25490982bc0da8f91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade57ec03ffb8f1e25490982bc0da8f91">&#9670;&nbsp;</a></span>BroadcastEncap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const parameterlist &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>
@@ -251,8 +251,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a86747a01ce38281d771e5406aa47d6a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86747a01ce38281d771e5406aa47d6a4">&#9670;&nbsp;</a></span>SendEncapsulatedData()</h2>
+<a id="aaacbdfdaff78ca5be01acad2a28fdea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaacbdfdaff78ca5be01acad2a28fdea2">&#9670;&nbsp;</a></span>SendEncapsulatedData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,7 +275,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const parameterlist &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>params</em>, </td>
         </tr>
         <tr>

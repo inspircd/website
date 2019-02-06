@@ -86,12 +86,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1fd17c361d85ec13c212cbac1999b9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec74ed89ee42c6c3ccfa77d49a1e10d3"><td class="memItemLeft" align="right" valign="top">const CommandMap &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#aec74ed89ee42c6c3ccfa77d49a1e10d3">GetCommands</a> () const</td></tr>
 <tr class="separator:aec74ed89ee42c6c3ccfa77d49a1e10d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a958262cd83e39063db2b050aa05c8ca5"><td class="memItemLeft" align="right" valign="top">CmdResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a958262cd83e39063db2b050aa05c8ca5">CallHandler</a> (const std::string &amp;commandname, const std::vector&lt; std::string &gt; &amp;parameters, <a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_command.html">Command</a> **cmd=NULL)</td></tr>
-<tr class="separator:a958262cd83e39063db2b050aa05c8ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe74ef59b493c91605fc41b27a20ac3f"><td class="memItemLeft" align="right" valign="top">CmdResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#abe74ef59b493c91605fc41b27a20ac3f">CallHandler</a> (const std::string &amp;commandname, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;parameters, <a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_command.html">Command</a> **cmd=NULL)</td></tr>
+<tr class="separator:abe74ef59b493c91605fc41b27a20ac3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7c230220609e9ba68025dd90a8de8db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_command.html">Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#af7c230220609e9ba68025dd90a8de8db">GetHandler</a> (const std::string &amp;commandname)</td></tr>
 <tr class="separator:af7c230220609e9ba68025dd90a8de8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70ba6ca548f8a6c1d1b972e5387f48af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a70ba6ca548f8a6c1d1b972e5387f48af">ProcessBuffer</a> (std::string &amp;buffer, <a class="el" href="class_local_user.html">LocalUser</a> *user)</td></tr>
-<tr class="separator:a70ba6ca548f8a6c1d1b972e5387f48af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a599fc2bd780188bf5dfb3afdbee0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a82a599fc2bd780188bf5dfb3afdbee0b">ProcessBuffer</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, const std::string &amp;buffer)</td></tr>
+<tr class="separator:a82a599fc2bd780188bf5dfb3afdbee0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a192f037306b2eec9044944cc1f47268f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a192f037306b2eec9044944cc1f47268f">AddCommand</a> (<a class="el" href="class_command.html">Command</a> *f)</td></tr>
 <tr class="separator:a192f037306b2eec9044944cc1f47268f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d3c5995f2cd122b66ff9be652be04d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a2d3c5995f2cd122b66ff9be652be04d6">RemoveCommand</a> (<a class="el" href="class_command.html">Command</a> *x)</td></tr>
@@ -99,12 +99,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa92371a14ce41287b41fbc40430f49dc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#aa92371a14ce41287b41fbc40430f49dc">LoopCall</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_command.html">Command</a> *handler, const std::vector&lt; std::string &gt; &amp;parameters, unsigned int splithere, int extra=-1, bool usemax=true)</td></tr>
-<tr class="separator:aa92371a14ce41287b41fbc40430f49dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac88c2d7e7ec8c8efd6943a10453367a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#aac88c2d7e7ec8c8efd6943a10453367a">LoopCall</a> (<a class="el" href="class_user.html">User</a> *user, <a class="el" href="class_command.html">Command</a> *handler, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;parameters, unsigned int splithere, int extra=-1, bool usemax=true)</td></tr>
+<tr class="separator:aac88c2d7e7ec8c8efd6943a10453367a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e4e98178c6bd77c6491069c11948055"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a6e4e98178c6bd77c6491069c11948055">TranslateSingleParam</a> (TranslateType to, const std::string &amp;item, std::string &amp;dest, <a class="el" href="class_command_base.html">CommandBase</a> *custom_translator=NULL, unsigned int paramnumber=0)</td></tr>
 <tr class="separator:a6e4e98178c6bd77c6491069c11948055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0708e9a3aca596233d397c180946ac25"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a0708e9a3aca596233d397c180946ac25">TranslateUIDs</a> (const std::vector&lt; TranslateType &gt; &amp;to, const std::vector&lt; std::string &gt; &amp;source, bool prefix_final=false, <a class="el" href="class_command_base.html">CommandBase</a> *custom_translator=NULL)</td></tr>
-<tr class="separator:a0708e9a3aca596233d397c180946ac25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b979040e7e14591b7447bd2273e624"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_command_parser.html#a42b979040e7e14591b7447bd2273e624">TranslateUIDs</a> (const std::vector&lt; TranslateType &gt; &amp;to, const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;source, bool prefix_final=false, <a class="el" href="class_command_base.html">CommandBase</a> *custom_translator=NULL)</td></tr>
+<tr class="separator:a42b979040e7e14591b7447bd2273e624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class handles command management and parsing. It allows you to add and remove commands from the map, call command handlers by name, and chop up comma seperated parameters into multiple calls. </p>
@@ -153,8 +153,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a958262cd83e39063db2b050aa05c8ca5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a958262cd83e39063db2b050aa05c8ca5">&#9670;&nbsp;</a></span>CallHandler()</h2>
+<a id="abe74ef59b493c91605fc41b27a20ac3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe74ef59b493c91605fc41b27a20ac3f">&#9670;&nbsp;</a></span>CallHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +168,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>parameters</em>, </td>
         </tr>
         <tr>
@@ -254,8 +254,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa92371a14ce41287b41fbc40430f49dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa92371a14ce41287b41fbc40430f49dc">&#9670;&nbsp;</a></span>LoopCall()</h2>
+<a id="aac88c2d7e7ec8c8efd6943a10453367a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac88c2d7e7ec8c8efd6943a10453367a">&#9670;&nbsp;</a></span>LoopCall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -278,7 +278,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>parameters</em>, </td>
         </tr>
         <tr>
@@ -334,8 +334,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a70ba6ca548f8a6c1d1b972e5387f48af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70ba6ca548f8a6c1d1b972e5387f48af">&#9670;&nbsp;</a></span>ProcessBuffer()</h2>
+<a id="a82a599fc2bd780188bf5dfb3afdbee0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82a599fc2bd780188bf5dfb3afdbee0b">&#9670;&nbsp;</a></span>ProcessBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,14 +343,14 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void CommandParser::ProcessBuffer </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
+          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
-          <td class="paramname"><em>user</em>&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>buffer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -452,8 +452,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0708e9a3aca596233d397c180946ac25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0708e9a3aca596233d397c180946ac25">&#9670;&nbsp;</a></span>TranslateUIDs()</h2>
+<a id="a42b979040e7e14591b7447bd2273e624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b979040e7e14591b7447bd2273e624">&#9670;&nbsp;</a></span>TranslateUIDs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,7 +470,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_command_base_1_1_params.html">CommandBase::Params</a> &amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>

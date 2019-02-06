@@ -101,8 +101,6 @@ Functions</h2></td></tr>
 <tr class="separator:a386207459cc7e0c2c85522239008a5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99af54b080b1d0bc0e0ca7e962c38933"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc.html#a99af54b080b1d0bc0e0ca7e962c38933">find</a> (const std::string &amp;haystack, const std::string &amp;needle)</td></tr>
 <tr class="separator:a99af54b080b1d0bc0e0ca7e962c38933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55224a0b09bb8166e05c315b1d000cd2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc.html#a55224a0b09bb8166e05c315b1d000cd2">stringjoiner</a> (const std::vector&lt; std::string &gt; &amp;sequence, char separator=' ')</td></tr>
-<tr class="separator:a55224a0b09bb8166e05c315b1d000cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The irc namespace contains a number of helper classes. </p>
@@ -176,42 +174,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Either the index at which <code>needle</code> was found or std::string::npos. </dd></dl>
-
-</div>
-</div>
-<a id="a55224a0b09bb8166e05c315b1d000cd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55224a0b09bb8166e05c315b1d000cd2">&#9670;&nbsp;</a></span>stringjoiner()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string irc::stringjoiner </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>sequence</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>separator</em> = <code>'&#160;'</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Joins the contents of a vector to a string. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sequence</td><td>Zero or more items to join. </td></tr>
-    <tr><td class="paramname">separator</td><td>The character to place between the items, defaults to ' ' (space). </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Joined string. </dd></dl>
 
 </div>
 </div>

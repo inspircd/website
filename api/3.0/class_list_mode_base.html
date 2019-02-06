@@ -108,8 +108,8 @@ typedef size_t&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa394375ce17f801820ef7320c4404991"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#aa394375ce17f801820ef7320c4404991">ListModeBase</a> (<a class="el" href="class_module.html">Module</a> *Creator, const std::string &amp;Name, char modechar, const std::string &amp;eolstr, unsigned int lnum, unsigned int eolnum, bool autotidy, const std::string &amp;ctag=&quot;banlist&quot;)</td></tr>
-<tr class="separator:aa394375ce17f801820ef7320c4404991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cb0a9b3193b21cd33c3a2260687b28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#a15cb0a9b3193b21cd33c3a2260687b28">ListModeBase</a> (<a class="el" href="class_module.html">Module</a> *Creator, const std::string &amp;Name, char modechar, const std::string &amp;eolstr, unsigned int lnum, unsigned int eolnum, bool autotidy)</td></tr>
+<tr class="separator:a15cb0a9b3193b21cd33c3a2260687b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac04736f35a96f8a4766052eef18f1680"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#ac04736f35a96f8a4766052eef18f1680">GetLimit</a> (<a class="el" href="class_channel.html">Channel</a> *channel)</td></tr>
 <tr class="separator:ac04736f35a96f8a4766052eef18f1680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd2be6fa55b80365e3d0e49ae452e1fb"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#abd2be6fa55b80365e3d0e49ae452e1fb">GetLowerLimit</a> ()</td></tr>
@@ -194,8 +194,6 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad07866fc97d6f1ed15fdce71b137f9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8c9f9507a66e79d943f0965cca79d5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#aa8c9f9507a66e79d943f0965cca79d5a">tidy</a></td></tr>
 <tr class="separator:aa8c9f9507a66e79d943f0965cca79d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac09ebc5d5b03c7e24a1dc4c26565359b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#ac09ebc5d5b03c7e24a1dc4c26565359b">configtag</a></td></tr>
-<tr class="separator:ac09ebc5d5b03c7e24a1dc4c26565359b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ed8f901402adaea45b4d666e113ec7f"><td class="memItemLeft" align="right" valign="top">limitlist&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#a3ed8f901402adaea45b4d666e113ec7f">chanlimits</a></td></tr>
 <tr class="separator:a3ed8f901402adaea45b4d666e113ec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a363e4dfec6b10ffbc431e1e7155f3a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_simple_ext_item.html">SimpleExtItem</a>&lt; ChanData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_list_mode_base.html#a363e4dfec6b10ffbc431e1e7155f3a03">extItem</a></td></tr>
@@ -247,8 +245,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa394375ce17f801820ef7320c4404991"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa394375ce17f801820ef7320c4404991">&#9670;&nbsp;</a></span>ListModeBase()</h2>
+<a id="a15cb0a9b3193b21cd33c3a2260687b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15cb0a9b3193b21cd33c3a2260687b28">&#9670;&nbsp;</a></span>ListModeBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,13 +291,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>autotidy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>ctag</em> = <code>&quot;banlist&quot;</code>&#160;</td>
+          <td class="paramname"><em>autotidy</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -317,7 +309,6 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">lnum</td><td>List numeric </td></tr>
     <tr><td class="paramname">eolnum</td><td>End of list numeric </td></tr>
     <tr><td class="paramname">autotidy</td><td>Automatically tidy list entries on add </td></tr>
-    <tr><td class="paramname">ctag</td><td>Configuration tag to get limits from </td></tr>
   </table>
   </dd>
 </dl>
@@ -884,30 +875,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Limits on a per-channel basis read from the tag specified in <a class="el" href="class_list_mode_base.html#ac09ebc5d5b03c7e24a1dc4c26565359b">ListModeBase::configtag</a> </p>
-
-</div>
-</div>
-<a id="ac09ebc5d5b03c7e24a1dc4c26565359b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac09ebc5d5b03c7e24a1dc4c26565359b">&#9670;&nbsp;</a></span>configtag</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ListModeBase::configtag</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Config tag to check for max items per channel </p>
+<p>Limits on a per-channel basis read from the &lt;listmode&gt; config tag. </p>
 
 </div>
 </div>

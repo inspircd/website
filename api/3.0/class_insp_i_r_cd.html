@@ -89,6 +89,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a553c13c9dd344306ff2c787161e426c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3278cb8a5d92237c8ca04bfbe62820ff"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a3278cb8a5d92237c8ca04bfbe62820ff">GenRandomInt</a> (unsigned long max)</td></tr>
 <tr class="separator:a3278cb8a5d92237c8ca04bfbe62820ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835dc33d1f846c56c7995c0c3f8e92f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a835dc33d1f846c56c7995c0c3f8e92f2">BindPort</a> (<a class="el" href="class_config_tag.html">ConfigTag</a> *tag, const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;sa, std::vector&lt; <a class="el" href="class_listen_socket.html">ListenSocket</a> *&gt; &amp;old_ports)</td></tr>
+<tr class="separator:a835dc33d1f846c56c7995c0c3f8e92f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d8b81ea65bf2c54483c54f1055b7fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a42d8b81ea65bf2c54483c54f1055b7fc">BindPorts</a> (FailedPortList &amp;failed_ports)</td></tr>
 <tr class="separator:a42d8b81ea65bf2c54483c54f1055b7fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3542d005301c60c4300729b365bebbf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_user.html">User</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a3542d005301c60c4300729b365bebbf6">FindNick</a> (const std::string &amp;nick)</td></tr>
@@ -120,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3ec065af4894905068487bc56a9f757"><td class="memItemLeft" align="right" valign="top"><a id="aa3ec065af4894905068487bc56a9f757"></a>
 char *&#160;</td><td class="memItemRight" valign="bottom"><b>GetReadBuffer</b> ()</td></tr>
 <tr class="separator:aa3ec065af4894905068487bc56a9f757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0cacc0a2c7004c738e962272901d56"><td class="memItemLeft" align="right" valign="top"><a id="a0f0cacc0a2c7004c738e962272901d56"></a>
+<a class="el" href="struct_client_protocol_1_1_r_f_c_events.html">ClientProtocol::RFCEvents</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRFCEvents</b> ()</td></tr>
+<tr class="separator:a0f0cacc0a2c7004c738e962272901d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -162,6 +167,10 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>MatchCIDR</b> 
 <tr class="separator:ac13c8d13467845d652f834fcafa1b1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb911e158c5ed4f88dadc66e890167a0"><td class="memItemLeft" align="right" valign="top">static unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#afb911e158c5ed4f88dadc66e890167a0">Duration</a> (const std::string &amp;str)</td></tr>
 <tr class="separator:afb911e158c5ed4f88dadc66e890167a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4d75fbe200a4fe841a867bb155d73bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#ad4d75fbe200a4fe841a867bb155d73bc">Duration</a> (const std::string &amp;str, unsigned long &amp;duration)</td></tr>
+<tr class="separator:ad4d75fbe200a4fe841a867bb155d73bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee803dfdd0f60724546b1fa9b0a183e4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#aee803dfdd0f60724546b1fa9b0a183e4">IsValidDuration</a> (const std::string &amp;str)</td></tr>
+<tr class="separator:aee803dfdd0f60724546b1fa9b0a183e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8442b1947d82802d64760d551a7aa961"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#a8442b1947d82802d64760d551a7aa961">TimeString</a> (time_t curtime, const char *format=NULL, bool utc=false)</td></tr>
 <tr class="separator:a8442b1947d82802d64760d551a7aa961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe71f3473796122f3f0fd8f9a1958e89"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_insp_i_r_cd.html#abe71f3473796122f3f0fd8f9a1958e89">TimingSafeCompare</a> (const std::string &amp;one, const std::string &amp;two)</td></tr>
@@ -280,6 +289,48 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a835dc33d1f846c56c7995c0c3f8e92f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a835dc33d1f846c56c7995c0c3f8e92f2">&#9670;&nbsp;</a></span>BindPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InspIRCd::BindPort </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_config_tag.html">ConfigTag</a> *&#160;</td>
+          <td class="paramname"><em>tag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;&#160;</td>
+          <td class="paramname"><em>sa</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_listen_socket.html">ListenSocket</a> *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>old_ports</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Bind to a specific port from a config tag. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>the tag that contains bind information. </td></tr>
+    <tr><td class="paramname">sa</td><td>The endpoint to listen on. </td></tr>
+    <tr><td class="paramname">old_ports</td><td>Previously listening ports that may be on the same endpoint. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a42d8b81ea65bf2c54483c54f1055b7fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42d8b81ea65bf2c54483c54f1055b7fc">&#9670;&nbsp;</a></span>BindPorts()</h2>
 
@@ -460,7 +511,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="afb911e158c5ed4f88dadc66e890167a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb911e158c5ed4f88dadc66e890167a0">&#9670;&nbsp;</a></span>Duration()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb911e158c5ed4f88dadc66e890167a0">&#9670;&nbsp;</a></span>Duration() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -488,8 +539,51 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The total number of seconds</dd></dl>
-<p>Refactored by Brain, Jun 2009. Much faster with some clever O(1) array lookups and pointer maths. </p>
+<dl class="section return"><dt>Returns</dt><dd>The total number of seconds </dd></dl>
+
+</div>
+</div>
+<a id="ad4d75fbe200a4fe841a867bb155d73bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4d75fbe200a4fe841a867bb155d73bc">&#9670;&nbsp;</a></span>Duration() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InspIRCd::Duration </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long &amp;&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculate a duration in seconds from a string in the form 1y2w3d4h6m5s </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>A string containing a time in the form 1y2w3d4h6m5s (one year, two weeks, three days, four hours, six minutes and five seconds) </td></tr>
+    <tr><td class="paramname">duration</td><td>The location to place the parsed duration valur </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the duration was a valid format or not </dd></dl>
 
 </div>
 </div>
@@ -817,6 +911,39 @@ Static Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aee803dfdd0f60724546b1fa9b0a183e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee803dfdd0f60724546b1fa9b0a183e4">&#9670;&nbsp;</a></span>IsValidDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InspIRCd::IsValidDuration </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether a string contains a valid duration. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>A string containing a time in the form 1y2w3d4h6m5s </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the string is a valid duration; otherwise, false. </dd></dl>
 
 </div>
 </div>
@@ -1841,7 +1968,7 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>X-Line manager. Handles G/K/Q/E line setting, removal and matching </p>
+<p>X-line manager. Handles G/K/Q/E-line setting, removal and matching </p>
 
 </div>
 </div>

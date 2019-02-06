@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['kline',['KLine',['../class_k_line.html',1,'']]],
-  ['klinefactory',['KLineFactory',['../class_k_line_factory.html',1,'']]]
+  ['join',['Join',['../struct_client_protocol_1_1_events_1_1_join.html',1,'ClientProtocol::Events::Join'],['../class_client_protocol_1_1_messages_1_1_join.html',1,'ClientProtocol::Messages::Join']]]
 ];

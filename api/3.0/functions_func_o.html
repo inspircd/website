@@ -96,14 +96,8 @@ $(function() {
 <li>OnChangeIdent()
 : <a class="el" href="class_module.html#a135ab5a74a236dc4f696191b25efec2b">Module</a>
 </li>
-<li>OnChangeLocalUserGECOS()
-: <a class="el" href="class_module.html#abcde3dba5bc6c5359b0bbc9964a91a1b">Module</a>
-</li>
-<li>OnChangeLocalUserHost()
-: <a class="el" href="class_module.html#a83e8a040d752c423103420a814dfc868">Module</a>
-</li>
-<li>OnChangeName()
-: <a class="el" href="class_module.html#a1d41b8806e963af21486007e5f8369c3">Module</a>
+<li>OnChangeRealName()
+: <a class="el" href="class_module.html#a8e9cee26dfdf58c5e001fafedbefc107">Module</a>
 </li>
 <li>OnChannelDelete()
 : <a class="el" href="class_module.html#a4c6be01493bcae74002a9e81d3ba3473">Module</a>
@@ -131,6 +125,9 @@ $(function() {
 </li>
 <li>OnCleanup()
 : <a class="el" href="class_module.html#ace3323630e669476ed433b36b6863618">Module</a>
+</li>
+<li>OnClientProtocolPopulateTags()
+: <a class="el" href="class_client_protocol_1_1_message_tag_provider.html#aa778c6efb58f9d95a9c0499afa671840">ClientProtocol::MessageTagProvider</a>
 </li>
 <li>OnConnect()
 : <a class="el" href="class_i_o_hook_provider.html#ae0a8f48fc71fedc56119333e5d97ad4c">IOHookProvider</a>
@@ -172,6 +169,9 @@ $(function() {
 , <a class="el" href="class_stream_socket.html#a80d06a54dac2e7205491002bbca62625">StreamSocket</a>
 , <a class="el" href="class_thread_signal_socket.html#a4726b30e0127be2734105e57b7b719b9">ThreadSignalSocket</a>
 </li>
+<li>OnEventInit()
+: <a class="el" href="class_client_protocol_1_1_event_hook.html#aa58b3dde6b3af7fe31748cd488085c9d">ClientProtocol::EventHook</a>
+</li>
 <li>OnExpireLine()
 : <a class="el" href="class_module.html#a33b8a6dd1c8e6f2e8e15eed14a5205e6">Module</a>
 </li>
@@ -180,9 +180,6 @@ $(function() {
 </li>
 <li>OnGarbageCollect()
 : <a class="el" href="class_module.html#a152a4ce724c1fed088c51c12be43a62b">Module</a>
-</li>
-<li>OnInfo()
-: <a class="el" href="class_module.html#af351dba33f01a510e4b98ebe76efa452">Module</a>
 </li>
 <li>OnKill()
 : <a class="el" href="class_module.html#a140312a31a1e9163193dd7707707c6b8">Module</a>
@@ -195,7 +192,7 @@ $(function() {
 , <a class="el" href="class_log_stream.html#a4eec007a36945f893e8ddec646294ca7">LogStream</a>
 </li>
 <li>OnMode()
-: <a class="el" href="class_module.html#a8fe2543477e9a5ae32d78e52898bee03">Module</a>
+: <a class="el" href="class_module.html#aeaa2dac1cd107a0f20f64459b24e9ad7">Module</a>
 </li>
 <li>OnModeChange()
 : <a class="el" href="class_list_mode_base.html#a55685725c6b25ff4735a5ea2a69405e3">ListModeBase</a>
@@ -225,7 +222,7 @@ $(function() {
 : <a class="el" href="class_module.html#ab2a40bf5ebb638640047a5089e41c333">Module</a>
 </li>
 <li>OnPostCommand()
-: <a class="el" href="class_module.html#a66fa348b4ec47930d28ade1f74cf48b6">Module</a>
+: <a class="el" href="class_module.html#af0c2cd321547c9b2f6d32f948ec7afd9">Module</a>
 </li>
 <li>OnPostConnect()
 : <a class="el" href="class_module.html#aa3a7c87d002fe32d4d0f46a7f438fbbb">Module</a>
@@ -242,8 +239,17 @@ $(function() {
 <li>OnPostTopicChange()
 : <a class="el" href="class_module.html#a9a6faca7798ee9ac8a9330c79bacbcd4">Module</a>
 </li>
+<li>OnPreChangeHost()
+: <a class="el" href="class_module.html#a8028519013eba76b59de3346bd5b0498">Module</a>
+</li>
+<li>OnPreChangeRealName()
+: <a class="el" href="class_module.html#a060080b9ac484e4d16d649b239dced89">Module</a>
+</li>
 <li>OnPreCommand()
-: <a class="el" href="class_module.html#a678967e0e769ecd295a3a272fa488af3">Module</a>
+: <a class="el" href="class_module.html#a4698d4a4a5da9922539459e873bf8d4c">Module</a>
+</li>
+<li>OnPreEventSend()
+: <a class="el" href="class_client_protocol_1_1_event_hook.html#a3aec4e632953c56161d0bbdb99d34216">ClientProtocol::EventHook</a>
 </li>
 <li>OnPreMode()
 : <a class="el" href="class_module.html#a6730818b940e3a53488ac83a7411593f">Module</a>
@@ -254,14 +260,14 @@ $(function() {
 <li>OnPreTopicChange()
 : <a class="el" href="class_module.html#aaf0fffc69b3af9695efaec60df2a1876">Module</a>
 </li>
+<li>OnProcessTag()
+: <a class="el" href="class_client_protocol_1_1_message_tag_provider.html#a370c975e617460e174dd2429f311e557">ClientProtocol::MessageTagProvider</a>
+</li>
 <li>OnRawMode()
 : <a class="el" href="class_module.html#a44a4f0803a5dfbfc2ea62d8c862f42c9">Module</a>
 </li>
 <li>OnSendSnotice()
 : <a class="el" href="class_module.html#a7d39c9fabab9dea701f4a3ad2cfff37b">Module</a>
-</li>
-<li>OnSendWhoLine()
-: <a class="el" href="class_module.html#af84e0d2b7da4625903cc2a7c816584f8">Module</a>
 </li>
 <li>OnServiceAdd()
 : <a class="el" href="class_module.html#a740d7f295d67d93c40dc4c699c9f9abc">Module</a>
@@ -269,11 +275,12 @@ $(function() {
 <li>OnServiceDel()
 : <a class="el" href="class_module.html#af5bf42c45356dc85ae0fe07280acb6ba">Module</a>
 </li>
-<li>OnSetAway()
-: <a class="el" href="class_module.html#ab16f4b39fb1f4353ad2f5d8b652e7425">Module</a>
-</li>
 <li>OnSetConnectClass()
 : <a class="el" href="class_module.html#a5a7c6fc1a66af63568b6a69db294a0df">Module</a>
+</li>
+<li>OnSetEndPoint()
+: <a class="el" href="class_stream_socket.html#a20b9f76aed97edf1cb3d15b4c2e7dc06">StreamSocket</a>
+, <a class="el" href="class_user_i_o_handler.html#a2f67153fc8b18ea8ec89a4291742d357">UserIOHandler</a>
 </li>
 <li>OnSetUserIP()
 : <a class="el" href="class_module.html#a3d9edd94c35056b40d076acf56c6afa0">Module</a>
@@ -363,7 +370,9 @@ $(function() {
 : <a class="el" href="structirc_1_1sockets_1_1cidr__mask.html#acf3646aa9f585d0368661858ad300587">irc::sockets::cidr_mask</a>
 </li>
 <li>operator==()
-: <a class="el" href="structirc_1_1sockets_1_1cidr__mask.html#a3ec6a1c72ae3a36416d21bd9e4a2131b">irc::sockets::cidr_mask</a>
+: <a class="el" href="struct_client_protocol_1_1_message_1_1_serialized_info.html#ab2a97150916d33c9bb7003d4260bd46d">ClientProtocol::Message::SerializedInfo</a>
+, <a class="el" href="class_client_protocol_1_1_tag_selection.html#ac31a44057651d4bf780f37bb5331a768">ClientProtocol::TagSelection</a>
+, <a class="el" href="structirc_1_1sockets_1_1cidr__mask.html#a3ec6a1c72ae3a36416d21bd9e4a2131b">irc::sockets::cidr_mask</a>
 , <a class="el" href="class_token_list.html#a3fb696635713a600fa23d98db6ec077e">TokenList</a>
 </li>
 <li>OperCount()

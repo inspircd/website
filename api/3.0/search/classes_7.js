@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['init_5ft',['init_t',['../unioninit__t.html',1,'']]],
   ['insensitive',['insensitive',['../structirc_1_1insensitive.html',1,'irc']]],
   ['insensitive_5fswo',['insensitive_swo',['../structirc_1_1insensitive__swo.html',1,'irc']]],
   ['inspircd',['InspIRCd',['../class_insp_i_r_cd.html',1,'']]],
@@ -17,6 +16,7 @@ var searchData=
   ['intrusive_5flist_5ftail',['intrusive_list_tail',['../classinsp_1_1intrusive__list__tail.html',1,'insp']]],
   ['intrusive_5flist_5ftail_3c_20nick_20_3e',['intrusive_list_tail&lt; Nick &gt;',['../classinsp_1_1intrusive__list__tail.html',1,'insp']]],
   ['invalidmodeparameter',['InvalidModeParameter',['../class_numerics_1_1_invalid_mode_parameter.html',1,'Numerics']]],
+  ['invite',['Invite',['../struct_client_protocol_1_1_messages_1_1_invite.html',1,'ClientProtocol::Messages']]],
   ['iohook',['IOHook',['../class_i_o_hook.html',1,'']]],
   ['iohookmiddle',['IOHookMiddle',['../class_i_o_hook_middle.html',1,'']]],
   ['iohookprovider',['IOHookProvider',['../class_i_o_hook_provider.html',1,'']]],

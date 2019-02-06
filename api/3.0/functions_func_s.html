@@ -68,14 +68,18 @@ $(function() {
 <li>sa_size()
 : <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html#a6f80b2b70419bcd17fbb73456a505636">irc::sockets::sockaddrs</a>
 </li>
+<li>Select()
+: <a class="el" href="class_client_protocol_1_1_tag_selection.html#a1eb6c38af66b0c787d68652996c5d09d">ClientProtocol::TagSelection</a>
+</li>
 <li>Send()
-: <a class="el" href="class_socket_engine.html#a268db74fd93f57fc8daaac78e62c3732">SocketEngine</a>
+: <a class="el" href="class_local_user.html#aa80f55654d7836d1603860a6030d6e34">LocalUser</a>
+, <a class="el" href="class_socket_engine.html#a268db74fd93f57fc8daaac78e62c3732">SocketEngine</a>
 </li>
 <li>SendChannelNotice()
 : <a class="el" href="class_protocol_interface.html#a162c632f7322dc770cc14c1de8ac304c">ProtocolInterface</a>
 </li>
 <li>SendEncapsulatedData()
-: <a class="el" href="class_protocol_interface.html#a86747a01ce38281d771e5406aa47d6a4">ProtocolInterface</a>
+: <a class="el" href="class_protocol_interface.html#aaacbdfdaff78ca5be01acad2a28fdea2">ProtocolInterface</a>
 </li>
 <li>SendMessage()
 : <a class="el" href="class_protocol_interface.html#ad47ccc1395bbc778cee00b861e671f3d">ProtocolInterface</a>
@@ -98,12 +102,24 @@ $(function() {
 <li>sepstream()
 : <a class="el" href="classirc_1_1sepstream.html#af5df7261a1d9fb32b2f5151e42704e5c">irc::sepstream</a>
 </li>
+<li>Serialize()
+: <a class="el" href="class_client_protocol_1_1_serializer.html#aef58993ddfb5761184047a6fa47be340">ClientProtocol::Serializer</a>
+</li>
 <li>serialize()
 : <a class="el" href="class_extension_item.html#a4ffa5956f0d346d54d0a0ce28e39ec02">ExtensionItem</a>
 , <a class="el" href="class_local_ext_item.html#a7f19c09b8ed4447a9c8081b49fe0adcd">LocalExtItem</a>
 , <a class="el" href="class_local_int_ext.html#a39d9e2a7c91c9104e65102f1c3c47d10">LocalIntExt</a>
 , <a class="el" href="class_local_string_ext.html#a30ffc9ffce8b70926f370db34fe15156">LocalStringExt</a>
 , <a class="el" href="class_string_ext_item.html#a086f819aadd17075ae4e9b3329b83cc0">StringExtItem</a>
+</li>
+<li>SerializedInfo()
+: <a class="el" href="struct_client_protocol_1_1_message_1_1_serialized_info.html#aa8e0fa2cc35691623d6120ec6a7b0f75">ClientProtocol::Message::SerializedInfo</a>
+</li>
+<li>SerializeForUser()
+: <a class="el" href="class_client_protocol_1_1_serializer.html#aa0523d7b1f9f3986b202d8f53d9f42b6">ClientProtocol::Serializer</a>
+</li>
+<li>Serializer()
+: <a class="el" href="class_client_protocol_1_1_serializer.html#a2f4517d7ae0c539c4885b04cefb5bf34">ClientProtocol::Serializer</a>
 </li>
 <li>ServerConfig()
 : <a class="el" href="class_server_config.html#af61bcd662c3be06dd4219770350e65e6">ServerConfig</a>
@@ -127,8 +143,11 @@ $(function() {
 : <a class="el" href="class_local_user.html#a1f3fc890c0439dd32b3c920ac572259c">LocalUser</a>
 </li>
 <li>SetClientIP()
-: <a class="el" href="class_local_user.html#a59559cdec703ef718c44b7a053bf6b96">LocalUser</a>
-, <a class="el" href="class_user.html#ab819228bac3862c6879aa932b07f4794">User</a>
+: <a class="el" href="class_local_user.html#a65daaaaed3fe026aa71b6ee08a2f3bab">LocalUser</a>
+, <a class="el" href="class_user.html#aafbdb9660bf61bfc6a468b3c46f72ad6">User</a>
+</li>
+<li>SetCommand()
+: <a class="el" href="class_client_protocol_1_1_message.html#a135c9f3dbc2ce9da517db6fa10988663">ClientProtocol::Message</a>
 </li>
 <li>SetCreateTime()
 : <a class="el" href="class_x_line.html#a61a398b95584dc62f7b6f8a20f45a087">XLine</a>
@@ -147,6 +166,12 @@ $(function() {
 <li>SetInterval()
 : <a class="el" href="class_timer.html#a62ebee8974a5e8cce7fa857401916ff9">Timer</a>
 </li>
+<li>SetMessage()
+: <a class="el" href="class_client_protocol_1_1_event.html#ae3fe08a3f9c34b0210220986b4b3145c">ClientProtocol::Event</a>
+</li>
+<li>SetMessageList()
+: <a class="el" href="class_client_protocol_1_1_event.html#a786636314d062d6e1ece11e365185ae2">ClientProtocol::Event</a>
+</li>
 <li>SetMode()
 : <a class="el" href="class_channel.html#a2242e5c2cb8e1eb5ed161ad5ba4888fb">Channel</a>
 , <a class="el" href="class_user.html#a4ac20f801afa0a97505471292dee7778">User</a>
@@ -154,11 +179,15 @@ $(function() {
 <li>SetNextHook()
 : <a class="el" href="class_i_o_hook_middle.html#a41057b13ea13330a79bbf50bc4868fc3">IOHookMiddle</a>
 </li>
+<li>SetParams()
+: <a class="el" href="class_client_protocol_1_1_messages_1_1_join.html#a7ae9f1c032bcedba9263b7e20bb73386">ClientProtocol::Messages::Join</a>
+, <a class="el" href="class_client_protocol_1_1_messages_1_1_mode.html#ad8be914d3bc97ed64f4cc6b9ef1d2c28">ClientProtocol::Messages::Mode</a>
+</li>
 <li>SetPrefix()
 : <a class="el" href="class_membership.html#a584082d0031f7eda45be2aa0ab314879">Membership</a>
 </li>
 <li>SetPriority()
-: <a class="el" href="class_module_manager.html#ae9f9a932d9532afd41c117bfd0e74550">ModuleManager</a>
+: <a class="el" href="class_module_manager.html#a4286e37f55d01572e9e96fd80184a78f">ModuleManager</a>
 </li>
 <li>SetReuse()
 : <a class="el" href="class_socket_engine.html#a3b7ad0f5d8b31fda8b861ad8a69747f2">SocketEngine</a>
@@ -169,6 +198,12 @@ $(function() {
 <li>SetSignal()
 : <a class="el" href="class_insp_i_r_cd.html#a65a7bbf37cee7b6d65364775baf6c92c">InspIRCd</a>
 </li>
+<li>SetSource()
+: <a class="el" href="class_client_protocol_1_1_message_source.html#a0208a84310666c49fce429fa87206e97">ClientProtocol::MessageSource</a>
+</li>
+<li>SetSourceUser()
+: <a class="el" href="class_client_protocol_1_1_message_source.html#a5ac8edd539d1578ab6061f0d324ffe91">ClientProtocol::MessageSource</a>
+</li>
 <li>SetTopic()
 : <a class="el" href="class_channel.html#a29aacacfeae8d2fbb4e3e829aeb7681c">Channel</a>
 </li>
@@ -178,11 +213,14 @@ $(function() {
 <li>SharesChannelWith()
 : <a class="el" href="class_user.html#a626bc5712170aa6ebad4c35153bb951e">User</a>
 </li>
+<li>ShouldSendTag()
+: <a class="el" href="class_client_protocol_1_1_message_tag_provider.html#aeda4a7c29718347b3424fc48665c938a">ClientProtocol::MessageTagProvider</a>
+</li>
 <li>ShowListModeList()
 : <a class="el" href="class_mode_parser.html#aaf7b39dab76678ed2509692456767e2e">ModeParser</a>
 </li>
 <li>Shutdown()
-: <a class="el" href="class_socket_engine.html#a52538d3889e3348a64a9f87e9c413017">SocketEngine</a>
+: <a class="el" href="class_socket_engine.html#ace14a966717e6d391f9b4443f81ca9ec">SocketEngine</a>
 </li>
 <li>SignalHandler()
 : <a class="el" href="class_insp_i_r_cd.html#ad77d3aebff98cdf466bdaa5d59d62be1">InspIRCd</a>
@@ -216,7 +254,8 @@ $(function() {
 : <a class="el" href="class_thread_engine.html#af97709a2c4b2636168f047976af8702c">ThreadEngine</a>
 </li>
 <li>str()
-: <a class="el" href="structirc_1_1sockets_1_1cidr__mask.html#a875eafaf9c46139db4a720ddd6688a08">irc::sockets::cidr_mask</a>
+: <a class="el" href="struct_file_position.html#ad52931339a55205a53f0682b72896670">FilePosition</a>
+, <a class="el" href="structirc_1_1sockets_1_1cidr__mask.html#a875eafaf9c46139db4a720ddd6688a08">irc::sockets::cidr_mask</a>
 , <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html#abd459ba275c5fddfb2c5b8bfbda9c805">irc::sockets::sockaddrs</a>
 </li>
 <li>StreamEnd()

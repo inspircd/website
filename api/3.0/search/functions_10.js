@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['qline',['QLine',['../class_q_line.html#a11fdd9cad47bb08af21a89181156676c',1,'QLine']]],
+  ['qline',['QLine',['../class_q_line.html#a2df947556e5e2d31ebeb578f6cb85afc',1,'QLine']]],
+  ['quit',['Quit',['../struct_client_protocol_1_1_messages_1_1_quit.html#a5a1469c959a290d8add9d5816c75fe5a',1,'ClientProtocol::Messages::Quit']]],
   ['quituser',['QuitUser',['../class_user_manager.html#a4e724916289084aaf0575bbb01f8108e',1,'UserManager']]]
 ];

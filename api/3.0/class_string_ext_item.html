@@ -100,8 +100,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>set</b> (<a class="el
 <tr class="memitem:a0b9983c2119d8b1dde5623f4abf09919"><td class="memItemLeft" align="right" valign="top"><a id="a0b9983c2119d8b1dde5623f4abf09919"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>unset</b> (<a class="el" href="class_extensible.html">Extensible</a> *container)</td></tr>
 <tr class="separator:a0b9983c2119d8b1dde5623f4abf09919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abac8b9b8717623882763b19e6fe52c0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_ext_item.html#abac8b9b8717623882763b19e6fe52c0e">free</a> (void *item) CXX11_OVERRIDE</td></tr>
-<tr class="separator:abac8b9b8717623882763b19e6fe52c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc947f0f1f6f348a9d856193db08dada"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_string_ext_item.html#acc947f0f1f6f348a9d856193db08dada">free</a> (<a class="el" href="class_extensible.html">Extensible</a> *container, void *item) CXX11_OVERRIDE</td></tr>
+<tr class="separator:acc947f0f1f6f348a9d856193db08dada"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_extension_item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_extension_item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_extension_item.html">ExtensionItem</a></td></tr>
 <tr class="memitem:abc516b307ee91d6b79a015275ee6811f inherit pub_methods_class_extension_item"><td class="memItemLeft" align="right" valign="top"><a id="abc516b307ee91d6b79a015275ee6811f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ExtensionItem</b> (const std::string &amp;key, <a class="el" href="class_extension_item.html#a033cb646471c0d59024f927bcc34a34b">ExtensibleType</a> exttype, <a class="el" href="class_module.html">Module</a> *owner)</td></tr>
@@ -155,8 +155,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a8136325d9a43b63e4b1bf7b1a2c646b5 inherit pro_methods_class_extension_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abac8b9b8717623882763b19e6fe52c0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abac8b9b8717623882763b19e6fe52c0e">&#9670;&nbsp;</a></span>free()</h2>
+<a id="acc947f0f1f6f348a9d856193db08dada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc947f0f1f6f348a9d856193db08dada">&#9670;&nbsp;</a></span>free()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,9 +167,19 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void StringExtItem::free </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>item</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_extensible.html">Extensible</a> *&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -180,7 +190,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Free the item </p>
 
-<p>Implements <a class="el" href="class_extension_item.html#aa2e5905fc30573e53feebfe0864f36b2">ExtensionItem</a>.</p>
+<p>Implements <a class="el" href="class_extension_item.html#a533ed21a5df43547c2df5be1c9eedb0e">ExtensionItem</a>.</p>
 
 </div>
 </div>

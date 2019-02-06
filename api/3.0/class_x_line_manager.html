@@ -91,8 +91,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add5f01a8a847a82d88c8bc2d570f8418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56f01d8510620e562ae7f5c5a0468c96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#a56f01d8510620e562ae7f5c5a0468c96">AddLine</a> (<a class="el" href="class_x_line.html">XLine</a> *line, <a class="el" href="class_user.html">User</a> *user)</td></tr>
 <tr class="separator:a56f01d8510620e562ae7f5c5a0468c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a345469f8339e4aee3ad501130d5329ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#a345469f8339e4aee3ad501130d5329ba">DelLine</a> (const char *hostmask, const std::string &amp;type, <a class="el" href="class_user.html">User</a> *user, bool simulate=false)</td></tr>
-<tr class="separator:a345469f8339e4aee3ad501130d5329ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182a524c05b76c65ee3d6c81f3974060"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#a182a524c05b76c65ee3d6c81f3974060">DelLine</a> (const char *hostmask, const std::string &amp;type, std::string &amp;reason, <a class="el" href="class_user.html">User</a> *user, bool simulate=false)</td></tr>
+<tr class="separator:a182a524c05b76c65ee3d6c81f3974060"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab30c7427f10d97c24bf6a7e18ad8883d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#ab30c7427f10d97c24bf6a7e18ad8883d">RegisterFactory</a> (<a class="el" href="class_x_line_factory.html">XLineFactory</a> *xlf)</td></tr>
 <tr class="separator:ab30c7427f10d97c24bf6a7e18ad8883d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37751435c7dabf7a475b75ce30de88e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#a37751435c7dabf7a475b75ce30de88e4">UnregisterFactory</a> (<a class="el" href="class_x_line_factory.html">XLineFactory</a> *xlf)</td></tr>
@@ -109,6 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a850bb05c045869bbe42e3bed4e15e72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fb82092d828e7d21c448db9e4e9cd39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#a7fb82092d828e7d21c448db9e4e9cd39">InvokeStats</a> (const std::string &amp;type, unsigned int numeric, Stats::Context &amp;stats)</td></tr>
 <tr class="separator:a7fb82092d828e7d21c448db9e4e9cd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832fb1fd33eb25364ea23b5252e0fcb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_x_line_manager.html#a832fb1fd33eb25364ea23b5252e0fcb6">ClearConfigLines</a> ()</td></tr>
+<tr class="separator:a832fb1fd33eb25364ea23b5252e0fcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -120,7 +122,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a16ee635abde118c74e0fe299887464a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="class_x_line_manager.html">XLineManager</a> is a class used to manage glines, klines, elines, zlines and qlines, or any other line created by a module. It also manages <a class="el" href="class_x_line_factory.html">XLineFactory</a> classes which can generate a specialized <a class="el" href="class_x_line.html">XLine</a> for use by another module. </p>
+<div class="textblock"><p><a class="el" href="class_x_line_manager.html">XLineManager</a> is a class used to manage G-lines, K-lines, E-lines, Z-lines and Q-lines, or any other line created by a module. It also manages <a class="el" href="class_x_line_factory.html">XLineFactory</a> classes which can generate a specialized <a class="el" href="class_x_line.html">XLine</a> for use by another module. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="accd4949e6628dc29ca2ab46f025e60b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accd4949e6628dc29ca2ab46f025e60b7">&#9670;&nbsp;</a></span>XLineManager()</h2>
@@ -227,7 +229,25 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Checks what users match e:lines and sets their ban exempt flag accordingly. </p>
+<p>Checks what users match E-lines and sets their ban exempt flag accordingly. </p>
+
+</div>
+</div>
+<a id="a832fb1fd33eb25364ea23b5252e0fcb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832fb1fd33eb25364ea23b5252e0fcb6">&#9670;&nbsp;</a></span>ClearConfigLines()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XLineManager::ClearConfigLines </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clears any XLines which were added by the server configuration. </p>
 
 </div>
 </div>
@@ -250,8 +270,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a345469f8339e4aee3ad501130d5329ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a345469f8339e4aee3ad501130d5329ba">&#9670;&nbsp;</a></span>DelLine()</h2>
+<a id="a182a524c05b76c65ee3d6c81f3974060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182a524c05b76c65ee3d6c81f3974060">&#9670;&nbsp;</a></span>DelLine()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,6 +287,12 @@ Protected Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>reason</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -291,6 +317,7 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">hostmask</td><td>The xline-specific string identifying the line, e.g. "*@foo" </td></tr>
     <tr><td class="paramname">type</td><td>The type of xline </td></tr>
+    <tr><td class="paramname">reason</td><td>The xline reason, if it is being removed successfully </td></tr>
     <tr><td class="paramname">user</td><td>The user removing the line or NULL if its the local server </td></tr>
     <tr><td class="paramname">simulate</td><td>If this is true, don't actually remove the line, just return </td></tr>
   </table>
@@ -550,7 +577,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Registers an xline factory. An xline factory is a class which when given a particular xline type, will generate a new <a class="el" href="class_x_line.html">XLine</a> specialized to that type. For example if you pass the <a class="el" href="class_x_line_factory.html">XLineFactory</a> that handles glines some data it will return a pointer to a <a class="el" href="class_g_line.html">GLine</a>, polymorphically represented as <a class="el" href="class_x_line.html">XLine</a>. This is used where you do not know the full details of the item you wish to create, e.g. in a server protocol module like m_spanningtree, when you receive xlines from other servers. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Registers an xline factory. An xline factory is a class which when given a particular xline type, will generate a new <a class="el" href="class_x_line.html">XLine</a> specialized to that type. For example if you pass the <a class="el" href="class_x_line_factory.html">XLineFactory</a> that handles G-lines some data it will return a pointer to a <a class="el" href="class_g_line.html">GLine</a>, polymorphically represented as <a class="el" href="class_x_line.html">XLine</a>. This is used where you do not know the full details of the item you wish to create, e.g. in a server protocol module like m_spanningtree, when you receive xlines from other servers. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xlf</td><td><a class="el" href="class_x_line_factory.html">XLineFactory</a> pointer to register </td></tr>
   </table>

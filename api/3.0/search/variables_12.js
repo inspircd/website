@@ -1,16 +1,14 @@
 var searchData=
 [
-  ['tag',['tag',['../struct_deprecated_config.html#a1604e152482164942affadcad4a12e21',1,'DeprecatedConfig']]],
-  ['text',['text',['../class_message_details.html#a6b588b04a8cfd8ec992351ca879bad7b',1,'MessageDetails']]],
-  ['threads',['Threads',['../class_insp_i_r_cd.html#a583e83a67aad61aec1da49fdedc96240',1,'InspIRCd']]],
-  ['tidy',['tidy',['../class_list_mode_base.html#aa8c9f9507a66e79d943f0965cca79d5a',1,'ListModeBase']]],
-  ['timeout',['Timeout',['../class_buffered_socket.html#a716c88c2e8eb56ab6df19226b02dfaac',1,'BufferedSocket']]],
-  ['timers',['Timers',['../class_insp_i_r_cd.html#a422c8cb0beb24b53431ca4df021041ab',1,'InspIRCd']]],
-  ['tokens',['tokens',['../classirc_1_1sepstream.html#a913ce2b8110bcb6a033a8b01e94da4c5',1,'irc::sepstream']]],
-  ['topic',['topic',['../class_channel.html#aabf950297869ac3f7126ae892fe68dfb',1,'Channel']]],
-  ['topicset',['topicset',['../class_channel.html#a11deedd3d2c8191b074eb2b3741eb246',1,'Channel']]],
-  ['translation',['translation',['../class_command_base.html#a196781288c603e97eab9b778ee892bc3',1,'CommandBase']]],
-  ['type',['Type',['../class_ban_cache_hit.html#a939971a100423882923c077738b1604a',1,'BanCacheHit::Type()'],['../struct_route_descriptor.html#ab3b65ea27b9c273d8d73da0294369d28',1,'RouteDescriptor::type()'],['../class_extension_item.html#a4a7a5bc773fdb460bf35e02448b37461',1,'ExtensionItem::type()'],['../class_message_details.html#af07e5f2a68727165f93d7daf2babac23',1,'MessageDetails::type()'],['../class_message_target.html#aaf61ca8184fdd2cfeaf657beab45df5f',1,'MessageTarget::type()'],['../structirc_1_1sockets_1_1cidr__mask.html#a1fd5428bb9287bf794b1a99762718cf5',1,'irc::sockets::cidr_mask::type()'],['../struct_connect_class.html#ad27601e93063375f28cdb967b687f633',1,'ConnectClass::type()'],['../class_x_line.html#a9e07f2871413be0c84634906c7c0d801',1,'XLine::type()']]],
-  ['type_5fblock',['type_block',['../class_oper_info.html#ac4bc257a31ebf3d4f99749ba3f15cd72',1,'OperInfo']]],
-  ['type_5fid',['type_id',['../class_mode_handler.html#ac1dc48ffec01df55b588c1da8d2b9c41',1,'ModeHandler']]]
+  ['uline',['uline',['../class_server.html#a0e222f3ea18312735eed3889da993b4c',1,'Server']]],
+  ['unknown',['Unknown',['../classserverstats.html#a2077a2c30b7d25a63a14e02968a09dd4',1,'serverstats']]],
+  ['unregistered_5fcount',['unregistered_count',['../class_user_manager.html#a1ba341589eeb9ff647a38fbaceab512b',1,'UserManager']]],
+  ['use_5fcount',['use_count',['../class_command_base.html#a98c538984b12bc3ca4e174b221c6def4',1,'CommandBase']]],
+  ['user',['user',['../class_membership.html#a5b5b8b689356105c76ff2b749b75b5fb',1,'Membership']]],
+  ['userlist',['userlist',['../class_channel.html#a5c6d7efac4aae37418e9cc2943e195a0',1,'Channel']]],
+  ['users',['Users',['../class_insp_i_r_cd.html#a1e57bb5741c0e4c1c3865d169897e3f3',1,'InspIRCd']]],
+  ['usertype',['usertype',['../class_user.html#a6a376f2e2c4448d8e1288638540f2707',1,'User']]],
+  ['uuid',['uuid',['../class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a',1,'User']]],
+  ['uuid_5flength',['UUID_LENGTH',['../class_u_i_d_generator.html#a0aeef920a61b52a3600c6b61f4087c06',1,'UIDGenerator']]],
+  ['uuidlist',['uuidlist',['../class_user_manager.html#a31908bcc0e671695f474353b0eee0d61',1,'UserManager']]]
 ];
