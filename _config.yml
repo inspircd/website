@@ -31,8 +31,8 @@ navigation:
       uri: https://github.com/inspircd/inspircd/releases/latest
       target: _blank
       icon: fa-cloud-download
-    - title: Wiki
-      uri: https://wiki.inspircd.org
+    - title: Documentation
+      uri: https://docs.inspircd.org
       target: _blank
       icon: fa-book
     - title: Issue Tracker
@@ -58,6 +58,6 @@ misc:
     currentVersion: 2.0.27
     gitHubUrl: https://github.com/inspircd
     latestUrl: https://github.com/inspircd/inspircd/releases/latest
-    configGuideUrl: https://wiki.inspircd.org/Configuration
-    installGuideUrl: https://wiki.inspircd.org/Installation_From_Source
+    configGuideUrl: https://docs.inspircd.org/3/configuration
+    installGuideUrl: https://docs.inspircd.org/3/installation
     devurl:
