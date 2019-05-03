@@ -7,6 +7,6 @@ important      : "You have to select the version of InspIRCd you would like to s
 
 <strong>Documentation is available for the following releases:</strong>
 
-[InspIRCd 2.0](/api/2.0)
+[InspIRCd v3 (stable)](/api/3.0)
 
-[InspIRCd 3.0 (alpha)](/api/3.0)
+[InspIRCd v2 (old stable)](/api/2.0)

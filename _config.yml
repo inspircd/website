@@ -9,7 +9,7 @@ sass:
     sass_dir: assets/css
     style: compressed
 
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-paginate
@@ -39,7 +39,7 @@ navigation:
       uri: https://github.com/inspircd/inspircd/issues
       target: _blank
       icon: fa-bug
-    - title: InspIRCd API
+    - title: Developer API
       uri: /api
       target: _blank
       icon: fa-code
