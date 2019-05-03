@@ -6,6 +6,7 @@ var searchData=
   ['netbuffersize',['NetBufferSize',['../class_server_config.html#af206d98582d7721d2668a47fc29b0605',1,'ServerConfig']]],
   ['newservices',['NewServices',['../class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e',1,'ModuleManager']]],
   ['nextalreadysentid',['NextAlreadySentId',['../class_user_manager.html#a305cea93e188dfe7003a5191287caca1',1,'UserManager']]],
+  ['nextping',['nextping',['../class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8',1,'LocalUser']]],
   ['nick',['Nick',['../struct_client_protocol_1_1_messages_1_1_nick.html',1,'ClientProtocol::Messages::Nick'],['../struct_who_was_1_1_nick.html',1,'WhoWas::Nick'],['../struct_client_protocol_1_1_messages_1_1_nick.html#a80775d11966784b7d134a9a62309d00e',1,'ClientProtocol::Messages::Nick::Nick()'],['../struct_who_was_1_1_nick.html#a19418740ea79b130bdfcb8e138d0b43c',1,'WhoWas::Nick::Nick(const std::string &amp;nickname)'],['../struct_who_was_1_1_nick.html#a8f271faa6adf2179094e1177cf94c2ee',1,'WhoWas::Nick::nick()'],['../class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe',1,'User::nick()'],['../class_q_line.html#a3d81cb3c213b024e393823a40d6d965a',1,'QLine::nick()']]],
   ['nickmax',['NickMax',['../class_server_limits.html#ad6e1b56af3c54b9f5ecf1836cecb9bfd',1,'ServerLimits']]],
   ['nocopy',['NoCopy',['../class_client_protocol_1_1_messages_1_1_privmsg.html#a0d49e530b63df044365c71eb8ecaa249',1,'ClientProtocol::Messages::Privmsg']]],
@@ -15,6 +16,5 @@ var searchData=
   ['nosuchchannel',['NoSuchChannel',['../class_numerics_1_1_no_such_channel.html',1,'Numerics']]],
   ['nosuchnick',['NoSuchNick',['../class_numerics_1_1_no_such_nick.html',1,'Numerics']]],
   ['notifyparent',['NotifyParent',['../class_socket_thread.html#a730afab810c684b6a171ba9d38a1c908',1,'SocketThread']]],
-  ['nping',['nping',['../class_local_user.html#a1ffe0d9a22725260c11c89e2dda7a030',1,'LocalUser']]],
   ['numeric',['Numeric',['../class_numeric_1_1_numeric.html',1,'Numeric::Numeric'],['../class_client_protocol_1_1_messages_1_1_numeric.html',1,'ClientProtocol::Messages::Numeric'],['../class_client_protocol_1_1_messages_1_1_numeric.html#aa53e03c085abcae08a98f5fc87574c1b',1,'ClientProtocol::Messages::Numeric::Numeric(const ::Numeric::Numeric &amp;num, User *user)'],['../class_client_protocol_1_1_messages_1_1_numeric.html#ac021b8fa8b83e5916dc6f2f089990ac7',1,'ClientProtocol::Messages::Numeric::Numeric(const ::Numeric::Numeric &amp;num, const std::string &amp;target)'],['../class_client_protocol_1_1_messages_1_1_numeric.html#a50b51a17b17a7ab379d577154cfaa908',1,'ClientProtocol::Messages::Numeric::Numeric(unsigned int num)'],['../class_numeric_1_1_numeric.html#ac4550b522e559744210ac5581b52d2aa',1,'Numeric::Numeric::Numeric()']]]
 ];

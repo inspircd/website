@@ -29,8 +29,9 @@ var searchData=
   ['displaylist',['DisplayList',['../class_list_mode_base.html#a777c8a8c7e10b161eec0501f1e78cac2',1,'ListModeBase::DisplayList()'],['../class_mode_handler.html#a76d8967ba9df890d877f1c3af8fa9528',1,'ModeHandler::DisplayList()']]],
   ['dllmanager',['DLLManager',['../class_d_l_l_manager.html#a97c5b5a1f76d073cb53594c3ec91435b',1,'DLLManager']]],
   ['dobackgrounduserstuff',['DoBackgroundUserStuff',['../class_user_manager.html#a23e0b2c8dd27131b47efe97d03f74d37',1,'UserManager']]],
-  ['doconnect',['DoConnect',['../class_buffered_socket.html#aad70b53205c38736d19e261297f59dc1',1,'BufferedSocket']]],
+  ['doconnect',['DoConnect',['../class_buffered_socket.html#a984aabcbe183ba12a9aff179d7e8b59d',1,'BufferedSocket']]],
   ['dorehash',['DoRehash',['../class_list_mode_base.html#aff5037467e1b45019f90d66e1650bb38',1,'ListModeBase']]],
   ['dowrite',['DoWrite',['../class_stream_socket.html#a7d5219ca91425813c92cc09f7cf634ef',1,'StreamSocket']]],
-  ['duration',['Duration',['../class_insp_i_r_cd.html#afb911e158c5ed4f88dadc66e890167a0',1,'InspIRCd::Duration(const std::string &amp;str)'],['../class_insp_i_r_cd.html#ad4d75fbe200a4fe841a867bb155d73bc',1,'InspIRCd::Duration(const std::string &amp;str, unsigned long &amp;duration)']]]
+  ['duration',['Duration',['../class_insp_i_r_cd.html#afb911e158c5ed4f88dadc66e890167a0',1,'InspIRCd::Duration(const std::string &amp;str)'],['../class_insp_i_r_cd.html#ad4d75fbe200a4fe841a867bb155d73bc',1,'InspIRCd::Duration(const std::string &amp;str, unsigned long &amp;duration)']]],
+  ['durationstring',['DurationString',['../class_insp_i_r_cd.html#aa1ae919c2888712fe4c04215d1c244cb',1,'InspIRCd']]]
 ];

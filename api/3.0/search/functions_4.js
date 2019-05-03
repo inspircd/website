@@ -18,5 +18,6 @@ var searchData=
   ['exit',['Exit',['../class_insp_i_r_cd.html#a7bacde8f58774aeb9d7ab2aeb5cdd9ea',1,'InspIRCd']]],
   ['expandmodname',['ExpandModName',['../class_module_manager.html#a1a8a69565cf7709ed4a9ea4acd057ee8',1,'ModuleManager']]],
   ['expandpath',['ExpandPath',['../class_file_system.html#a961bd72173514b6335b9817eb21d3999',1,'FileSystem']]],
-  ['expireline',['ExpireLine',['../class_x_line_manager.html#a36d15117f604cba3cd2ad80735be0c15',1,'XLineManager']]]
+  ['expireline',['ExpireLine',['../class_x_line_manager.html#a210be30b41b3208939ee25bdf01f5e6a',1,'XLineManager']]],
+  ['expireremovedconfiglines',['ExpireRemovedConfigLines',['../class_x_line_manager.html#a6e9ce7a1e36bcadea65d010b5e3495f3',1,'XLineManager']]]
 ];

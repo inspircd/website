@@ -734,9 +734,9 @@
                 <Anchor>ac1a5b7ade49c70ad29d6446cc60a01f1</Anchor>
                </Node>
                <Node>
-                <Name>OnClientProtocolPopulateTags</Name>
+                <Name>OnPopulateTags</Name>
                 <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
-                <Anchor>aa778c6efb58f9d95a9c0499afa671840</Anchor>
+                <Anchor>a0336fe397875470caf699c3e92019218</Anchor>
                </Node>
                <Node>
                 <Name>OnProcessTag</Name>
@@ -944,7 +944,7 @@
                <Node>
                 <Name>SubscriberList</Name>
                 <Path>class_events_1_1_module_event_provider.html</Path>
-                <Anchor>a9cc94c6e8b82901574271623d4076ce5</Anchor>
+                <Anchor>a5d6a1eded153a04df22413293914c851</Anchor>
                </Node>
                <Node>
                 <Name>ModuleEventProvider</Name>
@@ -1243,9 +1243,9 @@
                 <Anchor>a742558afdeb2a3c30307c2504fa74a3f</Anchor>
                </Node>
                <Node>
-                <Name>operator T*</Name>
+                <Name>operator T *</Name>
                 <Path>classinsp_1_1aligned__storage.html</Path>
-                <Anchor>ac6b2e98fb6d8dc18df390e969363e59f</Anchor>
+                <Anchor>a73653da04d1c2ffc1d8d54fa97220e95</Anchor>
                </Node>
                <Node>
                 <Name>operator-&gt;</Name>
@@ -1261,67 +1261,67 @@
                <Node>
                 <Name>iterator</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a5c6f17426b7a73801209595207d68bbc</Anchor>
+                <Anchor>a4711c533ce391b9dece6832714b79c92</Anchor>
                </Node>
                <Node>
                 <Name>key_type</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a195a149b0231fe23b396305950586ed6</Anchor>
+                <Anchor>a30b830a055716057c08caeb762c397a5</Anchor>
                </Node>
                <Node>
                 <Name>mapped_type</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a0fe7fc32a566ec2d44206ddbd59ac4bc</Anchor>
+                <Anchor>a53c9f23cd51b120f39b35f615fe4eec3</Anchor>
                </Node>
                <Node>
                 <Name>value_compare</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>abab785d2010c7865085fa5c6c4d8d4d0</Anchor>
+                <Anchor>a30dbec167d330007e4a77e19d6ac9ba2</Anchor>
                </Node>
                <Node>
                 <Name>value_type</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>aba9e2c2aa85a6ed3bcaa57cbc058b6f4</Anchor>
+                <Anchor>aab9df211226bfc0862be0fdf2405ae67</Anchor>
                </Node>
                <Node>
                 <Name>flat_map</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>ad40b4cb1bae8c0d9d68bdc7620190144</Anchor>
+                <Anchor>afb24b23b3b761dcfc8700eef23e14fd4</Anchor>
                </Node>
                <Node>
                 <Name>flat_map</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a601cfd9b20f9f50824123e8baca1dc4b</Anchor>
+                <Anchor>adea1c19624b3a0a4e50f59b2f7d54096</Anchor>
                </Node>
                <Node>
                 <Name>flat_map</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a1e1f55f587323395f84e76d7f6289e7a</Anchor>
+                <Anchor>a05b6d44d19ab4b227b8c65f5b993350d</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>aa5bb8a437a539567bf0c3f57cf41e532</Anchor>
+                <Anchor>a59d21df253585c871a4cc360c51fa300</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a19253714674793c7371e549851905be6</Anchor>
+                <Anchor>ad6496b2ae0bdad8c77c43a12db83b348</Anchor>
                </Node>
                <Node>
                 <Name>operator[]</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>a9fd7a0de77ef48d01514c53c8c6ded16</Anchor>
+                <Anchor>a2a5fcc69eaca382fc4498e34a7042c42</Anchor>
                </Node>
                <Node>
                 <Name>swap</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>abb74bbb0ae81108bb32a81dcdc4f2247</Anchor>
+                <Anchor>a1e2c51b8c704d369be42bf5f61ab2778</Anchor>
                </Node>
                <Node>
                 <Name>value_comp</Name>
                 <Path>classinsp_1_1flat__map.html</Path>
-                <Anchor>ac14ddb572f007e5b50ceea702d80d064</Anchor>
+                <Anchor>ac9d503ca5202119981d522e5e5ac8ec5</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1332,57 +1332,57 @@
                <Node>
                 <Name>iterator</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a49a87ae5a59f9a088c656557083c4eda</Anchor>
+                <Anchor>a087d8be1d7cc764782dec0f8ad9dd9d0</Anchor>
                </Node>
                <Node>
                 <Name>mapped_type</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a055fdad8bb287070830aaea36a6d088b</Anchor>
+                <Anchor>ad3bdc58fa9d85771b16d8875acf7f6c5</Anchor>
                </Node>
                <Node>
                 <Name>value_compare</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a966c7b04cd576a0797f2687e68f377a6</Anchor>
+                <Anchor>ad4e9cb346431fa59758adc54d5996784</Anchor>
                </Node>
                <Node>
                 <Name>value_type</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a7670fe616eb58af78b687d565b3eac58</Anchor>
+                <Anchor>a26ab52ec71cdf2dbcc059e51007554e5</Anchor>
                </Node>
                <Node>
                 <Name>flat_multimap</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>aeea4cf07bd8406f21c668da3339fc284</Anchor>
+                <Anchor>ab13d3939c6e4ca89e538f973252e349e</Anchor>
                </Node>
                <Node>
                 <Name>flat_multimap</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a59a8fba934fcf98142d967ab71d550ac</Anchor>
+                <Anchor>a7cde79857f8da89ba2868ff3d3231189</Anchor>
                </Node>
                <Node>
                 <Name>flat_multimap</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a52821839028c0afaa2a46a3ae50d92e2</Anchor>
+                <Anchor>a02d6f4f089c037d2900b7f756cdaa410</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a9be9a33689e132e6258fa3361480123a</Anchor>
+                <Anchor>add9f37bc983aa6b7976b96d2aa7eae9e</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>a93baad0828cf6a2465a9c2a9f7a207c8</Anchor>
+                <Anchor>a54fec9589a6ada98f3841311472f7cfd</Anchor>
                </Node>
                <Node>
                 <Name>swap</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>ae1d5fc92dc4c01fc3839caf3411adabf</Anchor>
+                <Anchor>ae422d46dd31ad564ae8645afed8045ed</Anchor>
                </Node>
                <Node>
                 <Name>value_comp</Name>
                 <Path>classinsp_1_1flat__multimap.html</Path>
-                <Anchor>adff445b9e2eadb9f9315f15212fbd3fd</Anchor>
+                <Anchor>a532a7e24adea7c5efdb338565b5ddf86</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1393,42 +1393,42 @@
                <Node>
                 <Name>iterator</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a60fee7d9915d810e80eb68a56a0ded3d</Anchor>
+                <Anchor>a6795773d73cb0a5f8309a86f92f9f91e</Anchor>
                </Node>
                <Node>
                 <Name>value_type</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>adc6e08a80f95830bee624161fb34b5bb</Anchor>
+                <Anchor>a00ec80b3611c381626f687ffeb02045b</Anchor>
                </Node>
                <Node>
                 <Name>flat_multiset</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a0c92cdf293ae53ed360f7148328c5c4e</Anchor>
+                <Anchor>aeef77809661a07ed39bbe53d65bf0c12</Anchor>
                </Node>
                <Node>
                 <Name>flat_multiset</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a680a42b98f190957a6a3de28884d5dd9</Anchor>
+                <Anchor>a8bd01776867fdc1c7ea38485fdca771a</Anchor>
                </Node>
                <Node>
                 <Name>flat_multiset</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a7ce5f325d5210ebfa5444ece9f3b4850</Anchor>
+                <Anchor>a1ca7dd8e2657abbb6374f0f52ea199f3</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a1f106973cbcb4c9400429f7f1faa9fa7</Anchor>
+                <Anchor>a4fc80e245451268afd0c99db9fb9ceef</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a0f8054ac21b8f7fd1c2b33ab711e8143</Anchor>
+                <Anchor>ac8e2db847a6a6d690e63634019a88db2</Anchor>
                </Node>
                <Node>
                 <Name>swap</Name>
                 <Path>classinsp_1_1flat__multiset.html</Path>
-                <Anchor>a5b7c906077515e88a363ad184426ebee</Anchor>
+                <Anchor>a7a7dd5813c8505e4d672e6663364926b</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1439,42 +1439,42 @@
                <Node>
                 <Name>iterator</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>a9d8b68eb900e6a09ed3e0f35a42bbc4e</Anchor>
+                <Anchor>a8b3611b57d4274ff5dbf12be10cc1e11</Anchor>
                </Node>
                <Node>
                 <Name>value_type</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>afe0135232b1c6d65f5ea10a8e01c0305</Anchor>
+                <Anchor>a30cb2d63f0c8c765242777125f2ab443</Anchor>
                </Node>
                <Node>
                 <Name>flat_set</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>abd45eba8ed60b8b015431361742e7017</Anchor>
+                <Anchor>ada8be1e7ba6317a282069e9ebbe54176</Anchor>
                </Node>
                <Node>
                 <Name>flat_set</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>a01cdd3f96fcf600853d86855195c761b</Anchor>
+                <Anchor>adf3dca8521c0347088ca8f70e1d5e100</Anchor>
                </Node>
                <Node>
                 <Name>flat_set</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>a78c9d265863176257418913e0ce761da</Anchor>
+                <Anchor>a5032a1442205c64a8d39a13391a116b0</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>a608804fc1b86414b08d870bc422668ff</Anchor>
+                <Anchor>adbd71b3650c52bf1e691ff7eb1f378d6</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>adad6e051347953d6c12dd62bbb764a79</Anchor>
+                <Anchor>aa3e719565bb7534248cbfbe70f840d50</Anchor>
                </Node>
                <Node>
                 <Name>swap</Name>
                 <Path>classinsp_1_1flat__set.html</Path>
-                <Anchor>aede722b9bc5f86d4267c9f298b319f3f</Anchor>
+                <Anchor>a17eeef80ecdb357eedfbccaaa249ef4b</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1492,14 +1492,14 @@
                   <Anchor>ae12f6673e54d366dd0e76c52db0bd7b0</Anchor>
                  </Node>
                  <Node>
+                  <Name>operator *</Name>
+                  <Path>classinsp_1_1intrusive__list_1_1iterator.html</Path>
+                  <Anchor>ae6e0ee00beeb5369aac48b8b4812c247</Anchor>
+                 </Node>
+                 <Node>
                   <Name>operator!=</Name>
                   <Path>classinsp_1_1intrusive__list_1_1iterator.html</Path>
                   <Anchor>aed7333a6fad11e390984c0aef5bec8d5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator*</Name>
-                  <Path>classinsp_1_1intrusive__list_1_1iterator.html</Path>
-                  <Anchor>aab8ab4bea51f965d302d7704ac259947</Anchor>
                  </Node>
                  <Node>
                   <Name>operator++</Name>
@@ -2475,14 +2475,9 @@
               <Anchor>a6a24bf69c1ef58182e0ddba60e68337a</Anchor>
              </Node>
              <Node>
-              <Name>BeginConnect</Name>
-              <Path>class_buffered_socket.html</Path>
-              <Anchor>a1f452995ea2f55f3ecc649fbe59e8a17</Anchor>
-             </Node>
-             <Node>
               <Name>DoConnect</Name>
               <Path>class_buffered_socket.html</Path>
-              <Anchor>aad70b53205c38736d19e261297f59dc1</Anchor>
+              <Anchor>a984aabcbe183ba12a9aff179d7e8b59d</Anchor>
              </Node>
              <Node>
               <Name>OnConnected</Name>
@@ -3467,14 +3462,14 @@
               <Anchor>ac4a6210b8771171cc4bae66160561a99</Anchor>
              </Node>
              <Node>
-              <Name>operator*</Name>
+              <Name>operator *</Name>
               <Path>classdynamic__reference.html</Path>
-              <Anchor>a9e99a93d29ec6c4840a2897ae69647cc</Anchor>
+              <Anchor>a2ea3c995ae257cb6fb0a9768ad7de6b3</Anchor>
              </Node>
              <Node>
-              <Name>operator*</Name>
+              <Name>operator *</Name>
               <Path>classdynamic__reference.html</Path>
-              <Anchor>a5978d0f339d7d51b4b878912bc49c410</Anchor>
+              <Anchor>ad8359f08ad722543cc9b20720416f936</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -3560,14 +3555,14 @@
               <Anchor>ae4aec11b1b0eeac76af1d272034e932d</Anchor>
              </Node>
              <Node>
-              <Name>operator*</Name>
+              <Name>operator *</Name>
               <Path>classdynamic__reference__nocheck.html</Path>
-              <Anchor>a7829398ccdc818ef10a77e8d4f766f58</Anchor>
+              <Anchor>a0dc563e4bf163d57c06020184eb23bb9</Anchor>
              </Node>
              <Node>
-              <Name>operator*</Name>
+              <Name>operator *</Name>
               <Path>classdynamic__reference__nocheck.html</Path>
-              <Anchor>a36b2ed6b9a8f35d78c82a80f9f35dea6</Anchor>
+              <Anchor>afbf7a909f957972ffeeae335957845c8</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -4141,7 +4136,7 @@
              <Node>
               <Name>BindPort</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a835dc33d1f846c56c7995c0c3f8e92f2</Anchor>
+              <Anchor>a13d4fcd3760c3e52404c97524895f94b</Anchor>
              </Node>
              <Node>
               <Name>BindPorts</Name>
@@ -4967,9 +4962,9 @@
               <Anchor>a1889973979a1d8ea2a10efacc48d5458</Anchor>
              </Node>
              <Node>
-              <Name>GetServerPort</Name>
+              <Name>HasCommandPermission</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>acffd61c7e12f5ea8482420f9da83af80</Anchor>
+              <Anchor>a778e4c4ede84a2698fb9dd3a42fffbad</Anchor>
              </Node>
              <Node>
               <Name>HasModePermission</Name>
@@ -4977,14 +4972,9 @@
               <Anchor>a7f4a5d2aefe8e6c4746ddd1fc66070d5</Anchor>
              </Node>
              <Node>
-              <Name>HasPermission</Name>
-              <Path>class_local_user.html</Path>
-              <Anchor>a3209b412cb9bfa68c09a118379d21999</Anchor>
-             </Node>
-             <Node>
               <Name>HasPrivPermission</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a4a92bc7040bafe9795a37b7df7d4099c</Anchor>
+              <Anchor>af5ef18389af4d0b7e1d8cf51a5182875</Anchor>
              </Node>
              <Node>
               <Name>OverruleNick</Name>
@@ -5077,9 +5067,9 @@
               <Anchor>a490f4f7dddd5f5bb8c5c07fffa6eb916</Anchor>
              </Node>
              <Node>
-              <Name>nping</Name>
+              <Name>nextping</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a1ffe0d9a22725260c11c89e2dda7a030</Anchor>
+              <Anchor>aaf8aff7d93dad389af61c1caa85d45d8</Anchor>
              </Node>
              <Node>
               <Name>password</Name>
@@ -6018,11 +6008,6 @@
               <Anchor>aaae6d16d1fe5d629dce9deedaa0a1b49</Anchor>
              </Node>
              <Node>
-              <Name>OnNamesListItem</Name>
-              <Path>class_module.html</Path>
-              <Anchor>a3bc6b8c624a0412937cfcc18cfe72e2b</Anchor>
-             </Node>
-             <Node>
               <Name>OnNumeric</Name>
               <Path>class_module.html</Path>
               <Anchor>a63bafaf65ad8df653a2754e5452ec04a</Anchor>
@@ -6176,6 +6161,11 @@
               <Name>OnUserPart</Name>
               <Path>class_module.html</Path>
               <Anchor>a100db8d416d1484716999076880f63d5</Anchor>
+             </Node>
+             <Node>
+              <Name>OnUserPostInit</Name>
+              <Path>class_module.html</Path>
+              <Anchor>af84ccce091b9f93467fae84f18fc9668</Anchor>
              </Node>
              <Node>
               <Name>OnUserPostMessage</Name>
@@ -7102,19 +7092,19 @@
               <Anchor>a8b9b9f2d01b7b35ef128aa59fdcec43c</Anchor>
              </Node>
              <Node>
+              <Name>operator *</Name>
+              <Path>classreference.html</Path>
+              <Anchor>ae4873eea537a79362bb5fb52d864e236</Anchor>
+             </Node>
+             <Node>
               <Name>operator bool</Name>
               <Path>classreference.html</Path>
               <Anchor>acb263e82898f6f66dd4fe3d8c9a907c4</Anchor>
              </Node>
              <Node>
-              <Name>operator T*</Name>
+              <Name>operator T *</Name>
               <Path>classreference.html</Path>
-              <Anchor>ad8497fb06db67ac989cadfb101fb158b</Anchor>
-             </Node>
-             <Node>
-              <Name>operator*</Name>
-              <Path>classreference.html</Path>
-              <Anchor>a03ab97fa7370a617300581672e52da83</Anchor>
+              <Anchor>a8563eabc1313291dd15272a3b0c4921c</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -8817,19 +8807,19 @@
               <Anchor>aef175c05a963e6a647bf9081d0c92d95</Anchor>
              </Node>
              <Node>
+              <Name>HasCommandPermission</Name>
+              <Path>class_user.html</Path>
+              <Anchor>aa5c0e68176bed30e544789889d39a9b4</Anchor>
+             </Node>
+             <Node>
               <Name>HasModePermission</Name>
               <Path>class_user.html</Path>
               <Anchor>a754b5130c877f1da5ac9ba727fce43d1</Anchor>
              </Node>
              <Node>
-              <Name>HasPermission</Name>
-              <Path>class_user.html</Path>
-              <Anchor>ace6ae552be7ab53c3cbf83b63e4169c4</Anchor>
-             </Node>
-             <Node>
               <Name>HasPrivPermission</Name>
               <Path>class_user.html</Path>
-              <Anchor>ad0fe27b1200383f282624cc8e9b2fa2b</Anchor>
+              <Anchor>a651ede4bf1feb29dc01e0be23b4e55d9</Anchor>
              </Node>
              <Node>
               <Name>InvalidateCache</Name>
@@ -9170,11 +9160,6 @@
               <Anchor>a22fe15efcc4ed6b366d0aa295b85a54e</Anchor>
              </Node>
              <Node>
-              <Name>AllModulesReportReady</Name>
-              <Path>class_user_manager.html</Path>
-              <Anchor>a9f517148eb357dab61365911787541af</Anchor>
-             </Node>
-             <Node>
               <Name>DoBackgroundUserStuff</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a23e0b2c8dd27131b47efe97d03f74d37</Anchor>
@@ -9496,11 +9481,6 @@
               <Anchor>aa44e0d30d6f92486ea2009cf76b90f5f</Anchor>
              </Node>
              <Node>
-              <Name>ClearConfigLines</Name>
-              <Path>class_x_line_manager.html</Path>
-              <Anchor>a832fb1fd33eb25364ea23b5252e0fcb6</Anchor>
-             </Node>
-             <Node>
               <Name>DelAll</Name>
               <Path>class_x_line_manager.html</Path>
               <Anchor>a71973b65217264a7ca5563d44fb0c8cb</Anchor>
@@ -9513,7 +9493,12 @@
              <Node>
               <Name>ExpireLine</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a36d15117f604cba3cd2ad80735be0c15</Anchor>
+              <Anchor>a210be30b41b3208939ee25bdf01f5e6a</Anchor>
+             </Node>
+             <Node>
+              <Name>ExpireRemovedConfigLines</Name>
+              <Path>class_x_line_manager.html</Path>
+              <Anchor>a6e9ce7a1e36bcadea65d010b5e3495f3</Anchor>
              </Node>
              <Node>
               <Name>GetAll</Name>
@@ -10147,7 +10132,7 @@
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; int, std::less&lt; int &gt; &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; int, std::less&lt; int &gt;, int, std::less&lt; int &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
@@ -10157,11 +10142,11 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; ModuleEventListener *, Comp &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; ModuleEventListener *, Comp, ModuleEventListener *, std::less&lt; ModuleEventListener * &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
-              <Name>insp::flat_multiset&lt; ModuleEventListener *, Comp &gt;</Name>
+              <Name>insp::flat_multiset&lt; ModuleEventListener *, Comp, std::less&lt; ModuleEventListener * &gt; &gt;</Name>
               <Path>classinsp_1_1flat__multiset.html</Path>
              </Node>
             </Subnodes>
@@ -10217,21 +10202,21 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; std::pair&lt; T, U &gt;, Comp, T, detail::map_pair_compare&lt; std::pair&lt; T, U &gt;, Comp &gt; &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; std::pair&lt; T, U &gt;, Comp, T, detail::map_pair_compare&lt; std::pair&lt; T, U &gt;, ElementComp &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
-              <Name>insp::flat_map&lt; T, U, Comp &gt;</Name>
+              <Name>insp::flat_map&lt; T, U, Comp, ElementComp &gt;</Name>
               <Path>classinsp_1_1flat__map.html</Path>
              </Node>
              <Node>
-              <Name>insp::flat_multimap&lt; T, U, Comp &gt;</Name>
+              <Name>insp::flat_multimap&lt; T, U, Comp, ElementComp &gt;</Name>
               <Path>classinsp_1_1flat__multimap.html</Path>
              </Node>
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; std::string, irc::insensitive_swo &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; std::string, irc::insensitive_swo, std::string, irc::insensitive_swo &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
@@ -10241,15 +10226,15 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; T, Comp &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; T, Comp, T, ElementComp &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
-              <Name>insp::flat_multiset&lt; T, Comp &gt;</Name>
+              <Name>insp::flat_multiset&lt; T, Comp, ElementComp &gt;</Name>
               <Path>classinsp_1_1flat__multiset.html</Path>
              </Node>
              <Node>
-              <Name>insp::flat_set&lt; T, Comp &gt;</Name>
+              <Name>insp::flat_set&lt; T, Comp, ElementComp &gt;</Name>
               <Path>classinsp_1_1flat__set.html</Path>
              </Node>
             </Subnodes>
@@ -10968,7 +10953,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_0x7e.html</Path>
+              <Path>functions_~.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -11078,7 +11063,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_func_0x7e.html</Path>
+              <Path>functions_func_~.html</Path>
              </Node>
             </Subnodes>
            </Node>

@@ -5881,19 +5881,19 @@
               <Anchor>a8b9b9f2d01b7b35ef128aa59fdcec43c</Anchor>
              </Node>
              <Node>
+              <Name>operator *</Name>
+              <Path>classreference.html</Path>
+              <Anchor>ae4873eea537a79362bb5fb52d864e236</Anchor>
+             </Node>
+             <Node>
               <Name>operator bool</Name>
               <Path>classreference.html</Path>
               <Anchor>acb263e82898f6f66dd4fe3d8c9a907c4</Anchor>
              </Node>
              <Node>
-              <Name>operator T*</Name>
+              <Name>operator T *</Name>
               <Path>classreference.html</Path>
-              <Anchor>ad8497fb06db67ac989cadfb101fb158b</Anchor>
-             </Node>
-             <Node>
-              <Name>operator*</Name>
-              <Path>classreference.html</Path>
-              <Anchor>a03ab97fa7370a617300581672e52da83</Anchor>
+              <Anchor>a8563eabc1313291dd15272a3b0c4921c</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -8891,7 +8891,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; bool, const char *&gt;</Name>
+              <Name>caller1&lt; bool, const char * &gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8901,7 +8901,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; bool, const std::string &amp;&gt;</Name>
+              <Name>caller1&lt; bool, const std::string &amp; &gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8921,7 +8921,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; void, const std::string &amp;&gt;</Name>
+              <Name>caller1&lt; void, const std::string &amp; &gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8931,7 +8931,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller1&lt; void, User *&gt;</Name>
+              <Name>caller1&lt; void, User * &gt;</Name>
               <Path>classcaller1.html</Path>
              </Node>
             </Subnodes>
@@ -8971,7 +8971,7 @@
             <Path>classcaller.html</Path>
             <Subnodes>
              <Node>
-              <Name>caller3&lt; ModResult, User *, Channel *, const std::string &amp;&gt;</Name>
+              <Name>caller3&lt; ModResult, User *, Channel *, const std::string &amp; &gt;</Name>
               <Path>classcaller3.html</Path>
              </Node>
             </Subnodes>
@@ -9942,7 +9942,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_0x7e.html</Path>
+              <Path>functions_~.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -10052,7 +10052,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_func_0x7e.html</Path>
+              <Path>functions_func_~.html</Path>
              </Node>
             </Subnodes>
            </Node>

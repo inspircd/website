@@ -41,7 +41,6 @@ var searchData=
   ['cleanmask',['CleanMask',['../class_mode_parser.html#ac92a7eff25c3626371ff194ebd8f93a5',1,'ModeParser']]],
   ['cleanup',['Cleanup',['../class_insp_i_r_cd.html#a49da70179340ee0c02a3d00d6539c639',1,'InspIRCd']]],
   ['clear',['Clear',['../class_token_list.html#ab1f678c474f00893f7af4dce182a4d9f',1,'TokenList::Clear()'],['../class_stream_socket_1_1_send_queue.html#a45534f2ac66c83763c3481cd7e61aed7',1,'StreamSocket::SendQueue::clear()'],['../class_modes_1_1_change_list.html#a572e4a7a85a6b958455ddb177168fbc3',1,'Modes::ChangeList::clear()']]],
-  ['clearconfiglines',['ClearConfigLines',['../class_x_line_manager.html#a832fb1fd33eb25364ea23b5252e0fcb6',1,'XLineManager']]],
   ['clearparams',['ClearParams',['../class_client_protocol_1_1_message.html#a705ce2c1a0ccf7b00d69c9395860800e',1,'ClientProtocol::Message']]],
   ['client_5fsa',['client_sa',['../class_user.html#a118a42a76b20e6cb6de541d9e08041e9',1,'User']]],
   ['clientlist',['clientlist',['../class_user_manager.html#a4102a503e29b60f95b8561d9595fa2a3',1,'UserManager']]],

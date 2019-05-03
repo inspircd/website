@@ -101,7 +101,6 @@ var searchData=
   ['getserialized',['GetSerialized',['../class_client_protocol_1_1_message.html#ad684fc7d881738315cc038fc74c2d8f3',1,'ClientProtocol::Message']]],
   ['getserver',['GetServer',['../class_numeric_1_1_numeric.html#a091a94948852c943f85d5b92852e531d',1,'Numeric::Numeric']]],
   ['getserverlist',['GetServerList',['../class_protocol_interface.html#a10cc1a09026166e440fdc1ae29d40923',1,'ProtocolInterface']]],
-  ['getserverport',['GetServerPort',['../class_local_user.html#acffd61c7e12f5ea8482420f9da83af80',1,'LocalUser']]],
   ['getsid',['GetSID',['../class_server_config.html#a3c655ca0f930b9aff7652884e076b054',1,'ServerConfig']]],
   ['getsource',['GetSource',['../class_core_exception.html#afc92ae1078032ff3ab1d0a81ad108161',1,'CoreException::GetSource()'],['../class_client_protocol_1_1_message_source.html#a24ffe25957892cbe4a1df711e2a7f205',1,'ClientProtocol::MessageSource::GetSource()']]],
   ['getsourceuser',['GetSourceUser',['../class_client_protocol_1_1_message_source.html#a8425389d46c81d6683a966ec9bf5bdc7',1,'ClientProtocol::MessageSource']]],

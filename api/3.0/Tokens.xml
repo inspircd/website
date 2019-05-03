@@ -164,7 +164,7 @@
       <Scope>BufferedSocket</Scope>
     </TokenIdentifier>
     <Path>class_buffered_socket.html</Path>
-    <Anchor>aad70b53205c38736d19e261297f59dc1</Anchor>
+    <Anchor>a984aabcbe183ba12a9aff179d7e8b59d</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -3493,13 +3493,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>HasPermission</Name>
+      <Name>HasCommandPermission</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ace6ae552be7ab53c3cbf83b63e4169c4</Anchor>
+    <Anchor>aa5c0e68176bed30e544789889d39a9b4</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -3510,7 +3510,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ad0fe27b1200383f282624cc8e9b2fa2b</Anchor>
+    <Anchor>a651ede4bf1feb29dc01e0be23b4e55d9</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -4538,7 +4538,7 @@
       <Scope>InspIRCd</Scope>
     </TokenIdentifier>
     <Path>class_insp_i_r_cd.html</Path>
-    <Anchor>a835dc33d1f846c56c7995c0c3f8e92f2</Anchor>
+    <Anchor>a13d4fcd3760c3e52404c97524895f94b</Anchor>
     <DeclaredIn>inspircd.h</DeclaredIn>
   </Token>
   <Token>
@@ -4880,6 +4880,17 @@
     </TokenIdentifier>
     <Path>class_insp_i_r_cd.html</Path>
     <Anchor>aee803dfdd0f60724546b1fa9b0a183e4</Anchor>
+    <DeclaredIn>inspircd.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DurationString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>InspIRCd</Scope>
+    </TokenIdentifier>
+    <Path>class_insp_i_r_cd.html</Path>
+    <Anchor>aa1ae919c2888712fe4c04215d1c244cb</Anchor>
     <DeclaredIn>inspircd.h</DeclaredIn>
   </Token>
   <Token>
@@ -7128,17 +7139,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetServerPort</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>LocalUser</Scope>
-    </TokenIdentifier>
-    <Path>class_local_user.html</Path>
-    <Anchor>acffd61c7e12f5ea8482420f9da83af80</Anchor>
-    <DeclaredIn>users.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>CheckLines</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -7194,13 +7194,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>HasPermission</Name>
+      <Name>HasCommandPermission</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a3209b412cb9bfa68c09a118379d21999</Anchor>
+    <Anchor>a778e4c4ede84a2698fb9dd3a42fffbad</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7211,7 +7211,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a4a92bc7040bafe9795a37b7df7d4099c</Anchor>
+    <Anchor>af5ef18389af4d0b7e1d8cf51a5182875</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7733,13 +7733,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>nping</Name>
+      <Name>nextping</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a1ffe0d9a22725260c11c89e2dda7a030</Anchor>
+    <Anchor>aaf8aff7d93dad389af61c1caa85d45d8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9825,6 +9825,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnUserPostInit</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>af84ccce091b9f93467fae84f18fc9668</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OnCheckReady</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -10023,17 +10034,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OnNamesListItem</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Module</Scope>
-    </TokenIdentifier>
-    <Path>class_module.html</Path>
-    <Anchor>a3bc6b8c624a0412937cfcc18cfe72e2b</Anchor>
-    <DeclaredIn>modules.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>OnSetUserIP</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -10063,6 +10063,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>af5bf42c45356dc85ae0fe07280acb6ba</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnUserWrite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>abadd96f81a5cf5af438162f2b9a0c1f1</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -12748,13 +12759,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>HasPermission</Name>
+      <Name>HasCommandPermission</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ace6ae552be7ab53c3cbf83b63e4169c4</Anchor>
+    <Anchor>aa5c0e68176bed30e544789889d39a9b4</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -12765,7 +12776,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ad0fe27b1200383f282624cc8e9b2fa2b</Anchor>
+    <Anchor>a651ede4bf1feb29dc01e0be23b4e55d9</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -17080,7 +17091,7 @@
       <Scope>BufferedSocket</Scope>
     </TokenIdentifier>
     <Path>class_buffered_socket.html</Path>
-    <Anchor>aad70b53205c38736d19e261297f59dc1</Anchor>
+    <Anchor>a984aabcbe183ba12a9aff179d7e8b59d</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -17798,13 +17809,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>HasPermission</Name>
+      <Name>HasCommandPermission</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ace6ae552be7ab53c3cbf83b63e4169c4</Anchor>
+    <Anchor>aa5c0e68176bed30e544789889d39a9b4</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -17815,7 +17826,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ad0fe27b1200383f282624cc8e9b2fa2b</Anchor>
+    <Anchor>a651ede4bf1feb29dc01e0be23b4e55d9</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -18518,17 +18529,6 @@
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
     <Anchor>a23e0b2c8dd27131b47efe97d03f74d37</Anchor>
-    <DeclaredIn>usermanager.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AllModulesReportReady</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>UserManager</Scope>
-    </TokenIdentifier>
-    <Path>class_user_manager.html</Path>
-    <Anchor>a9f517148eb357dab61365911787541af</Anchor>
     <DeclaredIn>usermanager.h</DeclaredIn>
   </Token>
   <Token>
@@ -19275,7 +19275,7 @@
       <Scope>XLineManager</Scope>
     </TokenIdentifier>
     <Path>class_x_line_manager.html</Path>
-    <Anchor>a36d15117f604cba3cd2ad80735be0c15</Anchor>
+    <Anchor>a210be30b41b3208939ee25bdf01f5e6a</Anchor>
     <DeclaredIn>xline.h</DeclaredIn>
   </Token>
   <Token>
@@ -19302,13 +19302,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClearConfigLines</Name>
+      <Name>ExpireRemovedConfigLines</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>XLineManager</Scope>
     </TokenIdentifier>
     <Path>class_x_line_manager.html</Path>
-    <Anchor>a832fb1fd33eb25364ea23b5252e0fcb6</Anchor>
+    <Anchor>a6e9ce7a1e36bcadea65d010b5e3495f3</Anchor>
     <DeclaredIn>xline.h</DeclaredIn>
   </Token>
   <Token>
@@ -20297,13 +20297,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OnClientProtocolPopulateTags</Name>
+      <Name>OnPopulateTags</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>ClientProtocol::MessageTagProvider</Scope>
     </TokenIdentifier>
     <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
-    <Anchor>aa778c6efb58f9d95a9c0499afa671840</Anchor>
+    <Anchor>a0336fe397875470caf699c3e92019218</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
@@ -25938,6 +25938,17 @@
     </TokenIdentifier>
     <Path>namespaceirc_1_1sockets.html</Path>
     <Anchor>a330161c4f9b7b7e4281f91b5677f4d9c</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>untosa</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets</Scope>
+    </TokenIdentifier>
+    <Path>namespaceirc_1_1sockets.html</Path>
+    <Anchor>a02f99a4b611902f6f2090cdacd8a0f29</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>

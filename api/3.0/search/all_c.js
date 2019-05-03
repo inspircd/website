@@ -4,7 +4,7 @@ var searchData=
   ['maintain',['Maintain',['../class_who_was_1_1_manager.html#afdd0125db6f21f57dbfb31815eb34d58',1,'WhoWas::Manager']]],
   ['makehost',['MakeHost',['../class_user.html#adc1cc6d4dfc7d4e13ebb1071ad088196',1,'User']]],
   ['makehostip',['MakeHostIP',['../class_user.html#a720f53db860db2bfdbc969d1ebcaa919',1,'User']]],
-  ['manager',['Manager',['../class_who_was_1_1_manager.html',1,'WhoWas::Manager'],['../class_command_whowas.html#a9e1f2f7bb3afeb94bdedea0a93be0c2f',1,'CommandWhowas::manager()'],['../class_who_was_1_1_manager.html#a5ee3ef68407da18d2816ea724a1e57cf',1,'WhoWas::Manager::Manager()']]],
+  ['manager',['Manager',['../class_who_was_1_1_manager.html',1,'WhoWas::Manager'],['../class_who_was_1_1_manager.html#a5ee3ef68407da18d2816ea724a1e57cf',1,'WhoWas::Manager::Manager()'],['../class_command_whowas.html#a9e1f2f7bb3afeb94bdedea0a93be0c2f',1,'CommandWhowas::manager()']]],
   ['map_5fpair_5fcompare',['map_pair_compare',['../classinsp_1_1detail_1_1map__pair__compare.html',1,'insp::detail']]],
   ['map_5fvalue_5fcompare',['map_value_compare',['../classinsp_1_1detail_1_1map__value__compare.html',1,'insp::detail']]],
   ['match',['match',['../structirc_1_1sockets_1_1cidr__mask.html#a9ff333696e0633d21f12f67937fb223b',1,'irc::sockets::cidr_mask::match()'],['../class_insp_i_r_cd.html#ad9f8110828d65788f06babd8db89c7d4',1,'InspIRCd::Match()']]],

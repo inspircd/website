@@ -25,7 +25,6 @@ var searchData=
   ['cleanmask',['CleanMask',['../class_mode_parser.html#ac92a7eff25c3626371ff194ebd8f93a5',1,'ModeParser']]],
   ['cleanup',['Cleanup',['../class_insp_i_r_cd.html#a49da70179340ee0c02a3d00d6539c639',1,'InspIRCd']]],
   ['clear',['Clear',['../class_token_list.html#ab1f678c474f00893f7af4dce182a4d9f',1,'TokenList::Clear()'],['../class_stream_socket_1_1_send_queue.html#a45534f2ac66c83763c3481cd7e61aed7',1,'StreamSocket::SendQueue::clear()'],['../class_modes_1_1_change_list.html#a572e4a7a85a6b958455ddb177168fbc3',1,'Modes::ChangeList::clear()']]],
-  ['clearconfiglines',['ClearConfigLines',['../class_x_line_manager.html#a832fb1fd33eb25364ea23b5252e0fcb6',1,'XLineManager']]],
   ['clearparams',['ClearParams',['../class_client_protocol_1_1_message.html#a705ce2c1a0ccf7b00d69c9395860800e',1,'ClientProtocol::Message']]],
   ['close',['Close',['../class_stream_socket.html#ad1a551adaf473b45934f09b27883623c',1,'StreamSocket::Close()'],['../class_socket_engine.html#acec9f1a29b28933c8d7a8d11afed40c8',1,'SocketEngine::Close(EventHandler *eh)'],['../class_socket_engine.html#a828947d7921d93090ee893f5d353795d',1,'SocketEngine::Close(int fd)']]],
   ['closelogs',['CloseLogs',['../class_log_manager.html#ac82f1ec54b3c631c854267b1bbf1bf45',1,'LogManager']]],
