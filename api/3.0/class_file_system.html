@@ -80,6 +80,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a503c977331276f271a6bb825343b4acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da4e8135ab91b5b9c6ef8b69cf11bc6"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_system.html#a7da4e8135ab91b5b9c6ef8b69cf11bc6">GetFileName</a> (const std::string &amp;path)</td></tr>
 <tr class="separator:a7da4e8135ab91b5b9c6ef8b69cf11bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74add4d1c46ab42bf43bd40b19eaa91b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_system.html#a74add4d1c46ab42bf43bd40b19eaa91b">GetFileList</a> (const std::string &amp;directory, std::vector&lt; std::string &gt; &amp;entries, const std::string &amp;match=&quot;*&quot;)</td></tr>
+<tr class="separator:a74add4d1c46ab42bf43bd40b19eaa91b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62e80ef27eb02fb3ac508481c777f6b7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_file_system.html#a62e80ef27eb02fb3ac508481c777f6b7">StartsWithWindowsDriveLetter</a> (const std::string &amp;path)</td></tr>
 <tr class="separator:a62e80ef27eb02fb3ac508481c777f6b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -159,6 +161,57 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the file exists; otherwise, false. </dd></dl>
+
+</div>
+</div>
+<a id="a74add4d1c46ab42bf43bd40b19eaa91b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74add4d1c46ab42bf43bd40b19eaa91b">&#9670;&nbsp;</a></span>GetFileList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FileSystem::GetFileList </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>directory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>entries</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>match</em> = <code>&quot;*&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets a list of files which exist in the specified directory. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">directory</td><td>The directory to retrieve files from. </td></tr>
+    <tr><td class="paramname">entries</td><td>A vector which entries will be added to. </td></tr>
+    <tr><td class="paramname">match</td><td>If defined then a glob match for files to be matched against. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the directory could be opened; otherwise false. </dd></dl>
 
 </div>
 </div>

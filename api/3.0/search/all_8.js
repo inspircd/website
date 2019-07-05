@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['id',['id',['../class_membership.html#ab9d5cd14fab54fb93612fd33bd80cac0',1,'Membership::id()'],['../class_membership.html#afa67b9460e6bbf4caf63afa73df5267d',1,'Membership::Id()']]],
+  ['id',['Id',['../class_membership.html#afa67b9460e6bbf4caf63afa73df5267d',1,'Membership::Id()'],['../class_membership.html#ab9d5cd14fab54fb93612fd33bd80cac0',1,'Membership::id()']]],
   ['ident',['ident',['../struct_who_was_1_1_entry.html#adbf3a33533ca34979850db70bf90eca2',1,'WhoWas::Entry::ident()'],['../class_user.html#a75afe5805a15221777aaf204d99f17c0',1,'User::ident()']]],
   ['identmask',['identmask',['../class_k_line.html#aa8ed1d3faa79fad75896137fe211d113',1,'KLine::identmask()'],['../class_g_line.html#a452cc320841402661434e57fc0419d21',1,'GLine::identmask()'],['../class_e_line.html#ad69dc91c542caf3aa9f0b7a08b3ebb5d',1,'ELine::identmask()']]],
   ['identmax',['IdentMax',['../class_server_limits.html#a41db595ffeedb5cfd361e1ebdf3aabe5',1,'ServerLimits']]],
@@ -57,6 +57,7 @@ var searchData=
   ['issilentuline',['IsSilentULine',['../class_server.html#acbc891c6cf559c166d9265765f6355c9',1,'Server']]],
   ['issnomaskusable',['IsSnomaskUsable',['../class_snomask_manager.html#ab9840ba3a0df25081e037e6f3d6a141a',1,'SnomaskManager']]],
   ['isuline',['IsULine',['../class_server.html#a3d7b5c3ea5b1251c25c0880e6c19188d',1,'Server']]],
+  ['isunix',['isunix',['../namespaceirc_1_1sockets.html#adbdfd55372e90a53849c2cec88c9a460',1,'irc::sockets']]],
   ['isupport',['ISupport',['../class_insp_i_r_cd.html#adf75621c67a736c3255a9125c3960eab',1,'InspIRCd']]],
   ['isupportmanager',['ISupportManager',['../class_i_support_manager.html',1,'']]],
   ['isvalidduration',['IsValidDuration',['../class_insp_i_r_cd.html#aee803dfdd0f60724546b1fa9b0a183e4',1,'InspIRCd']]],

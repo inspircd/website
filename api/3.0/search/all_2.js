@@ -46,7 +46,7 @@ var searchData=
   ['clientlist',['clientlist',['../class_user_manager.html#a4102a503e29b60f95b8561d9595fa2a3',1,'UserManager']]],
   ['clonecounts',['CloneCounts',['../struct_user_manager_1_1_clone_counts.html',1,'UserManager']]],
   ['clonemap',['CloneMap',['../class_user_manager.html#afb62f74daf9d4c6b2ed10542b598ca95',1,'UserManager']]],
-  ['close',['Close',['../class_stream_socket.html#ad1a551adaf473b45934f09b27883623c',1,'StreamSocket::Close()'],['../class_socket_engine.html#acec9f1a29b28933c8d7a8d11afed40c8',1,'SocketEngine::Close(EventHandler *eh)'],['../class_socket_engine.html#a828947d7921d93090ee893f5d353795d',1,'SocketEngine::Close(int fd)']]],
+  ['close',['Close',['../class_stream_socket.html#ad1a551adaf473b45934f09b27883623c',1,'StreamSocket::Close()'],['../class_stream_socket.html#a6032238bc99708507548fdb5f59d5e23',1,'StreamSocket::Close(bool writeblock)'],['../class_socket_engine.html#acec9f1a29b28933c8d7a8d11afed40c8',1,'SocketEngine::Close(EventHandler *eh)'],['../class_socket_engine.html#a828947d7921d93090ee893f5d353795d',1,'SocketEngine::Close(int fd)']]],
   ['closelogs',['CloseLogs',['../class_log_manager.html#ac82f1ec54b3c631c854267b1bbf1bf45',1,'LogManager']]],
   ['cmd',['cmd',['../struct_client_protocol_1_1_parse_output.html#a06fe8add7b199c686fe5c839ce09ba0c',1,'ClientProtocol::ParseOutput']]],
   ['cmdline',['cmdline',['../class_server_config.html#ab820169ee4038fdf7fca54e9b912ac3d',1,'ServerConfig']]],

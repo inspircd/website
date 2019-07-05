@@ -29,6 +29,7 @@ var searchData=
   ['issilentuline',['IsSilentULine',['../class_server.html#acbc891c6cf559c166d9265765f6355c9',1,'Server']]],
   ['issnomaskusable',['IsSnomaskUsable',['../class_snomask_manager.html#ab9840ba3a0df25081e037e6f3d6a141a',1,'SnomaskManager']]],
   ['isuline',['IsULine',['../class_server.html#a3d7b5c3ea5b1251c25c0880e6c19188d',1,'Server']]],
+  ['isunix',['isunix',['../namespaceirc_1_1sockets.html#adbdfd55372e90a53849c2cec88c9a460',1,'irc::sockets']]],
   ['isvalidduration',['IsValidDuration',['../class_insp_i_r_cd.html#aee803dfdd0f60724546b1fa9b0a183e4',1,'InspIRCd']]],
   ['isvalidmask',['IsValidMask',['../class_insp_i_r_cd.html#a0265b96aa67cefa33bfcd88a82806093',1,'InspIRCd']]]
 ];

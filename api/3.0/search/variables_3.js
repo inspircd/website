@@ -1,7 +1,7 @@
 var searchData=
 [
   ['data',['Data',['../class_server_config_1_1_server_paths.html#aa9b3c850116db3ad0b9e160da29a2efe',1,'ServerConfig::ServerPaths']]],
-  ['dataproviders',['DataProviders',['../class_module_manager.html#a6456bd6f817cf59565f41d81344c40b0',1,'ModuleManager']]],
+  ['dataproviders',['DataProviders',['../class_module_manager.html#aeb004147526c7ac91e611c42187e4f6d',1,'ModuleManager']]],
   ['defaultmodes',['DefaultModes',['../class_server_config.html#af55b847d1ef4329cf249fba6d3042754',1,'ServerConfig']]],
   ['defaultprotocolinterface',['DefaultProtocolInterface',['../class_insp_i_r_cd.html#afa82fd80c653a4af288044d8d03380af',1,'InspIRCd']]],
   ['description',['description',['../class_version.html#a9344d3cd11423957b9ecd193f851f8a3',1,'Version::description()'],['../class_server.html#ad40126d35fe76136fe3979ac8b95f327',1,'Server::description()']]],

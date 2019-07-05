@@ -14,7 +14,7 @@ var searchData=
   ['writenotice',['WriteNotice',['../class_channel.html#adb79b21c5fe9d4f8243185211384aad6',1,'Channel::WriteNotice()'],['../class_membership.html#aae535bde2fefacb7b32980cd2c4623c5',1,'Membership::WriteNotice()'],['../class_user.html#a777d133e5508002dd862e43124ef7e49',1,'User::WriteNotice()']]],
   ['writenumericsink',['WriteNumericSink',['../class_numeric_1_1_write_numeric_sink.html',1,'Numeric']]],
   ['writeops',['writeops',['../class_file_writer.html#a69ab1b2ae487191bd0e5041d0dbbd8dd',1,'FileWriter']]],
-  ['writepid',['WritePID',['../class_insp_i_r_cd.html#a9090f73796f07ffd0f306ff1892f5e9a',1,'InspIRCd::WritePID()'],['../struct_command_line_conf.html#af59ef7df539d0f1c44844c845a9e4b4d',1,'CommandLineConf::writepid()']]],
+  ['writepid',['writepid',['../struct_command_line_conf.html#af59ef7df539d0f1c44844c845a9e4b4d',1,'CommandLineConf::writepid()'],['../class_insp_i_r_cd.html#a9090f73796f07ffd0f306ff1892f5e9a',1,'InspIRCd::WritePID()']]],
   ['writeremotenotice',['WriteRemoteNotice',['../class_user.html#ae9bcd97945e1e79b30bacf780da75d56',1,'User::WriteRemoteNotice()'],['../class_local_user.html#ae1318e19c668cf24dc8bae4f50f11512',1,'LocalUser::WriteRemoteNotice()']]],
   ['writeremotenumericsink',['WriteRemoteNumericSink',['../class_numeric_1_1_write_remote_numeric_sink.html',1,'Numeric']]],
   ['writetosnomask',['WriteToSnoMask',['../class_snomask_manager.html#a2c7c704d78403206a7021b89fb2319d8',1,'SnomaskManager::WriteToSnoMask(char letter, const std::string &amp;text)'],['../class_snomask_manager.html#a52896b0bc2e54dae3e1c8627882b370f',1,'SnomaskManager::WriteToSnoMask(char letter, const char *text,...) CUSTOM_PRINTF(3']]],

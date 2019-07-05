@@ -102,6 +102,6 @@ var searchData=
   ['strhashcomp',['StrHashComp',['../structirc_1_1_str_hash_comp.html',1,'irc']]],
   ['stringextitem',['StringExtItem',['../class_string_ext_item.html',1,'']]],
   ['stripcolor',['StripColor',['../class_insp_i_r_cd.html#ad3e9c5f646b0bda9833d3d77fc94a5b2',1,'InspIRCd']]],
-  ['syntax',['syntax',['../class_command_base.html#a57ced763c081488c18955ef0c387af38',1,'CommandBase']]],
+  ['syntax',['syntax',['../class_command_base.html#a57ced763c081488c18955ef0c387af38',1,'CommandBase::syntax()'],['../class_mode_handler.html#a3547c3abd2f2e7951dce0fd90a6d3116',1,'ModeHandler::syntax()']]],
   ['syntaxhints',['SyntaxHints',['../class_server_config.html#aeeac6d257e4b9d0aa64a656c271aa08e',1,'ServerConfig']]]
 ];

@@ -2,7 +2,7 @@ var searchData=
 [
   ['data',['Data',['../class_server_config_1_1_server_paths.html#aa9b3c850116db3ad0b9e160da29a2efe',1,'ServerConfig::ServerPaths']]],
   ['dataprovider',['DataProvider',['../class_data_provider.html',1,'']]],
-  ['dataproviders',['DataProviders',['../class_module_manager.html#a6456bd6f817cf59565f41d81344c40b0',1,'ModuleManager']]],
+  ['dataproviders',['DataProviders',['../class_module_manager.html#aeb004147526c7ac91e611c42187e4f6d',1,'ModuleManager']]],
   ['defaultapply',['DefaultApply',['../class_x_line.html#a9e9d72bd8517a61f3020c8d3e03069cc',1,'XLine']]],
   ['defaultdeleter',['defaultdeleter',['../structstdalgo_1_1defaultdeleter.html',1,'stdalgo']]],
   ['defaultgenrandom',['DefaultGenRandom',['../class_insp_i_r_cd.html#a6f634b6ca5a9f243779f45125c3815a0',1,'InspIRCd']]],
@@ -28,8 +28,6 @@ var searchData=
   ['detach',['Detach',['../class_module_manager.html#a55008be0a18ace358420c97e0ae3d8eb',1,'ModuleManager']]],
   ['detachall',['DetachAll',['../class_module_manager.html#a792838035dd15c1dcc6f44a232667f30',1,'ModuleManager']]],
   ['dhost',['dhost',['../struct_who_was_1_1_entry.html#aa3f12d958e5613e82e26c2084c6a37e8',1,'WhoWas::Entry']]],
-  ['dir',['DIR',['../struct_d_i_r.html',1,'']]],
-  ['dirent',['dirent',['../structdirent.html',1,'']]],
   ['disableautoregister',['DisableAutoRegister',['../class_service_provider.html#a87185e6ebfa0f4960f20797e716c72d6',1,'ServiceProvider']]],
   ['dispatchevents',['DispatchEvents',['../class_socket_engine.html#a6210a5835e89eeffc4f34ce92ce5a117',1,'SocketEngine']]],
   ['dispatchtrialwrites',['DispatchTrialWrites',['../class_socket_engine.html#a3afdd36e14401d2ba7c0dfa1c97b6b70',1,'SocketEngine']]],

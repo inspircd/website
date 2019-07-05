@@ -89,6 +89,8 @@ Functions</h2></td></tr>
 <tr class="separator:a330161c4f9b7b7e4281f91b5677f4d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f99a4b611902f6f2090cdacd8a0f29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc_1_1sockets.html#a02f99a4b611902f6f2090cdacd8a0f29">untosa</a> (const std::string &amp;path, <a class="el" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> &amp;sa)</td></tr>
 <tr class="separator:a02f99a4b611902f6f2090cdacd8a0f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdfd55372e90a53849c2cec88c9a460"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceirc_1_1sockets.html#adbdfd55372e90a53849c2cec88c9a460">isunix</a> (const std::string &amp;file)</td></tr>
+<tr class="separator:adbdfd55372e90a53849c2cec88c9a460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This namespace contains various protocol-independent helper classes. It also contains some types which are often used by the core and modules in place of inet_* functions and types. </p>
@@ -133,6 +135,31 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the conversion was successful, false if not. </dd></dl>
+
+</div>
+</div>
+<a id="adbdfd55372e90a53849c2cec88c9a460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbdfd55372e90a53849c2cec88c9a460">&#9670;&nbsp;</a></span>isunix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool irc::sockets::isunix </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines whether the specified file is a UNIX socket. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>The path to the file to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the file is a UNIX socket; otherwise, false. </dd></dl>
 
 </div>
 </div>

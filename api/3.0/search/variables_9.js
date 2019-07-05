@@ -10,7 +10,7 @@ var searchData=
   ['link_5fdata',['link_data',['../class_version.html#a582d176eac036b28cdd462c3cb6af917',1,'Version']]],
   ['list',['list',['../class_mode_handler.html#a452ed1ad1cf18ea5dd8fc14ade681fd6',1,'ModeHandler::list()'],['../class_mode_parser.html#a2cc9a5acc27894eca909d15d34620a07',1,'ModeParser::list()']]],
   ['listnumeric',['listnumeric',['../class_list_mode_base.html#a0e2e65a86333c60a19dcd3d40cb12861',1,'ListModeBase']]],
-  ['log',['log',['../class_file_writer.html#ad05c7cc3c13d5d267b36ddec22f3abed',1,'FileWriter::log()'],['../class_server_config_1_1_server_paths.html#a6e327d78217f8b7c113ee0745469679a',1,'ServerConfig::ServerPaths::Log()']]],
+  ['log',['Log',['../class_server_config_1_1_server_paths.html#a6e327d78217f8b7c113ee0745469679a',1,'ServerConfig::ServerPaths::Log()'],['../class_file_writer.html#ad05c7cc3c13d5d267b36ddec22f3abed',1,'FileWriter::log()']]],
   ['logs',['Logs',['../class_insp_i_r_cd.html#a9661a25c40fe00be3ddf27185a90fc17',1,'InspIRCd']]],
   ['lookup_5flines',['lookup_lines',['../class_x_line_manager.html#a16ee635abde118c74e0fe299887464a3',1,'XLineManager']]]
 ];

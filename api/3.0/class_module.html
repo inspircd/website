@@ -108,6 +108,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prioritize</b
 <tr class="separator:ace1cba59ac54d26b4649858b2cfc6aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3910edd1a48dfe4db141b04157627a8e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a3910edd1a48dfe4db141b04157627a8e">OnUserConnect</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user)</td></tr>
 <tr class="separator:a3910edd1a48dfe4db141b04157627a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b8387b28516ca01ebbb740325eb40ee"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a5b8387b28516ca01ebbb740325eb40ee">OnUserPreQuit</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, std::string &amp;message, std::string &amp;oper_message)</td></tr>
+<tr class="separator:a5b8387b28516ca01ebbb740325eb40ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a467945d27be3edec8fbd0de9a37a0c31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a467945d27be3edec8fbd0de9a37a0c31">OnUserQuit</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;message, const std::string &amp;oper_message)</td></tr>
 <tr class="separator:a467945d27be3edec8fbd0de9a37a0c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a193075c27aee23eb8baf613ed31327b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a193075c27aee23eb8baf613ed31327b4">OnUserDisconnect</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user)</td></tr>
@@ -3282,6 +3284,56 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 to deny the change, 0 to allow </dd></dl>
+
+</div>
+</div>
+<a id="a5b8387b28516ca01ebbb740325eb40ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b8387b28516ca01ebbb740325eb40ee">&#9670;&nbsp;</a></span>OnUserPreQuit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_mod_result.html">ModResult</a> Module::OnUserPreQuit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_local_user.html">LocalUser</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>oper_message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called when before a user quits. The details of the exiting user are available to you in the parameter <a class="el" href="class_user.html">User</a> *user This event is only called when the user is fully registered when they quit. To catch raw disconnections, use the OnUserDisconnect method. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user who is quitting </td></tr>
+    <tr><td class="paramname">message</td><td>The user's quit message (as seen by non-opers) </td></tr>
+    <tr><td class="paramname">oper_message</td><td>The user's quit message (as seen by opers) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

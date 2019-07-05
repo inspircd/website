@@ -323,6 +323,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Close</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cull</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2465,24 +2476,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>DIR</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>DIR</Scope>
-    </TokenIdentifier>
-    <Path>struct_d_i_r.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>dirent</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>dirent</Scope>
-    </TokenIdentifier>
-    <Path>structdirent.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DLLManager</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -4062,6 +4055,17 @@
     </TokenIdentifier>
     <Path>class_file_system.html</Path>
     <Anchor>a7da4e8135ab91b5b9c6ef8b69cf11bc6</Anchor>
+    <DeclaredIn>fileutils.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetFileList</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>FileSystem</Scope>
+    </TokenIdentifier>
+    <Path>class_file_system.html</Path>
+    <Anchor>a74add4d1c46ab42bf43bd40b19eaa91b</Anchor>
     <DeclaredIn>fileutils.h</DeclaredIn>
   </Token>
   <Token>
@@ -6462,6 +6466,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -6610,6 +6625,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8757,6 +8782,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -8845,6 +8881,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9348,6 +9394,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>a3910edd1a48dfe4db141b04157627a8e</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnUserPreQuit</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>a5b8387b28516ca01ebbb740325eb40ee</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -10482,7 +10539,7 @@
       <Scope>ModuleManager</Scope>
     </TokenIdentifier>
     <Path>class_module_manager.html</Path>
-    <Anchor>a6456bd6f817cf59565f41d81344c40b0</Anchor>
+    <Anchor>aeb004147526c7ac91e611c42187e4f6d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10946,6 +11003,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -11064,6 +11132,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11351,6 +11429,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -11469,6 +11558,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11830,6 +11929,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -11948,6 +12058,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14532,6 +14652,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -14650,6 +14781,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15086,6 +15227,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSyntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -15204,6 +15356,16 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16424,6 +16586,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Close</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cull</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -17202,6 +17375,17 @@
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
     <Anchor>ad1a551adaf473b45934f09b27883623c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Close</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -18381,6 +18565,17 @@
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
     <Anchor>ad1a551adaf473b45934f09b27883623c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Close</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19749,6 +19944,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ClientProtocol::EventProvider</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -20337,6 +20543,17 @@
     </TokenIdentifier>
     <Path>class_events_1_1_module_event_listener.html</Path>
     <Anchor>a3c58708bb631c32457874b09139159c8</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
     <DeclaredIn>event.h</DeclaredIn>
   </Token>
   <Token>
@@ -25197,6 +25414,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Events::ModuleEventProvider</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -25949,6 +26177,17 @@
     </TokenIdentifier>
     <Path>namespaceirc_1_1sockets.html</Path>
     <Anchor>a02f99a4b611902f6f2090cdacd8a0f29</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isunix</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets</Scope>
+    </TokenIdentifier>
+    <Path>namespaceirc_1_1sockets.html</Path>
+    <Anchor>adbdfd55372e90a53849c2cec88c9a460</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>

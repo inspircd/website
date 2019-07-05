@@ -2,8 +2,6 @@ var searchData=
 [
   ['dataprovider',['DataProvider',['../class_data_provider.html',1,'']]],
   ['defaultdeleter',['defaultdeleter',['../structstdalgo_1_1defaultdeleter.html',1,'stdalgo']]],
-  ['dir',['DIR',['../struct_d_i_r.html',1,'']]],
-  ['dirent',['dirent',['../structdirent.html',1,'']]],
   ['dllmanager',['DLLManager',['../class_d_l_l_manager.html',1,'']]],
   ['dynamic_5freference',['dynamic_reference',['../classdynamic__reference.html',1,'']]],
   ['dynamic_5freference_5fbase',['dynamic_reference_base',['../classdynamic__reference__base.html',1,'']]],

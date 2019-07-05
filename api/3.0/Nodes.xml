@@ -920,6 +920,11 @@
                 <Anchor>aad6857bdf429fd8bfeedf4b4556c2446</Anchor>
                </Node>
                <Node>
+                <Name>GetModule</Name>
+                <Path>class_events_1_1_module_event_listener.html</Path>
+                <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
+               </Node>
+               <Node>
                 <Name>ModuleEventProvider::Comp</Name>
                 <Path>class_events_1_1_module_event_listener.html</Path>
                 <Anchor>a96db7d9a728c791f8a9ce31a7082b876</Anchor>
@@ -3365,43 +3370,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>DIR</Name>
-            <Path>struct_d_i_r.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>dirent_pointer</Name>
-              <Path>struct_d_i_r.html</Path>
-              <Anchor>a89b1e4e1f72ca4fceb3d7d8d5075e839</Anchor>
-             </Node>
-             <Node>
-              <Name>find_data</Name>
-              <Path>struct_d_i_r.html</Path>
-              <Anchor>a033c6e7cdb90a61417883b440fa7a084</Anchor>
-             </Node>
-             <Node>
-              <Name>find_handle</Name>
-              <Path>struct_d_i_r.html</Path>
-              <Anchor>a49515a7cefc98b7fcd24dac81b3eb670</Anchor>
-             </Node>
-             <Node>
-              <Name>first</Name>
-              <Path>struct_d_i_r.html</Path>
-              <Anchor>a1c12f5175351b3affe78bf280edeeff0</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>dirent</Name>
-            <Path>structdirent.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>d_name</Name>
-              <Path>structdirent.html</Path>
-              <Anchor>a155866eda2b5616c8c13b44a0a939dd6</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>DLLManager</Name>
             <Path>class_d_l_l_manager.html</Path>
             <Subnodes>
@@ -5467,6 +5435,11 @@
               <Anchor>ad4e333c0fce3ee407088576b5563354b</Anchor>
              </Node>
              <Node>
+              <Name>GetSyntax</Name>
+              <Path>class_mode_handler.html</Path>
+              <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
+             </Node>
+             <Node>
               <Name>GetUserParameter</Name>
               <Path>class_mode_handler.html</Path>
               <Anchor>a764d23e605cdaf0a83b5227fb3dd5ecc</Anchor>
@@ -5585,6 +5558,11 @@
               <Name>ranktounset</Name>
               <Path>class_mode_handler.html</Path>
               <Anchor>aa14c0b02ef7850a74273c4eaa59ff846</Anchor>
+             </Node>
+             <Node>
+              <Name>syntax</Name>
+              <Path>class_mode_handler.html</Path>
+              <Anchor>a3547c3abd2f2e7951dce0fd90a6d3116</Anchor>
              </Node>
              <Node>
               <Name>type_id</Name>
@@ -6203,6 +6181,11 @@
               <Anchor>a3553e152e8cb2371f3ad99aeb61b8991</Anchor>
              </Node>
              <Node>
+              <Name>OnUserPreQuit</Name>
+              <Path>class_module.html</Path>
+              <Anchor>a5b8387b28516ca01ebbb740325eb40ee</Anchor>
+             </Node>
+             <Node>
               <Name>OnUserQuit</Name>
               <Path>class_module.html</Path>
               <Anchor>a467945d27be3edec8fbd0de9a37a0c31</Anchor>
@@ -6402,7 +6385,7 @@
              <Node>
               <Name>DataProviders</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>a6456bd6f817cf59565f41d81344c40b0</Anchor>
+              <Anchor>aeb004147526c7ac91e611c42187e4f6d</Anchor>
              </Node>
              <Node>
               <Name>EventHandlers</Name>
@@ -8196,6 +8179,11 @@
               <Name>Close</Name>
               <Path>class_stream_socket.html</Path>
               <Anchor>ad1a551adaf473b45934f09b27883623c</Anchor>
+             </Node>
+             <Node>
+              <Name>Close</Name>
+              <Path>class_stream_socket.html</Path>
+              <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
              </Node>
              <Node>
               <Name>cull</Name>
@@ -10002,14 +9990,6 @@
            <Node>
             <Name>stdalgo::defaultdeleter&lt; T &gt;</Name>
             <Path>structstdalgo_1_1defaultdeleter.html</Path>
-           </Node>
-           <Node>
-            <Name>DIR</Name>
-            <Path>struct_d_i_r.html</Path>
-           </Node>
-           <Node>
-            <Name>dirent</Name>
-            <Path>structdirent.html</Path>
            </Node>
            <Node>
             <Name>WhoWas::Entry</Name>

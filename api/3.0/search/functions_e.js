@@ -87,6 +87,7 @@ var searchData=
   ['onuserprekick',['OnUserPreKick',['../class_module.html#a54fb5e86ea38f35095af102f40894c1b',1,'Module']]],
   ['onuserpremessage',['OnUserPreMessage',['../class_module.html#a13da0a736da61de2a73a36a6714d2b73',1,'Module']]],
   ['onuserprenick',['OnUserPreNick',['../class_module.html#a3553e152e8cb2371f3ad99aeb61b8991',1,'Module']]],
+  ['onuserprequit',['OnUserPreQuit',['../class_module.html#a5b8387b28516ca01ebbb740325eb40ee',1,'Module']]],
   ['onuserquit',['OnUserQuit',['../class_module.html#a467945d27be3edec8fbd0de9a37a0c31',1,'Module']]],
   ['onuserregister',['OnUserRegister',['../class_module.html#aeee48e5f4d4efbb826f462c1e5f4d0ee',1,'Module']]],
   ['onuserwrite',['OnUserWrite',['../class_module.html#abadd96f81a5cf5af438162f2b9a0c1f1',1,'Module']]],

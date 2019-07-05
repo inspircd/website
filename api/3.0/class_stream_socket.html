@@ -144,6 +144,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>DelIOHook</b> ()</td>
 <tr class="separator:a419cefb8b82ce094cb52ddf52f09299d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a551adaf473b45934f09b27883623c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_socket.html#ad1a551adaf473b45934f09b27883623c">Close</a> ()</td></tr>
 <tr class="separator:ad1a551adaf473b45934f09b27883623c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6032238bc99708507548fdb5f59d5e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_socket.html#a6032238bc99708507548fdb5f59d5e23">Close</a> (bool writeblock)</td></tr>
+<tr class="separator:a6032238bc99708507548fdb5f59d5e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0ab19428986f1292d013b13423abeec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_cull_result.html">CullResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_socket.html#ad0ab19428986f1292d013b13423abeec">cull</a> () CXX11_OVERRIDE</td></tr>
 <tr class="separator:ad0ab19428986f1292d013b13423abeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f749127a9c6202fd3d302709d8a931c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_i_o_hook.html">IOHook</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_stream_socket.html#a8f749127a9c6202fd3d302709d8a931c">GetModHook</a> (<a class="el" href="class_module.html">Module</a> *mod) const</td></tr>
@@ -196,7 +198,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad1a551adaf473b45934f09b27883623c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1a551adaf473b45934f09b27883623c">&#9670;&nbsp;</a></span>Close()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1a551adaf473b45934f09b27883623c">&#9670;&nbsp;</a></span>Close() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -218,6 +220,25 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>recvq</b></td>
 </table>
 </div><div class="memdoc">
 <p>Close the socket, remove from socket engine, etc </p>
+
+</div>
+</div>
+<a id="a6032238bc99708507548fdb5f59d5e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6032238bc99708507548fdb5f59d5e23">&#9670;&nbsp;</a></span>Close() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StreamSocket::Close </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>writeblock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If writeblock is true then only close the socket if all data has been sent. Otherwise, close immediately. </p>
 
 </div>
 </div>

@@ -25,6 +25,6 @@ var searchData=
   ['state',['state',['../class_buffered_socket.html#a804ebaa3eddafd9d69e1fc74ff7ff858',1,'BufferedSocket']]],
   ['stats',['stats',['../class_insp_i_r_cd.html#a9f3ba91e9e75368854b50bac3dbe5916',1,'InspIRCd']]],
   ['status',['status',['../class_message_target.html#ade9eccf51a93f3d2ae438aa8f44d0d1a',1,'MessageTarget']]],
-  ['syntax',['syntax',['../class_command_base.html#a57ced763c081488c18955ef0c387af38',1,'CommandBase']]],
+  ['syntax',['syntax',['../class_command_base.html#a57ced763c081488c18955ef0c387af38',1,'CommandBase::syntax()'],['../class_mode_handler.html#a3547c3abd2f2e7951dce0fd90a6d3116',1,'ModeHandler::syntax()']]],
   ['syntaxhints',['SyntaxHints',['../class_server_config.html#aeeac6d257e4b9d0aa64a656c271aa08e',1,'ServerConfig']]]
 ];
