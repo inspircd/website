@@ -8,6 +8,28 @@
        <Node>
         <Name>About</Name>
         <Path>index.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Supported Platforms</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md1</Anchor>
+         </Node>
+         <Node>
+          <Name>Installation</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md2</Anchor>
+         </Node>
+         <Node>
+          <Name>License</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md3</Anchor>
+         </Node>
+         <Node>
+          <Name>External Links</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md4</Anchor>
+         </Node>
+        </Subnodes>
        </Node>
        <Node>
         <Name>Namespaces</Name>
@@ -684,12 +706,12 @@
                <Node>
                 <Name>SetSource</Name>
                 <Path>class_client_protocol_1_1_message_source.html</Path>
-                <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+                <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
                </Node>
                <Node>
                 <Name>SetSource</Name>
                 <Path>class_client_protocol_1_1_message_source.html</Path>
-                <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
+                <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
                </Node>
                <Node>
                 <Name>SetSourceUser</Name>
@@ -1100,7 +1122,7 @@
                  <Node>
                   <Name>erase</Name>
                   <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
-                  <Anchor>a7b798f84c59bbcea7b34c60477fff933</Anchor>
+                  <Anchor>a6acbef4751d060807f93715e554cf5da</Anchor>
                  </Node>
                  <Node>
                   <Name>erase</Name>
@@ -1110,7 +1132,7 @@
                  <Node>
                   <Name>erase</Name>
                   <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
-                  <Anchor>a6acbef4751d060807f93715e554cf5da</Anchor>
+                  <Anchor>a7b798f84c59bbcea7b34c60477fff933</Anchor>
                  </Node>
                  <Node>
                   <Name>find</Name>
@@ -1206,7 +1228,7 @@
                  <Node>
                   <Name>operator()</Name>
                   <Path>classinsp_1_1detail_1_1map__pair__compare.html</Path>
-                  <Anchor>a88c866ba79113806cbab01814e14513e</Anchor>
+                  <Anchor>a042149bab9a0e0324ecb27facbb8db43</Anchor>
                  </Node>
                  <Node>
                   <Name>operator()</Name>
@@ -1216,7 +1238,7 @@
                  <Node>
                   <Name>operator()</Name>
                   <Path>classinsp_1_1detail_1_1map__pair__compare.html</Path>
-                  <Anchor>a042149bab9a0e0324ecb27facbb8db43</Anchor>
+                  <Anchor>a88c866ba79113806cbab01814e14513e</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1248,9 +1270,9 @@
                 <Anchor>a742558afdeb2a3c30307c2504fa74a3f</Anchor>
                </Node>
                <Node>
-                <Name>operator T *</Name>
+                <Name>operator T*</Name>
                 <Path>classinsp_1_1aligned__storage.html</Path>
-                <Anchor>a73653da04d1c2ffc1d8d54fa97220e95</Anchor>
+                <Anchor>ac6b2e98fb6d8dc18df390e969363e59f</Anchor>
                </Node>
                <Node>
                 <Name>operator-&gt;</Name>
@@ -1497,14 +1519,14 @@
                   <Anchor>ae12f6673e54d366dd0e76c52db0bd7b0</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator *</Name>
-                  <Path>classinsp_1_1intrusive__list_1_1iterator.html</Path>
-                  <Anchor>ae6e0ee00beeb5369aac48b8b4812c247</Anchor>
-                 </Node>
-                 <Node>
                   <Name>operator!=</Name>
                   <Path>classinsp_1_1intrusive__list_1_1iterator.html</Path>
                   <Anchor>aed7333a6fad11e390984c0aef5bec8d5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator*</Name>
+                  <Path>classinsp_1_1intrusive__list_1_1iterator.html</Path>
+                  <Anchor>aab8ab4bea51f965d302d7704ac259947</Anchor>
                  </Node>
                  <Node>
                   <Name>operator++</Name>
@@ -1950,12 +1972,12 @@
                <Node>
                 <Name>getlist</Name>
                 <Path>class_modes_1_1_change_list.html</Path>
-                <Anchor>ab3a7b88c5fe34abdb7aaaf65b9d9a88a</Anchor>
+                <Anchor>ae075a5ad925ab4a505b982a1cf82277e</Anchor>
                </Node>
                <Node>
                 <Name>getlist</Name>
                 <Path>class_modes_1_1_change_list.html</Path>
-                <Anchor>ae075a5ad925ab4a505b982a1cf82277e</Anchor>
+                <Anchor>ab3a7b88c5fe34abdb7aaaf65b9d9a88a</Anchor>
                </Node>
                <Node>
                 <Name>push</Name>
@@ -2090,12 +2112,12 @@
                <Node>
                 <Name>GetParams</Name>
                 <Path>class_numeric_1_1_numeric.html</Path>
-                <Anchor>a6560dc95f54b8fe3ee235dd82be08ab8</Anchor>
+                <Anchor>aafdd782234fd5a96caa05183c0898735</Anchor>
                </Node>
                <Node>
                 <Name>GetParams</Name>
                 <Path>class_numeric_1_1_numeric.html</Path>
-                <Anchor>aafdd782234fd5a96caa05183c0898735</Anchor>
+                <Anchor>a6560dc95f54b8fe3ee235dd82be08ab8</Anchor>
                </Node>
                <Node>
                 <Name>GetServer</Name>
@@ -2579,12 +2601,12 @@
              <Node>
               <Name>GetModeParameter</Name>
               <Path>class_channel.html</Path>
-              <Anchor>a10041cad3be895b9e2d2165bb6551e3e</Anchor>
+              <Anchor>a75d8234b16a29e1ae7f85c14e436c4c1</Anchor>
              </Node>
              <Node>
               <Name>GetModeParameter</Name>
               <Path>class_channel.html</Path>
-              <Anchor>a75d8234b16a29e1ae7f85c14e436c4c1</Anchor>
+              <Anchor>a10041cad3be895b9e2d2165bb6551e3e</Anchor>
              </Node>
              <Node>
               <Name>GetModeParameter</Name>
@@ -2624,7 +2646,7 @@
              <Node>
               <Name>IsModeSet</Name>
               <Path>class_channel.html</Path>
-              <Anchor>addceacd7b9a2233b9852fb7e8ff548b0</Anchor>
+              <Anchor>a2fa34580ace405c157267eba01d490bd</Anchor>
              </Node>
              <Node>
               <Name>IsModeSet</Name>
@@ -2634,7 +2656,7 @@
              <Node>
               <Name>IsModeSet</Name>
               <Path>class_channel.html</Path>
-              <Anchor>a2fa34580ace405c157267eba01d490bd</Anchor>
+              <Anchor>addceacd7b9a2233b9852fb7e8ff548b0</Anchor>
              </Node>
              <Node>
               <Name>KickUser</Name>
@@ -3430,14 +3452,14 @@
               <Anchor>ac4a6210b8771171cc4bae66160561a99</Anchor>
              </Node>
              <Node>
-              <Name>operator *</Name>
+              <Name>operator*</Name>
               <Path>classdynamic__reference.html</Path>
-              <Anchor>a2ea3c995ae257cb6fb0a9768ad7de6b3</Anchor>
+              <Anchor>a9e99a93d29ec6c4840a2897ae69647cc</Anchor>
              </Node>
              <Node>
-              <Name>operator *</Name>
+              <Name>operator*</Name>
               <Path>classdynamic__reference.html</Path>
-              <Anchor>ad8359f08ad722543cc9b20720416f936</Anchor>
+              <Anchor>a5978d0f339d7d51b4b878912bc49c410</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -3523,14 +3545,14 @@
               <Anchor>ae4aec11b1b0eeac76af1d272034e932d</Anchor>
              </Node>
              <Node>
-              <Name>operator *</Name>
+              <Name>operator*</Name>
               <Path>classdynamic__reference__nocheck.html</Path>
-              <Anchor>a0dc563e4bf163d57c06020184eb23bb9</Anchor>
+              <Anchor>a7829398ccdc818ef10a77e8d4f766f58</Anchor>
              </Node>
              <Node>
-              <Name>operator *</Name>
+              <Name>operator*</Name>
               <Path>classdynamic__reference__nocheck.html</Path>
-              <Anchor>afbf7a909f957972ffeeae335957845c8</Anchor>
+              <Anchor>a36b2ed6b9a8f35d78c82a80f9f35dea6</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -3566,12 +3588,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_e_line.html</Path>
-              <Anchor>ad0d722ac593c07121b0279751af1e915</Anchor>
+              <Anchor>a783dcb9462c381099aeff6c655e969b8</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_e_line.html</Path>
-              <Anchor>a783dcb9462c381099aeff6c655e969b8</Anchor>
+              <Anchor>ad0d722ac593c07121b0279751af1e915</Anchor>
              </Node>
              <Node>
               <Name>OnAdd</Name>
@@ -3659,6 +3681,11 @@
               <Name>SetFd</Name>
               <Path>class_event_handler.html</Path>
               <Anchor>aa0775c98015a7eb2b878c3cfcde8ce00</Anchor>
+             </Node>
+             <Node>
+              <Name>SwapInternals</Name>
+              <Path>class_event_handler.html</Path>
+              <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
              </Node>
              <Node>
               <Name>SocketEngine</Name>
@@ -3755,9 +3782,29 @@
               <Anchor>a11bd12cf14ce6fed72495794e30ed731</Anchor>
              </Node>
              <Node>
+              <Name>DEPRECATED_METHOD</Name>
+              <Path>class_extension_item.html</Path>
+              <Anchor>a699d882c6b04759f0951155c3e1a4a97</Anchor>
+             </Node>
+             <Node>
+              <Name>DEPRECATED_METHOD</Name>
+              <Path>class_extension_item.html</Path>
+              <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
+             </Node>
+             <Node>
               <Name>free</Name>
               <Path>class_extension_item.html</Path>
               <Anchor>a533ed21a5df43547c2df5be1c9eedb0e</Anchor>
+             </Node>
+             <Node>
+              <Name>FromInternal</Name>
+              <Path>class_extension_item.html</Path>
+              <Anchor>adec92dd7ecf0cddc58b36c7d2260d12b</Anchor>
+             </Node>
+             <Node>
+              <Name>FromNetwork</Name>
+              <Path>class_extension_item.html</Path>
+              <Anchor>a89f9eccabe8b4a50e566ee4cd1b893c1</Anchor>
              </Node>
              <Node>
               <Name>get_raw</Name>
@@ -3770,19 +3817,24 @@
               <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
              </Node>
              <Node>
-              <Name>serialize</Name>
-              <Path>class_extension_item.html</Path>
-              <Anchor>a4ffa5956f0d346d54d0a0ce28e39ec02</Anchor>
-             </Node>
-             <Node>
               <Name>set_raw</Name>
               <Path>class_extension_item.html</Path>
               <Anchor>a64ae544a9eeaaf570520faa529109250</Anchor>
              </Node>
              <Node>
-              <Name>unserialize</Name>
+              <Name>ToHuman</Name>
               <Path>class_extension_item.html</Path>
-              <Anchor>a44888eb4aaf8ca4df70f5c59a4d81c45</Anchor>
+              <Anchor>aee4388693d1b3caa3e024a5b62f356aa</Anchor>
+             </Node>
+             <Node>
+              <Name>ToInternal</Name>
+              <Path>class_extension_item.html</Path>
+              <Anchor>aa1d15f95fc7ad65365589234d60de5dc</Anchor>
+             </Node>
+             <Node>
+              <Name>ToNetwork</Name>
+              <Path>class_extension_item.html</Path>
+              <Anchor>abe7473177e34daf80ea3cba2d1d2bfe1</Anchor>
              </Node>
              <Node>
               <Name>unset_raw</Name>
@@ -4052,12 +4104,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_g_line.html</Path>
-              <Anchor>a284c8d1fc17384acc7fa064b19229e6d</Anchor>
+              <Anchor>a1d0e38e486eb60a32fc13ca9a3984d65</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_g_line.html</Path>
-              <Anchor>a1d0e38e486eb60a32fc13ca9a3984d65</Anchor>
+              <Anchor>a284c8d1fc17384acc7fa064b19229e6d</Anchor>
              </Node>
              <Node>
               <Name>hostmask</Name>
@@ -4558,12 +4610,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_k_line.html</Path>
-              <Anchor>ad910985fc0b107d5144e20998c009f05</Anchor>
+              <Anchor>a5daae922d23d39acfc45445ad83ab24b</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_k_line.html</Path>
-              <Anchor>a5daae922d23d39acfc45445ad83ab24b</Anchor>
+              <Anchor>ad910985fc0b107d5144e20998c009f05</Anchor>
              </Node>
              <Node>
               <Name>hostmask</Name>
@@ -4793,37 +4845,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>LocalExtItem</Name>
-            <Path>class_local_ext_item.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>LocalExtItem</Name>
-              <Path>class_local_ext_item.html</Path>
-              <Anchor>a7566fb857bba5a2ee68e0f74c5b0f234</Anchor>
-             </Node>
-             <Node>
-              <Name>~LocalExtItem</Name>
-              <Path>class_local_ext_item.html</Path>
-              <Anchor>a9b4ebb301564afddc851808090e0d26b</Anchor>
-             </Node>
-             <Node>
-              <Name>free</Name>
-              <Path>class_local_ext_item.html</Path>
-              <Anchor>ad784be1bc9903fe30110652c91375384</Anchor>
-             </Node>
-             <Node>
-              <Name>serialize</Name>
-              <Path>class_local_ext_item.html</Path>
-              <Anchor>a7f19c09b8ed4447a9c8081b49fe0adcd</Anchor>
-             </Node>
-             <Node>
-              <Name>unserialize</Name>
-              <Path>class_local_ext_item.html</Path>
-              <Anchor>a151d30a6502c8e252866963f8c58aaad</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>LocalIntExt</Name>
             <Path>class_local_int_ext.html</Path>
             <Subnodes>
@@ -4843,14 +4864,14 @@
               <Anchor>a1052c3115d0e3e8b1d02f0d94756609e</Anchor>
              </Node>
              <Node>
+              <Name>FromInternal</Name>
+              <Path>class_local_int_ext.html</Path>
+              <Anchor>ab512012eff6ad7129b3519cfe3a444de</Anchor>
+             </Node>
+             <Node>
               <Name>get</Name>
               <Path>class_local_int_ext.html</Path>
               <Anchor>a8548705e3c0a8beeb8a7d7c16d4d884d</Anchor>
-             </Node>
-             <Node>
-              <Name>serialize</Name>
-              <Path>class_local_int_ext.html</Path>
-              <Anchor>a39d9e2a7c91c9104e65102f1c3c47d10</Anchor>
              </Node>
              <Node>
               <Name>set</Name>
@@ -4858,9 +4879,9 @@
               <Anchor>a6b12c4b7f9230ad4a18cc7f6bed59c5c</Anchor>
              </Node>
              <Node>
-              <Name>unserialize</Name>
+              <Name>ToInternal</Name>
               <Path>class_local_int_ext.html</Path>
-              <Anchor>a4cd7a3f4fdfffdbecd164ebb25835cae</Anchor>
+              <Anchor>a27a4fe01b54ee31636f3f63b460764ee</Anchor>
              </Node>
              <Node>
               <Name>unset</Name>
@@ -4884,14 +4905,14 @@
               <Anchor>a01312ac488072c40b5660105ea2d5803</Anchor>
              </Node>
              <Node>
-              <Name>serialize</Name>
+              <Name>FromInternal</Name>
               <Path>class_local_string_ext.html</Path>
-              <Anchor>a30ffc9ffce8b70926f370db34fe15156</Anchor>
+              <Anchor>a37daf96ca0a7c9f0770d8ece10b54a72</Anchor>
              </Node>
              <Node>
-              <Name>unserialize</Name>
+              <Name>ToInternal</Name>
               <Path>class_local_string_ext.html</Path>
-              <Anchor>a7558a9eeb79cf798c954033233055b7e</Anchor>
+              <Anchor>abc7b67cf365300cb5d8a44e9e6d89688</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4967,12 +4988,12 @@
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a65daaaaed3fe026aa71b6ee08a2f3bab</Anchor>
+              <Anchor>aabccec0420e584843b0a485264d3fb8f</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>aabccec0420e584843b0a485264d3fb8f</Anchor>
+              <Anchor>a65daaaaed3fe026aa71b6ee08a2f3bab</Anchor>
              </Node>
              <Node>
               <Name>WriteRemoteNotice</Name>
@@ -5113,12 +5134,12 @@
              <Node>
               <Name>Log</Name>
               <Path>class_log_manager.html</Path>
-              <Anchor>a422c47ea337f50ca5454f34b87447906</Anchor>
+              <Anchor>a61f8a9e11a255805342d75e257067fbd</Anchor>
              </Node>
              <Node>
               <Name>Log</Name>
               <Path>class_log_manager.html</Path>
-              <Anchor>a61f8a9e11a255805342d75e257067fbd</Anchor>
+              <Anchor>a422c47ea337f50ca5454f34b87447906</Anchor>
              </Node>
              <Node>
               <Name>OpenFileLogs</Name>
@@ -5236,7 +5257,7 @@
              <Node>
               <Name>IsCTCP</Name>
               <Path>class_message_details.html</Path>
-              <Anchor>a3d5c1d9b726f7d3cccecca34e4a225a4</Anchor>
+              <Anchor>a164f9f019a8306b3e1ee8a54f66ef053</Anchor>
              </Node>
              <Node>
               <Name>IsCTCP</Name>
@@ -5246,7 +5267,7 @@
              <Node>
               <Name>IsCTCP</Name>
               <Path>class_message_details.html</Path>
-              <Anchor>a164f9f019a8306b3e1ee8a54f66ef053</Anchor>
+              <Anchor>a3d5c1d9b726f7d3cccecca34e4a225a4</Anchor>
              </Node>
              <Node>
               <Name>echo</Name>
@@ -5507,12 +5528,12 @@
              <Node>
               <Name>RemoveMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a503ca6f0510826107d906214912f1d37</Anchor>
+              <Anchor>a222306154c3aff8d87fb480e7cf85578</Anchor>
              </Node>
              <Node>
               <Name>RemoveMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a222306154c3aff8d87fb480e7cf85578</Anchor>
+              <Anchor>a503ca6f0510826107d906214912f1d37</Anchor>
              </Node>
              <Node>
               <Name>ResolveModeConflict</Name>
@@ -5941,6 +5962,11 @@
               <Anchor>ace3323630e669476ed433b36b6863618</Anchor>
              </Node>
              <Node>
+              <Name>OnConnectionFail</Name>
+              <Path>class_module.html</Path>
+              <Anchor>a8a4bcd40ef6f80cb983ea01747864355</Anchor>
+             </Node>
+             <Node>
               <Name>OnDecodeMetaData</Name>
               <Path>class_module.html</Path>
               <Anchor>af2e2a4e731ead980507fd02e0b1f69b0</Anchor>
@@ -6285,12 +6311,12 @@
              <Node>
               <Name>Attach</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>aec0574e657ddae6bebec17730381c2df</Anchor>
+              <Anchor>aa22d0a585c5c3b0f1ee6d5c0748fc0e3</Anchor>
              </Node>
              <Node>
               <Name>Attach</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>aa22d0a585c5c3b0f1ee6d5c0748fc0e3</Anchor>
+              <Anchor>aec0574e657ddae6bebec17730381c2df</Anchor>
              </Node>
              <Node>
               <Name>AttachAll</Name>
@@ -6901,12 +6927,12 @@
              <Node>
               <Name>SendMetaData</Name>
               <Path>class_protocol_interface.html</Path>
-              <Anchor>a7d0fcab7e3e80b73c5dff9430429c058</Anchor>
+              <Anchor>a918946adb550ca49394ac71dc7e653d7</Anchor>
              </Node>
              <Node>
               <Name>SendMetaData</Name>
               <Path>class_protocol_interface.html</Path>
-              <Anchor>a918946adb550ca49394ac71dc7e653d7</Anchor>
+              <Anchor>a7d0fcab7e3e80b73c5dff9430429c058</Anchor>
              </Node>
              <Node>
               <Name>SendSNONotice</Name>
@@ -6958,12 +6984,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_q_line.html</Path>
-              <Anchor>a01e26569dcddc5cce0a4f091b3c1f2b2</Anchor>
+              <Anchor>a2826905ca34e8f6ddc29c8c5f6171517</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_q_line.html</Path>
-              <Anchor>a2826905ca34e8f6ddc29c8c5f6171517</Anchor>
+              <Anchor>a01e26569dcddc5cce0a4f091b3c1f2b2</Anchor>
              </Node>
              <Node>
               <Name>nick</Name>
@@ -7075,19 +7101,19 @@
               <Anchor>a8b9b9f2d01b7b35ef128aa59fdcec43c</Anchor>
              </Node>
              <Node>
-              <Name>operator *</Name>
-              <Path>classreference.html</Path>
-              <Anchor>ae4873eea537a79362bb5fb52d864e236</Anchor>
-             </Node>
-             <Node>
               <Name>operator bool</Name>
               <Path>classreference.html</Path>
               <Anchor>acb263e82898f6f66dd4fe3d8c9a907c4</Anchor>
              </Node>
              <Node>
-              <Name>operator T *</Name>
+              <Name>operator T*</Name>
               <Path>classreference.html</Path>
-              <Anchor>a8563eabc1313291dd15272a3b0c4921c</Anchor>
+              <Anchor>ad8497fb06db67ac989cadfb101fb158b</Anchor>
+             </Node>
+             <Node>
+              <Name>operator*</Name>
+              <Path>classreference.html</Path>
+              <Anchor>a03ab97fa7370a617300581672e52da83</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -7868,22 +7894,22 @@
              <Node>
               <Name>WriteGlobalSno</Name>
               <Path>class_snomask_manager.html</Path>
-              <Anchor>a55b565eac86282b00e486c6c1dcb779d</Anchor>
+              <Anchor>acc9e5467fcfcc7f74885a9ba9d0e0acc</Anchor>
              </Node>
              <Node>
               <Name>WriteGlobalSno</Name>
               <Path>class_snomask_manager.html</Path>
-              <Anchor>acc9e5467fcfcc7f74885a9ba9d0e0acc</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteToSnoMask</Name>
-              <Path>class_snomask_manager.html</Path>
-              <Anchor>a2c7c704d78403206a7021b89fb2319d8</Anchor>
+              <Anchor>a55b565eac86282b00e486c6c1dcb779d</Anchor>
              </Node>
              <Node>
               <Name>WriteToSnoMask</Name>
               <Path>class_snomask_manager.html</Path>
               <Anchor>a52896b0bc2e54dae3e1c8627882b370f</Anchor>
+             </Node>
+             <Node>
+              <Name>WriteToSnoMask</Name>
+              <Path>class_snomask_manager.html</Path>
+              <Anchor>a2c7c704d78403206a7021b89fb2319d8</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -8266,6 +8292,11 @@
               <Anchor>a6cf1b75c166a8d5b5bd47061ce4f330b</Anchor>
              </Node>
              <Node>
+              <Name>SwapInternals</Name>
+              <Path>class_stream_socket.html</Path>
+              <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
+             </Node>
+             <Node>
               <Name>WriteData</Name>
               <Path>class_stream_socket.html</Path>
               <Anchor>a89d84e682d12d08bfe648302eae88941</Anchor>
@@ -8302,14 +8333,14 @@
               <Anchor>acc947f0f1f6f348a9d856193db08dada</Anchor>
              </Node>
              <Node>
+              <Name>FromNetwork</Name>
+              <Path>class_string_ext_item.html</Path>
+              <Anchor>a32fb51307610527bac4b38365fced638</Anchor>
+             </Node>
+             <Node>
               <Name>get</Name>
               <Path>class_string_ext_item.html</Path>
               <Anchor>a7e419c34a5ba0bc794cd5c6d11b191eb</Anchor>
-             </Node>
-             <Node>
-              <Name>serialize</Name>
-              <Path>class_string_ext_item.html</Path>
-              <Anchor>a086f819aadd17075ae4e9b3329b83cc0</Anchor>
              </Node>
              <Node>
               <Name>set</Name>
@@ -8317,9 +8348,9 @@
               <Anchor>a78c16cde092894026b1ab88f9c8369e5</Anchor>
              </Node>
              <Node>
-              <Name>unserialize</Name>
+              <Name>ToNetwork</Name>
               <Path>class_string_ext_item.html</Path>
-              <Anchor>a9e86723a6b6a34c7990704e44750bfdb</Anchor>
+              <Anchor>ae3038870260c6dd6ff3b5a858781c16d</Anchor>
              </Node>
              <Node>
               <Name>unset</Name>
@@ -8822,7 +8853,7 @@
              <Node>
               <Name>IsModeSet</Name>
               <Path>class_user.html</Path>
-              <Anchor>adb34cbcaf90c6c87a42fd9c444a0f472</Anchor>
+              <Anchor>adac8cff15eb461b5c3cac4a17c74987d</Anchor>
              </Node>
              <Node>
               <Name>IsModeSet</Name>
@@ -8832,7 +8863,7 @@
              <Node>
               <Name>IsModeSet</Name>
               <Path>class_user.html</Path>
-              <Anchor>adac8cff15eb461b5c3cac4a17c74987d</Anchor>
+              <Anchor>adb34cbcaf90c6c87a42fd9c444a0f472</Anchor>
              </Node>
              <Node>
               <Name>IsModeSet</Name>
@@ -8872,22 +8903,22 @@
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_user.html</Path>
-              <Anchor>aafbdb9660bf61bfc6a468b3c46f72ad6</Anchor>
+              <Anchor>adc937b4c081b764b6d7baaef58de1856</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
               <Path>class_user.html</Path>
-              <Anchor>adc937b4c081b764b6d7baaef58de1856</Anchor>
-             </Node>
-             <Node>
-              <Name>SetMode</Name>
-              <Path>class_user.html</Path>
-              <Anchor>a4ac20f801afa0a97505471292dee7778</Anchor>
+              <Anchor>aafbdb9660bf61bfc6a468b3c46f72ad6</Anchor>
              </Node>
              <Node>
               <Name>SetMode</Name>
               <Path>class_user.html</Path>
               <Anchor>a721837c1c05b75b6dc989a5722258038</Anchor>
+             </Node>
+             <Node>
+              <Name>SetMode</Name>
+              <Path>class_user.html</Path>
+              <Anchor>a4ac20f801afa0a97505471292dee7778</Anchor>
              </Node>
              <Node>
               <Name>SharesChannelWith</Name>
@@ -9079,6 +9110,11 @@
               <Name>OnSetEndPoint</Name>
               <Path>class_user_i_o_handler.html</Path>
               <Anchor>a2f67153fc8b18ea8ec89a4291742d357</Anchor>
+             </Node>
+             <Node>
+              <Name>SwapInternals</Name>
+              <Path>class_user_i_o_handler.html</Path>
+              <Anchor>aaae39b3509d234aa2cf04f6fc042f66e</Anchor>
              </Node>
              <Node>
               <Name>user</Name>
@@ -9344,12 +9380,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_x_line.html</Path>
-              <Anchor>ada37bf158d40a0b2df5b0f3977d22dfe</Anchor>
+              <Anchor>ab9e9af84b02eaed595a60bc3c3ddc731</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_x_line.html</Path>
-              <Anchor>ab9e9af84b02eaed595a60bc3c3ddc731</Anchor>
+              <Anchor>ada37bf158d40a0b2df5b0f3977d22dfe</Anchor>
              </Node>
              <Node>
               <Name>OnAdd</Name>
@@ -9516,12 +9552,12 @@
              <Node>
               <Name>MatchesLine</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a6e4db7e09e6b73f81867fd6947fb0c7f</Anchor>
+              <Anchor>a7767e92aac6cde8d773e571764e6f886</Anchor>
              </Node>
              <Node>
               <Name>MatchesLine</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a7767e92aac6cde8d773e571764e6f886</Anchor>
+              <Anchor>a6e4db7e09e6b73f81867fd6947fb0c7f</Anchor>
              </Node>
              <Node>
               <Name>RegisterFactory</Name>
@@ -9577,12 +9613,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_z_line.html</Path>
-              <Anchor>a321c90c3162aa13f9b0a299cc5f8ec19</Anchor>
+              <Anchor>a84f15a3f9fa466a103820812280b17ee</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_z_line.html</Path>
-              <Anchor>a84f15a3f9fa466a103820812280b17ee</Anchor>
+              <Anchor>a321c90c3162aa13f9b0a299cc5f8ec19</Anchor>
              </Node>
              <Node>
               <Name>ipaddr</Name>
@@ -9846,30 +9882,24 @@
                 <Path>class_extension_item.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>LocalExtItem</Name>
-                  <Path>class_local_ext_item.html</Path>
+                  <Name>LocalIntExt</Name>
+                  <Path>class_local_int_ext.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>SimpleExtItem&lt; T, Del &gt;</Name>
+                  <Path>class_simple_ext_item.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>SimpleExtItem&lt; ChanData &gt;</Name>
+                  <Path>class_simple_ext_item.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>SimpleExtItem&lt; std::string &gt;</Name>
+                  <Path>class_simple_ext_item.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>LocalIntExt</Name>
-                    <Path>class_local_int_ext.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>SimpleExtItem&lt; T, Del &gt;</Name>
-                    <Path>class_simple_ext_item.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>SimpleExtItem&lt; ChanData &gt;</Name>
-                    <Path>class_simple_ext_item.html</Path>
-                   </Node>
-                   <Node>
-                    <Name>SimpleExtItem&lt; std::string &gt;</Name>
-                    <Path>class_simple_ext_item.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>LocalStringExt</Name>
-                      <Path>class_local_string_ext.html</Path>
-                     </Node>
-                    </Subnodes>
+                    <Name>LocalStringExt</Name>
+                    <Path>class_local_string_ext.html</Path>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -10599,10 +10629,6 @@
            </Node>
            <Node>
             <Name>reference&lt; IOHookProvider &gt;</Name>
-            <Path>classreference.html</Path>
-           </Node>
-           <Node>
-            <Name>reference&lt; Module &gt;</Name>
             <Path>classreference.html</Path>
            </Node>
            <Node>

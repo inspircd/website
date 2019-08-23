@@ -431,6 +431,38 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recvq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -3047,6 +3079,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -3110,24 +3153,79 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>serialize</Name>
+      <Name>ExtensionItem</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>a4ffa5956f0d346d54d0a0ce28e39ec02</Anchor>
+    <Anchor>abc516b307ee91d6b79a015275ee6811f</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unserialize</Name>
+      <Name>~ExtensionItem</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
-    <Anchor>a44888eb4aaf8ca4df70f5c59a4d81c45</Anchor>
+    <Anchor>a11bd12cf14ce6fed72495794e30ed731</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromInternal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>adec92dd7ecf0cddc58b36c7d2260d12b</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a89f9eccabe8b4a50e566ee4cd1b893c1</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToHuman</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aee4388693d1b3caa3e024a5b62f356aa</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToInternal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aa1d15f95fc7ad65365589234d60de5dc</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abe7473177e34daf80ea3cba2d1d2bfe1</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -3150,6 +3248,28 @@
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
     <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a699d882c6b04759f0951155c3e1a4a97</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -3246,6 +3366,36 @@
     <Path>class_extension_item.html</Path>
     <Anchor>a8136325d9a43b63e4b1bf7b1a2c646b5</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXT_USER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a033cb646471c0d59024f927bcc34a34bab8dcd8e23d6fe0b5024b2b1054ae242d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXT_CHANNEL</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a033cb646471c0d59024f927bcc34a34ba9aa86c0e71f8abb26dd0bc75c9b74f81</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXT_MEMBERSHIP</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a033cb646471c0d59024f927bcc34a34ba251de56bcacb9696ae99476f8f8b6570</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6042,6 +6192,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -6678,155 +6839,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>LocalExtItem</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>LocalExtItem</Scope>
-    </TokenIdentifier>
-    <Path>class_local_ext_item.html</Path>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>serialize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>LocalExtItem</Scope>
-    </TokenIdentifier>
-    <Path>class_local_ext_item.html</Path>
-    <Anchor>a7f19c09b8ed4447a9c8081b49fe0adcd</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>unserialize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>LocalExtItem</Scope>
-    </TokenIdentifier>
-    <Path>class_local_ext_item.html</Path>
-    <Anchor>a151d30a6502c8e252866963f8c58aaad</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>free</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>LocalExtItem</Scope>
-    </TokenIdentifier>
-    <Path>class_local_ext_item.html</Path>
-    <Anchor>ad784be1bc9903fe30110652c91375384</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RegisterService</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ExtensionItem</Scope>
-    </TokenIdentifier>
-    <Path>class_extension_item.html</Path>
-    <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DisableAutoRegister</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a87185e6ebfa0f4960f20797e716c72d6</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cull</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>classbase</Scope>
-    </TokenIdentifier>
-    <Path>classclassbase.html</Path>
-    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>type</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ExtensionItem</Scope>
-    </TokenIdentifier>
-    <Path>class_extension_item.html</Path>
-    <Anchor>a4a7a5bc773fdb460bf35e02448b37461</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>creator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>ad1dfa94bef361c61dfadefff1454bef9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>name</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a1dace4b64886f5cabd5a406d0f9e7e11</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>service</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a398d7fbc50d368467964f93bd093aabd</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get_raw</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ExtensionItem</Scope>
-    </TokenIdentifier>
-    <Path>class_extension_item.html</Path>
-    <Anchor>a4e47911ae07ff31f997150e78e088c7a</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_raw</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ExtensionItem</Scope>
-    </TokenIdentifier>
-    <Path>class_extension_item.html</Path>
-    <Anchor>a64ae544a9eeaaf570520faa529109250</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>unset_raw</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ExtensionItem</Scope>
-    </TokenIdentifier>
-    <Path>class_extension_item.html</Path>
-    <Anchor>a8136325d9a43b63e4b1bf7b1a2c646b5</Anchor>
-    <DeclaredIn>extensible.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>LocalIntExt</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -6836,24 +6848,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>serialize</Name>
+      <Name>ToInternal</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>LocalIntExt</Scope>
     </TokenIdentifier>
     <Path>class_local_int_ext.html</Path>
-    <Anchor>a39d9e2a7c91c9104e65102f1c3c47d10</Anchor>
+    <Anchor>a27a4fe01b54ee31636f3f63b460764ee</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unserialize</Name>
+      <Name>FromInternal</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>LocalIntExt</Scope>
     </TokenIdentifier>
     <Path>class_local_int_ext.html</Path>
-    <Anchor>a4cd7a3f4fdfffdbecd164ebb25835cae</Anchor>
+    <Anchor>ab512012eff6ad7129b3519cfe3a444de</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -6869,6 +6881,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ExtensionItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abc516b307ee91d6b79a015275ee6811f</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~ExtensionItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a11bd12cf14ce6fed72495794e30ed731</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a89f9eccabe8b4a50e566ee4cd1b893c1</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToHuman</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aee4388693d1b3caa3e024a5b62f356aa</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abe7473177e34daf80ea3cba2d1d2bfe1</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -6876,6 +6943,28 @@
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
     <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a699d882c6b04759f0951155c3e1a4a97</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -6984,24 +7073,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>serialize</Name>
+      <Name>ToInternal</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>LocalStringExt</Scope>
     </TokenIdentifier>
     <Path>class_local_string_ext.html</Path>
-    <Anchor>a30ffc9ffce8b70926f370db34fe15156</Anchor>
+    <Anchor>abc7b67cf365300cb5d8a44e9e6d89688</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unserialize</Name>
+      <Name>FromInternal</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>LocalStringExt</Scope>
     </TokenIdentifier>
     <Path>class_local_string_ext.html</Path>
-    <Anchor>a7558a9eeb79cf798c954033233055b7e</Anchor>
+    <Anchor>a37daf96ca0a7c9f0770d8ece10b54a72</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -7016,6 +7105,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ExtensionItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abc516b307ee91d6b79a015275ee6811f</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~ExtensionItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a11bd12cf14ce6fed72495794e30ed731</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a89f9eccabe8b4a50e566ee4cd1b893c1</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToHuman</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aee4388693d1b3caa3e024a5b62f356aa</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abe7473177e34daf80ea3cba2d1d2bfe1</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -7023,6 +7167,28 @@
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
     <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a699d882c6b04759f0951155c3e1a4a97</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -9153,6 +9319,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>MODEID_MAX</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeParser</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_parser.html</Path>
+    <Anchor>a0cde2db571277dfaab18c7f6ad8ff8c6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MODE_PARAM_MAX</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ModeParser</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_parser.html</Path>
+    <Anchor>a7595140326ba2b64289940c091473da6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>MODE_NONE</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -10131,6 +10317,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>abadd96f81a5cf5af438162f2b9a0c1f1</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnConnectionFail</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>a8a4bcd40ef6f80cb983ea01747864355</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -14814,24 +15011,79 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>serialize</Name>
+      <Name>ExtensionItem</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>LocalExtItem</Scope>
+      <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
-    <Path>class_local_ext_item.html</Path>
-    <Anchor>a7f19c09b8ed4447a9c8081b49fe0adcd</Anchor>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abc516b307ee91d6b79a015275ee6811f</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unserialize</Name>
+      <Name>~ExtensionItem</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>LocalExtItem</Scope>
+      <Scope>ExtensionItem</Scope>
     </TokenIdentifier>
-    <Path>class_local_ext_item.html</Path>
-    <Anchor>a151d30a6502c8e252866963f8c58aaad</Anchor>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a11bd12cf14ce6fed72495794e30ed731</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromInternal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>adec92dd7ecf0cddc58b36c7d2260d12b</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a89f9eccabe8b4a50e566ee4cd1b893c1</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToHuman</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aee4388693d1b3caa3e024a5b62f356aa</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToInternal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aa1d15f95fc7ad65365589234d60de5dc</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToNetwork</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abe7473177e34daf80ea3cba2d1d2bfe1</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -14843,6 +15095,28 @@
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
     <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a699d882c6b04759f0951155c3e1a4a97</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -16663,6 +16937,38 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recvq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -16843,24 +17149,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>serialize</Name>
+      <Name>ToNetwork</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>StringExtItem</Scope>
     </TokenIdentifier>
     <Path>class_string_ext_item.html</Path>
-    <Anchor>a086f819aadd17075ae4e9b3329b83cc0</Anchor>
+    <Anchor>ae3038870260c6dd6ff3b5a858781c16d</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>unserialize</Name>
+      <Name>FromNetwork</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>StringExtItem</Scope>
     </TokenIdentifier>
     <Path>class_string_ext_item.html</Path>
-    <Anchor>a9e86723a6b6a34c7990704e44750bfdb</Anchor>
+    <Anchor>a32fb51307610527bac4b38365fced638</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -16876,6 +17182,61 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ExtensionItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>abc516b307ee91d6b79a015275ee6811f</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~ExtensionItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a11bd12cf14ce6fed72495794e30ed731</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FromInternal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>adec92dd7ecf0cddc58b36c7d2260d12b</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToHuman</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aee4388693d1b3caa3e024a5b62f356aa</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToInternal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aa1d15f95fc7ad65365589234d60de5dc</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -16883,6 +17244,28 @@
     </TokenIdentifier>
     <Path>class_extension_item.html</Path>
     <Anchor>ad3686fb103d95f594e877185c8755207</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>a699d882c6b04759f0951155c3e1a4a97</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ExtensionItem</Scope>
+    </TokenIdentifier>
+    <Path>class_extension_item.html</Path>
+    <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -17473,6 +17856,38 @@
     </TokenIdentifier>
     <Path>class_buffered_socket.html</Path>
     <Anchor>a804ebaa3eddafd9d69e1fc74ff7ff858</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recvq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18459,6 +18874,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>UserIOHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_user_i_o_handler.html</Path>
+    <Anchor>aaae39b3509d234aa2cf04f6fc042f66e</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DoWrite</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -18643,6 +19069,38 @@
     <Path>class_event_handler.html</Path>
     <Anchor>a9578358998a3221402df5404ca2776d6</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recvq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

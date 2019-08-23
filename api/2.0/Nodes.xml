@@ -8,6 +8,28 @@
        <Node>
         <Name>About</Name>
         <Path>index.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Supported Platforms</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md1</Anchor>
+         </Node>
+         <Node>
+          <Name>Installation</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md2</Anchor>
+         </Node>
+         <Node>
+          <Name>License</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md3</Anchor>
+         </Node>
+         <Node>
+          <Name>External Links</Name>
+          <Path>index.html</Path>
+          <Anchor>autotoc_md4</Anchor>
+         </Node>
+        </Subnodes>
        </Node>
        <Node>
         <Name>Namespaces</Name>
@@ -214,22 +236,22 @@
                <Node>
                 <Name>GetStackedLine</Name>
                 <Path>classirc_1_1modestacker.html</Path>
-                <Anchor>ab9db7e4fca784ea0162b613d04a6f078</Anchor>
+                <Anchor>a1149070bd69c381da4a25d1808828fb7</Anchor>
                </Node>
                <Node>
                 <Name>GetStackedLine</Name>
                 <Path>classirc_1_1modestacker.html</Path>
-                <Anchor>a1149070bd69c381da4a25d1808828fb7</Anchor>
-               </Node>
-               <Node>
-                <Name>Push</Name>
-                <Path>classirc_1_1modestacker.html</Path>
-                <Anchor>ab3a10ebd5ec2d0bc217c72e255f9c00d</Anchor>
+                <Anchor>ab9db7e4fca784ea0162b613d04a6f078</Anchor>
                </Node>
                <Node>
                 <Name>Push</Name>
                 <Path>classirc_1_1modestacker.html</Path>
                 <Anchor>a4604ac5ec32af6da026dca5ef22e04fb</Anchor>
+               </Node>
+               <Node>
+                <Name>Push</Name>
+                <Path>classirc_1_1modestacker.html</Path>
+                <Anchor>ab3a10ebd5ec2d0bc217c72e255f9c00d</Anchor>
                </Node>
                <Node>
                 <Name>PushMinus</Name>
@@ -355,7 +377,7 @@
                <Node>
                 <Name>GetToken</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
+                <Anchor>a015f094f368854d02a074ac962460201</Anchor>
                </Node>
                <Node>
                 <Name>GetToken</Name>
@@ -365,12 +387,12 @@
                <Node>
                 <Name>GetToken</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>a015f094f368854d02a074ac962460201</Anchor>
+                <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
                </Node>
                <Node>
                 <Name>GetToken</Name>
                 <Path>classirc_1_1tokenstream.html</Path>
-                <Anchor>ad65c1f893a59bbb92513435ddf8805a3</Anchor>
+                <Anchor>a8b08684f8ea65b8fa0d061d198994585</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -997,22 +1019,22 @@
              <Node>
               <Name>SetMode</Name>
               <Path>class_channel.html</Path>
-              <Anchor>a2242e5c2cb8e1eb5ed161ad5ba4888fb</Anchor>
+              <Anchor>aa64e5012857ac4634df11366e6e80aea</Anchor>
              </Node>
              <Node>
               <Name>SetMode</Name>
               <Path>class_channel.html</Path>
-              <Anchor>aa64e5012857ac4634df11366e6e80aea</Anchor>
-             </Node>
-             <Node>
-              <Name>SetModeParam</Name>
-              <Path>class_channel.html</Path>
-              <Anchor>a7882da06f5a8a6376f0d308912f55f65</Anchor>
+              <Anchor>a2242e5c2cb8e1eb5ed161ad5ba4888fb</Anchor>
              </Node>
              <Node>
               <Name>SetModeParam</Name>
               <Path>class_channel.html</Path>
               <Anchor>a28257ffd3d64be2e8a3bbbae167e5f86</Anchor>
+             </Node>
+             <Node>
+              <Name>SetModeParam</Name>
+              <Path>class_channel.html</Path>
+              <Anchor>a7882da06f5a8a6376f0d308912f55f65</Anchor>
              </Node>
              <Node>
               <Name>SetPrefix</Name>
@@ -1342,12 +1364,12 @@
              <Node>
               <Name>TranslateUIDs</Name>
               <Path>class_command_parser.html</Path>
-              <Anchor>aac8a07557d89569088b15e9a0277c0f8</Anchor>
+              <Anchor>a15f208f21f81bf4fe661cc7512ae02f3</Anchor>
              </Node>
              <Node>
               <Name>TranslateUIDs</Name>
               <Path>class_command_parser.html</Path>
-              <Anchor>a15f208f21f81bf4fe661cc7512ae02f3</Anchor>
+              <Anchor>aac8a07557d89569088b15e9a0277c0f8</Anchor>
              </Node>
              <Node>
               <Name>cmdlist</Name>
@@ -1383,17 +1405,12 @@
              <Node>
               <Name>ReadFlag</Name>
               <Path>class_config_reader.html</Path>
-              <Anchor>a937acf6bd27c95f14cd3cb40ac41e364</Anchor>
+              <Anchor>aa036ffb2ab5809bf87642803761f7bf2</Anchor>
              </Node>
              <Node>
               <Name>ReadFlag</Name>
               <Path>class_config_reader.html</Path>
-              <Anchor>aa036ffb2ab5809bf87642803761f7bf2</Anchor>
-             </Node>
-             <Node>
-              <Name>ReadInteger</Name>
-              <Path>class_config_reader.html</Path>
-              <Anchor>a13863ad99ff5d354a3b90e248f5a6f9c</Anchor>
+              <Anchor>a937acf6bd27c95f14cd3cb40ac41e364</Anchor>
              </Node>
              <Node>
               <Name>ReadInteger</Name>
@@ -1401,14 +1418,19 @@
               <Anchor>af7241a22947f36616fd334a9f4ecfdc7</Anchor>
              </Node>
              <Node>
-              <Name>ReadValue</Name>
+              <Name>ReadInteger</Name>
               <Path>class_config_reader.html</Path>
-              <Anchor>a82b5267e6af08f35c8e41c37fd1b9caa</Anchor>
+              <Anchor>a13863ad99ff5d354a3b90e248f5a6f9c</Anchor>
              </Node>
              <Node>
               <Name>ReadValue</Name>
               <Path>class_config_reader.html</Path>
               <Anchor>a58061485d4ee495f411328f75f4225d6</Anchor>
+             </Node>
+             <Node>
+              <Name>ReadValue</Name>
+              <Path>class_config_reader.html</Path>
+              <Anchor>a82b5267e6af08f35c8e41c37fd1b9caa</Anchor>
              </Node>
              <Node>
               <Name>error</Name>
@@ -2227,12 +2249,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_e_line.html</Path>
-              <Anchor>a2be3512260261b9edeced0bad99db12e</Anchor>
+              <Anchor>a26f7ddf18a2e59137af26290cf5ff2a2</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_e_line.html</Path>
-              <Anchor>a26f7ddf18a2e59137af26290cf5ff2a2</Anchor>
+              <Anchor>a2be3512260261b9edeced0bad99db12e</Anchor>
              </Node>
              <Node>
               <Name>OnAdd</Name>
@@ -2773,12 +2795,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_g_line.html</Path>
-              <Anchor>a4a5f01cac9582dcb80d3a4b235153971</Anchor>
+              <Anchor>a889bbff08c3446a60ee364d2c6903ebe</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_g_line.html</Path>
-              <Anchor>a889bbff08c3446a60ee364d2c6903ebe</Anchor>
+              <Anchor>a4a5f01cac9582dcb80d3a4b235153971</Anchor>
              </Node>
              <Node>
               <Name>hostmask</Name>
@@ -3081,22 +3103,22 @@
              <Node>
               <Name>FindChan</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a52cc0d56af4a8ba70f9f321e944348b5</Anchor>
+              <Anchor>a3f029bb9ad13dc2d90416d3fd8e4b0be</Anchor>
              </Node>
              <Node>
               <Name>FindChan</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a3f029bb9ad13dc2d90416d3fd8e4b0be</Anchor>
-             </Node>
-             <Node>
-              <Name>FindNick</Name>
-              <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a3542d005301c60c4300729b365bebbf6</Anchor>
+              <Anchor>a52cc0d56af4a8ba70f9f321e944348b5</Anchor>
              </Node>
              <Node>
               <Name>FindNick</Name>
               <Path>class_insp_i_r_cd.html</Path>
               <Anchor>a77342f431574f356ae8be68c905b5891</Anchor>
+             </Node>
+             <Node>
+              <Name>FindNick</Name>
+              <Path>class_insp_i_r_cd.html</Path>
+              <Anchor>a3542d005301c60c4300729b365bebbf6</Anchor>
              </Node>
              <Node>
               <Name>FindNickOnly</Name>
@@ -3111,12 +3133,12 @@
              <Node>
               <Name>FindUUID</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>aed13709c875182f9164288b4baed9083</Anchor>
+              <Anchor>af018893d254a17b3c4f6124de7736c84</Anchor>
              </Node>
              <Node>
               <Name>FindUUID</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>af018893d254a17b3c4f6124de7736c84</Anchor>
+              <Anchor>aed13709c875182f9164288b4baed9083</Anchor>
              </Node>
              <Node>
               <Name>GenRandomInt</Name>
@@ -3226,12 +3248,12 @@
              <Node>
               <Name>SendWhoisLine</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>aa4b468fd9c0e09f508ae8ac6e6fac7a1</Anchor>
+              <Anchor>a6cd1251df875bc5b73f64ddd7fd31ccf</Anchor>
              </Node>
              <Node>
               <Name>SendWhoisLine</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a6cd1251df875bc5b73f64ddd7fd31ccf</Anchor>
+              <Anchor>aa4b468fd9c0e09f508ae8ac6e6fac7a1</Anchor>
              </Node>
              <Node>
               <Name>SignalHandler</Name>
@@ -3669,12 +3691,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_k_line.html</Path>
-              <Anchor>a9208aa65ea6ba990600b4a487242d4fb</Anchor>
+              <Anchor>a507b18788ea245430d7ca184b72237e1</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_k_line.html</Path>
-              <Anchor>a507b18788ea245430d7ca184b72237e1</Anchor>
+              <Anchor>a9208aa65ea6ba990600b4a487242d4fb</Anchor>
              </Node>
              <Node>
               <Name>hostmask</Name>
@@ -3991,12 +4013,12 @@
              <Node>
               <Name>Write</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a66cc1ddf9afde1b5830c1976b91de321</Anchor>
+              <Anchor>a4dc140bbb0bfec7c269ea54c0687b55e</Anchor>
              </Node>
              <Node>
               <Name>Write</Name>
               <Path>class_local_user.html</Path>
-              <Anchor>a4dc140bbb0bfec7c269ea54c0687b55e</Anchor>
+              <Anchor>a66cc1ddf9afde1b5830c1976b91de321</Anchor>
              </Node>
              <Node>
               <Name>already_sent</Name>
@@ -4117,12 +4139,12 @@
              <Node>
               <Name>Log</Name>
               <Path>class_log_manager.html</Path>
-              <Anchor>a026bf5af4235cdc58aa3e9443f550ebd</Anchor>
+              <Anchor>a6abaf9498ea1a11b46b833bed648f921</Anchor>
              </Node>
              <Node>
               <Name>Log</Name>
               <Path>class_log_manager.html</Path>
-              <Anchor>a6abaf9498ea1a11b46b833bed648f921</Anchor>
+              <Anchor>a026bf5af4235cdc58aa3e9443f550ebd</Anchor>
              </Node>
              <Node>
               <Name>OpenFileLogs</Name>
@@ -4295,12 +4317,12 @@
              <Node>
               <Name>RemoveMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>abf5a0332e07fae1b203c9eea5119c389</Anchor>
+              <Anchor>ab45d67d3a3b644d0255a43196dece950</Anchor>
              </Node>
              <Node>
               <Name>RemoveMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>ab45d67d3a3b644d0255a43196dece950</Anchor>
+              <Anchor>abf5a0332e07fae1b203c9eea5119c389</Anchor>
              </Node>
              <Node>
               <Name>ResolveModeConflict</Name>
@@ -5096,12 +5118,12 @@
              <Node>
               <Name>Attach</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>aec0574e657ddae6bebec17730381c2df</Anchor>
+              <Anchor>aa22d0a585c5c3b0f1ee6d5c0748fc0e3</Anchor>
              </Node>
              <Node>
               <Name>Attach</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>aa22d0a585c5c3b0f1ee6d5c0748fc0e3</Anchor>
+              <Anchor>aec0574e657ddae6bebec17730381c2df</Anchor>
              </Node>
              <Node>
               <Name>DelService</Name>
@@ -5171,12 +5193,12 @@
              <Node>
               <Name>SetPriority</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>ae9f9a932d9532afd41c117bfd0e74550</Anchor>
+              <Anchor>a3e3e7c2078327d4f2daba585408db5d5</Anchor>
              </Node>
              <Node>
               <Name>SetPriority</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>a3e3e7c2078327d4f2daba585408db5d5</Anchor>
+              <Anchor>ae9f9a932d9532afd41c117bfd0e74550</Anchor>
              </Node>
              <Node>
               <Name>SetPriority</Name>
@@ -5764,12 +5786,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_q_line.html</Path>
-              <Anchor>a7853bc687931c6a408305a83fc4c0ea3</Anchor>
+              <Anchor>aa08a0ed0b2ac4897c2ef53d30b6ed00a</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_q_line.html</Path>
-              <Anchor>aa08a0ed0b2ac4897c2ef53d30b6ed00a</Anchor>
+              <Anchor>a7853bc687931c6a408305a83fc4c0ea3</Anchor>
              </Node>
              <Node>
               <Name>nick</Name>
@@ -5881,19 +5903,19 @@
               <Anchor>a8b9b9f2d01b7b35ef128aa59fdcec43c</Anchor>
              </Node>
              <Node>
-              <Name>operator *</Name>
-              <Path>classreference.html</Path>
-              <Anchor>ae4873eea537a79362bb5fb52d864e236</Anchor>
-             </Node>
-             <Node>
               <Name>operator bool</Name>
               <Path>classreference.html</Path>
               <Anchor>acb263e82898f6f66dd4fe3d8c9a907c4</Anchor>
              </Node>
              <Node>
-              <Name>operator T *</Name>
+              <Name>operator T*</Name>
               <Path>classreference.html</Path>
-              <Anchor>a8563eabc1313291dd15272a3b0c4921c</Anchor>
+              <Anchor>ad8497fb06db67ac989cadfb101fb158b</Anchor>
+             </Node>
+             <Node>
+              <Name>operator*</Name>
+              <Path>classreference.html</Path>
+              <Anchor>a03ab97fa7370a617300581672e52da83</Anchor>
              </Node>
              <Node>
               <Name>operator-&gt;</Name>
@@ -6995,22 +7017,22 @@
              <Node>
               <Name>WriteGlobalSno</Name>
               <Path>class_snomask_manager.html</Path>
-              <Anchor>a55b565eac86282b00e486c6c1dcb779d</Anchor>
+              <Anchor>acc9e5467fcfcc7f74885a9ba9d0e0acc</Anchor>
              </Node>
              <Node>
               <Name>WriteGlobalSno</Name>
               <Path>class_snomask_manager.html</Path>
-              <Anchor>acc9e5467fcfcc7f74885a9ba9d0e0acc</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteToSnoMask</Name>
-              <Path>class_snomask_manager.html</Path>
-              <Anchor>a2c7c704d78403206a7021b89fb2319d8</Anchor>
+              <Anchor>a55b565eac86282b00e486c6c1dcb779d</Anchor>
              </Node>
              <Node>
               <Name>WriteToSnoMask</Name>
               <Path>class_snomask_manager.html</Path>
               <Anchor>a52896b0bc2e54dae3e1c8627882b370f</Anchor>
+             </Node>
+             <Node>
+              <Name>WriteToSnoMask</Name>
+              <Path>class_snomask_manager.html</Path>
+              <Anchor>a2c7c704d78403206a7021b89fb2319d8</Anchor>
              </Node>
              <Node>
               <Name>masks</Name>
@@ -8079,7 +8101,7 @@
              <Node>
               <Name>SendText</Name>
               <Path>class_user.html</Path>
-              <Anchor>a09ba1522c6c1f87e20d6205fdb3f66a1</Anchor>
+              <Anchor>aecc8bb0e3cd530e580184e724ab337fb</Anchor>
              </Node>
              <Node>
               <Name>SendText</Name>
@@ -8089,7 +8111,7 @@
              <Node>
               <Name>SendText</Name>
               <Path>class_user.html</Path>
-              <Anchor>aecc8bb0e3cd530e580184e724ab337fb</Anchor>
+              <Anchor>a09ba1522c6c1f87e20d6205fdb3f66a1</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
@@ -8129,12 +8151,12 @@
              <Node>
               <Name>Write</Name>
               <Path>class_user.html</Path>
-              <Anchor>ac23112c612275acb529af30c2ff60515</Anchor>
+              <Anchor>a508ed8ff1be90f5b9e7437966dcf6f26</Anchor>
              </Node>
              <Node>
               <Name>Write</Name>
               <Path>class_user.html</Path>
-              <Anchor>a508ed8ff1be90f5b9e7437966dcf6f26</Anchor>
+              <Anchor>ac23112c612275acb529af30c2ff60515</Anchor>
              </Node>
              <Node>
               <Name>WriteCommon</Name>
@@ -8159,12 +8181,12 @@
              <Node>
               <Name>WriteFrom</Name>
               <Path>class_user.html</Path>
-              <Anchor>a51dbd8971acb541df15a28ccf50495f8</Anchor>
+              <Anchor>af2b5476e24724e094e55009da9ae79dd</Anchor>
              </Node>
              <Node>
               <Name>WriteFrom</Name>
               <Path>class_user.html</Path>
-              <Anchor>af2b5476e24724e094e55009da9ae79dd</Anchor>
+              <Anchor>a51dbd8971acb541df15a28ccf50495f8</Anchor>
              </Node>
              <Node>
               <Name>WriteNumeric</Name>
@@ -8179,22 +8201,22 @@
              <Node>
               <Name>WriteServ</Name>
               <Path>class_user.html</Path>
-              <Anchor>a601defc9871b1c57a9c61a26b22a97f8</Anchor>
+              <Anchor>a30a38a6346a80dc6c0e70689462c80ad</Anchor>
              </Node>
              <Node>
               <Name>WriteServ</Name>
               <Path>class_user.html</Path>
-              <Anchor>a30a38a6346a80dc6c0e70689462c80ad</Anchor>
-             </Node>
-             <Node>
-              <Name>WriteTo</Name>
-              <Path>class_user.html</Path>
-              <Anchor>aab99c4d21eea090aa8d2e6ec789a3ea4</Anchor>
+              <Anchor>a601defc9871b1c57a9c61a26b22a97f8</Anchor>
              </Node>
              <Node>
               <Name>WriteTo</Name>
               <Path>class_user.html</Path>
               <Anchor>a78ebb40ba2e851126126013d73831968</Anchor>
+             </Node>
+             <Node>
+              <Name>WriteTo</Name>
+              <Path>class_user.html</Path>
+              <Anchor>aab99c4d21eea090aa8d2e6ec789a3ea4</Anchor>
              </Node>
              <Node>
               <Name>age</Name>
@@ -8584,12 +8606,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_x_line.html</Path>
-              <Anchor>ada37bf158d40a0b2df5b0f3977d22dfe</Anchor>
+              <Anchor>ab9e9af84b02eaed595a60bc3c3ddc731</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_x_line.html</Path>
-              <Anchor>ab9e9af84b02eaed595a60bc3c3ddc731</Anchor>
+              <Anchor>ada37bf158d40a0b2df5b0f3977d22dfe</Anchor>
              </Node>
              <Node>
               <Name>OnAdd</Name>
@@ -8746,12 +8768,12 @@
              <Node>
               <Name>MatchesLine</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a6e4db7e09e6b73f81867fd6947fb0c7f</Anchor>
+              <Anchor>a7767e92aac6cde8d773e571764e6f886</Anchor>
              </Node>
              <Node>
               <Name>MatchesLine</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a7767e92aac6cde8d773e571764e6f886</Anchor>
+              <Anchor>a6e4db7e09e6b73f81867fd6947fb0c7f</Anchor>
              </Node>
              <Node>
               <Name>RegisterFactory</Name>
@@ -8812,12 +8834,12 @@
              <Node>
               <Name>Matches</Name>
               <Path>class_z_line.html</Path>
-              <Anchor>af3b5b92a380e954174b4be6b6bad90e0</Anchor>
+              <Anchor>a5e862eb93cb8d0fb459b9753b33b193d</Anchor>
              </Node>
              <Node>
               <Name>Matches</Name>
               <Path>class_z_line.html</Path>
-              <Anchor>a5e862eb93cb8d0fb459b9753b33b193d</Anchor>
+              <Anchor>af3b5b92a380e954174b4be6b6bad90e0</Anchor>
              </Node>
              <Node>
               <Name>ipaddr</Name>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['join',['Join',['../struct_client_protocol_1_1_events_1_1_join.html',1,'ClientProtocol::Events::Join'],['../class_client_protocol_1_1_messages_1_1_join.html',1,'ClientProtocol::Messages::Join']]]
+  ['join_1212',['Join',['../struct_client_protocol_1_1_events_1_1_join.html',1,'ClientProtocol::Events::Join'],['../class_client_protocol_1_1_messages_1_1_join.html',1,'ClientProtocol::Messages::Join']]]
 ];
