@@ -799,6 +799,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Extensible</Scope>
+    </TokenIdentifier>
+    <Path>class_extensible.html</Path>
+    <Anchor>a526aa850038816d7fcb7e8108fa35c67</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Extensible</Scope>
+    </TokenIdentifier>
+    <Path>class_extensible.html</Path>
+    <Anchor>ab8286c95f622ad2b1a3a9c1694daa103</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>JoinUser</Name>
       <APILanguage>cpp</APILanguage>
       <Type>clm</Type>
@@ -1877,6 +1899,38 @@
       <Scope>ConfigStatus</Scope>
     </TokenIdentifier>
     <Path>class_config_status.html</Path>
+    <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ConfigStatus</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ConfigStatus</Scope>
+    </TokenIdentifier>
+    <Path>class_config_status.html</Path>
+    <Anchor>a65653ec35f7220e08dd016b98a44e6dd</Anchor>
+    <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initial</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ConfigStatus</Scope>
+    </TokenIdentifier>
+    <Path>class_config_status.html</Path>
+    <Anchor>a1297d167f0d91235a5962d5344ae32bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>srcuser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ConfigStatus</Scope>
+    </TokenIdentifier>
+    <Path>class_config_status.html</Path>
+    <Anchor>a3234fc4833acac4ae01336d87dcb9b03</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3143,6 +3197,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Extensible</Scope>
+    </TokenIdentifier>
+    <Path>class_extensible.html</Path>
+    <Anchor>a526aa850038816d7fcb7e8108fa35c67</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Extensible</Scope>
+    </TokenIdentifier>
+    <Path>class_extensible.html</Path>
+    <Anchor>ab8286c95f622ad2b1a3a9c1694daa103</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ExtensionItem</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -3841,6 +3917,28 @@
     </TokenIdentifier>
     <Path>class_user.html</Path>
     <Anchor>ac00b72ad64eb4149f7b21b9f5468c2b2</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -6264,6 +6362,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasVariableLength</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ListModeBase</Scope>
+    </TokenIdentifier>
+    <Path>class_list_mode_base.html</Path>
+    <Anchor>a92479d02b4c2d6d118ee5e48dc1ab254</Anchor>
+    <DeclaredIn>listmode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetLimit</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -7451,6 +7560,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>LocalUser</Scope>
+    </TokenIdentifier>
+    <Path>class_local_user.html</Path>
+    <Anchor>a87e480f888c787ca82b00fab9e3df842</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>LocalUser</Scope>
+    </TokenIdentifier>
+    <Path>class_local_user.html</Path>
+    <Anchor>a8c2494486c6491705d19cdf0c1b4b50d</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetIPString</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -8402,6 +8533,28 @@
     </TokenIdentifier>
     <Path>class_extensible.html</Path>
     <Anchor>abfae3cdc7a23d8d3751c4142318b1c0e</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Extensible</Scope>
+    </TokenIdentifier>
+    <Path>class_extensible.html</Path>
+    <Anchor>a526aa850038816d7fcb7e8108fa35c67</Anchor>
+    <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Extensible</Scope>
+    </TokenIdentifier>
+    <Path>class_extensible.html</Path>
+    <Anchor>ab8286c95f622ad2b1a3a9c1694daa103</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
   </Token>
   <Token>
@@ -10328,6 +10481,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>a8a4bcd40ef6f80cb983ea01747864355</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnShutdown</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>adac4639fe1a9f3723ae8350b459b641b</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -13296,6 +13460,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetExtList</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -13529,12 +13715,173 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Serializable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Serializable</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable.html</Path>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable.html</Path>
+    <Anchor>aba0f839c2faf6c1c38214ae68212503e</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable.html</Path>
+    <Anchor>a3ee8554ed8abd51db2da8136bc66d520</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serializable::Data</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChildMap</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a9daf77317bb896e66c80456903a6f25a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EntryMap</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a84c2aa1299ba039f7773e2b8b5705e99</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetChildren</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a39b24d2dcfa41aed6f9c5ba6ad5e597b</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetEntries</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a07365fc69a7efb90a5844b70f8afb5c6</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Load</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>ac6320e92b915ce7d5bf258dc7edb4bd7</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Load</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a4e86cf6e9fb117f2ca29339edb8e80a0</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Load</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a182e7e93ed895c0dc1e1cedf49058541</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Store</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>adb8a4d422b99876ce9ed47f47a01f249</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Store</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>af87f9d413e43cbc0fbd98727c53609dc</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Store</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Serializable::Data</Scope>
+    </TokenIdentifier>
+    <Path>class_serializable_1_1_data.html</Path>
+    <Anchor>a49b093d0cb066337e1a75a187585b74e</Anchor>
+    <DeclaredIn>serialize.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Server</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>Server</Scope>
     </TokenIdentifier>
     <Path>class_server.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetId</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Server</Scope>
+    </TokenIdentifier>
+    <Path>class_server.html</Path>
+    <Anchor>a6ab579bce9af7eb4f724931ce50483f7</Anchor>
+    <DeclaredIn>server.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -13590,6 +13937,16 @@
     <Path>classclassbase.html</Path>
     <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
     <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>id</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Server</Scope>
+    </TokenIdentifier>
+    <Path>class_server.html</Path>
+    <Anchor>afca0990a65106d284266775bcd4e59c7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17608,193 +17965,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OnDataReady</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ThreadSignalSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_thread_signal_socket.html</Path>
-    <Anchor>a321a079824c2d1b2ad4757d751728681</Anchor>
-    <DeclaredIn>threadengine_win32.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ThreadSignalSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_thread_signal_socket.html</Path>
-    <Anchor>a336bdab4dcfe4f208685a96b4009b5f9</Anchor>
-    <DeclaredIn>threadengine_win32.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>BufferedSocket</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a13700ce82624c151ed13e5dca9dfed1c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DoConnect</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a984aabcbe183ba12a9aff179d7e8b59d</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnConnected</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a19a2114196259727718aae840892c4e5</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnTimeout</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a3b39cecd363bf59f70fc7b22acf11a86</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DoWrite</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a7d5219ca91425813c92cc09f7cf634ef</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a6cf1b75c166a8d5b5bd47061ce4f330b</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnSetEndPoint</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a20b9f76aed97edf1cb3d15b4c2e7dc06</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WriteData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a89d84e682d12d08bfe648302eae88941</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetNextLine</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getSendQSize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Close</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>ad1a551adaf473b45934f09b27883623c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Close</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cull</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>ad0ab19428986f1292d013b13423abeec</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetModHook</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a8f749127a9c6202fd3d302709d8a931c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>GetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -17839,34 +18009,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Timeout</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a716c88c2e8eb56ab6df19226b02dfaac</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a804ebaa3eddafd9d69e1fc74ff7ff858</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SwapInternals</Name>
+      <Name>cull</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
+      <Scope>classbase</Scope>
     </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17878,16 +18028,6 @@
     <Path>class_event_handler.html</Path>
     <Anchor>af5c6e3df8b5ecf9202f0a18879018630</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>recvq</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18624,6 +18764,28 @@
     </TokenIdentifier>
     <Path>class_user.html</Path>
     <Anchor>a5101f618f23986608ada65077126b538</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Deserialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Serialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -20452,6 +20614,28 @@
     </TokenIdentifier>
     <Path>class_events_1_1_module_event_provider.html</Path>
     <Anchor>a951141176ff6c0d4540f91affc475963</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Subscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a3560490471faa9294a5aa1d338659de3</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Unsubscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
     <DeclaredIn>event.h</DeclaredIn>
   </Token>
   <Token>
@@ -25915,6 +26099,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Subscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a3560490471faa9294a5aa1d338659de3</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Unsubscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -26178,6 +26384,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetNumericToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a5c176497dfb42dda6321ecbdfc917af5</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetRemaining</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -26333,6 +26550,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetNumericToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a5c176497dfb42dda6321ecbdfc917af5</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetRemaining</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -26445,6 +26673,17 @@
     </TokenIdentifier>
     <Path>classirc_1_1sepstream.html</Path>
     <Anchor>a9614205d9360120abc772e7ceb191c0b</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetNumericToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
+    <Anchor>a5c176497dfb42dda6321ecbdfc917af5</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>

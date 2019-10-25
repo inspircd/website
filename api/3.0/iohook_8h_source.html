@@ -160,7 +160,7 @@ $(function() {
 <div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="class_i_o_hook_middle.html#ae48a8b81de2ac835b4d46bff83faf0ae">  159</a></span>&#160;        <span class="keyword">static</span> <a class="code" href="class_i_o_hook_middle.html">IOHookMiddle</a>* <a class="code" href="class_i_o_hook_middle.html#ae48a8b81de2ac835b4d46bff83faf0ae">ToMiddleHook</a>(<a class="code" href="class_i_o_hook.html">IOHook</a>* hook)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        {</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <span class="keywordflow">if</span> (hook-&gt;<a class="code" href="class_i_o_hook.html#aa70aa1db1e672ce8936bb86184f8a275">prov</a>-&gt;<a class="code" href="class_i_o_hook_provider.html#a8853b86db6b2d11c87825d78e33c7b5d">IsMiddle</a>())</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                        <span class="keywordflow">return</span> static_cast&lt;IOHookMiddle*&gt;(hook);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><a class="code" href="class_i_o_hook_middle.html">IOHookMiddle</a>*<span class="keyword">&gt;</span>(hook);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                <span class="keywordflow">return</span> NULL;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        }</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>

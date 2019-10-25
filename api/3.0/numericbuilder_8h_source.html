@@ -289,16 +289,16 @@ $(function() {
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                }</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <span class="keyword">const</span> std::string&amp; syntax = mode-&gt;<a class="code" href="class_mode_handler.html#a39b2afb14c91126ff300fab2a8e45013">GetSyntax</a>();</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <span class="keyword">const</span> std::string&amp; syntax = mode-&gt;GetSyntax();</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                <span class="keywordflow">if</span> (!syntax.empty())</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                {</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                        <span class="comment">// If the mode has a syntax hint we include it in the message.</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                        <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(<a class="code" href="class_insp_i_r_cd.html#a807c101812a2737092021a7d298f3f08">InspIRCd::Format</a>(<span class="stringliteral">&quot;Invalid %s mode parameter. Syntax: %s.&quot;</span>, mode-&gt;<a class="code" href="class_service_provider.html#a1dace4b64886f5cabd5a406d0f9e7e11">name</a>.c_str(), syntax.c_str()));</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                        <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(<a class="code" href="class_insp_i_r_cd.html#a807c101812a2737092021a7d298f3f08">InspIRCd::Format</a>(<span class="stringliteral">&quot;Invalid %s mode parameter. Syntax: %s.&quot;</span>, mode-&gt;name.c_str(), syntax.c_str()));</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                }</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                {</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                        <span class="comment">// Otherwise, send it without.</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                        <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(<a class="code" href="class_insp_i_r_cd.html#a807c101812a2737092021a7d298f3f08">InspIRCd::Format</a>(<span class="stringliteral">&quot;Invalid %s mode parameter.&quot;</span>, mode-&gt;<a class="code" href="class_service_provider.html#a1dace4b64886f5cabd5a406d0f9e7e11">name</a>.c_str()));</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                        <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(<a class="code" href="class_insp_i_r_cd.html#a807c101812a2737092021a7d298f3f08">InspIRCd::Format</a>(<span class="stringliteral">&quot;Invalid %s mode parameter.&quot;</span>, mode-&gt;name.c_str()));</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                }</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        }</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
@@ -307,7 +307,7 @@ $(function() {
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                : <a class="code" href="class_numeric_1_1_numeric.html#ac4550b522e559744210ac5581b52d2aa">Numeric</a>(ERR_INVALIDMODEPARAM)</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        {</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(chan-&gt;<a class="code" href="class_channel.html#ae080e1afd52f3b70e04c62fea46447aa">name</a>);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(mode-&gt;<a class="code" href="class_mode_handler.html#a2cb515e37977ba08e2e350b46e01c49a">GetModeChar</a>());</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(mode-&gt;GetModeChar());</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(parameter);</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                push_message(mode, message);</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
@@ -316,7 +316,7 @@ $(function() {
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                : <a class="code" href="class_numeric_1_1_numeric.html#ac4550b522e559744210ac5581b52d2aa">Numeric</a>(ERR_INVALIDMODEPARAM)</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        {</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(user-&gt;<a class="code" href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">registered</a> &amp; REG_NICK ? user-&gt;<a class="code" href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">nick</a> : <span class="stringliteral">&quot;*&quot;</span>);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(mode-&gt;<a class="code" href="class_mode_handler.html#a2cb515e37977ba08e2e350b46e01c49a">GetModeChar</a>());</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(mode-&gt;GetModeChar());</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html#a0913851c98f95e1486847bc023f2d04b">push</a>(parameter);</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                push_message(mode, message);</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        }</div>
@@ -352,7 +352,6 @@ $(function() {
 <div class="ttc" id="aclass_numeric_1_1_builder_html"><div class="ttname"><a href="class_numeric_1_1_builder.html">Numeric::Builder</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:31</div></div>
 <div class="ttc" id="aclass_numerics_1_1_no_such_channel_html"><div class="ttname"><a href="class_numerics_1_1_no_such_channel.html">Numerics::NoSuchChannel</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:254</div></div>
 <div class="ttc" id="aclass_numeric_1_1_generic_builder_html"><div class="ttname"><a href="class_numeric_1_1_generic_builder.html">Numeric::GenericBuilder</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:28</div></div>
-<div class="ttc" id="aclass_mode_handler_html_a2cb515e37977ba08e2e350b46e01c49a"><div class="ttname"><a href="class_mode_handler.html#a2cb515e37977ba08e2e350b46e01c49a">ModeHandler::GetModeChar</a></div><div class="ttdeci">char GetModeChar() const</div><div class="ttdef"><b>Definition:</b> mode.h:239</div></div>
 <div class="ttc" id="aclass_numeric_1_1_param_builder_html"><div class="ttname"><a href="class_numeric_1_1_param_builder.html">Numeric::ParamBuilder</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:37</div></div>
 <div class="ttc" id="aclass_channel_html"><div class="ttname"><a href="class_channel.html">Channel</a></div><div class="ttdef"><b>Definition:</b> channels.h:37</div></div>
 <div class="ttc" id="aclass_numeric_1_1_write_numeric_sink_html"><div class="ttname"><a href="class_numeric_1_1_write_numeric_sink.html">Numeric::WriteNumericSink</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:40</div></div>
@@ -361,11 +360,9 @@ $(function() {
 <div class="ttc" id="aclass_numerics_1_1_no_such_nick_html"><div class="ttname"><a href="class_numerics_1_1_no_such_nick.html">Numerics::NoSuchNick</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:266</div></div>
 <div class="ttc" id="aclass_user_html"><div class="ttname"><a href="class_user.html">User</a></div><div class="ttdef"><b>Definition:</b> users.h:224</div></div>
 <div class="ttc" id="aclass_numeric_1_1_generic_param_builder_html"><div class="ttname"><a href="class_numeric_1_1_generic_param_builder.html">Numeric::GenericParamBuilder</a></div><div class="ttdef"><b>Definition:</b> numericbuilder.h:34</div></div>
-<div class="ttc" id="aclass_service_provider_html_a1dace4b64886f5cabd5a406d0f9e7e11"><div class="ttname"><a href="class_service_provider.html#a1dace4b64886f5cabd5a406d0f9e7e11">ServiceProvider::name</a></div><div class="ttdeci">const std::string name</div><div class="ttdef"><b>Definition:</b> base.h:250</div></div>
 <div class="ttc" id="aclass_numeric_1_1_numeric_html"><div class="ttname"><a href="class_numeric_1_1_numeric.html">Numeric::Numeric</a></div><div class="ttdef"><b>Definition:</b> numeric.h:29</div></div>
 <div class="ttc" id="aclass_mode_handler_html"><div class="ttname"><a href="class_mode_handler.html">ModeHandler</a></div><div class="ttdef"><b>Definition:</b> mode.h:95</div></div>
-<div class="ttc" id="aclass_mode_handler_html_a39b2afb14c91126ff300fab2a8e45013"><div class="ttname"><a href="class_mode_handler.html#a39b2afb14c91126ff300fab2a8e45013">ModeHandler::GetSyntax</a></div><div class="ttdeci">const std::string &amp; GetSyntax() const</div><div class="ttdef"><b>Definition:</b> mode.h:336</div></div>
-<div class="ttc" id="aclass_local_user_html"><div class="ttname"><a href="class_local_user.html">LocalUser</a></div><div class="ttdef"><b>Definition:</b> users.h:712</div></div>
+<div class="ttc" id="aclass_local_user_html"><div class="ttname"><a href="class_local_user.html">LocalUser</a></div><div class="ttdef"><b>Definition:</b> users.h:718</div></div>
 <div class="ttc" id="aclass_user_html_a62fabba0257a3d6363d6f0159bba856c"><div class="ttname"><a href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">User::registered</a></div><div class="ttdeci">unsigned int registered</div><div class="ttdef"><b>Definition:</b> users.h:345</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

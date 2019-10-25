@@ -93,6 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af5df7261a1d9fb32b2f5151e42704e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9614205d9360120abc772e7ceb191c0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1sepstream.html#a9614205d9360120abc772e7ceb191c0b">GetToken</a> (std::string &amp;token)</td></tr>
 <tr class="separator:a9614205d9360120abc772e7ceb191c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c176497dfb42dda6321ecbdfc917af5"><td class="memTemplParams" colspan="2">template&lt;typename Numeric &gt; </td></tr>
+<tr class="memitem:a5c176497dfb42dda6321ecbdfc917af5"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classirc_1_1sepstream.html#a5c176497dfb42dda6321ecbdfc917af5">GetNumericToken</a> (Numeric &amp;token)</td></tr>
+<tr class="separator:a5c176497dfb42dda6321ecbdfc917af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89d896cf3dd13852ea6955634792bb20"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1sepstream.html#a89d896cf3dd13852ea6955634792bb20">GetRemaining</a> ()</td></tr>
 <tr class="separator:a89d896cf3dd13852ea6955634792bb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a147bc527848667cad63bfb7159bcb906"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classirc_1_1sepstream.html#a147bc527848667cad63bfb7159bcb906">StreamEnd</a> ()</td></tr>
@@ -112,7 +115,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5ce8d48e38c3e060ab2612fb02c3e78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classirc_1_1sepstream.html">irc::sepstream</a> allows for splitting token seperated lists. Each successive call to <a class="el" href="classirc_1_1sepstream.html#a9614205d9360120abc772e7ceb191c0b">sepstream::GetToken()</a> returns the next token, until none remain, at which point the method returns false. </p>
+<div class="textblock"><p><a href="irc::sepstream">irc::sepstream</a> allows for splitting token seperated lists. Each successive call to <a class="el" href="classirc_1_1sepstream.html#a9614205d9360120abc772e7ceb191c0b">sepstream::GetToken()</a> returns the next token, until none remain, at which point the method returns false. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af5df7261a1d9fb32b2f5151e42704e5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5df7261a1d9fb32b2f5151e42704e5c">&#9670;&nbsp;</a></span>sepstream()</h2>
@@ -172,6 +175,41 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the value was found, False otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a5c176497dfb42dda6321ecbdfc917af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c176497dfb42dda6321ecbdfc917af5">&#9670;&nbsp;</a></span>GetNumericToken()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Numeric &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool irc::sepstream::GetNumericToken </td>
+          <td>(</td>
+          <td class="paramtype">Numeric &amp;&#160;</td>
+          <td class="paramname"><em>token</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Fetch the next numeric token from the stream </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">token</td><td>The next token from the stream is placed here </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if tokens still remain, false if there are none left </dd></dl>
 
 </div>
 </div>

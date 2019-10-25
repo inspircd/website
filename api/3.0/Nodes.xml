@@ -984,9 +984,14 @@
                 <Anchor>a951141176ff6c0d4540f91affc475963</Anchor>
                </Node>
                <Node>
-                <Name>ModuleEventListener</Name>
+                <Name>Subscribe</Name>
                 <Path>class_events_1_1_module_event_provider.html</Path>
-                <Anchor>ab6b9def7aba163dc6ccd72989e26d1a9</Anchor>
+                <Anchor>a3560490471faa9294a5aa1d338659de3</Anchor>
+               </Node>
+               <Node>
+                <Name>Unsubscribe</Name>
+                <Path>class_events_1_1_module_event_provider.html</Path>
+                <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1832,6 +1837,11 @@
                 <Name>Contains</Name>
                 <Path>classirc_1_1sepstream.html</Path>
                 <Anchor>a2d71d3d53eb2f32b3183638977243a9e</Anchor>
+               </Node>
+               <Node>
+                <Name>GetNumericToken</Name>
+                <Path>classirc_1_1sepstream.html</Path>
+                <Anchor>a5c176497dfb42dda6321ecbdfc917af5</Anchor>
                </Node>
                <Node>
                 <Name>GetRemaining</Name>
@@ -3030,7 +3040,12 @@
              <Node>
               <Name>ConfigStatus</Name>
               <Path>class_config_status.html</Path>
-              <Anchor>aa62b18b6d43eeec6aaac8b7ded298cda</Anchor>
+              <Anchor>a65653ec35f7220e08dd016b98a44e6dd</Anchor>
+             </Node>
+             <Node>
+              <Name>initial</Name>
+              <Path>class_config_status.html</Path>
+              <Anchor>a1297d167f0d91235a5962d5344ae32bf</Anchor>
              </Node>
              <Node>
               <Name>srcuser</Name>
@@ -3724,6 +3739,11 @@
               <Anchor>ab9cad6bffd677b1b031a69c28b894415</Anchor>
              </Node>
              <Node>
+              <Name>Deserialize</Name>
+              <Path>class_extensible.html</Path>
+              <Anchor>a526aa850038816d7fcb7e8108fa35c67</Anchor>
+             </Node>
+             <Node>
               <Name>doUnhookExtensions</Name>
               <Path>class_extensible.html</Path>
               <Anchor>af2a48c817f6bc3641ab254cafb810321</Anchor>
@@ -3737,6 +3757,11 @@
               <Name>GetExtList</Name>
               <Path>class_extensible.html</Path>
               <Anchor>a04cab0b329ab81c275553347fd124b03</Anchor>
+             </Node>
+             <Node>
+              <Name>Serialize</Name>
+              <Path>class_extensible.html</Path>
+              <Anchor>ab8286c95f622ad2b1a3a9c1694daa103</Anchor>
              </Node>
              <Node>
               <Name>ExtensionItem</Name>
@@ -4778,6 +4803,11 @@
               <Anchor>abd2be6fa55b80365e3d0e49ae452e1fb</Anchor>
              </Node>
              <Node>
+              <Name>HasVariableLength</Name>
+              <Path>class_list_mode_base.html</Path>
+              <Anchor>a92479d02b4c2d6d118ee5e48dc1ab254</Anchor>
+             </Node>
+             <Node>
               <Name>OnModeChange</Name>
               <Path>class_list_mode_base.html</Path>
               <Anchor>a55685725c6b25ff4735a5ea2a69405e3</Anchor>
@@ -4926,6 +4956,11 @@
               <Anchor>a138fe127b3a7a99fde28dd0e900d9d9a</Anchor>
              </Node>
              <Node>
+              <Name>LocalUser</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>ae04a72a410479527db8baf3c9d9017eb</Anchor>
+             </Node>
+             <Node>
               <Name>CheckClass</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a5159b437e420970a4dfbe5b036db47f4</Anchor>
@@ -4939,6 +4974,11 @@
               <Name>cull</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a4743feba78217089eb9f25a52d223a13</Anchor>
+             </Node>
+             <Node>
+              <Name>Deserialize</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>a87e480f888c787ca82b00fab9e3df842</Anchor>
              </Node>
              <Node>
               <Name>FullConnect</Name>
@@ -4979,6 +5019,11 @@
               <Name>Send</Name>
               <Path>class_local_user.html</Path>
               <Anchor>ab52df1f1f5e7dbb619a8d0ed438856b2</Anchor>
+             </Node>
+             <Node>
+              <Name>Serialize</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>a8c2494486c6491705d19cdf0c1b4b50d</Anchor>
              </Node>
              <Node>
               <Name>SetClass</Name>
@@ -6117,6 +6162,11 @@
               <Anchor>a3d9edd94c35056b40d076acf56c6afa0</Anchor>
              </Node>
              <Node>
+              <Name>OnShutdown</Name>
+              <Path>class_module.html</Path>
+              <Anchor>adac4639fe1a9f3723ae8350b459b641b</Anchor>
+             </Node>
+             <Node>
               <Name>OnUnloadModule</Name>
               <Path>class_module.html</Path>
               <Anchor>ab55ed63d022db5f011db3d8c03ef6953</Anchor>
@@ -7185,18 +7235,115 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Serializable</Name>
+            <Path>class_serializable.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Data</Name>
+              <Path>class_serializable_1_1_data.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>ChildMap</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a9daf77317bb896e66c80456903a6f25a</Anchor>
+               </Node>
+               <Node>
+                <Name>EntryMap</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a84c2aa1299ba039f7773e2b8b5705e99</Anchor>
+               </Node>
+               <Node>
+                <Name>GetChildren</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>af363145337070fb18b44f4abb6f25f2f</Anchor>
+               </Node>
+               <Node>
+                <Name>GetChildren</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a39b24d2dcfa41aed6f9c5ba6ad5e597b</Anchor>
+               </Node>
+               <Node>
+                <Name>GetEntries</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a3b735963e509d8e1e6cdf44022ac4c3a</Anchor>
+               </Node>
+               <Node>
+                <Name>GetEntries</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a07365fc69a7efb90a5844b70f8afb5c6</Anchor>
+               </Node>
+               <Node>
+                <Name>Load</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>ac6320e92b915ce7d5bf258dc7edb4bd7</Anchor>
+               </Node>
+               <Node>
+                <Name>Load</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a4e86cf6e9fb117f2ca29339edb8e80a0</Anchor>
+               </Node>
+               <Node>
+                <Name>Load</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a182e7e93ed895c0dc1e1cedf49058541</Anchor>
+               </Node>
+               <Node>
+                <Name>Store</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>adb8a4d422b99876ce9ed47f47a01f249</Anchor>
+               </Node>
+               <Node>
+                <Name>Store</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>af87f9d413e43cbc0fbd98727c53609dc</Anchor>
+               </Node>
+               <Node>
+                <Name>Store</Name>
+                <Path>class_serializable_1_1_data.html</Path>
+                <Anchor>a49b093d0cb066337e1a75a187585b74e</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Serializable</Name>
+              <Path>class_serializable.html</Path>
+              <Anchor>ae2b10a6d95c9873ede8c4562cc5105be</Anchor>
+             </Node>
+             <Node>
+              <Name>Deserialize</Name>
+              <Path>class_serializable.html</Path>
+              <Anchor>aba0f839c2faf6c1c38214ae68212503e</Anchor>
+             </Node>
+             <Node>
+              <Name>Serialize</Name>
+              <Path>class_serializable.html</Path>
+              <Anchor>a3ee8554ed8abd51db2da8136bc66d520</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Server</Name>
             <Path>class_server.html</Path>
             <Subnodes>
              <Node>
               <Name>Server</Name>
               <Path>class_server.html</Path>
-              <Anchor>a697dc49d1478f3ef2b0e0fa4ec810f2d</Anchor>
+              <Anchor>a76ddb0cd41df64249c021f5fb06a3bff</Anchor>
+             </Node>
+             <Node>
+              <Name>description</Name>
+              <Path>class_server.html</Path>
+              <Anchor>a0f46bd108ba48be768bb154b31cfed4b</Anchor>
              </Node>
              <Node>
               <Name>GetDesc</Name>
               <Path>class_server.html</Path>
               <Anchor>ab6112e6551fcf12109ff7fdc70295707</Anchor>
+             </Node>
+             <Node>
+              <Name>GetId</Name>
+              <Path>class_server.html</Path>
+              <Anchor>a6ab579bce9af7eb4f724931ce50483f7</Anchor>
              </Node>
              <Node>
               <Name>GetName</Name>
@@ -7214,14 +7361,34 @@
               <Anchor>a3d7b5c3ea5b1251c25c0880e6c19188d</Anchor>
              </Node>
              <Node>
+              <Name>silentuline</Name>
+              <Path>class_server.html</Path>
+              <Anchor>a662f9d94bc0785ec212c489cc0b38bc1</Anchor>
+             </Node>
+             <Node>
+              <Name>uline</Name>
+              <Path>class_server.html</Path>
+              <Anchor>ac5e879b48374f59259f56a47441ac0fc</Anchor>
+             </Node>
+             <Node>
               <Name>ConfigReaderThread</Name>
               <Path>class_server.html</Path>
               <Anchor>a0d6ed58f05f65a2b76424e6f64b6c3db</Anchor>
              </Node>
              <Node>
+              <Name>__pad0__</Name>
+              <Path>class_server.html</Path>
+              <Anchor>ac0212c1ca985b1fbfdd0c4e169efb34c</Anchor>
+             </Node>
+             <Node>
               <Name>description</Name>
               <Path>class_server.html</Path>
               <Anchor>ad40126d35fe76136fe3979ac8b95f327</Anchor>
+             </Node>
+             <Node>
+              <Name>id</Name>
+              <Path>class_server.html</Path>
+              <Anchor>afca0990a65106d284266775bcd4e59c7</Anchor>
              </Node>
              <Node>
               <Name>name</Name>
@@ -8776,6 +8943,11 @@
               <Anchor>a5101f618f23986608ada65077126b538</Anchor>
              </Node>
              <Node>
+              <Name>Deserialize</Name>
+              <Path>class_user.html</Path>
+              <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+             </Node>
+             <Node>
               <Name>ForEachNeighbor</Name>
               <Path>class_user.html</Path>
               <Anchor>a81893c921d6f923a84e79793c1437fc4</Anchor>
@@ -8899,6 +9071,11 @@
               <Name>PurgeEmptyChannels</Name>
               <Path>class_user.html</Path>
               <Anchor>a03321870943c66415b14404e31128090</Anchor>
+             </Node>
+             <Node>
+              <Name>Serialize</Name>
+              <Path>class_user.html</Path>
+              <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
              </Node>
              <Node>
               <Name>SetClientIP</Name>
@@ -9688,6 +9865,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Numeric::Builder&lt; Sep, SendEmpty &gt;</Name>
+            <Path>class_numeric_1_1_builder.html</Path>
+           </Node>
+           <Node>
             <Name>dynamic_reference_base::CaptureHook</Name>
             <Path>classdynamic__reference__base_1_1_capture_hook.html</Path>
             <Subnodes>
@@ -9756,12 +9937,6 @@
                  <Node>
                   <Name>BufferedSocket</Name>
                   <Path>class_buffered_socket.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>ThreadSignalSocket</Name>
-                    <Path>class_thread_signal_socket.html</Path>
-                   </Node>
-                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>UserIOHandler</Name>
@@ -10018,6 +10193,10 @@
             <Path>class_cull_result.html</Path>
            </Node>
            <Node>
+            <Name>Serializable::Data</Name>
+            <Path>class_serializable_1_1_data.html</Path>
+           </Node>
+           <Node>
             <Name>stdalgo::defaultdeleter&lt; T &gt;</Name>
             <Path>structstdalgo_1_1defaultdeleter.html</Path>
            </Node>
@@ -10172,6 +10351,16 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>insp::detail::flat_map_base&lt; std::pair&lt; std::string, Data &gt;, std::less&lt; std::string &gt;, std::string, detail::map_pair_compare&lt; std::pair&lt; std::string, Data &gt;, std::less&lt; std::string &gt; &gt; &gt;</Name>
+            <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>insp::flat_map&lt; std::string, Data &gt;</Name>
+              <Path>classinsp_1_1flat__map.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>insp::detail::flat_map_base&lt; std::pair&lt; std::string, MessageTagData &gt;, std::greater&lt; std::string &gt;, std::string, detail::map_pair_compare&lt; std::pair&lt; std::string, MessageTagData &gt;, std::greater&lt; std::string &gt; &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
@@ -10207,6 +10396,16 @@
             <Subnodes>
              <Node>
               <Name>insp::flat_map&lt; std::string, std::string, irc::insensitive_swo &gt;</Name>
+              <Path>classinsp_1_1flat__map.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>insp::detail::flat_map_base&lt; std::pair&lt; std::string, std::string &gt;, std::less&lt; std::string &gt;, std::string, detail::map_pair_compare&lt; std::pair&lt; std::string, std::string &gt;, std::less&lt; std::string &gt; &gt; &gt;</Name>
+            <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>insp::flat_map&lt; std::string, std::string &gt;</Name>
               <Path>classinsp_1_1flat__map.html</Path>
              </Node>
             </Subnodes>
@@ -10258,28 +10457,8 @@
             <Path>class_numeric_1_1_generic_builder.html</Path>
            </Node>
            <Node>
-            <Name>Numeric::GenericBuilder&lt; Sep, SendEmpty, WriteNumericSink &gt;</Name>
-            <Path>class_numeric_1_1_generic_builder.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Numeric::Builder&lt; Sep, SendEmpty &gt;</Name>
-              <Path>class_numeric_1_1_builder.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>Numeric::GenericParamBuilder&lt; NumStaticParams, SendEmpty, Sink &gt;</Name>
             <Path>class_numeric_1_1_generic_param_builder.html</Path>
-           </Node>
-           <Node>
-            <Name>Numeric::GenericParamBuilder&lt; NumStaticParams, SendEmpty, WriteNumericSink &gt;</Name>
-            <Path>class_numeric_1_1_generic_param_builder.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>Numeric::ParamBuilder&lt; NumStaticParams, SendEmpty &gt;</Name>
-              <Path>class_numeric_1_1_param_builder.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>irc::insensitive</Name>
@@ -10529,10 +10708,6 @@
               <Name>ThreadQueueData</Name>
               <Path>class_thread_queue_data.html</Path>
              </Node>
-             <Node>
-              <Name>ThreadQueueData</Name>
-              <Path>class_thread_queue_data.html</Path>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -10560,6 +10735,10 @@
            <Node>
             <Name>ClientProtocol::Message::Param</Name>
             <Path>class_client_protocol_1_1_message_1_1_param.html</Path>
+           </Node>
+           <Node>
+            <Name>Numeric::ParamBuilder&lt; NumStaticParams, SendEmpty &gt;</Name>
+            <Path>class_numeric_1_1_param_builder.html</Path>
            </Node>
            <Node>
             <Name>ClientProtocol::ParseOutput</Name>
@@ -10658,6 +10837,16 @@
              <Node>
               <Name>irc::spacesepstream</Name>
               <Path>classirc_1_1spacesepstream.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Serializable</Name>
+            <Path>class_serializable.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Extensible</Name>
+              <Path>class_extensible.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -11394,6 +11583,10 @@
              <Node>
               <Name>protocol.h</Name>
               <Path>protocol_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>serialize.h</Name>
+              <Path>serialize_8h_source.html</Path>
              </Node>
              <Node>
               <Name>server.h</Name>

@@ -329,7 +329,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>This function returns true when it identified a list in the given parameter and finished calling the command handler for each entry on the list. When this occurs, the caller should return without doing anything, otherwise it should continue into its main section of code. </dd></dl>
-<p>Some lame ircds will weed out dupes using some shitty O(n^2) algorithm. By using std::set (thanks for the idea w00t) we can cut this down a ton. ...VOOODOOOO!</p>
+<p>Some lame <a href="ircds">ircds</a> will weed out dupes using some shitty O(n^2) algorithm. By using std::set (thanks for the idea w00t) we can cut this down a ton. ...VOOODOOOO!</p>
 <p>Only check for duplicates if there is one list (allow them in JOIN).</p>
 
 </div>

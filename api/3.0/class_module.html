@@ -247,6 +247,8 @@ virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td 
 <tr class="separator:abadd96f81a5cf5af438162f2b9a0c1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a4bcd40ef6f80cb983ea01747864355"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a8a4bcd40ef6f80cb983ea01747864355">OnConnectionFail</a> (<a class="el" href="class_local_user.html">LocalUser</a> *user, BufferedSocketError error)</td></tr>
 <tr class="separator:a8a4bcd40ef6f80cb983ea01747864355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac4639fe1a9f3723ae8350b459b641b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#adac4639fe1a9f3723ae8350b459b641b">OnShutdown</a> (const std::string &amp;reason)</td></tr>
+<tr class="separator:adac4639fe1a9f3723ae8350b459b641b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classusecountbase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classusecountbase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classusecountbase.html">usecountbase</a></td></tr>
 <tr class="memitem:a0f617fa3620bd5dd98d56177b38b27a1 inherit pub_methods_classusecountbase"><td class="memItemLeft" align="right" valign="top"><a id="a0f617fa3620bd5dd98d56177b38b27a1"></a>
 unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>GetUseCount</b> () const</td></tr>
@@ -2468,6 +2470,39 @@ Public Attributes</h2></td></tr>
 <p>Called whenever a local user's IP is set for the first time, or when a local user's IP changes due to a module like m_cgiirc changing it. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">user</td><td>The user whose IP is being set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adac4639fe1a9f3723ae8350b459b641b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adac4639fe1a9f3723ae8350b459b641b">&#9670;&nbsp;</a></span>OnShutdown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Module::OnShutdown </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>reason</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called before a server shuts down. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reason</td><td>The reason the server is shutting down. </td></tr>
+    <tr><td class="paramname">restart</td><td>Whether the server is restarting. </td></tr>
   </table>
   </dd>
 </dl>

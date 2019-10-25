@@ -70,19 +70,98 @@ $(function() {
 <div class="title">ConfigStatus Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="configreader_8h_source.html">configreader.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa62b18b6d43eeec6aaac8b7ded298cda"><td class="memItemLeft" align="right" valign="top"><a id="aa62b18b6d43eeec6aaac8b7ded298cda"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ConfigStatus</b> (<a class="el" href="class_user.html">User</a> *user=NULL)</td></tr>
-<tr class="separator:aa62b18b6d43eeec6aaac8b7ded298cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65653ec35f7220e08dd016b98a44e6dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config_status.html#a65653ec35f7220e08dd016b98a44e6dd">ConfigStatus</a> (<a class="el" href="class_user.html">User</a> *user=NULL, bool isinitial=false)</td></tr>
+<tr class="separator:a65653ec35f7220e08dd016b98a44e6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3234fc4833acac4ae01336d87dcb9b03"><td class="memItemLeft" align="right" valign="top"><a id="a3234fc4833acac4ae01336d87dcb9b03"></a>
-<a class="el" href="class_user.html">User</a> *const&#160;</td><td class="memItemRight" valign="bottom"><b>srcuser</b></td></tr>
+<tr class="memitem:a1297d167f0d91235a5962d5344ae32bf"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config_status.html#a1297d167f0d91235a5962d5344ae32bf">initial</a></td></tr>
+<tr class="separator:a1297d167f0d91235a5962d5344ae32bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3234fc4833acac4ae01336d87dcb9b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_user.html">User</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config_status.html#a3234fc4833acac4ae01336d87dcb9b03">srcuser</a></td></tr>
 <tr class="separator:a3234fc4833acac4ae01336d87dcb9b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents the status of a config load. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a65653ec35f7220e08dd016b98a44e6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65653ec35f7220e08dd016b98a44e6dd">&#9670;&nbsp;</a></span>ConfigStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConfigStatus::ConfigStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>user</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isinitial</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Initializes a new instance of the <a class="el" href="class_config_status.html">ConfigStatus</a> class. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user who initiated the config load or NULL if not initiated by a user. </td></tr>
+    <tr><td class="paramname">isinitial</td><td>Whether this is the initial config load. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1297d167f0d91235a5962d5344ae32bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1297d167f0d91235a5962d5344ae32bf">&#9670;&nbsp;</a></span>initial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool ConfigStatus::initial</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether this is the initial config load. </p>
+
+</div>
+</div>
+<a id="a3234fc4833acac4ae01336d87dcb9b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3234fc4833acac4ae01336d87dcb9b03">&#9670;&nbsp;</a></span>srcuser</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_user.html">User</a>* const ConfigStatus::srcuser</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The user who initiated the config load or NULL if not initiated by a user. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/<a class="el" href="configreader_8h_source.html">configreader.h</a></li>
 </ul>
