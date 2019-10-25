@@ -12,4 +12,4 @@ Fixes for security vulnerabilities will be provided until 2020-06-01.
 
 After this date the v2 branch will be considered dead and will not receive any more fixes.
 
-If you are using v2 please consult our [list of config changes in v3](https://docs.inspircd.org/3/configuration-changes) on the docs site for information on how to upgrade to v3.
+If you are using v2 please consult our [list of config changes in v3](https://docs.inspircd.org/3/breaking-changes) on the docs site for information on how to upgrade to v3.
