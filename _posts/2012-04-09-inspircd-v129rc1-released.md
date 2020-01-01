@@ -24,7 +24,7 @@ Thanks to the following people for their contributions to this release:
     Author: Daniel De Graaf &lt;danieldg@inspircd.org&gt;
     Author: Jackmcbarn &lt;jackmcbarn@jackmcbarn.no-ip.org&gt;
     Author: Kyle Fuller &lt;inbox@kylefuller.co.uk&gt;
-    Author: Peter Powell &lt;petpow@saberuk.com&gt;
+    Author: Sadie Powell &lt;sadie@witchery.services&gt;
     Author: Pogs McPoggerson &lt;sir.pogsalot@gmail.com&gt;
     Author: Robin Burchell &lt;viroteck@viroteck.net&gt;
     Author: Shawn Smith &lt;ShawnSmith0828@gmail.com&gt;

@@ -1,6 +1,6 @@
 ---
 title: InspIRCd v2.0 maintenance schedule
-author: SaberUK
+author: Sadie
 layout: post
 ---
 

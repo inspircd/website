@@ -29,7 +29,7 @@ For v2.0.6rc1, thanks to the following people for this release:
     Author: Jens Voss &lt;DukePyrolator@anope.org&gt;
     Author: Justasic &lt;Justasic@gmail.com&gt;
     Author: Kyle Fuller &lt;inbox@kylefuller.co.uk&gt;
-    Author: Peter Powell &lt;petpow@saberuk.com&gt;
+    Author: Sadie Powell &lt;sadie@witchery.services&gt;
     Author: Pogs McPoggerson &lt;sir.pogsalot@gmail.com&gt;
     Author: Robin Burchell &lt;viroteck@viroteck.net&gt;
     Author: Rutger &lt;djslash+github@djslash.org&gt;
@@ -80,7 +80,7 @@ And for v2.1.0b3:
     Author: Jens Voss &lt;DukePyrolator@anope.org&gt;
     Author: Justasic &lt;Justasic@gmail.com&gt;
     Author: Kyle Fuller &lt;inbox@kylefuller.co.uk&gt;
-    Author: Peter Powell &lt;petpow@saberuk.com&gt;
+    Author: Sadie Powell &lt;sadie@witchery.services&gt;
     Author: Pogs McPoggerson &lt;sir.pogsalot@gmail.com&gt;
     Author: Robin Burchell &lt;robin+git@viroteck.net&gt;
     Author: Robin Burchell &lt;viroteck@viroteck.net&gt;

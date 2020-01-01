@@ -17,7 +17,7 @@ host (there are no forums) and how we host it (we don't do any self-hosting now,
 meaning there's a lot less for our small team to maintain), so we'd like to ask
 that you bear with us in the meantime, and (if you've some time to spare), that
 you help us with putting useful content on the new wiki etc on GitHub. We also
-accept pull requests against the site itself, and our site master SaberUK will
+accept pull requests against the site itself, and our site master Sadie will
 be happy to review them.
 
 As for releases, we are aware of a [CERT
