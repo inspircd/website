@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4e43d7f5f6ab543e10a353d68efca807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ce061a2bd638b927c91db3b53c6896b"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_manager.html#a5ce061a2bd638b927c91db3b53c6896b">UnregisteredUserCount</a> () const</td></tr>
 <tr class="separator:a5ce061a2bd638b927c91db3b53c6896b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e364c1d82e2f2f59174bcb1f36f84be"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_manager.html#a1e364c1d82e2f2f59174bcb1f36f84be">ULineCount</a> () const</td></tr>
+<tr class="separator:a1e364c1d82e2f2f59174bcb1f36f84be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc1b4d66ee131b80c1f6c67a6d2a8037"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_manager.html#adc1b4d66ee131b80c1f6c67a6d2a8037">LocalUserCount</a> () const</td></tr>
 <tr class="separator:adc1b4d66ee131b80c1f6c67a6d2a8037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14f1eee7e149eb8f7a79332b6659c11c"><td class="memItemLeft" align="right" valign="top">user_hash &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_manager.html#a14f1eee7e149eb8f7a79332b6659c11c">GetUsers</a> ()</td></tr>
@@ -151,6 +153,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4c1ccf3027ce475e2ca64c2d73bc74f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ba341589eeb9ff647a38fbaceab512b"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_manager.html#a1ba341589eeb9ff647a38fbaceab512b">unregistered_count</a></td></tr>
 <tr class="separator:a1ba341589eeb9ff647a38fbaceab512b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7901f2902843f99c60540aa4f5dde70"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user_manager.html#ab7901f2902843f99c60540aa4f5dde70">uline_count</a></td></tr>
+<tr class="separator:ab7901f2902843f99c60540aa4f5dde70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="afb62f74daf9d4c6b2ed10542b598ca95"></a>
@@ -647,6 +651,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1e364c1d82e2f2f59174bcb1f36f84be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e364c1d82e2f2f59174bcb1f36f84be">&#9670;&nbsp;</a></span>ULineCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int UserManager::ULineCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return a count of users on a u-lined servers. </p><dl class="section return"><dt>Returns</dt><dd>The number of users on u-lined servers. </dd></dl>
+
+</div>
+</div>
 <a id="a5ce061a2bd638b927c91db3b53c6896b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ce061a2bd638b927c91db3b53c6896b">&#9670;&nbsp;</a></span>UnregisteredUserCount()</h2>
 
@@ -727,6 +757,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Nickname string -&gt; User* map. Contains all users, including unregistered ones. </p>
+
+</div>
+</div>
+<a id="ab7901f2902843f99c60540aa4f5dde70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7901f2902843f99c60540aa4f5dde70">&#9670;&nbsp;</a></span>uline_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int UserManager::uline_count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of users on U-lined servers. </p>
 
 </div>
 </div>

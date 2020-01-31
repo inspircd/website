@@ -761,7 +761,7 @@
       <Scope>Channel</Scope>
     </TokenIdentifier>
     <Path>class_channel.html</Path>
-    <Anchor>adb79b21c5fe9d4f8243185211384aad6</Anchor>
+    <Anchor>a950537fa09ff5598c983be95249d36e9</Anchor>
     <DeclaredIn>channels.h</DeclaredIn>
   </Token>
   <Token>
@@ -3495,6 +3495,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FailedPort</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>FailedPort</Scope>
+    </TokenIdentifier>
+    <Path>struct_failed_port.html</Path>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>error</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FailedPort</Scope>
+    </TokenIdentifier>
+    <Path>struct_failed_port.html</Path>
+    <Anchor>ac311b3580fb227b291f2be0c4d75b065</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sa</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FailedPort</Scope>
+    </TokenIdentifier>
+    <Path>struct_failed_port.html</Path>
+    <Anchor>a875fcc5446c227cb26406737b562a3c3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FailedPort</Scope>
+    </TokenIdentifier>
+    <Path>struct_failed_port.html</Path>
+    <Anchor>a016f90f0d65980d8050fbc37b282b0a7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fakederef</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -4801,7 +4841,7 @@
       <Scope>InspIRCd</Scope>
     </TokenIdentifier>
     <Path>class_insp_i_r_cd.html</Path>
-    <Anchor>a42d8b81ea65bf2c54483c54f1055b7fc</Anchor>
+    <Anchor>a1cac64792c96bc30d980fa0f89761f64</Anchor>
     <DeclaredIn>inspircd.h</DeclaredIn>
   </Token>
   <Token>
@@ -6566,7 +6606,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6577,7 +6617,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6588,7 +6628,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6599,7 +6639,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6610,7 +6650,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6621,7 +6661,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8766,6 +8806,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>MessageTarget</Scope>
+    </TokenIdentifier>
+    <Path>class_message_target.html</Path>
+    <Anchor>abaaf29eb4d550f59becf5a9eab1ec4c4</Anchor>
+    <DeclaredIn>message.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>status</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -8876,7 +8927,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8887,7 +8938,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8898,7 +8949,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8909,7 +8960,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8920,7 +8971,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8931,7 +8982,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -10210,6 +10261,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnCommandBlocked</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>ab8edac9bee2f411c2c34fcf9e7f81d40</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OnUserInit</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -11059,15 +11121,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>option</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>option</Scope>
-    </TokenIdentifier>
-    <Path>structoption.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>ParamMode</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -11150,7 +11203,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11161,7 +11214,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11172,7 +11225,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11183,7 +11236,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11194,7 +11247,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11205,7 +11258,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11576,7 +11629,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11587,7 +11640,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11598,7 +11651,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11609,7 +11662,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11620,7 +11673,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11631,7 +11684,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12098,7 +12151,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12109,7 +12162,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12120,7 +12173,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12131,7 +12184,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12142,7 +12195,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12153,7 +12206,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14992,7 +15045,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15003,7 +15056,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15014,7 +15067,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15025,7 +15078,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15036,7 +15089,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15047,7 +15100,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15644,7 +15697,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15655,7 +15708,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15666,7 +15719,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15677,7 +15730,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15688,7 +15741,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15699,7 +15752,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -19469,6 +19522,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ULineCount</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>UserManager</Scope>
+    </TokenIdentifier>
+    <Path>class_user_manager.html</Path>
+    <Anchor>a1e364c1d82e2f2f59174bcb1f36f84be</Anchor>
+    <DeclaredIn>usermanager.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>LocalUserCount</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -19561,6 +19625,16 @@
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
     <Anchor>a1ba341589eeb9ff647a38fbaceab512b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uline_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>UserManager</Scope>
+    </TokenIdentifier>
+    <Path>class_user_manager.html</Path>
+    <Anchor>ab7901f2902843f99c60540aa4f5dde70</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20575,6 +20649,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetPriority</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ClientProtocol::EventProvider</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -21124,6 +21209,122 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ClientProtocol::MessageTagEvent</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>ClientProtocol::MessageTagEvent</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_tag_event.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ModuleEventProvider</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a1ed3b3dd0840d883ab33b61e8f20d245</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSubscribers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a951141176ff6c0d4540f91affc475963</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Subscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a3560490471faa9294a5aa1d338659de3</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Unsubscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RegisterService</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>aed77d91b39d5df569be84172e50e4cc4</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DisableAutoRegister</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a87185e6ebfa0f4960f20797e716c72d6</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>ad1dfa94bef361c61dfadefff1454bef9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a1dace4b64886f5cabd5a406d0f9e7e11</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a398d7fbc50d368467964f93bd093aabd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ClientProtocol::MessageTagProvider</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -21196,6 +21397,17 @@
     </TokenIdentifier>
     <Path>class_events_1_1_module_event_listener.html</Path>
     <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetPriority</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
     <DeclaredIn>event.h</DeclaredIn>
   </Token>
   <Token>
@@ -26067,6 +26279,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetPriority</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Events::ModuleEventProvider</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -26190,6 +26413,15 @@
       <Scope>Events::ModuleEventProvider::Comp</Scope>
     </TokenIdentifier>
     <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Events::ModuleEventProvider::ElementComp</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Events::ModuleEventProvider::ElementComp</Scope>
+    </TokenIdentifier>
+    <Path>struct_events_1_1_module_event_provider_1_1_element_comp.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>

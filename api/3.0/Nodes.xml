@@ -747,6 +747,17 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>MessageTagEvent</Name>
+              <Path>class_client_protocol_1_1_message_tag_event.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>MessageTagEvent</Name>
+                <Path>class_client_protocol_1_1_message_tag_event.html</Path>
+                <Anchor>a22cc43006330efb3f6aa4afeeb6adb02</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>MessageTagProvider</Name>
               <Path>class_client_protocol_1_1_message_tag_provider.html</Path>
               <Subnodes>
@@ -947,9 +958,9 @@
                 <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
                </Node>
                <Node>
-                <Name>ModuleEventProvider::Comp</Name>
+                <Name>GetPriority</Name>
                 <Path>class_events_1_1_module_event_listener.html</Path>
-                <Anchor>a96db7d9a728c791f8a9ce31a7082b876</Anchor>
+                <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -964,14 +975,25 @@
                  <Node>
                   <Name>operator()</Name>
                   <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
-                  <Anchor>a616094325054b441efd0ad88bbe82ccb</Anchor>
+                  <Anchor>a18f2aa9b2c5219061d9c43481e1d86bb</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ElementComp</Name>
+                <Path>struct_events_1_1_module_event_provider_1_1_element_comp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>operator()</Name>
+                  <Path>struct_events_1_1_module_event_provider_1_1_element_comp.html</Path>
+                  <Anchor>af98d1726efa46e30fd2ecbaee6ed046a</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>SubscriberList</Name>
                 <Path>class_events_1_1_module_event_provider.html</Path>
-                <Anchor>a5d6a1eded153a04df22413293914c851</Anchor>
+                <Anchor>a549e54434711e684ed2cfd4407597ee9</Anchor>
                </Node>
                <Node>
                 <Name>ModuleEventProvider</Name>
@@ -2706,7 +2728,12 @@
              <Node>
               <Name>WriteNotice</Name>
               <Path>class_channel.html</Path>
-              <Anchor>adb79b21c5fe9d4f8243185211384aad6</Anchor>
+              <Anchor>a950537fa09ff5598c983be95249d36e9</Anchor>
+             </Node>
+             <Node>
+              <Name>WriteRemoteNotice</Name>
+              <Path>class_channel.html</Path>
+              <Anchor>a536c63f9d871a55f996a12fe57dded1d</Anchor>
              </Node>
              <Node>
               <Name>age</Name>
@@ -2917,6 +2944,11 @@
               <Name>nofork</Name>
               <Path>struct_command_line_conf.html</Path>
               <Anchor>abf36755be5c1d290e053b46adfabf762</Anchor>
+             </Node>
+             <Node>
+              <Name>runasroot</Name>
+              <Path>struct_command_line_conf.html</Path>
+              <Anchor>abce4ca06595be7606f49d951d9fd8678</Anchor>
              </Node>
              <Node>
               <Name>writelog</Name>
@@ -3521,12 +3553,12 @@
              <Node>
               <Name>GetProvider</Name>
               <Path>classdynamic__reference__base.html</Path>
-              <Anchor>ab59b43953cf750b92c81f0e522a9fd25</Anchor>
+              <Anchor>a3967f54fc1c64c09f3e11d9e35f9a0d6</Anchor>
              </Node>
              <Node>
               <Name>operator bool</Name>
               <Path>classdynamic__reference__base.html</Path>
-              <Anchor>a34118c808c07821e3fe67d54026accb5</Anchor>
+              <Anchor>a51bf853ba1928ee102477186021e4fae</Anchor>
              </Node>
              <Node>
               <Name>SetCaptureHook</Name>
@@ -3905,6 +3937,32 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>FailedPort</Name>
+            <Path>struct_failed_port.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>FailedPort</Name>
+              <Path>struct_failed_port.html</Path>
+              <Anchor>a7e1ea119bf552585d7941c9b37a31082</Anchor>
+             </Node>
+             <Node>
+              <Name>error</Name>
+              <Path>struct_failed_port.html</Path>
+              <Anchor>ac311b3580fb227b291f2be0c4d75b065</Anchor>
+             </Node>
+             <Node>
+              <Name>sa</Name>
+              <Path>struct_failed_port.html</Path>
+              <Anchor>a875fcc5446c227cb26406737b562a3c3</Anchor>
+             </Node>
+             <Node>
+              <Name>tag</Name>
+              <Path>struct_failed_port.html</Path>
+              <Anchor>a016f90f0d65980d8050fbc37b282b0a7</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>fakederef</Name>
             <Path>structfakederef.html</Path>
             <Subnodes>
@@ -4186,7 +4244,7 @@
              <Node>
               <Name>BindPorts</Name>
               <Path>class_insp_i_r_cd.html</Path>
-              <Anchor>a42d8b81ea65bf2c54483c54f1055b7fc</Anchor>
+              <Anchor>a1cac64792c96bc30d980fa0f89761f64</Anchor>
              </Node>
              <Node>
               <Name>Cleanup</Name>
@@ -5403,6 +5461,11 @@
               <Anchor>a3fc3b3898a6694cc0766d744097a51b2</Anchor>
              </Node>
              <Node>
+              <Name>GetName</Name>
+              <Path>class_message_target.html</Path>
+              <Anchor>abaaf29eb4d550f59becf5a9eab1ec4c4</Anchor>
+             </Node>
+             <Node>
               <Name>status</Name>
               <Path>class_message_target.html</Path>
               <Anchor>ade9eccf51a93f3d2ae438aa8f44d0d1a</Anchor>
@@ -5518,32 +5581,32 @@
              <Node>
               <Name>IsListModeBase</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+              <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
              </Node>
              <Node>
               <Name>IsListModeBase</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+              <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
              </Node>
              <Node>
               <Name>IsParameterMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+              <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
              </Node>
              <Node>
               <Name>IsParameterMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+              <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
              </Node>
              <Node>
               <Name>IsPrefixMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+              <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
              </Node>
              <Node>
               <Name>IsPrefixMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+              <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
              </Node>
              <Node>
               <Name>NeedsOper</Name>
@@ -6005,6 +6068,11 @@
               <Name>OnCleanup</Name>
               <Path>class_module.html</Path>
               <Anchor>ace3323630e669476ed433b36b6863618</Anchor>
+             </Node>
+             <Node>
+              <Name>OnCommandBlocked</Name>
+              <Path>class_module.html</Path>
+              <Anchor>ab8edac9bee2f411c2c34fcf9e7f81d40</Anchor>
              </Node>
              <Node>
               <Name>OnConnectionFail</Name>
@@ -6584,32 +6652,6 @@
               <Name>type_block</Name>
               <Path>class_oper_info.html</Path>
               <Anchor>ac4bc257a31ebf3d4f99749ba3f15cd72</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>option</Name>
-            <Path>structoption.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>flag</Name>
-              <Path>structoption.html</Path>
-              <Anchor>ab366eea5fe7be25c1928328ba715e353</Anchor>
-             </Node>
-             <Node>
-              <Name>has_arg</Name>
-              <Path>structoption.html</Path>
-              <Anchor>a90d7ee9a51eea5c002682dbd0af149e4</Anchor>
-             </Node>
-             <Node>
-              <Name>name</Name>
-              <Path>structoption.html</Path>
-              <Anchor>a92c850a23c7828c1dba453bf8d15e1f0</Anchor>
-             </Node>
-             <Node>
-              <Name>val</Name>
-              <Path>structoption.html</Path>
-              <Anchor>a13bd155ec3b405d29c41ab8d0793be11</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7937,7 +7979,7 @@
              <Node>
               <Name>SimpleChannelModeHandler</Name>
               <Path>class_simple_channel_mode_handler.html</Path>
-              <Anchor>a326bf8aa6f2fc585dae462091f286d67</Anchor>
+              <Anchor>ab069ed9853b436a9b2b32a1236ddf20b</Anchor>
              </Node>
              <Node>
               <Name>OnModeChange</Name>
@@ -7994,7 +8036,7 @@
              <Node>
               <Name>SimpleUserModeHandler</Name>
               <Path>class_simple_user_mode_handler.html</Path>
-              <Anchor>a8967e7d3d71b43c5780e58151e1dd150</Anchor>
+              <Anchor>a8c160f6e7de5f76e391eb8515d871f5a</Anchor>
              </Node>
              <Node>
               <Name>OnModeChange</Name>
@@ -9426,6 +9468,11 @@
               <Anchor>a100cc8c7388a4035f2d53911dfb1b856</Anchor>
              </Node>
              <Node>
+              <Name>ULineCount</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>a1e364c1d82e2f2f59174bcb1f36f84be</Anchor>
+             </Node>
+             <Node>
               <Name>UnregisteredUserCount</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a5ce061a2bd638b927c91db3b53c6896b</Anchor>
@@ -9444,6 +9491,11 @@
               <Name>clientlist</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a4102a503e29b60f95b8561d9595fa2a3</Anchor>
+             </Node>
+             <Node>
+              <Name>uline_count</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>ab7901f2902843f99c60540aa4f5dde70</Anchor>
              </Node>
              <Node>
               <Name>unregistered_count</Name>
@@ -9894,6 +9946,10 @@
                 <Name>ClientProtocol::EventProvider</Name>
                 <Path>class_client_protocol_1_1_event_provider.html</Path>
                </Node>
+               <Node>
+                <Name>ClientProtocol::MessageTagEvent</Name>
+                <Path>class_client_protocol_1_1_message_tag_event.html</Path>
+               </Node>
               </Subnodes>
              </Node>
             </Subnodes>
@@ -10163,10 +10219,6 @@
             <Path>class_command_parser.html</Path>
            </Node>
            <Node>
-            <Name>Events::ModuleEventProvider::Comp</Name>
-            <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
-           </Node>
-           <Node>
             <Name>Comp</Name>
             <Path></Path>
             <Subnodes>
@@ -10175,6 +10227,10 @@
               <Path>classinsp_1_1detail_1_1map__pair__compare.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>Events::ModuleEventProvider::Comp</Name>
+            <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
            </Node>
            <Node>
             <Name>ConfigStatus</Name>
@@ -10199,6 +10255,10 @@
            <Node>
             <Name>stdalgo::defaultdeleter&lt; T &gt;</Name>
             <Path>structstdalgo_1_1defaultdeleter.html</Path>
+           </Node>
+           <Node>
+            <Name>Events::ModuleEventProvider::ElementComp</Name>
+            <Path>struct_events_1_1_module_event_provider_1_1_element_comp.html</Path>
            </Node>
            <Node>
             <Name>WhoWas::Entry</Name>
@@ -10241,6 +10301,10 @@
            <Node>
             <Name>ExtensionManager</Name>
             <Path>class_extension_manager.html</Path>
+           </Node>
+           <Node>
+            <Name>FailedPort</Name>
+            <Path>struct_failed_port.html</Path>
            </Node>
            <Node>
             <Name>fakederef&lt; T &gt;</Name>
@@ -10331,11 +10395,11 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; ModuleEventListener *, Comp, ModuleEventListener *, std::less&lt; ModuleEventListener * &gt; &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; ModuleEventListener *, Comp, ModuleEventListener *, ElementComp &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
-              <Name>insp::flat_multiset&lt; ModuleEventListener *, Comp, std::less&lt; ModuleEventListener * &gt; &gt;</Name>
+              <Name>insp::flat_multiset&lt; ModuleEventListener *, Comp, ElementComp &gt;</Name>
               <Path>classinsp_1_1flat__multiset.html</Path>
              </Node>
             </Subnodes>
@@ -10411,7 +10475,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; std::pair&lt; T, U &gt;, Comp, T, detail::map_pair_compare&lt; std::pair&lt; T, U &gt;, ElementComp &gt; &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; std::pair&lt; T, U &gt;, std::less&lt; T &gt;, T, detail::map_pair_compare&lt; std::pair&lt; T, U &gt;, std::less&lt; T &gt; &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
@@ -10435,7 +10499,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::detail::flat_map_base&lt; T, Comp, T, ElementComp &gt;</Name>
+            <Name>insp::detail::flat_map_base&lt; T, std::less&lt; T &gt;, T, std::less&lt; T &gt; &gt;</Name>
             <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
             <Subnodes>
              <Node>
@@ -10727,10 +10791,6 @@
               <Path>class_numerics_1_1_no_such_nick.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>option</Name>
-            <Path>structoption.html</Path>
            </Node>
            <Node>
             <Name>ClientProtocol::Message::Param</Name>

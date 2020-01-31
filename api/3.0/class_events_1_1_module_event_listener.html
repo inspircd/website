@@ -69,7 +69,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="class_events_1_1_module_event_listener-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Events::ModuleEventListener Class Reference</div>  </div>
@@ -95,18 +94,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3c58708bb631c32457874b09139159c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9929493211400f2ea306feab406ec9cf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_module.html">Module</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_events_1_1_module_event_listener.html#a9929493211400f2ea306feab406ec9cf">GetModule</a> () const</td></tr>
 <tr class="separator:a9929493211400f2ea306feab406ec9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf13224c9dc157e849f2c2f13ceaff97"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_events_1_1_module_event_listener.html#abf13224c9dc157e849f2c2f13ceaff97">GetPriority</a> () const</td></tr>
+<tr class="separator:abf13224c9dc157e849f2c2f13ceaff97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a42c27710119fc7d9b11b9bddb7b17888"><td class="memItemLeft" align="right" valign="top"><a id="a42c27710119fc7d9b11b9bddb7b17888"></a>
 static const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultPriority</b> = 100</td></tr>
 <tr class="separator:a42c27710119fc7d9b11b9bddb7b17888"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a96db7d9a728c791f8a9ce31a7082b876"><td class="memItemLeft" align="right" valign="top"><a id="a96db7d9a728c791f8a9ce31a7082b876"></a>
-struct&#160;</td><td class="memItemRight" valign="bottom"><b>ModuleEventProvider::Comp</b></td></tr>
-<tr class="separator:a96db7d9a728c791f8a9ce31a7082b876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for abstract classes describing cross-module events. Subscribers should NOT inherit directly from this class. </p>
@@ -185,6 +180,32 @@ struct&#160;</td><td class="memItemRight" valign="bottom"><b>ModuleEventProvider
 </table>
 </div><div class="memdoc">
 <p>Retrieves the module which created this listener. </p>
+
+</div>
+</div>
+<a id="abf13224c9dc157e849f2c2f13ceaff97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf13224c9dc157e849f2c2f13ceaff97">&#9670;&nbsp;</a></span>GetPriority()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Events::ModuleEventListener::GetPriority </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves the priority of this event. </p>
 
 </div>
 </div>

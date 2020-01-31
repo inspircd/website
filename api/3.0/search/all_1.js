@@ -8,7 +8,7 @@ var searchData=
   ['begin_54',['begin',['../class_stream_socket_1_1_send_queue.html#a916ff7a6d919ed186b14e63d71e8cec7',1,'StreamSocket::SendQueue']]],
   ['bind_55',['Bind',['../class_socket_engine.html#a029a04fdd3fe9dc2a865c57061fb1219',1,'SocketEngine']]],
   ['bindport_56',['BindPort',['../class_insp_i_r_cd.html#a13d4fcd3760c3e52404c97524895f94b',1,'InspIRCd']]],
-  ['bindports_57',['BindPorts',['../class_insp_i_r_cd.html#a42d8b81ea65bf2c54483c54f1055b7fc',1,'InspIRCd']]],
+  ['bindports_57',['BindPorts',['../class_insp_i_r_cd.html#a1cac64792c96bc30d980fa0f89761f64',1,'InspIRCd']]],
   ['bits_58',['bits',['../structirc_1_1sockets_1_1cidr__mask.html#abe83e74f5c5fb639399c4edde98a1fd4',1,'irc::sockets::cidr_mask']]],
   ['blocking_59',['Blocking',['../class_socket_engine.html#abf6b64314ea91b34840fca03795b5778',1,'SocketEngine']]],
   ['boundscheckfd_60',['BoundsCheckFd',['../class_socket_engine.html#ae9c8748e869d372fa95a97e691e60d7d',1,'SocketEngine']]],

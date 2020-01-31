@@ -73,8 +73,8 @@ $(function() {
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * InspIRCd -- Internet Relay Chat Daemon</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   Copyright (C) 2013 Attila Molnar &lt;attilamolnar@hush.com&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   Copyright (C) 2009 Daniel De Graaf &lt;danieldg@inspircd.org&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   Copyright (C) 2019-2020 Sadie Powell &lt;sadie@witchery.services&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   Copyright (C) 2013-2015 Attila Molnar &lt;attilamolnar@hush.com&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * This file is part of InspIRCd.  InspIRCd is free software: you can</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * redistribute it and/or modify it under the terms of the GNU General Public</span></div>
@@ -113,13 +113,13 @@ $(function() {
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        ModuleRef creator;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classdynamic__reference__base.html">dynamic_reference_base</a>(<a class="code" href="class_module.html">Module</a>* Creator, <span class="keyword">const</span> std::string&amp; Name);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        ~<a class="code" href="classdynamic__reference__base.html">dynamic_reference_base</a>();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> std::string&amp; GetProvider() { <span class="keywordflow">return</span> name; }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> std::string&amp; GetProvider()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> name; }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> SetProvider(<span class="keyword">const</span> std::string&amp; newname);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classdynamic__reference__base.html#a2546c54a7bcbe4e26ddc4d5f2bd30b31">   52</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classdynamic__reference__base.html#a2546c54a7bcbe4e26ddc4d5f2bd30b31">SetCaptureHook</a>(<a class="code" href="classdynamic__reference__base_1_1_capture_hook.html">CaptureHook</a>* h) { hook = h; }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">void</span> check();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">operator</span> bool() { <span class="keywordflow">return</span> (value != NULL); }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">operator</span> bool()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> (value != NULL); }</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> reset_all();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;};</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
@@ -202,18 +202,18 @@ $(function() {
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassdynamic__reference__base_html_a2546c54a7bcbe4e26ddc4d5f2bd30b31"><div class="ttname"><a href="classdynamic__reference__base.html#a2546c54a7bcbe4e26ddc4d5f2bd30b31">dynamic_reference_base::SetCaptureHook</a></div><div class="ttdeci">void SetCaptureHook(CaptureHook *h)</div><div class="ttdef"><b>Definition:</b> dynref.h:52</div></div>
-<div class="ttc" id="aclass_service_provider_html"><div class="ttname"><a href="class_service_provider.html">ServiceProvider</a></div><div class="ttdef"><b>Definition:</b> base.h:244</div></div>
-<div class="ttc" id="aclassinterfacebase_html"><div class="ttname"><a href="classinterfacebase.html">interfacebase</a></div><div class="ttdef"><b>Definition:</b> base.h:60</div></div>
+<div class="ttc" id="aclass_service_provider_html"><div class="ttname"><a href="class_service_provider.html">ServiceProvider</a></div><div class="ttdef"><b>Definition:</b> base.h:249</div></div>
+<div class="ttc" id="aclassinterfacebase_html"><div class="ttname"><a href="classinterfacebase.html">interfacebase</a></div><div class="ttdef"><b>Definition:</b> base.h:65</div></div>
 <div class="ttc" id="aclassdynamic__reference__nocheck_html"><div class="ttname"><a href="classdynamic__reference__nocheck.html">dynamic_reference_nocheck</a></div><div class="ttdef"><b>Definition:</b> dynref.h:95</div></div>
 <div class="ttc" id="aclass_user_mode_reference_html"><div class="ttname"><a href="class_user_mode_reference.html">UserModeReference</a></div><div class="ttdef"><b>Definition:</b> dynref.h:130</div></div>
-<div class="ttc" id="aclass_module_exception_html"><div class="ttname"><a href="class_module_exception.html">ModuleException</a></div><div class="ttdef"><b>Definition:</b> base.h:218</div></div>
+<div class="ttc" id="aclass_module_exception_html"><div class="ttname"><a href="class_module_exception.html">ModuleException</a></div><div class="ttdef"><b>Definition:</b> base.h:223</div></div>
 <div class="ttc" id="aclass_chan_mode_reference_html"><div class="ttname"><a href="class_chan_mode_reference.html">ChanModeReference</a></div><div class="ttdef"><b>Definition:</b> dynref.h:123</div></div>
 <div class="ttc" id="aclassdynamic__reference__base_1_1_capture_hook_html"><div class="ttname"><a href="classdynamic__reference__base_1_1_capture_hook.html">dynamic_reference_base::CaptureHook</a></div><div class="ttdef"><b>Definition:</b> dynref.h:28</div></div>
 <div class="ttc" id="aclassinsp_1_1intrusive__list__node_html"><div class="ttname"><a href="classinsp_1_1intrusive__list__node.html">insp::intrusive_list_node</a></div><div class="ttdef"><b>Definition:</b> intrusive_list.h:33</div></div>
-<div class="ttc" id="aclass_module_html"><div class="ttname"><a href="class_module.html">Module</a></div><div class="ttdef"><b>Definition:</b> modules.h:242</div></div>
+<div class="ttc" id="aclass_module_html"><div class="ttname"><a href="class_module.html">Module</a></div><div class="ttdef"><b>Definition:</b> modules.h:247</div></div>
 <div class="ttc" id="aclassdynamic__reference__base_html"><div class="ttname"><a href="classdynamic__reference__base.html">dynamic_reference_base</a></div><div class="ttdef"><b>Definition:</b> dynref.h:25</div></div>
 <div class="ttc" id="aclassdynamic__reference_html"><div class="ttname"><a href="classdynamic__reference.html">dynamic_reference</a></div><div class="ttdef"><b>Definition:</b> dynref.h:66</div></div>
-<div class="ttc" id="aclass_mode_handler_html"><div class="ttname"><a href="class_mode_handler.html">ModeHandler</a></div><div class="ttdef"><b>Definition:</b> mode.h:95</div></div>
+<div class="ttc" id="aclass_mode_handler_html"><div class="ttname"><a href="class_mode_handler.html">ModeHandler</a></div><div class="ttdef"><b>Definition:</b> mode.h:99</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

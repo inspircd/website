@@ -156,8 +156,11 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>GetModeParamet
 <tr class="separator:ae27437ffde5e360ccfe2b797b55d3063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13eec9f30fa9b59c8d105e6e9a81a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_mod_result.html">ModResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#ac13eec9f30fa9b59c8d105e6e9a81a46">GetExtBanStatus</a> (<a class="el" href="class_user.html">User</a> *u, char type)</td></tr>
 <tr class="separator:ac13eec9f30fa9b59c8d105e6e9a81a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb79b21c5fe9d4f8243185211384aad6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#adb79b21c5fe9d4f8243185211384aad6">WriteNotice</a> (const std::string &amp;text)</td></tr>
-<tr class="separator:adb79b21c5fe9d4f8243185211384aad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950537fa09ff5598c983be95249d36e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_channel.html#a950537fa09ff5598c983be95249d36e9">WriteNotice</a> (const std::string &amp;text, char status=0)</td></tr>
+<tr class="separator:a950537fa09ff5598c983be95249d36e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536c63f9d871a55f996a12fe57dded1d"><td class="memItemLeft" align="right" valign="top"><a id="a536c63f9d871a55f996a12fe57dded1d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>WriteRemoteNotice</b> (const std::string &amp;text, char status=0)</td></tr>
+<tr class="separator:a536c63f9d871a55f996a12fe57dded1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_extensible"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_extensible')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_extensible.html">Extensible</a></td></tr>
 <tr class="memitem:a04cab0b329ab81c275553347fd124b03 inherit pub_methods_class_extensible"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classinsp_1_1flat__map.html">ExtensibleStore</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_extensible.html#a04cab0b329ab81c275553347fd124b03">GetExtList</a> () const</td></tr>
 <tr class="separator:a04cab0b329ab81c275553347fd124b03 inherit pub_methods_class_extensible"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1029,8 +1032,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adb79b21c5fe9d4f8243185211384aad6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb79b21c5fe9d4f8243185211384aad6">&#9670;&nbsp;</a></span>WriteNotice()</h2>
+<a id="a950537fa09ff5598c983be95249d36e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950537fa09ff5598c983be95249d36e9">&#9670;&nbsp;</a></span>WriteNotice()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1039,14 +1042,25 @@ Public Attributes</h2></td></tr>
           <td class="memname">void Channel::WriteNotice </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>status</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Write a NOTICE to all local users on the channel </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>Text to send </td></tr>
+    <tr><td class="paramname">status</td><td>The minimum status rank to send this message to. </td></tr>
   </table>
   </dd>
 </dl>
