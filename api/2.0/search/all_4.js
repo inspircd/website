@@ -20,7 +20,7 @@ var searchData=
   ['exit_251',['Exit',['../class_insp_i_r_cd.html#a7bacde8f58774aeb9d7ab2aeb5cdd9ea',1,'InspIRCd']]],
   ['expireline_252',['ExpireLine',['../class_x_line_manager.html#a36d15117f604cba3cd2ad80735be0c15',1,'XLineManager']]],
   ['expires_253',['expires',['../class_cached_query.html#a240cd2dc647b04c5357114102af63a79',1,'CachedQuery']]],
-  ['expiry_254',['expiry',['../class_x_line.html#ab702e870421e6c3f4bdeaf4f1157fd88',1,'XLine::expiry()'],['../class_ban_cache_hit.html#ae7e7ac5d8c21b9c13291e59c477ac43d',1,'BanCacheHit::Expiry()']]],
+  ['expiry_254',['Expiry',['../class_ban_cache_hit.html#ae7e7ac5d8c21b9c13291e59c477ac43d',1,'BanCacheHit::Expiry()'],['../class_x_line.html#ab702e870421e6c3f4bdeaf4f1157fd88',1,'XLine::expiry()']]],
   ['extensible_255',['Extensible',['../class_extensible.html',1,'']]],
   ['extensionitem_256',['ExtensionItem',['../class_extension_item.html',1,'']]],
   ['extensionmanager_257',['ExtensionManager',['../class_extension_manager.html',1,'']]]

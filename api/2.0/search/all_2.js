@@ -102,7 +102,7 @@ var searchData=
   ['countinvisible_165',['CountInvisible',['../class_channel.html#a646beafa296899ce06786d5586887cd7',1,'Channel']]],
   ['cq_166',['CQ',['../class_resolver.html#a722908c06da608b8db5ef36e1341f0d9',1,'Resolver']]],
   ['create_167',['create',['../class_config_tag.html#ab273d19b0d7bbc5bb6ae2eb18786e9ac',1,'ConfigTag']]],
-  ['creator_168',['creator',['../class_service_provider.html#ad1dfa94bef361c61dfadefff1454bef9',1,'ServiceProvider::creator()'],['../class_resolver.html#a6b54e426657fd27278cc043cb7a9f1f5',1,'Resolver::Creator()']]],
+  ['creator_168',['Creator',['../class_resolver.html#a6b54e426657fd27278cc043cb7a9f1f5',1,'Resolver::Creator()'],['../class_service_provider.html#ad1dfa94bef361c61dfadefff1454bef9',1,'ServiceProvider::creator()']]],
   ['cull_169',['cull',['../classclassbase.html#a2a773ec2f42d047e0ce250553f44d831',1,'classbase::cull()'],['../class_extensible.html#a11e8ad72ea9557b4e88c87121858a155',1,'Extensible::cull()'],['../class_stream_socket.html#afdc157dd752df2cce0ed53feca2eef55',1,'StreamSocket::cull()'],['../class_mode_handler.html#a547ef0be5950a27525672c353e40461b',1,'ModeHandler::cull()'],['../class_module.html#a9cf4e278594597a19264689a2d14bde0',1,'Module::cull()'],['../class_user.html#a8d072c238ae1b48f64b2e885674dd72c',1,'User::cull()'],['../class_local_user.html#aadd99034d2d12185b80f4c7111744bfa',1,'LocalUser::cull()'],['../class_fake_user.html#aeba21c721ff0663d033a898f651a905f',1,'FakeUser::cull()']]],
   ['culllist_170',['CullList',['../class_cull_list.html',1,'']]],
   ['cullresult_171',['CullResult',['../class_cull_result.html',1,'']]],

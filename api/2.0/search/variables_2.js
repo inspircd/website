@@ -20,7 +20,7 @@ var searchData=
   ['configfilename_1897',['ConfigFileName',['../class_insp_i_r_cd.html#a98762aa6eb8ed7e5e1641961e0a14d89',1,'InspIRCd']]],
   ['configthread_1898',['ConfigThread',['../class_insp_i_r_cd.html#a9cb20bc34ce76c26e4ebb7d7aa44f4d6',1,'InspIRCd']]],
   ['cq_1899',['CQ',['../class_resolver.html#a722908c06da608b8db5ef36e1341f0d9',1,'Resolver']]],
-  ['creator_1900',['creator',['../class_service_provider.html#ad1dfa94bef361c61dfadefff1454bef9',1,'ServiceProvider::creator()'],['../class_resolver.html#a6b54e426657fd27278cc043cb7a9f1f5',1,'Resolver::Creator()']]],
+  ['creator_1900',['Creator',['../class_resolver.html#a6b54e426657fd27278cc043cb7a9f1f5',1,'Resolver::Creator()'],['../class_service_provider.html#ad1dfa94bef361c61dfadefff1454bef9',1,'ServiceProvider::creator()']]],
   ['currentsetsize_1901',['CurrentSetSize',['../class_socket_engine.html#aad3193ccc82c03e8137b7b9804cdf23c',1,'SocketEngine']]],
   ['customversion_1902',['CustomVersion',['../class_server_config.html#af71a282e9a3bb2680d224e00e7bd048d',1,'ServerConfig']]],
   ['cyclehosts_1903',['CycleHosts',['../class_server_config.html#a880195feb4f82513c7c2ca41cff45198',1,'ServerConfig']]],

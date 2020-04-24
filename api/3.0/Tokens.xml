@@ -367,6 +367,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasFd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -922,6 +933,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>~Command</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a62f95d59f162ec90e793b47d872262d4</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Handle</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -944,13 +966,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>~Command</Name>
+      <Name>TellNotEnoughParameters</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>Command</Scope>
     </TokenIdentifier>
     <Path>class_command.html</Path>
-    <Anchor>ab552bb3a07fdd1acbfd8ea76e69b2278</Anchor>
+    <Anchor>a3c4703bc24250a29878575115fc5b861</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TellNotRegistered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>addd801ee8e431a2e20a717d5fea84437</Anchor>
     <DeclaredIn>ctables.h</DeclaredIn>
   </Token>
   <Token>
@@ -977,17 +1010,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>WorksBeforeReg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a7a7b0fd668de5ae02d1f00cbad064199</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1010,6 +1032,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>flags_needed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a79d32cb2a891895915c9eee9b1ed2258</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>force_manual_route</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1020,13 +1052,43 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>flags_needed</Name>
+      <Name>Penalty</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>CommandBase</Scope>
+      <Scope>Command</Scope>
     </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ac883df0d1d27328c3b25f6e7b44144da</Anchor>
+    <Path>class_command.html</Path>
+    <Anchor>ac6b9342dbdc2ae5cda102e9453d257ae</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>use_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a0f89a467a22751f6f08f3f06f830b063</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a83a428345e17844e6a2b238bef60eb2b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>works_before_reg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a6f985141126bdf496f7e56316a83d77c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1050,26 +1112,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>use_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a98c538984b12bc3ca4e174b221c6def4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>works_before_reg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a215824d0f385435e65510225c95d066d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>allow_empty_last_param</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1080,16 +1122,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>syntax</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a57ced763c081488c18955ef0c387af38</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>translation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1097,16 +1129,6 @@
     </TokenIdentifier>
     <Path>class_command_base.html</Path>
     <Anchor>a196781288c603e97eab9b778ee892bc3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Penalty</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ad7c0aa439e1392aadbb5ed4fcb956bdd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1140,6 +1162,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Command</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a2039803d2e75898e3e96938974e93279</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CommandBase</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -1168,17 +1201,6 @@
     </TokenIdentifier>
     <Path>class_command_base.html</Path>
     <Anchor>a7ccd01afa6708aa696a2ab560d09f859</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WorksBeforeReg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a7a7b0fd668de5ae02d1f00cbad064199</Anchor>
     <DeclaredIn>ctables.h</DeclaredIn>
   </Token>
   <Token>
@@ -1216,16 +1238,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>flags_needed</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ac883df0d1d27328c3b25f6e7b44144da</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>min_params</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1246,26 +1258,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>use_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a98c538984b12bc3ca4e174b221c6def4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>works_before_reg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a215824d0f385435e65510225c95d066d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>allow_empty_last_param</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1276,16 +1268,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>syntax</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a57ced763c081488c18955ef0c387af38</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>translation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1293,16 +1275,6 @@
     </TokenIdentifier>
     <Path>class_command_base.html</Path>
     <Anchor>a196781288c603e97eab9b778ee892bc3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Penalty</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ad7c0aa439e1392aadbb5ed4fcb956bdd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1579,244 +1551,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>CommandWhowas</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>CommandWhowas</Scope>
-    </TokenIdentifier>
-    <Path>class_command_whowas.html</Path>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Handle</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandWhowas</Scope>
-    </TokenIdentifier>
-    <Path>class_command_whowas.html</Path>
-    <Anchor>a7bbd87964f12d59d8498f8f494377455</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RegisterService</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Command</Scope>
-    </TokenIdentifier>
-    <Path>class_command.html</Path>
-    <Anchor>a3211de55aeb3bf058278f89b1b335e90</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Command</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Command</Scope>
-    </TokenIdentifier>
-    <Path>class_command.html</Path>
-    <Anchor>ab552bb3a07fdd1acbfd8ea76e69b2278</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CommandBase</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>add9275e896ec5a527d9fcd47c9b47430</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>EncodeParameter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a7ccd01afa6708aa696a2ab560d09f859</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WorksBeforeReg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a7a7b0fd668de5ae02d1f00cbad064199</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DisableAutoRegister</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a87185e6ebfa0f4960f20797e716c72d6</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cull</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>classbase</Scope>
-    </TokenIdentifier>
-    <Path>classclassbase.html</Path>
-    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>manager</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandWhowas</Scope>
-    </TokenIdentifier>
-    <Path>class_command_whowas.html</Path>
-    <Anchor>a9e1f2f7bb3afeb94bdedea0a93be0c2f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>force_manual_route</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Command</Scope>
-    </TokenIdentifier>
-    <Path>class_command.html</Path>
-    <Anchor>a6e0de9d2aaa9ba9ac6d42d958b5d3da0</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>flags_needed</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ac883df0d1d27328c3b25f6e7b44144da</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>min_params</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a38cbd8f82b4d588a1605489c80f7f8e9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>max_params</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a57fa0ef258dad7c3a87ec6b0bbd835b1</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>use_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a98c538984b12bc3ca4e174b221c6def4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>works_before_reg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a215824d0f385435e65510225c95d066d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>allow_empty_last_param</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>aaa608bb2c13a1f0d95291303396d9f27</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>syntax</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a57ced763c081488c18955ef0c387af38</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>translation</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a196781288c603e97eab9b778ee892bc3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Penalty</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ad7c0aa439e1392aadbb5ed4fcb956bdd</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>creator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>ad1dfa94bef361c61dfadefff1454bef9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>name</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a1dace4b64886f5cabd5a406d0f9e7e11</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>service</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a398d7fbc50d368467964f93bd093aabd</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>ConfigReaderThread</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -1920,7 +1654,7 @@
       <Scope>ConfigStatus</Scope>
     </TokenIdentifier>
     <Path>class_config_status.html</Path>
-    <Anchor>a1297d167f0d91235a5962d5344ae32bf</Anchor>
+    <Anchor>ae7955b6481ec0a412ff95aa3fd350866</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2354,6 +2088,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>password</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ConnectClass</Scope>
+    </TokenIdentifier>
+    <Path>struct_connect_class.html</Path>
+    <Anchor>a76ca3062f9c248d3c85ad11cb280cc48</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>passwordhash</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ConnectClass</Scope>
+    </TokenIdentifier>
+    <Path>struct_connect_class.html</Path>
+    <Anchor>a0ffd217d32a9f4d995b7080712654e0a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CoreException</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -2578,18 +2332,18 @@
       <Scope>DLLManager</Scope>
     </TokenIdentifier>
     <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a97c5b5a1f76d073cb53594c3ec91435b</Anchor>
+    <Anchor>a73872761e276fd701e7d8a1ee4062f8f</Anchor>
     <DeclaredIn>dynamic.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>LastError</Name>
+      <Name>~DLLManager</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>DLLManager</Scope>
     </TokenIdentifier>
     <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a410691f0ddd035cb75c52c1bb3a1d29e</Anchor>
+    <Anchor>a975318d87a1183a14f1fe94097eca20c</Anchor>
     <DeclaredIn>dynamic.h</DeclaredIn>
   </Token>
   <Token>
@@ -2611,7 +2365,18 @@
       <Scope>DLLManager</Scope>
     </TokenIdentifier>
     <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a0e8f4cb7a0bd033cf66975e66bedcc8a</Anchor>
+    <Anchor>a38dda70584162e945cf4e9a371cfeed2</Anchor>
+    <DeclaredIn>dynamic.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSymbol</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DLLManager</Scope>
+    </TokenIdentifier>
+    <Path>class_d_l_l_manager.html</Path>
+    <Anchor>aace5601c1be30e3dc987cb920a3fa4f7</Anchor>
     <DeclaredIn>dynamic.h</DeclaredIn>
   </Token>
   <Token>
@@ -2622,7 +2387,29 @@
       <Scope>DLLManager</Scope>
     </TokenIdentifier>
     <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a7afd5e26add779a3da974ead16c04518</Anchor>
+    <Anchor>a2ece6589ed0561d554fd1f031c5a1cbb</Anchor>
+    <DeclaredIn>dynamic.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LastError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DLLManager</Scope>
+    </TokenIdentifier>
+    <Path>class_d_l_l_manager.html</Path>
+    <Anchor>a5598e2e83b3f14b6ff43387e191a8835</Anchor>
+    <DeclaredIn>dynamic.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LibraryName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DLLManager</Scope>
+    </TokenIdentifier>
+    <Path>class_d_l_l_manager.html</Path>
+    <Anchor>ab9b4232a6824ed5bb65a3f67d09edb9f</Anchor>
     <DeclaredIn>dynamic.h</DeclaredIn>
   </Token>
   <Token>
@@ -2635,37 +2422,6 @@
     <Path>classclassbase.html</Path>
     <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
     <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>h</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>DLLManager</Scope>
-    </TokenIdentifier>
-    <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a85c7eeb75fad8af319931a1ca735c502</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RetrieveLastError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>DLLManager</Scope>
-    </TokenIdentifier>
-    <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a21e1b653ba42040a5aec5921c67516c9</Anchor>
-    <DeclaredIn>dynamic.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>DLLManager</Scope>
-    </TokenIdentifier>
-    <Path>class_d_l_l_manager.html</Path>
-    <Anchor>a42a6222601677e9d13d278a32e93a18a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3052,6 +2808,17 @@
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
     <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HasFd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -3785,6 +3552,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasSnomaskPermission</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>aad9725028dcc158fe25aa106b3257be3</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>MakeHost</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -4161,7 +3939,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a6a376f2e2c4448d8e1288638540f2707</Anchor>
+    <Anchor>a982fa3195231117b83dde5b90ffd4685</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6254,6 +6032,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasFd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -6606,7 +6395,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6617,7 +6406,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6628,7 +6417,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6639,7 +6428,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6650,7 +6439,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6661,7 +6450,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -7567,6 +7356,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasSnomaskPermission</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>LocalUser</Scope>
+    </TokenIdentifier>
+    <Path>class_local_user.html</Path>
+    <Anchor>a123f4945884ec740d76ff59c56cb784f</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OverruleNick</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -8271,7 +8071,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a6a376f2e2c4448d8e1288638540f2707</Anchor>
+    <Anchor>a982fa3195231117b83dde5b90ffd4685</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8702,6 +8502,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>update_idle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>MessageDetails</Scope>
+    </TokenIdentifier>
+    <Path>class_message_details.html</Path>
+    <Anchor>a413c332fda6f118b3ff8228cce9fcc4d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>exemptions</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -8927,7 +8737,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8938,7 +8748,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8949,7 +8759,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8960,7 +8770,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8971,7 +8781,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8982,7 +8792,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -9751,6 +9561,17 @@
     </TokenIdentifier>
     <Path>class_module.html</Path>
     <Anchor>a7c9d9c096786d127590fdd8aa2b7d681</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Prioritize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Module</Scope>
+    </TokenIdentifier>
+    <Path>class_module.html</Path>
+    <Anchor>a88a2018354cc3e7d01d2ef73fbb95407</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -11081,6 +10902,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>AllowedSnomasks</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>OperInfo</Scope>
+    </TokenIdentifier>
+    <Path>class_oper_info.html</Path>
+    <Anchor>a365f28c082ddf7059c1e32fd541d673d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>oper_block</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -11203,7 +11034,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11214,7 +11045,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11225,7 +11056,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11236,7 +11067,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11247,7 +11078,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11258,7 +11089,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11629,7 +11460,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11640,7 +11471,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11651,7 +11482,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11662,7 +11493,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11673,7 +11504,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11684,7 +11515,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12151,7 +11982,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12162,7 +11993,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12173,7 +12004,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12184,7 +12015,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12195,7 +12026,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12206,7 +12037,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -13326,6 +13157,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasSnomaskPermission</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>aad9725028dcc158fe25aa106b3257be3</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>MakeHost</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -13713,7 +13555,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a6a376f2e2c4448d8e1288638540f2707</Anchor>
+    <Anchor>a982fa3195231117b83dde5b90ffd4685</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15045,7 +14887,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15056,7 +14898,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15067,7 +14909,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15078,7 +14920,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15089,7 +14931,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15100,7 +14942,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15697,7 +15539,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15708,7 +15550,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15719,7 +15561,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15730,7 +15572,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15741,7 +15583,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15752,7 +15594,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -16910,6 +16752,50 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HandleLocal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>SplitCommand</Scope>
+    </TokenIdentifier>
+    <Path>class_split_command.html</Path>
+    <Anchor>a64b7307025aa4a47d20fbd9622677a55</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HandleRemote</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>SplitCommand</Scope>
+    </TokenIdentifier>
+    <Path>class_split_command.html</Path>
+    <Anchor>a52acee8c63315e60e4457f6c9da73169</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HandleServer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>SplitCommand</Scope>
+    </TokenIdentifier>
+    <Path>class_split_command.html</Path>
+    <Anchor>a9dce2d5bc8f4ef3786ba4511207a13bd</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Command</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a62f95d59f162ec90e793b47d872262d4</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -16921,13 +16807,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>~Command</Name>
+      <Name>TellNotEnoughParameters</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>Command</Scope>
     </TokenIdentifier>
     <Path>class_command.html</Path>
-    <Anchor>ab552bb3a07fdd1acbfd8ea76e69b2278</Anchor>
+    <Anchor>a3c4703bc24250a29878575115fc5b861</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TellNotRegistered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>addd801ee8e431a2e20a717d5fea84437</Anchor>
     <DeclaredIn>ctables.h</DeclaredIn>
   </Token>
   <Token>
@@ -16954,17 +16851,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>WorksBeforeReg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a7a7b0fd668de5ae02d1f00cbad064199</Anchor>
-    <DeclaredIn>ctables.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -16987,6 +16873,38 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SplitCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>SplitCommand</Scope>
+    </TokenIdentifier>
+    <Path>class_split_command.html</Path>
+    <Anchor>abfafc43a69622582fbf08258a10090df</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Command</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a2039803d2e75898e3e96938974e93279</Anchor>
+    <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flags_needed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a79d32cb2a891895915c9eee9b1ed2258</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>force_manual_route</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -16997,13 +16915,43 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>flags_needed</Name>
+      <Name>Penalty</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>CommandBase</Scope>
+      <Scope>Command</Scope>
     </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ac883df0d1d27328c3b25f6e7b44144da</Anchor>
+    <Path>class_command.html</Path>
+    <Anchor>ac6b9342dbdc2ae5cda102e9453d257ae</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>use_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a0f89a467a22751f6f08f3f06f830b063</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syntax</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a83a428345e17844e6a2b238bef60eb2b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>works_before_reg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Command</Scope>
+    </TokenIdentifier>
+    <Path>class_command.html</Path>
+    <Anchor>a6f985141126bdf496f7e56316a83d77c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17027,26 +16975,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>use_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a98c538984b12bc3ca4e174b221c6def4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>works_before_reg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a215824d0f385435e65510225c95d066d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>allow_empty_last_param</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -17057,16 +16985,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>syntax</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>a57ced763c081488c18955ef0c387af38</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>translation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -17074,16 +16992,6 @@
     </TokenIdentifier>
     <Path>class_command_base.html</Path>
     <Anchor>a196781288c603e97eab9b778ee892bc3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Penalty</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>CommandBase</Scope>
-    </TokenIdentifier>
-    <Path>class_command_base.html</Path>
-    <Anchor>ad7c0aa439e1392aadbb5ed4fcb956bdd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17310,6 +17218,17 @@
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
     <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HasFd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
     <DeclaredIn>socketengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -18029,6 +17948,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasFd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -18634,6 +18564,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasSnomaskPermission</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>User</Scope>
+    </TokenIdentifier>
+    <Path>class_user.html</Path>
+    <Anchor>aad9725028dcc158fe25aa106b3257be3</Anchor>
+    <DeclaredIn>users.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>MakeHost</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -19011,7 +18952,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a6a376f2e2c4448d8e1288638540f2707</Anchor>
+    <Anchor>a982fa3195231117b83dde5b90ffd4685</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19254,6 +19195,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>HasFd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>EventHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_event_handler.html</Path>
+    <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
+    <DeclaredIn>socketengine.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -19355,6 +19307,16 @@
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
     <Anchor>a6adfda52c28d572ba24aca18ee1bc7a9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ULineList</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>UserManager</Scope>
+    </TokenIdentifier>
+    <Path>class_user_manager.html</Path>
+    <Anchor>a63f0e1d8653bdfe02247a2dce399a508</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19618,6 +19580,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>all_ulines</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>UserManager</Scope>
+    </TokenIdentifier>
+    <Path>class_user_manager.html</Path>
+    <Anchor>aa397e25e9833e043d78bf110f9464b89</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>unregistered_count</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -19625,16 +19597,6 @@
     </TokenIdentifier>
     <Path>class_user_manager.html</Path>
     <Anchor>a1ba341589eeb9ff647a38fbaceab512b</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>uline_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>UserManager</Scope>
-    </TokenIdentifier>
-    <Path>class_user_manager.html</Path>
-    <Anchor>ab7901f2902843f99c60540aa4f5dde70</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20180,13 +20142,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DEPRECATED_METHOD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>XLineManager</Scope>
+    </TokenIdentifier>
+    <Path>class_x_line_manager.html</Path>
+    <Anchor>ac7dc9fd66103ef63b9106dc52e9b4f89</Anchor>
+    <DeclaredIn>xline.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>InvokeStats</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>XLineManager</Scope>
     </TokenIdentifier>
     <Path>class_x_line_manager.html</Path>
-    <Anchor>a7fb82092d828e7d21c448db9e4e9cd39</Anchor>
+    <Anchor>af1b4da3ee13fb0d795dd97302004a8a8</Anchor>
     <DeclaredIn>xline.h</DeclaredIn>
   </Token>
   <Token>
@@ -25276,7 +25249,7 @@
       <Scope>ClientProtocol::Messages::Privmsg</Scope>
     </TokenIdentifier>
     <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>a79547515ab0a47b274fa1380307cde6e</Anchor>
+    <Anchor>aa0d14c90da6a00e7a892ef9b5814e83e</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -27571,6 +27544,93 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Numerics::CannotSendTo</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Numerics::CannotSendTo</Scope>
+    </TokenIdentifier>
+    <Path>class_numerics_1_1_cannot_send_to.html</Path>
+    <DeclaredIn>numericbuilder.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Numeric</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>ac4550b522e559744210ac5581b52d2aa</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a0913851c98f95e1486847bc023f2d04b</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetServer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a2bd7f0c1236dfb7b4433dc1a4c64ca50</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetServer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a091a94948852c943f85d5b92852e531d</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetNumeric</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>aed7fa51e7a7e7341d645019415530b3d</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>a6560dc95f54b8fe3ee235dd82be08ab8</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Numeric::Numeric</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_numeric.html</Path>
+    <Anchor>aafdd782234fd5a96caa05183c0898735</Anchor>
+    <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Numerics::InvalidModeParameter</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -27848,274 +27908,5 @@
     </TokenIdentifier>
     <Path>structstdalgo_1_1defaultdeleter.html</Path>
     <DeclaredIn>stdalgo.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WhoWas::Entry</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Entry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>add76b90854b589228b18b524bb772c8f</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>host</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>ab8fe0fa3ce95288bc84375ca36fe474f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>dhost</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>aa3f12d958e5613e82e26c2084c6a37e8</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ident</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>adbf3a33533ca34979850db70bf90eca2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>server</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>a8ff3047c4dab2200b5c66bdc5199c581</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>real</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>a30ea81694e078cbf9592fd104b009670</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>signon</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Entry</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_entry.html</Path>
-    <Anchor>ad8be856fe974a206c3e9b2c743aad291</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WhoWas::Manager</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Add</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>ade734af50c740a5b52621df4451e1ab4</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetStats</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>a04f3c8deb8493cd43a09038d7d3d59aa</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Maintain</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>afdd0125db6f21f57dbfb31815eb34d58</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>UpdateConfig</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>ad9c955ab9a64959fb7facf12f0b74bea</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FindNick</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>ad28c9cd7dd588a0b854371dce43dbf52</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IsEnabled</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>aed59d3c9d17102a8c5e0d1e21c6beb8a</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Manager</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>a5ee3ef68407da18d2816ea724a1e57cf</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Manager</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>WhoWas::Manager</Scope>
-    </TokenIdentifier>
-    <Path>class_who_was_1_1_manager.html</Path>
-    <Anchor>ac5f01cb0deb8f737563ea0fcaace1200</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WhoWas::Manager::Stats</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>WhoWas::Manager::Stats</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_manager_1_1_stats.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>entrycount</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Manager::Stats</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_manager_1_1_stats.html</Path>
-    <Anchor>a771d6b9e6224cbd86505b1178fb1a57d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WhoWas::Nick</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>List</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <Anchor>ad367fb14befd0f440479becb1ce2da3c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Nick</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <Anchor>a19418740ea79b130bdfcb8e138d0b43c</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Nick</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <Anchor>ab5af4ba86d9595b95feb6124a437dfd6</Anchor>
-    <DeclaredIn>cmd_whowas.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>entries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <Anchor>a3920bdf870a47126a18de068a8cbb496</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>addtime</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <Anchor>a00fa296d6d5e19e1754ce9d7ec0b261f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>nick</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>WhoWas::Nick</Scope>
-    </TokenIdentifier>
-    <Path>struct_who_was_1_1_nick.html</Path>
-    <Anchor>a8f271faa6adf2179094e1177cf94c2ee</Anchor>
   </Token>
 </Tokens>

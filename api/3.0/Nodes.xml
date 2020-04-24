@@ -350,7 +350,7 @@
                  <Node>
                   <Name>Privmsg</Name>
                   <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-                  <Anchor>a79547515ab0a47b274fa1380307cde6e</Anchor>
+                  <Anchor>aa0d14c90da6a00e7a892ef9b5814e83e</Anchor>
                  </Node>
                  <Node>
                   <Name>Privmsg</Name>
@@ -2218,6 +2218,37 @@
             <Path></Path>
             <Subnodes>
              <Node>
+              <Name>CannotSendTo</Name>
+              <Path>class_numerics_1_1_cannot_send_to.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>CannotSendTo</Name>
+                <Path>class_numerics_1_1_cannot_send_to.html</Path>
+                <Anchor>a896a9f465f3aec7c150777064b62a3bb</Anchor>
+               </Node>
+               <Node>
+                <Name>CannotSendTo</Name>
+                <Path>class_numerics_1_1_cannot_send_to.html</Path>
+                <Anchor>ac3e1e2df08cd09156ab8c4d0e28ecb72</Anchor>
+               </Node>
+               <Node>
+                <Name>CannotSendTo</Name>
+                <Path>class_numerics_1_1_cannot_send_to.html</Path>
+                <Anchor>a601e09176b4f2b178f105e8020cca659</Anchor>
+               </Node>
+               <Node>
+                <Name>CannotSendTo</Name>
+                <Path>class_numerics_1_1_cannot_send_to.html</Path>
+                <Anchor>a15111bf615f39316c18ff3ba3b78e5ed</Anchor>
+               </Node>
+               <Node>
+                <Name>CannotSendTo</Name>
+                <Path>class_numerics_1_1_cannot_send_to.html</Path>
+                <Anchor>abb1518554a28bd87bcdd40df4910c473</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>InvalidModeParameter</Name>
               <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
               <Subnodes>
@@ -2280,146 +2311,6 @@
                 <Name>operator()</Name>
                 <Path>structstdalgo_1_1defaultdeleter.html</Path>
                 <Anchor>a771511f08401c6357fee7515096226d3</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>WhoWas</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>Entry</Name>
-              <Path>struct_who_was_1_1_entry.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Entry</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>add76b90854b589228b18b524bb772c8f</Anchor>
-               </Node>
-               <Node>
-                <Name>dhost</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>aa3f12d958e5613e82e26c2084c6a37e8</Anchor>
-               </Node>
-               <Node>
-                <Name>host</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>ab8fe0fa3ce95288bc84375ca36fe474f</Anchor>
-               </Node>
-               <Node>
-                <Name>ident</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>adbf3a33533ca34979850db70bf90eca2</Anchor>
-               </Node>
-               <Node>
-                <Name>real</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>a30ea81694e078cbf9592fd104b009670</Anchor>
-               </Node>
-               <Node>
-                <Name>server</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>a8ff3047c4dab2200b5c66bdc5199c581</Anchor>
-               </Node>
-               <Node>
-                <Name>signon</Name>
-                <Path>struct_who_was_1_1_entry.html</Path>
-                <Anchor>ad8be856fe974a206c3e9b2c743aad291</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Manager</Name>
-              <Path>class_who_was_1_1_manager.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Stats</Name>
-                <Path>struct_who_was_1_1_manager_1_1_stats.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>entrycount</Name>
-                  <Path>struct_who_was_1_1_manager_1_1_stats.html</Path>
-                  <Anchor>a771d6b9e6224cbd86505b1178fb1a57d</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Manager</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>a5ee3ef68407da18d2816ea724a1e57cf</Anchor>
-               </Node>
-               <Node>
-                <Name>~Manager</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>ac5f01cb0deb8f737563ea0fcaace1200</Anchor>
-               </Node>
-               <Node>
-                <Name>Add</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>ade734af50c740a5b52621df4451e1ab4</Anchor>
-               </Node>
-               <Node>
-                <Name>FindNick</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>ad28c9cd7dd588a0b854371dce43dbf52</Anchor>
-               </Node>
-               <Node>
-                <Name>GetStats</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>a04f3c8deb8493cd43a09038d7d3d59aa</Anchor>
-               </Node>
-               <Node>
-                <Name>IsEnabled</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>aed59d3c9d17102a8c5e0d1e21c6beb8a</Anchor>
-               </Node>
-               <Node>
-                <Name>Maintain</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>afdd0125db6f21f57dbfb31815eb34d58</Anchor>
-               </Node>
-               <Node>
-                <Name>UpdateConfig</Name>
-                <Path>class_who_was_1_1_manager.html</Path>
-                <Anchor>ad9c955ab9a64959fb7facf12f0b74bea</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Nick</Name>
-              <Path>struct_who_was_1_1_nick.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>List</Name>
-                <Path>struct_who_was_1_1_nick.html</Path>
-                <Anchor>ad367fb14befd0f440479becb1ce2da3c</Anchor>
-               </Node>
-               <Node>
-                <Name>Nick</Name>
-                <Path>struct_who_was_1_1_nick.html</Path>
-                <Anchor>a19418740ea79b130bdfcb8e138d0b43c</Anchor>
-               </Node>
-               <Node>
-                <Name>~Nick</Name>
-                <Path>struct_who_was_1_1_nick.html</Path>
-                <Anchor>ab5af4ba86d9595b95feb6124a437dfd6</Anchor>
-               </Node>
-               <Node>
-                <Name>addtime</Name>
-                <Path>struct_who_was_1_1_nick.html</Path>
-                <Anchor>a00fa296d6d5e19e1754ce9d7ec0b261f</Anchor>
-               </Node>
-               <Node>
-                <Name>entries</Name>
-                <Path>struct_who_was_1_1_nick.html</Path>
-                <Anchor>a3920bdf870a47126a18de068a8cbb496</Anchor>
-               </Node>
-               <Node>
-                <Name>nick</Name>
-                <Path>struct_who_was_1_1_nick.html</Path>
-                <Anchor>a8f271faa6adf2179094e1177cf94c2ee</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2800,7 +2691,7 @@
              <Node>
               <Name>~Command</Name>
               <Path>class_command.html</Path>
-              <Anchor>ab552bb3a07fdd1acbfd8ea76e69b2278</Anchor>
+              <Anchor>a62f95d59f162ec90e793b47d872262d4</Anchor>
              </Node>
              <Node>
               <Name>Handle</Name>
@@ -2813,9 +2704,44 @@
               <Anchor>a3211de55aeb3bf058278f89b1b335e90</Anchor>
              </Node>
              <Node>
+              <Name>TellNotEnoughParameters</Name>
+              <Path>class_command.html</Path>
+              <Anchor>a3c4703bc24250a29878575115fc5b861</Anchor>
+             </Node>
+             <Node>
+              <Name>TellNotRegistered</Name>
+              <Path>class_command.html</Path>
+              <Anchor>addd801ee8e431a2e20a717d5fea84437</Anchor>
+             </Node>
+             <Node>
+              <Name>flags_needed</Name>
+              <Path>class_command.html</Path>
+              <Anchor>a79d32cb2a891895915c9eee9b1ed2258</Anchor>
+             </Node>
+             <Node>
               <Name>force_manual_route</Name>
               <Path>class_command.html</Path>
               <Anchor>a6e0de9d2aaa9ba9ac6d42d958b5d3da0</Anchor>
+             </Node>
+             <Node>
+              <Name>Penalty</Name>
+              <Path>class_command.html</Path>
+              <Anchor>ac6b9342dbdc2ae5cda102e9453d257ae</Anchor>
+             </Node>
+             <Node>
+              <Name>syntax</Name>
+              <Path>class_command.html</Path>
+              <Anchor>a83a428345e17844e6a2b238bef60eb2b</Anchor>
+             </Node>
+             <Node>
+              <Name>use_count</Name>
+              <Path>class_command.html</Path>
+              <Anchor>a0f89a467a22751f6f08f3f06f830b063</Anchor>
+             </Node>
+             <Node>
+              <Name>works_before_reg</Name>
+              <Path>class_command.html</Path>
+              <Anchor>a6f985141126bdf496f7e56316a83d77c</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -2870,19 +2796,9 @@
               <Anchor>ac2d0453356b90a1760f99ca30ddd0c60</Anchor>
              </Node>
              <Node>
-              <Name>WorksBeforeReg</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>a7a7b0fd668de5ae02d1f00cbad064199</Anchor>
-             </Node>
-             <Node>
               <Name>allow_empty_last_param</Name>
               <Path>class_command_base.html</Path>
               <Anchor>aaa608bb2c13a1f0d95291303396d9f27</Anchor>
-             </Node>
-             <Node>
-              <Name>flags_needed</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>ac883df0d1d27328c3b25f6e7b44144da</Anchor>
              </Node>
              <Node>
               <Name>max_params</Name>
@@ -2895,29 +2811,9 @@
               <Anchor>a38cbd8f82b4d588a1605489c80f7f8e9</Anchor>
              </Node>
              <Node>
-              <Name>Penalty</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>ad7c0aa439e1392aadbb5ed4fcb956bdd</Anchor>
-             </Node>
-             <Node>
-              <Name>syntax</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>a57ced763c081488c18955ef0c387af38</Anchor>
-             </Node>
-             <Node>
               <Name>translation</Name>
               <Path>class_command_base.html</Path>
               <Anchor>a196781288c603e97eab9b778ee892bc3</Anchor>
-             </Node>
-             <Node>
-              <Name>use_count</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>a98c538984b12bc3ca4e174b221c6def4</Anchor>
-             </Node>
-             <Node>
-              <Name>works_before_reg</Name>
-              <Path>class_command_base.html</Path>
-              <Anchor>a215824d0f385435e65510225c95d066d</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3009,27 +2905,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>CommandWhowas</Name>
-            <Path>class_command_whowas.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>CommandWhowas</Name>
-              <Path>class_command_whowas.html</Path>
-              <Anchor>a6c2bf975a09d30cc6caf7eb3c71b6860</Anchor>
-             </Node>
-             <Node>
-              <Name>Handle</Name>
-              <Path>class_command_whowas.html</Path>
-              <Anchor>a7bbd87964f12d59d8498f8f494377455</Anchor>
-             </Node>
-             <Node>
-              <Name>manager</Name>
-              <Path>class_command_whowas.html</Path>
-              <Anchor>a9e1f2f7bb3afeb94bdedea0a93be0c2f</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>ConfigReaderThread</Name>
             <Path>class_config_reader_thread.html</Path>
             <Subnodes>
@@ -3077,7 +2952,7 @@
              <Node>
               <Name>initial</Name>
               <Path>class_config_status.html</Path>
-              <Anchor>a1297d167f0d91235a5962d5344ae32bf</Anchor>
+              <Anchor>ae7955b6481ec0a412ff95aa3fd350866</Anchor>
              </Node>
              <Node>
               <Name>srcuser</Name>
@@ -3287,6 +3162,16 @@
               <Anchor>afd19fe700698c6f135e58829c5ba0629</Anchor>
              </Node>
              <Node>
+              <Name>password</Name>
+              <Path>struct_connect_class.html</Path>
+              <Anchor>a76ca3062f9c248d3c85ad11cb280cc48</Anchor>
+             </Node>
+             <Node>
+              <Name>passwordhash</Name>
+              <Path>struct_connect_class.html</Path>
+              <Anchor>a0ffd217d32a9f4d995b7080712654e0a</Anchor>
+             </Node>
+             <Node>
               <Name>penaltythreshold</Name>
               <Path>struct_connect_class.html</Path>
               <Anchor>a7c89a041dc6bf9498944670f3404f1c1</Anchor>
@@ -3445,7 +3330,7 @@
              <Node>
               <Name>DLLManager</Name>
               <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a97c5b5a1f76d073cb53594c3ec91435b</Anchor>
+              <Anchor>a73872761e276fd701e7d8a1ee4062f8f</Anchor>
              </Node>
              <Node>
               <Name>~DLLManager</Name>
@@ -3460,32 +3345,27 @@
              <Node>
               <Name>GetSymbol</Name>
               <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a0e8f4cb7a0bd033cf66975e66bedcc8a</Anchor>
+              <Anchor>a38dda70584162e945cf4e9a371cfeed2</Anchor>
+             </Node>
+             <Node>
+              <Name>GetSymbol</Name>
+              <Path>class_d_l_l_manager.html</Path>
+              <Anchor>aace5601c1be30e3dc987cb920a3fa4f7</Anchor>
              </Node>
              <Node>
               <Name>GetVersion</Name>
               <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a7afd5e26add779a3da974ead16c04518</Anchor>
+              <Anchor>a2ece6589ed0561d554fd1f031c5a1cbb</Anchor>
              </Node>
              <Node>
               <Name>LastError</Name>
               <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a410691f0ddd035cb75c52c1bb3a1d29e</Anchor>
+              <Anchor>a5598e2e83b3f14b6ff43387e191a8835</Anchor>
              </Node>
              <Node>
-              <Name>RetrieveLastError</Name>
+              <Name>LibraryName</Name>
               <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a21e1b653ba42040a5aec5921c67516c9</Anchor>
-             </Node>
-             <Node>
-              <Name>err</Name>
-              <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a42a6222601677e9d13d278a32e93a18a</Anchor>
-             </Node>
-             <Node>
-              <Name>h</Name>
-              <Path>class_d_l_l_manager.html</Path>
-              <Anchor>a85c7eeb75fad8af319931a1ca735c502</Anchor>
+              <Anchor>ab9b4232a6824ed5bb65a3f67d09edb9f</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -3708,6 +3588,11 @@
               <Name>GetFd</Name>
               <Path>class_event_handler.html</Path>
               <Anchor>a703b8952d8f83b5d2c3b9bec2802109d</Anchor>
+             </Node>
+             <Node>
+              <Name>HasFd</Name>
+              <Path>class_event_handler.html</Path>
+              <Anchor>a234f1c289a0133a4f781da6108dfee0e</Anchor>
              </Node>
              <Node>
               <Name>OnEventHandlerError</Name>
@@ -5064,6 +4949,11 @@
               <Anchor>af5ef18389af4d0b7e1d8cf51a5182875</Anchor>
              </Node>
              <Node>
+              <Name>HasSnomaskPermission</Name>
+              <Path>class_local_user.html</Path>
+              <Anchor>a123f4945884ec740d76ff59c56cb784f</Anchor>
+             </Node>
+             <Node>
               <Name>OverruleNick</Name>
               <Path>class_local_user.html</Path>
               <Anchor>a27e3fd845d8f4d706b5bcea6aca17060</Anchor>
@@ -5412,6 +5302,11 @@
               <Path>class_message_details.html</Path>
               <Anchor>af07e5f2a68727165f93d7daf2babac23</Anchor>
              </Node>
+             <Node>
+              <Name>update_idle</Name>
+              <Path>class_message_details.html</Path>
+              <Anchor>a413c332fda6f118b3ff8228cce9fcc4d</Anchor>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -5581,32 +5476,32 @@
              <Node>
               <Name>IsListModeBase</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+              <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
              </Node>
              <Node>
               <Name>IsListModeBase</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+              <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
              </Node>
              <Node>
               <Name>IsParameterMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+              <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
              </Node>
              <Node>
               <Name>IsParameterMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+              <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
              </Node>
              <Node>
               <Name>IsPrefixMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+              <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
              </Node>
              <Node>
               <Name>IsPrefixMode</Name>
               <Path>class_mode_handler.html</Path>
-              <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+              <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
              </Node>
              <Node>
               <Name>NeedsOper</Name>
@@ -6629,6 +6524,11 @@
               <Anchor>ad326ca05c3d41535368ef5c231b1c326</Anchor>
              </Node>
              <Node>
+              <Name>AllowedSnomasks</Name>
+              <Path>class_oper_info.html</Path>
+              <Anchor>a365f28c082ddf7059c1e32fd541d673d</Anchor>
+             </Node>
+             <Node>
               <Name>AllowedUserModes</Name>
               <Path>class_oper_info.html</Path>
               <Anchor>aee44902413228d9911af1886f1980c9b</Anchor>
@@ -6760,6 +6660,11 @@
               <Name>unget</Name>
               <Path>struct_parser.html</Path>
               <Anchor>a6a453a5ee7babc3fefc6a1779d728184</Anchor>
+             </Node>
+             <Node>
+              <Name>wordchar</Name>
+              <Path>struct_parser.html</Path>
+              <Anchor>ad8605071d981cddf34a67a1219adcf85</Anchor>
              </Node>
              <Node>
               <Name>current</Name>
@@ -9055,6 +8960,11 @@
               <Anchor>a651ede4bf1feb29dc01e0be23b4e55d9</Anchor>
              </Node>
              <Node>
+              <Name>HasSnomaskPermission</Name>
+              <Path>class_user.html</Path>
+              <Anchor>aad9725028dcc158fe25aa106b3257be3</Anchor>
+             </Node>
+             <Node>
               <Name>InvalidateCache</Name>
               <Path>class_user.html</Path>
               <Anchor>a5d27df0379f0f7fc83de02b73673b1aa</Anchor>
@@ -9292,7 +9202,7 @@
              <Node>
               <Name>usertype</Name>
               <Path>class_user.html</Path>
-              <Anchor>a6a376f2e2c4448d8e1288638540f2707</Anchor>
+              <Anchor>a982fa3195231117b83dde5b90ffd4685</Anchor>
              </Node>
              <Node>
               <Name>uuid</Name>
@@ -9381,6 +9291,11 @@
               <Name>OperList</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a6adfda52c28d572ba24aca18ee1bc7a9</Anchor>
+             </Node>
+             <Node>
+              <Name>ULineList</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>a63f0e1d8653bdfe02247a2dce399a508</Anchor>
              </Node>
              <Node>
               <Name>UserManager</Name>
@@ -9488,14 +9403,14 @@
               <Anchor>a4c1ccf3027ce475e2ca64c2d73bc74f0</Anchor>
              </Node>
              <Node>
+              <Name>all_ulines</Name>
+              <Path>class_user_manager.html</Path>
+              <Anchor>aa397e25e9833e043d78bf110f9464b89</Anchor>
+             </Node>
+             <Node>
               <Name>clientlist</Name>
               <Path>class_user_manager.html</Path>
               <Anchor>a4102a503e29b60f95b8561d9595fa2a3</Anchor>
-             </Node>
-             <Node>
-              <Name>uline_count</Name>
-              <Path>class_user_manager.html</Path>
-              <Anchor>ab7901f2902843f99c60540aa4f5dde70</Anchor>
              </Node>
              <Node>
               <Name>unregistered_count</Name>
@@ -9744,6 +9659,11 @@
               <Anchor>a182a524c05b76c65ee3d6c81f3974060</Anchor>
              </Node>
              <Node>
+              <Name>DEPRECATED_METHOD</Name>
+              <Path>class_x_line_manager.html</Path>
+              <Anchor>ac7dc9fd66103ef63b9106dc52e9b4f89</Anchor>
+             </Node>
+             <Node>
               <Name>ExpireLine</Name>
               <Path>class_x_line_manager.html</Path>
               <Anchor>a210be30b41b3208939ee25bdf01f5e6a</Anchor>
@@ -9776,7 +9696,7 @@
              <Node>
               <Name>InvokeStats</Name>
               <Path>class_x_line_manager.html</Path>
-              <Anchor>a7fb82092d828e7d21c448db9e4e9cd39</Anchor>
+              <Anchor>af1b4da3ee13fb0d795dd97302004a8a8</Anchor>
              </Node>
              <Node>
               <Name>MatchesLine</Name>
@@ -10083,10 +10003,6 @@
                   <Path>class_command.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>CommandWhowas</Name>
-                    <Path>class_command_whowas.html</Path>
-                   </Node>
-                   <Node>
                     <Name>SplitCommand</Name>
                     <Path>class_split_command.html</Path>
                    </Node>
@@ -10219,6 +10135,10 @@
             <Path>class_command_parser.html</Path>
            </Node>
            <Node>
+            <Name>Events::ModuleEventProvider::Comp</Name>
+            <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
+           </Node>
+           <Node>
             <Name>Comp</Name>
             <Path></Path>
             <Subnodes>
@@ -10227,10 +10147,6 @@
               <Path>classinsp_1_1detail_1_1map__pair__compare.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>Events::ModuleEventProvider::Comp</Name>
-            <Path>struct_events_1_1_module_event_provider_1_1_comp.html</Path>
            </Node>
            <Node>
             <Name>ConfigStatus</Name>
@@ -10259,10 +10175,6 @@
            <Node>
             <Name>Events::ModuleEventProvider::ElementComp</Name>
             <Path>struct_events_1_1_module_event_provider_1_1_element_comp.html</Path>
-           </Node>
-           <Node>
-            <Name>WhoWas::Entry</Name>
-            <Path>struct_who_was_1_1_entry.html</Path>
            </Node>
            <Node>
             <Name>ClientProtocol::Event</Name>
@@ -10635,21 +10547,7 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>insp::intrusive_list_node&lt; Nick &gt;</Name>
-            <Path>classinsp_1_1intrusive__list__node.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>WhoWas::Nick</Name>
-              <Path>struct_who_was_1_1_nick.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>insp::intrusive_list_tail&lt; T, Tag &gt;</Name>
-            <Path>classinsp_1_1intrusive__list__tail.html</Path>
-           </Node>
-           <Node>
-            <Name>insp::intrusive_list_tail&lt; Nick &gt;</Name>
             <Path>classinsp_1_1intrusive__list__tail.html</Path>
            </Node>
            <Node>
@@ -10673,10 +10571,6 @@
            <Node>
             <Name>ListModeBase::ListItem</Name>
             <Path>struct_list_mode_base_1_1_list_item.html</Path>
-           </Node>
-           <Node>
-            <Name>WhoWas::Manager</Name>
-            <Path>class_who_was_1_1_manager.html</Path>
            </Node>
            <Node>
             <Name>MessageDetails</Name>
@@ -10779,6 +10673,10 @@
             <Path>class_numeric_1_1_numeric.html</Path>
             <Subnodes>
              <Node>
+              <Name>Numerics::CannotSendTo</Name>
+              <Path>class_numerics_1_1_cannot_send_to.html</Path>
+             </Node>
+             <Node>
               <Name>Numerics::InvalidModeParameter</Name>
               <Path>class_numerics_1_1_invalid_mode_parameter.html</Path>
              </Node>
@@ -10871,6 +10769,10 @@
             <Path>classreference.html</Path>
            </Node>
            <Node>
+            <Name>reference&lt; Module &gt;</Name>
+            <Path>classreference.html</Path>
+           </Node>
+           <Node>
             <Name>reference&lt; OperInfo &gt;</Name>
             <Path>classreference.html</Path>
            </Node>
@@ -10957,10 +10859,6 @@
            <Node>
             <Name>SocketEngine::Statistics</Name>
             <Path>class_socket_engine_1_1_statistics.html</Path>
-           </Node>
-           <Node>
-            <Name>WhoWas::Manager::Stats</Name>
-            <Path>struct_who_was_1_1_manager_1_1_stats.html</Path>
            </Node>
            <Node>
             <Name>irc::StrHashComp</Name>
@@ -11449,16 +11347,6 @@
             <Path>dir_d44c64559bbebec7f509842c48db8b23.html</Path>
             <Subnodes>
              <Node>
-              <Name>commands</Name>
-              <Path>dir_4d4c17f10dfc67a4e6c52aa126dbc0d5.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>cmd_whowas.h</Name>
-                <Path>cmd__whowas_8h_source.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>threadengines</Name>
               <Path>dir_3e5c4cef050305587f286532c46aea8a.html</Path>
               <Subnodes>
@@ -11619,6 +11507,10 @@
              <Node>
               <Name>modechange.h</Name>
               <Path>modechange_8h_source.html</Path>
+             </Node>
+             <Node>
+              <Name>moduledefs.h</Name>
+              <Path>moduledefs_8h_source.html</Path>
              </Node>
              <Node>
               <Name>modules.h</Name>

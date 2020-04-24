@@ -53,7 +53,7 @@ var searchData=
   ['doread_227',['DoRead',['../class_stream_socket.html#a581858cd737a683d504a48bd83b6300a',1,'StreamSocket']]],
   ['dowhois_228',['DoWhois',['../class_insp_i_r_cd.html#a4aadab2beadb11de75805c37292df2a5',1,'InspIRCd']]],
   ['dowrite_229',['DoWrite',['../class_stream_socket.html#a7d5219ca91425813c92cc09f7cf634ef',1,'StreamSocket::DoWrite()'],['../class_buffered_socket.html#a1351ab8d251cbe40eb567949f28107e3',1,'BufferedSocket::DoWrite()']]],
-  ['duration_230',['Duration',['../class_insp_i_r_cd.html#a48747fd039d988b19e665bfd5f6a86b6',1,'InspIRCd::Duration()'],['../class_x_line.html#a4e1b903b875792b357f3a535cf19e347',1,'XLine::duration()']]],
+  ['duration_230',['duration',['../class_x_line.html#a4e1b903b875792b357f3a535cf19e347',1,'XLine::duration()'],['../class_insp_i_r_cd.html#a48747fd039d988b19e665bfd5f6a86b6',1,'InspIRCd::Duration()']]],
   ['dying_231',['dying',['../class_module.html#aab94177da81fe7a68f37e48a554e272f',1,'Module']]],
   ['dynamic_5freference_232',['dynamic_reference',['../classdynamic__reference.html',1,'']]],
   ['dynamic_5freference_5fbase_233',['dynamic_reference_base',['../classdynamic__reference__base.html',1,'']]]

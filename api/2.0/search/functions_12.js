@@ -57,7 +57,7 @@ var searchData=
   ['socketengine_1761',['SocketEngine',['../class_socket_engine.html#a797adbf4ef594d984448c3ed116bda2e',1,'SocketEngine']]],
   ['sockettimeout_1762',['SocketTimeout',['../class_socket_timeout.html#a18c5039176910f802659986de84dfe5f',1,'SocketTimeout']]],
   ['spacesepstream_1763',['spacesepstream',['../classirc_1_1spacesepstream.html#a61711f1afdb601faccbd3890eeaabed0',1,'irc::spacesepstream']]],
-  ['spacify_1764',['Spacify',['../namespaceirc.html#a4f56a2579bdcd765013f03b932227656',1,'irc']]],
+  ['spacify_1764',['Spacify',['../namespaceirc.html#a1573c569f6fb8f32a12c55f0a7ac8205',1,'irc']]],
   ['splitchanlist_1765',['SplitChanList',['../class_user.html#a6876d094321ba00928b88e507df24cf8',1,'User']]],
   ['start_1766',['Start',['../class_thread_engine.html#a96c02687bcc49aefbaeca60f6d9d6685',1,'ThreadEngine::Start(Thread *thread_to_init)'],['../class_thread_engine.html#a96c02687bcc49aefbaeca60f6d9d6685',1,'ThreadEngine::Start(Thread *thread_to_init)']]],
   ['startdnslookup_1767',['StartDNSLookup',['../class_local_user.html#a1b489f878e7230ec96c10ebfbac5176e',1,'LocalUser']]],

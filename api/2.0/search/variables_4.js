@@ -7,5 +7,5 @@ var searchData=
   ['eventhandlers_1927',['EventHandlers',['../class_module_manager.html#a099599c85a6e8abf11230cf9c9c92ce0',1,'ModuleManager']]],
   ['exempt_1928',['exempt',['../class_user.html#a3c67c6d6e5d901d0b994e32bdb8ca7a5',1,'User']]],
   ['expires_1929',['expires',['../class_cached_query.html#a240cd2dc647b04c5357114102af63a79',1,'CachedQuery']]],
-  ['expiry_1930',['expiry',['../class_x_line.html#ab702e870421e6c3f4bdeaf4f1157fd88',1,'XLine::expiry()'],['../class_ban_cache_hit.html#ae7e7ac5d8c21b9c13291e59c477ac43d',1,'BanCacheHit::Expiry()']]]
+  ['expiry_1930',['Expiry',['../class_ban_cache_hit.html#ae7e7ac5d8c21b9c13291e59c477ac43d',1,'BanCacheHit::Expiry()'],['../class_x_line.html#ab702e870421e6c3f4bdeaf4f1157fd88',1,'XLine::expiry()']]]
 ];

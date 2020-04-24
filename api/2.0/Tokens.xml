@@ -19652,160 +19652,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OnDataReady</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ThreadSignalSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_thread_signal_socket.html</Path>
-    <Anchor>a321a079824c2d1b2ad4757d751728681</Anchor>
-    <DeclaredIn>threadengine_win32.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ThreadSignalSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_thread_signal_socket.html</Path>
-    <Anchor>a336bdab4dcfe4f208685a96b4009b5f9</Anchor>
-    <DeclaredIn>threadengine_win32.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>BufferedSocket</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a13700ce82624c151ed13e5dca9dfed1c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DoConnect</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>ad131d03043211c664d5f11ca8080c9c6</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnConnected</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a19a2114196259727718aae840892c4e5</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OnTimeout</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a3b39cecd363bf59f70fc7b22acf11a86</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DoRead</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a581858cd737a683d504a48bd83b6300a</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a6cf1b75c166a8d5b5bd47061ce4f330b</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getError</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>WriteData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a89d84e682d12d08bfe648302eae88941</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetNextLine</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getSendQSize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Close</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>ad1a551adaf473b45934f09b27883623c</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cull</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>StreamSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_stream_socket.html</Path>
-    <Anchor>afdc157dd752df2cce0ed53feca2eef55</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>GetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -19850,34 +19696,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Timeout</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a716c88c2e8eb56ab6df19226b02dfaac</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>BufferedSocket</Scope>
-    </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a804ebaa3eddafd9d69e1fc74ff7ff858</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DoWrite</Name>
+      <Name>cull</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>BufferedSocket</Scope>
+      <Scope>classbase</Scope>
     </TokenIdentifier>
-    <Path>class_buffered_socket.html</Path>
-    <Anchor>a1351ab8d251cbe40eb567949f28107e3</Anchor>
-    <DeclaredIn>inspsocket.h</DeclaredIn>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22435,7 +22261,7 @@
       <Scope>irc</Scope>
     </TokenIdentifier>
     <Path>namespaceirc.html</Path>
-    <Anchor>a4f56a2579bdcd765013f03b932227656</Anchor>
+    <Anchor>a1573c569f6fb8f32a12c55f0a7ac8205</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>

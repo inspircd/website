@@ -9103,12 +9103,6 @@
                  <Node>
                   <Name>BufferedSocket</Name>
                   <Path>class_buffered_socket.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>ThreadSignalSocket</Name>
-                    <Path>class_thread_signal_socket.html</Path>
-                   </Node>
-                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>UserIOHandler</Name>

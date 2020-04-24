@@ -83,7 +83,7 @@ var searchData=
   ['softsendqmax_868',['softsendqmax',['../struct_connect_class.html#ac04f6b4df65a38d6848866ac81897028',1,'ConnectClass']]],
   ['source_869',['source',['../class_core_exception.html#a9dfc048dbb60dbc5e14c19febf6169ff',1,'CoreException::source()'],['../class_request.html#a1b27232017519f5fd54cf1857b6e10ca',1,'Request::source()'],['../class_event.html#a5b0ea6da61961b9e34a667c569d2ab3e',1,'Event::source()'],['../class_x_line.html#ad1607cefc73ddfc87a756ee5b0652ef7',1,'XLine::source()']]],
   ['spacesepstream_870',['spacesepstream',['../classirc_1_1spacesepstream.html',1,'irc::spacesepstream'],['../classirc_1_1spacesepstream.html#a61711f1afdb601faccbd3890eeaabed0',1,'irc::spacesepstream::spacesepstream()']]],
-  ['spacify_871',['Spacify',['../namespaceirc.html#a4f56a2579bdcd765013f03b932227656',1,'irc']]],
+  ['spacify_871',['Spacify',['../namespaceirc.html#a1573c569f6fb8f32a12c55f0a7ac8205',1,'irc']]],
   ['splitchanlist_872',['SplitChanList',['../class_user.html#a6876d094321ba00928b88e507df24cf8',1,'User']]],
   ['splitcommand_873',['SplitCommand',['../class_split_command.html',1,'']]],
   ['start_874',['Start',['../class_thread_engine.html#a96c02687bcc49aefbaeca60f6d9d6685',1,'ThreadEngine::Start(Thread *thread_to_init)'],['../class_thread_engine.html#a96c02687bcc49aefbaeca60f6d9d6685',1,'ThreadEngine::Start(Thread *thread_to_init)']]],

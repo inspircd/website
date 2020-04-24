@@ -16,7 +16,7 @@ var searchData=
   ['getconfig_1410',['getConfig',['../class_oper_info.html#a81090190b049f304ff1c348f6340c93e',1,'OperInfo']]],
   ['getcount_1411',['GetCount',['../class_module_manager.html#a56edb0c2cb0f7ebd41c90cdaf64e23db',1,'ModuleManager']]],
   ['getcreator_1412',['GetCreator',['../class_resolver.html#a87cb822704a8f5bff7f565bfdf381e05',1,'Resolver']]],
-  ['geterror_1413',['GetError',['../class_config_reader.html#a9f5a85c20ffbaefb743c2db1d9f47c30',1,'ConfigReader::GetError()'],['../class_socket_engine.html#a001731d22a14e12cfd90144094676dc6',1,'SocketEngine::GetError()'],['../class_stream_socket.html#af04fdf06a02ad2eff7db8994375e8b0c',1,'StreamSocket::getError()']]],
+  ['geterror_1413',['getError',['../class_stream_socket.html#af04fdf06a02ad2eff7db8994375e8b0c',1,'StreamSocket::getError()'],['../class_config_reader.html#a9f5a85c20ffbaefb743c2db1d9f47c30',1,'ConfigReader::GetError()'],['../class_socket_engine.html#a001731d22a14e12cfd90144094676dc6',1,'SocketEngine::GetError()']]],
   ['getexitflag_1414',['GetExitFlag',['../class_thread.html#aee887ff1653b6c2912dd97ec07d2fd16',1,'Thread']]],
   ['getextbanstatus_1415',['GetExtBanStatus',['../class_channel.html#ac13eec9f30fa9b59c8d105e6e9a81a46',1,'Channel']]],
   ['getextlist_1416',['GetExtList',['../class_extensible.html#a04cab0b329ab81c275553347fd124b03',1,'Extensible']]],
