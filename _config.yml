@@ -28,7 +28,7 @@ navigation:
       uri: /
       icon: fa-home
     - title: Downloads
-      uri: https://github.com/inspircd/inspircd/releases/latest
+      uri: https://github.com/inspircd/inspircd/releases
       target: _blank
       icon: fa-cloud-download
     - title: Documentation
@@ -48,7 +48,7 @@ navigation:
       target: _blank
       icon: fa-github
     - title: Get InspIRCd
-      uri: https://github.com/inspircd/inspircd/releases/latest
+      uri: https://github.com/inspircd/inspircd/releases/tag/v3.6.0
       target: _blank
       icon: fa-download
 
@@ -57,7 +57,7 @@ misc:
     theme: red
     currentVersion: 3.6.0
     gitHubUrl: https://github.com/inspircd
-    latestUrl: https://github.com/inspircd/inspircd/releases/latest
+    latestUrl: https://github.com/inspircd/inspircd/releases/tag/v3.6.0
     configGuideUrl: https://docs.inspircd.org/3/configuration
     installGuideUrl: https://docs.inspircd.org/3/installation
     devurl:
