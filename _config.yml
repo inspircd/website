@@ -48,16 +48,16 @@ navigation:
       target: _blank
       icon: fa-github
     - title: Get InspIRCd
-      uri: https://github.com/inspircd/inspircd/releases/tag/v3.6.0
+      uri: https://github.com/inspircd/inspircd/releases/latest
       target: _blank
       icon: fa-download
 
 misc:
 # theme: red {default} | green | blue
     theme: red
-    currentVersion: 3.6.0
+    currentVersion: 3.7.0
     gitHubUrl: https://github.com/inspircd
-    latestUrl: https://github.com/inspircd/inspircd/releases/tag/v3.6.0
+    latestUrl: https://github.com/inspircd/inspircd/releases/latest
     configGuideUrl: https://docs.inspircd.org/3/configuration
     installGuideUrl: https://docs.inspircd.org/3/installation
     devurl:
