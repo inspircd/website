@@ -356,6 +356,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetLastHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a7799dced5fc937f62be573d155efcda6</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1654,7 +1665,7 @@
       <Scope>ConfigStatus</Scope>
     </TokenIdentifier>
     <Path>class_config_status.html</Path>
-    <Anchor>ae7955b6481ec0a412ff95aa3fd350866</Anchor>
+    <Anchor>a1297d167f0d91235a5962d5344ae32bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6395,7 +6406,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6406,7 +6417,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6417,7 +6428,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6428,7 +6439,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6439,7 +6450,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6450,7 +6461,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8558,7 +8569,7 @@
       <Scope>MessageDetails</Scope>
     </TokenIdentifier>
     <Path>class_message_details.html</Path>
-    <Anchor>af07e5f2a68727165f93d7daf2babac23</Anchor>
+    <Anchor>a4193077c74ccc17c8958769b07bc78fe</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8737,7 +8748,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8748,7 +8759,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8759,7 +8770,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8770,7 +8781,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8781,7 +8792,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8792,7 +8803,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -9485,18 +9496,73 @@
       <Type>cl</Type>
       <Scope>ModResult</Scope>
     </TokenIdentifier>
-    <Path>struct_mod_result.html</Path>
+    <Path>class_mod_result.html</Path>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator+</Name>
+      <Name>ModResult</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
+      <Type>instm</Type>
       <Scope>ModResult</Scope>
     </TokenIdentifier>
-    <Path>struct_mod_result.html</Path>
-    <Anchor>acc6f263aa153facd17f7aebe87ae5292</Anchor>
+    <Path>class_mod_result.html</Path>
+    <Anchor>a6d36d28d22139840fd06cc646f15c844</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ModResult</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModResult</Scope>
+    </TokenIdentifier>
+    <Path>class_mod_result.html</Path>
+    <Anchor>acd168836b6f7b58788368df2d8c3ddc5</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModResult</Scope>
+    </TokenIdentifier>
+    <Path>class_mod_result.html</Path>
+    <Anchor>a314015200efdb107d94b8e4f8f9a8fc4</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModResult</Scope>
+    </TokenIdentifier>
+    <Path>class_mod_result.html</Path>
+    <Anchor>aa04391c906c39b48402951677e5631f9</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModResult</Scope>
+    </TokenIdentifier>
+    <Path>class_mod_result.html</Path>
+    <Anchor>a3e10c906d91d83439f0ffba59a863bb8</Anchor>
+    <DeclaredIn>modules.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>check</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModResult</Scope>
+    </TokenIdentifier>
+    <Path>class_mod_result.html</Path>
+    <Anchor>a08b31021d09626cef748125e3d81951d</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -11034,7 +11100,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11045,7 +11111,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11056,7 +11122,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11067,7 +11133,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11078,7 +11144,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11089,7 +11155,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11460,7 +11526,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11471,7 +11537,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11482,7 +11548,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11493,7 +11559,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11504,7 +11570,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11515,7 +11581,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11982,7 +12048,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11993,7 +12059,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12004,7 +12070,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12015,7 +12081,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12026,7 +12092,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12037,7 +12103,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14887,7 +14953,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14898,7 +14964,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14909,7 +14975,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14920,7 +14986,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14931,7 +14997,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -14942,7 +15008,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15539,7 +15605,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
+    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15550,7 +15616,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
+    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15561,7 +15627,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
+    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15572,7 +15638,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
+    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15583,7 +15649,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
+    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15594,7 +15660,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
+    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -17207,6 +17273,17 @@
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
     <Anchor>a8f749127a9c6202fd3d302709d8a931c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetLastHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a7799dced5fc937f62be573d155efcda6</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
@@ -19180,6 +19257,17 @@
     </TokenIdentifier>
     <Path>class_stream_socket.html</Path>
     <Anchor>a8f749127a9c6202fd3d302709d8a931c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetLastHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a7799dced5fc937f62be573d155efcda6</Anchor>
     <DeclaredIn>inspsocket.h</DeclaredIn>
   </Token>
   <Token>
