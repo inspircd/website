@@ -312,7 +312,7 @@
                  <Node>
                   <Name>Pong</Name>
                   <Path>struct_client_protocol_1_1_messages_1_1_pong.html</Path>
-                  <Anchor>a8067405166804ce471833eea4b75e29c</Anchor>
+                  <Anchor>ac9f83dea7a0045bf44509195f7e012ae</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2767,6 +2767,11 @@
                 <Name>Params</Name>
                 <Path>class_command_base_1_1_params.html</Path>
                 <Anchor>a26d72b005b75ac7c12a5c20d31460943</Anchor>
+               </Node>
+               <Node>
+                <Name>GetTags</Name>
+                <Path>class_command_base_1_1_params.html</Path>
+                <Anchor>aafbc14ec475f47b59a557fb44803c383</Anchor>
                </Node>
                <Node>
                 <Name>GetTags</Name>
@@ -5908,6 +5913,11 @@
               <Name>OnChangeIdent</Name>
               <Path>class_module.html</Path>
               <Anchor>a135ab5a74a236dc4f696191b25efec2b</Anchor>
+             </Node>
+             <Node>
+              <Name>OnChangeRealHost</Name>
+              <Path>class_module.html</Path>
+              <Anchor>aab863fadc8f2f0c7f2968ac8292d27cd</Anchor>
              </Node>
              <Node>
               <Name>OnChangeRealName</Name>

@@ -163,6 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2e2a4e731ead980507fd02e0b1f69b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6aa4ebe19c22eb32f7a65ecbc74594"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a9f6aa4ebe19c22eb32f7a65ecbc74594">OnChangeHost</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;newhost)</td></tr>
 <tr class="separator:a9f6aa4ebe19c22eb32f7a65ecbc74594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab863fadc8f2f0c7f2968ac8292d27cd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#aab863fadc8f2f0c7f2968ac8292d27cd">OnChangeRealHost</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;newhost)</td></tr>
+<tr class="separator:aab863fadc8f2f0c7f2968ac8292d27cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9cee26dfdf58c5e001fafedbefc107"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a8e9cee26dfdf58c5e001fafedbefc107">OnChangeRealName</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;real)</td></tr>
 <tr class="separator:a8e9cee26dfdf58c5e001fafedbefc107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a135ab5a74a236dc4f696191b25efec2b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_module.html#a135ab5a74a236dc4f696191b25efec2b">OnChangeIdent</a> (<a class="el" href="class_user.html">User</a> *user, const std::string &amp;ident)</td></tr>
@@ -714,6 +716,49 @@ Public Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">user</td><td>The user who's IDENT is being changed </td></tr>
     <tr><td class="paramname">ident</td><td>The new IDENT being set on the user </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aab863fadc8f2f0c7f2968ac8292d27cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab863fadc8f2f0c7f2968ac8292d27cd">&#9670;&nbsp;</a></span>OnChangeRealHost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Module::OnChangeRealHost </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_user.html">User</a> *&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>newhost</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called whenever a user's real hostname is changed. This event triggers after the host has been set. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>The user whos host is being changed </td></tr>
+    <tr><td class="paramname">newhost</td><td>The new hostname being set </td></tr>
   </table>
   </dd>
 </dl>

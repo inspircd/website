@@ -126,7 +126,7 @@ $(function() {
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> dynamic_reference_base::check()</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (!value)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">throw</span> <a class="code" href="class_module_exception.html">ModuleException</a>(<span class="stringliteral">&quot;Dynamic reference to &#39;&quot;</span> + name + <span class="stringliteral">&quot;&#39; failed to resolve&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">throw</span> <a class="code" href="class_module_exception.html">ModuleException</a>(<span class="stringliteral">&quot;Dynamic reference to &#39;&quot;</span> + name + <span class="stringliteral">&quot;&#39; failed to resolve. Are you missing a module?&quot;</span>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
@@ -210,7 +210,7 @@ $(function() {
 <div class="ttc" id="aclass_chan_mode_reference_html"><div class="ttname"><a href="class_chan_mode_reference.html">ChanModeReference</a></div><div class="ttdef"><b>Definition:</b> dynref.h:123</div></div>
 <div class="ttc" id="aclassdynamic__reference__base_1_1_capture_hook_html"><div class="ttname"><a href="classdynamic__reference__base_1_1_capture_hook.html">dynamic_reference_base::CaptureHook</a></div><div class="ttdef"><b>Definition:</b> dynref.h:28</div></div>
 <div class="ttc" id="aclassinsp_1_1intrusive__list__node_html"><div class="ttname"><a href="classinsp_1_1intrusive__list__node.html">insp::intrusive_list_node</a></div><div class="ttdef"><b>Definition:</b> intrusive_list.h:33</div></div>
-<div class="ttc" id="aclass_module_html"><div class="ttname"><a href="class_module.html">Module</a></div><div class="ttdef"><b>Definition:</b> modules.h:261</div></div>
+<div class="ttc" id="aclass_module_html"><div class="ttname"><a href="class_module.html">Module</a></div><div class="ttdef"><b>Definition:</b> modules.h:316</div></div>
 <div class="ttc" id="aclassdynamic__reference__base_html"><div class="ttname"><a href="classdynamic__reference__base.html">dynamic_reference_base</a></div><div class="ttdef"><b>Definition:</b> dynref.h:25</div></div>
 <div class="ttc" id="aclassdynamic__reference_html"><div class="ttname"><a href="classdynamic__reference.html">dynamic_reference</a></div><div class="ttdef"><b>Definition:</b> dynref.h:66</div></div>
 <div class="ttc" id="aclass_mode_handler_html"><div class="ttname"><a href="class_mode_handler.html">ModeHandler</a></div><div class="ttdef"><b>Definition:</b> mode.h:99</div></div>

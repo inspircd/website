@@ -8,7 +8,7 @@ var searchData=
   ['idfromstring_487',['IdFromString',['../class_membership.html#a510288ac8746629c93b957faae7e5a71',1,'Membership']]],
   ['idle_5flastmsg_488',['idle_lastmsg',['../class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49',1,'LocalUser']]],
   ['ignoreerror_489',['IgnoreError',['../class_socket_engine.html#a7507410648b20e8cdb5c239a4ed72130',1,'SocketEngine']]],
-  ['init_490',['init',['../class_module.html#ab19e59816d97db07363143c859ad0c10',1,'Module::init()'],['../class_u_i_d_generator.html#a7874e12595202349252154445272916a',1,'UIDGenerator::init()'],['../class_socket_engine.html#a36b261dd6310cbd6e7f584b7f9260177',1,'SocketEngine::Init()']]],
+  ['init_490',['Init',['../class_socket_engine.html#a36b261dd6310cbd6e7f584b7f9260177',1,'SocketEngine::Init()'],['../class_module.html#ab19e59816d97db07363143c859ad0c10',1,'Module::init()'],['../class_u_i_d_generator.html#a7874e12595202349252154445272916a',1,'UIDGenerator::init()']]],
   ['initial_491',['initial',['../class_config_status.html#a1297d167f0d91235a5962d5344ae32bf',1,'ConfigStatus']]],
   ['insensitive_492',['insensitive',['../structirc_1_1insensitive.html',1,'irc']]],
   ['insensitive_5fswo_493',['insensitive_swo',['../structirc_1_1insensitive__swo.html',1,'irc']]],
