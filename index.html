@@ -10,8 +10,12 @@ layout: default
         <h3 class="posts__article-title">{{ post.title }}</h3>
         <h5 class="posts__article-subtitle">Posted by <strong>~{{ post.author }}</strong> on <strong>{{ post.date | date: '%B %d, %Y' }}</strong></h5>
         <p class="posts__article-excerpt">
-            <!--{{ post.content | truncatewords: 125 | strip_html }}-->
-            {{ post.excerpt | strip_html }}
+            {% assign main_post=post.excerpt | replace: '<a', '@@a@@' %}
+            {% assign main_post=main_post | replace: '</a>', '@@/a@@' %}
+            {% assign main_post=main_post | strip_html %}
+            {% assign main_post=main_post | replace: '@@a@@', '<a ' %}
+            {% assign main_post=main_post | replace: '@@/a@@', '</a>' %}
+            {{ main_post }}
         </p>
         <div class="button accent float--right button__read-more">
             <a href="{{ site.misc.devurl}}{{ post.url }}" title="Read more about this article">Read more</a>
