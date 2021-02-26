@@ -2,7 +2,7 @@ var searchData=
 [
   ['data_162',['Data',['../class_serializable_1_1_data.html',1,'Serializable::Data'],['../class_server_config_1_1_server_paths.html#aa9b3c850116db3ad0b9e160da29a2efe',1,'ServerConfig::ServerPaths::Data()']]],
   ['dataprovider_163',['DataProvider',['../class_data_provider.html',1,'']]],
-  ['dataproviders_164',['DataProviders',['../class_module_manager.html#aeb004147526c7ac91e611c42187e4f6d',1,'ModuleManager']]],
+  ['dataproviders_164',['DataProviders',['../class_module_manager.html#a85364a79602cd9bda2fd312101a5f532',1,'ModuleManager']]],
   ['defaultapply_165',['DefaultApply',['../class_x_line.html#a9e9d72bd8517a61f3020c8d3e03069cc',1,'XLine']]],
   ['defaultdeleter_166',['defaultdeleter',['../structstdalgo_1_1defaultdeleter.html',1,'stdalgo']]],
   ['defaultgenrandom_167',['DefaultGenRandom',['../class_insp_i_r_cd.html#a6f634b6ca5a9f243779f45125c3815a0',1,'InspIRCd']]],

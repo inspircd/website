@@ -508,119 +508,120 @@ $(function() {
 <div class="line"><a name="l01050"></a><span class="lineno"><a class="line" href="class_module_manager.html"> 1050</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_module_manager.html">ModuleManager</a> : <span class="keyword">public</span> <a class="code" href="structfakederef.html">fakederef</a>&lt;ModuleManager&gt;</div>
 <div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;{</div>
 <div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;        <span class="keyword">typedef</span> std::vector&lt;ServiceProvider*&gt; ServiceList;</div>
-<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160; </div>
-<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;        std::string LastModuleError;</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160; </div>
-<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;        std::map&lt;std::string, Module*&gt; Modules;</div>
-<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160; </div>
-<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;        <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;                PRIO_STATE_FIRST,</div>
-<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;                PRIO_STATE_AGAIN,</div>
-<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;                PRIO_STATE_LAST</div>
-<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;        } prioritizationState;</div>
-<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160; </div>
-<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;        <span class="keywordtype">void</span> LoadCoreModules(std::map&lt;std::string, ServiceList&gt;&amp; servicemap);</div>
-<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160; </div>
-<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;        <span class="keywordtype">bool</span> PrioritizeHooks();</div>
-<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160; </div>
-<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;        <span class="keywordtype">void</span> UnregisterModes(<a class="code" href="class_module.html">Module</a>* mod, ModeType modetype);</div>
-<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160; </div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;        <span class="keyword">typedef</span> std::map&lt;std::string, Module*&gt; ModuleMap;</div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160; </div>
-<div class="line"><a name="l01092"></a><span class="lineno"><a class="line" href="class_module_manager.html#a99f78c36a8ecefe883b159a0f1d02e87"> 1092</a></span>&#160;        <a class="code" href="class_module.html#a83b2c5b16047bc1a89ab9035396fbdd6">Module::List</a> EventHandlers[I_END];</div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160; </div>
-<div class="line"><a name="l01095"></a><span class="lineno"><a class="line" href="class_module_manager.html#aeb004147526c7ac91e611c42187e4f6d"> 1095</a></span>&#160;        std::multimap&lt;std::string, ServiceProvider*, irc::insensitive_swo&gt; <a class="code" href="class_module_manager.html#aeb004147526c7ac91e611c42187e4f6d">DataProviders</a>;</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160; </div>
-<div class="line"><a name="l01105"></a><span class="lineno"><a class="line" href="class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e"> 1105</a></span>&#160;        ServiceList* <a class="code" href="class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e">NewServices</a>;</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160; </div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;        <span class="keyword">static</span> std::string ExpandModName(<span class="keyword">const</span> std::string&amp; modname);</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160; </div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;        <a class="code" href="class_module_manager.html">ModuleManager</a>();</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160; </div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;        ~<a class="code" href="class_module_manager.html">ModuleManager</a>();</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160; </div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;        <span class="keywordtype">bool</span> SetPriority(<a class="code" href="class_module.html">Module</a>* mod, Implementation i, Priority s, <a class="code" href="class_module.html">Module</a>* which = NULL);</div>
-<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160; </div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        <span class="keywordtype">void</span> SetPriority(<a class="code" href="class_module.html">Module</a>* mod, Priority s);</div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160; </div>
-<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;        <span class="keywordtype">bool</span> Attach(Implementation i, <a class="code" href="class_module.html">Module</a>* mod);</div>
-<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160; </div>
-<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;        <span class="keywordtype">bool</span> Detach(Implementation i, <a class="code" href="class_module.html">Module</a>* mod);</div>
-<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160; </div>
-<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;        <span class="keywordtype">void</span> Attach(Implementation* i, <a class="code" href="class_module.html">Module</a>* mod, <span class="keywordtype">size_t</span> sz);</div>
-<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160; </div>
-<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;        <span class="keywordtype">void</span> DetachAll(<a class="code" href="class_module.html">Module</a>* mod);</div>
-<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160; </div>
-<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;        <span class="keywordtype">void</span> AttachAll(<a class="code" href="class_module.html">Module</a>* mod);</div>
-<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160; </div>
-<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;        std::string&amp; LastError();</div>
-<div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160; </div>
-<div class="line"><a name="l01195"></a><span class="lineno"> 1195</span>&#160;        <span class="keywordtype">bool</span> Load(<span class="keyword">const</span> std::string&amp; filename, <span class="keywordtype">bool</span> defer = <span class="keyword">false</span>);</div>
-<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160; </div>
-<div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;        <span class="keywordtype">bool</span> Unload(<a class="code" href="class_module.html">Module</a>* module);</div>
-<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160; </div>
-<div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;        <span class="keywordtype">void</span> LoadAll();</div>
-<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;        <span class="keywordtype">void</span> UnloadAll();</div>
-<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;        <span class="keywordtype">void</span> DoSafeUnload(<a class="code" href="class_module.html">Module</a>*);</div>
-<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160; </div>
-<div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;        <span class="keywordtype">bool</span> CanUnload(<a class="code" href="class_module.html">Module</a>* mod);</div>
-<div class="line"><a name="l01216"></a><span class="lineno"> 1216</span>&#160; </div>
-<div class="line"><a name="l01222"></a><span class="lineno"> 1222</span>&#160;        <a class="code" href="class_module.html">Module</a>* Find(<span class="keyword">const</span> std::string &amp;name);</div>
-<div class="line"><a name="l01223"></a><span class="lineno"> 1223</span>&#160; </div>
-<div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;        <span class="keywordtype">void</span> AddService(<a class="code" href="class_service_provider.html">ServiceProvider</a>&amp;);</div>
-<div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160; </div>
-<div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;        <span class="keywordtype">void</span> DelService(<a class="code" href="class_service_provider.html">ServiceProvider</a>&amp;);</div>
-<div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160; </div>
-<div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;        <span class="keywordtype">void</span> AddServices(<span class="keyword">const</span> ServiceList&amp; list);</div>
-<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160; </div>
-<div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> AddServices(<a class="code" href="class_service_provider.html">ServiceProvider</a>** list, <span class="keywordtype">int</span> count)</div>
-<div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;        {</div>
-<div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i &lt; count; i++)</div>
-<div class="line"><a name="l01238"></a><span class="lineno"> 1238</span>&#160;                        AddService(*list[i]);</div>
-<div class="line"><a name="l01239"></a><span class="lineno"> 1239</span>&#160;        }</div>
-<div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160; </div>
-<div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;        <a class="code" href="class_service_provider.html">ServiceProvider</a>* FindService(ServiceType Type, <span class="keyword">const</span> std::string&amp; name);</div>
-<div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160; </div>
-<div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;        <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">inline</span> T* FindDataService(<span class="keyword">const</span> std::string&amp; name)</div>
-<div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;        {</div>
-<div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(FindService(SERVICE_DATA, name));</div>
-<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;        }</div>
-<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160; </div>
-<div class="line"><a name="l01254"></a><span class="lineno"><a class="line" href="class_module_manager.html#a63b95165f3e5463ea4f2551664af3bc6"> 1254</a></span>&#160;        <span class="keyword">const</span> ModuleMap&amp; <a class="code" href="class_module_manager.html#a63b95165f3e5463ea4f2551664af3bc6">GetModules</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Modules; }</div>
-<div class="line"><a name="l01255"></a><span class="lineno"> 1255</span>&#160; </div>
-<div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;        <span class="keywordtype">void</span> AddReferent(<span class="keyword">const</span> std::string&amp; name, <a class="code" href="class_service_provider.html">ServiceProvider</a>* service);</div>
-<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160; </div>
-<div class="line"><a name="l01265"></a><span class="lineno"> 1265</span>&#160;        <span class="keywordtype">void</span> DelReferent(<a class="code" href="class_service_provider.html">ServiceProvider</a>* service);</div>
-<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;};</div>
+<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;        <span class="keyword">typedef</span> std::multimap&lt;std::string, ServiceProvider*, irc::insensitive_swo&gt; DataProviderMap;</div>
+<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;        <span class="keyword">typedef</span> std::vector&lt;ServiceProvider*&gt; ServiceList;</div>
+<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160; </div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;        std::string LastModuleError;</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160; </div>
+<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;        std::map&lt;std::string, Module*&gt; Modules;</div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160; </div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;        <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;                PRIO_STATE_FIRST,</div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;                PRIO_STATE_AGAIN,</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;                PRIO_STATE_LAST</div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;        } prioritizationState;</div>
+<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160; </div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;        <span class="keywordtype">void</span> LoadCoreModules(std::map&lt;std::string, ServiceList&gt;&amp; servicemap);</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160; </div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;        <span class="keywordtype">bool</span> PrioritizeHooks();</div>
+<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160; </div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;        <span class="keywordtype">void</span> UnregisterModes(<a class="code" href="class_module.html">Module</a>* mod, ModeType modetype);</div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160; </div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;        <span class="keyword">typedef</span> std::map&lt;std::string, Module*&gt; ModuleMap;</div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160; </div>
+<div class="line"><a name="l01093"></a><span class="lineno"><a class="line" href="class_module_manager.html#a99f78c36a8ecefe883b159a0f1d02e87"> 1093</a></span>&#160;        <a class="code" href="class_module.html#a83b2c5b16047bc1a89ab9035396fbdd6">Module::List</a> EventHandlers[I_END];</div>
+<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160; </div>
+<div class="line"><a name="l01096"></a><span class="lineno"><a class="line" href="class_module_manager.html#a85364a79602cd9bda2fd312101a5f532"> 1096</a></span>&#160;        DataProviderMap <a class="code" href="class_module_manager.html#a85364a79602cd9bda2fd312101a5f532">DataProviders</a>;</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160; </div>
+<div class="line"><a name="l01106"></a><span class="lineno"><a class="line" href="class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e"> 1106</a></span>&#160;        ServiceList* <a class="code" href="class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e">NewServices</a>;</div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160; </div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;        <span class="keyword">static</span> std::string ExpandModName(<span class="keyword">const</span> std::string&amp; modname);</div>
+<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160; </div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;        <a class="code" href="class_module_manager.html">ModuleManager</a>();</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160; </div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;        ~<a class="code" href="class_module_manager.html">ModuleManager</a>();</div>
+<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160; </div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;        <span class="keywordtype">bool</span> SetPriority(<a class="code" href="class_module.html">Module</a>* mod, Implementation i, Priority s, <a class="code" href="class_module.html">Module</a>* which = NULL);</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160; </div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;        <span class="keywordtype">void</span> SetPriority(<a class="code" href="class_module.html">Module</a>* mod, Priority s);</div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160; </div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;        <span class="keywordtype">bool</span> Attach(Implementation i, <a class="code" href="class_module.html">Module</a>* mod);</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160; </div>
+<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;        <span class="keywordtype">bool</span> Detach(Implementation i, <a class="code" href="class_module.html">Module</a>* mod);</div>
+<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160; </div>
+<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;        <span class="keywordtype">void</span> Attach(Implementation* i, <a class="code" href="class_module.html">Module</a>* mod, <span class="keywordtype">size_t</span> sz);</div>
+<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160; </div>
+<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;        <span class="keywordtype">void</span> DetachAll(<a class="code" href="class_module.html">Module</a>* mod);</div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160; </div>
+<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;        <span class="keywordtype">void</span> AttachAll(<a class="code" href="class_module.html">Module</a>* mod);</div>
+<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160; </div>
+<div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;        std::string&amp; LastError();</div>
+<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160; </div>
+<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;        <span class="keywordtype">bool</span> Load(<span class="keyword">const</span> std::string&amp; filename, <span class="keywordtype">bool</span> defer = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160; </div>
+<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;        <span class="keywordtype">bool</span> Unload(<a class="code" href="class_module.html">Module</a>* module);</div>
+<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160; </div>
+<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;        <span class="keywordtype">void</span> LoadAll();</div>
+<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;        <span class="keywordtype">void</span> UnloadAll();</div>
+<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;        <span class="keywordtype">void</span> DoSafeUnload(<a class="code" href="class_module.html">Module</a>*);</div>
+<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160; </div>
+<div class="line"><a name="l01216"></a><span class="lineno"> 1216</span>&#160;        <span class="keywordtype">bool</span> CanUnload(<a class="code" href="class_module.html">Module</a>* mod);</div>
+<div class="line"><a name="l01217"></a><span class="lineno"> 1217</span>&#160; </div>
+<div class="line"><a name="l01223"></a><span class="lineno"> 1223</span>&#160;        <a class="code" href="class_module.html">Module</a>* Find(<span class="keyword">const</span> std::string &amp;name);</div>
+<div class="line"><a name="l01224"></a><span class="lineno"> 1224</span>&#160; </div>
+<div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160;        <span class="keywordtype">void</span> AddService(<a class="code" href="class_service_provider.html">ServiceProvider</a>&amp;);</div>
+<div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160; </div>
+<div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;        <span class="keywordtype">void</span> DelService(<a class="code" href="class_service_provider.html">ServiceProvider</a>&amp;);</div>
+<div class="line"><a name="l01230"></a><span class="lineno"> 1230</span>&#160; </div>
+<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;        <span class="keywordtype">void</span> AddServices(<span class="keyword">const</span> ServiceList&amp; list);</div>
+<div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160; </div>
+<div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> AddServices(<a class="code" href="class_service_provider.html">ServiceProvider</a>** list, <span class="keywordtype">int</span> count)</div>
+<div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;        {</div>
+<div class="line"><a name="l01238"></a><span class="lineno"> 1238</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i &lt; count; i++)</div>
+<div class="line"><a name="l01239"></a><span class="lineno"> 1239</span>&#160;                        AddService(*list[i]);</div>
+<div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;        }</div>
+<div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160; </div>
+<div class="line"><a name="l01245"></a><span class="lineno"> 1245</span>&#160;        <a class="code" href="class_service_provider.html">ServiceProvider</a>* FindService(ServiceType Type, <span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160; </div>
+<div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;        <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">inline</span> T* FindDataService(<span class="keyword">const</span> std::string&amp; name)</div>
+<div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;        {</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(FindService(SERVICE_DATA, name));</div>
+<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;        }</div>
+<div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160; </div>
+<div class="line"><a name="l01255"></a><span class="lineno"><a class="line" href="class_module_manager.html#a63b95165f3e5463ea4f2551664af3bc6"> 1255</a></span>&#160;        <span class="keyword">const</span> ModuleMap&amp; <a class="code" href="class_module_manager.html#a63b95165f3e5463ea4f2551664af3bc6">GetModules</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Modules; }</div>
+<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160; </div>
+<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;        <span class="keywordtype">void</span> AddReferent(<span class="keyword">const</span> std::string&amp; name, <a class="code" href="class_service_provider.html">ServiceProvider</a>* service);</div>
+<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160; </div>
+<div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;        <span class="keywordtype">void</span> DelReferent(<a class="code" href="class_service_provider.html">ServiceProvider</a>* service);</div>
+<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="astructfakederef_html"><div class="ttname"><a href="structfakederef.html">fakederef</a></div><div class="ttdef"><b>Definition:</b> inspircd.h:71</div></div>
 <div class="ttc" id="aclass_message_target_html"><div class="ttname"><a href="class_message_target.html">MessageTarget</a></div><div class="ttdef"><b>Definition:</b> message.h:94</div></div>
 <div class="ttc" id="aclass_extensible_html"><div class="ttname"><a href="class_extensible.html">Extensible</a></div><div class="ttdef"><b>Definition:</b> extensible.h:139</div></div>
 <div class="ttc" id="aclass_module_html_a5bbdc3c59248520549e5904bb402e2cb"><div class="ttname"><a href="class_module.html#a5bbdc3c59248520549e5904bb402e2cb">Module::ModuleDLLManager</a></div><div class="ttdeci">DLLManager * ModuleDLLManager</div><div class="ttdef"><b>Definition:</b> modules.h:333</div></div>
-<div class="ttc" id="aclass_module_manager_html_a63b95165f3e5463ea4f2551664af3bc6"><div class="ttname"><a href="class_module_manager.html#a63b95165f3e5463ea4f2551664af3bc6">ModuleManager::GetModules</a></div><div class="ttdeci">const ModuleMap &amp; GetModules() const</div><div class="ttdef"><b>Definition:</b> modules.h:1254</div></div>
+<div class="ttc" id="aclass_module_manager_html_a63b95165f3e5463ea4f2551664af3bc6"><div class="ttname"><a href="class_module_manager.html#a63b95165f3e5463ea4f2551664af3bc6">ModuleManager::GetModules</a></div><div class="ttdeci">const ModuleMap &amp; GetModules() const</div><div class="ttdef"><b>Definition:</b> modules.h:1255</div></div>
 <div class="ttc" id="aclass_modes_1_1_change_list_html"><div class="ttname"><a href="class_modes_1_1_change_list.html">Modes::ChangeList</a></div><div class="ttdef"><b>Definition:</b> modechange.h:52</div></div>
 <div class="ttc" id="aclass_version_html_a9bf5196fb39e8d0864ae0015c207ee4f"><div class="ttname"><a href="class_version.html#a9bf5196fb39e8d0864ae0015c207ee4f">Version::Flags</a></div><div class="ttdeci">const int Flags</div><div class="ttdef"><b>Definition:</b> modules.h:209</div></div>
 <div class="ttc" id="aclass_module_html_a83b2c5b16047bc1a89ab9035396fbdd6"><div class="ttname"><a href="class_module.html#a83b2c5b16047bc1a89ab9035396fbdd6">Module::List</a></div><div class="ttdeci">std::vector&lt; Module * &gt; List</div><div class="ttdef"><b>Definition:</b> modules.h:325</div></div>
 <div class="ttc" id="aclass_service_provider_html"><div class="ttname"><a href="class_service_provider.html">ServiceProvider</a></div><div class="ttdef"><b>Definition:</b> base.h:250</div></div>
 <div class="ttc" id="aclass_message_details_html"><div class="ttname"><a href="class_message_details.html">MessageDetails</a></div><div class="ttdef"><b>Definition:</b> message.h:33</div></div>
 <div class="ttc" id="astruct_connect_class_html"><div class="ttname"><a href="struct_connect_class.html">ConnectClass</a></div><div class="ttdef"><b>Definition:</b> users.h:75</div></div>
+<div class="ttc" id="aclass_module_manager_html_a85364a79602cd9bda2fd312101a5f532"><div class="ttname"><a href="class_module_manager.html#a85364a79602cd9bda2fd312101a5f532">ModuleManager::DataProviders</a></div><div class="ttdeci">DataProviderMap DataProviders</div><div class="ttdef"><b>Definition:</b> modules.h:1096</div></div>
 <div class="ttc" id="aclassclassbase_html_a2a773ec2f42d047e0ce250553f44d831"><div class="ttname"><a href="classclassbase.html#a2a773ec2f42d047e0ce250553f44d831">classbase::cull</a></div><div class="ttdeci">virtual CullResult cull()</div><div class="ttdef"><b>Definition:</b> base.cpp:41</div></div>
 <div class="ttc" id="aclass_data_provider_html"><div class="ttname"><a href="class_data_provider.html">DataProvider</a></div><div class="ttdef"><b>Definition:</b> modules.h:221</div></div>
 <div class="ttc" id="aclass_module_html_aab94177da81fe7a68f37e48a554e272f"><div class="ttname"><a href="class_module.html#aab94177da81fe7a68f37e48a554e272f">Module::dying</a></div><div class="ttdeci">bool dying</div><div class="ttdef"><b>Definition:</b> modules.h:338</div></div>
 <div class="ttc" id="aunionirc_1_1sockets_1_1sockaddrs_html"><div class="ttname"><a href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a></div><div class="ttdef"><b>Definition:</b> socket.h:62</div></div>
 <div class="ttc" id="aclass_version_html_a582d176eac036b28cdd462c3cb6af917"><div class="ttname"><a href="class_version.html#a582d176eac036b28cdd462c3cb6af917">Version::link_data</a></div><div class="ttdeci">const std::string link_data</div><div class="ttdef"><b>Definition:</b> modules.h:212</div></div>
 <div class="ttc" id="aclass_module_manager_html"><div class="ttname"><a href="class_module_manager.html">ModuleManager</a></div><div class="ttdef"><b>Definition:</b> modules.h:1050</div></div>
-<div class="ttc" id="aclass_module_manager_html_ac85fd9e47e757906d22f006c3d48090e"><div class="ttname"><a href="class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e">ModuleManager::NewServices</a></div><div class="ttdeci">ServiceList * NewServices</div><div class="ttdef"><b>Definition:</b> modules.h:1105</div></div>
+<div class="ttc" id="aclass_module_manager_html_ac85fd9e47e757906d22f006c3d48090e"><div class="ttname"><a href="class_module_manager.html#ac85fd9e47e757906d22f006c3d48090e">ModuleManager::NewServices</a></div><div class="ttdeci">ServiceList * NewServices</div><div class="ttdef"><b>Definition:</b> modules.h:1106</div></div>
 <div class="ttc" id="aclassclassbase_html"><div class="ttname"><a href="classclassbase.html">classbase</a></div><div class="ttdef"><b>Definition:</b> base.h:47</div></div>
 <div class="ttc" id="aclass_version_html"><div class="ttname"><a href="class_version.html">Version</a></div><div class="ttdef"><b>Definition:</b> modules.h:200</div></div>
 <div class="ttc" id="aclass_x_line_html"><div class="ttname"><a href="class_x_line.html">XLine</a></div><div class="ttdef"><b>Definition:</b> xline.h:36</div></div>
 <div class="ttc" id="aclass_version_html_a9344d3cd11423957b9ecd193f851f8a3"><div class="ttname"><a href="class_version.html#a9344d3cd11423957b9ecd193f851f8a3">Version::description</a></div><div class="ttdeci">const std::string description</div><div class="ttdef"><b>Definition:</b> modules.h:205</div></div>
 <div class="ttc" id="aclass_mod_result_html_acd168836b6f7b58788368df2d8c3ddc5"><div class="ttname"><a href="class_mod_result.html#acd168836b6f7b58788368df2d8c3ddc5">ModResult::ModResult</a></div><div class="ttdeci">ModResult(char res)</div><div class="ttdef"><b>Definition:</b> modules.h:85</div></div>
 <div class="ttc" id="aclass_channel_html"><div class="ttname"><a href="class_channel.html">Channel</a></div><div class="ttdef"><b>Definition:</b> channels.h:40</div></div>
-<div class="ttc" id="aclass_module_manager_html_aeb004147526c7ac91e611c42187e4f6d"><div class="ttname"><a href="class_module_manager.html#aeb004147526c7ac91e611c42187e4f6d">ModuleManager::DataProviders</a></div><div class="ttdeci">std::multimap&lt; std::string, ServiceProvider *, irc::insensitive_swo &gt; DataProviders</div><div class="ttdef"><b>Definition:</b> modules.h:1095</div></div>
 <div class="ttc" id="aclass_mod_result_html_a314015200efdb107d94b8e4f8f9a8fc4"><div class="ttname"><a href="class_mod_result.html#a314015200efdb107d94b8e4f8f9a8fc4">ModResult::operator==</a></div><div class="ttdeci">bool operator==(const ModResult &amp;res) const</div><div class="ttdef"><b>Definition:</b> modules.h:91</div></div>
 <div class="ttc" id="aclass_mod_result_html_a08b31021d09626cef748125e3d81951d"><div class="ttname"><a href="class_mod_result.html#a08b31021d09626cef748125e3d81951d">ModResult::check</a></div><div class="ttdeci">bool check(bool def) const</div><div class="ttdef"><b>Definition:</b> modules.h:109</div></div>
 <div class="ttc" id="aclass_mod_result_html"><div class="ttname"><a href="class_mod_result.html">ModResult</a></div><div class="ttdef"><b>Definition:</b> modules.h:71</div></div>
@@ -639,7 +640,7 @@ $(function() {
 <div class="ttc" id="aclassusecountbase_html"><div class="ttname"><a href="classusecountbase.html">usecountbase</a></div><div class="ttdef"><b>Definition:</b> base.h:114</div></div>
 <div class="ttc" id="aclass_command_base_1_1_params_html"><div class="ttname"><a href="class_command_base_1_1_params.html">CommandBase::Params</a></div><div class="ttdef"><b>Definition:</b> ctables.h:117</div></div>
 <div class="ttc" id="aclass_membership_html"><div class="ttname"><a href="class_membership.html">Membership</a></div><div class="ttdef"><b>Definition:</b> membership.h:35</div></div>
-<div class="ttc" id="aclass_config_status_html"><div class="ttname"><a href="class_config_status.html">ConfigStatus</a></div><div class="ttdef"><b>Definition:</b> configreader.h:504</div></div>
+<div class="ttc" id="aclass_config_status_html"><div class="ttname"><a href="class_config_status.html">ConfigStatus</a></div><div class="ttdef"><b>Definition:</b> configreader.h:514</div></div>
 <div class="ttc" id="aclass_module_html_a4b9d41041b7b56a786064020e9c50c75"><div class="ttname"><a href="class_module.html#a4b9d41041b7b56a786064020e9c50c75">Module::ModuleSourceFile</a></div><div class="ttdeci">std::string ModuleSourceFile</div><div class="ttdef"><b>Definition:</b> modules.h:329</div></div>
 <div class="ttc" id="aclass_mode_handler_html"><div class="ttname"><a href="class_mode_handler.html">ModeHandler</a></div><div class="ttdef"><b>Definition:</b> mode.h:99</div></div>
 <div class="ttc" id="aclass_mod_result_html_aa04391c906c39b48402951677e5631f9"><div class="ttname"><a href="class_mod_result.html#aa04391c906c39b48402951677e5631f9">ModResult::operator!=</a></div><div class="ttdeci">bool operator!=(const ModResult &amp;res) const</div><div class="ttdef"><b>Definition:</b> modules.h:97</div></div>

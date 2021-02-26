@@ -73,7 +73,7 @@ $(function() {
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * InspIRCd -- Internet Relay Chat Daemon</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   Copyright (C) 2014, 2016, 2018-2020 Sadie Powell &lt;sadie@witchery.services&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   Copyright (C) 2014, 2016, 2018-2021 Sadie Powell &lt;sadie@witchery.services&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * This file is part of InspIRCd.  InspIRCd is free software: you can</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * redistribute it and/or modify it under the terms of the GNU General Public</span></div>
@@ -97,7 +97,7 @@ $(function() {
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define INSPIRCD_VERSION_BEFORE(MAJOR, MINOR) (((@VERSION_MAJOR@ &lt;&lt; 8) | @VERSION_MINOR@) &lt; ((MAJOR &lt;&lt; 8) | (MINOR)))</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define INSPIRCD_VERSION_SINCE(MAJOR, MINOR) (((@VERSION_MAJOR@ &lt;&lt; 16) | @VERSION_MINOR@) &gt;= ((MAJOR &lt;&lt; 8) | (MINOR)))</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define INSPIRCD_VERSION_SINCE(MAJOR, MINOR) (((@VERSION_MAJOR@ &lt;&lt; 8) | @VERSION_MINOR@) &gt;= ((MAJOR &lt;&lt; 8) | (MINOR)))</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#define INSPIRCD_CONFIG_PATH &quot;@CONFIG_DIR@&quot;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
@@ -107,16 +107,20 @@ $(function() {
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#define INSPIRCD_MODULE_PATH &quot;@MODULE_DIR@&quot;</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#ifndef _WIN32</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; %target include/config.h</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#define INSPIRCD_RUNTIME_PATH &quot;@RUNTIME_DIR@&quot;</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; %define HAS_ARC4RANDOM_BUF</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#define INSPIRCD_DOCS &quot;https://docs.inspircd.org/@VERSION_MAJOR@/&quot;</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; %define HAS_CLOCK_GETTIME</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#ifndef _WIN32</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; %target include/config.h</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; %define HAS_EVENTFD</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; %define HAS_ARC4RANDOM_BUF</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; %define HAS_CLOCK_GETTIME</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; %define HAS_EVENTFD</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

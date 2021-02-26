@@ -75,7 +75,7 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *   Copyright (C) 2020 Matt Schatz &lt;genius3000@g3k.solutions&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *   Copyright (C) 2013, 2015 Attila Molnar &lt;attilamolnar@hush.com&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   Copyright (C) 2012-2013, 2017 Sadie Powell &lt;sadie@witchery.services&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *   Copyright (C) 2012-2013, 2017, 2020 Sadie Powell &lt;sadie@witchery.services&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> *   Copyright (C) 2012 Robby &lt;robby@chatbelgie.be&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *   Copyright (C) 2012 ChrisTX &lt;xpipe@hotmail.de&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *   Copyright (C) 2011-2012 Adam &lt;Adam@anope.org&gt;</span></div>
@@ -262,10 +262,12 @@ $(function() {
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <a class="code" href="class_service_provider.html">ServiceProvider</a>(<a class="code" href="class_module.html">Module</a>* Creator, <span class="keyword">const</span> std::string&amp; Name, ServiceType Type);</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_service_provider.html">ServiceProvider</a>();</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> RegisterService();</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordtype">void</span> DisableAutoRegister();</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;};</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span>* GetTypeString() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> RegisterService();</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordtype">void</span> DisableAutoRegister();</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclass_service_provider_html_ad1dfa94bef361c61dfadefff1454bef9"><div class="ttname"><a href="class_service_provider.html#ad1dfa94bef361c61dfadefff1454bef9">ServiceProvider::creator</a></div><div class="ttdeci">ModuleRef creator</div><div class="ttdef"><b>Definition:</b> base.h:254</div></div>
 <div class="ttc" id="aclass_service_provider_html"><div class="ttname"><a href="class_service_provider.html">ServiceProvider</a></div><div class="ttdef"><b>Definition:</b> base.h:250</div></div>

@@ -1021,6 +1021,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1213,6 +1224,17 @@
     <Path>class_command_base.html</Path>
     <Anchor>a7ccd01afa6708aa696a2ab560d09f859</Anchor>
     <DeclaredIn>ctables.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2264,6 +2286,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -3125,6 +3158,17 @@
     <Path>class_extension_item.html</Path>
     <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5566,6 +5610,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RegisterService</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -6587,6 +6642,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -6918,6 +6984,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -7139,6 +7216,17 @@
     <Path>class_extension_item.html</Path>
     <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -8981,6 +9069,17 @@
     <Path>class_mode_handler.html</Path>
     <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -10860,7 +10959,7 @@
       <Scope>ModuleManager</Scope>
     </TokenIdentifier>
     <Path>class_module_manager.html</Path>
-    <Anchor>aeb004147526c7ac91e611c42187e4f6d</Anchor>
+    <Anchor>a85364a79602cd9bda2fd312101a5f532</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11336,6 +11435,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -11759,6 +11869,17 @@
     <Path>class_mode_handler.html</Path>
     <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -12259,6 +12380,17 @@
     <Path>class_mode_handler.html</Path>
     <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14046,6 +14178,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetServerName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>afb756f82617eb11a5e62892dbcbb05c4</Anchor>
+    <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetServerDesc</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServerConfig</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config.html</Path>
+    <Anchor>a2727fe3a893f8da1e7ded204381e3895</Anchor>
+    <DeclaredIn>configreader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Read</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -14528,6 +14682,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Runtime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServerConfig::ServerPaths</Scope>
+    </TokenIdentifier>
+    <Path>class_server_config_1_1_server_paths.html</Path>
+    <Anchor>a3f374f8b9f50385d4c649def55cff0d3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ServerLimits</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -14826,6 +14990,17 @@
       <Scope>ServiceProvider</Scope>
     </TokenIdentifier>
     <Path>class_service_provider.html</Path>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
     <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
@@ -15189,6 +15364,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -15447,6 +15633,17 @@
     <Path>class_extension_item.html</Path>
     <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -15838,6 +16035,17 @@
     <Path>class_mode_handler.html</Path>
     <Anchor>a39b2afb14c91126ff300fab2a8e45013</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16928,6 +17136,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DisableAutoRegister</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -17684,6 +17903,17 @@
     <Path>class_extension_item.html</Path>
     <Anchor>aeb6ac78f32cfa615c9c2becdf3feddcb</Anchor>
     <DeclaredIn>extensible.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20764,6 +20994,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aa2cc15122a844910ecfcdfd86af90581</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetSubscribers</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -20794,6 +21035,17 @@
     <Path>class_events_1_1_module_event_provider.html</Path>
     <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
     <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21301,6 +21553,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aa2cc15122a844910ecfcdfd86af90581</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetSubscribers</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -21331,6 +21594,17 @@
     <Path>class_events_1_1_module_event_provider.html</Path>
     <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
     <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21596,6 +21870,17 @@
     <Path>class_client_protocol_1_1_serializer.html</Path>
     <Anchor>a9cfd17d0fd21c9c25a679df4b7700295</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26383,6 +26668,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aa2cc15122a844910ecfcdfd86af90581</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetSubscribers</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -26413,6 +26709,17 @@
     <Path>class_events_1_1_module_event_provider.html</Path>
     <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
     <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

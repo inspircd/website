@@ -108,6 +108,8 @@ typedef <a class="el" href="classinsp_1_1flat__multiset.html">insp::flat_multise
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ed3b3dd0840d883ab33b61e8f20d245"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_events_1_1_module_event_provider.html#a1ed3b3dd0840d883ab33b61e8f20d245">ModuleEventProvider</a> (<a class="el" href="class_module.html">Module</a> *mod, const std::string &amp;eventid)</td></tr>
 <tr class="separator:a1ed3b3dd0840d883ab33b61e8f20d245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2cc15122a844910ecfcdfd86af90581"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_module.html">Module</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_events_1_1_module_event_provider.html#aa2cc15122a844910ecfcdfd86af90581">GetModule</a> () const</td></tr>
+<tr class="separator:aa2cc15122a844910ecfcdfd86af90581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a951141176ff6c0d4540f91affc475963"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classinsp_1_1flat__multiset.html">SubscriberList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_events_1_1_module_event_provider.html#a951141176ff6c0d4540f91affc475963">GetSubscribers</a> () const</td></tr>
 <tr class="separator:a951141176ff6c0d4540f91affc475963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3560490471faa9294a5aa1d338659de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_events_1_1_module_event_provider.html#a3560490471faa9294a5aa1d338659de3">Subscribe</a> (<a class="el" href="class_events_1_1_module_event_listener.html">ModuleEventListener</a> *subscriber)</td></tr>
@@ -118,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3e7e92ecd0683a0b4348b8fd14eb734b inherit pub_methods_class_service_provider"><td class="memItemLeft" align="right" valign="top"><a id="a3e7e92ecd0683a0b4348b8fd14eb734b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ServiceProvider</b> (<a class="el" href="class_module.html">Module</a> *Creator, const std::string &amp;Name, ServiceType Type)</td></tr>
 <tr class="separator:a3e7e92ecd0683a0b4348b8fd14eb734b inherit pub_methods_class_service_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bf645cadb13d1f3ac64fed93c879bd inherit pub_methods_class_service_provider"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_service_provider.html#a89bf645cadb13d1f3ac64fed93c879bd">GetTypeString</a> () const</td></tr>
+<tr class="separator:a89bf645cadb13d1f3ac64fed93c879bd inherit pub_methods_class_service_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed77d91b39d5df569be84172e50e4cc4 inherit pub_methods_class_service_provider"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_service_provider.html#aed77d91b39d5df569be84172e50e4cc4">RegisterService</a> ()</td></tr>
 <tr class="separator:aed77d91b39d5df569be84172e50e4cc4 inherit pub_methods_class_service_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87185e6ebfa0f4960f20797e716c72d6 inherit pub_methods_class_service_provider"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_service_provider.html#a87185e6ebfa0f4960f20797e716c72d6">DisableAutoRegister</a> ()</td></tr>
@@ -183,6 +187,32 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa2cc15122a844910ecfcdfd86af90581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2cc15122a844910ecfcdfd86af90581">&#9670;&nbsp;</a></span>GetModule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_module.html">Module</a>* Events::ModuleEventProvider::GetModule </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves the module which created this listener. </p>
+
+</div>
+</div>
 <a id="a951141176ff6c0d4540f91affc475963"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a951141176ff6c0d4540f91affc475963">&#9670;&nbsp;</a></span>GetSubscribers()</h2>
 

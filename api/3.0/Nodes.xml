@@ -1001,6 +1001,11 @@
                 <Anchor>a1ed3b3dd0840d883ab33b61e8f20d245</Anchor>
                </Node>
                <Node>
+                <Name>GetModule</Name>
+                <Path>class_events_1_1_module_event_provider.html</Path>
+                <Anchor>aa2cc15122a844910ecfcdfd86af90581</Anchor>
+               </Node>
+               <Node>
                 <Name>GetSubscribers</Name>
                 <Path>class_events_1_1_module_event_provider.html</Path>
                 <Anchor>a951141176ff6c0d4540f91affc475963</Anchor>
@@ -6287,6 +6292,11 @@
             <Path>class_module_manager.html</Path>
             <Subnodes>
              <Node>
+              <Name>DataProviderMap</Name>
+              <Path>class_module_manager.html</Path>
+              <Anchor>a3ba0f8ce9adeae45ee05e5cef43cb4b5</Anchor>
+             </Node>
+             <Node>
               <Name>ModuleMap</Name>
               <Path>class_module_manager.html</Path>
               <Anchor>ae6e737019b42ee32418b90a402edb888</Anchor>
@@ -6429,7 +6439,7 @@
              <Node>
               <Name>DataProviders</Name>
               <Path>class_module_manager.html</Path>
-              <Anchor>aeb004147526c7ac91e611c42187e4f6d</Anchor>
+              <Anchor>a85364a79602cd9bda2fd312101a5f532</Anchor>
              </Node>
              <Node>
               <Name>EventHandlers</Name>
@@ -7393,6 +7403,11 @@
                 <Anchor>a2c4921667fbd46e2594ed6658e1c348f</Anchor>
                </Node>
                <Node>
+                <Name>PrependRuntime</Name>
+                <Path>class_server_config_1_1_server_paths.html</Path>
+                <Anchor>a1186a09ddd016b5556aaeade4fb3d49d</Anchor>
+               </Node>
+               <Node>
                 <Name>Config</Name>
                 <Path>class_server_config_1_1_server_paths.html</Path>
                 <Anchor>af34346b878cd3fad244dd6439774f4b9</Anchor>
@@ -7411,6 +7426,11 @@
                 <Name>Module</Name>
                 <Path>class_server_config_1_1_server_paths.html</Path>
                 <Anchor>a1d7332a968da648fb1edca7b654c952c</Anchor>
+               </Node>
+               <Node>
+                <Name>Runtime</Name>
+                <Path>class_server_config_1_1_server_paths.html</Path>
+                <Anchor>a3f374f8b9f50385d4c649def55cff0d3</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -7480,6 +7500,16 @@
               <Name>Fill</Name>
               <Path>class_server_config.html</Path>
               <Anchor>a9ce326811f110ed8a17c21374dd3fa3c</Anchor>
+             </Node>
+             <Node>
+              <Name>GetServerDesc</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>a2727fe3a893f8da1e7ded204381e3895</Anchor>
+             </Node>
+             <Node>
+              <Name>GetServerName</Name>
+              <Path>class_server_config.html</Path>
+              <Anchor>afb756f82617eb11a5e62892dbcbb05c4</Anchor>
              </Node>
              <Node>
               <Name>GetSID</Name>
@@ -7859,6 +7889,11 @@
               <Name>DisableAutoRegister</Name>
               <Path>class_service_provider.html</Path>
               <Anchor>a87185e6ebfa0f4960f20797e716c72d6</Anchor>
+             </Node>
+             <Node>
+              <Name>GetTypeString</Name>
+              <Path>class_service_provider.html</Path>
+              <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
              </Node>
              <Node>
               <Name>RegisterService</Name>
