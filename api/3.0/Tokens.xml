@@ -1687,7 +1687,7 @@
       <Scope>ConfigStatus</Scope>
     </TokenIdentifier>
     <Path>class_config_status.html</Path>
-    <Anchor>a1297d167f0d91235a5962d5344ae32bf</Anchor>
+    <Anchor>ae7955b6481ec0a412ff95aa3fd350866</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1988,6 +1988,16 @@
     </TokenIdentifier>
     <Path>struct_connect_class.html</Path>
     <Anchor>a3e1e103db90381ac6202749052fa4a74</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hosts</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ConnectClass</Scope>
+    </TokenIdentifier>
+    <Path>struct_connect_class.html</Path>
+    <Anchor>a9a6ffc299c2e00a94bdaf4fc166b5a91</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3382,7 +3392,7 @@
       <Scope>FakeUser</Scope>
     </TokenIdentifier>
     <Path>class_fake_user.html</Path>
-    <Anchor>a2a232fffcbdbf351d8bc706161cf9392</Anchor>
+    <Anchor>aeba21c721ff0663d033a898f651a905f</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -3393,7 +3403,7 @@
       <Scope>FakeUser</Scope>
     </TokenIdentifier>
     <Path>class_fake_user.html</Path>
-    <Anchor>a064fc5a31377ae7157d9652c4c4fe397</Anchor>
+    <Anchor>a25d640886cf10c55d146cee889a206b6</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -3404,7 +3414,7 @@
       <Scope>FakeUser</Scope>
     </TokenIdentifier>
     <Path>class_fake_user.html</Path>
-    <Anchor>a00b27f1349611da94533b35d63f41f40</Anchor>
+    <Anchor>a7b472599a7864e55acdc659b0df0b537</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -3800,7 +3810,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+    <Anchor>a3b73127a90879c8ebc794c49eb9c0ca0</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -3811,7 +3821,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
+    <Anchor>a7317dc27e4f8d50dba6b6b53cc5e9ecd</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -6071,7 +6081,7 @@
       <Scope>ListenSocket</Scope>
     </TokenIdentifier>
     <Path>class_listen_socket.html</Path>
-    <Anchor>ae5c8a63d0d7686d70479d441f5832c88</Anchor>
+    <Anchor>aa2f3592b191d4d00cd1f6c9cea3f75d0</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -6461,7 +6471,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6472,7 +6482,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6483,7 +6493,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6494,7 +6504,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6505,7 +6515,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6516,7 +6526,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -6594,6 +6604,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>adc5578a8e2bbdac4ebf84ce5a4b31b6d</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -7340,7 +7361,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a4743feba78217089eb9f25a52d223a13</Anchor>
+    <Anchor>aadd99034d2d12185b80f4c7111744bfa</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7406,7 +7427,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a65daaaaed3fe026aa71b6ee08a2f3bab</Anchor>
+    <Anchor>aeebb6681771f1f18e9c76b10138d6685</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7417,7 +7438,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>ae1318e19c668cf24dc8bae4f50f11512</Anchor>
+    <Anchor>aab2e45750c6fedfcda080adcd2a2a9d6</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7428,7 +7449,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a778e4c4ede84a2698fb9dd3a42fffbad</Anchor>
+    <Anchor>a9cce64899e344be8fbf3e36f1bf84e9f</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7439,7 +7460,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>af5ef18389af4d0b7e1d8cf51a5182875</Anchor>
+    <Anchor>a4f20c8ce1c87b9e60abc03a60011cca9</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7450,7 +7471,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a7f4a5d2aefe8e6c4746ddd1fc66070d5</Anchor>
+    <Anchor>a66f5addd2959416659d3e68b9eb07589</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7461,7 +7482,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a123f4945884ec740d76ff59c56cb784f</Anchor>
+    <Anchor>ac1d0227207b33d2a6acb703533143883</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7505,7 +7526,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a87e480f888c787ca82b00fab9e3df842</Anchor>
+    <Anchor>a90d4d62be11b5be1ad6c48033c75359a</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -7516,7 +7537,7 @@
       <Scope>LocalUser</Scope>
     </TokenIdentifier>
     <Path>class_local_user.html</Path>
-    <Anchor>a8c2494486c6491705d19cdf0c1b4b50d</Anchor>
+    <Anchor>ad29303d8104dd9ccf4394ff46ea4b153</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -8836,7 +8857,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8847,7 +8868,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8858,7 +8879,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8869,7 +8890,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8880,7 +8901,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -8891,7 +8912,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -9002,6 +9023,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -9714,7 +9746,7 @@
       <Scope>Module</Scope>
     </TokenIdentifier>
     <Path>class_module.html</Path>
-    <Anchor>a64ad32f2824085db293bf9b50015ea55</Anchor>
+    <Anchor>a9cf4e278594597a19264689a2d14bde0</Anchor>
     <DeclaredIn>modules.h</DeclaredIn>
   </Token>
   <Token>
@@ -11210,7 +11242,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11221,7 +11253,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11232,7 +11264,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11243,7 +11275,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11254,7 +11286,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11265,7 +11297,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11365,6 +11397,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11647,7 +11690,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11658,7 +11701,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11669,7 +11712,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11680,7 +11723,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11691,7 +11734,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11702,7 +11745,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -11802,6 +11845,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12180,7 +12234,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12191,7 +12245,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12202,7 +12256,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12213,7 +12267,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12224,7 +12278,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12235,7 +12289,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12324,6 +12378,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -12657,28 +12722,6 @@
     </TokenIdentifier>
     <Path>class_protocol_interface.html</Path>
     <Anchor>ae35950174f619bd255fb1e1375e72666</Anchor>
-    <DeclaredIn>protocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SendChannelNotice</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ProtocolInterface</Scope>
-    </TokenIdentifier>
-    <Path>class_protocol_interface.html</Path>
-    <Anchor>a162c632f7322dc770cc14c1de8ac304c</Anchor>
-    <DeclaredIn>protocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SendUserNotice</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ProtocolInterface</Scope>
-    </TokenIdentifier>
-    <Path>class_protocol_interface.html</Path>
-    <Anchor>aca709f5c629abc49190b15feef184ebf</Anchor>
     <DeclaredIn>protocol.h</DeclaredIn>
   </Token>
   <Token>
@@ -13058,7 +13101,7 @@
       <Scope>QueuedThread</Scope>
     </TokenIdentifier>
     <Path>class_queued_thread.html</Path>
-    <Anchor>a6e15d815160e0deac9457fbb44d36f1a</Anchor>
+    <Anchor>a84397eb8364b9b51d98a9a9b3f2192d6</Anchor>
     <DeclaredIn>threadengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -13559,7 +13602,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a5101f618f23986608ada65077126b538</Anchor>
+    <Anchor>a8d072c238ae1b48f64b2e885674dd72c</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -13570,7 +13613,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+    <Anchor>a3b73127a90879c8ebc794c49eb9c0ca0</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -13581,7 +13624,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
+    <Anchor>a7317dc27e4f8d50dba6b6b53cc5e9ecd</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -15139,7 +15182,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15150,7 +15193,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15161,7 +15204,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15172,7 +15215,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15183,7 +15226,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15194,7 +15237,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15294,6 +15337,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15813,7 +15867,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a9e032e2507f64f971a83e35c9a576c0a</Anchor>
+    <Anchor>aece4d9aac7503a153e3bda47cca39a6f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15824,7 +15878,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ae1acc34dcbd0102ee50ad45fafae2f19</Anchor>
+    <Anchor>aa9242ea7057c7623b837921a9e43c5e1</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15835,7 +15889,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a2d37e4e2d7958b12caad4bfada870725</Anchor>
+    <Anchor>a06a663b711b6c9ffefe1dca128b4979c</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15846,7 +15900,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a09fee21cba5c9b1f26d381e30d5b4db9</Anchor>
+    <Anchor>a1b8c75f2a4581859e02d8a5988c7c132</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15857,7 +15911,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>ac5024391750ad16c6dbdbd132e2cab3f</Anchor>
+    <Anchor>a1d4aeb82dc8fd5ed958f6143b64cc14f</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15868,7 +15922,7 @@
       <Scope>ModeHandler</Scope>
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
-    <Anchor>a509333b0944b682966ab7c309dd0966c</Anchor>
+    <Anchor>a7b3dd8a7787538a841523a610cc744fb</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -15968,6 +16022,17 @@
     </TokenIdentifier>
     <Path>class_mode_handler.html</Path>
     <Anchor>ade04b6251bf8dc85900437c2a0578696</Anchor>
+    <DeclaredIn>mode.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnParameterInvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ModeHandler</Scope>
+    </TokenIdentifier>
+    <Path>class_mode_handler.html</Path>
+    <Anchor>ac8fed6f8b0fa8e216145f9d4008209dc</Anchor>
     <DeclaredIn>mode.h</DeclaredIn>
   </Token>
   <Token>
@@ -16826,7 +16891,7 @@
       <Scope>SocketThread</Scope>
     </TokenIdentifier>
     <Path>class_socket_thread.html</Path>
-    <Anchor>a097aaf3c9bf95752af2aa84f5475f039</Anchor>
+    <Anchor>ab0a605b9c2c44cc93c48c0b070b4e85f</Anchor>
     <DeclaredIn>threadengine.h</DeclaredIn>
   </Token>
   <Token>
@@ -18255,6 +18320,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OnDataReady</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ThreadSignalSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_thread_signal_socket.html</Path>
+    <Anchor>a321a079824c2d1b2ad4757d751728681</Anchor>
+    <DeclaredIn>threadengine_win32.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ThreadSignalSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_thread_signal_socket.html</Path>
+    <Anchor>a336bdab4dcfe4f208685a96b4009b5f9</Anchor>
+    <DeclaredIn>threadengine_win32.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetFd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -18310,14 +18397,199 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>BufferedSocket</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BufferedSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_buffered_socket.html</Path>
+    <Anchor>a13700ce82624c151ed13e5dca9dfed1c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DoConnect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BufferedSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_buffered_socket.html</Path>
+    <Anchor>a984aabcbe183ba12a9aff179d7e8b59d</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnConnected</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BufferedSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_buffered_socket.html</Path>
+    <Anchor>a19a2114196259727718aae840892c4e5</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnTimeout</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BufferedSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_buffered_socket.html</Path>
+    <Anchor>a3b39cecd363bf59f70fc7b22acf11a86</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DoWrite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a7d5219ca91425813c92cc09f7cf634ef</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a6cf1b75c166a8d5b5bd47061ce4f330b</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getError</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>af04fdf06a02ad2eff7db8994375e8b0c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnSetEndPoint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a20b9f76aed97edf1cb3d15b4c2e7dc06</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WriteData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a89d84e682d12d08bfe648302eae88941</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetNextLine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a30b5e5636e1122aa6b3a88728ba408fa</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getSendQSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>afbeb66c28eee58c7890496e970443f95</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Close</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad1a551adaf473b45934f09b27883623c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Close</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a6032238bc99708507548fdb5f59d5e23</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cull</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>classbase</Scope>
+      <Scope>StreamSocket</Scope>
     </TokenIdentifier>
-    <Path>classclassbase.html</Path>
-    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad0ab19428986f1292d013b13423abeec</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetModHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a8f749127a9c6202fd3d302709d8a931c</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetLastHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>a7799dced5fc937f62be573d155efcda6</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Timeout</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BufferedSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_buffered_socket.html</Path>
+    <Anchor>a716c88c2e8eb56ab6df19226b02dfaac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BufferedSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_buffered_socket.html</Path>
+    <Anchor>a804ebaa3eddafd9d69e1fc74ff7ff858</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18332,6 +18604,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SwapInternals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ad0847fe1613243ba6736c52c0c64941b</Anchor>
+    <DeclaredIn>inspsocket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>fd</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -18339,6 +18622,16 @@
     </TokenIdentifier>
     <Path>class_event_handler.html</Path>
     <Anchor>ad7d91fcc846baef2153839382a1cbf9c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>recvq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>StreamSocket</Scope>
+    </TokenIdentifier>
+    <Path>class_stream_socket.html</Path>
+    <Anchor>ac35db82e9231bead6deca4aa847e5ad2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -19075,7 +19368,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a5101f618f23986608ada65077126b538</Anchor>
+    <Anchor>a8d072c238ae1b48f64b2e885674dd72c</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -19086,7 +19379,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>a327691dd0a429383f0570ee5f62ea542</Anchor>
+    <Anchor>a3b73127a90879c8ebc794c49eb9c0ca0</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -19097,7 +19390,7 @@
       <Scope>User</Scope>
     </TokenIdentifier>
     <Path>class_user.html</Path>
-    <Anchor>ad5f594c1a2a2e3a1bdc3c00199d40739</Anchor>
+    <Anchor>a7317dc27e4f8d50dba6b6b53cc5e9ecd</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -19310,7 +19603,7 @@
       <Scope>UserIOHandler</Scope>
     </TokenIdentifier>
     <Path>class_user_i_o_handler.html</Path>
-    <Anchor>add8ef21fe3ed7a083bebf688b5e8f4c4</Anchor>
+    <Anchor>ae306c066daf5847cbd67d5d74138a9fa</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -19321,7 +19614,7 @@
       <Scope>UserIOHandler</Scope>
     </TokenIdentifier>
     <Path>class_user_i_o_handler.html</Path>
-    <Anchor>a2f67153fc8b18ea8ec89a4291742d357</Anchor>
+    <Anchor>a8f2a1c8389928cd8e8dcd21fc2343bc2</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -19332,7 +19625,7 @@
       <Scope>UserIOHandler</Scope>
     </TokenIdentifier>
     <Path>class_user_i_o_handler.html</Path>
-    <Anchor>a74690a2e27a6a2a0e1fee2af196ae477</Anchor>
+    <Anchor>acdaaa3f1f7e92ba077eb8f6681df01b1</Anchor>
     <DeclaredIn>users.h</DeclaredIn>
   </Token>
   <Token>
@@ -20026,6 +20319,15 @@
       <Scope>WindowsIOVec</Scope>
     </TokenIdentifier>
     <Path>struct_windows_i_o_vec.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WindowsStream</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>WindowsStream</Scope>
+    </TokenIdentifier>
+    <Path>struct_windows_stream.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20821,294 +21123,172 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::Event</Name>
+      <Name>ClientProtocol::ParseOutput</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::Event</Scope>
+      <Scope>ClientProtocol::ParseOutput</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event.html</Path>
+    <Path>struct_client_protocol_1_1_parse_output.html</Path>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Event</Name>
+      <Name>cmd</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Event</Scope>
+      <Type>data</Type>
+      <Scope>ClientProtocol::ParseOutput</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event.html</Path>
-    <Anchor>a08e4cf8522ecaba92a306e1db7ee9a8a</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
+    <Path>struct_client_protocol_1_1_parse_output.html</Path>
+    <Anchor>a06fe8add7b199c686fe5c839ce09ba0c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Event</Name>
+      <Name>params</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Event</Scope>
+      <Type>data</Type>
+      <Scope>ClientProtocol::ParseOutput</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event.html</Path>
-    <Anchor>a6950e9e71e978261db19ea6b57688a36</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
+    <Path>struct_client_protocol_1_1_parse_output.html</Path>
+    <Anchor>a2e09595545e9f230ea34be8674312a1a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SetMessage</Name>
+      <Name>tags</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Event</Scope>
+      <Type>data</Type>
+      <Scope>ClientProtocol::ParseOutput</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event.html</Path>
-    <Anchor>ae3fe08a3f9c34b0210220986b4b3145c</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
+    <Path>struct_client_protocol_1_1_parse_output.html</Path>
+    <Anchor>a34a84ba012d602b94a56a4c6b11bd954</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SetMessageList</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Event</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event.html</Path>
-    <Anchor>a786636314d062d6e1ece11e365185ae2</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetMessagesForUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Event</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event.html</Path>
-    <Anchor>a8e4dd25470dc57de175586f2fdb3c73d</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClientProtocol::EventHook</Name>
+      <Name>ClientProtocol::TagSelection</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::EventHook</Scope>
+      <Scope>ClientProtocol::TagSelection</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event_hook.html</Path>
+    <Path>class_client_protocol_1_1_tag_selection.html</Path>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>EventHook</Name>
+      <Name>IsSelected</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::EventHook</Scope>
+      <Scope>ClientProtocol::TagSelection</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event_hook.html</Path>
-    <Anchor>acc7c3598ba5364e3c4d5194b191d0193</Anchor>
+    <Path>class_client_protocol_1_1_tag_selection.html</Path>
+    <Anchor>af1aaa651a137391f17b0556a0704a578</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OnEventInit</Name>
+      <Name>Select</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::EventHook</Scope>
+      <Scope>ClientProtocol::TagSelection</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event_hook.html</Path>
-    <Anchor>aa58b3dde6b3af7fe31748cd488085c9d</Anchor>
+    <Path>class_client_protocol_1_1_tag_selection.html</Path>
+    <Anchor>a1eb6c38af66b0c787d68652996c5d09d</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OnPreEventSend</Name>
+      <Name>operator==</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::EventHook</Scope>
+      <Scope>ClientProtocol::TagSelection</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event_hook.html</Path>
-    <Anchor>a3aec4e632953c56161d0bbdb99d34216</Anchor>
+    <Path>class_client_protocol_1_1_tag_selection.html</Path>
+    <Anchor>ac31a44057651d4bf780f37bb5331a768</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ModuleEventListener</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <Anchor>a3c58708bb631c32457874b09139159c8</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetModule</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetPriority</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClientProtocol::EventProvider</Name>
+      <Name>ClientProtocol::MessageSource</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::EventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event_provider.html</Path>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>EventProvider</Name>
+      <Name>MessageSource</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::EventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_event_provider.html</Path>
-    <Anchor>a9ac7a8cf721479dc0b8f63aacc31dba1</Anchor>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ModuleEventProvider</Name>
+      <Name>GetSource</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>Events::ModuleEventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_events_1_1_module_event_provider.html</Path>
-    <Anchor>a1ed3b3dd0840d883ab33b61e8f20d245</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetModule</Name>
+      <Name>GetSourceUser</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>Events::ModuleEventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_events_1_1_module_event_provider.html</Path>
-    <Anchor>aa2cc15122a844910ecfcdfd86af90581</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetSubscribers</Name>
+      <Name>SetSourceUser</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>Events::ModuleEventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_events_1_1_module_event_provider.html</Path>
-    <Anchor>a951141176ff6c0d4540f91affc475963</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Subscribe</Name>
+      <Name>SetSource</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>Events::ModuleEventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_events_1_1_module_event_provider.html</Path>
-    <Anchor>a3560490471faa9294a5aa1d338659de3</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Unsubscribe</Name>
+      <Name>SetSource</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>Events::ModuleEventProvider</Scope>
+      <Scope>ClientProtocol::MessageSource</Scope>
     </TokenIdentifier>
-    <Path>class_events_1_1_module_event_provider.html</Path>
-    <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetTypeString</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RegisterService</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>aed77d91b39d5df569be84172e50e4cc4</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DisableAutoRegister</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a87185e6ebfa0f4960f20797e716c72d6</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cull</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>classbase</Scope>
-    </TokenIdentifier>
-    <Path>classclassbase.html</Path>
-    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
-    <DeclaredIn>base.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>creator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>ad1dfa94bef361c61dfadefff1454bef9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>name</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a1dace4b64886f5cabd5a406d0f9e7e11</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>service</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ServiceProvider</Scope>
-    </TokenIdentifier>
-    <Path>class_service_provider.html</Path>
-    <Anchor>a398d7fbc50d368467964f93bd093aabd</Anchor>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21438,98 +21618,68 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::MessageSource</Name>
+      <Name>ClientProtocol::Event</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
+      <Scope>ClientProtocol::Event</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
+    <Path>class_client_protocol_1_1_event.html</Path>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>MessageSource</Name>
+      <Name>Event</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
+      <Scope>ClientProtocol::Event</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
+    <Path>class_client_protocol_1_1_event.html</Path>
+    <Anchor>a08e4cf8522ecaba92a306e1db7ee9a8a</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetSource</Name>
+      <Name>Event</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
+      <Scope>ClientProtocol::Event</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
+    <Path>class_client_protocol_1_1_event.html</Path>
+    <Anchor>a6950e9e71e978261db19ea6b57688a36</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GetSourceUser</Name>
+      <Name>SetMessage</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
+      <Scope>ClientProtocol::Event</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
+    <Path>class_client_protocol_1_1_event.html</Path>
+    <Anchor>ae3fe08a3f9c34b0210220986b4b3145c</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SetSourceUser</Name>
+      <Name>SetMessageList</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
+      <Scope>ClientProtocol::Event</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
+    <Path>class_client_protocol_1_1_event.html</Path>
+    <Anchor>a786636314d062d6e1ece11e365185ae2</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SetSource</Name>
+      <Name>GetMessagesForUser</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
+      <Scope>ClientProtocol::Event</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+    <Path>class_client_protocol_1_1_event.html</Path>
+    <Anchor>a8e4dd25470dc57de175586f2fdb3c73d</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClientProtocol::MessageTagData</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>ClientProtocol::MessageTagData</Scope>
-    </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21758,43 +21908,229 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::ParseOutput</Name>
+      <Name>ClientProtocol::EventHook</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::ParseOutput</Scope>
+      <Scope>ClientProtocol::EventHook</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_parse_output.html</Path>
+    <Path>class_client_protocol_1_1_event_hook.html</Path>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>cmd</Name>
+      <Name>EventHook</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ClientProtocol::ParseOutput</Scope>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::EventHook</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_parse_output.html</Path>
-    <Anchor>a06fe8add7b199c686fe5c839ce09ba0c</Anchor>
+    <Path>class_client_protocol_1_1_event_hook.html</Path>
+    <Anchor>acc7c3598ba5364e3c4d5194b191d0193</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>params</Name>
+      <Name>OnEventInit</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>ClientProtocol::ParseOutput</Scope>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::EventHook</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_parse_output.html</Path>
-    <Anchor>a2e09595545e9f230ea34be8674312a1a</Anchor>
+    <Path>class_client_protocol_1_1_event_hook.html</Path>
+    <Anchor>aa58b3dde6b3af7fe31748cd488085c9d</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>tags</Name>
+      <Name>OnPreEventSend</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::EventHook</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_event_hook.html</Path>
+    <Anchor>a3aec4e632953c56161d0bbdb99d34216</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ModuleEventListener</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a3c58708bb631c32457874b09139159c8</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetPriority</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClientProtocol::EventProvider</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>ClientProtocol::EventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_event_provider.html</Path>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EventProvider</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::EventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_event_provider.html</Path>
+    <Anchor>a9ac7a8cf721479dc0b8f63aacc31dba1</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ModuleEventProvider</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a1ed3b3dd0840d883ab33b61e8f20d245</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aa2cc15122a844910ecfcdfd86af90581</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSubscribers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a951141176ff6c0d4540f91affc475963</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Subscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>a3560490471faa9294a5aa1d338659de3</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Unsubscribe</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_provider.html</Path>
+    <Anchor>aac3c671902ca36b925c0ab810480363e</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTypeString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a89bf645cadb13d1f3ac64fed93c879bd</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RegisterService</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>aed77d91b39d5df569be84172e50e4cc4</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DisableAutoRegister</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a87185e6ebfa0f4960f20797e716c72d6</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>classbase</Scope>
+    </TokenIdentifier>
+    <Path>classclassbase.html</Path>
+    <Anchor>a2a773ec2f42d047e0ce250553f44d831</Anchor>
+    <DeclaredIn>base.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>ClientProtocol::ParseOutput</Scope>
+      <Scope>ServiceProvider</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_parse_output.html</Path>
-    <Anchor>a34a84ba012d602b94a56a4c6b11bd954</Anchor>
+    <Path>class_service_provider.html</Path>
+    <Anchor>ad1dfa94bef361c61dfadefff1454bef9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a1dace4b64886f5cabd5a406d0f9e7e11</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ServiceProvider</Scope>
+    </TokenIdentifier>
+    <Path>class_service_provider.html</Path>
+    <Anchor>a398d7fbc50d368467964f93bd093aabd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21947,46 +22283,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::TagSelection</Name>
+      <Name>ClientProtocol::MessageTagData</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::TagSelection</Scope>
+      <Scope>ClientProtocol::MessageTagData</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_tag_selection.html</Path>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IsSelected</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::TagSelection</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_tag_selection.html</Path>
-    <Anchor>af1aaa651a137391f17b0556a0704a578</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Select</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::TagSelection</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_tag_selection.html</Path>
-    <Anchor>a1eb6c38af66b0c787d68652996c5d09d</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator==</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::TagSelection</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_tag_selection.html</Path>
-    <Anchor>ac31a44057651d4bf780f37bb5331a768</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
+    <Path>struct_client_protocol_1_1_message_tag_data.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22448,319 +22750,45 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Error</Name>
+      <Name>ClientProtocol::Messages::Numeric</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Error</Scope>
+      <Scope>ClientProtocol::Messages::Numeric</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
+    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Error</Name>
+      <Name>Numeric</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>ClientProtocol::Messages::Error</Scope>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Numeric</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
-    <Anchor>a25f8f5b472a4d2ebf4adc0e0fa27281f</Anchor>
+    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+    <Anchor>aa53e03c085abcae08a98f5fc87574c1b</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Message</Name>
+      <Name>Numeric</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
+      <Scope>ClientProtocol::Messages::Numeric</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Message</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetParams</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetTags</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetCommand</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParamRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParamPlaceholder</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParamRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddTag</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddTags</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSerialized</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClearParams</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InvalidateCache</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSourceUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSourceUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetCommand</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Invite</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Invite</Scope>
-    </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
+    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+    <Anchor>ac021b8fa8b83e5916dc6f2f089990ac7</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Invite</Name>
+      <Name>Numeric</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>ClientProtocol::Messages::Invite</Scope>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Numeric</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
-    <Anchor>aceb644b14b56fb6f3cac8c84a9754629</Anchor>
+    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+    <Anchor>a50b51a17b17a7ab379d577154cfaa908</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -23380,6 +23408,302 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ClientProtocol::Messages::Part</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>ClientProtocol::Messages::Part</Scope>
+    </TokenIdentifier>
+    <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Part</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>ClientProtocol::Messages::Part</Scope>
+    </TokenIdentifier>
+    <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
+    <Anchor>ab2f2ec684a5d0e972b483f3d5d4b07f9</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Message</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Message</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTags</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParamRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParamPlaceholder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParamRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddTag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddTags</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSerialized</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClearParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InvalidateCache</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSourceUser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSourceUser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ClientProtocol::Messages::Kick</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -23397,6 +23721,598 @@
     </TokenIdentifier>
     <Path>struct_client_protocol_1_1_messages_1_1_kick.html</Path>
     <Anchor>ae20dc3ceef9ecba7f1508f72f2bd6236</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Message</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Message</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTags</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParamRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParamPlaceholder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParamRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddTag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddTags</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSerialized</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClearParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InvalidateCache</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSourceUser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSourceUser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClientProtocol::Messages::Quit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>ClientProtocol::Messages::Quit</Scope>
+    </TokenIdentifier>
+    <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Quit</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>ClientProtocol::Messages::Quit</Scope>
+    </TokenIdentifier>
+    <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
+    <Anchor>a5a1469c959a290d8add9d5816c75fe5a</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Message</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Message</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetTags</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParamRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PushParamPlaceholder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParam</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceParamRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddTag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AddTags</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSerialized</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClearParams</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InvalidateCache</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetSourceUser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSourceUser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetSource</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::MessageSource</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message_source.html</Path>
+    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetCommand</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Message</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_message.html</Path>
+    <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
+    <DeclaredIn>clientprotocol.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClientProtocol::Messages::Nick</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>ClientProtocol::Messages::Nick</Scope>
+    </TokenIdentifier>
+    <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Nick</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>ClientProtocol::Messages::Nick</Scope>
+    </TokenIdentifier>
+    <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
+    <Anchor>a80775d11966784b7d134a9a62309d00e</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -24071,23 +24987,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Nick</Name>
+      <Name>ClientProtocol::Messages::Topic</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Nick</Scope>
+      <Scope>ClientProtocol::Messages::Topic</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
+    <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Nick</Name>
+      <Name>Topic</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>ClientProtocol::Messages::Nick</Scope>
+      <Scope>ClientProtocol::Messages::Topic</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_nick.html</Path>
-    <Anchor>a80775d11966784b7d134a9a62309d00e</Anchor>
+    <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
+    <Anchor>a3c046c15a5a24ca06a03a5081071b145</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -24367,45 +25283,144 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Numeric</Name>
+      <Name>ClientProtocol::Messages::Privmsg</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Numeric</Scope>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Numeric</Name>
+      <Name>Privmsg</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Numeric</Scope>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
-    <Anchor>aa53e03c085abcae08a98f5fc87574c1b</Anchor>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>ade4c461b5c77eef18dd8f4c9a2ca2ac3</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Numeric</Name>
+      <Name>Privmsg</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Numeric</Scope>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
-    <Anchor>ac021b8fa8b83e5916dc6f2f089990ac7</Anchor>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>ad52eea39cdd63977f7a36f838e2a83e4</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Numeric</Name>
+      <Name>Privmsg</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Numeric</Scope>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_numeric.html</Path>
-    <Anchor>a50b51a17b17a7ab379d577154cfaa908</Anchor>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>adf78ff398194737cab949dd8b13dc20a</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>aa0d14c90da6a00e7a892ef9b5814e83e</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>a20ef51e21be304e320a598fc1f09be1c</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>aef0c22853afde3a1e91ac4099014fc19</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>ae9cec6858cf877762e32fdd1edecd4fd</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>ae67e0ccf84695ef37c62e347ef50605d</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>af252192cee71f1d7a1d2cefd26d8d4e0</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>a8dc48237f6f61dabac9cee64e06cd287</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>a7e264d9a4808e605ed32c0e9018971fc</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Privmsg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>ad6e517250e678a2206d9329d217b892b</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -24674,6 +25689,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CommandStrFromMsgType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+    </TokenIdentifier>
+    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Anchor>a44e69f937cd847960a0ae3aa4a418268</Anchor>
+    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SetCommand</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -24685,23 +25711,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Part</Name>
+      <Name>ClientProtocol::Messages::Invite</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Part</Scope>
+      <Scope>ClientProtocol::Messages::Invite</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
+    <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Part</Name>
+      <Name>Invite</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>ClientProtocol::Messages::Part</Scope>
+      <Scope>ClientProtocol::Messages::Invite</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_part.html</Path>
-    <Anchor>ab2f2ec684a5d0e972b483f3d5d4b07f9</Anchor>
+    <Path>struct_client_protocol_1_1_messages_1_1_invite.html</Path>
+    <Anchor>aceb644b14b56fb6f3cac8c84a9754629</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -25584,451 +26610,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Privmsg</Name>
+      <Name>ClientProtocol::Messages::Error</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
+      <Scope>ClientProtocol::Messages::Error</Scope>
     </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
+    <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>ade4c461b5c77eef18dd8f4c9a2ca2ac3</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>ad52eea39cdd63977f7a36f838e2a83e4</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>adf78ff398194737cab949dd8b13dc20a</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>aa0d14c90da6a00e7a892ef9b5814e83e</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>a20ef51e21be304e320a598fc1f09be1c</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>aef0c22853afde3a1e91ac4099014fc19</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>ae9cec6858cf877762e32fdd1edecd4fd</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>ae67e0ccf84695ef37c62e347ef50605d</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>af252192cee71f1d7a1d2cefd26d8d4e0</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>a8dc48237f6f61dabac9cee64e06cd287</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>a7e264d9a4808e605ed32c0e9018971fc</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Privmsg</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>ad6e517250e678a2206d9329d217b892b</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Message</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Message</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetParams</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetTags</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetCommand</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParamRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParamPlaceholder</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParamRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddTag</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddTags</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSerialized</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClearParams</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InvalidateCache</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSourceUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSourceUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CommandStrFromMsgType</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>ClientProtocol::Messages::Privmsg</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_messages_1_1_privmsg.html</Path>
-    <Anchor>a44e69f937cd847960a0ae3aa4a418268</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetCommand</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Quit</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Quit</Scope>
-    </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Quit</Name>
+      <Name>Error</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>ClientProtocol::Messages::Quit</Scope>
+      <Scope>ClientProtocol::Messages::Error</Scope>
     </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_quit.html</Path>
-    <Anchor>a5a1469c959a290d8add9d5816c75fe5a</Anchor>
+    <Path>struct_client_protocol_1_1_messages_1_1_error.html</Path>
+    <Anchor>a25f8f5b472a4d2ebf4adc0e0fa27281f</Anchor>
     <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
   </Token>
   <Token>
@@ -26305,345 +26903,6 @@
     <Path>class_client_protocol_1_1_message.html</Path>
     <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
     <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClientProtocol::Messages::Topic</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>ClientProtocol::Messages::Topic</Scope>
-    </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Topic</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>ClientProtocol::Messages::Topic</Scope>
-    </TokenIdentifier>
-    <Path>struct_client_protocol_1_1_messages_1_1_topic.html</Path>
-    <Anchor>a3c046c15a5a24ca06a03a5081071b145</Anchor>
-    <DeclaredIn>clientprotocolmsg.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Message</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a42477d8f4c8a8d6fb68efc75159b048e</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Message</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>af4cfff6823ae5594afa44c5b66236fef</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetParams</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad9639b6d8bd719606b00d4fb55e2809c</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetTags</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a41b704a1373514ac2ffb4ebfbb7d8843</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetCommand</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ab631f6f68051e3af6d864061e665ee84</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a6535aae07b37ad36535bbceb533b8561</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ae26840753c9b10cb892f0640b9f60df0</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParamRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad00d95e32d50224380a166b048d815cb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PushParamPlaceholder</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a003a19e9afb6cb167677adc1066533b4</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a375c8b8d5e84c21fccef50b621b9fbc6</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParam</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a4d629b2dd07cd73663567a47b0a862eb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReplaceParamRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a8a9acdb276db1418a1d5381e761937bd</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddTag</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a8f1ae68e14c51e4eabd84229b7d01f8a</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AddTags</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a88b85e646e4a79c2eb4b2e039ff9e07b</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSerialized</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad684fc7d881738315cc038fc74c2d8f3</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ClearParams</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a705ce2c1a0ccf7b00d69c9395860800e</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InvalidateCache</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>ad18d579c390359de7cb22b55b17638f2</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a46f5980d7564eb6fcc087677c2c85adb</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MessageSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a19addfc93cc1206137b2f99853e71fdd</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a24ffe25957892cbe4a1df711e2a7f205</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSourceUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a8425389d46c81d6683a966ec9bf5bdc7</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSourceUser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a5ac8edd539d1578ab6061f0d324ffe91</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a0208a84310666c49fce429fa87206e97</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSource</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::MessageSource</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message_source.html</Path>
-    <Anchor>a2fa2ae6873730eae49641a7c18b5b2f5</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetCommand</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ClientProtocol::Message</Scope>
-    </TokenIdentifier>
-    <Path>class_client_protocol_1_1_message.html</Path>
-    <Anchor>a135c9f3dbc2ce9da517db6fa10988663</Anchor>
-    <DeclaredIn>clientprotocol.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Events::ModuleEventListener</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ModuleEventListener</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <Anchor>a3c58708bb631c32457874b09139159c8</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetModule</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetPriority</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Events::ModuleEventListener</Scope>
-    </TokenIdentifier>
-    <Path>class_events_1_1_module_event_listener.html</Path>
-    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
-    <DeclaredIn>event.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26804,12 +27063,73 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Events::ModuleEventListener</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ModuleEventListener</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a3c58708bb631c32457874b09139159c8</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetModule</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>a9929493211400f2ea306feab406ec9cf</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetPriority</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Events::ModuleEventListener</Scope>
+    </TokenIdentifier>
+    <Path>class_events_1_1_module_event_listener.html</Path>
+    <Anchor>abf13224c9dc157e849f2c2f13ceaff97</Anchor>
+    <DeclaredIn>event.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>insp::aligned_storage</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
       <Scope>insp::aligned_storage</Scope>
     </TokenIdentifier>
     <Path>classinsp_1_1aligned__storage.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>insp::flat_set</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>insp::flat_set</Scope>
+    </TokenIdentifier>
+    <Path>classinsp_1_1flat__set.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>insp::flat_multiset</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>insp::flat_multiset</Scope>
+    </TokenIdentifier>
+    <Path>classinsp_1_1flat__multiset.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26831,21 +27151,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>insp::flat_multiset</Name>
+      <Name>insp::intrusive_list_def_tag</Name>
       <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>insp::flat_multiset</Scope>
+      <Type>cl</Type>
+      <Scope>insp::intrusive_list_def_tag</Scope>
     </TokenIdentifier>
-    <Path>classinsp_1_1flat__multiset.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>insp::flat_set</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>insp::flat_set</Scope>
-    </TokenIdentifier>
-    <Path>classinsp_1_1flat__set.html</Path>
+    <Path>structinsp_1_1intrusive__list__def__tag.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26867,24 +27178,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>insp::intrusive_list_def_tag</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>insp::intrusive_list_def_tag</Scope>
-    </TokenIdentifier>
-    <Path>structinsp_1_1intrusive__list__def__tag.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>insp::intrusive_list_node</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>insp::intrusive_list_node</Scope>
-    </TokenIdentifier>
-    <Path>classinsp_1_1intrusive__list__node.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>insp::intrusive_list_tail</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -26894,12 +27187,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>insp::detail::flat_map_base</Name>
+      <Name>insp::intrusive_list_node</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
-      <Scope>insp::detail::flat_map_base</Scope>
+      <Scope>insp::intrusive_list_node</Scope>
     </TokenIdentifier>
-    <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
+    <Path>classinsp_1_1intrusive__list__node.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26918,6 +27211,15 @@
       <Scope>insp::detail::map_value_compare</Scope>
     </TokenIdentifier>
     <Path>classinsp_1_1detail_1_1map__value__compare.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>insp::detail::flat_map_base</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>insp::detail::flat_map_base</Scope>
+    </TokenIdentifier>
+    <Path>classinsp_1_1detail_1_1flat__map__base.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26952,23 +27254,51 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::commasepstream</Name>
+      <Name>irc::StrHashComp</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>irc::commasepstream</Scope>
+      <Scope>irc::StrHashComp</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1commasepstream.html</Path>
+    <Path>structirc_1_1_str_hash_comp.html</Path>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>commasepstream</Name>
+      <Name>operator()</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::commasepstream</Scope>
+      <Type>func</Type>
+      <Scope>irc::StrHashComp</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1commasepstream.html</Path>
-    <Anchor>aab68ed4c160c18c3710c6071d2ba0c12</Anchor>
+    <Path>structirc_1_1_str_hash_comp.html</Path>
+    <Anchor>a53c5bd5d764b44ea04988cd40fce8735</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::insensitive</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::insensitive</Scope>
+    </TokenIdentifier>
+    <Path>structirc_1_1insensitive.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::insensitive_swo</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::insensitive_swo</Scope>
+    </TokenIdentifier>
+    <Path>structirc_1_1insensitive__swo.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::sepstream</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::sepstream</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1sepstream.html</Path>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -27079,62 +27409,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::insensitive</Name>
+      <Name>irc::commasepstream</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>irc::insensitive</Scope>
+      <Scope>irc::commasepstream</Scope>
     </TokenIdentifier>
-    <Path>structirc_1_1insensitive.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::insensitive_swo</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::insensitive_swo</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1insensitive__swo.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::portparser</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::portparser</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1portparser.html</Path>
+    <Path>classirc_1_1commasepstream.html</Path>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>portparser</Name>
+      <Name>commasepstream</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>irc::portparser</Scope>
+      <Scope>irc::commasepstream</Scope>
     </TokenIdentifier>
-    <Path>classirc_1_1portparser.html</Path>
-    <Anchor>a06ea21fd98ad5d18dd7a0e2c3be14061</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetToken</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>irc::portparser</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1portparser.html</Path>
-    <Anchor>af5581bda92d07705c3d0c74eca1581f3</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::sepstream</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::sepstream</Scope>
-    </TokenIdentifier>
-    <Path>classirc_1_1sepstream.html</Path>
+    <Path>classirc_1_1commasepstream.html</Path>
+    <Anchor>aab68ed4c160c18c3710c6071d2ba0c12</Anchor>
     <DeclaredIn>hashcomp.h</DeclaredIn>
   </Token>
   <Token>
@@ -27372,27 +27663,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>irc::StrHashComp</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::StrHashComp</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1_str_hash_comp.html</Path>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator()</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::StrHashComp</Scope>
-    </TokenIdentifier>
-    <Path>structirc_1_1_str_hash_comp.html</Path>
-    <Anchor>a53c5bd5d764b44ea04988cd40fce8735</Anchor>
-    <DeclaredIn>hashcomp.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>irc::tokenstream</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -27447,6 +27717,38 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>irc::portparser</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::portparser</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1portparser.html</Path>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>portparser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::portparser</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1portparser.html</Path>
+    <Anchor>a06ea21fd98ad5d18dd7a0e2c3be14061</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetToken</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>irc::portparser</Scope>
+    </TokenIdentifier>
+    <Path>classirc_1_1portparser.html</Path>
+    <Anchor>af5581bda92d07705c3d0c74eca1581f3</Anchor>
+    <DeclaredIn>hashcomp.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>irc::sockets</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -27496,6 +27798,70 @@
     </TokenIdentifier>
     <Path>namespaceirc_1_1sockets.html</Path>
     <Anchor>adbdfd55372e90a53849c2cec88c9a460</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>irc::sockets::sockaddrs</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>family</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>a16c7bcb27c3ede5977aedd4c0f85fa79</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sa_size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>a6f80b2b70419bcd17fbb73456a505636</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>port</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>aa3473cafbee1114913ded93c30955a7c</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>ab342552c4c4604fd5500459c3576cafb</Anchor>
+    <DeclaredIn>socket.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>str</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>irc::sockets::sockaddrs</Scope>
+    </TokenIdentifier>
+    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
+    <Anchor>abd459ba275c5fddfb2c5b8bfbda9c805</Anchor>
     <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
@@ -27602,70 +27968,6 @@
     </TokenIdentifier>
     <Path>structirc_1_1sockets_1_1cidr__mask.html</Path>
     <Anchor>abe83e74f5c5fb639399c4edde98a1fd4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>irc::sockets::sockaddrs</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>family</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a16c7bcb27c3ede5977aedd4c0f85fa79</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sa_size</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>a6f80b2b70419bcd17fbb73456a505636</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>port</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>aa3473cafbee1114913ded93c30955a7c</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>addr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>ab342552c4c4604fd5500459c3576cafb</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>str</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>irc::sockets::sockaddrs</Scope>
-    </TokenIdentifier>
-    <Path>unionirc_1_1sockets_1_1sockaddrs.html</Path>
-    <Anchor>abd459ba275c5fddfb2c5b8bfbda9c805</Anchor>
-    <DeclaredIn>socket.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27810,33 +28112,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Numeric::Builder</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>Numeric::Builder</Scope>
-    </TokenIdentifier>
-    <Path>class_numeric_1_1_builder.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Numeric::GenericBuilder</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>Numeric::GenericBuilder</Scope>
-    </TokenIdentifier>
-    <Path>class_numeric_1_1_generic_builder.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Numeric::GenericParamBuilder</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>Numeric::GenericParamBuilder</Scope>
-    </TokenIdentifier>
-    <Path>class_numeric_1_1_generic_param_builder.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Numeric::Numeric</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -27920,6 +28195,33 @@
     <Path>class_numeric_1_1_numeric.html</Path>
     <Anchor>aafdd782234fd5a96caa05183c0898735</Anchor>
     <DeclaredIn>numeric.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Numeric::GenericBuilder</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>Numeric::GenericBuilder</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_generic_builder.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Numeric::Builder</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>Numeric::Builder</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_builder.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Numeric::GenericParamBuilder</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>Numeric::GenericParamBuilder</Scope>
+    </TokenIdentifier>
+    <Path>class_numeric_1_1_generic_param_builder.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28297,22 +28599,22 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>stdalgo::culldeleter</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>stdalgo::culldeleter</Scope>
-    </TokenIdentifier>
-    <Path>structstdalgo_1_1culldeleter.html</Path>
-    <DeclaredIn>stdalgo.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>stdalgo::defaultdeleter</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
       <Scope>stdalgo::defaultdeleter</Scope>
     </TokenIdentifier>
     <Path>structstdalgo_1_1defaultdeleter.html</Path>
+    <DeclaredIn>stdalgo.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stdalgo::culldeleter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>stdalgo::culldeleter</Scope>
+    </TokenIdentifier>
+    <Path>structstdalgo_1_1culldeleter.html</Path>
     <DeclaredIn>stdalgo.h</DeclaredIn>
   </Token>
 </Tokens>
