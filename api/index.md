@@ -8,3 +8,5 @@ important      : "You have to select the version of InspIRCd you would like to s
 <strong>Documentation is available for the following releases:</strong>
 
 [InspIRCd v3 (stable)](/api/3.0)
+
+[InspIRCd v3 (development)](/api/4.0)
