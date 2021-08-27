@@ -235,419 +235,419 @@ $(function() {
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        }</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;};</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
-<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="class_user.html">  243</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_user.html">User</a> : <span class="keyword">public</span> <a class="code" href="class_extensible.html">Extensible</a></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;{</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        std::string cached_fullhost;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        std::string cached_hostip;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        std::string cached_makehost;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        std::string cached_fullrealhost;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        std::string cachedip;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        std::string displayhost;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> already_sent_t;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="class_user.html">  246</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_user.html">User</a> : <span class="keyword">public</span> <a class="code" href="class_extensible.html">Extensible</a></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        std::string cached_fullhost;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        std::string cached_hostip;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        std::string cached_makehost;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        std::string cached_fullrealhost;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        std::string cachedip;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        std::string realhost;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        std::string displayhost;</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160; </div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        std::string realname;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        std::string realhost;</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        std::bitset&lt;ModeParser::MODEID_MAX&gt; modes;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="class_user_1_1_for_each_neighbor_handler.html">  287</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        {</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;         <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="class_user_1_1_for_each_neighbor_handler.html#a51b53a471642699def692f2b97f1150c">  294</a></span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_user_1_1_for_each_neighbor_handler.html#a51b53a471642699def692f2b97f1150c">Execute</a>(<a class="code" href="class_local_user.html">LocalUser</a>* user) = 0;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        };</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
-<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="class_user.html#aa0d3f15ddb505c093a354bd945031fa9">  299</a></span>&#160;        <span class="keyword">typedef</span> <a class="code" href="classinsp_1_1intrusive__list.html">insp::intrusive_list&lt;Membership&gt;</a> <a class="code" href="class_user.html#aa0d3f15ddb505c093a354bd945031fa9">ChanList</a>;</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
-<div class="line"><a name="l00303"></a><span class="lineno"><a class="line" href="class_user.html#a6e62e3d0a124b4418891e11d76faad7e">  303</a></span>&#160;        time_t <a class="code" href="class_user.html#a6e62e3d0a124b4418891e11d76faad7e">age</a>;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160; </div>
-<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="class_user.html#a1d50e3ac7bdcb5fb96d501d91782eb87">  309</a></span>&#160;        time_t <a class="code" href="class_user.html#a1d50e3ac7bdcb5fb96d501d91782eb87">signon</a>;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160; </div>
-<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="class_user.html#a118a42a76b20e6cb6de541d9e08041e9">  315</a></span>&#160;        <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> <a class="code" href="class_user.html#a118a42a76b20e6cb6de541d9e08041e9">client_sa</a>;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
-<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">  321</a></span>&#160;        std::string <a class="code" href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">nick</a>;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
-<div class="line"><a name="l00326"></a><span class="lineno"><a class="line" href="class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a">  326</a></span>&#160;        <span class="keyword">const</span> std::string <a class="code" href="class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a">uuid</a>;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
-<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">  331</a></span>&#160;        std::string <a class="code" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">ident</a>;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160; </div>
-<div class="line"><a name="l00336"></a><span class="lineno"><a class="line" href="class_user.html#a98128434f41c8ca644ad0a2429565ef7">  336</a></span>&#160;        std::bitset&lt;64&gt; <a class="code" href="class_user.html#a98128434f41c8ca644ad0a2429565ef7">snomasks</a>;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160; </div>
-<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="class_user.html#a100cff046bd7349fb1e9a7e4104df3b1">  340</a></span>&#160;        <a class="code" href="classinsp_1_1intrusive__list.html">ChanList</a> <a class="code" href="class_user.html#a100cff046bd7349fb1e9a7e4104df3b1">chans</a>;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
-<div class="line"><a name="l00344"></a><span class="lineno"><a class="line" href="class_user.html#a725932555ae2544a813fda2baa066224">  344</a></span>&#160;        <a class="code" href="class_server.html">Server</a>* <a class="code" href="class_user.html#a725932555ae2544a813fda2baa066224">server</a>;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
-<div class="line"><a name="l00349"></a><span class="lineno"><a class="line" href="class_user.html#a9f4f7df5529c3547133907148fbb2918">  349</a></span>&#160;        std::string <a class="code" href="class_user.html#a9f4f7df5529c3547133907148fbb2918">awaymsg</a>;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
-<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="class_user.html#aa0241e8f5196138096077725a628a476">  354</a></span>&#160;        time_t <a class="code" href="class_user.html#aa0241e8f5196138096077725a628a476">awaytime</a>;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
-<div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">  358</a></span>&#160;        <a class="code" href="classreference.html">reference&lt;OperInfo&gt;</a> <a class="code" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">oper</a>;</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
-<div class="line"><a name="l00364"></a><span class="lineno"><a class="line" href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">  364</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">registered</a>:3;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160; </div>
-<div class="line"><a name="l00371"></a><span class="lineno"><a class="line" href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">  371</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">quitting</a>:1;</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
-<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">  374</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a>:2;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        std::string realname;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        std::bitset&lt;ModeParser::MODEID_MAX&gt; modes;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="class_user_1_1_for_each_neighbor_handler.html">  290</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        {</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;         <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="class_user_1_1_for_each_neighbor_handler.html#a51b53a471642699def692f2b97f1150c">  297</a></span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_user_1_1_for_each_neighbor_handler.html#a51b53a471642699def692f2b97f1150c">Execute</a>(<a class="code" href="class_local_user.html">LocalUser</a>* user) = 0;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        };</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
+<div class="line"><a name="l00302"></a><span class="lineno"><a class="line" href="class_user.html#aa0d3f15ddb505c093a354bd945031fa9">  302</a></span>&#160;        <span class="keyword">typedef</span> <a class="code" href="classinsp_1_1intrusive__list.html">insp::intrusive_list&lt;Membership&gt;</a> <a class="code" href="class_user.html#aa0d3f15ddb505c093a354bd945031fa9">ChanList</a>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="class_user.html#a6e62e3d0a124b4418891e11d76faad7e">  306</a></span>&#160;        time_t <a class="code" href="class_user.html#a6e62e3d0a124b4418891e11d76faad7e">age</a>;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160; </div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="class_user.html#a1d50e3ac7bdcb5fb96d501d91782eb87">  312</a></span>&#160;        time_t <a class="code" href="class_user.html#a1d50e3ac7bdcb5fb96d501d91782eb87">signon</a>;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160; </div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="line" href="class_user.html#a118a42a76b20e6cb6de541d9e08041e9">  318</a></span>&#160;        <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> <a class="code" href="class_user.html#a118a42a76b20e6cb6de541d9e08041e9">client_sa</a>;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
+<div class="line"><a name="l00324"></a><span class="lineno"><a class="line" href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">  324</a></span>&#160;        std::string <a class="code" href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">nick</a>;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160; </div>
+<div class="line"><a name="l00329"></a><span class="lineno"><a class="line" href="class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a">  329</a></span>&#160;        <span class="keyword">const</span> std::string <a class="code" href="class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a">uuid</a>;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
+<div class="line"><a name="l00334"></a><span class="lineno"><a class="line" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">  334</a></span>&#160;        std::string <a class="code" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">ident</a>;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160; </div>
+<div class="line"><a name="l00339"></a><span class="lineno"><a class="line" href="class_user.html#a98128434f41c8ca644ad0a2429565ef7">  339</a></span>&#160;        std::bitset&lt;64&gt; <a class="code" href="class_user.html#a98128434f41c8ca644ad0a2429565ef7">snomasks</a>;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160; </div>
+<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="class_user.html#a100cff046bd7349fb1e9a7e4104df3b1">  343</a></span>&#160;        <a class="code" href="classinsp_1_1intrusive__list.html">ChanList</a> <a class="code" href="class_user.html#a100cff046bd7349fb1e9a7e4104df3b1">chans</a>;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160; </div>
+<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="class_user.html#a725932555ae2544a813fda2baa066224">  347</a></span>&#160;        <a class="code" href="class_server.html">Server</a>* <a class="code" href="class_user.html#a725932555ae2544a813fda2baa066224">server</a>;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00352"></a><span class="lineno"><a class="line" href="class_user.html#a9f4f7df5529c3547133907148fbb2918">  352</a></span>&#160;        std::string <a class="code" href="class_user.html#a9f4f7df5529c3547133907148fbb2918">awaymsg</a>;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160; </div>
+<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="class_user.html#aa0241e8f5196138096077725a628a476">  357</a></span>&#160;        time_t <a class="code" href="class_user.html#aa0241e8f5196138096077725a628a476">awaytime</a>;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160; </div>
+<div class="line"><a name="l00361"></a><span class="lineno"><a class="line" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">  361</a></span>&#160;        <a class="code" href="classreference.html">reference&lt;OperInfo&gt;</a> <a class="code" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">oper</a>;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
+<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">  367</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">registered</a>:3;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
+<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">  374</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">quitting</a>:1;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160; </div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keyword">const</span> std::string&amp; GetIPString();</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160; </div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keyword">const</span> std::string&amp; GetHost(<span class="keywordtype">bool</span> uncloak) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160; </div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <span class="keyword">const</span> std::string&amp; GetDisplayedHost() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="line" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">  377</a></span>&#160;        <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a>:2;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160; </div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keyword">const</span> std::string&amp; GetIPString();</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160; </div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <span class="keyword">const</span> std::string&amp; GetHost(<span class="keywordtype">bool</span> uncloak) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160; </div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keyword">const</span> std::string&amp; GetRealHost() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keyword">const</span> std::string&amp; GetDisplayedHost() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160; </div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="keyword">const</span> std::string&amp; GetRealName() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="keyword">const</span> std::string&amp; GetRealHost() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160; </div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <a class="code" href="structirc_1_1sockets_1_1cidr__mask.html">irc::sockets::cidr_mask</a> GetCIDRMask();</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160; </div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SetClientIP(<span class="keyword">const</span> std::string&amp; address);</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160; </div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SetClientIP(<span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; sa);</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <a class="code" href="class_user.html">User</a>(<span class="keyword">const</span> std::string&amp; uid, <a class="code" href="class_server.html">Server</a>* srv, UserType objtype);</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160; </div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullHost();</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160; </div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullRealHost();</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160; </div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordtype">void</span> InvalidateCache();</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160; </div>
-<div class="line"><a name="l00435"></a><span class="lineno"><a class="line" href="class_user.html#a5f987cd50df60cea7a33ea38772188e7">  435</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_user.html#a5f987cd50df60cea7a33ea38772188e7">IsAway</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> (!awaymsg.empty()); }</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160; </div>
-<div class="line"><a name="l00441"></a><span class="lineno"><a class="line" href="class_user.html#a0c84a4363c68814c3dc73c213ce67e28">  441</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_user.html#a0c84a4363c68814c3dc73c213ce67e28">IsOper</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> oper; }</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160; </div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordtype">bool</span> IsNoticeMaskSet(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sm);</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160; </div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        std::string GetModeLetters(<span class="keywordtype">bool</span> includeparams = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160; </div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>&amp; mh)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> IsModeSet(&amp;mh); }</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<a class="code" href="class_user_mode_reference.html">UserModeReference</a>&amp; moderef) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160; </div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        <span class="keywordtype">void</span> SetMode(<a class="code" href="class_mode_handler.html">ModeHandler</a>* mh, <span class="keywordtype">bool</span> value);</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <span class="keywordtype">void</span> SetMode(<a class="code" href="class_mode_handler.html">ModeHandler</a>&amp; mh, <span class="keywordtype">bool</span> value) { SetMode(&amp;mh, value); }</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasCommandPermission(<span class="keyword">const</span> std::string&amp; command);</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160; </div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasPrivPermission(<span class="keyword">const</span> std::string&amp; privstr);</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160; </div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasModePermission(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160; </div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasSnomaskPermission(<span class="keywordtype">char</span> chr) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160; </div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;        <span class="keyword">const</span> std::string&amp; MakeHost();</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160; </div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        <span class="keyword">const</span> std::string&amp; MakeHostIP();</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160; </div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        <span class="keywordtype">void</span> Oper(<a class="code" href="class_oper_info.html">OperInfo</a>* info);</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160; </div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        <span class="keywordtype">void</span> UnOper();</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160; </div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;        <span class="keywordtype">void</span> WriteNotice(<span class="keyword">const</span> std::string&amp; text);</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160; </div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> WriteRemoteNotice(<span class="keyword">const</span> std::string&amp; text);</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160; </div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keyword">const</span> <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a>&amp; numeric);</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160; </div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1&gt;</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1)</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;        {</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                WriteRemoteNumeric(n);</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        }</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160; </div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2&gt;</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2)</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        {</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;                WriteRemoteNumeric(n);</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;        }</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160; </div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3&gt;</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3)</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        {</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;                n.push(p3);</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;                WriteRemoteNumeric(n);</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;        }</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160; </div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4)</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;        {</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;                n.push(p3);</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;                n.push(p4);</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;                WriteRemoteNumeric(n);</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        }</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160; </div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4, <span class="keyword">typename</span> T5&gt;</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        {</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;                n.push(p3);</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;                n.push(p4);</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;                n.push(p5);</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;                WriteRemoteNumeric(n);</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        }</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160; </div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keyword">const</span> <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a>&amp; numeric);</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160; </div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1&gt;</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1)</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        {</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;                WriteNumeric(n);</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;        }</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160; </div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2&gt;</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2)</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        {</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;                WriteNumeric(n);</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        }</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160; </div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3&gt;</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3)</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        {</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                n.push(p3);</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                WriteNumeric(n);</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        }</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160; </div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4)</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        {</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                n.push(p3);</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;                n.push(p4);</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                WriteNumeric(n);</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;        }</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160; </div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4, <span class="keyword">typename</span> T5&gt;</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        {</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;                n.push(p1);</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;                n.push(p2);</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                n.push(p3);</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;                n.push(p4);</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;                n.push(p5);</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                WriteNumeric(n);</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;        }</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160; </div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        <span class="keywordtype">void</span> WriteCommonRaw(<a class="code" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a>&amp; protoev, <span class="keywordtype">bool</span> include_self = <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160; </div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        <span class="keywordtype">void</span> ForEachNeighbor(ForEachNeighborHandler&amp; handler, <span class="keywordtype">bool</span> include_self = <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160; </div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;        <span class="keywordtype">bool</span> SharesChannelWith(<a class="code" href="class_user.html">User</a> *other);</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160; </div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;        <span class="keywordtype">bool</span> ChangeDisplayedHost(<span class="keyword">const</span> std::string&amp; host);</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160; </div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;        <span class="keywordtype">void</span> ChangeRealHost(<span class="keyword">const</span> std::string&amp; host, <span class="keywordtype">bool</span> resetdisplay);</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160; </div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keywordtype">bool</span> ChangeIdent(<span class="keyword">const</span> std::string&amp; newident);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160; </div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;        <span class="keywordtype">bool</span> ChangeRealName(<span class="keyword">const</span> std::string&amp; real);</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160; </div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        <span class="keywordtype">bool</span> ChangeNick(<span class="keyword">const</span> std::string&amp; newnick, time_t newts = 0);</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160; </div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        <span class="keywordtype">void</span> PurgeEmptyChannels();</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160; </div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_user.html">User</a>();</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull() CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160; </div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        <span class="keywordtype">bool</span> Deserialize(Data&amp; data) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="keyword">const</span> std::string&amp; GetRealName() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160; </div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <a class="code" href="structirc_1_1sockets_1_1cidr__mask.html">irc::sockets::cidr_mask</a> GetCIDRMask();</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160; </div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SetClientIP(<span class="keyword">const</span> std::string&amp; address);</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160; </div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SetClientIP(<span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; sa);</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160; </div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <a class="code" href="class_user.html">User</a>(<span class="keyword">const</span> std::string&amp; uid, <a class="code" href="class_server.html">Server</a>* srv, UserType objtype);</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160; </div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullHost();</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> std::string&amp; GetFullRealHost();</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160; </div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        <span class="keywordtype">void</span> InvalidateCache();</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160; </div>
+<div class="line"><a name="l00438"></a><span class="lineno"><a class="line" href="class_user.html#a5f987cd50df60cea7a33ea38772188e7">  438</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_user.html#a5f987cd50df60cea7a33ea38772188e7">IsAway</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> (!awaymsg.empty()); }</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160; </div>
+<div class="line"><a name="l00444"></a><span class="lineno"><a class="line" href="class_user.html#a0c84a4363c68814c3dc73c213ce67e28">  444</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_user.html#a0c84a4363c68814c3dc73c213ce67e28">IsOper</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> oper; }</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160; </div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <span class="keywordtype">bool</span> IsNoticeMaskSet(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sm);</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160; </div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        std::string GetModeLetters(<span class="keywordtype">bool</span> includeparams = <span class="keyword">false</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160; </div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> m) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>&amp; mh)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> IsModeSet(&amp;mh); }</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <span class="keywordtype">bool</span> IsModeSet(<a class="code" href="class_user_mode_reference.html">UserModeReference</a>&amp; moderef) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160; </div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <span class="keywordtype">void</span> SetMode(<a class="code" href="class_mode_handler.html">ModeHandler</a>* mh, <span class="keywordtype">bool</span> value);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <span class="keywordtype">void</span> SetMode(<a class="code" href="class_mode_handler.html">ModeHandler</a>&amp; mh, <span class="keywordtype">bool</span> value) { SetMode(&amp;mh, value); }</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160; </div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasCommandPermission(<span class="keyword">const</span> std::string&amp; command);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160; </div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasPrivPermission(<span class="keyword">const</span> std::string&amp; privstr);</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160; </div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasModePermission(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160; </div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasSnomaskPermission(<span class="keywordtype">char</span> chr) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160; </div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <span class="keyword">const</span> std::string&amp; MakeHost();</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160; </div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <span class="keyword">const</span> std::string&amp; MakeHostIP();</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160; </div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        <span class="keywordtype">void</span> Oper(<a class="code" href="class_oper_info.html">OperInfo</a>* info);</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160; </div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;        <span class="keywordtype">void</span> UnOper();</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160; </div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;        <span class="keywordtype">void</span> WriteNotice(<span class="keyword">const</span> std::string&amp; text);</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160; </div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> WriteRemoteNotice(<span class="keyword">const</span> std::string&amp; text);</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160; </div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keyword">const</span> <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a>&amp; numeric);</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160; </div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1&gt;</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1)</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;        {</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;                WriteRemoteNumeric(n);</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;        }</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160; </div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2&gt;</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2)</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;        {</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;                WriteRemoteNumeric(n);</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;        }</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160; </div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3&gt;</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3)</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        {</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;                n.push(p3);</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;                WriteRemoteNumeric(n);</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        }</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160; </div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4)</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        {</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;                n.push(p3);</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;                n.push(p4);</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;                WriteRemoteNumeric(n);</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        }</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160; </div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4, <span class="keyword">typename</span> T5&gt;</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        {</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;                n.push(p3);</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;                n.push(p4);</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;                n.push(p5);</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;                WriteRemoteNumeric(n);</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        }</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160; </div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keyword">const</span> <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a>&amp; numeric);</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160; </div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1&gt;</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1)</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        {</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;                WriteNumeric(n);</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        }</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160; </div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2&gt;</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2)</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        {</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;                WriteNumeric(n);</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        }</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160; </div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3&gt;</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3)</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;        {</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                n.push(p3);</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                WriteNumeric(n);</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        }</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160; </div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4&gt;</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4)</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        {</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;                n.push(p3);</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;                n.push(p4);</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;                WriteNumeric(n);</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        }</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160; </div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T1, <span class="keyword">typename</span> T2, <span class="keyword">typename</span> T3, <span class="keyword">typename</span> T4, <span class="keyword">typename</span> T5&gt;</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <span class="keywordtype">void</span> WriteNumeric(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numeric, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        {</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                <a class="code" href="class_numeric_1_1_numeric.html">Numeric::Numeric</a> n(numeric);</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;                n.push(p1);</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;                n.push(p2);</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                n.push(p3);</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                n.push(p4);</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;                n.push(p5);</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;                WriteNumeric(n);</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        }</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160; </div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        <span class="keywordtype">void</span> WriteCommonRaw(<a class="code" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a>&amp; protoev, <span class="keywordtype">bool</span> include_self = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160; </div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;        already_sent_t ForEachNeighbor(ForEachNeighborHandler&amp; handler, <span class="keywordtype">bool</span> include_self = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160; </div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;        <span class="keywordtype">bool</span> SharesChannelWith(<a class="code" href="class_user.html">User</a> *other);</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160; </div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        <span class="keywordtype">bool</span> ChangeDisplayedHost(<span class="keyword">const</span> std::string&amp; host);</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160; </div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        <span class="keywordtype">void</span> ChangeRealHost(<span class="keyword">const</span> std::string&amp; host, <span class="keywordtype">bool</span> resetdisplay);</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160; </div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <span class="keywordtype">bool</span> ChangeIdent(<span class="keyword">const</span> std::string&amp; newident);</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160; </div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;        <span class="keywordtype">bool</span> ChangeRealName(<span class="keyword">const</span> std::string&amp; real);</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160; </div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        <span class="keywordtype">bool</span> ChangeNick(<span class="keyword">const</span> std::string&amp; newnick, time_t newts = 0);</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160; </div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="keywordtype">void</span> PurgeEmptyChannels();</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160; </div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_user.html">User</a>();</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull() CXX11_OVERRIDE;</div>
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160; </div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordtype">bool</span> Serialize(<a class="code" href="class_serializable.html">Serializable</a>::Data&amp; data) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;};</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160; </div>
-<div class="line"><a name="l00712"></a><span class="lineno"><a class="line" href="class_user_i_o_handler.html">  712</a></span>&#160;class CoreExport <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> : public <a class="code" href="class_stream_socket.html">StreamSocket</a></div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;{</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        <span class="keywordtype">size_t</span> checked_until;</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>* <span class="keyword">const</span> user;</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a>(<a class="code" href="class_local_user.html">LocalUser</a>* me)</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;                : <a class="code" href="class_stream_socket.html">StreamSocket</a>(StreamSocket::SS_USER)</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;                , checked_until(0)</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;                , user(me)</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        {</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        }</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keywordtype">void</span> OnDataReady() CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        <span class="keywordtype">bool</span> OnSetEndPoint(<span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; local, <span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; remote) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="keywordtype">void</span> OnError(BufferedSocketError error) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160; </div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        <span class="keywordtype">void</span> AddWriteBuf(<span class="keyword">const</span> std::string &amp;data);</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160; </div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;        <span class="keywordtype">void</span> SwapInternals(<a class="code" href="class_user_i_o_handler.html">UserIOHandler</a>&amp; other);</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;};</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160; </div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> already_sent_t;</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160; </div>
-<div class="line"><a name="l00743"></a><span class="lineno"><a class="line" href="class_local_user.html">  743</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_local_user.html">LocalUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a>, <span class="keyword">public</span> <a class="code" href="classinsp_1_1intrusive__list__node.html">insp::intrusive_list_node</a>&lt;LocalUser&gt;</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;{</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;        <span class="keywordtype">void</span> Write(<span class="keyword">const</span> ClientProtocol::SerializedMessage&amp; serialized);</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160; </div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <span class="keywordtype">void</span> Send(<a class="code" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a>&amp; protoev, ClientProtocol::MessageList&amp; msglist);</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160; </div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;        <span class="keyword">static</span> ClientProtocol::MessageList sendmsglist;</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160; </div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>(<span class="keywordtype">int</span> fd, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* client, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* server);</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>(<span class="keywordtype">int</span> fd, <span class="keyword">const</span> std::string&amp; uuid, <a class="code" href="class_serializable_1_1_data.html">Serializable::Data</a>&amp; data);</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160; </div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull() CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160; </div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> eh;</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160; </div>
-<div class="line"><a name="l00771"></a><span class="lineno"><a class="line" href="class_local_user.html#a91c43fa2d9386118bf72004db00f43b6">  771</a></span>&#160;        <a class="code" href="class_client_protocol_1_1_serializer.html">ClientProtocol::Serializer</a>* <a class="code" href="class_local_user.html#a91c43fa2d9386118bf72004db00f43b6">serializer</a>;</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160; </div>
-<div class="line"><a name="l00775"></a><span class="lineno"><a class="line" href="class_local_user.html#a1f6e9b00772ef849482239bb17e169ef">  775</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a1f6e9b00772ef849482239bb17e169ef">bytes_in</a>;</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160; </div>
-<div class="line"><a name="l00779"></a><span class="lineno"><a class="line" href="class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73">  779</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73">bytes_out</a>;</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160; </div>
-<div class="line"><a name="l00783"></a><span class="lineno"><a class="line" href="class_local_user.html#a2565630dde1303d903e5bf44fd80d37d">  783</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a2565630dde1303d903e5bf44fd80d37d">cmds_in</a>;</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
-<div class="line"><a name="l00787"></a><span class="lineno"><a class="line" href="class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049">  787</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049">cmds_out</a>;</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160; </div>
-<div class="line"><a name="l00793"></a><span class="lineno"><a class="line" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">  793</a></span>&#160;        std::string <a class="code" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">password</a>;</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160; </div>
-<div class="line"><a name="l00797"></a><span class="lineno"><a class="line" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">  797</a></span>&#160;        <a class="code" href="classreference.html">reference&lt;ConnectClass&gt;</a> <a class="code" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">MyClass</a>;</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160; </div>
-<div class="line"><a name="l00802"></a><span class="lineno"><a class="line" href="class_local_user.html#a1889973979a1d8ea2a10efacc48d5458">  802</a></span>&#160;        <a class="code" href="struct_connect_class.html">ConnectClass</a>* <a class="code" href="class_local_user.html#a1889973979a1d8ea2a10efacc48d5458">GetClass</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MyClass; }</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160; </div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;        <span class="keywordtype">void</span> CheckClass(<span class="keywordtype">bool</span> clone_count = <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160; </div>
-<div class="line"><a name="l00810"></a><span class="lineno"><a class="line" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">  810</a></span>&#160;        <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> <a class="code" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">server_sa</a>;</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160; </div>
-<div class="line"><a name="l00816"></a><span class="lineno"><a class="line" href="class_local_user.html#a74033c63ba6bbed1d889125d7ab39dbb">  816</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a74033c63ba6bbed1d889125d7ab39dbb">quitting_sendq</a>:1;</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160; </div>
-<div class="line"><a name="l00820"></a><span class="lineno"><a class="line" href="class_local_user.html#ade6dc4a8847c741599d157217dc27fbb">  820</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#ade6dc4a8847c741599d157217dc27fbb">lastping</a>:1;</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160; </div>
-<div class="line"><a name="l00824"></a><span class="lineno"><a class="line" href="class_local_user.html#a2d525d93a8b923efdd51bd3937804279">  824</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a2d525d93a8b923efdd51bd3937804279">exempt</a>:1;</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160; </div>
-<div class="line"><a name="l00827"></a><span class="lineno"><a class="line" href="class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8">  827</a></span>&#160;        time_t <a class="code" href="class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8">nextping</a>;</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160; </div>
-<div class="line"><a name="l00831"></a><span class="lineno"><a class="line" href="class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49">  831</a></span>&#160;        time_t <a class="code" href="class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49">idle_lastmsg</a>;</div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160; </div>
-<div class="line"><a name="l00836"></a><span class="lineno"><a class="line" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">  836</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">CommandFloodPenalty</a>;</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160; </div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;        already_sent_t already_sent;</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160; </div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        <span class="keywordtype">bool</span> CheckLines(<span class="keywordtype">bool</span> doZline = <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160; </div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        <span class="keywordtype">void</span> FullConnect();</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160; </div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;        <span class="keywordtype">void</span> SetClass(<span class="keyword">const</span> std::string &amp;explicit_name = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160; </div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        <span class="keywordtype">bool</span> SetClientIP(<span class="keyword">const</span> std::string&amp; address) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160; </div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        <span class="keywordtype">void</span> SetClientIP(<span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; sa) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160; </div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNotice(<span class="keyword">const</span> std::string&amp; text) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160; </div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        <span class="keywordtype">bool</span> HasCommandPermission(<span class="keyword">const</span> std::string&amp; command) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160; </div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <span class="keywordtype">bool</span> HasPrivPermission(<span class="keyword">const</span> std::string&amp; privstr) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160; </div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;        <span class="keywordtype">bool</span> HasModePermission(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh) <span class="keyword">const</span> CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160; </div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        <span class="keywordtype">bool</span> HasSnomaskPermission(<span class="keywordtype">char</span> chr) <span class="keyword">const</span> CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160; </div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        <span class="keywordtype">void</span> OverruleNick();</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160; </div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;        <span class="keywordtype">void</span> Send(<a class="code" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a>&amp; protoev);</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160; </div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        <span class="keywordtype">void</span> Send(<a class="code" href="class_client_protocol_1_1_event_provider.html">ClientProtocol::EventProvider</a>&amp; protoevprov, <a class="code" href="class_client_protocol_1_1_message.html">ClientProtocol::Message</a>&amp; msg);</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160; </div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        <span class="keywordtype">bool</span> Deserialize(<a class="code" href="class_serializable_1_1_data.html">Data</a>&amp; data) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160; </div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        <span class="keywordtype">bool</span> Serialize(<a class="code" href="class_serializable_1_1_data.html">Serializable::Data</a>&amp; data) CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;};</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160; </div>
-<div class="line"><a name="l00918"></a><span class="lineno"><a class="line" href="class_remote_user.html">  918</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_remote_user.html">RemoteUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a></div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;{</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;        <a class="code" href="class_remote_user.html">RemoteUser</a>(<span class="keyword">const</span> std::string&amp; uid, <a class="code" href="class_server.html">Server</a>* srv) : <a class="code" href="class_user.html">User</a>(uid, srv, USERTYPE_REMOTE)</div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;        {</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        }</div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;};</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160; </div>
-<div class="line"><a name="l00926"></a><span class="lineno"><a class="line" href="class_fake_user.html">  926</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_fake_user.html">FakeUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a></div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;{</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;        <a class="code" href="class_fake_user.html">FakeUser</a>(<span class="keyword">const</span> std::string&amp; uid, <a class="code" href="class_server.html">Server</a>* srv)</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                : <a class="code" href="class_user.html">User</a>(uid, srv, USERTYPE_SERVER)</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;        {</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;                nick = srv-&gt;<a class="code" href="class_server.html#a41941e9ce5ad7c0f2bab03f1c8dea955">GetName</a>();</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;        }</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160; </div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;        <a class="code" href="class_fake_user.html">FakeUser</a>(<span class="keyword">const</span> std::string&amp; uid, <span class="keyword">const</span> std::string&amp; sname, <span class="keyword">const</span> std::string&amp; sdesc)</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;                : <a class="code" href="class_user.html">User</a>(uid, <span class="keyword">new</span> <a class="code" href="class_server.html">Server</a>(uid, sname, sdesc), USERTYPE_SERVER)</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;        {</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;                nick = sname;</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;        }</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160; </div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull() CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;        <span class="keyword">const</span> std::string&amp; GetFullHost() CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;        <span class="keyword">const</span> std::string&amp; GetFullRealHost() CXX11_OVERRIDE;</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;};</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160; </div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;<span class="comment">/* Faster than dynamic_cast */</span></div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_local_user.html">LocalUser</a>* IS_LOCAL(<a class="code" href="class_user.html">User</a>* u)</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;{</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;        <span class="keywordflow">return</span> (u != NULL &amp;&amp; u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_LOCAL) ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_local_user.html">LocalUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;}</div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_remote_user.html">RemoteUser</a>* IS_REMOTE(<a class="code" href="class_user.html">User</a>* u)</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;{</div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;        <span class="keywordflow">return</span> (u != NULL &amp;&amp; u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_REMOTE) ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_remote_user.html">RemoteUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;}</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_fake_user.html">FakeUser</a>* IS_SERVER(<a class="code" href="class_user.html">User</a>* u)</div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;{</div>
-<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;        <span class="keywordflow">return</span> (u != NULL &amp;&amp; u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_SERVER) ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_fake_user.html">FakeUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;}</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160; </div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_user.html#adb34cbcaf90c6c87a42fd9c444a0f472">User::IsModeSet</a>(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;        <span class="keywordflow">return</span> ((mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>() != <a class="code" href="class_mode_parser.html#a0cde2db571277dfaab18c7f6ad8ff8c6">ModeParser::MODEID_MAX</a>) &amp;&amp; (modes[mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>()]));</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;}</div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160; </div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_user.html#adb34cbcaf90c6c87a42fd9c444a0f472">User::IsModeSet</a>(<a class="code" href="class_user_mode_reference.html">UserModeReference</a>&amp; moderef)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;        <span class="keywordflow">if</span> (!moderef)</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;        <span class="keywordflow">return</span> IsModeSet(*moderef);</div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;}</div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160; </div>
-<div class="line"><a name="l00975"></a><span class="lineno"><a class="line" href="class_user.html#a4ac20f801afa0a97505471292dee7778">  975</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="class_user.html#a4ac20f801afa0a97505471292dee7778">User::SetMode</a>(<a class="code" href="class_mode_handler.html">ModeHandler</a>* mh, <span class="keywordtype">bool</span> value)</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;{</div>
-<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;        <span class="keywordflow">if</span> (mh &amp;&amp; mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>() != <a class="code" href="class_mode_parser.html#a0cde2db571277dfaab18c7f6ad8ff8c6">ModeParser::MODEID_MAX</a>)</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;                modes[mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>()] = value;</div>
-<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;}</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordtype">bool</span> Deserialize(Data&amp; data) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160; </div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        <span class="keywordtype">bool</span> Serialize(<a class="code" href="class_serializable.html">Serializable</a>::Data&amp; data) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;};</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160; </div>
+<div class="line"><a name="l00715"></a><span class="lineno"><a class="line" href="class_user_i_o_handler.html">  715</a></span>&#160;class CoreExport <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> : public <a class="code" href="class_stream_socket.html">StreamSocket</a></div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;{</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        <span class="keywordtype">size_t</span> checked_until;</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>* <span class="keyword">const</span> user;</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a>(<a class="code" href="class_local_user.html">LocalUser</a>* me)</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;                : <a class="code" href="class_stream_socket.html">StreamSocket</a>(StreamSocket::SS_USER)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;                , checked_until(0)</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;                , user(me)</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        {</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        }</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <span class="keywordtype">void</span> OnDataReady() CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keywordtype">bool</span> OnSetEndPoint(<span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; local, <span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; remote) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;        <span class="keywordtype">void</span> OnError(BufferedSocketError error) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160; </div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        <span class="keywordtype">void</span> AddWriteBuf(<span class="keyword">const</span> std::string &amp;data);</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160; </div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;        <span class="keywordtype">void</span> SwapInternals(<a class="code" href="class_user_i_o_handler.html">UserIOHandler</a>&amp; other);</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;};</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160; </div>
+<div class="line"><a name="l00744"></a><span class="lineno"><a class="line" href="class_local_user.html">  744</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_local_user.html">LocalUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a>, <span class="keyword">public</span> <a class="code" href="classinsp_1_1intrusive__list__node.html">insp::intrusive_list_node</a>&lt;LocalUser&gt;</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;{</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;        <span class="keywordtype">void</span> Write(<span class="keyword">const</span> ClientProtocol::SerializedMessage&amp; serialized);</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160; </div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        <span class="keywordtype">void</span> Send(<a class="code" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a>&amp; protoev, ClientProtocol::MessageList&amp; msglist);</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160; </div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;        <span class="keyword">static</span> ClientProtocol::MessageList sendmsglist;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160; </div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>(<span class="keywordtype">int</span> fd, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* client, <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>* server);</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        <a class="code" href="class_local_user.html">LocalUser</a>(<span class="keywordtype">int</span> fd, <span class="keyword">const</span> std::string&amp; uuid, <a class="code" href="class_serializable_1_1_data.html">Serializable::Data</a>&amp; data);</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160; </div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull() CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160; </div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;        <a class="code" href="class_user_i_o_handler.html">UserIOHandler</a> eh;</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160; </div>
+<div class="line"><a name="l00772"></a><span class="lineno"><a class="line" href="class_local_user.html#a91c43fa2d9386118bf72004db00f43b6">  772</a></span>&#160;        <a class="code" href="class_client_protocol_1_1_serializer.html">ClientProtocol::Serializer</a>* <a class="code" href="class_local_user.html#a91c43fa2d9386118bf72004db00f43b6">serializer</a>;</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160; </div>
+<div class="line"><a name="l00776"></a><span class="lineno"><a class="line" href="class_local_user.html#a1f6e9b00772ef849482239bb17e169ef">  776</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a1f6e9b00772ef849482239bb17e169ef">bytes_in</a>;</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160; </div>
+<div class="line"><a name="l00780"></a><span class="lineno"><a class="line" href="class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73">  780</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73">bytes_out</a>;</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160; </div>
+<div class="line"><a name="l00784"></a><span class="lineno"><a class="line" href="class_local_user.html#a2565630dde1303d903e5bf44fd80d37d">  784</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a2565630dde1303d903e5bf44fd80d37d">cmds_in</a>;</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160; </div>
+<div class="line"><a name="l00788"></a><span class="lineno"><a class="line" href="class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049">  788</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049">cmds_out</a>;</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160; </div>
+<div class="line"><a name="l00794"></a><span class="lineno"><a class="line" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">  794</a></span>&#160;        std::string <a class="code" href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">password</a>;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160; </div>
+<div class="line"><a name="l00798"></a><span class="lineno"><a class="line" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">  798</a></span>&#160;        <a class="code" href="classreference.html">reference&lt;ConnectClass&gt;</a> <a class="code" href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">MyClass</a>;</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160; </div>
+<div class="line"><a name="l00803"></a><span class="lineno"><a class="line" href="class_local_user.html#a1889973979a1d8ea2a10efacc48d5458">  803</a></span>&#160;        <a class="code" href="struct_connect_class.html">ConnectClass</a>* <a class="code" href="class_local_user.html#a1889973979a1d8ea2a10efacc48d5458">GetClass</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MyClass; }</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160; </div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        <span class="keywordtype">void</span> CheckClass(<span class="keywordtype">bool</span> clone_count = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160; </div>
+<div class="line"><a name="l00811"></a><span class="lineno"><a class="line" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">  811</a></span>&#160;        <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a> <a class="code" href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">server_sa</a>;</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160; </div>
+<div class="line"><a name="l00817"></a><span class="lineno"><a class="line" href="class_local_user.html#a74033c63ba6bbed1d889125d7ab39dbb">  817</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a74033c63ba6bbed1d889125d7ab39dbb">quitting_sendq</a>:1;</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160; </div>
+<div class="line"><a name="l00821"></a><span class="lineno"><a class="line" href="class_local_user.html#ade6dc4a8847c741599d157217dc27fbb">  821</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#ade6dc4a8847c741599d157217dc27fbb">lastping</a>:1;</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160; </div>
+<div class="line"><a name="l00825"></a><span class="lineno"><a class="line" href="class_local_user.html#a2d525d93a8b923efdd51bd3937804279">  825</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a2d525d93a8b923efdd51bd3937804279">exempt</a>:1;</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160; </div>
+<div class="line"><a name="l00828"></a><span class="lineno"><a class="line" href="class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8">  828</a></span>&#160;        time_t <a class="code" href="class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8">nextping</a>;</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160; </div>
+<div class="line"><a name="l00832"></a><span class="lineno"><a class="line" href="class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49">  832</a></span>&#160;        time_t <a class="code" href="class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49">idle_lastmsg</a>;</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160; </div>
+<div class="line"><a name="l00837"></a><span class="lineno"><a class="line" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">  837</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">CommandFloodPenalty</a>;</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160; </div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        already_sent_t already_sent;</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160; </div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;        <span class="keywordtype">bool</span> CheckLines(<span class="keywordtype">bool</span> doZline = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160; </div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        <span class="keywordtype">void</span> FullConnect();</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160; </div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;        <span class="keywordtype">void</span> SetClass(<span class="keyword">const</span> std::string &amp;explicit_name = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160; </div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;        <span class="keywordtype">bool</span> SetClientIP(<span class="keyword">const</span> std::string&amp; address) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160; </div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;        <span class="keywordtype">void</span> SetClientIP(<span class="keyword">const</span> <a class="code" href="unionirc_1_1sockets_1_1sockaddrs.html">irc::sockets::sockaddrs</a>&amp; sa) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160; </div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        <span class="keywordtype">void</span> WriteRemoteNotice(<span class="keyword">const</span> std::string&amp; text) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160; </div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;        <span class="keywordtype">bool</span> HasCommandPermission(<span class="keyword">const</span> std::string&amp; command) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160; </div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;        <span class="keywordtype">bool</span> HasPrivPermission(<span class="keyword">const</span> std::string&amp; privstr) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160; </div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <span class="keywordtype">bool</span> HasModePermission(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh) <span class="keyword">const</span> CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160; </div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        <span class="keywordtype">bool</span> HasSnomaskPermission(<span class="keywordtype">char</span> chr) <span class="keyword">const</span> CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160; </div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <span class="keywordtype">void</span> OverruleNick();</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160; </div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        <span class="keywordtype">void</span> Send(<a class="code" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a>&amp; protoev);</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160; </div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;        <span class="keywordtype">void</span> Send(<a class="code" href="class_client_protocol_1_1_event_provider.html">ClientProtocol::EventProvider</a>&amp; protoevprov, <a class="code" href="class_client_protocol_1_1_message.html">ClientProtocol::Message</a>&amp; msg);</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160; </div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        <span class="keywordtype">bool</span> Deserialize(<a class="code" href="class_serializable_1_1_data.html">Data</a>&amp; data) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160; </div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        <span class="keywordtype">bool</span> Serialize(<a class="code" href="class_serializable_1_1_data.html">Serializable::Data</a>&amp; data) CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;};</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160; </div>
+<div class="line"><a name="l00919"></a><span class="lineno"><a class="line" href="class_remote_user.html">  919</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_remote_user.html">RemoteUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a></div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;{</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;        <a class="code" href="class_remote_user.html">RemoteUser</a>(<span class="keyword">const</span> std::string&amp; uid, <a class="code" href="class_server.html">Server</a>* srv) : <a class="code" href="class_user.html">User</a>(uid, srv, USERTYPE_REMOTE)</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        {</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        }</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;};</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160; </div>
+<div class="line"><a name="l00927"></a><span class="lineno"><a class="line" href="class_fake_user.html">  927</a></span>&#160;<span class="keyword">class </span>CoreExport <a class="code" href="class_fake_user.html">FakeUser</a> : <span class="keyword">public</span> <a class="code" href="class_user.html">User</a></div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;{</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        <a class="code" href="class_fake_user.html">FakeUser</a>(<span class="keyword">const</span> std::string&amp; uid, <a class="code" href="class_server.html">Server</a>* srv)</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;                : <a class="code" href="class_user.html">User</a>(uid, srv, USERTYPE_SERVER)</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;        {</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;                nick = srv-&gt;<a class="code" href="class_server.html#a41941e9ce5ad7c0f2bab03f1c8dea955">GetName</a>();</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;        }</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160; </div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;        <a class="code" href="class_fake_user.html">FakeUser</a>(<span class="keyword">const</span> std::string&amp; uid, <span class="keyword">const</span> std::string&amp; sname, <span class="keyword">const</span> std::string&amp; sdesc)</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;                : <a class="code" href="class_user.html">User</a>(uid, <span class="keyword">new</span> <a class="code" href="class_server.html">Server</a>(uid, sname, sdesc), USERTYPE_SERVER)</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;        {</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                nick = sname;</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;        }</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160; </div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;        <a class="code" href="class_cull_result.html">CullResult</a> cull() CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;        <span class="keyword">const</span> std::string&amp; GetFullHost() CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;        <span class="keyword">const</span> std::string&amp; GetFullRealHost() CXX11_OVERRIDE;</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;};</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160; </div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;<span class="comment">/* Faster than dynamic_cast */</span></div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_local_user.html">LocalUser</a>* IS_LOCAL(<a class="code" href="class_user.html">User</a>* u)</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;{</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;        <span class="keywordflow">return</span> (u != NULL &amp;&amp; u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_LOCAL) ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_local_user.html">LocalUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;}</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_remote_user.html">RemoteUser</a>* IS_REMOTE(<a class="code" href="class_user.html">User</a>* u)</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;{</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;        <span class="keywordflow">return</span> (u != NULL &amp;&amp; u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_REMOTE) ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_remote_user.html">RemoteUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;}</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;<span class="keyword">inline</span> <a class="code" href="class_fake_user.html">FakeUser</a>* IS_SERVER(<a class="code" href="class_user.html">User</a>* u)</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;{</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;        <span class="keywordflow">return</span> (u != NULL &amp;&amp; u-&gt;<a class="code" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a> == USERTYPE_SERVER) ? <span class="keyword">static_cast&lt;</span><a class="code" href="class_fake_user.html">FakeUser</a>*<span class="keyword">&gt;</span>(u) : NULL;</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;}</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160; </div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_user.html#adb34cbcaf90c6c87a42fd9c444a0f472">User::IsModeSet</a>(<span class="keyword">const</span> <a class="code" href="class_mode_handler.html">ModeHandler</a>* mh)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;        <span class="keywordflow">return</span> ((mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>() != <a class="code" href="class_mode_parser.html#a0cde2db571277dfaab18c7f6ad8ff8c6">ModeParser::MODEID_MAX</a>) &amp;&amp; (modes[mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>()]));</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;}</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160; </div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="class_user.html#adb34cbcaf90c6c87a42fd9c444a0f472">User::IsModeSet</a>(<a class="code" href="class_user_mode_reference.html">UserModeReference</a>&amp; moderef)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;        <span class="keywordflow">if</span> (!moderef)</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;        <span class="keywordflow">return</span> IsModeSet(*moderef);</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;}</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160; </div>
+<div class="line"><a name="l00976"></a><span class="lineno"><a class="line" href="class_user.html#a4ac20f801afa0a97505471292dee7778">  976</a></span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="class_user.html#a4ac20f801afa0a97505471292dee7778">User::SetMode</a>(<a class="code" href="class_mode_handler.html">ModeHandler</a>* mh, <span class="keywordtype">bool</span> value)</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;{</div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;        <span class="keywordflow">if</span> (mh &amp;&amp; mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>() != <a class="code" href="class_mode_parser.html#a0cde2db571277dfaab18c7f6ad8ff8c6">ModeParser::MODEID_MAX</a>)</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;                modes[mh-&gt;<a class="code" href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">GetId</a>()] = value;</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;}</div>
 <div class="ttc" id="aclass_client_protocol_1_1_event_html"><div class="ttname"><a href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a></div><div class="ttdef"><b>Definition:</b> clientprotocol.h:465</div></div>
 <div class="ttc" id="aclass_client_protocol_1_1_event_provider_html"><div class="ttname"><a href="class_client_protocol_1_1_event_provider.html">ClientProtocol::EventProvider</a></div><div class="ttdef"><b>Definition:</b> clientprotocol.h:628</div></div>
 <div class="ttc" id="aclass_client_protocol_1_1_message_html"><div class="ttname"><a href="class_client_protocol_1_1_message.html">ClientProtocol::Message</a></div><div class="ttdef"><b>Definition:</b> clientprotocol.h:182</div></div>
@@ -655,58 +655,58 @@ $(function() {
 <div class="ttc" id="aclass_config_tag_html"><div class="ttname"><a href="class_config_tag.html">ConfigTag</a></div><div class="ttdef"><b>Definition:</b> configreader.h:38</div></div>
 <div class="ttc" id="aclass_cull_result_html"><div class="ttname"><a href="class_cull_result.html">CullResult</a></div><div class="ttdef"><b>Definition:</b> base.h:36</div></div>
 <div class="ttc" id="aclass_extensible_html"><div class="ttname"><a href="class_extensible.html">Extensible</a></div><div class="ttdef"><b>Definition:</b> extensible.h:142</div></div>
-<div class="ttc" id="aclass_fake_user_html"><div class="ttname"><a href="class_fake_user.html">FakeUser</a></div><div class="ttdef"><b>Definition:</b> users.h:927</div></div>
-<div class="ttc" id="aclass_local_user_html"><div class="ttname"><a href="class_local_user.html">LocalUser</a></div><div class="ttdef"><b>Definition:</b> users.h:744</div></div>
-<div class="ttc" id="aclass_local_user_html_a1889973979a1d8ea2a10efacc48d5458"><div class="ttname"><a href="class_local_user.html#a1889973979a1d8ea2a10efacc48d5458">LocalUser::GetClass</a></div><div class="ttdeci">ConnectClass * GetClass() const</div><div class="ttdef"><b>Definition:</b> users.h:802</div></div>
-<div class="ttc" id="aclass_local_user_html_a1f0b1a32ff5391d108b78cd62a10af49"><div class="ttname"><a href="class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49">LocalUser::idle_lastmsg</a></div><div class="ttdeci">time_t idle_lastmsg</div><div class="ttdef"><b>Definition:</b> users.h:831</div></div>
-<div class="ttc" id="aclass_local_user_html_a1f6e9b00772ef849482239bb17e169ef"><div class="ttname"><a href="class_local_user.html#a1f6e9b00772ef849482239bb17e169ef">LocalUser::bytes_in</a></div><div class="ttdeci">unsigned int bytes_in</div><div class="ttdef"><b>Definition:</b> users.h:775</div></div>
-<div class="ttc" id="aclass_local_user_html_a2565630dde1303d903e5bf44fd80d37d"><div class="ttname"><a href="class_local_user.html#a2565630dde1303d903e5bf44fd80d37d">LocalUser::cmds_in</a></div><div class="ttdeci">unsigned int cmds_in</div><div class="ttdef"><b>Definition:</b> users.h:783</div></div>
-<div class="ttc" id="aclass_local_user_html_a2d525d93a8b923efdd51bd3937804279"><div class="ttname"><a href="class_local_user.html#a2d525d93a8b923efdd51bd3937804279">LocalUser::exempt</a></div><div class="ttdeci">unsigned int exempt</div><div class="ttdef"><b>Definition:</b> users.h:824</div></div>
-<div class="ttc" id="aclass_local_user_html_a3ea18d2ef9ba202ccc9e17a91f7f6b73"><div class="ttname"><a href="class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73">LocalUser::bytes_out</a></div><div class="ttdeci">unsigned int bytes_out</div><div class="ttdef"><b>Definition:</b> users.h:779</div></div>
-<div class="ttc" id="aclass_local_user_html_a41882847ff97c21107fbcbff4c83bf16"><div class="ttname"><a href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">LocalUser::CommandFloodPenalty</a></div><div class="ttdeci">unsigned int CommandFloodPenalty</div><div class="ttdef"><b>Definition:</b> users.h:836</div></div>
-<div class="ttc" id="aclass_local_user_html_a490f4f7dddd5f5bb8c5c07fffa6eb916"><div class="ttname"><a href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">LocalUser::MyClass</a></div><div class="ttdeci">reference&lt; ConnectClass &gt; MyClass</div><div class="ttdef"><b>Definition:</b> users.h:797</div></div>
-<div class="ttc" id="aclass_local_user_html_a4ece8e04b1bf8b8889fac9d995f01049"><div class="ttname"><a href="class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049">LocalUser::cmds_out</a></div><div class="ttdeci">unsigned int cmds_out</div><div class="ttdef"><b>Definition:</b> users.h:787</div></div>
-<div class="ttc" id="aclass_local_user_html_a6c148230f483862230f1ffe1a141fe6c"><div class="ttname"><a href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">LocalUser::server_sa</a></div><div class="ttdeci">irc::sockets::sockaddrs server_sa</div><div class="ttdef"><b>Definition:</b> users.h:810</div></div>
-<div class="ttc" id="aclass_local_user_html_a74033c63ba6bbed1d889125d7ab39dbb"><div class="ttname"><a href="class_local_user.html#a74033c63ba6bbed1d889125d7ab39dbb">LocalUser::quitting_sendq</a></div><div class="ttdeci">unsigned int quitting_sendq</div><div class="ttdef"><b>Definition:</b> users.h:816</div></div>
-<div class="ttc" id="aclass_local_user_html_a91c43fa2d9386118bf72004db00f43b6"><div class="ttname"><a href="class_local_user.html#a91c43fa2d9386118bf72004db00f43b6">LocalUser::serializer</a></div><div class="ttdeci">ClientProtocol::Serializer * serializer</div><div class="ttdef"><b>Definition:</b> users.h:771</div></div>
-<div class="ttc" id="aclass_local_user_html_aaf8aff7d93dad389af61c1caa85d45d8"><div class="ttname"><a href="class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8">LocalUser::nextping</a></div><div class="ttdeci">time_t nextping</div><div class="ttdef"><b>Definition:</b> users.h:827</div></div>
-<div class="ttc" id="aclass_local_user_html_ade6dc4a8847c741599d157217dc27fbb"><div class="ttname"><a href="class_local_user.html#ade6dc4a8847c741599d157217dc27fbb">LocalUser::lastping</a></div><div class="ttdeci">unsigned int lastping</div><div class="ttdef"><b>Definition:</b> users.h:820</div></div>
-<div class="ttc" id="aclass_local_user_html_adf097769d06e62daefc26973112c7dd6"><div class="ttname"><a href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">LocalUser::password</a></div><div class="ttdeci">std::string password</div><div class="ttdef"><b>Definition:</b> users.h:793</div></div>
+<div class="ttc" id="aclass_fake_user_html"><div class="ttname"><a href="class_fake_user.html">FakeUser</a></div><div class="ttdef"><b>Definition:</b> users.h:928</div></div>
+<div class="ttc" id="aclass_local_user_html"><div class="ttname"><a href="class_local_user.html">LocalUser</a></div><div class="ttdef"><b>Definition:</b> users.h:745</div></div>
+<div class="ttc" id="aclass_local_user_html_a1889973979a1d8ea2a10efacc48d5458"><div class="ttname"><a href="class_local_user.html#a1889973979a1d8ea2a10efacc48d5458">LocalUser::GetClass</a></div><div class="ttdeci">ConnectClass * GetClass() const</div><div class="ttdef"><b>Definition:</b> users.h:803</div></div>
+<div class="ttc" id="aclass_local_user_html_a1f0b1a32ff5391d108b78cd62a10af49"><div class="ttname"><a href="class_local_user.html#a1f0b1a32ff5391d108b78cd62a10af49">LocalUser::idle_lastmsg</a></div><div class="ttdeci">time_t idle_lastmsg</div><div class="ttdef"><b>Definition:</b> users.h:832</div></div>
+<div class="ttc" id="aclass_local_user_html_a1f6e9b00772ef849482239bb17e169ef"><div class="ttname"><a href="class_local_user.html#a1f6e9b00772ef849482239bb17e169ef">LocalUser::bytes_in</a></div><div class="ttdeci">unsigned int bytes_in</div><div class="ttdef"><b>Definition:</b> users.h:776</div></div>
+<div class="ttc" id="aclass_local_user_html_a2565630dde1303d903e5bf44fd80d37d"><div class="ttname"><a href="class_local_user.html#a2565630dde1303d903e5bf44fd80d37d">LocalUser::cmds_in</a></div><div class="ttdeci">unsigned int cmds_in</div><div class="ttdef"><b>Definition:</b> users.h:784</div></div>
+<div class="ttc" id="aclass_local_user_html_a2d525d93a8b923efdd51bd3937804279"><div class="ttname"><a href="class_local_user.html#a2d525d93a8b923efdd51bd3937804279">LocalUser::exempt</a></div><div class="ttdeci">unsigned int exempt</div><div class="ttdef"><b>Definition:</b> users.h:825</div></div>
+<div class="ttc" id="aclass_local_user_html_a3ea18d2ef9ba202ccc9e17a91f7f6b73"><div class="ttname"><a href="class_local_user.html#a3ea18d2ef9ba202ccc9e17a91f7f6b73">LocalUser::bytes_out</a></div><div class="ttdeci">unsigned int bytes_out</div><div class="ttdef"><b>Definition:</b> users.h:780</div></div>
+<div class="ttc" id="aclass_local_user_html_a41882847ff97c21107fbcbff4c83bf16"><div class="ttname"><a href="class_local_user.html#a41882847ff97c21107fbcbff4c83bf16">LocalUser::CommandFloodPenalty</a></div><div class="ttdeci">unsigned int CommandFloodPenalty</div><div class="ttdef"><b>Definition:</b> users.h:837</div></div>
+<div class="ttc" id="aclass_local_user_html_a490f4f7dddd5f5bb8c5c07fffa6eb916"><div class="ttname"><a href="class_local_user.html#a490f4f7dddd5f5bb8c5c07fffa6eb916">LocalUser::MyClass</a></div><div class="ttdeci">reference&lt; ConnectClass &gt; MyClass</div><div class="ttdef"><b>Definition:</b> users.h:798</div></div>
+<div class="ttc" id="aclass_local_user_html_a4ece8e04b1bf8b8889fac9d995f01049"><div class="ttname"><a href="class_local_user.html#a4ece8e04b1bf8b8889fac9d995f01049">LocalUser::cmds_out</a></div><div class="ttdeci">unsigned int cmds_out</div><div class="ttdef"><b>Definition:</b> users.h:788</div></div>
+<div class="ttc" id="aclass_local_user_html_a6c148230f483862230f1ffe1a141fe6c"><div class="ttname"><a href="class_local_user.html#a6c148230f483862230f1ffe1a141fe6c">LocalUser::server_sa</a></div><div class="ttdeci">irc::sockets::sockaddrs server_sa</div><div class="ttdef"><b>Definition:</b> users.h:811</div></div>
+<div class="ttc" id="aclass_local_user_html_a74033c63ba6bbed1d889125d7ab39dbb"><div class="ttname"><a href="class_local_user.html#a74033c63ba6bbed1d889125d7ab39dbb">LocalUser::quitting_sendq</a></div><div class="ttdeci">unsigned int quitting_sendq</div><div class="ttdef"><b>Definition:</b> users.h:817</div></div>
+<div class="ttc" id="aclass_local_user_html_a91c43fa2d9386118bf72004db00f43b6"><div class="ttname"><a href="class_local_user.html#a91c43fa2d9386118bf72004db00f43b6">LocalUser::serializer</a></div><div class="ttdeci">ClientProtocol::Serializer * serializer</div><div class="ttdef"><b>Definition:</b> users.h:772</div></div>
+<div class="ttc" id="aclass_local_user_html_aaf8aff7d93dad389af61c1caa85d45d8"><div class="ttname"><a href="class_local_user.html#aaf8aff7d93dad389af61c1caa85d45d8">LocalUser::nextping</a></div><div class="ttdeci">time_t nextping</div><div class="ttdef"><b>Definition:</b> users.h:828</div></div>
+<div class="ttc" id="aclass_local_user_html_ade6dc4a8847c741599d157217dc27fbb"><div class="ttname"><a href="class_local_user.html#ade6dc4a8847c741599d157217dc27fbb">LocalUser::lastping</a></div><div class="ttdeci">unsigned int lastping</div><div class="ttdef"><b>Definition:</b> users.h:821</div></div>
+<div class="ttc" id="aclass_local_user_html_adf097769d06e62daefc26973112c7dd6"><div class="ttname"><a href="class_local_user.html#adf097769d06e62daefc26973112c7dd6">LocalUser::password</a></div><div class="ttdeci">std::string password</div><div class="ttdef"><b>Definition:</b> users.h:794</div></div>
 <div class="ttc" id="aclass_mode_handler_html"><div class="ttname"><a href="class_mode_handler.html">ModeHandler</a></div><div class="ttdef"><b>Definition:</b> mode.h:100</div></div>
 <div class="ttc" id="aclass_mode_handler_html_ab87637aa898d813c58c911943c451baa"><div class="ttname"><a href="class_mode_handler.html#ab87637aa898d813c58c911943c451baa">ModeHandler::GetId</a></div><div class="ttdeci">Id GetId() const</div><div class="ttdef"><b>Definition:</b> mode.h:248</div></div>
 <div class="ttc" id="aclass_mode_parser_html_a0cde2db571277dfaab18c7f6ad8ff8c6"><div class="ttname"><a href="class_mode_parser.html#a0cde2db571277dfaab18c7f6ad8ff8c6">ModeParser::MODEID_MAX</a></div><div class="ttdeci">static const ModeHandler::Id MODEID_MAX</div><div class="ttdef"><b>Definition:</b> mode.h:570</div></div>
 <div class="ttc" id="aclass_numeric_1_1_numeric_html"><div class="ttname"><a href="class_numeric_1_1_numeric.html">Numeric::Numeric</a></div><div class="ttdef"><b>Definition:</b> numeric.h:31</div></div>
 <div class="ttc" id="aclass_oper_info_html"><div class="ttname"><a href="class_oper_info.html">OperInfo</a></div><div class="ttdef"><b>Definition:</b> configreader.h:174</div></div>
-<div class="ttc" id="aclass_remote_user_html"><div class="ttname"><a href="class_remote_user.html">RemoteUser</a></div><div class="ttdef"><b>Definition:</b> users.h:919</div></div>
+<div class="ttc" id="aclass_remote_user_html"><div class="ttname"><a href="class_remote_user.html">RemoteUser</a></div><div class="ttdef"><b>Definition:</b> users.h:920</div></div>
 <div class="ttc" id="aclass_serializable_1_1_data_html"><div class="ttname"><a href="class_serializable_1_1_data.html">Serializable::Data</a></div><div class="ttdef"><b>Definition:</b> serialize.h:31</div></div>
 <div class="ttc" id="aclass_serializable_html"><div class="ttname"><a href="class_serializable.html">Serializable</a></div><div class="ttdef"><b>Definition:</b> serialize.h:24</div></div>
 <div class="ttc" id="aclass_server_html"><div class="ttname"><a href="class_server.html">Server</a></div><div class="ttdef"><b>Definition:</b> server.h:25</div></div>
 <div class="ttc" id="aclass_server_html_a41941e9ce5ad7c0f2bab03f1c8dea955"><div class="ttname"><a href="class_server.html#a41941e9ce5ad7c0f2bab03f1c8dea955">Server::GetName</a></div><div class="ttdeci">const std::string &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> server.h:76</div></div>
 <div class="ttc" id="aclass_stream_socket_html"><div class="ttname"><a href="class_stream_socket.html">StreamSocket</a></div><div class="ttdef"><b>Definition:</b> inspsocket.h:115</div></div>
-<div class="ttc" id="aclass_user_1_1_for_each_neighbor_handler_html"><div class="ttname"><a href="class_user_1_1_for_each_neighbor_handler.html">User::ForEachNeighborHandler</a></div><div class="ttdef"><b>Definition:</b> users.h:288</div></div>
+<div class="ttc" id="aclass_user_1_1_for_each_neighbor_handler_html"><div class="ttname"><a href="class_user_1_1_for_each_neighbor_handler.html">User::ForEachNeighborHandler</a></div><div class="ttdef"><b>Definition:</b> users.h:291</div></div>
 <div class="ttc" id="aclass_user_1_1_for_each_neighbor_handler_html_a51b53a471642699def692f2b97f1150c"><div class="ttname"><a href="class_user_1_1_for_each_neighbor_handler.html#a51b53a471642699def692f2b97f1150c">User::ForEachNeighborHandler::Execute</a></div><div class="ttdeci">virtual void Execute(LocalUser *user)=0</div></div>
-<div class="ttc" id="aclass_user_html"><div class="ttname"><a href="class_user.html">User</a></div><div class="ttdef"><b>Definition:</b> users.h:244</div></div>
-<div class="ttc" id="aclass_user_html_a0c84a4363c68814c3dc73c213ce67e28"><div class="ttname"><a href="class_user.html#a0c84a4363c68814c3dc73c213ce67e28">User::IsOper</a></div><div class="ttdeci">bool IsOper() const</div><div class="ttdef"><b>Definition:</b> users.h:441</div></div>
-<div class="ttc" id="aclass_user_html_a100cff046bd7349fb1e9a7e4104df3b1"><div class="ttname"><a href="class_user.html#a100cff046bd7349fb1e9a7e4104df3b1">User::chans</a></div><div class="ttdeci">ChanList chans</div><div class="ttdef"><b>Definition:</b> users.h:340</div></div>
-<div class="ttc" id="aclass_user_html_a118a42a76b20e6cb6de541d9e08041e9"><div class="ttname"><a href="class_user.html#a118a42a76b20e6cb6de541d9e08041e9">User::client_sa</a></div><div class="ttdeci">irc::sockets::sockaddrs client_sa</div><div class="ttdef"><b>Definition:</b> users.h:315</div></div>
-<div class="ttc" id="aclass_user_html_a1d50e3ac7bdcb5fb96d501d91782eb87"><div class="ttname"><a href="class_user.html#a1d50e3ac7bdcb5fb96d501d91782eb87">User::signon</a></div><div class="ttdeci">time_t signon</div><div class="ttdef"><b>Definition:</b> users.h:309</div></div>
-<div class="ttc" id="aclass_user_html_a4ac20f801afa0a97505471292dee7778"><div class="ttname"><a href="class_user.html#a4ac20f801afa0a97505471292dee7778">User::SetMode</a></div><div class="ttdeci">void SetMode(ModeHandler *mh, bool value)</div><div class="ttdef"><b>Definition:</b> users.h:975</div></div>
-<div class="ttc" id="aclass_user_html_a5f987cd50df60cea7a33ea38772188e7"><div class="ttname"><a href="class_user.html#a5f987cd50df60cea7a33ea38772188e7">User::IsAway</a></div><div class="ttdeci">bool IsAway() const</div><div class="ttdef"><b>Definition:</b> users.h:435</div></div>
-<div class="ttc" id="aclass_user_html_a6097de89cf5d8fd945c6782cfa7e89fe"><div class="ttname"><a href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">User::nick</a></div><div class="ttdeci">std::string nick</div><div class="ttdef"><b>Definition:</b> users.h:321</div></div>
-<div class="ttc" id="aclass_user_html_a60f4fab44458bfa3e944a69c762c4273"><div class="ttname"><a href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">User::quitting</a></div><div class="ttdeci">unsigned int quitting</div><div class="ttdef"><b>Definition:</b> users.h:371</div></div>
-<div class="ttc" id="aclass_user_html_a62fabba0257a3d6363d6f0159bba856c"><div class="ttname"><a href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">User::registered</a></div><div class="ttdeci">unsigned int registered</div><div class="ttdef"><b>Definition:</b> users.h:364</div></div>
-<div class="ttc" id="aclass_user_html_a6e62e3d0a124b4418891e11d76faad7e"><div class="ttname"><a href="class_user.html#a6e62e3d0a124b4418891e11d76faad7e">User::age</a></div><div class="ttdeci">time_t age</div><div class="ttdef"><b>Definition:</b> users.h:303</div></div>
-<div class="ttc" id="aclass_user_html_a725932555ae2544a813fda2baa066224"><div class="ttname"><a href="class_user.html#a725932555ae2544a813fda2baa066224">User::server</a></div><div class="ttdeci">Server * server</div><div class="ttdef"><b>Definition:</b> users.h:344</div></div>
-<div class="ttc" id="aclass_user_html_a75afe5805a15221777aaf204d99f17c0"><div class="ttname"><a href="class_user.html#a75afe5805a15221777aaf204d99f17c0">User::ident</a></div><div class="ttdeci">std::string ident</div><div class="ttdef"><b>Definition:</b> users.h:331</div></div>
-<div class="ttc" id="aclass_user_html_a968f02b552b0aac771aef8adac4f823e"><div class="ttname"><a href="class_user.html#a968f02b552b0aac771aef8adac4f823e">User::oper</a></div><div class="ttdeci">reference&lt; OperInfo &gt; oper</div><div class="ttdef"><b>Definition:</b> users.h:358</div></div>
-<div class="ttc" id="aclass_user_html_a98128434f41c8ca644ad0a2429565ef7"><div class="ttname"><a href="class_user.html#a98128434f41c8ca644ad0a2429565ef7">User::snomasks</a></div><div class="ttdeci">std::bitset&lt; 64 &gt; snomasks</div><div class="ttdef"><b>Definition:</b> users.h:336</div></div>
-<div class="ttc" id="aclass_user_html_a982fa3195231117b83dde5b90ffd4685"><div class="ttname"><a href="class_user.html#a982fa3195231117b83dde5b90ffd4685">User::usertype</a></div><div class="ttdeci">const unsigned int usertype</div><div class="ttdef"><b>Definition:</b> users.h:374</div></div>
-<div class="ttc" id="aclass_user_html_a9ee4e34fd334d4b5f99fc1fa34b0155a"><div class="ttname"><a href="class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a">User::uuid</a></div><div class="ttdeci">const std::string uuid</div><div class="ttdef"><b>Definition:</b> users.h:326</div></div>
-<div class="ttc" id="aclass_user_html_a9f4f7df5529c3547133907148fbb2918"><div class="ttname"><a href="class_user.html#a9f4f7df5529c3547133907148fbb2918">User::awaymsg</a></div><div class="ttdeci">std::string awaymsg</div><div class="ttdef"><b>Definition:</b> users.h:349</div></div>
-<div class="ttc" id="aclass_user_html_aa0241e8f5196138096077725a628a476"><div class="ttname"><a href="class_user.html#aa0241e8f5196138096077725a628a476">User::awaytime</a></div><div class="ttdeci">time_t awaytime</div><div class="ttdef"><b>Definition:</b> users.h:354</div></div>
-<div class="ttc" id="aclass_user_html_aa0d3f15ddb505c093a354bd945031fa9"><div class="ttname"><a href="class_user.html#aa0d3f15ddb505c093a354bd945031fa9">User::ChanList</a></div><div class="ttdeci">insp::intrusive_list&lt; Membership &gt; ChanList</div><div class="ttdef"><b>Definition:</b> users.h:299</div></div>
-<div class="ttc" id="aclass_user_html_adb34cbcaf90c6c87a42fd9c444a0f472"><div class="ttname"><a href="class_user.html#adb34cbcaf90c6c87a42fd9c444a0f472">User::IsModeSet</a></div><div class="ttdeci">bool IsModeSet(unsigned char m) const</div><div class="ttdef"><b>Definition:</b> users.cpp:49</div></div>
-<div class="ttc" id="aclass_user_i_o_handler_html"><div class="ttname"><a href="class_user_i_o_handler.html">UserIOHandler</a></div><div class="ttdef"><b>Definition:</b> users.h:713</div></div>
+<div class="ttc" id="aclass_user_html"><div class="ttname"><a href="class_user.html">User</a></div><div class="ttdef"><b>Definition:</b> users.h:247</div></div>
+<div class="ttc" id="aclass_user_html_a0c84a4363c68814c3dc73c213ce67e28"><div class="ttname"><a href="class_user.html#a0c84a4363c68814c3dc73c213ce67e28">User::IsOper</a></div><div class="ttdeci">bool IsOper() const</div><div class="ttdef"><b>Definition:</b> users.h:444</div></div>
+<div class="ttc" id="aclass_user_html_a100cff046bd7349fb1e9a7e4104df3b1"><div class="ttname"><a href="class_user.html#a100cff046bd7349fb1e9a7e4104df3b1">User::chans</a></div><div class="ttdeci">ChanList chans</div><div class="ttdef"><b>Definition:</b> users.h:343</div></div>
+<div class="ttc" id="aclass_user_html_a118a42a76b20e6cb6de541d9e08041e9"><div class="ttname"><a href="class_user.html#a118a42a76b20e6cb6de541d9e08041e9">User::client_sa</a></div><div class="ttdeci">irc::sockets::sockaddrs client_sa</div><div class="ttdef"><b>Definition:</b> users.h:318</div></div>
+<div class="ttc" id="aclass_user_html_a1d50e3ac7bdcb5fb96d501d91782eb87"><div class="ttname"><a href="class_user.html#a1d50e3ac7bdcb5fb96d501d91782eb87">User::signon</a></div><div class="ttdeci">time_t signon</div><div class="ttdef"><b>Definition:</b> users.h:312</div></div>
+<div class="ttc" id="aclass_user_html_a4ac20f801afa0a97505471292dee7778"><div class="ttname"><a href="class_user.html#a4ac20f801afa0a97505471292dee7778">User::SetMode</a></div><div class="ttdeci">void SetMode(ModeHandler *mh, bool value)</div><div class="ttdef"><b>Definition:</b> users.h:976</div></div>
+<div class="ttc" id="aclass_user_html_a5f987cd50df60cea7a33ea38772188e7"><div class="ttname"><a href="class_user.html#a5f987cd50df60cea7a33ea38772188e7">User::IsAway</a></div><div class="ttdeci">bool IsAway() const</div><div class="ttdef"><b>Definition:</b> users.h:438</div></div>
+<div class="ttc" id="aclass_user_html_a6097de89cf5d8fd945c6782cfa7e89fe"><div class="ttname"><a href="class_user.html#a6097de89cf5d8fd945c6782cfa7e89fe">User::nick</a></div><div class="ttdeci">std::string nick</div><div class="ttdef"><b>Definition:</b> users.h:324</div></div>
+<div class="ttc" id="aclass_user_html_a60f4fab44458bfa3e944a69c762c4273"><div class="ttname"><a href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">User::quitting</a></div><div class="ttdeci">unsigned int quitting</div><div class="ttdef"><b>Definition:</b> users.h:374</div></div>
+<div class="ttc" id="aclass_user_html_a62fabba0257a3d6363d6f0159bba856c"><div class="ttname"><a href="class_user.html#a62fabba0257a3d6363d6f0159bba856c">User::registered</a></div><div class="ttdeci">unsigned int registered</div><div class="ttdef"><b>Definition:</b> users.h:367</div></div>
+<div class="ttc" id="aclass_user_html_a6e62e3d0a124b4418891e11d76faad7e"><div class="ttname"><a href="class_user.html#a6e62e3d0a124b4418891e11d76faad7e">User::age</a></div><div class="ttdeci">time_t age</div><div class="ttdef"><b>Definition:</b> users.h:306</div></div>
+<div class="ttc" id="aclass_user_html_a725932555ae2544a813fda2baa066224"><div class="ttname"><a href="class_user.html#a725932555ae2544a813fda2baa066224">User::server</a></div><div class="ttdeci">Server * server</div><div class="ttdef"><b>Definition:</b> users.h:347</div></div>
+<div class="ttc" id="aclass_user_html_a75afe5805a15221777aaf204d99f17c0"><div class="ttname"><a href="class_user.html#a75afe5805a15221777aaf204d99f17c0">User::ident</a></div><div class="ttdeci">std::string ident</div><div class="ttdef"><b>Definition:</b> users.h:334</div></div>
+<div class="ttc" id="aclass_user_html_a968f02b552b0aac771aef8adac4f823e"><div class="ttname"><a href="class_user.html#a968f02b552b0aac771aef8adac4f823e">User::oper</a></div><div class="ttdeci">reference&lt; OperInfo &gt; oper</div><div class="ttdef"><b>Definition:</b> users.h:361</div></div>
+<div class="ttc" id="aclass_user_html_a98128434f41c8ca644ad0a2429565ef7"><div class="ttname"><a href="class_user.html#a98128434f41c8ca644ad0a2429565ef7">User::snomasks</a></div><div class="ttdeci">std::bitset&lt; 64 &gt; snomasks</div><div class="ttdef"><b>Definition:</b> users.h:339</div></div>
+<div class="ttc" id="aclass_user_html_a982fa3195231117b83dde5b90ffd4685"><div class="ttname"><a href="class_user.html#a982fa3195231117b83dde5b90ffd4685">User::usertype</a></div><div class="ttdeci">const unsigned int usertype</div><div class="ttdef"><b>Definition:</b> users.h:377</div></div>
+<div class="ttc" id="aclass_user_html_a9ee4e34fd334d4b5f99fc1fa34b0155a"><div class="ttname"><a href="class_user.html#a9ee4e34fd334d4b5f99fc1fa34b0155a">User::uuid</a></div><div class="ttdeci">const std::string uuid</div><div class="ttdef"><b>Definition:</b> users.h:329</div></div>
+<div class="ttc" id="aclass_user_html_a9f4f7df5529c3547133907148fbb2918"><div class="ttname"><a href="class_user.html#a9f4f7df5529c3547133907148fbb2918">User::awaymsg</a></div><div class="ttdeci">std::string awaymsg</div><div class="ttdef"><b>Definition:</b> users.h:352</div></div>
+<div class="ttc" id="aclass_user_html_aa0241e8f5196138096077725a628a476"><div class="ttname"><a href="class_user.html#aa0241e8f5196138096077725a628a476">User::awaytime</a></div><div class="ttdeci">time_t awaytime</div><div class="ttdef"><b>Definition:</b> users.h:357</div></div>
+<div class="ttc" id="aclass_user_html_aa0d3f15ddb505c093a354bd945031fa9"><div class="ttname"><a href="class_user.html#aa0d3f15ddb505c093a354bd945031fa9">User::ChanList</a></div><div class="ttdeci">insp::intrusive_list&lt; Membership &gt; ChanList</div><div class="ttdef"><b>Definition:</b> users.h:302</div></div>
+<div class="ttc" id="aclass_user_html_adb34cbcaf90c6c87a42fd9c444a0f472"><div class="ttname"><a href="class_user.html#adb34cbcaf90c6c87a42fd9c444a0f472">User::IsModeSet</a></div><div class="ttdeci">bool IsModeSet(unsigned char m) const</div><div class="ttdef"><b>Definition:</b> users.cpp:50</div></div>
+<div class="ttc" id="aclass_user_i_o_handler_html"><div class="ttname"><a href="class_user_i_o_handler.html">UserIOHandler</a></div><div class="ttdef"><b>Definition:</b> users.h:716</div></div>
 <div class="ttc" id="aclass_user_mode_reference_html"><div class="ttname"><a href="class_user_mode_reference.html">UserModeReference</a></div><div class="ttdef"><b>Definition:</b> dynref.h:131</div></div>
 <div class="ttc" id="aclassinsp_1_1flat__set_html"><div class="ttname"><a href="classinsp_1_1flat__set.html">insp::flat_set&lt; int &gt;</a></div></div>
 <div class="ttc" id="aclassinsp_1_1intrusive__list__node_html"><div class="ttname"><a href="classinsp_1_1intrusive__list__node.html">insp::intrusive_list_node</a></div><div class="ttdef"><b>Definition:</b> intrusive_list.h:34</div></div>

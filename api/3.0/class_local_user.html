@@ -232,8 +232,8 @@ template&lt;typename T1 , typename T2 , typename T3 , typename T4 , typename T5 
 <tr class="separator:a72f7f76c86314e2a5c898f4f269ecd2a inherit pub_methods_class_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23ba305ba84eea44aa8264fdbd4fa490 inherit pub_methods_class_user"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a23ba305ba84eea44aa8264fdbd4fa490">WriteCommonRaw</a> (<a class="el" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a> &amp;protoev, bool include_self=true)</td></tr>
 <tr class="separator:a23ba305ba84eea44aa8264fdbd4fa490 inherit pub_methods_class_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81893c921d6f923a84e79793c1437fc4 inherit pub_methods_class_user"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a81893c921d6f923a84e79793c1437fc4">ForEachNeighbor</a> (<a class="el" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a> &amp;handler, bool include_self=true)</td></tr>
-<tr class="separator:a81893c921d6f923a84e79793c1437fc4 inherit pub_methods_class_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540882664777303f20c3733d2e24a85c inherit pub_methods_class_user"><td class="memItemLeft" align="right" valign="top">already_sent_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a540882664777303f20c3733d2e24a85c">ForEachNeighbor</a> (<a class="el" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a> &amp;handler, bool include_self=true)</td></tr>
+<tr class="separator:a540882664777303f20c3733d2e24a85c inherit pub_methods_class_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a626bc5712170aa6ebad4c35153bb951e inherit pub_methods_class_user"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a626bc5712170aa6ebad4c35153bb951e">SharesChannelWith</a> (<a class="el" href="class_user.html">User</a> *other)</td></tr>
 <tr class="separator:a626bc5712170aa6ebad4c35153bb951e inherit pub_methods_class_user"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8c62d0a00ee546dd3c34c201f58848 inherit pub_methods_class_user"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a5b8c62d0a00ee546dd3c34c201f58848">ChangeDisplayedHost</a> (const std::string &amp;host)</td></tr>
@@ -513,7 +513,7 @@ typedef <a class="el" href="classinsp_1_1flat__map.html">insp::flat_map</a>&lt; 
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns true or false for if a user can execute a privilaged oper command. This is done by looking up their oper type from <a class="el" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">User::oper</a>, then referencing this to their oper classes and checking the commands they can execute. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Returns true or false for if a user can execute a privileged oper command. This is done by looking up their oper type from <a class="el" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">User::oper</a>, then referencing this to their oper classes and checking the commands they can execute. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">command</td><td>A command (should be all CAPS) </td></tr>
   </table>
@@ -586,7 +586,7 @@ typedef <a class="el" href="classinsp_1_1flat__map.html">insp::flat_map</a>&lt; 
 <p>Returns true if a user has a given permission. This is used to check whether or not users may perform certain actions which admins may not wish to give to all operators, yet are not commands. An example might be oper override, mass messaging (/notice $*), etc.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">privstr</td><td>The priv to chec, e.g. "users/override/topic". These are loaded free-form from the config file. </td></tr>
+    <tr><td class="paramname">privstr</td><td>The priv to check, e.g. "users/override/topic". These are loaded free-form from the config file. </td></tr>
   </table>
   </dd>
 </dl>

@@ -222,8 +222,8 @@ template&lt;typename T1 , typename T2 , typename T3 , typename T4 , typename T5 
 <tr class="separator:a72f7f76c86314e2a5c898f4f269ecd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23ba305ba84eea44aa8264fdbd4fa490"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a23ba305ba84eea44aa8264fdbd4fa490">WriteCommonRaw</a> (<a class="el" href="class_client_protocol_1_1_event.html">ClientProtocol::Event</a> &amp;protoev, bool include_self=true)</td></tr>
 <tr class="separator:a23ba305ba84eea44aa8264fdbd4fa490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81893c921d6f923a84e79793c1437fc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a81893c921d6f923a84e79793c1437fc4">ForEachNeighbor</a> (<a class="el" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a> &amp;handler, bool include_self=true)</td></tr>
-<tr class="separator:a81893c921d6f923a84e79793c1437fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a540882664777303f20c3733d2e24a85c"><td class="memItemLeft" align="right" valign="top">already_sent_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a540882664777303f20c3733d2e24a85c">ForEachNeighbor</a> (<a class="el" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a> &amp;handler, bool include_self=true)</td></tr>
+<tr class="separator:a540882664777303f20c3733d2e24a85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a626bc5712170aa6ebad4c35153bb951e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a626bc5712170aa6ebad4c35153bb951e">SharesChannelWith</a> (<a class="el" href="class_user.html">User</a> *other)</td></tr>
 <tr class="separator:a626bc5712170aa6ebad4c35153bb951e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8c62d0a00ee546dd3c34c201f58848"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a5b8c62d0a00ee546dd3c34c201f58848">ChangeDisplayedHost</a> (const std::string &amp;host)</td></tr>
@@ -414,7 +414,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Change the ident (username) of a user. ALWAYS use this function, rather than writing <a class="el" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">User::ident</a> directly, as this triggers module events allowing the change to be syncronized to remote servers. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Change the ident (username) of a user. ALWAYS use this function, rather than writing <a class="el" href="class_user.html#a75afe5805a15221777aaf204d99f17c0">User::ident</a> directly, as this triggers module events allowing the change to be synchronized to remote servers. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newident</td><td>The new ident to set </td></tr>
   </table>
@@ -589,14 +589,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a81893c921d6f923a84e79793c1437fc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81893c921d6f923a84e79793c1437fc4">&#9670;&nbsp;</a></span>ForEachNeighbor()</h2>
+<a id="a540882664777303f20c3733d2e24a85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a540882664777303f20c3733d2e24a85c">&#9670;&nbsp;</a></span>ForEachNeighbor()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void User::ForEachNeighbor </td>
+          <td class="memname">already_sent_t User::ForEachNeighbor </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_user_1_1_for_each_neighbor_handler.html">ForEachNeighborHandler</a> &amp;&#160;</td>
           <td class="paramname"><em>handler</em>, </td>
@@ -842,7 +842,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns true or false for if a user can execute a privilaged oper command. This is done by looking up their oper type from <a class="el" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">User::oper</a>, then referencing this to their oper classes and checking the commands they can execute. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Returns true or false for if a user can execute a privileged oper command. This is done by looking up their oper type from <a class="el" href="class_user.html#a968f02b552b0aac771aef8adac4f823e">User::oper</a>, then referencing this to their oper classes and checking the commands they can execute. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">command</td><td>A command (should be all CAPS) </td></tr>
   </table>
@@ -915,7 +915,7 @@ Public Attributes</h2></td></tr>
 <p>Returns true if a user has a given permission. This is used to check whether or not users may perform certain actions which admins may not wish to give to all operators, yet are not commands. An example might be oper override, mass messaging (/notice $*), etc.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">privstr</td><td>The priv to chec, e.g. "users/override/topic". These are loaded free-form from the config file. </td></tr>
+    <tr><td class="paramname">privstr</td><td>The priv to check, e.g. "users/override/topic". These are loaded free-form from the config file. </td></tr>
   </table>
   </dd>
 </dl>
