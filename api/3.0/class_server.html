@@ -100,6 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6ab579bce9af7eb4f724931ce50483f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41941e9ce5ad7c0f2bab03f1c8dea955"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server.html#a41941e9ce5ad7c0f2bab03f1c8dea955">GetName</a> () const</td></tr>
 <tr class="separator:a41941e9ce5ad7c0f2bab03f1c8dea955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a429aa5ba64aff85955bbfba64ace10ec"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server.html#a429aa5ba64aff85955bbfba64ace10ec">GetPublicName</a> () const</td></tr>
+<tr class="separator:a429aa5ba64aff85955bbfba64ace10ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6112e6551fcf12109ff7fdc70295707"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server.html#ab6112e6551fcf12109ff7fdc70295707">GetDesc</a> () const</td></tr>
 <tr class="separator:ab6112e6551fcf12109ff7fdc70295707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7b5c3ea5b1251c25c0880e6c19188d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_server.html#a3d7b5c3ea5b1251c25c0880e6c19188d">IsULine</a> () const</td></tr>
@@ -210,6 +212,24 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Returns the name of this server </p><dl class="section return"><dt>Returns</dt><dd>The name of this server, for example "irc.inspircd.org". </dd></dl>
+
+</div>
+</div>
+<a id="a429aa5ba64aff85955bbfba64ace10ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a429aa5ba64aff85955bbfba64ace10ec">&#9670;&nbsp;</a></span>GetPublicName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; Server::GetPublicName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the public name of this server respecting &lt;security:hideserver&gt; if set. </p>
 
 </div>
 </div>
@@ -405,8 +425,9 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>include/<a class="el" href="server_8h_source.html">server.h</a></li>
+<li>src/server.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

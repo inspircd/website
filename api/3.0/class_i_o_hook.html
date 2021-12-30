@@ -85,6 +85,8 @@ Inheritance diagram for IOHook:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aafe92c07610f79efce4586ad2aaa90ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_hook.html#aafe92c07610f79efce4586ad2aaa90ca">IOHook</a> (<a class="el" href="class_i_o_hook_provider.html">IOHookProvider</a> *provider)</td></tr>
 <tr class="separator:aafe92c07610f79efce4586ad2aaa90ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3aab92db71c6ded834c4452be7778a0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_hook.html#af3aab92db71c6ded834c4452be7778a0">IsHookReady</a> () const</td></tr>
+<tr class="separator:af3aab92db71c6ded834c4452be7778a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a646381e92be8d287e30d307db37621"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_hook.html#a7a646381e92be8d287e30d307db37621">OnStreamSocketWrite</a> (<a class="el" href="class_stream_socket.html">StreamSocket</a> *sock, <a class="el" href="class_stream_socket_1_1_send_queue.html">StreamSocket::SendQueue</a> &amp;sendq)=0</td></tr>
 <tr class="separator:a7a646381e92be8d287e30d307db37621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a932070d22dc2cb14d8d2bdb2e7fbede2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_o_hook.html#a932070d22dc2cb14d8d2bdb2e7fbede2">OnStreamSocketClose</a> (<a class="el" href="class_stream_socket.html">StreamSocket</a> *sock)=0</td></tr>
@@ -134,6 +136,32 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af3aab92db71c6ded834c4452be7778a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3aab92db71c6ded834c4452be7778a0">&#9670;&nbsp;</a></span>IsHookReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool IOHook::IsHookReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determines whether this I/O hook is ready to send and receive data. </p>
+
+</div>
+</div>
 <a id="a932070d22dc2cb14d8d2bdb2e7fbede2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a932070d22dc2cb14d8d2bdb2e7fbede2">&#9670;&nbsp;</a></span>OnStreamSocketClose()</h2>
 

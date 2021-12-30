@@ -109,6 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af887098b2253e32dccf592b3578ec58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7869627f60d7069d251b4b0f4ed5b84e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a7869627f60d7069d251b4b0f4ed5b84e">GetHost</a> (bool uncloak) const</td></tr>
 <tr class="separator:a7869627f60d7069d251b4b0f4ed5b84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e1e8c9fd82381dd73fe2d29e378b5f"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a88e1e8c9fd82381dd73fe2d29e378b5f">GetBanIdent</a> () const</td></tr>
+<tr class="separator:a88e1e8c9fd82381dd73fe2d29e378b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad20fc47e074577d98c22ffac4e140ce6"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#ad20fc47e074577d98c22ffac4e140ce6">GetDisplayedHost</a> () const</td></tr>
 <tr class="separator:ad20fc47e074577d98c22ffac4e140ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a28538032a736db7e069439c042285"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a29a28538032a736db7e069439c042285">GetRealHost</a> () const</td></tr>
@@ -285,6 +287,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a62fabba0257a3d6363d6f0159bba856c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60f4fab44458bfa3e944a69c762c4273"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a60f4fab44458bfa3e944a69c762c4273">quitting</a>:1</td></tr>
 <tr class="separator:a60f4fab44458bfa3e944a69c762c4273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace370cd9ada0522148515bcf39ea2b64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#ace370cd9ada0522148515bcf39ea2b64">uniqueusername</a>:1</td></tr>
+<tr class="separator:ace370cd9ada0522148515bcf39ea2b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a982fa3195231117b83dde5b90ffd4685"><td class="memItemLeft" align="right" valign="top">const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_user.html#a982fa3195231117b83dde5b90ffd4685">usertype</a>:2</td></tr>
 <tr class="separator:a982fa3195231117b83dde5b90ffd4685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -621,6 +625,24 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a88e1e8c9fd82381dd73fe2d29e378b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88e1e8c9fd82381dd73fe2d29e378b5f">&#9670;&nbsp;</a></span>GetBanIdent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; User::GetBanIdent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the username which should be included in bans for this user. </p>
 
 </div>
 </div>
@@ -1593,6 +1615,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>What snomasks are set on this user. This functions the same as the above modes. </p>
+
+</div>
+</div>
+<a id="ace370cd9ada0522148515bcf39ea2b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace370cd9ada0522148515bcf39ea2b64">&#9670;&nbsp;</a></span>uniqueusername</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool User::uniqueusername</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether the ident field uniquely identifies this user on their origin host. </p>
 
 </div>
 </div>
