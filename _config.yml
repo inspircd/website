@@ -28,7 +28,7 @@ navigation:
       uri: /
       icon: fa-home
     - title: Downloads
-      uri: https://github.com/inspircd/inspircd/releases
+      uri: https://github.com/inspircd/inspircd/releases/latest
       target: _blank
       icon: fa-cloud-download
     - title: Documentation
@@ -48,7 +48,7 @@ navigation:
       target: _blank
       icon: fa-github
     - title: Get InspIRCd
-      uri: https://github.com/inspircd/inspircd/releases/latest
+      uri: https://docs.inspircd.org/3/installation/
       target: _blank
       icon: fa-download
 

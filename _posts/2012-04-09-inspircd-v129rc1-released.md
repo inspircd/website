@@ -16,7 +16,7 @@ If you are interested in maintaining it, please get in contact, or start to cons
 <!--more-->
 
 Tarballs may be found [at the usual
-place](https://github.com/inspircd/inspircd/releases).
+place](https://github.com/inspircd/inspircd/releases/tag/v1.2.9rc1).
 
 Thanks to the following people for their contributions to this release:
 
