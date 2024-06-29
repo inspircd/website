@@ -11,6 +11,6 @@ redirect_from:
 
 <strong>Documentation is available for the following releases:</strong>
 
-[InspIRCd v3 (stable)](https://api.inspircd.org/3)
+[InspIRCd v4 (stable)](https://api.inspircd.org/4)
 
-[InspIRCd v4 (development)](https://api.inspircd.org/4)
+[InspIRCd v3 (old stable)](https://api.inspircd.org/3)
