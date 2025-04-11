@@ -21,7 +21,17 @@ info:
 
 meta:
     description: InspIRCd Internet Relay Chat Daemon is a modular, high performance IRC daemon combining stability and a rich and extensive C++ API with optional features such as SSL and permanent channels.
-    keywords: inspircd, ircd, internet relay chat
+    keywords:
+      - free software
+      - inspircd
+      - internet relay chat
+      - irc
+      - irc daemon
+      - irc server
+      - ircd
+      - ircv3
+      - open source
+      - self hosted
 
 navigation:
     - title: Home
