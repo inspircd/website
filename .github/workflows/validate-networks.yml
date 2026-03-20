@@ -2,9 +2,9 @@ name: Validate network list
 on:
   pull_request:
     paths: &paths
-      .github/workflows/validate-networks.yml
-      _data/networks.yml
-      tools/validate-networks.rb
+    - .github/workflows/validate-networks.yml
+    - _data/networks.yml
+    - tools/validate-networks.rb
   push:
     paths: *paths
   workflow_dispatch:
