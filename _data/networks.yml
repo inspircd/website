@@ -31,9 +31,9 @@
 - name: IRC4Fun
   contact: siniStar <sinistar@irc4fun.net>
   description: >-
-    IRC4Fun is an Internet Relay Chat network, founded in October of 2007. Our 
-    goal is to provide a quality, free, & fun chat service giving people all 
-    over the world a means for conversing with each other on friendly, secure 
+    IRC4Fun is an Internet Relay Chat network, founded in October of 2007. Our
+    goal is to provide a quality, free, & fun chat service giving people all
+    over the world a means for conversing with each other on friendly, secure
     and drama-free servers.
   server:
     host: irc.irc4fun.net

@@ -14,11 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install dependencies
+      - name: Install Ruby dependencies
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 4
 
+      - name: Install system dependencies
+        run: |-
+          sudo apt-get update --assume-yes
+          sudo apt-get install --assume-yes --no-install-recommends yamllint
+
       - name: Validate networks
         run: |-
           ruby ${{ github.workspace }}/tools/validate-networks.rb
+          yamllint ${{ github.workspace }}/_data/networks.yml
