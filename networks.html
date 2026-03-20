@@ -20,14 +20,16 @@ title: Networks
       <hr>
       <div class="mb-4">
         <h2>
-          {% if network.url %}<a href="{{ network.url }}" rel="_nofollow">{% endif %}{{ network.name }}{% if network.url %}</a>{% endif %}
+          {% if network.url != "#" %}<a href="{{ network.url }}" rel="_nofollow">{% endif %}{{ network.name }}{% if network.url %}</a>{% endif %}
           &mdash; {{ network.server.host }} +{{ network.server.port }}
           </h2>
-        <ul>
+        <ul class="fa-ul">
           <li>
+            <span class="fa-li"><i class="fa-solid fa-hashtag"></i></span>
             <a href="ircs://{{ network.server.host }}:{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using your IRC client</a>
           </li>
           <li>
+            <span class="fa-li"><i class="fa-solid fa-hashtag"></i></span>
             <a href="https://kiwiirc.com/nextclient/{{ network.server.host }}:+{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using KiwiIRC</a>
           </li>
         </ul>
@@ -35,6 +37,7 @@ title: Networks
       <div>{{ network.description | markdownify }}</div>
     </div>
 {% endfor %}
+  </div>
 
   <script type="text/javascript">
     var networks = document.getElementById("inspircd-networks");
