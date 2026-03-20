@@ -6,6 +6,7 @@ def check_section(hash, sections)
         fail "The #{section} section is not a #{type}" unless hash[section].is_a?(type)
         fail "The #{section} section is empty" if hash[section].respond_to?(:empty?) && hash[section].empty?
     end
+    fail "Unexpected extra keys: #{hash.keys - sections.keys}" if hash.keys != sections.keys
 end
 
 networks = YAML.load_file(File.join(__dir__, "..", "_data", "networks.yml"))
