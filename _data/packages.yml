@@ -1,0 +1,23 @@
+- name: Debian
+  class: fa-brands fa-debian
+  url: https://docs.inspircd.org/4/installation/debian
+
+- name: Docker
+  class: fa-brands fa-docker
+  url: https://hub.docker.com/r/inspircd/inspircd-docker
+
+- name: RHEL
+  class: fa-brands fa-redhat
+  url: https://docs.inspircd.org/4/installation/rhel
+
+- name: Ubuntu
+  class: fa-brands fa-ubuntu
+  url: https://docs.inspircd.org/4/installation/ubuntu
+
+- name: Windows
+  class: fa-brands fa-windows
+  url: https://docs.inspircd.org/4/installation/windows
+
+- name: Source
+  class: fa-solid fa-code
+  url: https://docs.inspircd.org/4/installation/source

@@ -1,0 +1,73 @@
+---
+---
+
+@use "sass:color";
+
+// These colours come from the InspIRCd logo.
+$logo_white:  #EEEEEE;
+$logo_grey:   #3C4249;
+$logo_red:    #EF4F45;
+
+// These colours were picked because they look good.
+$light_nav_background:  #FCFAF7;
+$light_nav_border:      #E2DDD2;
+$light_page_background: #F7F4EF;
+$dark_nav_background:   #1E1E1E;
+$dark_nav_border:       #333333;
+$dark_page_background:  #121212;
+
+:root {
+  --nav-background:  #{$light_nav_background};
+  --nav-border:      #{$light_nav_border};
+  --page-background: #{$light_page_background};
+  --text:            #{$logo_grey};
+
+  @media (prefers-color-scheme: dark) {
+    --nav-background:  #{$dark_nav_background};
+    --nav-border:      #{$dark_nav_border};
+    --page-background: #{$dark_page_background};
+    --text:            #{$logo_white};
+  }
+}
+
+body {
+  background-color: var(--page-background);
+  color:            var(--text);
+  font-family:      "Noto Sans", sans-serif;
+
+  a {
+    color: color.adjust($logo_red, $lightness: -15%);
+
+    @media (prefers-color-scheme: dark) {
+      color: color.adjust($logo_red, $lightness: 15%);
+    }
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  .insp-btn {
+    --bs-btn-bg:           var(--text);
+    --bs-btn-border-color: var(--nav-border);
+    --bs-btn-color:        var(--nav-background);
+
+    --bs-btn-hover-bg:           hsl(from var(--text)           h s calc(l - 10));
+    --bs-btn-hover-border-color: hsl(from var(--nav-border)     h s calc(l - 10));
+    --bs-btn-hover-color:        hsl(from var(--nav-background) h s calc(l - 10));
+
+    --bs-btn-active-bg:           hsl(from var(--text)           h s calc(l - 20));
+    --bs-btn-active-border-color: hsl(from var(--nav-border)     h s calc(l - 20));
+    --bs-btn-active-color:        hsl(from var(--nav-background) h s calc(l - 20));
+  }
+
+  .insp-nav-top {
+    background:    var(--nav-background);
+    border-bottom: 1px solid var(--nav-border);
+    font-size:     0.9rem;
+
+   .nav-link {
+      color: var(--text);
+    }
+  }
+}

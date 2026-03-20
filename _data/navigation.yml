@@ -1,0 +1,47 @@
+
+text:
+- title: News
+  url: /news/
+
+- title: Downloads
+  url: https://github.com/inspircd/inspircd/releases/latest
+  target: _blank
+
+- title: Documentation
+  url: https://docs.inspircd.org
+  target: _blank
+
+- title: Developer API
+  url: https://api.inspircd.org
+  target: _blank
+
+- title: Support
+  url: https://docs.inspircd.org/support
+  target: _blank
+
+- title: Funding
+  url: /funding.html
+
+- title: Networks
+  url: /networks.html
+
+icon:
+- title: GitHub
+  class: fa-brands fa-github
+  url: https://github.com/inspircd
+
+- title: IRC
+  class: fa-solid fa-hashtag
+  url: ircs://irc.teranova.net/inspircd
+
+- title: Bluesky
+  class: fa-brands fa-bluesky
+  url: https://bsky.app/profile/inspircd.bsky.social
+
+- title: Mastodon
+  class: fa-brands fa-mastodon
+  url: https://fosstodon.org/@inspircd
+
+- title: RSS
+  class: fa-solid fa-rss
+  url: /feed.xml

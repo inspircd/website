@@ -1,0 +1,12 @@
+title: InspIRCd
+subtitle: Internet Relay Chat (IRCv3) server for UNIX-like and Windows systems
+description: >-
+  InspIRCd is a modular, high performance IRCv3 server combining stability and
+  a rich and extensive C++ API with many optional features.
+keywords:
+- inspircd
+- internet relay chat
+- irc
+- irc server
+- ircd
+- ircv3

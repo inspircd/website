@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="gap-3 mb-5 text-center">
+  <picture>
+    <source alt="InspIRCd" class="my-5" srcset="{{ 'assets/logo-light.svg' | absolute_url }}" media="(prefers-color-scheme: dark)" width="50%">
+    <img alt="InspIRCd" class="my-5" src="{{ 'assets/logo-dark.svg' | absolute_url }}" width="50%">
+  </picture>
+  <h1 class="my-3">A high-performance Internet Relay Chat (IRCv3) server for UNIX-like and Windows systems</h1>
+{% for package in site.data.packages %}
+  <a class="btn insp-btn my-1" href="{{ package.url }}" role="button">
+    <i class="{{ package.class }}"></i>
+    {{ package.name }}
+  </a>
+{% endfor %}
+</div>
+
+<div class="container-sm">
+  <h2 class="mb-3">Why InspIRCd?</h2>
+  <ul>
+    <li>InspIRCd was created from scratch to be stable, modern and lightweight.</li>
+    <li>InspIRCd is fully modular allowing you to pick what features you want on your server.</li>
+    <li>InspIRCd has support for all ratified IRCv3 specifications.</li>
+    <li>InspIRCd is trusted by over 1000 networks including <a href="https://www.hybridirc.com/" target="_blank">HybridIRC</a>, <a href="https://snoonet.org/" target="_blank">Snoonet</a>, and <a href="https://www.teranova.net/" target="_blank">Teranova</a>.
+  </ul>
+  <h2 class="mb-3">Latest News</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})
+    {% endfor %}
+  </ul>
+</div>

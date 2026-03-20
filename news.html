@@ -1,0 +1,45 @@
+---
+layout: default
+title: News
+permalink: /news
+pagination:
+  enabled: true
+---
+
+<div class="container-sm">
+{% for post in paginator.posts %}
+  <div class="mb-4">
+    <h1>
+      <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+    </h1>
+    <h5>Posted by <strong>~{{ post.author }}</strong> on <strong>{{ post.date | date: '%B %d %Y' }}</strong></h5>
+  </div>
+  <div>{{ post.excerpt | markdownify }}</div>
+  <hr>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+  <nav class="mx-auto">
+    <ul class="pagination">
+  {% if paginator.previous_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+  {% endif %}
+  {% for trail in paginator.page_trail %}
+      <li class="page-item ">
+          <a class="{% if page.url == trail.path %}active{% endif %} page-link" href="{{ trail.path | absolute_url }}" title=" {{trail.title }}">{{ trail.num }}</a>
+      </li>
+  {% endfor %}
+  {% if paginator.next_page %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}" aria-label="Previous">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+  {% endif %}
+    </ul>
+  </nav>
+{% endif %}

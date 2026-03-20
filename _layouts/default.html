@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+{% if page.title %}
+      <title>{{ page.title }} - {{ site.data.meta.title }}</title>
+{% else %}
+      <title>{{ site.data.meta.title }} - {{ site.data.meta.subtitle }}</title>
+{% endif %}
+      <meta charset="utf-8">
+      <meta name="description" content="{{ site.data.meta.description }}">
+      <meta name="keywords" content="{{ site.data.meta.keywords | join: ', ' }}">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="icon"  href="{{ '/assets/icon.png' | absolute_url }}">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+      <link rel="stylesheet" href="{{ '/assets/main.css' | absolute_url }}">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/js/all.min.js"></script>
+  </head>
+  <body>
+    <nav class="insp-nav-top navbar navbar-expand-lg py-0">
+      <div class="container-fluid d-grid" style="grid-template-columns: 1fr auto 1fr">
+        <div class="d-flex justify-content-start">
+          <a class="navbar-brand" href="{{ '/' | relative_url }}">
+            <img alt="InspIRCd Icon" class="rounded" height="32" w src="{{ '/assets/icon.png' | relative_url }}">
+          </a>
+        </div>
+        <div class="d-flex justify-content-center">
+          <ul class="navbar-nav">
+{% for nav in site.data.navigation.text %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ nav.url | relative_url }}" target="{{ nav.target | default: '_self' }}">{{ nav.title }}</a>
+            </li>
+{% endfor %}
+          </ul>
+        </div>
+        <div class="d-flex justify-content-end">
+          <ul class="navbar-nav">
+{% for nav in site.data.navigation.icon %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ nav.url | relative_url }}" target="_blank" title="{{ nav.title }}">
+                <i class="{{ nav.class }}"></i>
+              </a>
+            </li>
+{% endfor %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-sm p-4">{{ content }}</div>
+    <footer class="text-center">
+      <p class="mt-1 mb-0">InspIRCd &copy; 2002-{{ 'now' | date: "%Y" }} <a href="https://github.com/inspircd/inspircd/blob/master/docs/AUTHORS.txt">InspIRCd Contributors</a></p>
+      <p class="mt-0">Licensed under the terms of the <a href="https://docs.inspircd.org/license">GNU GPLv2</a></p>
+    </footer>
+  </body>
+</html>

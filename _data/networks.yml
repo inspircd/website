@@ -1,0 +1,30 @@
+# Important things to remember when updating this list:
+#
+# * All networks are sorted alphabetically.
+# * All networks MUST support TLS and use a valid certificate.
+# * All networks MUST have at least 25 human users and be at least 3 months old.
+# * All networks are included at the discretion of the InspIRCd Team and we
+#   reserve the right to reject networks that we feel violate the Project Rules
+#   (https://docs.inspircd.org/rules/).
+
+- name: InspIRCd Testnet
+  contact: Sadie <sadie@witchery.services>
+  description: >-
+    The InspIRCd Testnet is the network used for testing the bleeding edge of
+    InspIRCd features.
+  server:
+    host: testnet.inspircd.org
+    port: 6697
+    chan: "#testnet"
+  url: https://testnet.inspircd.org
+
+- name: Teranova
+  contact: Sadie <sadie@witchery.services>
+  description: >-
+    Teranova is a modern IRCv3 network which the home of the Anope and InspIRCd
+    support channels.
+  server:
+    host: irc.teranova.net
+    port: 6697
+    chan: "#teranova"
+  url: https://www.teranova.net

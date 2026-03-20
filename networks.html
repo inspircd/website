@@ -1,0 +1,33 @@
+---
+layout: default
+title: Networks
+---
+
+<div class="container-sm">
+  <h1>InspIRCd Networks</h1>
+  <div>
+    <p>
+      If your network uses InspIRCd then you can <a href="https://github.com/inspircd/website/edit/master/_data/networks.yml">file a pull request</a> to include it here. All networks MUST use TLS and MUST have 25 human users and be at least 3 months old.
+    </p>
+    <p>
+      The networks listed here are NOT endorsed in any way by the InspIRCd Team and inclusion does not constitute a recommendation.
+    </p>
+  </div>
+
+{% for network in site.data.networks %}
+  <hr>
+  <div class="mb-4">
+    <h2>
+      {% if network.url %}<a href="{{ network.url }}" rel="_nofollow">{% endif %}{{ network.name }}{% if network.url %}</a>{% endif %}
+      &mdash; {{ network.server.host }} +{{ network.server.port }}
+      </h2>
+    <ul>
+      <li>
+        <a href="ircs://{{ network.server.host }}:{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using your IRC client</a>
+      </li>
+      <li>
+        <a href="https://kiwiirc.com/nextclient/{{ network.server.host }}:+{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using KiwiIRC</a>
+      </li>
+  </div>
+  <div>{{ network.description | markdownify }}</div>
+{% endfor %}
