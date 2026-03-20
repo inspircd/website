@@ -1,0 +1,24 @@
+name: Validate network list
+on:
+  pull_request:
+    paths: &paths
+      .github/workflows/validate-networks.yml
+      _data/networks.yml
+      tools/validate-networks.rb
+  push:
+    paths: *paths
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 4
+
+      - name: Validate networks
+        run: |-
+          ruby ${{ github.workspace }}/tools/validate-networks.rb
