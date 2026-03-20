@@ -7,6 +7,16 @@
 #   reserve the right to reject networks that we feel violate the Project Rules
 #   (https://docs.inspircd.org/rules/).
 
+- name: HybridIRC
+  contact: HybridIRC Administration <support@hybridirc.com>
+  description: >-
+    Next generation modern IRC network for free and open online communication.
+  server:
+    host: irc.hybridirc.com
+    port: 6697
+    chan: "#hybridirc"
+  url: https://www.hybridirc.com
+
 - name: InspIRCd Testnet
   contact: Sadie <sadie@witchery.services>
   description: >-
