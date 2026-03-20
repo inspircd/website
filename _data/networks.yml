@@ -3,7 +3,7 @@
 # * All networks MUST be sorted alphabetically in this file. The network page
 #   will randomly shuffle the entries at load time.
 # * All networks MUST support TLS and use a valid certificate.
-# * All networks MUST have at least 25 human users and be at least 3 months old.
+# * All networks MUST have at least 10 human users and be at least 3 months old.
 # * All networks are included at the discretion of the InspIRCd Team and we
 #   reserve the right to reject networks that we feel violate the Project Rules
 #   (https://docs.inspircd.org/rules/).
