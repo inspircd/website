@@ -14,20 +14,32 @@ title: Networks
     </p>
   </div>
 
+  <div id="inspircd-networks">
 {% for network in site.data.networks %}
-  <hr>
-  <div class="mb-4">
-    <h2>
-      {% if network.url %}<a href="{{ network.url }}" rel="_nofollow">{% endif %}{{ network.name }}{% if network.url %}</a>{% endif %}
-      &mdash; {{ network.server.host }} +{{ network.server.port }}
-      </h2>
-    <ul>
-      <li>
-        <a href="ircs://{{ network.server.host }}:{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using your IRC client</a>
-      </li>
-      <li>
-        <a href="https://kiwiirc.com/nextclient/{{ network.server.host }}:+{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using KiwiIRC</a>
-      </li>
-  </div>
-  <div>{{ network.description | markdownify }}</div>
+    <div>
+      <hr>
+      <div class="mb-4">
+        <h2>
+          {% if network.url %}<a href="{{ network.url }}" rel="_nofollow">{% endif %}{{ network.name }}{% if network.url %}</a>{% endif %}
+          &mdash; {{ network.server.host }} +{{ network.server.port }}
+          </h2>
+        <ul>
+          <li>
+            <a href="ircs://{{ network.server.host }}:{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using your IRC client</a>
+          </li>
+          <li>
+            <a href="https://kiwiirc.com/nextclient/{{ network.server.host }}:+{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using KiwiIRC</a>
+          </li>
+        </ul>
+      </div>
+      <div>{{ network.description | markdownify }}</div>
+    </div>
 {% endfor %}
+
+  <script type="text/javascript">
+    var networks = document.getElementById("inspircd-networks");
+    for (var i = networks.children.length; i >= 0; i--) {
+      networks.appendChild(networks.children[Math.random() * i | 0]);
+    }
+  </script>
+</div>
