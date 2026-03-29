@@ -1,4 +1,8 @@
 excerpt_separator: <!--more-->
+
+feed:
+  path: /atom.xml
+
 url: https://www.inspircd.org
 
 pagination:

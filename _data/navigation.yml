@@ -44,4 +44,4 @@ icon:
 
 - title: RSS
   class: fa-solid fa-rss
-  url: /feed.xml
+  url: /atom.xml
