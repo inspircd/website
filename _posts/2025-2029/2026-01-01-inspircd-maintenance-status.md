@@ -1,5 +1,5 @@
 ---
-title: InspIRCd maintenance status
+title: InspIRCd maintenance schedule
 author: Sadie
 layout: post
 ---
