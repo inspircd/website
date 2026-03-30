@@ -11,12 +11,16 @@ text:
   url: https://docs.inspircd.org
   target: _blank
 
-- title: Developer API
-  url: https://api.inspircd.org
+- title: Issues
+  url: https://github.com/inspircd/inspircd/issues
   target: _blank
 
 - title: Support
   url: https://docs.inspircd.org/support
+  target: _blank
+
+- title: API
+  url: https://api.inspircd.org
   target: _blank
 
 - title: Funding
