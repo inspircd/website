@@ -8,4 +8,4 @@ deps:
 	bundle install
 
 serve: clean deps
-	bundle exec jekyll serve
+	bundle exec jekyll serve --draft --future
