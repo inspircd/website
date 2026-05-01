@@ -33,7 +33,7 @@ jobs:
           bundle exec jekyll build
 
       - name: Upload GitHub artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./_site
 
