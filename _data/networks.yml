@@ -42,6 +42,17 @@
     chan: "#IRC4Fun"
   url: https://irc4fun.net
 
+- name: JustaChat
+  contact: Maddy <admin@justachat.com>
+  description: >-
+    JustaChat.com is a free online chat room for adults. Since 2000 chatters
+    from all over the world have joined JAC for friends, community, and entertainment.
+  server:
+    host: irc.JustaChat.com
+    port: 6697
+    chan: "#Cafe"
+  url: https://www.JustaChat.com
+  
 - name: Teranova
   contact: Sadie <sadie@witchery.services>
   description: >-
