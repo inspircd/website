@@ -45,8 +45,9 @@
 - name: JustaChat
   contact: Maddy <admin@justachat.com>
   description: >-
-    JustaChat.com is a free online chat room for adults. Since 2000 chatters
-    from all over the world have joined JAC for friends, community, and entertainment.
+    JustaChat.com is a free online chat room for adults. Since 2000
+    chatters from all over the world have joined JAC for friends,
+    community, and entertainment.
   server:
     host: irc.JustaChat.com
     port: 6697
