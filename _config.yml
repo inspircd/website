@@ -1,5 +1,8 @@
 excerpt_separator: <!--more-->
 
+exclude:
+- tools
+
 feed:
   path: /atom.xml
 
