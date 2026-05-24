@@ -26,6 +26,15 @@ jobs:
           bundler-cache: true
           ruby-version: 4
 
+      - name: Install Gamja
+        run: |-
+          wget --output-document=gamja.tar.gz https://codeberg.org/emersion/gamja/archive/master.tar.gz
+          tar xvf gamja.tar.gz
+          cd gamja
+          npm install --include=dev
+          npm run build
+          mv dist ../webirc
+
       - name: Build website
         env:
           JEKYLL_ENV: production

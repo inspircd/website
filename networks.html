@@ -28,12 +28,12 @@ title: Networks
             <span class="fa-li"><i class="fa-solid fa-hashtag"></i></span>
             <a href="ircs://{{ network.server.host }}:{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using your IRC client</a>
           </li>
-<!--
+          {% if network.server.wsport %}
           <li>
             <span class="fa-li"><i class="fa-solid fa-hashtag"></i></span>
-            <a href="https://kiwiirc.com/nextclient/{{ network.server.host }}:+{{ network.server.port }}/{{ network.server.chan }}" rel="_nofollow">Connect using KiwiIRC</a>
+            <a href="/webirc/?server=wss://{{ network.server.host }}:{{ network.server.wsport }}&channels={{ network.server.chan }}" rel="_nofollow">Connect using Gamja</a>
           </li>
--->
+          {% endif %}
         </ul>
       </div>
       <div>{{ network.description | markdownify }}</div>

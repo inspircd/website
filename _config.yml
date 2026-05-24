@@ -1,6 +1,8 @@
 excerpt_separator: <!--more-->
 
 exclude:
+- gamja
+- gamja.tar.gz
 - tools
 
 feed:

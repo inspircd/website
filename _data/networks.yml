@@ -26,6 +26,7 @@
   server:
     host: testnet.inspircd.org
     port: 6697
+    wsport: 8097
     chan: "#testnet"
   url: https://testnet.inspircd.org
 
