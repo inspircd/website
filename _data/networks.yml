@@ -52,6 +52,7 @@
   server:
     host: irc.JustaChat.com
     port: 6697
+    wsport: 8081
     chan: "#Cafe"
   url: https://www.JustaChat.com
 
