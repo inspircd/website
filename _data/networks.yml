@@ -15,6 +15,7 @@
   server:
     host: irc.hybridirc.com
     port: 6697
+    wsport: 7002
     chan: "#hybridirc"
   url: https://www.hybridirc.com
 
