@@ -22,8 +22,8 @@ text:
   url: https://api.inspircd.org
   target: _blank
 
-- title: Funding
-  url: /funding.html
+- title: Donate
+  url: /donate.html
 
 - title: Networks
   url: /networks.html

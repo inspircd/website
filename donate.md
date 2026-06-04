@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Funding
+title: Donate
+redirect_from:
+  - /funding.html
 ---
 
-## InspIRCd Funding
+## InspIRCd Donations
 
 Whilst InspIRCd is free it is developed and maintained entirely by volunteers. The InspIRCd Team spends a lot of time working on bug fixes, features, and supporting users. If InspIRCd has helped you then you can say thanks to the team by donating.
 
