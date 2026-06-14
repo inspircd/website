@@ -26,4 +26,4 @@ You help by running either v5.0.0dev3 or Git master, testing things which have c
 
 If you can't run your own network the InspIRCd Testnet is now running InspIRCd from Git master and has most modules loaded.
 
-If you're unable to help with testing you can also help by funding InspIRCd's development. InspIRCd is currently maintained entirely by volunteers and every donation helps regardless of amount. For more information please visit [our funding page](https://www.inspircd.org/funding.html).
+If you're unable to help with testing you can also help by funding InspIRCd's development. InspIRCd is currently maintained entirely by volunteers and every donation helps regardless of amount. For more information please visit [our donation page](https://www.inspircd.org/donate).

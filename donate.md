@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Donate
+permalink: /donate/
 redirect_from:
+  - /donate.html
   - /funding.html
 ---
 
