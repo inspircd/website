@@ -65,5 +65,6 @@
   server:
     host: irc.teranova.net
     port: 6697
+    wsport: 8097
     chan: "#teranova"
   url: https://www.teranova.net
