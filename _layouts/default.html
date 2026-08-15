@@ -54,5 +54,11 @@
       <p class="mt-1 mb-0">InspIRCd &copy; 2002-{{ 'now' | date: "%Y" }} <a href="https://github.com/inspircd/inspircd/blob/master/docs/AUTHORS.txt">InspIRCd Contributors</a></p>
       <p class="mt-0">Licensed under the terms of the <a href="https://docs.inspircd.org/license">GNU GPLv2</a></p>
     </footer>
+    <script type="text/javascript">
+      const today = new Date();
+      if (today.getMonth() === 3 && today.getDate() === 1) {
+        document.body.classList.add("april-fools");
+      }
+    </script>
   </body>
 </html>

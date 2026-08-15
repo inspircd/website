@@ -21,6 +21,7 @@ $dark_page_background:  #121212;
   --nav-border:      #{$light_nav_border};
   --page-background: #{$light_page_background};
   --text:            #{$logo_grey};
+  --font:            "Noto Sans", sans-serif;
 
   @media (prefers-color-scheme: dark) {
     --nav-background:  #{$dark_nav_background};
@@ -33,7 +34,12 @@ $dark_page_background:  #121212;
 body {
   background-color: var(--page-background);
   color:            var(--text);
-  font-family:      "Noto Sans", sans-serif;
+  font-family:      var(--font);
+  &.april-fools {
+    &, * {
+      font-family: 'Comic Sans MS', 'Comic Sans', var(--font) !important;
+    }
+  }
 
   a {
     color: color.adjust($logo_red, $lightness: -15%);
